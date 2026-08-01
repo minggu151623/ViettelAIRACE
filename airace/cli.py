@@ -204,6 +204,32 @@ def build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Optional comma-separated record ids for a blinded calibration queue.",
     )
+    ann.add_argument("--manifest", default=None)
+    ann.add_argument(
+        "--split", choices=["development", "holdout", "all"], default="all"
+    )
+    blind_prepare = sub.add_parser("blind-prepare")
+    blind_prepare.add_argument("--input", default="turn2/input")
+    blind_prepare.add_argument(
+        "--manifest",
+        default="experiments/H21_blind_promotion_gate/calibration_manifest.json",
+    )
+    blind_prepare.add_argument("--queue-size", type=int, default=18)
+    blind_prepare.add_argument("--holdout-size", type=int, default=6)
+    blind_eval = sub.add_parser("blind-evaluate")
+    blind_eval.add_argument("--input", default="turn2/input")
+    blind_eval.add_argument(
+        "--manifest",
+        default="experiments/H21_blind_promotion_gate/calibration_manifest.json",
+    )
+    blind_eval.add_argument("--labels", required=True)
+    blind_eval.add_argument("--baseline", default="turn2/output_v6_expanded_pair")
+    blind_eval.add_argument("--challenger", required=True)
+    blind_eval.add_argument(
+        "--split", choices=["development", "holdout", "all"], default="development"
+    )
+    blind_eval.add_argument("--report", required=True)
+    blind_eval.add_argument("--bootstrap-iterations", type=int, default=10_000)
     train = sub.add_parser("train")
     train.add_argument("--labels", default="labels/annotations.jsonl")
     train.add_argument("--output", default="models/phobert-medical")
@@ -485,7 +511,31 @@ def main(argv: list[str] | None = None) -> None:
         ]
         if args.records:
             command.extend(["--records", args.records])
+        if args.manifest:
+            command.extend(["--manifest", args.manifest, "--split", args.split])
         raise SystemExit(subprocess.call(command))
+    elif args.command == "blind-prepare":
+        from .blind_eval import build_calibration_manifest
+
+        result = build_calibration_manifest(
+            args.input,
+            args.manifest,
+            queue_size=args.queue_size,
+            holdout_size=args.holdout_size,
+        )
+    elif args.command == "blind-evaluate":
+        from .blind_eval import evaluate_blind_challenger
+
+        result = evaluate_blind_challenger(
+            input_dir=args.input,
+            manifest_path=args.manifest,
+            labels_path=args.labels,
+            baseline_dir=args.baseline,
+            challenger_dir=args.challenger,
+            split=args.split,
+            output_path=args.report,
+            bootstrap_iterations=args.bootstrap_iterations,
+        )
     elif args.command == "train":
         from .train import train_model
 

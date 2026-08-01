@@ -1,0 +1,25 @@
+{
+  "split": "development",
+  "records_expected": 12,
+  "records_evaluated": 0,
+  "complete": false,
+  "missing_annotations": [
+    "13",
+    "14",
+    "21",
+    "27",
+    "40",
+    "49",
+    "53",
+    "59",
+    "76",
+    "79",
+    "88",
+    "100"
+  ],
+  "validation_errors": [],
+  "baseline_dir": "turn2/output_v6_expanded_pair",
+  "challenger_dir": "turn2/output_v6_expanded_pair",
+  "per_record": [],
+  "decision": "INCOMPLETE_ANNOTATIONS"
+}

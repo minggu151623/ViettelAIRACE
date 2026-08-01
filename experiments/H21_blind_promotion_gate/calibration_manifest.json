@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "purpose": "prediction-blind Turn 2 promotion calibration",
+  "input_dir": "turn2/input",
+  "corpus_records": 100,
+  "corpus_sha256": "c1eeb7a7fd8dbfb90ce820075ef9e78b08e1e7f774adba91b6a037b1742035fb",
+  "seed": 298409,
+  "selection": {
+    "queue_size": 18,
+    "strata": 6,
+    "stratification_key": "raw character count",
+    "within_stratum": "seeded SHA-256 rank; no prediction features",
+    "development_records": 12,
+    "holdout_records": 6
+  },
+  "records": [
+    {
+      "record_id": "7",
+      "sha256": "af2e42db84b13c5ff6783b590c7ea42c76903c28bee4665b1b71c9545129f169",
+      "features": {
+        "characters": 3208,
+        "lines": 19,
+        "nonempty_lines": 19,
+        "numbered_sections": 0,
+        "bullets": 5,
+        "colon_rows": 8
+      },
+      "stratum": 6,
+      "split": "holdout"
+    },
+    {
+      "record_id": "13",
+      "sha256": "9b6acee1d257287d253466af1d9a0728563015db006c6a6aa2c286523c8a54b7",
+      "features": {
+        "characters": 2729,
+        "lines": 26,
+        "nonempty_lines": 24,
+        "numbered_sections": 3,
+        "bullets": 6,
+        "colon_rows": 5
+      },
+      "stratum": 6,
+      "split": "development"
+    },
+    {
+      "record_id": "14",
+      "sha256": "c606bda442cdb5648b5436b8decfece12a05ec72d4b931b3ed58ab3f186b4d3d",
+      "features": {
+        "characters": 2672,
+        "lines": 29,
+        "nonempty_lines": 27,
+        "numbered_sections": 1,
+        "bullets": 16,
+        "colon_rows": 3
+      },
+      "stratum": 6,
+      "split": "development"
+    },
+    {
+      "record_id": "21",
+      "sha256": "d189308e501d6dc08c9144708fadbcd4975103fea932399bb6dc1b3b9293821d",
+      "features": {
+        "characters": 2497,
+        "lines": 30,
+        "nonempty_lines": 30,
+        "numbered_sections": 0,
+        "bullets": 11,
+        "colon_rows": 8
+      },
+      "stratum": 5,
+      "split": "development"
+    },
+    {
+      "record_id": "25",
+      "sha256": "d38c915cc7c961dd07e037e9608b481d43b1cc7b64ad6be8390145a085b13dd7",
+      "features": {
+        "characters": 2397,
+        "lines": 30,
+        "nonempty_lines": 30,
+        "numbered_sections": 1,
+        "bullets": 22,
+        "colon_rows": 4
+      },
+      "stratum": 5,
+      "split": "holdout"
+    },
+    {
+      "record_id": "27",
+      "sha256": "02549ca9392af1bdd3d4c7cfa78c0576ed79c677f74eebc147b06ee62c9a05ba",
+      "features": {
+        "characters": 2334,
+        "lines": 24,
+        "nonempty_lines": 24,
+        "numbered_sections": 1,
+        "bullets": 11,
+        "colon_rows": 7
+      },
+      "stratum": 5,
+      "split": "development"
+    },
+    {
+      "record_id": "40",
+      "sha256": "89f10b9618e79f21b9e1075e6fe870d83c2b123120f34d77dd8cbcfc8406fe34",
+      "features": {
+        "characters": 1983,
+        "lines": 37,
+        "nonempty_lines": 35,
+        "numbered_sections": 2,
+        "bullets": 2,
+        "colon_rows": 19
+      },
+      "stratum": 4,
+      "split": "development"
+    },
+    {
+      "record_id": "47",
+      "sha256": "9eb23b7c5aea3c614ee1c62c1e8f9a4771581dd05f579b03822aa23833c941a5",
+      "features": {
+        "characters": 1897,
+        "lines": 47,
+        "nonempty_lines": 44,
+        "numbered_sections": 3,
+        "bullets": 30,
+        "colon_rows": 8
+      },
+      "stratum": 4,
+      "split": "holdout"
+    },
+    {
+      "record_id": "49",
+      "sha256": "728630aa5a0b65d8cbd1dd10a697096ab7ee6bc85b27b330e015738da072f2a8",
+      "features": {
+        "characters": 1857,
+        "lines": 24,
+        "nonempty_lines": 21,
+        "numbered_sections": 5,
+        "bullets": 6,
+        "colon_rows": 4
+      },
+      "stratum": 4,
+      "split": "development"
+    },
+    {
+      "record_id": "53",
+      "sha256": "9c602c4dd9e711c498ebf73292cc4dcf3cfbb2210ab08f51cee8e0e67e86edaf",
+      "features": {
+        "characters": 1802,
+        "lines": 32,
+        "nonempty_lines": 31,
+        "numbered_sections": 8,
+        "bullets": 15,
+        "colon_rows": 12
+      },
+      "stratum": 3,
+      "split": "development"
+    },
+    {
+      "record_id": "59",
+      "sha256": "fbfb4e6f8fc173bf27f0d10e7858bfff8aee86bc913141ae4bcda4d9e7d17f33",
+      "features": {
+        "characters": 1706,
+        "lines": 21,
+        "nonempty_lines": 17,
+        "numbered_sections": 0,
+        "bullets": 4,
+        "colon_rows": 7
+      },
+      "stratum": 3,
+      "split": "development"
+    },
+    {
+      "record_id": "61",
+      "sha256": "0897f80583542435d57dbe2f463ff6df329d15afed77ad3162862bac1a882886",
+      "features": {
+        "characters": 1702,
+        "lines": 27,
+        "nonempty_lines": 26,
+        "numbered_sections": 0,
+        "bullets": 16,
+        "colon_rows": 4
+      },
+      "stratum": 3,
+      "split": "holdout"
+    },
+    {
+      "record_id": "71",
+      "sha256": "4b378f17315724ad888d36646cf611297a42d89bdb316f3f1ac1ec739f5c3a41",
+      "features": {
+        "characters": 1623,
+        "lines": 11,
+        "nonempty_lines": 10,
+        "numbered_sections": 0,
+        "bullets": 0,
+        "colon_rows": 6
+      },
+      "stratum": 2,
+      "split": "holdout"
+    },
+    {
+      "record_id": "76",
+      "sha256": "26512799727a277ffa3547ebaf7b3fe6ab80c8fbfbc5d5a4fa30e0664a860647",
+      "features": {
+        "characters": 1582,
+        "lines": 3,
+        "nonempty_lines": 3,
+        "numbered_sections": 0,
+        "bullets": 0,
+        "colon_rows": 1
+      },
+      "stratum": 2,
+      "split": "development"
+    },
+    {
+      "record_id": "79",
+      "sha256": "7cf78e1041688d3291a8c7c5aa2e810efb5681401f04ac463c9bc00a1977669f",
+      "features": {
+        "characters": 1521,
+        "lines": 13,
+        "nonempty_lines": 13,
+        "numbered_sections": 0,
+        "bullets": 4,
+        "colon_rows": 7
+      },
+      "stratum": 2,
+      "split": "development"
+    },
+    {
+      "record_id": "88",
+      "sha256": "42c1eb0503f6de95bf2a9390a01264ea0c08124f21e21f39440a90b63074f90e",
+      "features": {
+        "characters": 1450,
+        "lines": 20,
+        "nonempty_lines": 18,
+        "numbered_sections": 3,
+        "bullets": 12,
+        "colon_rows": 3
+      },
+      "stratum": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "96",
+      "sha256": "85c46f08b7d0cafe0b6352780a94603337c4c71a3ff6064a0570acebc6c20193",
+      "features": {
+        "characters": 1325,
+        "lines": 14,
+        "nonempty_lines": 12,
+        "numbered_sections": 1,
+        "bullets": 4,
+        "colon_rows": 4
+      },
+      "stratum": 1,
+      "split": "holdout"
+    },
+    {
+      "record_id": "100",
+      "sha256": "90af72c6536432a338b0ac5ee8469daff440592816eb921eb8c97f28ccc6ff3a",
+      "features": {
+        "characters": 1293,
+        "lines": 14,
+        "nonempty_lines": 9,
+        "numbered_sections": 1,
+        "bullets": 1,
+        "colon_rows": 4
+      },
+      "stratum": 1,
+      "split": "development"
+    }
+  ],
+  "record_ids": {
+    "development": [
+      "13",
+      "14",
+      "21",
+      "27",
+      "40",
+      "49",
+      "53",
+      "59",
+      "76",
+      "79",
+      "88",
+      "100"
+    ],
+    "holdout": [
+      "7",
+      "25",
+      "47",
+      "61",
+      "71",
+      "96"
+    ]
+  },
+  "annotation_policy": [
+    "Start from raw text and an empty prediction directory.",
+    "Label exact spans and types; preserve repeated occurrences.",
+    "Use assertions only with explicit section or local-scope evidence.",
+    "Leave candidates empty unless independently defensible."
+  ],
+  "status": "awaiting_blind_annotation"
+}

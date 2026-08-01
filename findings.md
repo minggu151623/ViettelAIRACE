@@ -435,6 +435,17 @@ The strongest verified direction is conservative structural cleanup:
 
 ## Lessons and constraints
 
+- **H21 now separates inner-loop evaluation from scarce leaderboard feedback.**
+  Its 18-record queue is selected from raw length/structure without accepting a
+  prediction directory, fingerprints both corpus and records, and holds out one
+  record from each of six strata. The gate fails closed on missing or invalid
+  annotations and only an untouched holdout can return `PROMOTE`.
+- **The safe fallback is operational, not a hidden-score guarantee.** H20 stays
+  frozen whenever the challenger gains less than three proxy points, has a
+  non-positive paired-bootstrap lower bound, reduces strict span/type F1, or
+  breaches a component floor. This prevents weak challengers from replacing
+  the 29.8409 artifact but cannot eliminate organizer-policy shift.
+
 - **H20 is externally supported and establishes a new baseline of 29.8409.**
   Relative to H17, WER improves by 7.2103, assertion Jaccard by 6.9454, and
   candidate Jaccard by 9.4507. Weighted contributions are +2.16309 text,

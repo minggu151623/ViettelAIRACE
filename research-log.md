@@ -767,3 +767,19 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   entity additions. Their individual causal contributions remain confounded.
 - H20 is now the frozen baseline. Further work must not tune thresholds blindly
   against this one public score.
+## 2026-08-02 — H21 blind promotion infrastructure
+
+- Preregistered H21 before selecting records or running the evaluator.
+- Corrected the frozen baseline in `research-state.yaml` from H17/21.8139 to
+  H20/29.8409.
+- Implemented a prediction-blind Turn 2 selector using raw structural features
+  only. It chose 12 development and 6 holdout records across six length strata.
+- Frozen corpus fingerprint:
+  `c1eeb7a7fd8dbfb90ce820075ef9e78b08e1e7f774adba91b6a037b1742035fb`.
+- Frozen manifest checksum:
+  `37b0cb4beb5b1fd22e5539c364e7f84ac288cb4e4ee6c655919c0c5bb0908bc0`.
+- Added annotation-manifest routing, paired record bootstrap, strict span/type
+  comparison and a fail-closed promotion decision.
+- Missing annotations return `INCOMPLETE_ANNOTATIONS`; development evaluation
+  cannot emit `PROMOTE`; only the untouched holdout may clear the gate.
+- Baseline validation remains 100/100 and all 61 project tests pass.

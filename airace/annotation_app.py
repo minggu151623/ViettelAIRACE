@@ -22,6 +22,10 @@ def _args() -> argparse.Namespace:
         default=None,
         help="Optional comma-separated record ids for a blinded calibration queue.",
     )
+    parser.add_argument("--manifest", default=None)
+    parser.add_argument(
+        "--split", choices=["development", "holdout", "all"], default="all"
+    )
     return parser.parse_args(sys.argv[1:])
 
 
@@ -114,7 +118,12 @@ def _to_entities(table: Any, text: str) -> list[Entity]:
 args = _args()
 input_dir, pred_dir, out_path = Path(args.input), Path(args.pred), Path(args.out)
 files = sorted(input_dir.glob("*.txt"), key=lambda path: int(path.stem))
-if args.records:
+if args.manifest:
+    from airace.blind_eval import manifest_record_ids
+
+    selected = set(manifest_record_ids(args.manifest, args.split))
+    files = [path for path in files if path.stem in selected]
+elif args.records:
     selected = {
         value.strip() for value in args.records.split(",") if value.strip()
     }
@@ -130,6 +139,10 @@ st.title("AIRace — duyệt span/type")
 st.caption(
     "Ưu tiên sửa đúng text, type và offset. Assertion/candidate chỉ sửa sau khi span đã đúng."
 )
+if args.manifest:
+    st.info(
+        f"Blind queue: {args.split}. Không mở prediction của model trước khi hoàn tất nhãn."
+    )
 st.progress(len(saved_by_id) / len(files))
 st.write(f"Đã duyệt **{len(saved_by_id)}/{len(files)}** hồ sơ")
 
