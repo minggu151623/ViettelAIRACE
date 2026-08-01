@@ -251,3 +251,19 @@
   `turn2/output_v6_expanded_pair.zip`, `research-log.md`]
 - **Dependencies**: [C18, C19]
 - **Tags**: ensemble, recall, NER, external-pending
+
+## C21: H21 fails closed before hidden evaluation
+- **Statement**: A challenger cannot be promoted by H21 when annotations are
+  missing or invalid, when evaluated on the development split, or when it
+  violates the preregistered bootstrap, strict-F1, component-floor, and
+  record-level non-regression checks.
+- **Status**: supported internally; organizer-policy transfer untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Any incomplete or development-only fixture emits
+  `PROMOTE`, manifest regeneration changes selected records under identical
+  input, modified input passes fingerprint validation, or a gate condition can
+  fail while holdout still emits `PROMOTE`.
+- **Proof**: [`airace/blind_eval.py`, `tests/test_blind_eval.py`,
+  `experiments/H21_blind_promotion_gate/reports/smoke_incomplete.json`]
+- **Dependencies**: [C20]
+- **Tags**: blind-validation, bootstrap, promotion, safety

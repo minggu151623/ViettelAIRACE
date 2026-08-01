@@ -47,3 +47,12 @@
 - **Provenance**: ai-suggested
 - **Sensitivity**: high
 - **Code ref**: [`airace/turn2_expanded_pair.py`]
+
+## H08: Select calibration records without prediction access
+- **Rationale**: Stratifying raw records by length and ranking them with a
+  seeded hash prevents model errors or H20 coverage from influencing queue
+  membership. Corpus and record fingerprints make later input drift visible.
+- **Provenance**: ai-suggested
+- **Sensitivity**: medium
+- **Code ref**: [`airace/blind_eval.py`,
+  `experiments/H21_blind_promotion_gate/calibration_manifest.json`]

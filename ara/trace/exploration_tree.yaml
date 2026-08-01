@@ -1,4 +1,36 @@
 tree:
+  - id: N25
+    type: decision
+    title: "Adopt an isolated blind-evaluation track"
+    provenance: user
+    timestamp: "2026-08-02T00:00+07:00"
+    choice: >
+      Keep the 29.8409 baseline frozen and begin the previously proposed blind
+      validation plan in a separate experiment directory.
+    alternatives:
+      - "Continue selecting variants directly from scarce leaderboard feedback"
+      - "Replace H20 with an unvalidated challenger"
+    evidence: >
+      The user explicitly requested implementation after discussing the risk
+      that an internally strong proxy could regress on organizer labels.
+    children:
+      - id: N26
+        type: experiment
+        title: "H21 prediction-blind promotion infrastructure"
+        provenance: ai-executed
+        timestamp: "2026-08-02T00:30+07:00"
+        result: >
+          Preregistered a six-stratum 18-record queue, then selected 12
+          development and 6 holdout records from raw structure only. Added
+          corpus/record fingerprints, empty-prefill annotation routing, paired
+          10,000-sample bootstrap evaluation, strict span/type guards and a
+          fail-closed promotion decision. Manifest regeneration was
+          byte-identical; missing annotations returned
+          INCOMPLETE_ANNOTATIONS; H20 remained valid on 100 records and all 61
+          tests passed. No challenger quality claim is made before annotation.
+        evidence: [C21, "experiments/H21_blind_promotion_gate/analysis.md",
+          "experiments/H21_blind_promotion_gate/calibration_manifest.json",
+          "tests/test_blind_eval.py"]
   - id: N21
     type: pivot
     title: "Turn 2 breakthrough rebuild after 21.8139 plateau"

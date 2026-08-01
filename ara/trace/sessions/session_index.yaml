@@ -1,4 +1,7 @@
 sessions:
+  - id: "2026-08-02_001"
+    file: "2026-08-02_001.yaml"
+    summary: "Preregistered and implemented H21's isolated blind annotation and fail-closed promotion gate."
   - id: "2026-08-01_002"
     file: "2026-08-01_002.yaml"
     summary: "Recorded H20's external jump from 21.8139 to 29.8409 and promoted it to the frozen baseline."

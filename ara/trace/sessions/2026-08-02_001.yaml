@@ -1,0 +1,48 @@
+session:
+  id: "2026-08-02_001"
+  timestamp: "2026-08-02T00:30+07:00"
+  summary: "Preregistered and implemented H21's isolated blind annotation and fail-closed promotion gate."
+
+events_logged:
+  - type: decision
+    id: N25
+    provenance: user
+    summary: "User authorized starting the separate blind-evaluation plan while preserving H20."
+  - type: experiment
+    id: N26
+    provenance: ai-executed
+    summary: >
+      Built and verified the deterministic 12-development/6-holdout queue,
+      manifest integrity checks, annotation routing and paired promotion gate.
+  - type: claim
+    id: C21
+    provenance: ai-suggested
+    summary: "H21 fails closed on incomplete, invalid or development-only evidence."
+  - type: heuristic
+    id: H08
+    provenance: ai-suggested
+    summary: "Prediction-blind structural sampling plus fingerprints limits queue-selection leakage."
+
+ai_actions:
+  - action: "Preregistered H21 criteria and pushed the protocol before execution."
+    provenance: ai-executed
+    files_changed: ["experiments/H21_blind_promotion_gate/protocol.md",
+      "research-state.yaml"]
+  - action: "Implemented selector, evaluator, annotation routing, tests and operating guide."
+    provenance: ai-executed
+    files_changed: ["airace/blind_eval.py", "airace/annotation_app.py",
+      "airace/cli.py", "tests/test_blind_eval.py",
+      "experiments/H21_blind_promotion_gate/"]
+
+claims_touched:
+  - id: C21
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Complete independent annotation of the 12 development records."
+  - "Freeze one challenger before opening the six-record holdout."
+  - "Measure organizer-policy shift only through a scarce confirmatory submission after PROMOTE."
+
+ai_suggestions_pending:
+  - "Use two independent reviewers where possible and adjudicate disagreements before development scoring."
