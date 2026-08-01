@@ -1,0 +1,686 @@
+[
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      47
+    ],
+    "confidence": 0.6951088011264801,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      50,
+      63
+    ],
+    "confidence": 0.7287220160166422,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      66,
+      89
+    ],
+    "confidence": 0.722751130660375,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      92,
+      99
+    ],
+    "confidence": 0.7047512829303741,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tăng khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      139,
+      151
+    ],
+    "confidence": 0.7117841442426046,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      154,
+      166
+    ],
+    "confidence": 0.7314536174138387,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      169,
+      177
+    ],
+    "confidence": 0.7517654895782471,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tăng khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      247,
+      259
+    ],
+    "confidence": 0.6278283596038818,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      263,
+      266
+    ],
+    "confidence": 0.519995391368866,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cơn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      288,
+      291
+    ],
+    "confidence": 0.473905086517334,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      292,
+      300
+    ],
+    "confidence": 0.5652706176042557,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau rát khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      317,
+      336
+    ],
+    "confidence": 0.5996380507946014,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      364,
+      371
+    ],
+    "confidence": 0.726879894733429,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn từng đợt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      391,
+      403
+    ],
+    "confidence": 0.5630713204542795,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tăng khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      460,
+      472
+    ],
+    "confidence": 0.6821221510569254,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      475,
+      487
+    ],
+    "confidence": 0.7247406840324402,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      490,
+      498
+    ],
+    "confidence": 0.7511319518089294,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      501,
+      508
+    ],
+    "confidence": 0.7342716753482819,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "weak",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      512,
+      516
+    ],
+    "confidence": 0.5569616854190826,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngủ quên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      532,
+      540
+    ],
+    "confidence": 0.4957633912563324,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      553,
+      561
+    ],
+    "confidence": 0.6846594512462616,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "giảm khả năng quan hệ tình dục với bạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      564,
+      602
+    ],
+    "confidence": 0.6159431768788232,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đau buốt khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      610,
+      630
+    ],
+    "confidence": 0.6308476090431213,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      633,
+      640
+    ],
+    "confidence": 0.7220332026481628,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      643,
+      646
+    ],
+    "confidence": 0.7304753065109253,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      690,
+      698
+    ],
+    "confidence": 0.7316427528858185,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhói",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      761,
+      765
+    ],
+    "confidence": 0.5596960783004761,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tê bì",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      814,
+      819
+    ],
+    "confidence": 0.6957079768180847,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      844,
+      847
+    ],
+    "confidence": 0.6355607509613037,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1034,
+      1037
+    ],
+    "confidence": 0.6434820890426636,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau rát khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1071,
+      1090
+    ],
+    "confidence": 0.6735166311264038,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1131,
+      1134
+    ],
+    "confidence": 0.4268520772457123,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1154,
+      1157
+    ],
+    "confidence": 0.7220125794410706,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1154,
+      1161
+    ],
+    "confidence": 0.4557727873325348,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cơn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1204,
+      1207
+    ],
+    "confidence": 0.554435670375824,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1208,
+      1216
+    ],
+    "confidence": 0.5111977756023407,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1335,
+      1350
+    ],
+    "confidence": 0.5878599683443705,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1352,
+      1361
+    ],
+    "confidence": 0.6791009902954102,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "80mg po lasix",
+    "type": "THUỐC",
+    "position": [
+      1432,
+      1445
+    ],
+    "confidence": 0.650513881444931,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ntg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1693,
+      1696
+    ],
+    "confidence": 0.37933361530303955,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ntg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1693,
+      1696
+    ],
+    "confidence": 0.24292507767677307,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ntg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1693,
+      1696
+    ],
+    "confidence": 0.28194019198417664,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "asa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1704,
+      1707
+    ],
+    "confidence": 0.29939714074134827,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "80mg lasix iv",
+    "type": "THUỐC",
+    "position": [
+      1715,
+      1728
+    ],
+    "confidence": 0.6382982432842255,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "morphine",
+    "type": "THUỐC",
+    "position": [
+      1740,
+      1748
+    ],
+    "confidence": 0.5780123372872671,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dilaudid",
+    "type": "THUỐC",
+    "position": [
+      1760,
+      1768
+    ],
+    "confidence": 0.6498035863041878,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "position": [
+      1783,
+      1793
+    ],
+    "confidence": 0.661271721124649,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "iv diltiazem",
+    "type": "THUỐC",
+    "position": [
+      1810,
+      1822
+    ],
+    "confidence": 0.6778121093908945,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ntg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1858,
+      1861
+    ],
+    "confidence": 0.3308085898558299,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1862,
+      1865
+    ],
+    "confidence": 0.44316431879997253,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1866,
+      1869
+    ],
+    "confidence": 0.2584073841571808,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1886,
+      1894
+    ],
+    "confidence": 0.6942098438739777,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ntg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1909,
+      1912
+    ],
+    "confidence": 0.3347351352373759,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1913,
+      1916
+    ],
+    "confidence": 0.34443143010139465,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1917,
+      1920
+    ],
+    "confidence": 0.2565270960330963,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1937,
+      1945
+    ],
+    "confidence": 0.67864590883255,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1956,
+      1964
+    ],
+    "confidence": 0.3058740645647049,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  }
+]

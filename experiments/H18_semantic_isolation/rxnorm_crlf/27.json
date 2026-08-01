@@ -1,0 +1,201 @@
+[
+  {
+    "text": "hội chứng turner",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [50, 66]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [90, 103]
+  },
+  {
+    "text": "Ung thư đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [150, 167]
+  },
+  {
+    "text": "Thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [183, 198]
+  },
+  {
+    "text": "Thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [227, 242]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [422, 429]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [467, 474]
+  },
+  {
+    "text": "Cảm giác có đờm ở cổ họng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [483, 508]
+  },
+  {
+    "text": "Cần phải ho nó ra",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [516, 533]
+  },
+  {
+    "text": "Không sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [541, 550]
+  },
+  {
+    "text": "Không ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [558, 571]
+  },
+  {
+    "text": "Không đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [579, 593]
+  },
+  {
+    "text": "Không  khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [601, 615]
+  },
+  {
+    "text": "Không  thay đổi tính chất cơn đau khi thay đổi tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [622, 675]
+  },
+  {
+    "text": "Không khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [683, 709]
+  },
+  {
+    "text": "Không đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [717, 738]
+  },
+  {
+    "text": "Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [746, 798]
+  },
+  {
+    "text": "Không đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [806, 820]
+  },
+  {
+    "text": "đánh giá tổng quát về tiêu hóa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [889, 919]
+  },
+  {
+    "text": "đánh giá tổng quát về tiêu hóa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [927, 957]
+  },
+  {
+    "text": "khó nuốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [971, 979]
+  },
+  {
+    "text": "albuterolipratropium nebs",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1047, 1072]
+  },
+  {
+    "text": "metoprolol 5mg iv",
+    "type": "THUỐC",
+    "candidates": ["866508"],
+    "assertions": [],
+    "position": [1083, 1100]
+  },
+  {
+    "text": "tc 37 độ c",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1170, 1180]
+  },
+  {
+    "text": "hr 88",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1181, 1186]
+  },
+  {
+    "text": "bp 13482",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1187, 1195]
+  },
+  {
+    "text": "rr 14",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1196, 1201]
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1202, 1206]
+  },
+  {
+    "text": "spo2 100ra",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1202, 1212]
+  },
+  {
+    "text": "hr 140",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1236, 1242]
+  },
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "candidates": ["6918"],
+    "assertions": [],
+    "position": [1332, 1342]
+  },
+  {
+    "text": "khỏe",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1379, 1383]
+  }
+]

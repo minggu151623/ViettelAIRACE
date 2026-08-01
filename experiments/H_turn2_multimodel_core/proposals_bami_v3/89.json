@@ -1,0 +1,446 @@
+[
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      31,
+      45
+    ],
+    "confidence": 0.49620552361011505,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      55,
+      69
+    ],
+    "confidence": 0.48968150715033215,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      73,
+      86
+    ],
+    "confidence": 0.5072342058022817,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng huyết áp vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      88,
+      108
+    ],
+    "confidence": 0.5253824651241302,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      117,
+      121
+    ],
+    "confidence": 0.4007619023323059,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xét nghiệm gắng sức bất thường",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      172,
+      202
+    ],
+    "confidence": 0.3384510775407155,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó chịu vùng ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      294,
+      312
+    ],
+    "confidence": 0.7106307148933411,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      318,
+      322
+    ],
+    "confidence": 0.5398345589637756,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      325,
+      334
+    ],
+    "confidence": 0.7353475689888,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      337,
+      344
+    ],
+    "confidence": 0.7417535483837128,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      346,
+      353
+    ],
+    "confidence": 0.5125477015972137,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      366
+    ],
+    "confidence": 0.6819079915682474,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      481,
+      484
+    ],
+    "confidence": 0.4363678991794586,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      637,
+      646
+    ],
+    "confidence": 0.7270134091377258,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      648,
+      655
+    ],
+    "confidence": 0.7348763048648834,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      657,
+      666
+    ],
+    "confidence": 0.6692597270011902,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xét nghiệm gắng sức bất thường",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      700,
+      730
+    ],
+    "confidence": 0.34744760394096375,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      820,
+      831
+    ],
+    "confidence": 0.36355940500895184,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nhiệt độ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      902,
+      910
+    ],
+    "confidence": 0.2818886786699295,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "7°c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      914,
+      917
+    ],
+    "confidence": 0.39505211512247723,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Huyết áp 139/68 mmhg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      919,
+      939
+    ],
+    "confidence": 0.3820878379046917,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Mạch 67 lần/phút",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      941,
+      957
+    ],
+    "confidence": 0.35856088623404503,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nhịp thở 16 lần/phút",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      959,
+      979
+    ],
+    "confidence": 0.3619995594024658,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "SpO2 100%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      981,
+      990
+    ],
+    "confidence": 0.34654926260312396,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1002,
+      1005
+    ],
+    "confidence": 0.29985979199409485,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhiệt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1008,
+      1013
+    ],
+    "confidence": 0.24844685196876526,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhiệt độ 36.7°c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1008,
+      1023
+    ],
+    "confidence": 0.36150750730718884,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "huyết áp 139/68 mmhg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1025,
+      1045
+    ],
+    "confidence": 0.3790125139057636,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp tim 67 lần/phút",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1047,
+      1067
+    ],
+    "confidence": 0.3567257225513458,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp thở 16 lần/phút",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1069,
+      1089
+    ],
+    "confidence": 0.34537272453308104,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "độ bão hòa oxy 100% trên khí trời",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1091,
+      1124
+    ],
+    "confidence": 0.31998362950980663,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ống nội khí quản",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1154,
+      1170
+    ],
+    "confidence": 0.3253704644739628,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nghiệm pháp gắng sức trên máy chạy bộ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1172,
+      1209
+    ],
+    "confidence": 0.3708725223938624,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phát miễn dịch tiếp xúc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1255,
+      1278
+    ],
+    "confidence": 0.583562558889389,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "contac immunotherapy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1280,
+      1300
+    ],
+    "confidence": 0.4213932454586029,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chênh xuống",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1310,
+      1321
+    ],
+    "confidence": 0.48129886388778687,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xuống dốc",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1327,
+      1336
+    ],
+    "confidence": 0.47273728251457214,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  }
+]

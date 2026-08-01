@@ -1,0 +1,364 @@
+[
+  {
+    "text": "chất kích thích",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      69,
+      84
+    ]
+  },
+  {
+    "text": "thay đổi nội tiết tố",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      126,
+      146
+    ]
+  },
+  {
+    "text": "nguyệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      165,
+      171
+    ]
+  },
+  {
+    "text": "mãn kinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      189,
+      197
+    ]
+  },
+  {
+    "text": "mãn kinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      237,
+      245
+    ]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      247,
+      256
+    ]
+  },
+  {
+    "text": "gián đoạn giấc ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      283,
+      301
+    ]
+  },
+  {
+    "text": "Mất ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      303,
+      310
+    ]
+  },
+  {
+    "text": "sang chấn tâm lý",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      398,
+      414
+    ]
+  },
+  {
+    "text": "rối loạn lo âu,trầm cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      438,
+      461
+    ]
+  },
+  {
+    "text": "stress",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      463,
+      469
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      593,
+      598
+    ]
+  },
+  {
+    "text": "chất kích thích",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      604,
+      619
+    ]
+  },
+  {
+    "text": "kiểm tra",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      727,
+      735
+    ]
+  },
+  {
+    "text": "tăng nhãn áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      848,
+      860
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1047,
+      1054
+    ]
+  },
+  {
+    "text": "mờ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1072,
+      1078
+    ]
+  },
+  {
+    "text": "úng tuỷ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1194,
+      1201
+    ]
+  },
+  {
+    "text": "sơ sinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1213,
+      1220
+    ]
+  },
+  {
+    "text": "chẩn đoán não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1302,
+      1315
+    ]
+  },
+  {
+    "text": "úng thủy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1316,
+      1324
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1344,
+      1351
+    ]
+  },
+  {
+    "text": "ng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1384,
+      1386
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1453,
+      1460
+    ]
+  },
+  {
+    "text": "Khám nhãn khoa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1468,
+      1482
+    ]
+  },
+  {
+    "text": "phù gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1536,
+      1547
+    ]
+  },
+  {
+    "text": "mờ mắt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1581,
+      1587
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1705,
+      1712
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1755,
+      1762
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1838,
+      1845
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1958,
+      1965
+    ]
+  },
+  {
+    "text": "khám ngoại trú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2044,
+      2058
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2310,
+      2319
+    ]
+  },
+  {
+    "text": "Tăng nhãn áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2331,
+      2343
+    ]
+  },
+  {
+    "text": "chụp cắt lớp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2351,
+      2363
+    ]
+  },
+  {
+    "text": "gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2426,
+      2433
+    ]
+  }
+]

@@ -1,0 +1,411 @@
+[
+  {
+    "text": "62 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "assertions": [],
+    "position": [
+      16,
+      23
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      45,
+      52
+    ]
+  },
+  {
+    "text": "gầy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      54,
+      57
+    ]
+  },
+  {
+    "text": "sút cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      58,
+      65
+    ]
+  },
+  {
+    "text": "hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F10.20"
+    ],
+    "assertions": [],
+    "position": [
+      101,
+      110
+    ]
+  },
+  {
+    "text": "đi tiểu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      173,
+      186
+    ]
+  },
+  {
+    "text": "sút cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      192,
+      199
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      219,
+      226
+    ]
+  },
+  {
+    "text": "Xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      321,
+      335
+    ]
+  },
+  {
+    "text": "Glucose máu",
+    "type": "THUỐC",
+    "candidates": [
+      "4850"
+    ],
+    "assertions": [],
+    "position": [
+      337,
+      348
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      443,
+      448
+    ]
+  },
+  {
+    "text": "ĐTD typ II",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      458,
+      468
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      479,
+      484
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      535,
+      540
+    ]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": [
+      "38413"
+    ],
+    "assertions": [],
+    "position": [
+      554,
+      563
+    ]
+  },
+  {
+    "text": "Insulin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      604,
+      611
+    ]
+  },
+  {
+    "text": "glargine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      612,
+      620
+    ]
+  },
+  {
+    "text": "Isosorbide",
+    "type": "THUỐC",
+    "candidates": [
+      "6057"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      679,
+      689
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      698,
+      703
+    ]
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "candidates": [
+      "301542"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      735,
+      747
+    ]
+  },
+  {
+    "text": "Crestor",
+    "type": "THUỐC",
+    "candidates": [
+      "320864"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      749,
+      756
+    ]
+  },
+  {
+    "text": "hết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      762,
+      765
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      766,
+      771
+    ]
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": [
+      "20352"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      803,
+      813
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      822,
+      827
+    ]
+  },
+  {
+    "text": "kali máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      925,
+      933
+    ]
+  },
+  {
+    "text": "Creatinine",
+    "type": "THUỐC",
+    "candidates": [
+      "2913"
+    ],
+    "assertions": [],
+    "position": [
+      937,
+      947
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      990,
+      994
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1030,
+      1034
+    ]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": [
+      "38413"
+    ],
+    "assertions": [],
+    "position": [
+      1071,
+      1080
+    ]
+  },
+  {
+    "text": "torsemide",
+    "type": "THUỐC",
+    "candidates": [
+      "38413"
+    ],
+    "assertions": [],
+    "position": [
+      1135,
+      1144
+    ]
+  },
+  {
+    "text": "kiểm tra đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1171,
+      1191
+    ]
+  },
+  {
+    "text": "que thử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1220,
+      1227
+    ]
+  },
+  {
+    "text": "glucose",
+    "type": "THUỐC",
+    "candidates": [
+      "4850"
+    ],
+    "assertions": [],
+    "position": [
+      1241,
+      1248
+    ]
+  },
+  {
+    "text": "CTM",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1374,
+      1377
+    ]
+  },
+  {
+    "text": "SHM",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1379,
+      1382
+    ]
+  },
+  {
+    "text": "chụp XQ phổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1384,
+      1396
+    ]
+  },
+  {
+    "text": "rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1436,
+      1454
+    ]
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1482,
+      1492
+    ]
+  }
+]

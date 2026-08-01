@@ -1,0 +1,186 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      25,
+      32
+    ],
+    "confidence": 0.9979813893636068,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      33,
+      41
+    ],
+    "confidence": 0.9703403881617955,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "ung thư vú",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      47,
+      57
+    ],
+    "confidence": 0.998055026680231,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ung thư phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      64,
+      76
+    ],
+    "confidence": 0.9985158537824949,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ho",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      81,
+      83
+    ],
+    "confidence": 0.9915109276771545,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J44.9"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      84,
+      91
+    ],
+    "confidence": 0.9984780848026276,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "suy nhược toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      197,
+      216
+    ],
+    "confidence": 0.9981816461962514,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      260,
+      267
+    ],
+    "confidence": 0.9983926117420197,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy nhược toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      380,
+      399
+    ],
+    "confidence": 0.9977166731006061,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      406,
+      413
+    ],
+    "confidence": 0.9981104135513306,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      419,
+      422
+    ],
+    "confidence": 0.7227453589439392,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      482,
+      486
+    ],
+    "confidence": 0.9541940689086914,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      575,
+      577
+    ],
+    "confidence": 0.7532597780227661,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "I25.1"
+    ]
+  },
+  {
+    "text": "ép tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      580,
+      586
+    ],
+    "confidence": 0.5605415821075439,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

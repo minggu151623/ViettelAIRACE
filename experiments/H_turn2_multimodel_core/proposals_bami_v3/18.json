@@ -1,0 +1,554 @@
+[
+  {
+    "text": "Điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      14,
+      25
+    ],
+    "confidence": 0.34556762377421063,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ECG",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      27,
+      30
+    ],
+    "confidence": 0.2919243574142456,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ST",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      35,
+      37
+    ],
+    "confidence": 0.21027790009975433,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chênh lên",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      38,
+      47
+    ],
+    "confidence": 0.31531815230846405,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xuống",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      56,
+      61
+    ],
+    "confidence": 0.3022691011428833,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Sóng T đảo",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      65,
+      75
+    ],
+    "confidence": 0.29290518164634705,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Troponin I/T",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      101,
+      113
+    ],
+    "confidence": 0.3371515512466431,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "-MB",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      142,
+      145
+    ],
+    "confidence": 0.3600917160511017,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      149,
+      160
+    ],
+    "confidence": 0.33270350098609924,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "pháp gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      227,
+      240
+    ],
+    "confidence": 0.35176031788190204,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thiếu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      254,
+      259
+    ],
+    "confidence": 0.3371643126010895,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      260,
+      270
+    ],
+    "confidence": 0.3348836402098338,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      290,
+      299
+    ],
+    "confidence": 0.40704265236854553,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      791,
+      805
+    ],
+    "confidence": 0.5058568815390269,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      895,
+      903
+    ],
+    "confidence": 0.7064543664455414,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1113,
+      1120
+    ],
+    "confidence": 0.6377960443496704,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "38.3°C",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1125,
+      1131
+    ],
+    "confidence": 0.4778575450181961,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau hạ sườn phải tái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1141,
+      1161
+    ],
+    "confidence": 0.6631477057933808,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cấy máu dương tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1232,
+      1250
+    ],
+    "confidence": 0.32345346733927727,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1283,
+      1286
+    ],
+    "confidence": 0.6699299812316895,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1293,
+      1301
+    ],
+    "confidence": 0.7288226783275604,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1308,
+      1324
+    ],
+    "confidence": 0.7151895463466644,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1331,
+      1338
+    ],
+    "confidence": 0.6164658069610596,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "38.3",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1343,
+      1347
+    ],
+    "confidence": 0.4943493405977885,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1356,
+      1372
+    ],
+    "confidence": 0.7143880277872086,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1408,
+      1424
+    ],
+    "confidence": 0.719371035695076,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1430,
+      1433
+    ],
+    "confidence": 0.5195857286453247,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1605,
+      1613
+    ],
+    "confidence": 0.6838454008102417,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1615,
+      1618
+    ],
+    "confidence": 0.5896536707878113,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1620,
+      1627
+    ],
+    "confidence": 0.6219854354858398,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1654,
+      1662
+    ],
+    "confidence": 0.6919055283069611,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1664,
+      1671
+    ],
+    "confidence": 0.6937641501426697,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm vùng gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1818,
+      1838
+    ],
+    "confidence": 0.34095023274421693,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1911,
+      1927
+    ],
+    "confidence": 0.465414609760046,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lipase",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1985,
+      1991
+    ],
+    "confidence": 0.3157300800085068,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2042,
+      2046
+    ],
+    "confidence": 0.30499565601348877,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2047,
+      2054
+    ],
+    "confidence": 0.2955770343542099,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tbr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2087,
+      2090
+    ],
+    "confidence": 0.3045223504304886,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2231,
+      2234
+    ],
+    "confidence": 0.3167365789413452,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "GPRs",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2252,
+      2256
+    ],
+    "confidence": 0.294160895049572,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm vùng gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2294,
+      2314
+    ],
+    "confidence": 0.38490375876426697,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2356,
+      2359
+    ],
+    "confidence": 0.3777559697628021,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp ct bụng chậu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2405,
+      2422
+    ],
+    "confidence": 0.4006295084953308,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm vùng gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2480,
+      2500
+    ],
+    "confidence": 0.3712108850479126,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2564,
+      2580
+    ],
+    "confidence": 0.5381426922976971,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2623,
+      2639
+    ],
+    "confidence": 0.5592151507735252,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  }
+]

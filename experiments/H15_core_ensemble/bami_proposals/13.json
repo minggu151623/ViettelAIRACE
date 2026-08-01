@@ -1,0 +1,530 @@
+[
+  {
+    "text": "Bệnh phổi kẽ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      44,
+      56
+    ],
+    "confidence": 0.7257528503735861,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "position": [
+      68,
+      77
+    ],
+    "confidence": 0.25987333059310913,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      102,
+      105
+    ],
+    "confidence": 0.5089153051376343,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Hội chứng kháng enzym tổng hợp protein",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      124,
+      162
+    ],
+    "confidence": 0.7334612607955933,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      170,
+      177
+    ],
+    "confidence": 0.6963377892971039,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tăng huyết áp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      184,
+      209
+    ],
+    "confidence": 0.7523401021957398,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Sinh thiết nội mạc tử cung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      247,
+      273
+    ],
+    "confidence": 0.4609537174304326,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Corticoid",
+    "type": "THUỐC",
+    "position": [
+      317,
+      326
+    ],
+    "confidence": 0.6461988389492035,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cao",
+    "type": "THUỐC",
+    "position": [
+      332,
+      335
+    ],
+    "confidence": 0.44634515047073364,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      350,
+      353
+    ],
+    "confidence": 0.3704497814178467,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      382,
+      389
+    ],
+    "confidence": 0.7013360261917114,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "position": [
+      430,
+      441
+    ],
+    "confidence": 0.7020461440086365,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Suy giảm miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      478,
+      496
+    ],
+    "confidence": 0.7179928421974182,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương vùng âm hộ và mông bên phải ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      584,
+      637
+    ],
+    "confidence": 0.5362075666586558,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương vùng âm hộ phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      682,
+      708
+    ],
+    "confidence": 0.5394252339998881,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cotrimoxazol",
+    "type": "THUỐC",
+    "position": [
+      921,
+      933
+    ],
+    "confidence": 0.6993033637603124,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "doxycyclin",
+    "type": "THUỐC",
+    "position": [
+      953,
+      963
+    ],
+    "confidence": 0.7538926899433136,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      976,
+      990
+    ],
+    "confidence": 0.6861357241868973,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1008,
+      1014
+    ],
+    "confidence": 0.6817201375961304,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1150,
+      1153
+    ],
+    "confidence": 0.40706387162208557,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vàng đục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1183,
+      1191
+    ],
+    "confidence": 0.4860972613096237,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương vùng âm hộ và mông bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1344,
+      1382
+    ],
+    "confidence": 0.5646804471810659,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tổn thương cực kỳ đau đớn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1389,
+      1414
+    ],
+    "confidence": 0.6080800195535024,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tình",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1421,
+      1425
+    ],
+    "confidence": 0.35058140754699707,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương dạng bóng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1432,
+      1452
+    ],
+    "confidence": 0.4337739795446396,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nước ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1453,
+      1472
+    ],
+    "confidence": 0.5405882522463799,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Lan đến mông bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1479,
+      1500
+    ],
+    "confidence": 0.48018420338630674,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dịch giống mủ có màu vàng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1510,
+      1535
+    ],
+    "confidence": 0.5031170646349589,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1542,
+      1544
+    ],
+    "confidence": 0.4524145722389221,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cực kỳ đau đớn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1659,
+      1673
+    ],
+    "confidence": 0.4356459453701973,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1712,
+      1716
+    ],
+    "confidence": 0.4343048632144928,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1763,
+      1769
+    ],
+    "confidence": 0.723812460899353,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy mủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1771,
+      1778
+    ],
+    "confidence": 0.6940085887908936,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      1887,
+      1894
+    ],
+    "confidence": 0.640502043068409,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "position": [
+      1898,
+      1909
+    ],
+    "confidence": 0.7039501249790192,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1932,
+      1946
+    ],
+    "confidence": 0.72304667532444,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1986,
+      1992
+    ],
+    "confidence": 0.7155013978481293,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dịch tiết có vẻ như mủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1999,
+      2021
+    ],
+    "confidence": 0.6256591578324636,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "doxycyclinebactrim",
+    "type": "THUỐC",
+    "position": [
+      2235,
+      2253
+    ],
+    "confidence": 0.7215109997325473,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2267,
+      2281
+    ],
+    "confidence": 0.708580732345581,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nhiễm virus Herpes simplex",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2488,
+      2514
+    ],
+    "confidence": 0.6405943731466929,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "HSV",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2516,
+      2519
+    ],
+    "confidence": 0.47343164682388306,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh thủy đậu/Zona",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2526,
+      2544
+    ],
+    "confidence": 0.6781196296215057,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Varicella Zoster Virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2549,
+      2571
+    ],
+    "confidence": 0.5922689437866211,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  }
+]

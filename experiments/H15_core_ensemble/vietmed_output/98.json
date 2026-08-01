@@ -1,0 +1,120 @@
+[
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      35,
+      43
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      53,
+      66
+    ]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      174,
+      182
+    ]
+  },
+  {
+    "text": "Cận lâm sàng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      187,
+      199
+    ]
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      232,
+      239
+    ]
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      249,
+      259
+    ]
+  },
+  {
+    "text": "u tuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      294,
+      299
+    ]
+  },
+  {
+    "text": "u tuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      363,
+      368
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      414,
+      423
+    ]
+  },
+  {
+    "text": "tổn thương ổ tiêu xương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      438,
+      461
+    ]
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      474,
+      483
+    ]
+  },
+  {
+    "text": "Đa u tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      485,
+      493
+    ]
+  }
+]

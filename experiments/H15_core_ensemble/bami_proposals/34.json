@@ -1,0 +1,350 @@
+[
+  {
+    "text": "Viêm loét đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      76
+    ],
+    "confidence": 0.7225614041090012,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      114,
+      130
+    ],
+    "confidence": 0.7036054283380508,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc giảm đau opioid",
+    "type": "THUỐC",
+    "position": [
+      280,
+      301
+    ],
+    "confidence": 0.47113461792469025,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      408,
+      419
+    ],
+    "confidence": 0.6767561038335165,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      423,
+      431
+    ],
+    "confidence": 0.7164763808250427,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      438,
+      446
+    ],
+    "confidence": 0.732128918170929,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó chịu vùng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      447,
+      465
+    ],
+    "confidence": 0.687039566040039,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      519,
+      527
+    ],
+    "confidence": 0.7497937083244324,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      534,
+      537
+    ],
+    "confidence": 0.6984172463417053,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      557,
+      560
+    ],
+    "confidence": 0.7381410598754883,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      564,
+      571
+    ],
+    "confidence": 0.6879092256228129,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất cảm giác ngon miệng/chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      578,
+      609
+    ],
+    "confidence": 0.6706218533217907,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy nhược",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      616,
+      625
+    ],
+    "confidence": 0.7035046219825745,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      633,
+      652
+    ],
+    "confidence": 0.5201242342591286,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      898,
+      906
+    ],
+    "confidence": 0.7267626225948334,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó chịu vùng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      907,
+      925
+    ],
+    "confidence": 0.6898663997650146,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      979,
+      982
+    ],
+    "confidence": 0.6974737644195557,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1025,
+      1028
+    ],
+    "confidence": 0.6874302625656128,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1032,
+      1039
+    ],
+    "confidence": 0.6475523710250854,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất cảm giác ngon miệng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1041,
+      1064
+    ],
+    "confidence": 0.6268840909004212,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1065,
+      1072
+    ],
+    "confidence": 0.574247807264328,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy nhược",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1074,
+      1083
+    ],
+    "confidence": 0.5739350616931915,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1090,
+      1104
+    ],
+    "confidence": 0.47536776463190716,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thiểu niệu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1106,
+      1116
+    ],
+    "confidence": 0.5884906351566315,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy dịch từ lỗ dò",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1118,
+      1136
+    ],
+    "confidence": 0.5876206874847412,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1188,
+      1199
+    ],
+    "confidence": 0.6519708832105001,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1203,
+      1211
+    ],
+    "confidence": 0.7190668284893036,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc giảm đau opioid",
+    "type": "THUỐC",
+    "position": [
+      1245,
+      1266
+    ],
+    "confidence": 0.5017681568861008,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "giảm đau opioid",
+    "type": "THUỐC",
+    "position": [
+      1285,
+      1300
+    ],
+    "confidence": 0.4996260404586792,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  }
+]

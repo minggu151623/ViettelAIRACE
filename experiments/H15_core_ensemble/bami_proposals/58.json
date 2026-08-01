@@ -1,0 +1,782 @@
+[
+  {
+    "text": "bệnh Graves",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      59
+    ],
+    "confidence": 0.7194761236508688,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      66,
+      96
+    ],
+    "confidence": 0.7371337839535305,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "yếu sức nửa người bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      150,
+      176
+    ],
+    "confidence": 0.7272217075030009,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tình trạng tri giác giảm sút",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      183,
+      211
+    ],
+    "confidence": 0.6304180572430292,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      218,
+      231
+    ],
+    "confidence": 0.7242716153462728,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không thể tự đứng dậy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      470,
+      491
+    ],
+    "confidence": 0.6911682248115539,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu sức chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      495,
+      512
+    ],
+    "confidence": 0.6878332644701004,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không thể chịu lực ở chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      594,
+      624
+    ],
+    "confidence": 0.6369343485151019,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khuỵu chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      635,
+      645
+    ],
+    "confidence": 0.5949651300907135,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dậy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      668,
+      671
+    ],
+    "confidence": 0.48558735847473145,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      687,
+      691
+    ],
+    "confidence": 0.4068834185600281,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      692,
+      706
+    ],
+    "confidence": 0.4387646734714508,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "quả âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      711,
+      722
+    ],
+    "confidence": 0.3536436855792999,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      753,
+      773
+    ],
+    "confidence": 0.468397456407547,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp tim chậm nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      792,
+      810
+    ],
+    "confidence": 0.6259372532367706,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      814,
+      825
+    ],
+    "confidence": 0.7094501256942749,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "intravenous",
+    "type": "THUỐC",
+    "position": [
+      882,
+      893
+    ],
+    "confidence": 0.29925239086151123,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "fluids",
+    "type": "THUỐC",
+    "position": [
+      894,
+      900
+    ],
+    "confidence": 0.36552048722902936,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      917,
+      931
+    ],
+    "confidence": 0.4670881450176239,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      941,
+      948
+    ],
+    "confidence": 0.37619587779045105,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Code tai biến mạch máu não",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1017,
+      1043
+    ],
+    "confidence": 0.562364501612527,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tỉnh chậm phản xạ kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1059,
+      1080
+    ],
+    "confidence": 0.5903714060783386,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhiễm trùng nhiễm trùng răng miệng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1216,
+      1250
+    ],
+    "confidence": 0.6411687980095545,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tai biến mạch máu não",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1306,
+      1327
+    ],
+    "confidence": 0.7379866003990173,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "co giật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1333,
+      1340
+    ],
+    "confidence": 0.44746923446655273,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "yếu sức nửa người bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1378,
+      1404
+    ],
+    "confidence": 0.7104352712631226,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tri giác giảm sút",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1422,
+      1439
+    ],
+    "confidence": 0.6116965189576149,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1446,
+      1459
+    ],
+    "confidence": 0.6760511596997579,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1466,
+      1473
+    ],
+    "confidence": 0.7487397193908691,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1513,
+      1526
+    ],
+    "confidence": 0.6935447851816813,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1603,
+      1606
+    ],
+    "confidence": 0.41540592908859253,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1772,
+      1779
+    ],
+    "confidence": 0.7372702360153198,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu sức chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1875,
+      1892
+    ],
+    "confidence": 0.7119031250476837,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1908,
+      1912
+    ],
+    "confidence": 0.3750843405723572,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1913,
+      1927
+    ],
+    "confidence": 0.4732687294483185,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "kết quả âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1928,
+      1943
+    ],
+    "confidence": 0.404053658246994,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1961,
+      1981
+    ],
+    "confidence": 0.46616137623786924,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp tim chậm nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1992,
+      2010
+    ],
+    "confidence": 0.6888509690761566,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2014,
+      2025
+    ],
+    "confidence": 0.7273162404696146,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "intravenous fluids",
+    "type": "THUỐC",
+    "position": [
+      2079,
+      2097
+    ],
+    "confidence": 0.5467268569128854,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2114,
+      2128
+    ],
+    "confidence": 0.4230508029460907,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "quả âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2134,
+      2145
+    ],
+    "confidence": 0.3899185260136922,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhiễm trùng nhiễm trùng răng miệng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2176,
+      2210
+    ],
+    "confidence": 0.5550399273633957,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nằm sải trên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2266,
+      2278
+    ],
+    "confidence": 0.555834968884786,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không thể tự đứng dậy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2290,
+      2311
+    ],
+    "confidence": 0.6481622457504272,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu sức chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2315,
+      2332
+    ],
+    "confidence": 0.6103624477982521,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không thể chịu lực ở chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2340,
+      2370
+    ],
+    "confidence": 0.6090675336974007,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khuỵu chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2381,
+      2391
+    ],
+    "confidence": 0.5517549365758896,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tỉnh chậm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2399,
+      2408
+    ],
+    "confidence": 0.7190523743629456,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phản xạ kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2410,
+      2421
+    ],
+    "confidence": 0.6260094543298086,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu nửa người bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2479,
+      2501
+    ],
+    "confidence": 0.6825647115707397,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy giảm tri giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2508,
+      2525
+    ],
+    "confidence": 0.727457270026207,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2532,
+      2545
+    ],
+    "confidence": 0.645393431186676,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp tim chậm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2552,
+      2565
+    ],
+    "confidence": 0.7343640923500061,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2572,
+      2583
+    ],
+    "confidence": 0.7345212896664938,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đặc hiệu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2591,
+      2599
+    ],
+    "confidence": 0.5978590548038483,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không nhấc chân phải khỏi mặt giường",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2606,
+      2642
+    ],
+    "confidence": 0.6268821699278695,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chân phải liên tục khuỵ xuống",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2649,
+      2678
+    ],
+    "confidence": 0.6779968568256923,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tỉnh chậm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2685,
+      2694
+    ],
+    "confidence": 0.7329963147640228,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phản xạ kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2696,
+      2707
+    ],
+    "confidence": 0.681974470615387,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct sọ não: âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2762,
+      2785
+    ],
+    "confidence": 0.4584023617208004,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct sọ não: âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2801,
+      2824
+    ],
+    "confidence": 0.46666256338357925,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2862,
+      2876
+    ],
+    "confidence": 0.4665474534034729,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2883,
+      2903
+    ],
+    "confidence": 0.4830786406993866,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Truyền",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2910,
+      2916
+    ],
+    "confidence": 0.27992162108421326,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  }
+]

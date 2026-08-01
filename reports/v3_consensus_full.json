@@ -1,0 +1,17 @@
+{
+  "records": 100,
+  "entity_counts": {
+    "THUỐC": 161,
+    "CHẨN_ĐOÁN": 381,
+    "TRIỆU_CHỨNG": 1108,
+    "TÊN_XÉT_NGHIỆM": 327,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 212,
+    "THÔNG_TIN_BỆNH_NHÂN": 1
+  },
+  "errors": [],
+  "holdout_records": 9,
+  "source": "output_v3_consensus",
+  "output": "output_v3_consensus_full",
+  "offline": true,
+  "elapsed_seconds": 1.016
+}

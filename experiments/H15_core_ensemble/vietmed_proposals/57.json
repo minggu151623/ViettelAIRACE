@@ -1,0 +1,74 @@
+[
+  {
+    "text": "bệnh r",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      74,
+      80
+    ],
+    "confidence": 0.5554472088813782,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      269,
+      273
+    ],
+    "confidence": 0.6819649934768677,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      299,
+      302
+    ],
+    "confidence": 0.7679325540860494,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      325,
+      337
+    ],
+    "confidence": 0.9601104184985161,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "C4-5",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      338,
+      342
+    ],
+    "confidence": 0.7520942986011505,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hẹp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      358,
+      361
+    ],
+    "confidence": 0.7547369599342346,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

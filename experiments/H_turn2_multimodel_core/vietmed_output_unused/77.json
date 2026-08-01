@@ -1,0 +1,220 @@
+[
+  {
+    "text": "CG",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      21,
+      23
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      73,
+      76
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      194,
+      198
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      202,
+      205
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      314,
+      318
+    ]
+  },
+  {
+    "text": "Đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      434,
+      437
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I20.9"
+    ],
+    "assertions": [],
+    "position": [
+      495,
+      498
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      499,
+      502
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      609,
+      612
+    ]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      626,
+      633
+    ]
+  },
+  {
+    "text": "giãn nh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      690,
+      697
+    ]
+  },
+  {
+    "text": "Doppler",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      736,
+      743
+    ]
+  },
+  {
+    "text": "FAC",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      927,
+      930
+    ]
+  },
+  {
+    "text": "áp lực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      943,
+      949
+    ]
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1018,
+      1027
+    ]
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1029,
+      1036
+    ]
+  },
+  {
+    "text": "suy thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1039,
+      1051
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
+    "position": [
+      1063,
+      1076
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1384,
+      1393
+    ]
+  },
+  {
+    "text": "x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1409,
+      1416
+    ]
+  },
+  {
+    "text": "thoái hóa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1458,
+      1467
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1514,
+      1534
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1545,
+      1549
+    ]
+  }
+]

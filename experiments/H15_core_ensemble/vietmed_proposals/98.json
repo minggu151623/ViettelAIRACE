@@ -1,0 +1,152 @@
+[
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      35,
+      43
+    ],
+    "confidence": 0.9676352483885629,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      53,
+      66
+    ],
+    "confidence": 0.9987655546930102,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      174,
+      182
+    ],
+    "confidence": 0.9972108006477356,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Cận lâm sàng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      187,
+      199
+    ],
+    "confidence": 0.9454956479144819,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      232,
+      239
+    ],
+    "confidence": 0.8843711018562317,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      249,
+      259
+    ],
+    "confidence": 0.9978506962458292,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "u tuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      294,
+      299
+    ],
+    "confidence": 0.9968600432078045,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "u tuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      363,
+      368
+    ],
+    "confidence": 0.9473175048828125,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      414,
+      423
+    ],
+    "confidence": 0.9865579903125763,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương ổ tiêu xương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      438,
+      461
+    ],
+    "confidence": 0.8741502195871415,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      474,
+      483
+    ],
+    "confidence": 0.9334041848778725,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đa u tủy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      485,
+      493
+    ],
+    "confidence": 0.927546819878949,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

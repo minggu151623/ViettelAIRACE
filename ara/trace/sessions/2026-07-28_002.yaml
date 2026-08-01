@@ -1,0 +1,34 @@
+session:
+  id: "2026-07-28_002"
+  timestamp: "2026-07-28T00:32+07:00"
+  summary: "Recovered and reliability-scored an older official annotation example."
+
+events_logged:
+  - type: experiment
+    id: N08
+    provenance: ai-executed
+    summary: "Found high-level ICD multiplicity evidence while rejecting OCR strings as exact gold."
+  - type: claim
+    id: C06
+    provenance: ai-suggested
+    summary: "Diagnosis candidate sets may contain both parent and specific ICD codes."
+
+ai_actions:
+  - action: "Searched public snapshots for Track 2 solutions and recovered the older organizer overview."
+    provenance: ai-executed
+    files_changed: ["literature/organizer_overview_example.md"]
+  - action: "Revised candidate-policy findings without generating a submission."
+    provenance: ai-executed
+    files_changed: ["findings.md", "research-log.md", "research-state.yaml"]
+
+claims_touched:
+  - id: C06
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Measure H7 on the leaderboard."
+  - "Develop independently validated Vietnamese ICD parent/specific linking after coordinate policy is measured."
+
+ai_suggestions_pending:
+  - "Do not use the recovered overview's OCR text as span-level training data."

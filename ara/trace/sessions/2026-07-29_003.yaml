@@ -1,0 +1,44 @@
+session:
+  id: "2026-07-29_003"
+  timestamp: "2026-07-29T02:06+07:00"
+  summary: "V18 semantic bundle regressed against H7; local CRLF ablations were generated without submission."
+
+events_logged:
+  - type: experiment
+    id: N20
+    provenance: user
+    summary: >
+      User-reported V18 score was 1.7751, below H7's 1.7951; assertion fell
+      while candidate score stayed unchanged.
+  - type: dead_end
+    id: C17
+    provenance: ai-suggested
+    summary: >
+      The combined V18 semantic bundle is not a safe next submission because
+      it regresses externally against isolated CRLF.
+  - type: decision
+    id: D08
+    provenance: ai-suggested
+    summary: >
+      Keep H7 as the best artifact and isolate semantic axes locally before
+      creating or submitting another ZIP.
+
+ai_actions:
+  - action: "Generated three unsubmitted CRLF ablation directories and reports."
+    provenance: ai-executed
+    files_changed:
+      - "experiments/H18_semantic_isolation/assertions_crlf"
+      - "experiments/H18_semantic_isolation/labs_crlf"
+      - "experiments/H18_semantic_isolation/rxnorm_crlf"
+
+claims_touched:
+  - id: C17
+    action: created
+    provenance: user
+
+open_threads:
+  - "Determine whether assertion refresh or lab splitting caused the regression."
+  - "Do not submit V18 or a new semantic bundle again without an isolated rationale."
+
+ai_suggestions_pending:
+  - "H7 remains the current best submission artifact."

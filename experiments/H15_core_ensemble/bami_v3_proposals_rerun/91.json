@@ -1,0 +1,374 @@
+[
+  {
+    "text": "Viêm nội tâm mạc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      64
+    ],
+    "confidence": 0.5785196125507355,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rối loạn chức năng tâm thất phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      68,
+      100
+    ],
+    "confidence": 0.6047652342489788,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      102,
+      110
+    ],
+    "confidence": 0.45819375663995743,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Suy thận mạn giai V",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      159,
+      178
+    ],
+    "confidence": 0.5561503767967224,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ghép thận thất bại",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      351,
+      369
+    ],
+    "confidence": 0.4597269631922245,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "coumadin 3",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      401,
+      411
+    ],
+    "confidence": 0.2258703738451004,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "INR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      462,
+      465
+    ],
+    "confidence": 0.25566416233778,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy máu mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      529,
+      541
+    ],
+    "confidence": 0.6988863547643026,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chỉ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      622,
+      625
+    ],
+    "confidence": 0.2500733435153961,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "INR 1.7",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      672,
+      679
+    ],
+    "confidence": 0.3086546778678894,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy máu mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      752,
+      764
+    ],
+    "confidence": 0.7037325302759806,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      774,
+      782
+    ],
+    "confidence": 0.7155459523200989,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      792,
+      799
+    ],
+    "confidence": 0.7224484086036682,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      809,
+      817
+    ],
+    "confidence": 0.7156792879104614,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      828,
+      836
+    ],
+    "confidence": 0.7149355411529541,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      844,
+      847
+    ],
+    "confidence": 0.6219561696052551,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nhiệt độ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      965,
+      973
+    ],
+    "confidence": 0.28765399008989334,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "36.5 độ C",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      976,
+      985
+    ],
+    "confidence": 0.33419507145881655,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      986,
+      990
+    ],
+    "confidence": 0.31901177763938904,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "88 l/p",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      993,
+      999
+    ],
+    "confidence": 0.31763458624482155,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1000,
+      1005
+    ],
+    "confidence": 0.2578847408294678,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1000,
+      1008
+    ],
+    "confidence": 0.3094666451215744,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "120/70 mmHg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1010,
+      1021
+    ],
+    "confidence": 0.34721649810671806,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nhịp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1022,
+      1026
+    ],
+    "confidence": 0.26130032539367676,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nhịp thở: 20 l/p",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1022,
+      1038
+    ],
+    "confidence": 0.3337839437382562,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "SPO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1039,
+      1043
+    ],
+    "confidence": 0.32812756299972534,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "92 %",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1046,
+      1050
+    ],
+    "confidence": 0.30355314910411835,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "INR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1075,
+      1078
+    ],
+    "confidence": 0.321679450571537,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngưỡng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1084,
+      1090
+    ],
+    "confidence": 0.320008248090744,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "1.7",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1100,
+      1103
+    ],
+    "confidence": 0.3769686122735341,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "heparin truyền tĩnh mạch liên tục",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1130,
+      1163
+    ],
+    "confidence": 0.35400259122252464,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  }
+]

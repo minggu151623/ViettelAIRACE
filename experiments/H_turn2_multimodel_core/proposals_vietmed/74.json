@@ -1,0 +1,378 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      41
+    ],
+    "confidence": 0.9979997277259827,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Viêm loét",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      66
+    ],
+    "confidence": 0.6997208948488589,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      114,
+      122
+    ],
+    "confidence": 0.9813912851469857,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "18 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "position": [
+      263,
+      270
+    ],
+    "confidence": 0.7730039854844412,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bị bệnh nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      277,
+      292
+    ],
+    "confidence": 0.9953558697192758,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      405,
+      410
+    ],
+    "confidence": 0.9951840043067932,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      459,
+      467
+    ],
+    "confidence": 0.9973487513405936,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      498,
+      503
+    ],
+    "confidence": 0.9961140155792236,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      649,
+      657
+    ],
+    "confidence": 0.9982180471221607,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng/khó chịu vùng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      664,
+      686
+    ],
+    "confidence": 0.8900118600070274,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "LL",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      734,
+      736
+    ],
+    "confidence": 0.7713210582733154,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      745,
+      753
+    ],
+    "confidence": 0.9985646208127339,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      783,
+      786
+    ],
+    "confidence": 0.5909910202026367,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất cảm giác ngon",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      804,
+      821
+    ],
+    "confidence": 0.9929319037632509,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy nhược",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      842,
+      851
+    ],
+    "confidence": 0.9952314272522926,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      870,
+      878
+    ],
+    "confidence": 0.9987339079380035,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng/khó chịu vùng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1124,
+      1146
+    ],
+    "confidence": 0.9345905438166897,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1251,
+      1254
+    ],
+    "confidence": 0.8169674277305603,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "run rẩ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1258,
+      1264
+    ],
+    "confidence": 0.8538359105587006,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất cảm giác ngon",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1267,
+      1284
+    ],
+    "confidence": 0.9899811080910943,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy nhược",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1300,
+      1309
+    ],
+    "confidence": 0.6342211663722992,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1322,
+      1330
+    ],
+    "confidence": 0.9986256539821625,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiểu niệu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1332,
+      1342
+    ],
+    "confidence": 0.8932934234539667,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy dịch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1344,
+      1353
+    ],
+    "confidence": 0.9972233176231384,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1429,
+      1437
+    ],
+    "confidence": 0.9985939289132755,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tác dụng phụ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1454,
+      1466
+    ],
+    "confidence": 0.9983390616132067,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "position": [
+      1471,
+      1485
+    ],
+    "confidence": 0.9794012287743071,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "position": [
+      1486,
+      1492
+    ],
+    "confidence": 0.9604151844978333,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "position": [
+      1505,
+      1519
+    ],
+    "confidence": 0.9914042618539599,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "position": [
+      1520,
+      1526
+    ],
+    "confidence": 0.9789738456408182,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

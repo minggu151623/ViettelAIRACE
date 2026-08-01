@@ -1,0 +1,46 @@
+[
+  {
+    "text": "chuyển dạ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "Z34.9"
+    ],
+    "assertions": [],
+    "position": [
+      27,
+      36
+    ]
+  },
+  {
+    "text": "chuyển dạ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "Z34.9"
+    ],
+    "assertions": [],
+    "position": [
+      82,
+      91
+    ]
+  },
+  {
+    "text": "co",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      105,
+      107
+    ]
+  },
+  {
+    "text": "vỡ ố",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      175,
+      179
+    ]
+  }
+]

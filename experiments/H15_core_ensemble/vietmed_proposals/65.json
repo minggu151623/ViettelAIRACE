@@ -1,0 +1,152 @@
+[
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      0,
+      5
+    ],
+    "confidence": 0.9941018223762512,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      99,
+      107
+    ],
+    "confidence": 0.9765208789280483,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra máu đỏ tươi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      108,
+      122
+    ],
+    "confidence": 0.6951121584727213,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      128,
+      132
+    ],
+    "confidence": 0.5558939576148987,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      196,
+      204
+    ],
+    "confidence": 0.9819074187959943,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra máu đỏ tươi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      205,
+      219
+    ],
+    "confidence": 0.8385029313656,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      225,
+      229
+    ],
+    "confidence": 0.6197431087493896,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      232,
+      241
+    ],
+    "confidence": 0.9983992204070091,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      334,
+      343
+    ],
+    "confidence": 0.9986603558063507,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      393,
+      397
+    ],
+    "confidence": 0.988365650177002,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "rối loạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      489,
+      497
+    ],
+    "confidence": 0.9926562564713615,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F39"
+    ]
+  },
+  {
+    "text": "Cr",
+    "type": "THUỐC",
+    "position": [
+      624,
+      626
+    ],
+    "confidence": 0.9397332668304443,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

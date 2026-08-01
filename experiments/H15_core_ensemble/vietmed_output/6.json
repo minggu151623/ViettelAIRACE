@@ -1,0 +1,90 @@
+[
+  {
+    "text": "Nghẽn tắc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I65.29"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      50,
+      59
+    ]
+  },
+  {
+    "text": "hẹp động mạch cảnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I65.29"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      63,
+      81
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      235,
+      242
+    ]
+  },
+  {
+    "text": "Doppler động mạch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      243,
+      260
+    ]
+  },
+  {
+    "text": "nghẽn tắc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I65.29"
+    ],
+    "assertions": [],
+    "position": [
+      264,
+      273
+    ]
+  },
+  {
+    "text": "hẹp động mạch cảnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I65.29"
+    ],
+    "assertions": [],
+    "position": [
+      277,
+      295
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      320,
+      327
+    ]
+  },
+  {
+    "text": "động mạch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      487,
+      496
+    ]
+  }
+]

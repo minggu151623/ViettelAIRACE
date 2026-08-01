@@ -1,0 +1,430 @@
+[
+  {
+    "text": "tăng calci máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      61,
+      75
+    ],
+    "confidence": 0.6172927429533412,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E83.52"
+    ]
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      100,
+      107
+    ],
+    "confidence": 0.9979813893636068,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      108,
+      116
+    ],
+    "confidence": 0.9703403881617955,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "cường cận giáp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      148,
+      162
+    ],
+    "confidence": 0.9978721829561087,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E21.0"
+    ]
+  },
+  {
+    "text": "nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      163,
+      174
+    ],
+    "confidence": 0.8590857863426209,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E21.0"
+    ]
+  },
+  {
+    "text": "Xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      181,
+      197
+    ],
+    "confidence": 0.9953322184085847,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I70.90"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      208,
+      211
+    ],
+    "confidence": 0.9979131817817688,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I20.9"
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      267,
+      271
+    ],
+    "confidence": 0.9905118346214294,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      343,
+      347
+    ],
+    "confidence": 0.9881510734558105,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngoại trú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      410,
+      419
+    ],
+    "confidence": 0.7887811735272408,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "canxi",
+    "type": "THUỐC",
+    "position": [
+      446,
+      451
+    ],
+    "confidence": 0.9911380648612976,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "canxi",
+    "type": "THUỐC",
+    "position": [
+      461,
+      466
+    ],
+    "confidence": 0.991830337047577,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      673,
+      681
+    ],
+    "confidence": 0.9915875026157924,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      683,
+      690
+    ],
+    "confidence": 0.9985874593257904,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      692,
+      701
+    ],
+    "confidence": 0.9985642433166504,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "động kinh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      741,
+      750
+    ],
+    "confidence": 0.9914847016334534,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "MRI",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      769,
+      772
+    ],
+    "confidence": 0.9056481122970581,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "trú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      779,
+      782
+    ],
+    "confidence": 0.56513512134552,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      841,
+      851
+    ],
+    "confidence": 0.9984994928042094,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      895,
+      898
+    ],
+    "confidence": 0.9984203577041626,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      933,
+      936
+    ],
+    "confidence": 0.9981726408004761,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      996,
+      1009
+    ],
+    "confidence": 0.7985628935006949,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "4917"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1053,
+      1056
+    ],
+    "confidence": 0.9963436722755432,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bị",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1080,
+      1082
+    ],
+    "confidence": 0.7127456665039062,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xétí nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1159,
+      1170
+    ],
+    "confidence": 0.9870860815048218,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "canxi",
+    "type": "THUỐC",
+    "position": [
+      1177,
+      1182
+    ],
+    "confidence": 0.9908630728721619,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "canxi",
+    "type": "THUỐC",
+    "position": [
+      1202,
+      1207
+    ],
+    "confidence": 0.9911599636077881,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "canx",
+    "type": "THUỐC",
+    "position": [
+      1226,
+      1230
+    ],
+    "confidence": 0.9546460658311844,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1288,
+      1297
+    ],
+    "confidence": 0.9870974719524384,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "MRI ngoại trú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1308,
+      1321
+    ],
+    "confidence": 0.827653557062149,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1421,
+      1426
+    ],
+    "confidence": 0.9865922331809998,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Laxis 20mg tiêm tĩnh mạch",
+    "type": "THUỐC",
+    "position": [
+      1441,
+      1466
+    ],
+    "confidence": 0.9281135082244873,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "1719290"
+    ]
+  },
+  {
+    "text": "Natriclori 0.9 %  tĩnh mạch",
+    "type": "THUỐC",
+    "position": [
+      1486,
+      1513
+    ],
+    "confidence": 0.953361576795578,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

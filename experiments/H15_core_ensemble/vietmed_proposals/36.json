@@ -1,0 +1,496 @@
+[
+  {
+    "text": "Bệnh thận đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      41,
+      58
+    ],
+    "confidence": 0.9732822904532606,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh thận đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      68,
+      85
+    ],
+    "confidence": 0.974613484333862,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      170,
+      175
+    ],
+    "confidence": 0.9918349981307983,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "aza",
+    "type": "THUỐC",
+    "position": [
+      208,
+      211
+    ],
+    "confidence": 0.7776048183441162,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thiop",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      211,
+      216
+    ],
+    "confidence": 0.5783505082130432,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      294,
+      302
+    ],
+    "confidence": 0.7102288603782654,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "152633"
+    ]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      324,
+      332
+    ],
+    "confidence": 0.59377121925354,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "152633"
+    ]
+  },
+  {
+    "text": "Suy thận",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      386,
+      394
+    ],
+    "confidence": 0.9568850823811123,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "position": [
+      457,
+      467
+    ],
+    "confidence": 0.9643629193305969,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2913"
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "position": [
+      514,
+      524
+    ],
+    "confidence": 0.9830444097518921,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2913"
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "position": [
+      573,
+      583
+    ],
+    "confidence": 0.9786166191101074,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2913"
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      626,
+      635
+    ],
+    "confidence": 0.9983030259609222,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      653,
+      661
+    ],
+    "confidence": 0.8784804940223694,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "152633"
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "position": [
+      692,
+      702
+    ],
+    "confidence": 0.980231511592865,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2913"
+    ]
+  },
+  {
+    "text": "prerenal",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      738,
+      746
+    ],
+    "confidence": 0.7395805343985558,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "virus bk",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      816,
+      824
+    ],
+    "confidence": 0.969124327103297,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "creatinin",
+    "type": "THUỐC",
+    "position": [
+      839,
+      848
+    ],
+    "confidence": 0.9811622699101766,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      869,
+      876
+    ],
+    "confidence": 0.9981237252553304,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "position": [
+      953,
+      963
+    ],
+    "confidence": 0.9864416003227234,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2913"
+    ]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1024,
+      1036
+    ],
+    "confidence": 0.978660372170535,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "position": [
+      1179,
+      1189
+    ],
+    "confidence": 0.9898736000061035,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2913"
+    ]
+  },
+  {
+    "text": "Suy thận",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1271,
+      1279
+    ],
+    "confidence": 0.9584058438028608,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1358,
+      1367
+    ],
+    "confidence": 0.9983030259609222,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      1385,
+      1393
+    ],
+    "confidence": 0.8784804940223694,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "152633"
+    ]
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1438,
+      1443
+    ],
+    "confidence": 0.9842705130577087,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1529,
+      1541
+    ],
+    "confidence": 0.978660372170535,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "kiểm tra ngoại trú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1700,
+      1718
+    ],
+    "confidence": 0.9748744465646701,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "position": [
+      1736,
+      1746
+    ],
+    "confidence": 0.9809866189956665,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2913"
+    ]
+  },
+  {
+    "text": "sinh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1834,
+      1838
+    ],
+    "confidence": 0.6087871789932251,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2000,
+      2005
+    ],
+    "confidence": 0.9860337376594543,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2025,
+      2034
+    ],
+    "confidence": 0.9898056611418724,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2045,
+      2057
+    ],
+    "confidence": 0.9872442014289625,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2139,
+      2149
+    ],
+    "confidence": 0.9500070148044162,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Sinh thiết thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2191,
+      2206
+    ],
+    "confidence": 0.7266665195661878,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2255,
+      2264
+    ],
+    "confidence": 0.9873300120234489,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2282,
+      2289
+    ],
+    "confidence": 0.9975243409474691,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "BK",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2298,
+      2300
+    ],
+    "confidence": 0.9765327572822571,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "kháng thể hữu",
+    "type": "THUỐC",
+    "position": [
+      2374,
+      2387
+    ],
+    "confidence": 0.8109790775924921,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

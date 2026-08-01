@@ -1,0 +1,725 @@
+[
+  {
+    "text": "28 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "assertions": [],
+    "position": [
+      40,
+      47
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      74,
+      82
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      452,
+      460
+    ]
+  },
+  {
+    "text": "hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      475,
+      478
+    ]
+  },
+  {
+    "text": "vi khuẩn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      546,
+      554
+    ]
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      569,
+      579
+    ]
+  },
+  {
+    "text": "Viêm quanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      613,
+      623
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K21.0"
+    ],
+    "assertions": [],
+    "position": [
+      661,
+      665
+    ]
+  },
+  {
+    "text": "nhiễm vi khuẩn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      677,
+      691
+    ]
+  },
+  {
+    "text": "sang chấn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      693,
+      702
+    ]
+  },
+  {
+    "text": "Viêm nha chu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      712,
+      724
+    ]
+  },
+  {
+    "text": "nhiễm trùng lợi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      738,
+      753
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      780,
+      783
+    ]
+  },
+  {
+    "text": "nha",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      788,
+      791
+    ]
+  },
+  {
+    "text": "lung lay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      799,
+      807
+    ]
+  },
+  {
+    "text": "sưng nướu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      809,
+      818
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      823,
+      831
+    ]
+  },
+  {
+    "text": "hôi miệng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      838,
+      847
+    ]
+  },
+  {
+    "text": "mủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      852,
+      854
+    ]
+  },
+  {
+    "text": "Viêm nha chu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      856,
+      868
+    ]
+  },
+  {
+    "text": "hại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      908,
+      911
+    ]
+  },
+  {
+    "text": "mất răng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      931,
+      939
+    ]
+  },
+  {
+    "text": "viêm khớp dạng thấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      945,
+      964
+    ]
+  },
+  {
+    "text": "bệnh hô hấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      970,
+      981
+    ]
+  },
+  {
+    "text": "đột quỵ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      983,
+      990
+    ]
+  },
+  {
+    "text": "canxi",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1003,
+      1008
+    ]
+  },
+  {
+    "text": "vitamin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1012,
+      1019
+    ]
+  },
+  {
+    "text": "Thiếu hụt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1021,
+      1030
+    ]
+  },
+  {
+    "text": "canxi",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1031,
+      1036
+    ]
+  },
+  {
+    "text": "loãng xương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1044,
+      1055
+    ]
+  },
+  {
+    "text": "sâu răng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1057,
+      1065
+    ]
+  },
+  {
+    "text": "viêm nha chu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1083,
+      1095
+    ]
+  },
+  {
+    "text": "Hô",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1097,
+      1099
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1110,
+      1118
+    ]
+  },
+  {
+    "text": "thiếu hụt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1150,
+      1159
+    ]
+  },
+  {
+    "text": "vitamin K",
+    "type": "THUỐC",
+    "candidates": [
+      "11258"
+    ],
+    "assertions": [],
+    "position": [
+      1160,
+      1169
+    ]
+  },
+  {
+    "text": "Tiểu đường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1173,
+      1183
+    ]
+  },
+  {
+    "text": "Hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1185,
+      1188
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1198,
+      1206
+    ]
+  },
+  {
+    "text": "tiểu đường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1238,
+      1248
+    ]
+  },
+  {
+    "text": "insulin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1292,
+      1299
+    ]
+  },
+  {
+    "text": "tiểu đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1313,
+      1323
+    ]
+  },
+  {
+    "text": "suy yếu hệ miễn dịch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1324,
+      1344
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1424,
+      1432
+    ]
+  },
+  {
+    "text": "Tác dụng phụ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1475,
+      1487
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1492,
+      1497
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1519,
+      1524
+    ]
+  },
+  {
+    "text": "hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1536,
+      1539
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1550,
+      1558
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1579,
+      1584
+    ]
+  },
+  {
+    "text": "histamin H1",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1596,
+      1607
+    ]
+  },
+  {
+    "text": "thuốc chống trầm",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1609,
+      1625
+    ]
+  },
+  {
+    "text": "thuốc lợi tiểu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1631,
+      1645
+    ]
+  },
+  {
+    "text": "thuốc kháng sinh",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1647,
+      1663
+    ]
+  },
+  {
+    "text": "thuốc chống nôn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1665,
+      1680
+    ]
+  },
+  {
+    "text": "vi khuẩn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1778,
+      1786
+    ]
+  },
+  {
+    "text": "hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1801,
+      1804
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1812,
+      1820
+    ]
+  },
+  {
+    "text": "mất răng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1834,
+      1842
+    ]
+  },
+  {
+    "text": "bệnh mạch máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1850,
+      1863
+    ]
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J44.9"
+    ],
+    "assertions": [],
+    "position": [
+      1881,
+      1900
+    ]
+  },
+  {
+    "text": "Ngưng thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1916,
+      1925
+    ]
+  },
+  {
+    "text": "tắc nghẽn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1937,
+      1946
+    ]
+  },
+  {
+    "text": "Ung thư biểu mô",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1969,
+      1984
+    ]
+  },
+  {
+    "text": "loại bỏ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2145,
+      2152
+    ]
+  },
+  {
+    "text": "vi khuẩn gây hại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2153,
+      2169
+    ]
+  },
+  {
+    "text": "mùi hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2175,
+      2182
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K21.0"
+    ],
+    "assertions": [],
+    "position": [
+      2186,
+      2190
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2220,
+      2223
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2292,
+      2300
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2318,
+      2326
+    ]
+  },
+  {
+    "text": "hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2340,
+      2343
+    ]
+  },
+  {
+    "text": "tích tụ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2406,
+      2413
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K21.0"
+    ],
+    "assertions": [],
+    "position": [
+      2454,
+      2458
+    ]
+  },
+  {
+    "text": "tái tạo",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2515,
+      2522
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2598,
+      2603
+    ]
+  }
+]

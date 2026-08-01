@@ -1,0 +1,39 @@
+session:
+  id: "2026-08-01_002"
+  timestamp: "2026-08-01T16:16+07:00"
+  summary: "Recorded H20's external jump from 21.8139 to 29.8409 and promoted it to the frozen baseline."
+
+events_logged:
+  - type: experiment
+    id: N24
+    provenance: user
+    summary: >
+      User-reported matching H20 artifact scored 29.8409, with WER 66.7969,
+      J_assertion 37.7055, and J_candidates 21.4207.
+  - type: claim
+    id: C20
+    provenance: ai-suggested
+    summary: >
+      H20 is externally supported as a combined architecture-scale intervention;
+      its candidate and recall sublayers remain causally confounded.
+
+ai_actions:
+  - action: "Decomposed the +8.0270 gain under the official 30/30/40 formula."
+    provenance: ai-executed
+    files_changed: ["experiments/H20_turn2_expanded_pair/analysis.md",
+      "research-state.yaml", "research-log.md", "findings.md"]
+  - action: "Promoted H20 to the frozen external baseline in ARA provenance."
+    provenance: ai-executed
+    files_changed: ["ara/trace/exploration_tree.yaml", "ara/logic/claims.md"]
+
+claims_touched:
+  - id: C20
+    action: advanced
+    provenance: user
+
+open_threads:
+  - "Separate H19 candidate effects from H20 learned-pair recall without blind threshold tuning."
+  - "Find a structurally independent source/model or overlap-replacement policy for the next major gain."
+
+ai_suggestions_pending:
+  - "Freeze H20 at 29.8409 and use it as the sole baseline for future experiments."

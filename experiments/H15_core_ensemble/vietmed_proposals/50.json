@@ -1,0 +1,546 @@
+[
+  {
+    "text": "hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      84,
+      93
+    ],
+    "confidence": 0.9985131157769097,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J45"
+    ]
+  },
+  {
+    "text": "hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      113,
+      122
+    ],
+    "confidence": 0.9981620228952832,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J45"
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      127,
+      132
+    ],
+    "confidence": 0.9921976923942566,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "albuterol",
+    "type": "THUỐC",
+    "position": [
+      159,
+      168
+    ],
+    "confidence": 0.7767734593815274,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "435"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      246,
+      253
+    ],
+    "confidence": 0.9982582628726959,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      332,
+      335
+    ],
+    "confidence": 0.9984533786773682,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      350,
+      352
+    ],
+    "confidence": 0.9972700476646423,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      388,
+      395
+    ],
+    "confidence": 0.9985950887203217,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      482,
+      485
+    ],
+    "confidence": 0.9983854293823242,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      500,
+      502
+    ],
+    "confidence": 0.9971747398376465,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      526,
+      533
+    ],
+    "confidence": 0.9982879459857941,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      642,
+      646
+    ],
+    "confidence": 0.9921519756317139,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      673,
+      680
+    ],
+    "confidence": 0.9984433948993683,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "prednisone",
+    "type": "THUỐC",
+    "position": [
+      747,
+      757
+    ],
+    "confidence": 0.9718504071235656,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "position": [
+      771,
+      782
+    ],
+    "confidence": 0.9457084915854714,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "position": [
+      820,
+      831
+    ],
+    "confidence": 0.957582874731584,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      845,
+      854
+    ],
+    "confidence": 0.9975381791591644,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "position": [
+      884,
+      896
+    ],
+    "confidence": 0.930921251575152,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "18631"
+    ]
+  },
+  {
+    "text": "prednisone 40 mg",
+    "type": "THUỐC",
+    "position": [
+      915,
+      931
+    ],
+    "confidence": 0.9684335827827454,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "prednisone",
+    "type": "THUỐC",
+    "position": [
+      1010,
+      1020
+    ],
+    "confidence": 0.9718182802200317,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1051,
+      1058
+    ],
+    "confidence": 0.9973520338535309,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1143,
+      1150
+    ],
+    "confidence": 0.9969272911548615,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "mất ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1197,
+      1204
+    ],
+    "confidence": 0.9946549534797668,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1208,
+      1211
+    ],
+    "confidence": 0.9979815483093262,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1251,
+      1258
+    ],
+    "confidence": 0.9403222699960073,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đau vùng xoang",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1287,
+      1301
+    ],
+    "confidence": 0.8874648988246917,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1311,
+      1318
+    ],
+    "confidence": 0.9612714250882467,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1376,
+      1380
+    ],
+    "confidence": 0.9885003566741943,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "prednisone",
+    "type": "THUỐC",
+    "position": [
+      1444,
+      1454
+    ],
+    "confidence": 0.948251873254776,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "position": [
+      1468,
+      1479
+    ],
+    "confidence": 0.9388458186929877,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "position": [
+      1487,
+      1498
+    ],
+    "confidence": 0.9638033942742781,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1502,
+      1511
+    ],
+    "confidence": 0.9980852007865906,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "position": [
+      1539,
+      1551
+    ],
+    "confidence": 0.9400484015544256,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "18631"
+    ]
+  },
+  {
+    "text": "prednisone 40 mg",
+    "type": "THUỐC",
+    "position": [
+      1561,
+      1577
+    ],
+    "confidence": 0.9710923552513122,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "8640"
+    ]
+  },
+  {
+    "text": "Đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1673,
+      1680
+    ],
+    "confidence": 0.9535152018070221,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Mất ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1720,
+      1727
+    ],
+    "confidence": 0.8619443575541178,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1779,
+      1788
+    ],
+    "confidence": 0.9885760769248009,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1799,
+      1816
+    ],
+    "confidence": 0.9691959768533707,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1847,
+      1856
+    ],
+    "confidence": 0.9984289890243893,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "magnesium",
+    "type": "THUỐC",
+    "position": [
+      1954,
+      1963
+    ],
+    "confidence": 0.9925951361656189,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "6574"
+    ]
+  },
+  {
+    "text": "prednisone",
+    "type": "THUỐC",
+    "position": [
+      1979,
+      1989
+    ],
+    "confidence": 0.9657785177230835,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "8640"
+    ]
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "text": "sảy thai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      78,
+      86
+    ],
+    "confidence": 0.9894495947020394,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      97,
+      114
+    ],
+    "confidence": 0.9774284306913614,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng đông",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      151,
+      160
+    ],
+    "confidence": 0.9682729542255402,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thrombophilia",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      208,
+      221
+    ],
+    "confidence": 0.9550759132091815,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "que thử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      272,
+      279
+    ],
+    "confidence": 0.9524234533309937,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thrombophilia",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      364,
+      377
+    ],
+    "confidence": 0.9744471027300908,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bê",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      482,
+      484
+    ],
+    "confidence": 0.5715597867965698,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Thrombophilia",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      784,
+      797
+    ],
+    "confidence": 0.9782814750304589,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vón cục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      848,
+      855
+    ],
+    "confidence": 0.8644308298826218,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng đông máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      881,
+      894
+    ],
+    "confidence": 0.9753506109118462,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đột biến",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      914,
+      922
+    ],
+    "confidence": 0.9595636980874198,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sẩy thai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      978,
+      986
+    ],
+    "confidence": 0.9964718307767596,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sinh non",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      988,
+      996
+    ],
+    "confidence": 0.9847866552216666,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiền sản giật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      998,
+      1011
+    ],
+    "confidence": 0.9946370862779164,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc chống đông",
+    "type": "THUỐC",
+    "position": [
+      1036,
+      1052
+    ],
+    "confidence": 0.9889929234981537,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc chống đông",
+    "type": "THUỐC",
+    "position": [
+      1062,
+      1078
+    ],
+    "confidence": 0.9912465532620748,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1124,
+      1130
+    ],
+    "confidence": 0.9949328064918518,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1195,
+      1203
+    ],
+    "confidence": 0.9980423535619464,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1321,
+      1326
+    ],
+    "confidence": 0.9961321353912354,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tắc mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1420,
+      1428
+    ],
+    "confidence": 0.9987627012389046,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cục máu đông",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1432,
+      1444
+    ],
+    "confidence": 0.9987854253162037,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

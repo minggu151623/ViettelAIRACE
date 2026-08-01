@@ -1,0 +1,387 @@
+[
+  {
+    "text": "junosto",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      199,
+      206
+    ]
+  },
+  {
+    "text": "ung thư biểu mô",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      238,
+      253
+    ]
+  },
+  {
+    "text": "mật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      261,
+      264
+    ]
+  },
+  {
+    "text": "vô sinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      356,
+      363
+    ]
+  },
+  {
+    "text": "có thai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      401,
+      408
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      424,
+      428
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      507,
+      511
+    ]
+  },
+  {
+    "text": "xét nghiệm tinh dịch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      519,
+      539
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      562,
+      566
+    ]
+  },
+  {
+    "text": "xét nghiệm cận lâm sàng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      588,
+      611
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      616,
+      623
+    ]
+  },
+  {
+    "text": "chụp tử cung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      664,
+      676
+    ]
+  },
+  {
+    "text": "xét nghiệm nội tiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      749,
+      768
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      931,
+      935
+    ]
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      948,
+      955
+    ]
+  },
+  {
+    "text": "Hội chứng buồng trứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      982,
+      1003
+    ]
+  },
+  {
+    "text": "đa nang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1004,
+      1011
+    ]
+  },
+  {
+    "text": "rậm lông",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1021,
+      1029
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1031,
+      1038
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1040,
+      1047
+    ]
+  },
+  {
+    "text": "nang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1069,
+      1073
+    ]
+  },
+  {
+    "text": "vô sinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1108,
+      1115
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1169,
+      1177
+    ]
+  },
+  {
+    "text": ", sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1182,
+      1187
+    ]
+  },
+  {
+    "text": "tắc nghẽn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1289,
+      1298
+    ]
+  },
+  {
+    "text": "mẫu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1545,
+      1548
+    ]
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C18.9"
+    ],
+    "assertions": [],
+    "position": [
+      1605,
+      1612
+    ]
+  },
+  {
+    "text": "buồn nôn, nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1939,
+      1952
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1954,
+      1962
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1969,
+      1976
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2011,
+      2014
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2149,
+      2153
+    ]
+  },
+  {
+    "text": "buồn nôn, nôn, sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2366,
+      2384
+    ]
+  },
+  {
+    "text": "tắc nghẽn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2486,
+      2495
+    ]
+  },
+  {
+    "text": "mẫu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2731,
+      2734
+    ]
+  },
+  {
+    "text": "ung thư biểu mô",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2798,
+      2813
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3002,
+      3005
+    ]
+  },
+  {
+    "text": "lấy mẫu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3106,
+      3113
+    ]
+  },
+  {
+    "text": "ung thư biểu mô",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3187,
+      3202
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3221,
+      3230
+    ]
+  },
+  {
+    "text": "tắc nghẽn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3280,
+      3289
+    ]
+  }
+]

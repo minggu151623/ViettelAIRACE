@@ -1,0 +1,193 @@
+[
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [50, 57]
+  },
+  {
+    "text": "đái tháo đường được kiểm soát bằng chế độ ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [65, 109]
+  },
+  {
+    "text": "ngừng thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [117, 134]
+  },
+  {
+    "text": "tiền sử lâm sàng suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [142, 182]
+  },
+  {
+    "text": "Dị ứng furosemide",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [196, 213]
+  },
+  {
+    "text": "furosemide",
+    "type": "THUỐC",
+    "candidates": ["4603"],
+    "assertions": ["isHistorical"],
+    "position": [203, 213]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [265, 272]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [374, 381]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [455, 462]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ vì thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [470, 503]
+  },
+  {
+    "text": "căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [511, 583]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [599, 601]
+  },
+  {
+    "text": "đờm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [605, 608]
+  },
+  {
+    "text": "chủ quan sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [622, 634]
+  },
+  {
+    "text": "phù chi dưới (ổn định)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [642, 664]
+  },
+  {
+    "text": "Thời gian: kéo dài 5 phút (căng cứng vai trái)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [732, 778]
+  },
+  {
+    "text": "Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [786, 840]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [901, 908]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [910, 912]
+  },
+  {
+    "text": "đờm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [916, 919]
+  },
+  {
+    "text": "chủ quan sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [927, 939]
+  },
+  {
+    "text": "bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [998, 1064]
+  },
+  {
+    "text": "gọi EMS",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1072, 1079]
+  },
+  {
+    "text": "thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1111, 1162]
+  },
+  {
+    "text": "thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1310, 1361]
+  },
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "candidates": ["197419"],
+    "assertions": [],
+    "position": [1436, 1453]
+  },
+  {
+    "text": "vancomycin 1 gram",
+    "type": "THUỐC",
+    "candidates": ["11124"],
+    "assertions": [],
+    "position": [1470, 1487]
+  },
+  {
+    "text": "levofloxacin 750mg iv",
+    "type": "THUỐC",
+    "candidates": ["311296"],
+    "assertions": [],
+    "position": [1504, 1525]
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "candidates": ["1536467"],
+    "assertions": [],
+    "position": [1542, 1555]
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "type": "THUỐC",
+    "candidates": ["1743704"],
+    "assertions": [],
+    "position": [1619, 1646]
+  }
+]

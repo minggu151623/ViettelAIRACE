@@ -1,0 +1,366 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      25,
+      32
+    ],
+    "confidence": 0.9979813893636068,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      33,
+      41
+    ],
+    "confidence": 0.9703403881617955,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "hội chứng turn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      62
+    ],
+    "confidence": 0.8350425465748861,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      87,
+      100
+    ],
+    "confidence": 0.9979335014466887,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "Ung thư đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      146,
+      163
+    ],
+    "confidence": 0.8893837374799392,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C18.9"
+    ]
+  },
+  {
+    "text": "Thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      178,
+      193
+    ],
+    "confidence": 0.9587506903542412,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "coumadin",
+    "type": "THUỐC",
+    "position": [
+      204,
+      212
+    ],
+    "confidence": 0.8146929070353508,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      222,
+      237
+    ],
+    "confidence": 0.9658393745748407,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "coumadin",
+    "type": "THUỐC",
+    "position": [
+      248,
+      256
+    ],
+    "confidence": 0.8590810671448708,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      328,
+      333
+    ],
+    "confidence": 0.9926436543464661,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "coumadin",
+    "type": "THUỐC",
+    "position": [
+      355,
+      363
+    ],
+    "confidence": 0.9133002534508705,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      412,
+      419
+    ],
+    "confidence": 0.9982026815414429,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      455,
+      462
+    ],
+    "confidence": 0.9983270168304443,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đờm ở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      482,
+      487
+    ],
+    "confidence": 0.8363046497106552,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      511,
+      513
+    ],
+    "confidence": 0.9951692223548889,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      568,
+      571
+    ],
+    "confidence": 0.9981573224067688,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      590,
+      597
+    ],
+    "confidence": 0.9965501725673676,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      633,
+      636
+    ],
+    "confidence": 0.9980960488319397,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      669,
+      676
+    ],
+    "confidence": 0.9974510371685028,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      730,
+      737
+    ],
+    "confidence": 0.9981878697872162,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Cơn nhịp nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      762,
+      776
+    ],
+    "confidence": 0.9916574555438953,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      789,
+      792
+    ],
+    "confidence": 0.9981573224067688,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "x2",
+    "type": "THUỐC",
+    "position": [
+      1044,
+      1046
+    ],
+    "confidence": 0.663508951663971,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "metoprolol 5mg iv",
+    "type": "THUỐC",
+    "position": [
+      1053,
+      1070
+    ],
+    "confidence": 0.8977754294872284,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "866508"
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1092,
+      1101
+    ],
+    "confidence": 0.9858670458197594,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "spo2",
+    "type": "THUỐC",
+    "position": [
+      1170,
+      1174
+    ],
+    "confidence": 0.867506131529808,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "position": [
+      1298,
+      1308
+    ],
+    "confidence": 0.8213356077671051,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "6918"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "records": 100,
+  "elapsed_seconds": 0.876,
+  "entity_counts": {
+    "THUỐC": 64,
+    "TRIỆU_CHỨNG": 564,
+    "CHẨN_ĐOÁN": 140,
+    "TÊN_XÉT_NGHIỆM": 107,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 43,
+    "THÔNG_TIN_BỆNH_NHÂN": 47
+  },
+  "entities_with_candidates": 157,
+  "assertion_count": 302,
+  "errors": [],
+  "offline": true,
+  "model": "rules+dictionary",
+  "profile": "baseline_strength"
+}

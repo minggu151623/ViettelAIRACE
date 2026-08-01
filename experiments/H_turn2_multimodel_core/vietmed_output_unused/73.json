@@ -1,0 +1,318 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      34,
+      41
+    ]
+  },
+  {
+    "text": "Viêm loét",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      57,
+      66
+    ]
+  },
+  {
+    "text": "Bệnh gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      114,
+      122
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      253,
+      258
+    ]
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      280,
+      294
+    ]
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      295,
+      301
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      423,
+      431
+    ]
+  },
+  {
+    "text": "đau bụng/khó chịu vùng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      438,
+      460
+    ]
+  },
+  {
+    "text": "LL",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      508,
+      510
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      519,
+      527
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      557,
+      560
+    ]
+  },
+  {
+    "text": "mất cảm giác ngon",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      578,
+      595
+    ]
+  },
+  {
+    "text": "suy nhược",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      616,
+      625
+    ]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      644,
+      652
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      867,
+      878
+    ]
+  },
+  {
+    "text": "di truyền",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      879,
+      888
+    ]
+  },
+  {
+    "text": "thoái hóa tinh bột",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      908,
+      926
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1041,
+      1052
+    ]
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1155,
+      1165
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1257,
+      1260
+    ]
+  },
+  {
+    "text": "run rẩ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1264,
+      1270
+    ]
+  },
+  {
+    "text": "mất cảm giác ngon",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1273,
+      1290
+    ]
+  },
+  {
+    "text": "suy nhược",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1306,
+      1315
+    ]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1328,
+      1336
+    ]
+  },
+  {
+    "text": "thiểu niệu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1338,
+      1348
+    ]
+  },
+  {
+    "text": "chảy dịch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1350,
+      1359
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1435,
+      1443
+    ]
+  },
+  {
+    "text": "tác dụng phụ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1460,
+      1472
+    ]
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1477,
+      1491
+    ]
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1492,
+      1498
+    ]
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1511,
+      1525
+    ]
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1526,
+      1532
+    ]
+  }
+]

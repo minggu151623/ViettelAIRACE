@@ -1,0 +1,452 @@
+[
+  {
+    "text": "Rối loạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F39"
+    ],
+    "assertions": [],
+    "position": [
+      29,
+      37
+    ]
+  },
+  {
+    "text": "chuyển hóa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      38,
+      48
+    ]
+  },
+  {
+    "text": "tinh bột",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      49,
+      57
+    ]
+  },
+  {
+    "text": "(amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      58,
+      70
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      88,
+      93
+    ]
+  },
+  {
+    "text": "thoái hóa tinh bột",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      313,
+      331
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      342,
+      353
+    ]
+  },
+  {
+    "text": "ng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      378,
+      380
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      381,
+      388
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      442,
+      449
+    ]
+  },
+  {
+    "text": "amyloid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      468,
+      475
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      521,
+      528
+    ]
+  },
+  {
+    "text": "amyloid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      529,
+      536
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      660,
+      667
+    ]
+  },
+  {
+    "text": "amyloid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      668,
+      675
+    ]
+  },
+  {
+    "text": "suy các cơ quan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      713,
+      728
+    ]
+  },
+  {
+    "text": "tử vong",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      750,
+      757
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      765,
+      778
+    ]
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      788,
+      796
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282386"
+    ],
+    "assertions": [],
+    "position": [
+      807,
+      814
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
+    "position": [
+      821,
+      834
+    ]
+  },
+  {
+    "text": "lipid máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      846,
+      855
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [],
+    "position": [
+      878,
+      892
+    ]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      905,
+      917
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      939,
+      952
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1050,
+      1057
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1062,
+      1067
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282386"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1089,
+      1096
+    ]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1195,
+      1203
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1231,
+      1238
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1369,
+      1376
+    ]
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1447,
+      1453
+    ]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1516,
+      1524
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1531,
+      1538
+    ]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1602,
+      1608
+    ]
+  },
+  {
+    "text": "không ra dịch mật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1610,
+      1627
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1642,
+      1653
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1678,
+      1689
+    ]
+  },
+  {
+    "text": "tự miễn dịch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1690,
+      1702
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1717,
+      1728
+    ]
+  },
+  {
+    "text": "di truyền",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1729,
+      1738
+    ]
+  },
+  {
+    "text": "thoái hóa tinh bột",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1758,
+      1776
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1891,
+      1902
+    ]
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2005,
+      2015
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2036,
+      2047
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2155,
+      2159
+    ]
+  }
+]

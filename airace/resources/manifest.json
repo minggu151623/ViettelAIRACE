@@ -1,0 +1,21 @@
+{
+  "icd": {
+    "name": "WHO ICD-10 2019",
+    "version": "2019",
+    "status": "alias fallback bundled; download separately before production",
+    "url": "https://icdcdn.who.int/icd10/index.html"
+  },
+  "rxnorm": {
+    "name": "RxNorm Current Prescribable Content",
+    "release": "2026-07-06",
+    "filename": "RxNorm_full_prescribe_07062026.zip",
+    "url": "https://download.nlm.nih.gov/rxnorm/RxNorm_full_prescribe_07062026.zip",
+    "status": "downloaded",
+    "sha256": "e81e29a27575718dc1f0cf80b1371b283bcba53f446f27fc85f74c71def99829",
+    "index_entries": 605,
+    "alias_entries": 12845,
+    "product_entries": 44925,
+    "brand_to_generic_entries": 4139,
+    "catalog_sha256": "07ad572befa2377a335f6655c5fcff38eb14276d3aa443e796d890cbaefe200f"
+  }
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      36,
+      43
+    ],
+    "confidence": 0.9855096340179443,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      69
+    ],
+    "confidence": 0.9822023709615072,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      328,
+      332
+    ],
+    "confidence": 0.8717630505561829,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ct não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      333,
+      339
+    ],
+    "confidence": 0.8350915908813477,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      376,
+      385
+    ],
+    "confidence": 0.9882195815443993,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      386,
+      394
+    ],
+    "confidence": 0.9941991135478019,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ngất",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      434,
+      438
+    ],
+    "confidence": 0.9729610681533813,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xuất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      453,
+      457
+    ],
+    "confidence": 0.6953426003456116,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      466,
+      474
+    ],
+    "confidence": 0.9453341007232665,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      691,
+      698
+    ],
+    "confidence": 0.9621171057224274,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1343,
+      1350
+    ],
+    "confidence": 0.9961099326610565,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chấn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2291,
+      2302
+    ],
+    "confidence": 0.9984046578407287,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2378,
+      2382
+    ],
+    "confidence": 0.9163188934326172,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ct não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2383,
+      2389
+    ],
+    "confidence": 0.8223923563957214,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2426,
+      2435
+    ],
+    "confidence": 0.9882195740938187,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2436,
+      2444
+    ],
+    "confidence": 0.9941991046071053,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ngất",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2484,
+      2488
+    ],
+    "confidence": 0.9729610979557037,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2508,
+      2516
+    ],
+    "confidence": 0.9749561995267868,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xuất huyết dưới màng cứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2713,
+      2738
+    ],
+    "confidence": 0.9978614043173634,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

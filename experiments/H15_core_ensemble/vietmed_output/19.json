@@ -1,0 +1,210 @@
+[
+  {
+    "text": "bệnh lý nội khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      34,
+      50
+    ]
+  },
+  {
+    "text": "Ung thư phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      79,
+      91
+    ]
+  },
+  {
+    "text": "Di căn não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      115,
+      125
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      251,
+      264
+    ]
+  },
+  {
+    "text": "u di căn bán cầu não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      325,
+      345
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      355,
+      360
+    ]
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "candidates": [
+      "856987"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      382,
+      389
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      412,
+      415
+    ]
+  },
+  {
+    "text": "đau b",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      464,
+      469
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      552,
+      555
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      595,
+      598
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      650,
+      653
+    ]
+  },
+  {
+    "text": "đau bẹn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      708,
+      715
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      837,
+      840
+    ]
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "candidates": [
+      "856987"
+    ],
+    "assertions": [],
+    "position": [
+      906,
+      913
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      931,
+      934
+    ]
+  },
+  {
+    "text": "tê",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      982,
+      984
+    ]
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "candidates": [
+      "856987"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1081,
+      1088
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1105,
+      1108
+    ]
+  }
+]

@@ -1,0 +1,335 @@
+[
+  {
+    "text": "70 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "assertions": [],
+    "position": [
+      52,
+      59
+    ]
+  },
+  {
+    "text": "bị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      61,
+      63
+    ]
+  },
+  {
+    "text": "bệnh gút",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      64,
+      72
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      115,
+      118
+    ]
+  },
+  {
+    "text": "bị bệnhgout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      393,
+      404
+    ]
+  },
+  {
+    "text": "to",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      512,
+      514
+    ]
+  },
+  {
+    "text": "gout",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      529,
+      533
+    ]
+  },
+  {
+    "text": "axit urict",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      652,
+      662
+    ]
+  },
+  {
+    "text": "cục u",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      718,
+      723
+    ]
+  },
+  {
+    "text": "khối u",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      835,
+      841
+    ]
+  },
+  {
+    "text": "cả",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      859,
+      861
+    ]
+  },
+  {
+    "text": "trở vận động",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      863,
+      875
+    ]
+  },
+  {
+    "text": "hạt tophi",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      908,
+      917
+    ]
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      938,
+      945
+    ]
+  },
+  {
+    "text": "biến dạng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      947,
+      956
+    ]
+  },
+  {
+    "text": "khớp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      963,
+      967
+    ]
+  },
+  {
+    "text": "nhiễm trùng máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      973,
+      988
+    ]
+  },
+  {
+    "text": "acid uric",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1024,
+      1033
+    ]
+  },
+  {
+    "text": "gout",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1076,
+      1080
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1086,
+      1089
+    ]
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1123,
+      1130
+    ]
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1139,
+      1146
+    ]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1162,
+      1164
+    ]
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1165,
+      1179
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1186,
+      1199
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1206,
+      1213
+    ]
+  },
+  {
+    "text": "ngưng thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1220,
+      1229
+    ]
+  },
+  {
+    "text": "tắc nghẽn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1241,
+      1250
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1255,
+      1260
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [
+      "202433"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1287,
+      1294
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1330,
+      1339
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1344,
+      1349
+    ]
+  }
+]

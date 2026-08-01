@@ -1,0 +1,279 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      34,
+      41
+    ]
+  },
+  {
+    "text": "Đái tháo đường type 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      57,
+      78
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      85,
+      98
+    ]
+  },
+  {
+    "text": "nghẹt mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      235,
+      244
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      261,
+      268
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      284,
+      291
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      298,
+      307
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      339,
+      348
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      359,
+      368
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      418,
+      427
+    ]
+  },
+  {
+    "text": "đen",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      446,
+      449
+    ]
+  },
+  {
+    "text": "dịch nhầy",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      474,
+      483
+    ]
+  },
+  {
+    "text": "Khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      522,
+      526
+    ]
+  },
+  {
+    "text": "xét nghiệm thường",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      552,
+      569
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      583,
+      587
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      614,
+      618
+    ]
+  },
+  {
+    "text": "80mEq",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      619,
+      624
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      718,
+      722
+    ]
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "candidates": [
+      "18631"
+    ],
+    "assertions": [],
+    "position": [
+      795,
+      807
+    ]
+  },
+  {
+    "text": "khám thực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      857,
+      866
+    ]
+  },
+  {
+    "text": "nhịp thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      923,
+      931
+    ]
+  },
+  {
+    "text": "huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      936,
+      944
+    ]
+  },
+  {
+    "text": "14279",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      945,
+      950
+    ]
+  },
+  {
+    "text": "spo2",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      952,
+      956
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      983,
+      987
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1187,
+      1196
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1237,
+      1246
+    ]
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1262,
+      1273
+    ]
+  }
+]

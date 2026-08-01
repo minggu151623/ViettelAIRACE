@@ -1,0 +1,794 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      61
+    ],
+    "confidence": 0.7266474763552347,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      68,
+      97
+    ],
+    "confidence": 0.7306173954691205,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch với",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      104,
+      141
+    ],
+    "confidence": 0.7275785803794861,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nhồi máu cơ tim gần đây",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      142,
+      165
+    ],
+    "confidence": 0.7099752937044416,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rung nhĩ kịch phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      172,
+      190
+    ],
+    "confidence": 0.7331928014755249,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      197,
+      221
+    ],
+    "confidence": 0.7409011244773864,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xạ hình tưới máu cơ tim mibi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      289,
+      317
+    ],
+    "confidence": 0.46381057964430916,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "position": [
+      354,
+      364
+    ],
+    "confidence": 0.6856909915804863,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "desmopressin",
+    "type": "THUỐC",
+    "position": [
+      405,
+      417
+    ],
+    "confidence": 0.6981620013713836,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Rối loạn dáng đi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      491,
+      507
+    ],
+    "confidence": 0.7149162888526917,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      522,
+      525
+    ],
+    "confidence": 0.3306712210178375,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngã với",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      643,
+      650
+    ],
+    "confidence": 0.4864277094602585,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "gãy cổ xương đùi di lệch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      651,
+      675
+    ],
+    "confidence": 0.6752779881159464,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngã hôm qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      746,
+      757
+    ],
+    "confidence": 0.6355191667874655,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Có thể tự đi lại và lái xe sau ngã",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      764,
+      798
+    ],
+    "confidence": 0.5288917064666748,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không thể tự ra khỏi giường và tự đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      814,
+      854
+    ],
+    "confidence": 0.5187091112136841,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Gọi xe cứu thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      861,
+      878
+    ],
+    "confidence": 0.48186853528022766,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "gãy cổ xương đùi di lệch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      898,
+      922
+    ],
+    "confidence": 0.6797384321689606,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đau ở hông phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      954,
+      969
+    ],
+    "confidence": 0.6695383787155151,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "động",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      977,
+      981
+    ],
+    "confidence": 0.5437246561050415,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thay đổi tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      985,
+      1000
+    ],
+    "confidence": 0.524855300784111,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Yếu tố làm nặng thêm: cử động, thay đổi tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1056,
+      1102
+    ],
+    "confidence": 0.6134641766548157,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngã do cơ học hôm qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1145,
+      1166
+    ],
+    "confidence": 0.6169439206520716,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Chấn thương tù ở Chi dưới phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1173,
+      1203
+    ],
+    "confidence": 0.6102238638060433,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vết thương hở phần khác của chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1216,
+      1252
+    ],
+    "confidence": 0.6837083324790001,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chấn thương đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1276,
+      1291
+    ],
+    "confidence": 0.5605507791042328,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1297,
+      1307
+    ],
+    "confidence": 0.6785720189412435,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1309,
+      1319
+    ],
+    "confidence": 0.6590603142976761,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "có thể chịu trọng lượng và lái xe sau ngã",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1327,
+      1368
+    ],
+    "confidence": 0.5276025176048279,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "gãy cổ xương đùi di lệch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1412,
+      1436
+    ],
+    "confidence": 0.6800846954186758,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất vận động vùng đỉnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1438,
+      1460
+    ],
+    "confidence": 0.6937071323394776,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1467,
+      1471
+    ],
+    "confidence": 0.3448428809642792,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1472,
+      1484
+    ],
+    "confidence": 0.47244352102279663,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1526,
+      1530
+    ],
+    "confidence": 0.42433035373687744,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ct ngực không thuốc cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1531,
+      1560
+    ],
+    "confidence": 0.46212815386908396,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xẹp phổi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1674,
+      1682
+    ],
+    "confidence": 0.5894277095794678,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không thể tự di chuyển",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1765,
+      1787
+    ],
+    "confidence": 0.434883177280426,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ở hông phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1921,
+      1936
+    ],
+    "confidence": 0.6224913597106934,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "động",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1944,
+      1948
+    ],
+    "confidence": 0.473740816116333,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đổi tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1957,
+      1967
+    ],
+    "confidence": 0.46971528728802997,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2023,
+      2027
+    ],
+    "confidence": 0.3819616138935089,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "x-quang ngực: mức nước-khí",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2028,
+      2054
+    ],
+    "confidence": 0.4153936931065151,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2061,
+      2065
+    ],
+    "confidence": 0.41550344228744507,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ct ngực không thuốc cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2066,
+      2095
+    ],
+    "confidence": 0.42191470520836966,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xẹp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2198,
+      2201
+    ],
+    "confidence": 0.48066020011901855,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xạ hình tưới máu cơ tim  mibi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2221,
+      2250
+    ],
+    "confidence": 0.4653823541270362,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm tim qua thành ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2335,
+      2361
+    ],
+    "confidence": 0.4871559888124466,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2363,
+      2367
+    ],
+    "confidence": 0.34311842918395996,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm tim qua thành ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2363,
+      2389
+    ],
+    "confidence": 0.4355039447546005,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "EF30",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2392,
+      2396
+    ],
+    "confidence": 0.32720839977264404,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Gãy xương hông phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2517,
+      2536
+    ],
+    "confidence": 0.40984382629394533,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "gãy cổ xương đùi phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2538,
+      2559
+    ],
+    "confidence": 0.5191707611083984,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "lún đầu dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2561,
+      2573
+    ],
+    "confidence": 0.594162106513977,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct ngực không thuốc cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2611,
+      2645
+    ],
+    "confidence": 0.4722093939781189,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm tim qua thành ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2652,
+      2678
+    ],
+    "confidence": 0.4860030064980189,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2680,
+      2684
+    ],
+    "confidence": 0.381079763174057,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm tim qua thành ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2680,
+      2706
+    ],
+    "confidence": 0.39432384073734283,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2714,
+      2718
+    ],
+    "confidence": 0.42467814683914185,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xạ hình tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2719,
+      2730
+    ],
+    "confidence": 0.45151185989379883,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mibi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2736,
+      2740
+    ],
+    "confidence": 0.37955519556999207,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2847,
+      2862
+    ],
+    "confidence": 0.6964221000671387,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vách liên thất",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2868,
+      2882
+    ],
+    "confidence": 0.5466138124465942,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2907,
+      2915
+    ],
+    "confidence": 0.6478085815906525,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2950,
+      2956
+    ],
+    "confidence": 0.693691223859787,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiểu đêm nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2963,
+      2977
+    ],
+    "confidence": 0.6573041280110677,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2983,
+      3007
+    ],
+    "confidence": 0.7042383432388306,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  }
+]

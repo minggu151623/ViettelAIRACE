@@ -1,0 +1,129 @@
+[
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [72, 80]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [82, 90]
+  },
+  {
+    "text": "tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [196, 246]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [254, 317]
+  },
+  {
+    "text": "Đái tháo đường type 2 (Đái tháo đường típ 2)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [325, 369]
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [377, 468]
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [476, 596]
+  },
+  {
+    "text": "Nhập viện gần đây vì Đã tử vong (dced)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [604, 642]
+  },
+  {
+    "text": "aspirin 81mg",
+    "type": "THUỐC",
+    "candidates": ["243670"],
+    "assertions": ["isHistorical"],
+    "position": [771, 783]
+  },
+  {
+    "text": "clopidogrel",
+    "type": "THUỐC",
+    "candidates": ["32968"],
+    "assertions": ["isHistorical"],
+    "position": [799, 810]
+  },
+  {
+    "text": "metoprolol succinate 100mg daily",
+    "type": "THUỐC",
+    "candidates": ["866412"],
+    "assertions": ["isHistorical"],
+    "position": [873, 905]
+  },
+  {
+    "text": "lasix 40mg daily",
+    "type": "THUỐC",
+    "candidates": ["200809"],
+    "assertions": ["isHistorical"],
+    "position": [925, 941]
+  },
+  {
+    "text": "atorvastatin 80mg daily",
+    "type": "THUỐC",
+    "candidates": ["259255"],
+    "assertions": ["isHistorical"],
+    "position": [961, 984]
+  },
+  {
+    "text": "lisinopril 2.5mg daily",
+    "type": "THUỐC",
+    "candidates": ["311353"],
+    "assertions": ["isHistorical"],
+    "position": [1002, 1024]
+  },
+  {
+    "text": "ranexa 500mg daily",
+    "type": "THUỐC",
+    "candidates": ["860738"],
+    "assertions": ["isHistorical"],
+    "position": [1042, 1060]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1123, 1131]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1339, 1347]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1435, 1443]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1601, 1609]
+  }
+]

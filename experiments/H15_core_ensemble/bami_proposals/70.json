@@ -1,0 +1,698 @@
+[
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      52,
+      60
+    ],
+    "confidence": 0.5971060693264008,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      171,
+      190
+    ],
+    "confidence": 0.6978244304656982,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      399
+    ],
+    "confidence": 0.6224445760250091,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      449,
+      457
+    ],
+    "confidence": 0.721001535654068,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      463,
+      472
+    ],
+    "confidence": 0.4755163788795471,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      491,
+      508
+    ],
+    "confidence": 0.6116783171892166,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      542,
+      550
+    ],
+    "confidence": 0.7282467186450958,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      590,
+      598
+    ],
+    "confidence": 0.722141683101654,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      642,
+      654
+    ],
+    "confidence": 0.6765419642130533,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      687,
+      691
+    ],
+    "confidence": 0.2835788130760193,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bilirubin",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      692,
+      701
+    ],
+    "confidence": 0.21551182866096497,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      775,
+      783
+    ],
+    "confidence": 0.7411722540855408,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "càng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      789,
+      793
+    ],
+    "confidence": 0.43845227360725403,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng liên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      801,
+      814
+    ],
+    "confidence": 0.63917609055837,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      821,
+      838
+    ],
+    "confidence": 0.680093064904213,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      841,
+      848
+    ],
+    "confidence": 0.6978930532932281,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      851,
+      858
+    ],
+    "confidence": 0.7297407984733582,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      868,
+      871
+    ],
+    "confidence": 0.49905383586883545,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngứa toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      874,
+      888
+    ],
+    "confidence": 0.6544985373814901,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiểu ra máu không đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      899,
+      920
+    ],
+    "confidence": 0.5408862292766571,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đau vùng gan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      952,
+      964
+    ],
+    "confidence": 0.5880796313285828,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1016,
+      1024
+    ],
+    "confidence": 0.7167966365814209,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1036,
+      1039
+    ],
+    "confidence": 0.6845167279243469,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1090,
+      1094
+    ],
+    "confidence": 0.40807488560676575,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      1183,
+      1202
+    ],
+    "confidence": 0.7013591706752778,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1312,
+      1324
+    ],
+    "confidence": 0.594980796178182,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng bilirubin",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1329,
+      1343
+    ],
+    "confidence": 0.36112451553344727,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ast 421",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1349,
+      1356
+    ],
+    "confidence": 0.3710993230342865,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "alt 336",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1358,
+      1365
+    ],
+    "confidence": 0.38320446759462357,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "alp 185",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1367,
+      1374
+    ],
+    "confidence": 0.3653248647848765,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1376,
+      1395
+    ],
+    "confidence": 0.3902714749177297,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "0.9",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1396,
+      1399
+    ],
+    "confidence": 0.33603164553642273,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1402,
+      1409
+    ],
+    "confidence": 0.42011094093322754,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm bụng có doppler",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1410,
+      1433
+    ],
+    "confidence": 0.4238439400990804,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1436,
+      1443
+    ],
+    "confidence": 0.43828828632831573,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp hida",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1444,
+      1453
+    ],
+    "confidence": 0.3762531578540802,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "acetaminophen",
+    "type": "THUỐC",
+    "position": [
+      1485,
+      1498
+    ],
+    "confidence": 0.4975920617580414,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nac",
+    "type": "THUỐC",
+    "position": [
+      1516,
+      1519
+    ],
+    "confidence": 0.2188509702682495,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1551,
+      1555
+    ],
+    "confidence": 0.4047379195690155,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1558,
+      1562
+    ],
+    "confidence": 0.42655934393405914,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1739,
+      1757
+    ],
+    "confidence": 0.618685225645701,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng men gan kéo dài",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1761,
+      1781
+    ],
+    "confidence": 0.627776563167572,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ast 421",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1830,
+      1837
+    ],
+    "confidence": 0.4114389816919963,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "alt 336",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1840,
+      1847
+    ],
+    "confidence": 0.41550208628177643,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "alp 185",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1850,
+      1857
+    ],
+    "confidence": 0.4030945400396983,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bilirubin toàn phần 0.9",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1860,
+      1883
+    ],
+    "confidence": 0.38925739129384357,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "total bili",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1886,
+      1896
+    ],
+    "confidence": 0.41085764169692995,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "6.7",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1923,
+      1926
+    ],
+    "confidence": 0.32314433157444,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm gan virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1945,
+      1959
+    ],
+    "confidence": 0.4905180136362712,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1963,
+      1970
+    ],
+    "confidence": 0.3617355674505234,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ferritin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1973,
+      1981
+    ],
+    "confidence": 0.42730915546417236,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ceruloplasmin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1999,
+      2012
+    ],
+    "confidence": 0.3575633689761162,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm bụng có doppler âm tính âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2106,
+      2145
+    ],
+    "confidence": 0.43576404452323914,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "âm tính chụp hida",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2148,
+      2165
+    ],
+    "confidence": 0.4194189429283142,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2168,
+      2172
+    ],
+    "confidence": 0.4411748945713043,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2291,
+      2295
+    ],
+    "confidence": 0.4212792068719864,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2327,
+      2339
+    ],
+    "confidence": 0.657181441783905,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2342,
+      2360
+    ],
+    "confidence": 0.6557084918022156,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  }
+]

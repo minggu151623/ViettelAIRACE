@@ -1,0 +1,28 @@
+[
+  {
+    "text": "BKpop",
+    "type": "THUỐC",
+    "position": [
+      77,
+      82
+    ],
+    "confidence": 0.7990142226219177,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      273,
+      276
+    ],
+    "confidence": 0.9974082112312317,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

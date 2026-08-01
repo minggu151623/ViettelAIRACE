@@ -1,0 +1,192 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      25,
+      32
+    ],
+    "confidence": 0.9979813893636068,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      33,
+      41
+    ],
+    "confidence": 0.9703403881617955,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      62
+    ],
+    "confidence": 0.9973729979860914,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      82
+    ],
+    "confidence": 0.9980358117156558,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "ACom",
+    "type": "THUỐC",
+    "position": [
+      156,
+      160
+    ],
+    "confidence": 0.970445066690445,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      209,
+      223
+    ],
+    "confidence": 0.9973729979860914,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      230,
+      243
+    ],
+    "confidence": 0.9980358117156558,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "tai biến mạch máu não",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      364,
+      385
+    ],
+    "confidence": 0.9987375244764344,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ACom",
+    "type": "THUỐC",
+    "position": [
+      509,
+      513
+    ],
+    "confidence": 0.9780833721160889,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp mạch máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      545,
+      558
+    ],
+    "confidence": 0.9573354944586754,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xơ vữa mảng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      648,
+      659
+    ],
+    "confidence": 0.9898918660688193,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      855,
+      864
+    ],
+    "confidence": 0.9887163937091827,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp mạch máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      875,
+      888
+    ],
+    "confidence": 0.9802980050444603,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xơ vữa mảng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      977,
+      988
+    ],
+    "confidence": 0.8870528528700657,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

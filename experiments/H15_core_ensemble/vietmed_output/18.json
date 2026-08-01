@@ -1,0 +1,165 @@
+[
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      39,
+      47
+    ]
+  },
+  {
+    "text": "nữ",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "assertions": [],
+    "position": [
+      49,
+      51
+    ]
+  },
+  {
+    "text": "mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      79,
+      83
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      156,
+      159
+    ]
+  },
+  {
+    "text": "đau sau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      182,
+      189
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      292,
+      295
+    ]
+  },
+  {
+    "text": "đau sau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      312,
+      319
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      335,
+      338
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      404,
+      412
+    ]
+  },
+  {
+    "text": "chụp ảnh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      476,
+      484
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính mạch máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      486,
+      515
+    ]
+  },
+  {
+    "text": "(ctma",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      516,
+      521
+    ]
+  },
+  {
+    "text": "tắc mạch phổi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      555,
+      568
+    ]
+  },
+  {
+    "text": "tắc mạch phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      605,
+      618
+    ]
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      630,
+      640
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      788,
+      797
+    ]
+  },
+  {
+    "text": "động",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      813,
+      817
+    ]
+  }
+]

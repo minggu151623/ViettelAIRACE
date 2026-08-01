@@ -1,0 +1,273 @@
+[
+  {
+    "text": "nặng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      42,
+      50
+    ]
+  },
+  {
+    "text": "tức nặng 2 chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      52,
+      71
+    ]
+  },
+  {
+    "text": "tiểu ít",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      73,
+      80
+    ]
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N04"
+    ],
+    "assertions": [],
+    "position": [
+      187,
+      204
+    ]
+  },
+  {
+    "text": "Phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      212,
+      215
+    ]
+  },
+  {
+    "text": "phù 2 chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      308,
+      322
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      324,
+      327
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      381,
+      384
+    ]
+  },
+  {
+    "text": "phù mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      408,
+      415
+    ]
+  },
+  {
+    "text": "phù nhẹ 2 chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      421,
+      439
+    ]
+  },
+  {
+    "text": "Protein niệu 24h",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      448,
+      464
+    ]
+  },
+  {
+    "text": "Protein máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      473,
+      484
+    ]
+  },
+  {
+    "text": "Tổn thương cầu thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      557,
+      585
+    ]
+  },
+  {
+    "text": "viêm cầu thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N05.9"
+    ],
+    "assertions": [],
+    "position": [
+      777,
+      790
+    ]
+  },
+  {
+    "text": "Viêm cầu thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N03.9"
+    ],
+    "assertions": [],
+    "position": [
+      1102,
+      1119
+    ]
+  },
+  {
+    "text": "Viêm cầu thận mạn - Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N03"
+    ],
+    "assertions": [],
+    "position": [
+      1102,
+      1139
+    ]
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N04"
+    ],
+    "assertions": [],
+    "position": [
+      1122,
+      1139
+    ]
+  },
+  {
+    "text": "albumin máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1312,
+      1323
+    ]
+  },
+  {
+    "text": "điện giải đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1325,
+      1337
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1566,
+      1580
+    ]
+  },
+  {
+    "text": "giảm thải protein",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1582,
+      1599
+    ]
+  },
+  {
+    "text": "Medrol 16mg x 3",
+    "type": "THUỐC",
+    "candidates": [
+      "207138"
+    ],
+    "assertions": [],
+    "position": [
+      1642,
+      1657
+    ]
+  },
+  {
+    "text": "Omez 20mg x 1",
+    "type": "THUỐC",
+    "candidates": [
+      "316408"
+    ],
+    "assertions": [],
+    "position": [
+      1697,
+      1710
+    ]
+  },
+  {
+    "text": "Furosemid 40 mg x 1",
+    "type": "THUỐC",
+    "candidates": [
+      "315971"
+    ],
+    "assertions": [],
+    "position": [
+      1741,
+      1760
+    ]
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1908,
+      1929
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1972,
+      1979
+    ]
+  },
+  {
+    "text": "Zestril 10mg x 1",
+    "type": "THUỐC",
+    "candidates": [
+      "316151"
+    ],
+    "assertions": [],
+    "position": [
+      2007,
+      2023
+    ]
+  }
+]

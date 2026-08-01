@@ -1,0 +1,162 @@
+[
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      16,
+      32
+    ],
+    "confidence": 0.9792737746238708,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh mạch máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      47
+    ],
+    "confidence": 0.9708997756242752,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      48,
+      53
+    ],
+    "confidence": 0.9926096796989441,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "position": [
+      75,
+      88
+    ],
+    "confidence": 0.9877739548683167,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1536467"
+    ]
+  },
+  {
+    "text": "khám thực thể",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      153,
+      166
+    ],
+    "confidence": 0.8241099789738655,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "rối loạn thần kinh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      177,
+      195
+    ],
+    "confidence": 0.9714308603137148,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      204,
+      213
+    ],
+    "confidence": 0.983452595770359,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      224,
+      238
+    ],
+    "confidence": 0.8862548808638866,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc cản",
+    "type": "THUỐC",
+    "position": [
+      245,
+      254
+    ],
+    "confidence": 0.7559074608106462,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khối máu tụ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      271,
+      282
+    ],
+    "confidence": 0.936193241391863,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      342,
+      356
+    ],
+    "confidence": 0.8624621858963599,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc cản",
+    "type": "THUỐC",
+    "position": [
+      363,
+      372
+    ],
+    "confidence": 0.848459329870012,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  }
+]

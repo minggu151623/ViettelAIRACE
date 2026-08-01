@@ -1,0 +1,442 @@
+[
+  {
+    "text": "viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      20,
+      29
+    ],
+    "confidence": 0.9981895495974827,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      30,
+      37
+    ],
+    "confidence": 0.994439959526062,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      68,
+      77
+    ],
+    "confidence": 0.9980460727025593,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "áp xe phổi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      116,
+      126
+    ],
+    "confidence": 0.980692382156849,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      211,
+      220
+    ],
+    "confidence": 0.9964363839891222,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      235,
+      248
+    ],
+    "confidence": 0.9883622765541077,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phế nang",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      250,
+      258
+    ],
+    "confidence": 0.9092393943241665,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      391,
+      400
+    ],
+    "confidence": 0.9923684142884753,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm vi khuẩn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      445,
+      459
+    ],
+    "confidence": 0.934759809420659,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc kháng sinh",
+    "type": "THUỐC",
+    "position": [
+      466,
+      482
+    ],
+    "confidence": 0.990382719039917,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sức đề kháng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      511,
+      523
+    ],
+    "confidence": 0.7715098727833141,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy giảm miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      529,
+      547
+    ],
+    "confidence": 0.9596524605897961,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hoại tử nhu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      551,
+      562
+    ],
+    "confidence": 0.8943168858687083,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Viêm phổi hoại tử",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      572,
+      589
+    ],
+    "confidence": 0.976552965724236,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      611,
+      618
+    ],
+    "confidence": 0.9983465671539307,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      718,
+      728
+    ],
+    "confidence": 0.9979392886161804,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      787,
+      794
+    ],
+    "confidence": 0.9109909733136495,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      825,
+      829
+    ],
+    "confidence": 0.9965305924415588,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "K21.0"
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      873,
+      877
+    ],
+    "confidence": 0.9957209229469299,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "K21.0"
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      904,
+      908
+    ],
+    "confidence": 0.9944983124732971,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "K21.0"
+    ]
+  },
+  {
+    "text": "thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      975,
+      981
+    ],
+    "confidence": 0.8588497638702393,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1033,
+      1037
+    ],
+    "confidence": 0.9947202205657959,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "K21.0"
+    ]
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1045,
+      1052
+    ],
+    "confidence": 0.9190850257873535,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1093,
+      1100
+    ],
+    "confidence": 0.8896483580271403,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1196,
+      1202
+    ],
+    "confidence": 0.8064194321632385,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1271,
+      1278
+    ],
+    "confidence": 0.9077642361323038,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm xơ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1320,
+      1327
+    ],
+    "confidence": 0.9974407911300658,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1488,
+      1495
+    ],
+    "confidence": 0.9976460337638855,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1538,
+      1545
+    ],
+    "confidence": 0.9982064664363861,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1621,
+      1628
+    ],
+    "confidence": 0.995621919631958,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1741,
+      1748
+    ],
+    "confidence": 0.9984102249145508,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám ngoại trú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1827,
+      1841
+    ],
+    "confidence": 0.6771319839689466,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2093,
+      2102
+    ],
+    "confidence": 0.985867016017437,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tăng nhãn áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2114,
+      2126
+    ],
+    "confidence": 0.993611525405537,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp cắt lớp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2134,
+      2146
+    ],
+    "confidence": 0.5642725647269905,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2279,
+      2286
+    ],
+    "confidence": 0.8796292940775553,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

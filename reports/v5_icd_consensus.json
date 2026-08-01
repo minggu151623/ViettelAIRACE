@@ -1,0 +1,46 @@
+{
+  "records": 100,
+  "entity_counts": {
+    "THUỐC": 165,
+    "CHẨN_ĐOÁN": 411,
+    "TRIỆU_CHỨNG": 1150,
+    "TÊN_XÉT_NGHIỆM": 335,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 235,
+    "THÔNG_TIN_BỆNH_NHÂN": 2
+  },
+  "added_candidate_entities": 60,
+  "added_candidate_codes": {
+    "K76.82": 4,
+    "K21.9": 2,
+    "C20": 4,
+    "M10.9": 1,
+    "E66.9": 7,
+    "K76.6": 1,
+    "B00.9": 1,
+    "J18.9": 2,
+    "I26.99": 1,
+    "N40.1": 3,
+    "E78.9": 1,
+    "N39.0": 5,
+    "K70.9": 1,
+    "E87.5": 2,
+    "A08.4": 12,
+    "J06.9": 1,
+    "K81.9": 3,
+    "F20.9": 1,
+    "F31.9": 1,
+    "F41.1": 4,
+    "I50.9": 1,
+    "A41.9": 2
+  },
+  "removed_noise": {
+    "THÔNG_TIN_BỆNH_NHÂN": 3,
+    "TÊN_XÉT_NGHIỆM": 5,
+    "THUỐC": 2
+  },
+  "errors": [],
+  "source": "output_v4_assertion_preserve",
+  "aliases": "airace/resources/icd10cm_aliases_v5.json",
+  "output": "output_v5_icd_consensus",
+  "elapsed_seconds": 0.091
+}

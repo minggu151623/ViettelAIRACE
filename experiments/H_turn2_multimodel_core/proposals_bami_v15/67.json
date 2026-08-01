@@ -1,0 +1,230 @@
+[
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      30,
+      37
+    ],
+    "confidence": 0.6954731643199921,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh mạch máu ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      44,
+      68
+    ],
+    "confidence": 0.7370123267173767,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      75,
+      103
+    ],
+    "confidence": 0.7297045787175497,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ngưng thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      110,
+      127
+    ],
+    "confidence": 0.6464164018630981,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tắc nghẽn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      131,
+      140
+    ],
+    "confidence": 0.7419912815093994,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "BiPAP",
+    "type": "THUỐC",
+    "position": [
+      151,
+      156
+    ],
+    "confidence": 0.5724252760410309,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      163,
+      224
+    ],
+    "confidence": 0.7297087721526623,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm hang vị sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      336,
+      359
+    ],
+    "confidence": 0.7257609486579895,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng cồn cào",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      477,
+      493
+    ],
+    "confidence": 0.7088915556669235,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      503,
+      508
+    ],
+    "confidence": 0.7324884235858917,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      510,
+      516
+    ],
+    "confidence": 0.7281493544578552,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      537,
+      545
+    ],
+    "confidence": 0.7298868596553802,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      551,
+      554
+    ],
+    "confidence": 0.7336440682411194,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bệnh dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      566,
+      577
+    ],
+    "confidence": 0.7069088220596313,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      590,
+      594
+    ],
+    "confidence": 0.4468722343444824,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nội",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      645,
+      648
+    ],
+    "confidence": 0.3539521396160126,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bệnh viêm sung huyết hang vị dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      721,
+      756
+    ],
+    "confidence": 0.6747577264904976,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      812,
+      826
+    ],
+    "confidence": 0.47176172584295273,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm sung huyết hang vị dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1206,
+      1236
+    ],
+    "confidence": 0.6642690896987915,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [60, 80]
+  },
+  {
+    "text": "Khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [194, 214]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [254, 265]
+  },
+  {
+    "text": "hở van hai lá nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [275, 293]
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [297, 316]
+  },
+  {
+    "text": "không có bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [326, 354]
+  },
+  {
+    "text": "cải thiện triệu chứng tốt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [397, 422]
+  }
+]

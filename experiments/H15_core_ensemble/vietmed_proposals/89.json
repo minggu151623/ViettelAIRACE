@@ -1,0 +1,224 @@
+[
+  {
+    "text": "tuỵ ngược dòng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      65,
+      79
+    ],
+    "confidence": 0.9895565618689244,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "khối u thần kinh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      130,
+      146
+    ],
+    "confidence": 0.8840639657974243,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      171,
+      176
+    ],
+    "confidence": 0.9933981895446777,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "octreotide",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      206,
+      216
+    ],
+    "confidence": 0.9185798823833465,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "position": [
+      223,
+      229
+    ],
+    "confidence": 0.974801242351532,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "202866"
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      240,
+      250
+    ],
+    "confidence": 0.992579440275828,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "nhịn ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      260,
+      267
+    ],
+    "confidence": 0.8713666796684265,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "u nội tiết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      432,
+      442
+    ],
+    "confidence": 0.9900139040417142,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      459,
+      469
+    ],
+    "confidence": 0.9978326956431071,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ống tuỵ mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      473,
+      484
+    ],
+    "confidence": 0.6140865322947502,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Clostridioides difficile",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      671,
+      695
+    ],
+    "confidence": 0.5889086516007133,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      700,
+      711
+    ],
+    "confidence": 0.9948972165584564,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "position": [
+      742,
+      748
+    ],
+    "confidence": 0.9051556587219238,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "202866"
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      759,
+      769
+    ],
+    "confidence": 0.7974702914555868,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1092,
+      1096
+    ],
+    "confidence": 0.9750605821609497,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sưng n",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1171,
+      1177
+    ],
+    "confidence": 0.7226370692253112,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1327,
+      1334
+    ],
+    "confidence": 0.9794656236966451,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

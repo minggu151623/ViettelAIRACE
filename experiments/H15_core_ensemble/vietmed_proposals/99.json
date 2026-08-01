@@ -1,0 +1,102 @@
+[
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      21,
+      37
+    ],
+    "confidence": 0.9787330390347375,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      53
+    ],
+    "confidence": 0.997503365403941,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      206,
+      214
+    ],
+    "confidence": 0.998677911857764,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau dai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      216,
+      223
+    ],
+    "confidence": 0.7461903542280197,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      233,
+      240
+    ],
+    "confidence": 0.9982439776261648,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      272,
+      280
+    ],
+    "confidence": 0.9985644121964772,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      287,
+      290
+    ],
+    "confidence": 0.9980820417404175,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      310,
+      313
+    ],
+    "confidence": 0.9606757164001465,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

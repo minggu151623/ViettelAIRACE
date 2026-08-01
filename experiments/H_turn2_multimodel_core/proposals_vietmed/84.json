@@ -1,0 +1,200 @@
+[
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      28,
+      33
+    ],
+    "confidence": 0.9915289878845215,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "position": [
+      55,
+      69
+    ],
+    "confidence": 0.9834636373397632,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "position": [
+      70,
+      76
+    ],
+    "confidence": 0.9313993056615194,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm nấm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      134,
+      143
+    ],
+    "confidence": 0.8060578852891922,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Trichophyton",
+    "type": "THUỐC",
+    "position": [
+      158,
+      170
+    ],
+    "confidence": 0.9478150755167007,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mentagrophytes",
+    "type": "THUỐC",
+    "position": [
+      189,
+      203
+    ],
+    "confidence": 0.8353623620101384,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      306,
+      313
+    ],
+    "confidence": 0.9984231144189835,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhiễm nấm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      347,
+      356
+    ],
+    "confidence": 0.9831314608454704,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nấm b",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      385,
+      390
+    ],
+    "confidence": 0.7155937701463699,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc kháng nấm",
+    "type": "THUỐC",
+    "position": [
+      415,
+      430
+    ],
+    "confidence": 0.9871228294713157,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lây nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      560,
+      569
+    ],
+    "confidence": 0.9875207170844078,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tái phát",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      576,
+      584
+    ],
+    "confidence": 0.9984830617904663,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      585,
+      592
+    ],
+    "confidence": 0.922050301517759,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mồ hôi",
+    "type": "THUỐC",
+    "position": [
+      920,
+      926
+    ],
+    "confidence": 0.6704121033350626,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1064,
+      1074
+    ],
+    "confidence": 0.9967691500981649,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1354,
+      1358
+    ],
+    "confidence": 0.9942601919174194,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

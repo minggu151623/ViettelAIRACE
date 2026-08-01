@@ -1,0 +1,29 @@
+{
+  "records": 100,
+  "completed": 100,
+  "elapsed_seconds": 0.091,
+  "learned": "output_v15_weighted_bami",
+  "legacy": "output_v6_structural_btc",
+  "output": "output_v15_specialist_hybrid",
+  "stats": {
+    "legacy:THUỐC": 46,
+    "legacy:KẾT_QUẢ_XÉT_NGHIỆM": 55,
+    "agreement:CHẨN_ĐOÁN": 280,
+    "agreement:TRIỆU_CHỨNG": 647,
+    "learned:TRIỆU_CHỨNG": 685,
+    "agreement:TÊN_XÉT_NGHIỆM": 171,
+    "dropped_overlap:TÊN_XÉT_NGHIỆM": 235,
+    "learned:TÊN_XÉT_NGHIỆM": 345,
+    "output:THUỐC": 165,
+    "output:CHẨN_ĐOÁN": 569,
+    "output:TRIỆU_CHỨNG": 1332,
+    "output:TÊN_XÉT_NGHIỆM": 516,
+    "output:KẾT_QUẢ_XÉT_NGHIỆM": 231,
+    "learned:CHẨN_ĐOÁN": 289,
+    "dropped_overlap:CHẨN_ĐOÁN": 16,
+    "legacy:THÔNG_TIN_BỆNH_NHÂN": 2,
+    "output:THÔNG_TIN_BỆNH_NHÂN": 2,
+    "dropped_overlap:TRIỆU_CHỨNG": 1
+  },
+  "errors": []
+}

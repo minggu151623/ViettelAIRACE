@@ -1,0 +1,159 @@
+[
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      21,
+      37
+    ]
+  },
+  {
+    "text": "u cơ trơn tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D25.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      39,
+      56
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      77,
+      82
+    ]
+  },
+  {
+    "text": "iron",
+    "type": "THUỐC",
+    "candidates": [
+      "90176"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      104,
+      108
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      165,
+      173
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      182,
+      190
+    ]
+  },
+  {
+    "text": "abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      234,
+      248
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      255,
+      263
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      312,
+      319
+    ]
+  },
+  {
+    "text": "u xơ tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      542,
+      554
+    ]
+  },
+  {
+    "text": "phòng thí nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      676,
+      692
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      724,
+      733
+    ]
+  },
+  {
+    "text": "siêu âm tử cung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      749,
+      764
+    ]
+  },
+  {
+    "text": "U cơ trơn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D25.9"
+    ],
+    "assertions": [],
+    "position": [
+      829,
+      838
+    ]
+  },
+  {
+    "text": "giãn bể thận",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1057,
+      1069
+    ]
+  }
+]

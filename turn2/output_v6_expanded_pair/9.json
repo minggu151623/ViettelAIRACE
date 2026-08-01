@@ -1,0 +1,212 @@
+[
+  {
+    "text": "đau bao tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      113,
+      123
+    ]
+  },
+  {
+    "text": "ổ loét trong bao tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K25.9"
+    ],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      327,
+      346
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1030,
+      1038
+    ]
+  },
+  {
+    "text": "đau bụng râm ran",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      1030,
+      1046
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1347,
+      1354
+    ]
+  },
+  {
+    "text": "viêm bao tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K29.7"
+    ],
+    "assertions": [
+      "isNegated",
+      "isFamily"
+    ],
+    "position": [
+      1517,
+      1528
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1886,
+      1893
+    ]
+  },
+  {
+    "text": "Aquima",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2032,
+      2038
+    ]
+  },
+  {
+    "text": "nhôm hydroxid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2040,
+      2053
+    ]
+  },
+  {
+    "text": "Simenic",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2085,
+      2092
+    ]
+  },
+  {
+    "text": "Simethicon 100mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2118,
+      2134
+    ]
+  },
+  {
+    "text": "Pimperam",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2135,
+      2143
+    ]
+  },
+  {
+    "text": "metoclopramide 10mg",
+    "type": "THUỐC",
+    "candidates": [
+      "311666"
+    ],
+    "assertions": [],
+    "position": [
+      2145,
+      2164
+    ]
+  },
+  {
+    "text": "Nhôm hydroxid",
+    "type": "THUỐC",
+    "candidates": [
+      "612"
+    ],
+    "assertions": [],
+    "position": [
+      2249,
+      2262
+    ]
+  },
+  {
+    "text": "magie hydroxid",
+    "type": "THUỐC",
+    "candidates": [
+      "6581"
+    ],
+    "assertions": [],
+    "position": [
+      2266,
+      2280
+    ]
+  },
+  {
+    "text": "triệu chứng ợ nóng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2334,
+      2352
+    ]
+  },
+  {
+    "text": "trào ngược dạ dày thực quản",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2358,
+      2385
+    ]
+  },
+  {
+    "text": "đại tràng giãn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K59.3"
+    ],
+    "assertions": [],
+    "position": [
+      2703,
+      2717
+    ]
+  },
+  {
+    "text": "xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2790,
+      2804
+    ]
+  },
+  {
+    "text": "tăng bạch cầu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2808,
+      2821
+    ]
+  }
+]

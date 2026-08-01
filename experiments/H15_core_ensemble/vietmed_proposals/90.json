@@ -1,0 +1,62 @@
+[
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      26,
+      30
+    ],
+    "confidence": 0.9493594169616699,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "giọng khàn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      37,
+      47
+    ],
+    "confidence": 0.8496835265840803,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      51,
+      61
+    ],
+    "confidence": 0.9975475072860718,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      113,
+      123
+    ],
+    "confidence": 0.9978083173433939,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      210,
+      220
+    ],
+    "confidence": 0.9887363910675049,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

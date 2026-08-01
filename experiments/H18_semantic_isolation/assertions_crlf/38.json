@@ -1,0 +1,167 @@
+[
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [50, 70]
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch đặt stent",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [78, 121]
+  },
+  {
+    "text": "Suy tim dãn tâm thu giữ nguyên trương lực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [129, 170]
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [269, 277]
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [380, 388]
+  },
+  {
+    "text": "nuốt vướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [398, 408]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [416, 424]
+  },
+  {
+    "text": "Tăng tăng cân 3 pound trong 7 ngày qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [432, 470]
+  },
+  {
+    "text": "Yếu tố làm nặng thêm: nuốt vướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [524, 556]
+  },
+  {
+    "text": "Yếu tố làm giảm: đồ uống lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [564, 593]
+  },
+  {
+    "text": "Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [601, 676]
+  },
+  {
+    "text": "Tự đo từ temperate đến tmax 102 sốt tại nhà",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [721, 764]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [781, 788]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [789, 791]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [794, 796]
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [887, 895]
+  },
+  {
+    "text": "xét nghiệm âm tính với viêm họng do liên cầu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [915, 959]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1021, 1028]
+  },
+  {
+    "text": "glucose 537",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1021, 1032]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1040, 1047]
+  },
+  {
+    "text": "glucose cải thiện thành 367",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1040, 1067]
+  },
+  {
+    "text": "bun (ure) 3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1075, 1086]
+  },
+  {
+    "text": "cr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1094, 1096]
+  },
+  {
+    "text": "cr (creatinine) 1.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1094, 1113]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1098, 1108]
+  },
+  {
+    "text": "ag (anion gap) 17",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1121, 1138]
+  },
+  {
+    "text": "ag (anion gap) đóng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1146, 1165]
+  }
+]

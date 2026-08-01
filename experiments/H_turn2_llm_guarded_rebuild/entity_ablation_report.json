@@ -1,0 +1,671 @@
+{
+  "source": "turn2/output",
+  "output": "experiments/H_turn2_llm_guarded_rebuild/output_entity_ablation",
+  "proposal_dirs": [
+    "experiments/H_turn2_llm_guarded_rebuild/qwen_broad_probe",
+    "experiments/H_turn2_llm_guarded_rebuild/qwen_structured_probe"
+  ],
+  "candidate_review": null,
+  "elapsed_seconds": 0.06,
+  "stats": {
+    "records": 100,
+    "entities_before": 1486,
+    "entities_after": 1550,
+    "added:TÊN_XÉT_NGHIỆM": 22,
+    "added:TRIỆU_CHỨNG": 21,
+    "added:CHẨN_ĐOÁN": 21,
+    "added:THUỐC": 1
+  },
+  "changes": [
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "xét nghiệm gắng sức bất thường",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        71,
+        101
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "khó chịu vùng ngực gián đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        193,
+        221
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        224,
+        233
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        236,
+        243
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        245,
+        252
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "đổ mồ hôi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        256,
+        265
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        536,
+        545
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        547,
+        554
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "đổ mồ hôi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        556,
+        565
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "xét nghiệm gắng sức bất thường",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        599,
+        629
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        695,
+        698
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "Viêm hang vị sung huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        743,
+        766
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        884,
+        900
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        910,
+        915
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        917,
+        923
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        944,
+        952
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "nội soi dạ dày",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1219,
+        1233
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1088,
+        1096
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1110,
+        1118
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1331,
+        1339
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1467,
+        1475
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1714,
+        1722
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "Đo sức bền cơ tim bằng đồng vị phóng xạ",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        68,
+        107
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "dị tật cố định vùng trước vách và vách dưới",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        119,
+        162
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "giảm chức năng tâm thu thất trái nghiêm trọng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        168,
+        213
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "rối loạn chức năng thất trái",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        223,
+        251
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "Chụp động mạch vành",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        255,
+        274
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "bệnh ba thân động mạch vành nghiêm trọng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        284,
+        324
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "Chụp động mạch vành",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        355,
+        374
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "Viêm hang vị sung huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        411,
+        434
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        552,
+        568
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        578,
+        583
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        585,
+        591
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        612,
+        620
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "nội soi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        720,
+        727
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "nội soi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        887,
+        894
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        756,
+        764
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        778,
+        786
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "nội soi dạ dày",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        887,
+        901
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        999,
+        1007
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1135,
+        1143
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "điều trị",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1382,
+        1390
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "suy tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        30,
+        37
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "bệnh mạch máu ngoại biên",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        44,
+        68
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "bệnh phổi tắc nghẽn mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        75,
+        103
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "Ngưng thở khi ngủ do tắc nghẽn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        110,
+        140
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        163,
+        224
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "Viêm hang vị sung huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        336,
+        359
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        477,
+        493
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        503,
+        508
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        510,
+        516
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        537,
+        545
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "nội soi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        645,
+        652
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "nội soi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        812,
+        819
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "khối u trực tràng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        25,
+        42
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "u ác trực tràng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        64,
+        79
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "sinh thiết",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        90,
+        100
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "u tuyến",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        118,
+        125
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "Nấm bẹn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        220,
+        227
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "nấm bẹn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        491,
+        498
+      ]
+    },
+    {
+      "record": "84",
+      "action": "ADD_ENTITY",
+      "text": "Nấm bẹn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        114,
+        121
+      ]
+    },
+    {
+      "record": "84",
+      "action": "ADD_ENTITY",
+      "text": "nấm bẹn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        385,
+        392
+      ]
+    },
+    {
+      "record": "84",
+      "action": "ADD_ENTITY",
+      "text": "thuốc giảm đau opioid",
+      "type": "THUỐC",
+      "position": [
+        55,
+        76
+      ]
+    },
+    {
+      "record": "96",
+      "action": "ADD_ENTITY",
+      "text": "tắc hẹp 80% động mạch thận trái L",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        107,
+        140
+      ]
+    },
+    {
+      "record": "96",
+      "action": "ADD_ENTITY",
+      "text": "tắc hẹp 80% động mạch thận trái L",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        236,
+        269
+      ]
+    }
+  ]
+}

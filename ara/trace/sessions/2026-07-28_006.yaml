@@ -1,0 +1,23 @@
+id: "2026-07-28_006"
+date: "2026-07-28"
+title: "Official sample boundary-policy audit"
+provenance: ai-executed
+events:
+  - type: experiment
+    description: >
+      Visually inspected the official PDF sample and compared drug, indication,
+      repeated-occurrence, and adjacent-symptom boundaries against the i2b2
+      policy prior.
+    evidence:
+      - "literature/official_sample_boundary_policy.md"
+      - "AI Race 2026 - Cuộc đua AI cho kỹ sư Việt Nam.pdf"
+  - type: observation
+    description: >
+      The official sample keeps "sốt đau" as one span but splits "lo âu mất ngủ",
+      so compound symptom segmentation is phrase-specific.
+  - type: decision
+    description: >
+      Do not generate a global compound-symptom boundary ablation.
+outcome: >
+  H11 was added as supported by official evidence. No artifact or leaderboard
+  submission was produced.

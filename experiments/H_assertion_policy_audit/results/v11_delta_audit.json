@@ -1,0 +1,56 @@
+{
+  "baseline": "output_v6_structural_btc",
+  "candidate": "output_v11_assertion_only_btc",
+  "non_assertion_fields_byte_equivalent": true,
+  "assertion_rows_changed": 176,
+  "transitions": [
+    {
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "count": 144
+    },
+    {
+      "before": [
+        "isFamily"
+      ],
+      "after": [],
+      "count": 16
+    },
+    {
+      "before": [
+        "isFamily"
+      ],
+      "after": [
+        "isHistorical"
+      ],
+      "count": 2
+    },
+    {
+      "before": [
+        "isFamily"
+      ],
+      "after": [
+        "isHistorical",
+        "isFamily"
+      ],
+      "count": 1
+    },
+    {
+      "before": [
+        "isHistorical"
+      ],
+      "after": [],
+      "count": 3
+    },
+    {
+      "before": [
+        "isNegated"
+      ],
+      "after": [],
+      "count": 10
+    }
+  ],
+  "submission_artifact_written": false
+}

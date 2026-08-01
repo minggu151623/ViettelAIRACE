@@ -1,0 +1,261 @@
+[
+  {
+    "text": "tàn nhang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      29,
+      38
+    ]
+  },
+  {
+    "text": "tử vong",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "position": [
+      208,
+      215
+    ]
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      262,
+      270
+    ]
+  },
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F39"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      277,
+      293
+    ]
+  },
+  {
+    "text": "Rối loạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F39"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      301,
+      309
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      326,
+      340
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      345,
+      350
+    ]
+  },
+  {
+    "text": "Thuốc kê đơn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      397,
+      409
+    ]
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      442,
+      459
+    ]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "candidates": [
+      "2599"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      480,
+      489
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [
+      "352990"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      517,
+      525
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      580,
+      585
+    ]
+  },
+  {
+    "text": "chất kích thích",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      658,
+      673
+    ]
+  },
+  {
+    "text": "chất gây nghiện",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      675,
+      690
+    ]
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      691,
+      697
+    ]
+  },
+  {
+    "text": "định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      744,
+      754
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32.9"
+    ],
+    "assertions": [],
+    "position": [
+      808,
+      816
+    ]
+  },
+  {
+    "text": "hưng cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      873,
+      881
+    ]
+  },
+  {
+    "text": "có ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      965,
+      980
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      983,
+      988
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [
+      "352990"
+    ],
+    "assertions": [],
+    "position": [
+      1039,
+      1047
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [
+      "352990"
+    ],
+    "assertions": [],
+    "position": [
+      1082,
+      1090
+    ]
+  }
+]

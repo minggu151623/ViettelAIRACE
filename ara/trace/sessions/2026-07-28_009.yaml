@@ -1,0 +1,25 @@
+id: "2026-07-28_009"
+date: "2026-07-28"
+title: "Independent candidate-stripping evidence"
+provenance: ai-executed
+events:
+  - type: experiment
+    description: >
+      Read a new participant forum report comparing identical 2,311-entity
+      submissions with and without ICD/RxNorm candidates.
+    evidence:
+      - "literature/forum_peer_blackbox_evidence_2026-07-27.md"
+  - type: observation
+    description: >
+      The reported candidate score changed from 0 with codes to 0.8415 without;
+      an entirely empty submission scored 0.1933.
+  - type: observation
+    description: >
+      A second participant independently reported J_candidates equal to zero
+      despite emitting codes, without providing a paired ablation.
+  - type: decision
+    description: >
+      Strengthen candidate abstention as a risk-calibration rule, while keeping
+      the report explicitly unaudited and non-official.
+outcome: >
+  H2 and C13 were strengthened. No artifact or submission was produced.

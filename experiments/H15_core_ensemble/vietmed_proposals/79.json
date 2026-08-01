@@ -1,0 +1,54 @@
+[
+  {
+    "text": "Bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      21,
+      28
+    ],
+    "confidence": 0.9970863064130148,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      29,
+      37
+    ],
+    "confidence": 0.8989792721612113,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "chảy dịch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      218,
+      227
+    ],
+    "confidence": 0.998311460018158,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy dịch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      294,
+      303
+    ],
+    "confidence": 0.9985820353031158,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

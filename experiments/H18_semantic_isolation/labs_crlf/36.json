@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Bệnh thận đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [42, 59]
+  },
+  {
+    "text": "Bệnh thận đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [69, 86]
+  },
+  {
+    "text": "azathioprine",
+    "type": "THUỐC",
+    "candidates": ["1256"],
+    "assertions": ["isHistorical"],
+    "position": [212, 224]
+  },
+  {
+    "text": "prograf",
+    "type": "THUỐC",
+    "candidates": ["108514"],
+    "assertions": ["isHistorical"],
+    "position": [238, 245]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": ["152633"],
+    "assertions": [],
+    "position": [300, 308]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": ["152633"],
+    "assertions": [],
+    "position": [330, 338]
+  },
+  {
+    "text": "Suy thận ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [395, 418]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [467, 477]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [526, 536]
+  },
+  {
+    "text": "1.4-1.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [551, 558]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [586, 596]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": ["152633"],
+    "assertions": [],
+    "position": [667, 675]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [707, 717]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [972, 982]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1202, 1212]
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1216, 1219]
+  },
+  {
+    "text": "Suy thận ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1296, 1319]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": ["152633"],
+    "assertions": ["isHistorical"],
+    "position": [1412, 1420]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1768, 1778]
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1779, 1782]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1973, 1983]
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1984, 1987]
+  }
+]

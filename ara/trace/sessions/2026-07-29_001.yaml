@@ -1,0 +1,52 @@
+session:
+  id: "2026-07-29_001"
+  timestamp: "2026-07-29T00:00+07:00"
+  summary: "Integrated bounded evidence repairs into deterministic LF and CRLF V18 artifacts."
+
+events_logged:
+  - type: experiment
+    id: N18
+    provenance: ai-executed
+    summary: >
+      Built V18 from V6 with independently selectable assertion, RxNorm,
+      numeric-lab, and CRLF interventions; 43 tests and both validators pass.
+  - type: claim
+    id: C16
+    provenance: ai-executed
+    summary: >
+      V18 is internally reproducible and scope-bounded, but has no external
+      leaderboard evidence yet.
+  - type: heuristic
+    id: H05
+    provenance: ai-suggested
+    summary: >
+      Promote lab name/value pairs only when an existing compound result
+      already covers both spans.
+
+ai_actions:
+  - action: "Implemented the evidence-rebuild module and CLI."
+    provenance: ai-executed
+    files_changed:
+      - "airace/evidence_rebuild.py"
+      - "airace/cli.py"
+      - "tests/test_lab_splitter.py"
+  - action: "Generated and validated deterministic LF/CRLF artifacts."
+    provenance: ai-executed
+    files_changed:
+      - "output_v18_evidence_lf.zip"
+      - "output_v18_evidence_crlf.zip"
+      - "reports/v18_evidence_lf.json"
+      - "reports/v18_evidence_crlf.json"
+      - "reports/v18_delta_audit.json"
+
+claims_touched:
+  - id: C16
+    action: created
+    provenance: ai-executed
+
+open_threads:
+  - "Measure isolated H7 CRLF position-only artifact before evaluating V18."
+  - "Treat any leaderboard result as external evidence, not local ground truth."
+
+ai_suggestions_pending:
+  - "Submit V18 CRLF only if isolated H7 materially improves the V6 score."

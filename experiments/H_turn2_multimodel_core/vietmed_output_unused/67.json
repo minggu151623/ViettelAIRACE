@@ -1,0 +1,254 @@
+[
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      30,
+      37
+    ]
+  },
+  {
+    "text": "bệnh mạch máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      44,
+      57
+    ]
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J44.9"
+    ],
+    "assertions": [],
+    "position": [
+      75,
+      94
+    ]
+  },
+  {
+    "text": "Ngưng thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      110,
+      119
+    ]
+  },
+  {
+    "text": "tắc nghẽn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      131,
+      140
+    ]
+  },
+  {
+    "text": "Ung thư biểu mô",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      163,
+      178
+    ]
+  },
+  {
+    "text": "Viêm hang vị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      336,
+      348
+    ]
+  },
+  {
+    "text": "sung huyết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      349,
+      359
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K21.0"
+    ],
+    "assertions": [],
+    "position": [
+      403,
+      407
+    ]
+  },
+  {
+    "text": "viêm giãn nở",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      427,
+      439
+    ]
+  },
+  {
+    "text": "ứ máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      443,
+      448
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      477,
+      485
+    ]
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      503,
+      508
+    ]
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      510,
+      516
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      537,
+      545
+    ]
+  },
+  {
+    "text": "nan y",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      595,
+      600
+    ]
+  },
+  {
+    "text": "soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      649,
+      652
+    ]
+  },
+  {
+    "text": "viêm sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      726,
+      741
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      889,
+      893
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1084,
+      1089
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1147,
+      1152
+    ]
+  },
+  {
+    "text": "viêm sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1206,
+      1221
+    ]
+  },
+  {
+    "text": "hang vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1222,
+      1229
+    ]
+  },
+  {
+    "text": "thiên nhiên",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1264,
+      1275
+    ]
+  },
+  {
+    "text": "quá no",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1619,
+      1625
+    ]
+  },
+  {
+    "text": "đói",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1639,
+      1642
+    ]
+  }
+]

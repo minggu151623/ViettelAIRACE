@@ -1,0 +1,30 @@
+session:
+  id: "2026-07-28_001"
+  timestamp: "2026-07-28T00:12+07:00"
+  summary: "Strengthened the CRLF coordinate hypothesis with independent archive evidence."
+
+events_logged:
+  - type: experiment
+    id: N07
+    provenance: ai-executed
+    summary: "Found Windows-origin ZIP metadata, LF-only payloads, and coordinate-consistent matching failure."
+
+ai_actions:
+  - action: "Inspected organizer forum updates; no new official answer was present."
+    provenance: ai-executed
+    files_changed: []
+  - action: "Counted archive origins and newline bytes, then updated H7 analysis."
+    provenance: ai-executed
+    files_changed: ["experiments/H_crlf_coordinate_reconstruction/analysis.md", "findings.md", "research-log.md", "research-state.yaml"]
+
+claims_touched:
+  - id: C04
+    action: advanced
+    provenance: ai-suggested
+
+open_threads:
+  - "Obtain the official leaderboard result for output_v17_crlf_positions.zip."
+  - "Keep H8 candidate repair isolated until H7 is measured."
+
+ai_suggestions_pending:
+  - "Use V17 as the next high-information submission if the user has a submission available."

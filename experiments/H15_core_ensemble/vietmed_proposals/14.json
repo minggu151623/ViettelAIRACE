@@ -1,0 +1,236 @@
+[
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      69,
+      77
+    ],
+    "confidence": 0.983106791973114,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      92,
+      99
+    ],
+    "confidence": 0.9983401596546173,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      123,
+      126
+    ],
+    "confidence": 0.9979405999183655,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      139,
+      146
+    ],
+    "confidence": 0.9983270168304443,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      149,
+      158
+    ],
+    "confidence": 0.9983992204070091,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      182,
+      185
+    ],
+    "confidence": 0.998276948928833,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      191,
+      195
+    ],
+    "confidence": 0.6333703994750977,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      197,
+      206
+    ],
+    "confidence": 0.9951822236180305,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      239,
+      246
+    ],
+    "confidence": 0.9981279075145721,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dị ứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      293,
+      299
+    ],
+    "confidence": 0.9959199666976929,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dị ứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      312,
+      318
+    ],
+    "confidence": 0.9962300300598145,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      330,
+      339
+    ],
+    "confidence": 0.9985268041491508,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thiếu máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      513,
+      522
+    ],
+    "confidence": 0.9984751716256142,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      526,
+      529
+    ],
+    "confidence": 0.6199420690536499,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "I25.1"
+    ]
+  },
+  {
+    "text": "hẹp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      574,
+      577
+    ],
+    "confidence": 0.9475790858268738,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "I65.29"
+    ]
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      681,
+      690
+    ],
+    "confidence": 0.9615624696016312,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      699,
+      718
+    ],
+    "confidence": 0.9958364536706735,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu máu cơ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      731,
+      743
+    ],
+    "confidence": 0.9299438704143871,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hẹp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      749,
+      752
+    ],
+    "confidence": 0.7605109810829163,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "I65.29"
+    ]
+  }
+]

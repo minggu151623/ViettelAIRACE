@@ -1,0 +1,1354 @@
+{
+  "ontology": "ICD-10-CM FY2026",
+  "model": "qwen3:8b",
+  "method": "two-pass exact-code agreement",
+  "min_confidence": 0.72,
+  "aliases": {
+    "ban chan veo bam sinh": {
+      "mention": "bàn chân vẹo bẩm sinh",
+      "code": "Q64.0",
+      "title": "Epispadias",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "bat thuong đien giai": {
+      "mention": "bất thường điện giải",
+      "code": "E86.0",
+      "title": "Dehydration",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "benh gan do ruou": {
+      "mention": "Bệnh gan do rượu",
+      "code": "K70.9",
+      "title": "Alcoholic liver disease, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "benh gut khong đac hieu": {
+      "mention": "bệnh gút không đặc hiệu",
+      "code": "M10.9",
+      "title": "Gout, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "benh mach mau ngoai bien": {
+      "mention": "bệnh mạch máu ngoại biên",
+      "code": "I73.9",
+      "title": "Peripheral vascular disease, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "benh than man": {
+      "mention": "bệnh thận mạn",
+      "code": "N18.5",
+      "title": "Chronic kidney disease, stage 5",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "benh than man tinh": {
+      "mention": "Bệnh thận mạn tính",
+      "code": "N18.5",
+      "title": "Chronic kidney disease, stage 5",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "benh than man, khong đac hieu": {
+      "mention": "bệnh thận mạn, không đặc hiệu",
+      "code": "N18.5",
+      "title": "Chronic kidney disease, stage 5",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "benh than đa nang": {
+      "mention": "Bệnh thận đa nang",
+      "code": "N18.5",
+      "title": "Chronic kidney disease, stage 5",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "benh thuy đau/zona (do varicella zoster virus)": {
+      "mention": "Bệnh thủy đậu/Zona (do Varicella Zoster Virus)",
+      "code": "B05.9",
+      "title": "Measles without complication",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "benh trao nguoc da day- thuc quan khong co viem thuc quan": {
+      "mention": "bệnh trào ngược dạ dày- thực quản không có viêm thực quản",
+      "code": "K21.9",
+      "title": "Gastro-esophageal reflux disease without esophagitis",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "beo phi": {
+      "mention": "béo phì",
+      "code": "E66.9",
+      "title": "Obesity, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "boc tach đong mach chu loai b": {
+      "mention": "bóc tách động mạch chủ loại B",
+      "code": "I12.0",
+      "title": "Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "boc tach đong mach chu stanford loai b": {
+      "mention": "bóc tách động mạch chủ Stanford loại B",
+      "code": "I12.0",
+      "title": "Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "chan đoan nao ung thuy": {
+      "mention": "chẩn đoán não úng thủy",
+      "code": "G93.1",
+      "title": "Anoxic brain damage, not elsewhere classified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "chan đoan ngat xiu do phan ung than kinh mach mau sau con ngat": {
+      "mention": "chẩn đoán ngất xỉu do phản ứng thần kinh mạch máu sau cơn ngất",
+      "code": "I95.9",
+      "title": "Hypotension, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "clostridioides difficile": {
+      "mention": "Clostridioides difficile",
+      "code": "A04.9",
+      "title": "Bacterial intestinal infection, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "fna cua mot not san tuyen giap phai co cau truc vi nang": {
+      "mention": "FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang",
+      "code": "R09.81",
+      "title": "Nasal congestion",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "ghep than": {
+      "mention": "ghép thận",
+      "code": "Z94.0",
+      "title": "Kidney transplant status",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "giai đoan iv ung thu phoi khong te bao nho": {
+      "mention": "Giai đoạn IV Ung thư phổi không tế bào nhỏ",
+      "code": "C34.92",
+      "title": "Malignant neoplasm of unspecified part of left bronchus or lung",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "gian phe quan": {
+      "mention": "giãn phế quản",
+      "code": "J44.0",
+      "title": "Chronic obstructive pulmonary disease with (acute) lower respiratory infection",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "hep 60% đoan gan đong mach lien that truoc trai": {
+      "mention": "hẹp 60% đoạn gần động mạch liên thất trước trái",
+      "code": "I25.2",
+      "title": "Old myocardial infarction",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "hep van đong mach chu nghiem trong": {
+      "mention": "hẹp van động mạch chủ nghiêm trọng",
+      "code": "I05.2",
+      "title": "Rheumatic mitral stenosis with insufficiency",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "herpes simplex (hsv)": {
+      "mention": "Herpes simplex (HSV)",
+      "code": "B00.9",
+      "title": "Herpesviral infection, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "ho van hai la nang": {
+      "mention": "hở van hai lá nặng",
+      "code": "I05.1",
+      "title": "Rheumatic mitral insufficiency",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "hoi chung nao gan": {
+      "mention": "hội chứng não gan",
+      "code": "G54.1",
+      "title": "Lumbosacral plexus disorders",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "hoi chung turner": {
+      "mention": "hội chứng turner",
+      "code": "Q85.9",
+      "title": "Phakomatosis, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "khoi u truc trang": {
+      "mention": "khối u trực tràng",
+      "code": "C18.9",
+      "title": "Malignant neoplasm of colon, unspecified",
+      "confidence": 0.85,
+      "agreement": 2
+    },
+    "loet ban chan nhiem trung": {
+      "mention": "Loét bàn chân nhiễm trùng",
+      "code": "L08.9",
+      "title": "Local infection of the skin and subcutaneous tissue, unspecified",
+      "confidence": 0.8,
+      "agreement": 2
+    },
+    "nhiem khuan đuong tiet nieu": {
+      "mention": "nhiễm khuẩn đường tiết niệu",
+      "code": "N39.0",
+      "title": "Urinary tract infection, site not specified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "nhiem khuan đuong tiet nieu tai phat": {
+      "mention": "nhiễm khuẩn đường tiết niệu tái phát",
+      "code": "N39.0",
+      "title": "Urinary tract infection, site not specified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "nhiem trung chi duoi ben phai": {
+      "mention": "nhiễm trùng chi dưới bên phải",
+      "code": "N39.0",
+      "title": "Urinary tract infection, site not specified",
+      "confidence": 0.8,
+      "agreement": 2
+    },
+    "nhiem trung huyet": {
+      "mention": "nhiễm trùng huyết",
+      "code": "A41.9",
+      "title": "Sepsis, unspecified organism",
+      "confidence": 0.95,
+      "agreement": 2
+    },
+    "nhiem trung vet moo": {
+      "mention": "nhiễm trùng vết mổổ",
+      "code": "N39.0",
+      "title": "Urinary tract infection, site not specified",
+      "confidence": 0.8,
+      "agreement": 2
+    },
+    "nhiem trung đuong ho hap tren cap": {
+      "mention": "nhiễm trùng đường hô hấp trên cấp",
+      "code": "J06.9",
+      "title": "Acute upper respiratory infection, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "nhiem trung đuong tiet nieu (utis) tai phat nhiem khuan đuong tiet nieu, vi tri khong xac đinh": {
+      "mention": "Nhiễm trùng đường tiết niệu (UTIs) tái phát nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "code": "N39.0",
+      "title": "Urinary tract infection, site not specified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "nhiem trung đuong tiet nieu khang thuoc": {
+      "mention": "Nhiễm trùng đường tiết niệu kháng thuốc",
+      "code": "N39.0",
+      "title": "Urinary tract infection, site not specified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "ro ong tuy mat": {
+      "mention": "rò ống tuỵ mật",
+      "code": "K86.1",
+      "title": "Other chronic pancreatitis",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "ro đong - tinh mach đui phai": {
+      "mention": "Rò động - tĩnh mạch đùi phải",
+      "code": "K86.1",
+      "title": "Other chronic pancreatitis",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "roi loan chuc nang tam that phai": {
+      "mention": "rối loạn chức năng tâm thất phải",
+      "code": "I51.1",
+      "title": "Rupture of chordae tendineae, not elsewhere classified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "roi loan lipid mau": {
+      "mention": "Rối loạn lipid máu",
+      "code": "E78.9",
+      "title": "Disorder of lipoprotein metabolism, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "roi loan lo au": {
+      "mention": "rối loạn lo âu",
+      "code": "F41.1",
+      "title": "Generalized anxiety disorder",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "roi loan lo au, khong biet đinh nghiem trong": {
+      "mention": "rối loạn lo âu, không biệt định nghiêm trọng",
+      "code": "F41.1",
+      "title": "Generalized anxiety disorder",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "roi loan luong cuc": {
+      "mention": "Rối loạn lưỡng cực",
+      "code": "F31.9",
+      "title": "Bipolar disorder, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "sa van hai la": {
+      "mention": "Sa van hai lá",
+      "code": "I07.0",
+      "title": "Rheumatic tricuspid stenosis",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "suy giam mien dich": {
+      "mention": "Suy giảm miễn dịch",
+      "code": "Z88.0",
+      "title": "Allergy status to penicillin",
+      "confidence": 0.8,
+      "agreement": 2
+    },
+    "suy giam nhan thuc nhe suy giam nhan thuc": {
+      "mention": "Suy giảm nhận thức nhẹ suy giảm nhận thức",
+      "code": "G31.9",
+      "title": "Degenerative disease of nervous system, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "suy than cap": {
+      "mention": "suy thận cấp",
+      "code": "N18.5",
+      "title": "Chronic kidney disease, stage 5",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "suy than man giai v": {
+      "mention": "Suy thận mạn giai V",
+      "code": "N18.6",
+      "title": "End stage renal disease",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "suy tim": {
+      "mention": "suy tim",
+      "code": "I50.9",
+      "title": "Heart failure, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "suy tim khong do thieu mau co tim": {
+      "mention": "Suy tim không do thiếu máu cơ tim",
+      "code": "I50.9",
+      "title": "Heart failure, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "suy tim sung huyet cap": {
+      "mention": "Suy tim sung huyết cấp",
+      "code": "I50.1",
+      "title": "Left ventricular failure, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "suy tim, khong đac hieu": {
+      "mention": "suy tim, không đặc hiệu",
+      "code": "I50.9",
+      "title": "Heart failure, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "suy tim, khong đac hieu he so tong mau 50 inch": {
+      "mention": "suy tim, không đặc hiệu hệ số tống máu 50 inch",
+      "code": "I50.9",
+      "title": "Heart failure, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "tac mach huyet khoi tinh mach chu duoi (ivc) va tinh mach chu tren (svc) phai": {
+      "mention": "Tắc mạch huyết khối tĩnh mạch chủ dưới (IVC) và tĩnh mạch chủ trên (SVC) phải",
+      "code": "I86.1",
+      "title": "Scrotal varices",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "tai phat u ac truc trang": {
+      "mention": "tái phát u ác trực tràng",
+      "code": "C18.9",
+      "title": "Malignant neoplasm of colon, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "tam than phan liet": {
+      "mention": "tâm thần phân liệt",
+      "code": "F20.9",
+      "title": "Schizophrenia, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "tang ap luc tinh mach cua": {
+      "mention": "tăng áp lực tĩnh mạch cửa",
+      "code": "K76.0",
+      "title": "Fatty (change of) liver, not elsewhere classified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "tang cr": {
+      "mention": "tăng Cr",
+      "code": "R94.6",
+      "title": "Abnormal results of thyroid function studies",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "tang kali mau": {
+      "mention": "tăng kali máu",
+      "code": "R94.4",
+      "title": "Abnormal results of kidney function studies",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "tang san tuyen tien liet": {
+      "mention": "tăng sản tuyến tiền liệt",
+      "code": "N40.1",
+      "title": "Benign prostatic hyperplasia with lower urinary tract symptoms",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "tao bon man tinh": {
+      "mention": "Táo bón mãn tính",
+      "code": "K59.1",
+      "title": "Functional diarrhea",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "than benh": {
+      "mention": "thận bệnh",
+      "code": "N18.9",
+      "title": "Chronic kidney disease, unspecified",
+      "confidence": 0.9,
+      "agreement": 2
+    },
+    "thoat vi canh thuc quan": {
+      "mention": "thoát vị cạnh thực quản",
+      "code": "K43.1",
+      "title": "Incisional hernia with gangrene",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "thoat vi hoanh": {
+      "mention": "thoát vị hoành",
+      "code": "K43.2",
+      "title": "Incisional hernia without obstruction or gangrene",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "thuyen tac tinh mach sau chi duoi": {
+      "mention": "Thuyên tắc tĩnh mạch sâu chi dưới",
+      "code": "I82.1",
+      "title": "Thrombophlebitis migrans",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "tien su lam sang suy tim, khong đac hieu": {
+      "mention": "tiền sử lâm sàng suy tim, không đặc hiệu",
+      "code": "I50.9",
+      "title": "Heart failure, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "ton thuong day thanh quan": {
+      "mention": "tổn thương dây thanh quản",
+      "code": "J38.1",
+      "title": "Polyp of vocal cord and larynx",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "ton thuong day thanh quan that su": {
+      "mention": "tổn thương dây thanh quản thật sự",
+      "code": "J38.1",
+      "title": "Polyp of vocal cord and larynx",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "u ac cua tuyen tien liet": {
+      "mention": "u ác của tuyến tiền liệt",
+      "code": "C61",
+      "title": "Malignant neoplasm of prostate",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "u ac cua tuyen tien liet đieu tri bang xa tri cay hat": {
+      "mention": "u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt",
+      "code": "C61",
+      "title": "Malignant neoplasm of prostate",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "ung thu bieu mo te bao mat khong the cat bo": {
+      "mention": "ung thư biểu mô tế bào mật không thể cắt bỏ",
+      "code": "C22.9",
+      "title": "Malignant neoplasm of liver, not specified as primary or secondary",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "ung thu bieu mo te bao vay xam nhap cua duong vatbiet hoa kem": {
+      "mention": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém",
+      "code": "C51.9",
+      "title": "Malignant neoplasm of vulva, unspecified",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "ung thu di can theo đuong bach huyet o hai phoi": {
+      "mention": "ung thư di căn theo đường bạch huyết ở hai phổi",
+      "code": "C78.1",
+      "title": "Secondary malignant neoplasm of mediastinum",
+      "confidence": 1.0,
+      "agreement": 2
+    },
+    "viem tuy xuong man tinh": {
+      "mention": "viêm tủy xương mãn tính",
+      "code": "M35.1",
+      "title": "Other overlap syndromes",
+      "confidence": 0.9,
+      "agreement": 2
+    }
+  },
+  "rejected": [
+    {
+      "mention": "áp xe",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "bàng quang thần kinh gây biến chứng liệt hai chi dưới và loét tì đè giai đoạn IV mãn tính",
+      "first": "G90.31",
+      "second": "G90.31",
+      "first_confidence": 0.8,
+      "second_confidence": 0.8
+    },
+    {
+      "mention": "Bệnh bạch cầu dòng tủy mãn tính",
+      "first": "C93.9",
+      "second": "C93.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "bệnh Graves",
+      "first": "E05.9",
+      "second": "E05.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "bệnh hiện tại",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "bệnh lý bất thường",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "bệnh lý khác",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "bệnh lý mạn tính",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Bệnh lý mãn tính: não úng thuỷ khác từ thời kỳ sơ sinh",
+      "first": "P34.9",
+      "second": "P34.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "bệnh lý thần kinh ngoại biên",
+      "first": "G63.9",
+      "second": "G63.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "bệnh mạch máu",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "bệnh nội khoa",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Bệnh phổi kẽ do sử dụng corticoid liều cao kéo dài",
+      "first": "J84.0",
+      "second": "J84.0",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái",
+      "first": "G55.1",
+      "second": "G55.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Bệnh túi thừa",
+      "first": "K56.9",
+      "second": "K56.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "bệnh động mạch vành",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Bệnh động mạch vành mạn tính có thiếu máu cơ tim, hẹp 60% đoạn gần động mạch liên thất trước trái",
+      "first": "I25.1",
+      "second": "I25.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Bệnh động mạch vành phải nặng hơn với 60 RPL và 40 mid RCA",
+      "first": "I25.1",
+      "second": "I25.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "bệnh động mạch vành sau can thiệp bắc cầu nối",
+      "first": "I25.1",
+      "second": "I25.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "bệnh động mạch vành sau phẫu thuật bắc cầu nối động mạch vành",
+      "first": "I25.1",
+      "second": "I25.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "biến chứng bệnh lý thần kinh ngoại biên",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "blốc nhĩ thất, hoàn toàn sau khi đặt máy tạo nhịp (PPM)",
+      "first": "I44.8",
+      "second": "I44.8",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "các đám mờ",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "cắt cụt chân phải bên dưới gối",
+      "first": "Z85.0",
+      "second": "Z85.0",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "cắt cụt nhiều ngón chân phải do nhiễm trùng tụ cầu",
+      "first": "Z85.0",
+      "second": "Z85.0",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "chấn thương gãy xương sườn trái",
+      "first": "S22.311A",
+      "second": "S22.311A",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Code tai biến mạch máu não",
+      "first": "I69.9",
+      "second": "I69.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Di căn não vùng trán phải dã phẫu thuật lấy u",
+      "first": "C79.3",
+      "second": "C79.3",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Dị ứng furosemide",
+      "first": "T36.2X5",
+      "second": "T36.2X5",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Enterococcus kháng vancomycin",
+      "first": "A41.11",
+      "second": "A41.11",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Giả gout",
+      "first": "M08.9",
+      "second": "M08.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "graft lima ổn định",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "graft SVG bị tắc",
+      "first": "I25.1",
+      "second": "I25.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "hạ kali máu rõ rệt",
+      "first": "E83.1",
+      "second": "E83.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "hẹp ống sống",
+      "first": "Q69.8",
+      "second": "Q69.8",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Hội chứng kháng enzym tổng hợp protein",
+      "first": "E70.8",
+      "second": "E70.8",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "hưng cảm",
+      "first": "R03.9",
+      "second": "R03.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "huyết khối tĩnh mạch sâu",
+      "first": "I83.0",
+      "second": "I83.0",
+      "first_confidence": 0.95,
+      "second_confidence": 0.95
+    },
+    {
+      "mention": "Khối sa âm đạo",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "không có bệnh động mạch vành",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "lo ngại Cơn đau thắt ngực không ổn định cần can thiệp mạch vành",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Lo ngại về áp xe",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "lo ngại viêm túi mật cấp",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "não úng tuỷ từ thời kỳ sơ sinh",
+      "first": "Q02.9",
+      "second": "Q02.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "ngừng thở khi ngủ",
+      "first": "G47.3",
+      "second": "G47.3",
+      "first_confidence": 0.85,
+      "second_confidence": 0.85
+    },
+    {
+      "mention": "Nhập viện gần đây vì Đã tử vong (dced)",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "phân giai đoạn phẫu thuật",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "phẫu thuật cắt bỏ khối u thần kinh nội tiết ở thân tụy",
+      "first": "Z85.0",
+      "second": "Z85.0",
+      "first_confidence": 0.8,
+      "second_confidence": 0.8
+    },
+    {
+      "mention": "Phẫu thuật cắt cụt chân trái bên trên gối",
+      "first": "Z48.81",
+      "second": "Z48.81",
+      "first_confidence": 0.95,
+      "second_confidence": 0.95
+    },
+    {
+      "mention": "phẫu thuật nội soi cắt bỏ tuyến tiền liệt  bên trái",
+      "first": "Z48.81",
+      "second": "Z48.81",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "phẫu thuật tạo đáy vị (fundoplication)",
+      "first": "Z48.81",
+      "second": "Z48.81",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "R BKpop-DP bypass bằng tĩnh mạch hiển",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "rối loạn cân bằng kiềm toan phối hợp",
+      "first": "E87.9",
+      "second": "E87.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "rối loạn đông máu",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "sỏi mật",
+      "first": "K80.9",
+      "second": "K80.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "sỏi ống dẫn mật chung đoạn cuối",
+      "first": "K80.9",
+      "second": "K80.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "sỏi đoạn cuối ống mật chủ",
+      "first": "K80.9",
+      "second": "K80.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "sp TLH (tình trạng sau phẫu thuật cắt tử cung bằng nội soi toàn bộ)",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Suy tim dãn tâm thu giữ nguyên trương lực",
+      "first": "I50.2",
+      "second": "I50.2",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "tách thành động mạch chủ",
+      "first": "I71.1",
+      "second": "I71.1",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "Tăng áp động mạch phổi mức độ trung bình",
+      "first": "I25.1",
+      "second": "I25.1",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "tăng bilirubin máu",
+      "first": "R17.2",
+      "second": "R17.2",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "tăng cholesterol máu đơn thuần",
+      "first": "E78.0",
+      "second": "E78.0",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "tăng men gan",
+      "first": "R74.2",
+      "second": "R74.2",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "Thai 41 tuần",
+      "first": "O30.0",
+      "second": "O30.0",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "thiếu máu",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "thiếu máu cơ tim cục bộ",
+      "first": "I25.1",
+      "second": "I25.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "thiếu máu cơ tim vùng dưới và thành bên",
+      "first": "I25.1",
+      "second": "I25.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "thuyên tắc mạch phổi",
+      "first": "I26.9",
+      "second": "I26.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Thuyên tắc phổi",
+      "first": "I26.9",
+      "second": "I26.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "thuyên tắc phổi hai bên",
+      "first": "I26.9",
+      "second": "I26.9",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "tiền sử khối u thận",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "tràn dịch màng phổi trái tái phát",
+      "first": "J91.1",
+      "second": "J91.1",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "tụ dịch/tụ máu dưới màng cứng mạn tính",
+      "first": "G93.8",
+      "second": "G93.8",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "túi thừa của cả ruột non và đại tràng",
+      "first": "K56.6",
+      "second": "K56.6",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "u ác của đầu tuỵ mới được chẩn đoán",
+      "first": "C25",
+      "second": "C25",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "u ác trực tràng",
+      "first": "C18",
+      "second": "C18",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "U lympho không hodgkin tế bàoB lớn lan toả",
+      "first": "C82.0",
+      "second": "C82.0",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "u nội tiết",
+      "first": "C79",
+      "second": "C79",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "U Sacoit tổn thương chủ yếu tại tim",
+      "first": "C79",
+      "second": "C79",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "u tuyến",
+      "first": "C79",
+      "second": "C79",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "ung thư biểu mô tế bào thận",
+      "first": "C64",
+      "second": "C64",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "ung thư biểu mô tế bào thận sau cắt bỏ một phần thận phải và tuyến thượng thận phải",
+      "first": "C64",
+      "second": "C64",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "ung thư biểu mô tuyến",
+      "first": "C50",
+      "second": "C50",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "ung thư biểu mô tuyến giật nhú",
+      "first": "C50",
+      "second": "C50",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "Ung thư biểu mô tuyến đại tràng",
+      "first": "C18",
+      "second": "C18",
+      "first_confidence": 1.0,
+      "second_confidence": 1.0
+    },
+    {
+      "mention": "ung thư phổi gây ho khó thở kéo dài tại nhà",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "ung thư vú",
+      "first": "C50.9",
+      "second": "C50.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "Ung thư vú di căn",
+      "first": "C50.9",
+      "second": "C50.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "Ung thư vú di căn ER+/HER2−",
+      "first": "C50.9",
+      "second": "C50.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "ung thư vú trái giai IIIB ung thư vú trái",
+      "first": "C50.9",
+      "second": "C50.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "vết thương thấu bụng giữa bên phải",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm bể thận và viêm phế quản",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm dạ dày",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm dạ dày ruột do virus",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm gan do men",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Viêm gan virus C và B",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Viêm loét đại tràng",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm mô tế bào",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Viêm nội tâm mạc",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm phổi",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Viêm phổi bệnh viện",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm phổi thuỳ",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm túi mật",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm túi mật cấp tính không biến chứng",
+      "first": "K15.9",
+      "second": "K15.9",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "viêm túi mật thủng cấp tính",
+      "first": "K18.1",
+      "second": "K18.1",
+      "first_confidence": 0.9,
+      "second_confidence": 0.9
+    },
+    {
+      "mention": "viêm tụy",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm tuỷ xương",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm tủy xương và bàng quang thần kinh có biến chứng liệt hai chi dưới",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "viêm tuyến mồ hôi",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "xuất huyết dưới màng cứng",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "xuất huyết nội sọ không do chấn thương, không đặc hiệu",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "đa u tuỷ xương",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "đặc điểm mô học phù hợp với một khối u có nguồn gốc từ đường mật tụy",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "đại tràng giãn",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "đặt stent động mạch thận trái",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    },
+    {
+      "mention": "Động mạch vành trái bình thường",
+      "first": "",
+      "second": "",
+      "first_confidence": 0.0,
+      "second_confidence": 0.0
+    }
+  ]
+}

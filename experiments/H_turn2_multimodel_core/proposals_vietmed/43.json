@@ -1,0 +1,390 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      41
+    ],
+    "confidence": 0.9979997277259827,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      79
+    ],
+    "confidence": 0.9637674269510463,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      80,
+      88
+    ],
+    "confidence": 0.9973662665912083,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "cholesterol máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      100,
+      115
+    ],
+    "confidence": 0.9891490936279297,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      132,
+      145
+    ],
+    "confidence": 0.9980358117156558,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      150,
+      155
+    ],
+    "confidence": 0.9932243227958679,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "gleevec",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      190,
+      197
+    ],
+    "confidence": 0.7730132852281842,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "position": [
+      239,
+      250
+    ],
+    "confidence": 0.9242446910251271,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "519"
+    ]
+  },
+  {
+    "text": "Thuốc giảm đau (ngừng",
+    "type": "THUỐC",
+    "position": [
+      293,
+      314
+    ],
+    "confidence": 0.9118343371951002,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      363,
+      370
+    ],
+    "confidence": 0.9977911909421285,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      451,
+      458
+    ],
+    "confidence": 0.9974827965100607,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhiễm khuẩn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      515,
+      526
+    ],
+    "confidence": 0.9934761226177216,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc giảm đau",
+    "type": "THUỐC",
+    "position": [
+      573,
+      587
+    ],
+    "confidence": 0.9794349115119021,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm khuẩn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      664,
+      675
+    ],
+    "confidence": 0.9970207214355469,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "position": [
+      724,
+      738
+    ],
+    "confidence": 0.990675851320609,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "position": [
+      797,
+      808
+    ],
+    "confidence": 0.9113742980090055,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "519"
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      847,
+      854
+    ],
+    "confidence": 0.9971003532409668,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      919,
+      926
+    ],
+    "confidence": 0.9983394543329874,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đi cầu phân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1252,
+      1263
+    ],
+    "confidence": 0.9475787878036499,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đi cầu phân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1396,
+      1407
+    ],
+    "confidence": 0.9257290935516357,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hấp thu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1430,
+      1437
+    ],
+    "confidence": 0.9139089584350586,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "position": [
+      1450,
+      1457
+    ],
+    "confidence": 0.9898030757904053,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "men tiêu hóa",
+    "type": "THUỐC",
+    "position": [
+      1582,
+      1594
+    ],
+    "confidence": 0.9781131504418014,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bacillus clausii",
+    "type": "THUỐC",
+    "position": [
+      1635,
+      1651
+    ],
+    "confidence": 0.8958672600296828,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "biệt dược",
+    "type": "THUỐC",
+    "position": [
+      1693,
+      1702
+    ],
+    "confidence": 0.8116391599178314,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Enterogermina",
+    "type": "THUỐC",
+    "position": [
+      1706,
+      1719
+    ],
+    "confidence": 0.9441443039820745,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Biogermin",
+    "type": "THUỐC",
+    "position": [
+      1721,
+      1730
+    ],
+    "confidence": 0.9199527700742086,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "glee",
+    "type": "THUỐC",
+    "position": [
+      1743,
+      1747
+    ],
+    "confidence": 0.7868223041296005,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "position": [
+      1788,
+      1799
+    ],
+    "confidence": 0.9164145968177102,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "519"
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1872,
+      1879
+    ],
+    "confidence": 0.9975815018018087,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  }
+]

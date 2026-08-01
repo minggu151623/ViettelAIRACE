@@ -1,0 +1,345 @@
+[
+  {
+    "text": "bị thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      73,
+      83
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      106,
+      116
+    ]
+  },
+  {
+    "text": "mắc bệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      742,
+      750
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      776,
+      786
+    ]
+  },
+  {
+    "text": "trầy xước",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      805,
+      814
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      830,
+      838
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      853,
+      861
+    ]
+  },
+  {
+    "text": "Lyssavirus",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      865,
+      875
+    ]
+  },
+  {
+    "text": "Lyssaviridae",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      886,
+      898
+    ]
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      960,
+      965
+    ]
+  },
+  {
+    "text": "phá hủy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1015,
+      1022
+    ]
+  },
+  {
+    "text": "trạng thái điên dại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1070,
+      1089
+    ]
+  },
+  {
+    "text": "tử vong",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1159,
+      1166
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1204,
+      1214
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1271,
+      1276
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1344,
+      1352
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1381,
+      1389
+    ]
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1401,
+      1406
+    ]
+  },
+  {
+    "text": "lây truyền",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1419,
+      1429
+    ]
+  },
+  {
+    "text": "bệnh dạ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1450,
+      1457
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1484,
+      1492
+    ]
+  },
+  {
+    "text": "lây truyền",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1493,
+      1503
+    ]
+  },
+  {
+    "text": "Vi-rút",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1519,
+      1525
+    ]
+  },
+  {
+    "text": "trầy xước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1631,
+      1640
+    ]
+  },
+  {
+    "text": "chất thải",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1916,
+      1925
+    ]
+  },
+  {
+    "text": "mắc bệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2005,
+      2013
+    ]
+  },
+  {
+    "text": "thí nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2053,
+      2063
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2144,
+      2149
+    ]
+  },
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2178,
+      2195
+    ]
+  },
+  {
+    "text": "vancomycin 1 g",
+    "type": "THUỐC",
+    "candidates": [
+      "11124"
+    ],
+    "assertions": [],
+    "position": [
+      2211,
+      2225
+    ]
+  },
+  {
+    "text": "750mg iv",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2257,
+      2265
+    ]
+  },
+  {
+    "text": "vi rút",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2275,
+      2281
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2348,
+      2358
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2387,
+      2397
+    ]
+  },
+  {
+    "text": "vi rút",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2507,
+      2513
+    ]
+  },
+  {
+    "text": "kiểm tra y tế",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2618,
+      2633
+    ]
+  }
+]

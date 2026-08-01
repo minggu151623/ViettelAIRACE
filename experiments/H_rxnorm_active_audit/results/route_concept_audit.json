@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-07-28",
+  "source": {
+    "api_documentation": "https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html",
+    "method": "RxNav allrelated and approximateTerm endpoints; all values are active RxNorm concepts."
+  },
+  "finding": "The earlier audit inaccurately called the top approximate-match SCDC concepts injection concepts. They encode ingredient plus strength, not a complete injectable product.",
+  "mentions": [
+    {
+      "mention": "IV Lasix 40 mg",
+      "v6_rxcui": "200809",
+      "v6_name": "furosemide 40 MG Oral Tablet [Lasix]",
+      "top_approximate_rxcui": "315971",
+      "top_approximate_name": "furosemide 40 MG",
+      "top_approximate_tty": "SCDC",
+      "route_consistent_product_rxcui": "1719291",
+      "route_consistent_product_name": "4 ML furosemide 10 MG/ML Injection",
+      "route_consistent_product_tty": "SCD"
+    },
+    {
+      "mention": "bumetanide 2 mg IV",
+      "v6_rxcui": "197419",
+      "v6_name": "bumetanide 2 MG Oral Tablet",
+      "top_approximate_rxcui": "315502",
+      "top_approximate_name": "bumetanide 2 MG",
+      "top_approximate_tty": "SCDC",
+      "route_consistent_form_rxcui": "1727568",
+      "route_consistent_form_name": "bumetanide Injection",
+      "route_consistent_form_tty": "SCDF"
+    },
+    {
+      "mention": "levofloxacin 750 mg IV",
+      "v6_rxcui": "311296",
+      "v6_name": "levofloxacin 750 MG Oral Tablet",
+      "top_approximate_rxcui": "330371",
+      "top_approximate_name": "levofloxacin 750 MG",
+      "top_approximate_tty": "SCDC",
+      "route_consistent_product_rxcui": "1665515",
+      "route_consistent_product_name": "150 ML levofloxacin 5 MG/ML Injection",
+      "route_consistent_product_tty": "SCD"
+    }
+  ],
+  "decision": "Do not implement route candidate rewrites until organizer evidence identifies whether the target convention uses SCDC strength concepts, SCDF forms, or SCD packaged products."
+}

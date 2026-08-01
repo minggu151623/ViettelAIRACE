@@ -1,0 +1,422 @@
+[
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      81,
+      95
+    ],
+    "confidence": 0.7294174581766129,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng huyết áp (tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      102,
+      130
+    ],
+    "confidence": 0.7163964680262974,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Táo bón mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      138,
+      154
+    ],
+    "confidence": 0.6503254920244217,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ngưng thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      162,
+      179
+    ],
+    "confidence": 0.6793202757835388,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp thở nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      222,
+      236
+    ],
+    "confidence": 0.730687419573466,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      240,
+      249
+    ],
+    "confidence": 0.7324336767196655,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      322,
+      329
+    ],
+    "confidence": 0.7506432235240936,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      331,
+      333
+    ],
+    "confidence": 0.7612048983573914,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      337,
+      350
+    ],
+    "confidence": 0.7478508949279785,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhiễm trùng đường hô hấp trên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      470,
+      499
+    ],
+    "confidence": 0.6939390997091929,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "độ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      550,
+      552
+    ],
+    "confidence": 0.2570352256298065,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      553,
+      564
+    ],
+    "confidence": 0.3032352924346924,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "SPO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      566,
+      570
+    ],
+    "confidence": 0.3241320252418518,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "88-92 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      575,
+      582
+    ],
+    "confidence": 0.28648411482572556,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      603,
+      611
+    ],
+    "confidence": 0.32841159403324127,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      745,
+      752
+    ],
+    "confidence": 0.754303514957428,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      759,
+      761
+    ],
+    "confidence": 0.7541157007217407,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      768,
+      781
+    ],
+    "confidence": 0.7413899302482605,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp thở nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      788,
+      802
+    ],
+    "confidence": 0.7276187539100647,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      809,
+      818
+    ],
+    "confidence": 0.7361127138137817,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      825,
+      828
+    ],
+    "confidence": 0.7496911883354187,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bạch cầu 26.7",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      858,
+      871
+    ],
+    "confidence": 0.41264870166778567,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bnp 4227",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      878,
+      886
+    ],
+    "confidence": 0.4031333774328232,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "kali 3.2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      893,
+      901
+    ],
+    "confidence": 0.41183649748563766,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "troponin 0.01",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      908,
+      921
+    ],
+    "confidence": 0.40315766632556915,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "lactate 1.8",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      928,
+      939
+    ],
+    "confidence": 0.39656426310539244,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phân tích",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      951,
+      960
+    ],
+    "confidence": 0.28393206000328064,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nước",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      961,
+      965
+    ],
+    "confidence": 0.24906042218208313,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      966,
+      970
+    ],
+    "confidence": 0.3073696494102478,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1173,
+      1185
+    ],
+    "confidence": 0.4567205607891083,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm phổi kẽ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1198,
+      1210
+    ],
+    "confidence": 0.5883134603500366,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Albuterol",
+    "type": "THUỐC",
+    "position": [
+      1265,
+      1274
+    ],
+    "confidence": 0.66136834025383,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ipratropium",
+    "type": "THUỐC",
+    "position": [
+      1278,
+      1289
+    ],
+    "confidence": 0.7076128840446472,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ceftriaxone",
+    "type": "THUỐC",
+    "position": [
+      1302,
+      1313
+    ],
+    "confidence": 0.6979570329189301,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tylenol",
+    "type": "THUỐC",
+    "position": [
+      1344,
+      1351
+    ],
+    "confidence": 0.6681471069653829,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  }
+]

@@ -1,0 +1,234 @@
+id: "2026-07-28_011"
+date: "2026-07-28"
+title: "Test-name/result boundary audit"
+provenance: ai-executed
+events:
+  - type: experiment
+    description: >
+      Compared official offsets with Unicode code points, UTF-8 bytes, UTF-16
+      units, and normalization alternatives. Published positions exactly match
+      Unicode+CRLF and decisively reject byte offsets; all inputs are NFC with
+      no astral characters. Newline normalization is the sole supported
+      coordinate discrepancy, while H7 external measurement remains pending.
+    evidence:
+      - "experiments/H_crlf_coordinate_reconstruction/coordinate_alternatives.json"
+      - "experiments/H_crlf_coordinate_reconstruction/analysis.md"
+  - type: observation
+    description: >
+      Reconstructed the displayed leaderboard formula from V1, V2, V6, and
+      V16: 0.3*(100-WER) + 0.3*J_assertion + 0.4*J_candidates.
+      Corrected an initial inversion: V6 currently earns only 0.01194 text
+      points and has 29.98806 text points of remaining headroom. Entity
+      matching is the dominant bottleneck.
+    evidence:
+      - "experiments/H_metric_reconstruction/analysis.md"
+      - "experiments/H_metric_reconstruction/results.json"
+  - type: observation
+    description: >
+      Classified all 147 V11 historical additions against raw note structure.
+      Every one lies in an explicit numbered history section, strengthening the
+      broad assertion-policy rationale while not making V11 a family-only test.
+    evidence:
+      - "experiments/H_assertion_policy_audit/results/historical_addition_audit.json"
+  - type: observation
+    description: >
+      Verified V11 is assertion-only structurally but not an isolated family
+      experiment: 176 assertion rows differ from V6, including 144 historical
+      additions. It must be interpreted as a broad assertion-policy artifact.
+      The newest public forum post concerns submission quota only and adds no
+      Track-2 policy evidence.
+    evidence:
+      - "experiments/H_assertion_policy_audit/results/v11_delta_audit.json"
+      - "https://competition.viettel.vn/api/forum/posts/019fa817-5130-7168-96d5-3e613dc8bb22"
+  - type: experiment
+    description: >
+      Queried the organizer fixture's 11 RxCUIs through official RxNav: ten
+      are SCD and the sole no-strength nystatin case is IN. Rebuilt the local
+      CPC catalog with direct brand-to-generic relations and implemented a
+      conservative exact ingredient+total-dose+route SCD rule. It passes 41
+      tests; read-only V6 re-resolution changes 12/165 candidates and writes
+      no submission artifact.
+    evidence:
+      - "experiments/H_rxnorm_active_audit/results/official_sample_tty_audit.json"
+      - "airace/resources/rxnorm_catalog.json"
+      - "tests/test_core.py"
+  - type: correction
+    description: >
+      Corrected the H8 route audit using official RxNav relationships: prior
+      approximate-match codes were SCDC strength concepts, not injection
+      products. V6 IV-to-oral conflicts are real, but SCDC/SCDF/SCD target
+      selection is organizer-unidentified, so route rewrites remain deferred.
+    evidence:
+      - "experiments/H_rxnorm_active_audit/results/route_concept_audit.json"
+      - "https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html"
+  - type: observation
+    description: >
+      A read-only re-resolution of all 165 V6 drug entities changes eight
+      candidate fields across six records: seven generic ingredient corrections
+      and one bare-brand Prograf choice. The brand case is explicitly deferred;
+      no output JSON or ZIP was written.
+    evidence:
+      - "experiments/H_rxnorm_active_audit/code/audit_candidate_reresolution.py"
+      - "experiments/H_rxnorm_active_audit/results/bare_alias_audit.json"
+  - type: experiment
+    description: >
+      Reproduced and repaired the RxNorm bare-ingredient fallback: the resolver
+      had selected arbitrary first broad-product IDs. It now chooses exact CPC
+      aliases, with acetaminophen/aspirin/metoprolol regressions fixed to
+      161/1191/6918; all 40 project tests pass. No output artifact was made.
+    evidence:
+      - "airace/candidates.py"
+      - "tests/test_core.py"
+      - "experiments/H_rxnorm_active_audit/analysis.md"
+  - type: experiment
+    description: >
+      Counted V6 test names/results and audited numeric result spans for test
+      name tokens and geometric overlap.
+    evidence:
+      - "experiments/H_test_result_boundary_audit/analysis.md"
+  - type: experiment
+    description: >
+      Added a regression for overlapping calcium aliases; longest supported
+      names are selected per value and the generic subspan is suppressed.
+      Full project suite passes 38 tests.
+    evidence:
+      - "tests/test_lab_splitter.py"
+  - type: observation
+    description: >
+      Audited ViMedNER, VietBioNER, ViMQ, and VietMed-NER. ViMedNER is the
+      closest supervised-transfer source, but all four repositories lack an
+      explicit dataset license, so no training data were acquired.
+    evidence:
+      - "literature/vietnamese_medical_ner_dataset_audit.md"
+  - type: experiment
+    description: >
+      Converted the licensed VietBioNER corpus into a BTC-schema-safe transfer
+      dataset, retaining only DiagnosticProcedure as TÊN_XÉT_NGHIỆM. Produced
+      deterministic 706/300/700 train/validation/test splits with exact offsets.
+    evidence:
+      - "airace/vietbioner.py"
+      - "data/vietbioner_transfer/manifest.json"
+      - "experiments/H_public_supervised_transfer/protocol.md"
+  - type: experiment
+    description: >
+      Fine-tuned a diagnostic-procedure-only BamiBERT checkpoint on the licensed
+      VietBioNER transfer split. Best independent source F1 was 0.462745 with
+      precision 0.355422; rejected for BTC inference due to false positives.
+    evidence:
+      - "models/vietbioner-diagnostic-bami/training_report.json"
+      - "experiments/H_public_supervised_transfer/analysis.md"
+  - type: experiment
+    description: >
+      Calibrated H6 confidence only on the independent VietBioNER validation
+      split. Maximum nontrivial precision was 0.5, so thresholding cannot
+      rescue the transfer checkpoint for BTC proposal generation.
+    evidence:
+      - "experiments/H_public_supervised_transfer/results/threshold_calibration.json"
+  - type: correction
+    description: >
+      Corrected the SPDX-only license audit: VietBioNER's README explicitly
+      grants CC BY 4.0. Pinned the official repository at commit 19ba70a and
+      recorded supervised-split checksums; three other sources remain blocked.
+    evidence:
+      - "external/VietBioNER_PROVENANCE.md"
+      - "literature/vietnamese_medical_ner_dataset_audit.md"
+  - type: observation
+    description: >
+      All seven H14 dry-run overlap warnings are existing exact/nested test-name
+      spans inside compound results; no unrelated concept overlap was found.
+    evidence:
+      - "experiments/H_test_result_boundary_audit/analysis.md"
+  - type: observation
+    description: >
+      A read-only split simulation against V6 would change nine records and
+      flagged seven nested/overlap cases for review; no JSON or ZIP was written.
+    evidence:
+      - "experiments/H_test_result_boundary_audit/analysis.md"
+  - type: experiment
+    description: >
+      Added segment-start and treatment-action gates to H14. Proposals reduced
+      from 51 to 48, both demonstrated hazards disappeared, and all 36 tests
+      pass. The splitter remains disconnected from inference.
+    evidence:
+      - "airace/lab_splitter.py"
+      - "tests/test_lab_splitter.py"
+  - type: observation
+    description: >
+      Comparing 45 gated pairs with V6 found 23 compound result spans fully
+      covering a pair and 14 pairs already fully split. The edit surface is
+      bounded; no output was changed.
+    evidence:
+      - "experiments/H_test_result_boundary_audit/analysis.md"
+  - type: decision
+    description: >
+      Isolated five high-risk H14 contexts into a manual-review queue and
+      locked exact-offset, target-only, frozen-field, and ambiguity-deferral
+      invariants before any external artifact.
+    evidence:
+      - "experiments/H_test_result_boundary_audit/review_queue.md"
+  - type: observation
+    description: >
+      Two full-input H14 runs produced byte-identical 45-row proposals and
+      passed all raw-text offset assertions.
+    evidence:
+      - "experiments/H_test_result_boundary_audit/analysis.md"
+  - type: observation
+    description: >
+      At least 52 numeric results contain likely test names; 18 overlap names
+      emitted separately.
+  - type: decision
+    description: >
+      Separate numeric laboratory-row splitting from long textual imaging
+      result policy and require independent fixtures before an external test.
+  - type: decision
+    description: >
+      Preregister H14 as a single-axis numeric-row intervention with all
+      assertions, candidates, positions, and non-lab entities frozen.
+    evidence:
+      - "experiments/H_test_result_boundary_audit/protocol.md"
+  - type: experiment
+    description: >
+      Created a 15-row policy-derived numeric laboratory fixture across eight
+      records, keeping test names and results as independent raw-text spans.
+      The fixture is not organizer ground truth or leaderboard-derived labels.
+    evidence:
+      - "labels/policy_lab_numeric_fixture.jsonl"
+  - type: observation
+    description: >
+      The current precision detector recovered both exact spans on 4 of 15
+      policy-derived rows; this is a coverage diagnostic, not gold evaluation.
+    evidence:
+      - "experiments/H_test_result_boundary_audit/analysis.md"
+  - type: observation
+    description: >
+      Exhaustively enumerated all 148 public forum posts at capture time and
+      found no newer organizer Track-2 annotation clarification beyond the
+      policy evidence already recorded.
+    evidence:
+      - "literature/official_forum_policy_2026-07-27.md"
+  - type: experiment
+    description: >
+      Implemented an opt-in conservative numeric laboratory splitter. Fixed a
+      cross-line capture bug discovered by the fixture; the corrected code
+      passes all 15 fixture rows and the full 35-test project suite.
+    evidence:
+      - "airace/lab_splitter.py"
+      - "tests/test_lab_splitter.py"
+      - "experiments/H_test_result_boundary_audit/analysis.md"
+  - type: observation
+    description: >
+      A full-input probe proposed 51 numeric pairs in 22 records and exposed
+      vital-sign, supplementation, and multi-value-panel context hazards.
+      H14 remains gated and is not integrated into inference.
+    evidence:
+      - "experiments/H_test_result_boundary_audit/analysis.md"
+  - type: experiment
+    description: >
+      Added conservative rejection for glued suffixes and evolving multi-value
+      rows. H14 now proposes 45 pairs in 19 records and passes all 37 tests,
+      while remaining disconnected from inference.
+    evidence:
+      - "airace/lab_splitter.py"
+      - "tests/test_lab_splitter.py"
+outcome: >
+  H14 was added. No artifact or submission was produced.

@@ -1,0 +1,290 @@
+[
+  {
+    "text": "ung thư vú trái giai IIIB",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      58,
+      83
+    ],
+    "confidence": 0.727413398878915,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ung thư vú trái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      84,
+      99
+    ],
+    "confidence": 0.7139366418123245,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      278,
+      284
+    ],
+    "confidence": 0.6898695826530457,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau khi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      288,
+      295
+    ],
+    "confidence": 0.5311376750469208,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nắn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      299,
+      302
+    ],
+    "confidence": 0.4589259922504425,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      433,
+      440
+    ],
+    "confidence": 0.595722496509552,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau khi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      441,
+      448
+    ],
+    "confidence": 0.4443424344062805,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      478,
+      484
+    ],
+    "confidence": 0.6707404553890228,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng diện tích đau khi sờ nắn trên vùng da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      510,
+      552
+    ],
+    "confidence": 0.5759257137775421,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      562,
+      568
+    ],
+    "confidence": 0.6874571144580841,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "levafloxacin",
+    "type": "THUỐC",
+    "position": [
+      698,
+      710
+    ],
+    "confidence": 0.7086913406848907,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cephalexin",
+    "type": "THUỐC",
+    "position": [
+      714,
+      724
+    ],
+    "confidence": 0.6909996718168259,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      767,
+      773
+    ],
+    "confidence": 0.7214512526988983,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      792,
+      801
+    ],
+    "confidence": 0.7168854475021362,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      938,
+      944
+    ],
+    "confidence": 0.7297237515449524,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau khi sờ nắn vùng mổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      987,
+      1009
+    ],
+    "confidence": 0.5773181666930517,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1016,
+      1025
+    ],
+    "confidence": 0.7404824495315552,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1032,
+      1041
+    ],
+    "confidence": 0.4773707538843155,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1154,
+      1160
+    ],
+    "confidence": 0.7382219433784485,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ấn vùng mổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1187,
+      1201
+    ],
+    "confidence": 0.7088125050067902,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1208,
+      1217
+    ],
+    "confidence": 0.4936651587486267,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương da",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1311,
+      1324
+    ],
+    "confidence": 0.32225892941157025,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chọc hút dịch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1326,
+      1339
+    ],
+    "confidence": 0.40955310066541034,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "position": [
+      1351,
+      1361
+    ],
+    "confidence": 0.6725834707419077,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  }
+]

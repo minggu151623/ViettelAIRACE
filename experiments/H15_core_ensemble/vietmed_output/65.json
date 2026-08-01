@@ -1,0 +1,119 @@
+[
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      0,
+      5
+    ]
+  },
+  {
+    "text": "đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      99,
+      107
+    ]
+  },
+  {
+    "text": "ra máu đỏ tươi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      108,
+      122
+    ]
+  },
+  {
+    "text": "đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      128,
+      132
+    ]
+  },
+  {
+    "text": "đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      196,
+      204
+    ]
+  },
+  {
+    "text": "ra máu đỏ tươi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      205,
+      219
+    ]
+  },
+  {
+    "text": "đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      225,
+      229
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      232,
+      241
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      334,
+      343
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      393,
+      397
+    ]
+  },
+  {
+    "text": "rối loạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F39"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      489,
+      497
+    ]
+  },
+  {
+    "text": "Cr",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      624,
+      626
+    ]
+  }
+]

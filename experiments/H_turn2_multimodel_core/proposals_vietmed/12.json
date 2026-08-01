@@ -1,0 +1,608 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      25,
+      32
+    ],
+    "confidence": 0.9979813893636068,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      33,
+      41
+    ],
+    "confidence": 0.9703403881617955,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Bệnh phổi kẽ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      44,
+      56
+    ],
+    "confidence": 0.9488173156267122,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "position": [
+      68,
+      77
+    ],
+    "confidence": 0.9692800177468194,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      124,
+      133
+    ],
+    "confidence": 0.9952545091509819,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F10.20"
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "position": [
+      155,
+      162
+    ],
+    "confidence": 0.7763378024101257,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      170,
+      177
+    ],
+    "confidence": 0.9985373892954418,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      184,
+      197
+    ],
+    "confidence": 0.998195696760107,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "nguyên phát",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      198,
+      209
+    ],
+    "confidence": 0.951625394821167,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      286,
+      291
+    ],
+    "confidence": 0.9921976923942566,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Corticoid",
+    "type": "THUỐC",
+    "position": [
+      317,
+      326
+    ],
+    "confidence": 0.9808443254894681,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      382,
+      389
+    ],
+    "confidence": 0.9678969894136701,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "151399"
+    ]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "position": [
+      430,
+      441
+    ],
+    "confidence": 0.9502278078686107,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "3640"
+    ]
+  },
+  {
+    "text": "Suy giảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      478,
+      486
+    ],
+    "confidence": 0.5865003892353603,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "position": [
+      508,
+      517
+    ],
+    "confidence": 0.966301765706804,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      584,
+      594
+    ],
+    "confidence": 0.9983428716659546,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      682,
+      692
+    ],
+    "confidence": 0.9976084033648173,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      839,
+      849
+    ],
+    "confidence": 0.997616171836853,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      903,
+      907
+    ],
+    "confidence": 0.9115748405456543,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cotrimoxazol",
+    "type": "THUỐC",
+    "position": [
+      921,
+      933
+    ],
+    "confidence": 0.6956905722618103,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "doxycyclin",
+    "type": "THUỐC",
+    "position": [
+      953,
+      963
+    ],
+    "confidence": 0.9066858291625977,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm mô tế",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      976,
+      986
+    ],
+    "confidence": 0.9337412295518097,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1021,
+      1031
+    ],
+    "confidence": 0.9967790246009827,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1066,
+      1076
+    ],
+    "confidence": 0.9983922441800436,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1150,
+      1153
+    ],
+    "confidence": 0.9978066086769104,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1208,
+      1212
+    ],
+    "confidence": 0.9700769782066345,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1286,
+      1290
+    ],
+    "confidence": 0.9826328754425049,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1344,
+      1354
+    ],
+    "confidence": 0.9981650710105896,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1389,
+      1399
+    ],
+    "confidence": 0.9963279035356309,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1407,
+      1410
+    ],
+    "confidence": 0.9971490502357483,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1432,
+      1442
+    ],
+    "confidence": 0.9986142516136169,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1548,
+      1558
+    ],
+    "confidence": 0.9982964793841044,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dị tật thiểu sản",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1718,
+      1734
+    ],
+    "confidence": 0.8473900118741123,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phản xạ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1890,
+      1897
+    ],
+    "confidence": 0.9000627892357963,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "6 - 10 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "position": [
+      2067,
+      2078
+    ],
+    "confidence": 0.8263998293876649,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ụn sườn",
+    "type": "THUỐC",
+    "position": [
+      2128,
+      2135
+    ],
+    "confidence": 0.5910797140427998,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cấu trúc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2248,
+      2256
+    ],
+    "confidence": 0.593466477734702,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "doxycyclinebactrim",
+    "type": "THUỐC",
+    "position": [
+      2507,
+      2525
+    ],
+    "confidence": 0.8445882764127519,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2539,
+      2543
+    ],
+    "confidence": 0.8428709506988525,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "K21.0"
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      2610,
+      2615
+    ],
+    "confidence": 0.9971032738685608,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2683,
+      2687
+    ],
+    "confidence": 0.9835297465324402,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2733,
+      2742
+    ],
+    "confidence": 0.9824886322021484,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2766,
+      2771
+    ],
+    "confidence": 0.8402957916259766,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Herpes simplex",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2772,
+      2786
+    ],
+    "confidence": 0.9942632455910955,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "HSV",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2788,
+      2791
+    ],
+    "confidence": 0.9896112084388733,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thủy đậu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2803,
+      2811
+    ],
+    "confidence": 0.9898442285401481,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Varicella Zoster Virus",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2821,
+      2843
+    ],
+    "confidence": 0.8866994417074954,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

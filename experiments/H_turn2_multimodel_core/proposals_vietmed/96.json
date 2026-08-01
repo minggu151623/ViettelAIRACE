@@ -1,0 +1,150 @@
+[
+  {
+    "text": "tắc hẹp 80%",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      107,
+      118
+    ],
+    "confidence": 0.8435561656951904,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      181,
+      190
+    ],
+    "confidence": 0.986759141087532,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      201,
+      221
+    ],
+    "confidence": 0.6579644237746369,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      223,
+      225
+    ],
+    "confidence": 0.6292147636413574,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tắc hẹp 80%",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      236,
+      247
+    ],
+    "confidence": 0.8885821729898453,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phục",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      442,
+      446
+    ],
+    "confidence": 0.5804563164710999,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      543,
+      549
+    ],
+    "confidence": 0.574292004108429,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      572,
+      582
+    ],
+    "confidence": 0.9985221359464858,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khô",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      639,
+      642
+    ],
+    "confidence": 0.8251640796661377,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      656,
+      660
+    ],
+    "confidence": 0.9855501651763916,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bụi bẩn",
+    "type": "THUỐC",
+    "position": [
+      1171,
+      1178
+    ],
+    "confidence": 0.6047015296561378,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vitamin C",
+    "type": "THUỐC",
+    "position": [
+      1301,
+      1310
+    ],
+    "confidence": 0.995549663901329,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  }
+]

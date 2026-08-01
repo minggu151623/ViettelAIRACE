@@ -1,0 +1,541 @@
+[
+  {
+    "text": "40 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "assertions": [],
+    "position": [
+      14,
+      21
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      49,
+      56
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      58,
+      65
+    ]
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      67,
+      75
+    ]
+  },
+  {
+    "text": "hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F10.20"
+    ],
+    "assertions": [],
+    "position": [
+      143,
+      152
+    ]
+  },
+  {
+    "text": "Hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F10.20"
+    ],
+    "assertions": [],
+    "position": [
+      181,
+      190
+    ]
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      191,
+      202
+    ]
+  },
+  {
+    "text": "nhiễm độc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      203,
+      212
+    ]
+  },
+  {
+    "text": "số",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      238,
+      240
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      256,
+      259
+    ]
+  },
+  {
+    "text": "rét",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      299,
+      302
+    ]
+  },
+  {
+    "text": "paracetamol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      320,
+      331
+    ]
+  },
+  {
+    "text": "hết sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      378,
+      385
+    ]
+  },
+  {
+    "text": "vàng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      400,
+      404
+    ]
+  },
+  {
+    "text": "vàng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      409,
+      413
+    ]
+  },
+  {
+    "text": "sốt bn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      441,
+      447
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      448,
+      455
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      506,
+      509
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      515,
+      522
+    ]
+  },
+  {
+    "text": "HBsAg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      573,
+      578
+    ]
+  },
+  {
+    "text": "HBc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      610,
+      613
+    ]
+  },
+  {
+    "text": "HBc IgM",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      628,
+      635
+    ]
+  },
+  {
+    "text": "Hội chứng viêm gan vàng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      648,
+      671
+    ]
+  },
+  {
+    "text": "ứ mật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      675,
+      680
+    ]
+  },
+  {
+    "text": "hết sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      737,
+      744
+    ]
+  },
+  {
+    "text": "Bilirubin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1053,
+      1062
+    ]
+  },
+  {
+    "text": "Creatinin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1132,
+      1141
+    ]
+  },
+  {
+    "text": "Hội chứng hủy hoại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1165,
+      1183
+    ]
+  },
+  {
+    "text": "Deritis",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1280,
+      1287
+    ]
+  },
+  {
+    "text": "prothrombin",
+    "type": "THUỐC",
+    "candidates": [
+      "1441688"
+    ],
+    "assertions": [],
+    "position": [
+      1334,
+      1345
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1410,
+      1417
+    ]
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1419,
+      1427
+    ]
+  },
+  {
+    "text": "nhiễm virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "position": [
+      1566,
+      1577
+    ]
+  },
+  {
+    "text": "viêm gan B, C",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "position": [
+      1578,
+      1591
+    ]
+  },
+  {
+    "text": "dịch tễ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1609,
+      1616
+    ]
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1647,
+      1652
+    ]
+  },
+  {
+    "text": "viêm gan B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1653,
+      1663
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1712,
+      1719
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1725,
+      1732
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1772,
+      1780
+    ]
+  },
+  {
+    "text": "tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1782,
+      1791
+    ]
+  },
+  {
+    "text": "nước tiểu vàng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1804,
+      1818
+    ]
+  },
+  {
+    "text": "đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1824,
+      1832
+    ]
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1890,
+      1899
+    ]
+  },
+  {
+    "text": "Glucose 5%",
+    "type": "THUỐC",
+    "candidates": [
+      "4850"
+    ],
+    "assertions": [],
+    "position": [
+      1997,
+      2007
+    ]
+  },
+  {
+    "text": "5g",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2118,
+      2120
+    ]
+  },
+  {
+    "text": "ALT",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2193,
+      2196
+    ]
+  },
+  {
+    "text": "AST",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2198,
+      2201
+    ]
+  },
+  {
+    "text": "Fortex 25mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2230,
+      2241
+    ]
+  },
+  {
+    "text": "ALT",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2295,
+      2298
+    ]
+  },
+  {
+    "text": "AST",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2300,
+      2303
+    ]
+  },
+  {
+    "text": "Vitamin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2332,
+      2339
+    ]
+  },
+  {
+    "text": "3B",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2340,
+      2342
+    ]
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2398,
+      2403
+    ]
+  }
+]

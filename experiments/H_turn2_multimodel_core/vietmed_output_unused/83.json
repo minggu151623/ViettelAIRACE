@@ -1,0 +1,70 @@
+[
+  {
+    "text": "tăng cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      36,
+      44
+    ]
+  },
+  {
+    "text": "dịch sinh học",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      654,
+      667
+    ]
+  },
+  {
+    "text": "fibrin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      723,
+      729
+    ]
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      739,
+      746
+    ]
+  },
+  {
+    "text": "căn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      758,
+      761
+    ]
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      786,
+      796
+    ]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1183,
+      1191
+    ]
+  }
+]

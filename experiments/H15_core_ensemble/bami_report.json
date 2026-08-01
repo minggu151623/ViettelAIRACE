@@ -1,0 +1,19 @@
+{
+  "records": 100,
+  "completed": 100,
+  "errors": [],
+  "checkpoint": "models/bami-airace-v15-weighted",
+  "source": "bami_v15_weighted",
+  "device": "auto",
+  "max_length": 256,
+  "stride": 64,
+  "counts": {
+    "THUỐC": 247,
+    "CHẨN_ĐOÁN": 585,
+    "TRIỆU_CHỨNG": 1331,
+    "TÊN_XÉT_NGHIỆM": 750,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 76
+  },
+  "elapsed_seconds": 37.122,
+  "offline": true
+}

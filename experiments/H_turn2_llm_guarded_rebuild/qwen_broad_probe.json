@@ -1,0 +1,26 @@
+{
+  "records": 9,
+  "completed": 8,
+  "elapsed_seconds": 831.637,
+  "entity_counts": {
+    "CHẨN_ĐOÁN": 102,
+    "TÊN_XÉT_NGHIỆM": 17,
+    "TRIỆU_CHỨNG": 169,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 3,
+    "THUỐC": 8
+  },
+  "rejected": {
+    "duplicate_concept": 63,
+    "ungrounded": 20
+  },
+  "errors": [
+    {
+      "record": "96",
+      "error": "Remote end closed connection without response"
+    }
+  ],
+  "offline": true,
+  "model": "qwen3:8b",
+  "merge_rules": true,
+  "prompt_profile": "broad"
+}

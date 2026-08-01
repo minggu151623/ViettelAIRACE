@@ -1,0 +1,118 @@
+[
+  {
+    "text": "Đái tháo đường típ 1 có biến chứng viêm thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [50, 110]
+  },
+  {
+    "text": "Viêm gan virus C và B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [118, 139]
+  },
+  {
+    "text": "Tăng áp động mạch phổi mức độ trung bình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [147, 187]
+  },
+  {
+    "text": "U lympho không hodgkin tế bàoB lớn lan toả",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [194, 236]
+  },
+  {
+    "text": "lasixđã dừng cách vài tuần",
+    "type": "THUỐC",
+    "candidates": ["202991"],
+    "assertions": ["isHistorical"],
+    "position": [393, 419]
+  },
+  {
+    "text": "Phù chân trái và hoại tử ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [466, 505]
+  },
+  {
+    "text": "khó khăn trong việc tự chăm sóc bản thân tại nhà",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [548, 596]
+  },
+  {
+    "text": "tự ý dừng Lasix",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [608, 623]
+  },
+  {
+    "text": "Lasix",
+    "type": "THUỐC",
+    "candidates": ["202991"],
+    "assertions": [],
+    "position": [618, 623]
+  },
+  {
+    "text": "không muốn đi tiểu nhiều lần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [627, 655]
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "candidates": ["202991"],
+    "assertions": [],
+    "position": [678, 683]
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [713, 721]
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [732, 740]
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [744, 751]
+  },
+  {
+    "text": "Loét 2 bàn chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [868, 883]
+  },
+  {
+    "text": "chảy dịch vàng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [885, 899]
+  },
+  {
+    "text": "hoại tử đen kích thước 2*4 cm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [906, 935]
+  },
+  {
+    "text": "Loét bàn chân nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [956, 981]
+  }
+]

@@ -1,0 +1,320 @@
+[
+  {
+    "text": "lần có ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      27,
+      46
+    ],
+    "confidence": 0.8267634047234079,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "chia tay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      60,
+      68
+    ],
+    "confidence": 0.93455057484763,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      85,
+      92
+    ],
+    "confidence": 0.9927664995193481,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      93,
+      101
+    ],
+    "confidence": 0.8202569229262215,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      108,
+      116
+    ],
+    "confidence": 0.9979454789842878,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      121,
+      135
+    ],
+    "confidence": 0.9966666546403145,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      179,
+      189
+    ],
+    "confidence": 0.9978434642155966,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "do tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      199,
+      207
+    ],
+    "confidence": 0.806489246232169,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cần sa",
+    "type": "THUỐC",
+    "position": [
+      345,
+      351
+    ],
+    "confidence": 0.8777417421340943,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      430,
+      432
+    ],
+    "confidence": 0.6438241004943848,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      441,
+      451
+    ],
+    "confidence": 0.9983743031819662,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      555,
+      563
+    ],
+    "confidence": 0.9975402440343585,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "có ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      592,
+      607
+    ],
+    "confidence": 0.9913245292453022,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      609,
+      613
+    ],
+    "confidence": 0.9800524711608887,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bị",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      619,
+      621
+    ],
+    "confidence": 0.9948930740356445,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      622,
+      632
+    ],
+    "confidence": 0.9985182086626688,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      633,
+      643
+    ],
+    "confidence": 0.9986391067504883,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      667,
+      676
+    ],
+    "confidence": 0.8635419011116028,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cụt chân",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      728,
+      736
+    ],
+    "confidence": 0.7081324032374791,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      757,
+      767
+    ],
+    "confidence": 0.9983766939904954,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      768,
+      783
+    ],
+    "confidence": 0.7529094707252634,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      795,
+      806
+    ],
+    "confidence": 0.9968822300434113,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Enterococcus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      828,
+      840
+    ],
+    "confidence": 0.8422350734472275,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "position": [
+      847,
+      857
+    ],
+    "confidence": 0.8473184108734131,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "11124"
+    ]
+  },
+  {
+    "text": "chấn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1090,
+      1101
+    ],
+    "confidence": 0.9983073472976685,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

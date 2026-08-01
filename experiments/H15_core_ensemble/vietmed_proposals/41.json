@@ -1,0 +1,1276 @@
+[
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      73,
+      81
+    ],
+    "confidence": 0.9988109121719997,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      85,
+      94
+    ],
+    "confidence": 0.9986293911933899,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      122,
+      128
+    ],
+    "confidence": 0.9389356374740601,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ dày ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      144,
+      160
+    ],
+    "confidence": 0.9528570246696473,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      164,
+      169
+    ],
+    "confidence": 0.994928240776062,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      208,
+      224
+    ],
+    "confidence": 0.9181643005212148,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      226,
+      235
+    ],
+    "confidence": 0.9979298934340477,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F10.20"
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      258,
+      267
+    ],
+    "confidence": 0.989783525466919,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hội chứng ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      268,
+      282
+    ],
+    "confidence": 0.8791333901194426,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      357,
+      360
+    ],
+    "confidence": 0.6841733455657959,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      415,
+      418
+    ],
+    "confidence": 0.5603724718093872,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hồi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      579,
+      582
+    ],
+    "confidence": 0.6014584302902222,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      598,
+      603
+    ],
+    "confidence": 0.9933558702468872,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      625,
+      635
+    ],
+    "confidence": 0.8303138911724091,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "test",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      654,
+      658
+    ],
+    "confidence": 0.9870655536651611,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hơi thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      659,
+      666
+    ],
+    "confidence": 0.7574211061000824,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "h. pylori",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      667,
+      676
+    ],
+    "confidence": 0.9907337745030722,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "nô",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      814,
+      816
+    ],
+    "confidence": 0.6370550990104675,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      821,
+      830
+    ],
+    "confidence": 0.9983352720737457,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ dày ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      842,
+      858
+    ],
+    "confidence": 0.9917708439297146,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      862,
+      867
+    ],
+    "confidence": 0.9914972186088562,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      937,
+      945
+    ],
+    "confidence": 0.9986770302057266,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      949,
+      958
+    ],
+    "confidence": 0.998479574918747,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      975,
+      982
+    ],
+    "confidence": 0.9610483845074972,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      987,
+      991
+    ],
+    "confidence": 0.743195116519928,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      995,
+      1000
+    ],
+    "confidence": 0.9879327416419983,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm dạ dày ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1035,
+      1051
+    ],
+    "confidence": 0.9769926008913252,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1055,
+      1060
+    ],
+    "confidence": 0.9682072997093201,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1115,
+      1123
+    ],
+    "confidence": 0.9976166316441127,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nô",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1127,
+      1129
+    ],
+    "confidence": 0.6283331513404846,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1131,
+      1137
+    ],
+    "confidence": 0.9933591365814209,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      1168,
+      1178
+    ],
+    "confidence": 0.8979246735572814,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "tái phát",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1235,
+      1243
+    ],
+    "confidence": 0.9984909806932721,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1244,
+      1252
+    ],
+    "confidence": 0.9987821355462074,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1256,
+      1265
+    ],
+    "confidence": 0.9984930455684662,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1267,
+      1276
+    ],
+    "confidence": 0.9844964891672134,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hội chứng ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1277,
+      1291
+    ],
+    "confidence": 0.97781385997167,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tá tràng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1319,
+      1327
+    ],
+    "confidence": 0.7506896704435349,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1332,
+      1339
+    ],
+    "confidence": 0.8826057016849518,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1396,
+      1405
+    ],
+    "confidence": 0.9835252985358238,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ dày ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1406,
+      1422
+    ],
+    "confidence": 0.8796832591957516,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1426,
+      1431
+    ],
+    "confidence": 0.9913135170936584,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1460,
+      1467
+    ],
+    "confidence": 0.9165507157643636,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1472,
+      1476
+    ],
+    "confidence": 0.8014169335365295,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1480,
+      1485
+    ],
+    "confidence": 0.989733874797821,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1534,
+      1542
+    ],
+    "confidence": 0.998366338511308,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1544,
+      1553
+    ],
+    "confidence": 0.99791020154953,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1555,
+      1565
+    ],
+    "confidence": 0.9685814102490744,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1567,
+      1574
+    ],
+    "confidence": 0.8318772912025452,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xét nghiệm phân",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1629,
+      1644
+    ],
+    "confidence": 0.9737773197037833,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cryptosporidium",
+    "type": "THUỐC",
+    "position": [
+      1649,
+      1664
+    ],
+    "confidence": 0.7788733204205831,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      1695,
+      1705
+    ],
+    "confidence": 0.9197780907154083,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "test",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1713,
+      1717
+    ],
+    "confidence": 0.9857827425003052,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "h. pylori",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1726,
+      1735
+    ],
+    "confidence": 0.7777666727701822,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      1753,
+      1763
+    ],
+    "confidence": 0.8951731383800506,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1776,
+      1784
+    ],
+    "confidence": 0.996513443333762,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1792,
+      1798
+    ],
+    "confidence": 0.856108021736145,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nausea",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1930,
+      1936
+    ],
+    "confidence": 0.9094196160634359,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "diarrhea",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1943,
+      1951
+    ],
+    "confidence": 0.9519199430942535,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1958,
+      1972
+    ],
+    "confidence": 0.9931442279082078,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2015,
+      2024
+    ],
+    "confidence": 0.9648666679859161,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ dày ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2025,
+      2041
+    ],
+    "confidence": 0.8543355141745673,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2045,
+      2050
+    ],
+    "confidence": 0.9925498962402344,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2120,
+      2128
+    ],
+    "confidence": 0.9986770103375118,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2132,
+      2141
+    ],
+    "confidence": 0.9984793961048126,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2158,
+      2165
+    ],
+    "confidence": 0.9610482255617777,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2170,
+      2174
+    ],
+    "confidence": 0.7431939244270325,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2178,
+      2183
+    ],
+    "confidence": 0.9879327416419983,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2208,
+      2214
+    ],
+    "confidence": 0.9482870101928711,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ dày ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2231,
+      2247
+    ],
+    "confidence": 0.8999819623099434,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2251,
+      2256
+    ],
+    "confidence": 0.9689383506774902,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2264,
+      2271
+    ],
+    "confidence": 0.7188413143157959,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2330,
+      2337
+    ],
+    "confidence": 0.9851540128389994,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2342,
+      2346
+    ],
+    "confidence": 0.9292574524879456,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2350,
+      2355
+    ],
+    "confidence": 0.9875966906547546,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xét nghiệm phân",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2374,
+      2389
+    ],
+    "confidence": 0.9755776098796299,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cryptosporidium",
+    "type": "THUỐC",
+    "position": [
+      2394,
+      2409
+    ],
+    "confidence": 0.7018928289413452,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2426,
+      2433
+    ],
+    "confidence": 0.9723784923553467,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2438,
+      2442
+    ],
+    "confidence": 0.9207392930984497,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2446,
+      2451
+    ],
+    "confidence": 0.9900868535041809,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      2473,
+      2483
+    ],
+    "confidence": 0.9137037336826325,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "test",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2491,
+      2495
+    ],
+    "confidence": 0.9862971305847168,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hơi thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2496,
+      2503
+    ],
+    "confidence": 0.7874345481395721,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "pylori",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2507,
+      2513
+    ],
+    "confidence": 0.8088098168373108,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2541,
+      2549
+    ],
+    "confidence": 0.9976229667663574,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2553,
+      2563
+    ],
+    "confidence": 0.8853187163670858,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      2594,
+      2604
+    ],
+    "confidence": 0.8974062979221344,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2660,
+      2666
+    ],
+    "confidence": 0.9453787446022034,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2689,
+      2693
+    ],
+    "confidence": 0.9566783308982849,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xét nghiệm phân",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2755,
+      2770
+    ],
+    "confidence": 0.9755776098796299,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cryptosporidium",
+    "type": "THUỐC",
+    "position": [
+      2775,
+      2790
+    ],
+    "confidence": 0.7018928289413452,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2807,
+      2814
+    ],
+    "confidence": 0.9723784923553467,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2819,
+      2823
+    ],
+    "confidence": 0.9207392930984497,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2827,
+      2832
+    ],
+    "confidence": 0.9900868535041809,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "test",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2840,
+      2844
+    ],
+    "confidence": 0.9801594018936157,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hơi thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2845,
+      2852
+    ],
+    "confidence": 0.7074330449104309,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "pylori",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2856,
+      2862
+    ],
+    "confidence": 0.8590089380741119,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      2876,
+      2886
+    ],
+    "confidence": 0.9179710805416107,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "hồi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3126,
+      3129
+    ],
+    "confidence": 0.6014584302902222,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      3159,
+      3168
+    ],
+    "confidence": 0.985867016017437,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Viêm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      3180,
+      3184
+    ],
+    "confidence": 0.746782660484314,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "K21.0"
+    ]
+  },
+  {
+    "text": "quản",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3190,
+      3194
+    ],
+    "confidence": 0.833423376083374,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

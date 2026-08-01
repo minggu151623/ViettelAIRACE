@@ -1,0 +1,18 @@
+{
+  "records": 100,
+  "completed": 100,
+  "errors": [],
+  "checkpoint": "models/bami-airace-v3",
+  "source": "bami_v3",
+  "device": "mps",
+  "max_length": 256,
+  "stride": 64,
+  "counts": {
+    "CHẨN_ĐOÁN": 758,
+    "TRIỆU_CHỨNG": 1590,
+    "TÊN_XÉT_NGHIỆM": 583,
+    "THUỐC": 7
+  },
+  "elapsed_seconds": 11.895,
+  "offline": true
+}

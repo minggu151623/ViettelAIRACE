@@ -1,0 +1,152 @@
+[
+  {
+    "text": "bilirubin máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      53,
+      66
+    ]
+  },
+  {
+    "text": "ast",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      68,
+      71
+    ]
+  },
+  {
+    "text": "bilirubin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      95,
+      104
+    ]
+  },
+  {
+    "text": "siêu âm bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      129,
+      141
+    ]
+  },
+  {
+    "text": "acetaminophen",
+    "type": "THUỐC",
+    "candidates": [
+      "161"
+    ],
+    "assertions": [],
+    "position": [
+      204,
+      217
+    ]
+  },
+  {
+    "text": "giãn nở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      299,
+      306
+    ]
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      338,
+      345
+    ]
+  },
+  {
+    "text": "bilirubin máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      463,
+      476
+    ]
+  },
+  {
+    "text": "men gan",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      485,
+      492
+    ]
+  },
+  {
+    "text": "dịch sinh học",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1102,
+      1115
+    ]
+  },
+  {
+    "text": "fibrin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1171,
+      1177
+    ]
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1187,
+      1194
+    ]
+  },
+  {
+    "text": "căn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1206,
+      1209
+    ]
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1234,
+      1244
+    ]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1631,
+      1639
+    ]
+  }
+]

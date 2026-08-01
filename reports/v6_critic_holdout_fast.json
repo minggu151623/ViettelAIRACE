@@ -1,0 +1,15 @@
+{
+  "records": 9,
+  "completed": 9,
+  "elapsed_seconds": 36.781,
+  "model": "qwen3:8b",
+  "source": "output_v6_structural",
+  "output": "output_v6_critic_holdout_fast",
+  "stats": {
+    "retyped:TÊN_XÉT_NGHIỆM->THUỐC": 1,
+    "output_entities": 42,
+    "retyped:CHẨN_ĐOÁN->TRIỆU_CHỨNG": 1,
+    "removed:CHẨN_ĐOÁN": 1
+  },
+  "errors": []
+}

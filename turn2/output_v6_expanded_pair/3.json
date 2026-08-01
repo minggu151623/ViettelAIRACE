@@ -1,0 +1,587 @@
+[
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      35,
+      42
+    ]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      79,
+      86
+    ]
+  },
+  {
+    "text": "Nitralmyl",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      190,
+      199
+    ]
+  },
+  {
+    "text": "thuốcVastarel (trimetazidin)",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      318,
+      346
+    ]
+  },
+  {
+    "text": "hội chứng Parkinson",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "G20"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      510,
+      529
+    ]
+  },
+  {
+    "text": "run tay chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      535,
+      547
+    ]
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      549,
+      563
+    ]
+  },
+  {
+    "text": "run rấy toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      576,
+      593
+    ]
+  },
+  {
+    "text": "triệu chứng đau thắt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      648,
+      673
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      808,
+      817
+    ]
+  },
+  {
+    "text": "ù tai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      819,
+      824
+    ]
+  },
+  {
+    "text": "rối loạn thị lực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      826,
+      842
+    ]
+  },
+  {
+    "text": "yếu sức nửa người bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      943,
+      969
+    ]
+  },
+  {
+    "text": "tình trạng tri giác giảm sút",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      976,
+      1004
+    ]
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1011,
+      1024
+    ]
+  },
+  {
+    "text": "không thể tự đứng dậy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1263,
+      1284
+    ]
+  },
+  {
+    "text": "yếu sức chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1288,
+      1305
+    ]
+  },
+  {
+    "text": "không thể chịu lực ở chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1387,
+      1417
+    ]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1485,
+      1499
+    ]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1546,
+      1566
+    ]
+  },
+  {
+    "text": "nhịp tim chậm nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1585,
+      1603
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1607,
+      1618
+    ]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1710,
+      1724
+    ]
+  },
+  {
+    "text": "tai biến mạch máu não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I67.9"
+    ],
+    "assertions": [],
+    "position": [
+      1815,
+      1836
+    ]
+  },
+  {
+    "text": "chậm phản xạ kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1857,
+      1873
+    ]
+  },
+  {
+    "text": "tai biến mạch máu não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I67.9"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      2099,
+      2120
+    ]
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2126,
+      2133
+    ]
+  },
+  {
+    "text": "yếu sức nửa người bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2171,
+      2197
+    ]
+  },
+  {
+    "text": "tình trạng tri giác giảm sút",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2204,
+      2232
+    ]
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2239,
+      2252
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2259,
+      2266
+    ]
+  },
+  {
+    "text": "yếu chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2306,
+      2319
+    ]
+  },
+  {
+    "text": "ghi rõ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      2353,
+      2359
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2565,
+      2572
+    ]
+  },
+  {
+    "text": "Được con trai phát hiện tại nhà",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2615,
+      2646
+    ]
+  },
+  {
+    "text": "Than phiền về yếu sức chân phải",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2654,
+      2685
+    ]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2706,
+      2720
+    ]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2754,
+      2774
+    ]
+  },
+  {
+    "text": "Bị nhịp tim chậm nặng và hạ huyết áp, không đặc hiệu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2782,
+      2834
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2807,
+      2818
+    ]
+  },
+  {
+    "text": "Cơn bệnh tự khỏi sau khi dùng intravenous fluids",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2842,
+      2890
+    ]
+  },
+  {
+    "text": "Chụp lại chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2898,
+      2921
+    ]
+  },
+  {
+    "text": "Đã dùng kháng sinh cho nhiễm trùng nhiễm trùng răng miệng gần đây",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2946,
+      3011
+    ]
+  },
+  {
+    "text": "Nằm sải trên sàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3059,
+      3075
+    ]
+  },
+  {
+    "text": "tự đứng dậy do yếu sức chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      3093,
+      3125
+    ]
+  },
+  {
+    "text": "chịu lực ở chân phải, liên tục khuỵu chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      3143,
+      3184
+    ]
+  },
+  {
+    "text": "tỉnh chậm, phản xạ kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3192,
+      3214
+    ]
+  },
+  {
+    "text": "yếu nửa người bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3272,
+      3294
+    ]
+  },
+  {
+    "text": "suy giảm tri giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3301,
+      3318
+    ]
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3325,
+      3338
+    ]
+  },
+  {
+    "text": "nhịp tim chậm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3345,
+      3358
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3365,
+      3376
+    ]
+  },
+  {
+    "text": "nhấc chân phải khỏi mặt giường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      3405,
+      3435
+    ]
+  },
+  {
+    "text": "chân phải liên tục khuỵ xuống",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3442,
+      3471
+    ]
+  },
+  {
+    "text": "tỉnh chậm, phản xạ kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3478,
+      3500
+    ]
+  },
+  {
+    "text": "chụp ct sọ não: âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3555,
+      3578
+    ]
+  },
+  {
+    "text": "Chụp lại chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3585,
+      3608
+    ]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3655,
+      3669
+    ]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3676,
+      3696
+    ]
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [59, 92]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [100, 113]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [121, 151]
+  },
+  {
+    "text": "bệnh trào ngược dạ dày- thực quản không có viêm thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [159, 216]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [268, 276]
+  },
+  {
+    "text": "đau bụng vùng thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [400, 423]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [431, 439]
+  },
+  {
+    "text": "sốt đến 101.4",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [609, 622]
+  },
+  {
+    "text": "Tăng lên 101.8",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [630, 644]
+  },
+  {
+    "text": "hạ huyết áp, không đặc hiệu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [668, 695]
+  },
+  {
+    "text": "chỉ số huyết áp tâm thu trên đường A-line",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [723, 764]
+  },
+  {
+    "text": "viêm gan do men",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [811, 826]
+  },
+  {
+    "text": "ast (aspartate aminotransferase) là 319",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [834, 873]
+  },
+  {
+    "text": "alt (alanine aminotransferase) là 690",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [881, 918]
+  },
+  {
+    "text": "phosphatase kiềm (ap) là 983",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [926, 954]
+  },
+  {
+    "text": "bilirubin toàn phần (tbili) là 2.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [962, 996]
+  },
+  {
+    "text": "bạch cầu (wbc) 11.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1004, 1023]
+  },
+  {
+    "text": "wbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1014, 1017]
+  },
+  {
+    "text": "Siêu âm gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1078, 1093]
+  },
+  {
+    "text": "giãn đường mật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1115, 1129]
+  },
+  {
+    "text": "tắc nghẽn đường mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1137, 1156]
+  },
+  {
+    "text": "levophed",
+    "type": "THUỐC",
+    "candidates": ["227559"],
+    "assertions": [],
+    "position": [1398, 1406]
+  },
+  {
+    "text": "propofol để an thần",
+    "type": "THUỐC",
+    "candidates": ["8782"],
+    "assertions": [],
+    "position": [1414, 1433]
+  },
+  {
+    "text": "phentolamine",
+    "type": "THUỐC",
+    "candidates": ["8153"],
+    "assertions": [],
+    "position": [1448, 1460]
+  }
+]

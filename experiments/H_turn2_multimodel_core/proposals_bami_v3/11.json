@@ -1,0 +1,494 @@
+[
+  {
+    "text": "Bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      21,
+      34
+    ],
+    "confidence": 0.5264451007048289,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      38,
+      54
+    ],
+    "confidence": 0.5694952458143234,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      56,
+      68
+    ],
+    "confidence": 0.5360665718714396,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      87
+    ],
+    "confidence": 0.5868565291166306,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      89,
+      103
+    ],
+    "confidence": 0.5710321739315987,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Cơn rối loạn ý thức thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      132,
+      162
+    ],
+    "confidence": 0.6082199854510171,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cơn co giật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      173,
+      184
+    ],
+    "confidence": 0.5642238159974416,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xuất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      253,
+      257
+    ],
+    "confidence": 0.29374024271965027,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      258,
+      273
+    ],
+    "confidence": 0.583790640036265,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Chụp cắt lớp vi tính sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      275,
+      302
+    ],
+    "confidence": 0.4077843448945454,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xuất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      317,
+      321
+    ],
+    "confidence": 0.39743468165397644,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      322,
+      337
+    ],
+    "confidence": 0.48123179872830707,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "trán",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      343,
+      347
+    ],
+    "confidence": 0.3709542751312256,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      558,
+      560
+    ],
+    "confidence": 0.3436584174633026,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      711,
+      718
+    ],
+    "confidence": 0.7086220979690552,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      723,
+      726
+    ],
+    "confidence": 0.4387623071670532,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tụ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      752,
+      754
+    ],
+    "confidence": 0.3283799886703491,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "máu ngoài màng cứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      755,
+      774
+    ],
+    "confidence": 0.3818734288215637,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      867,
+      869
+    ],
+    "confidence": 0.3567050099372864,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1001,
+      1008
+    ],
+    "confidence": 0.6888288855552673,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thái dương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1014,
+      1024
+    ],
+    "confidence": 0.4768480658531189,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1038,
+      1041
+    ],
+    "confidence": 0.558010458946228,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tê bì nửa mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1056,
+      1069
+    ],
+    "confidence": 0.6442039906978607,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1376,
+      1390
+    ],
+    "confidence": 0.6291836301485697,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đi lại không vững",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1392,
+      1409
+    ],
+    "confidence": 0.641844630241394,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1421,
+      1425
+    ],
+    "confidence": 0.5400978922843933,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bàn chân bẹt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1903,
+      1915
+    ],
+    "confidence": 0.5925636291503906,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chạy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1987,
+      1991
+    ],
+    "confidence": 0.40131139755249023,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thiếu hụt về",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2163,
+      2175
+    ],
+    "confidence": 0.46249622106552124,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mềm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2181,
+      2184
+    ],
+    "confidence": 0.4213710129261017,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2343,
+      2357
+    ],
+    "confidence": 0.6615119377772013,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đi lại không vững",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2361,
+      2378
+    ],
+    "confidence": 0.673103079199791,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2446,
+      2449
+    ],
+    "confidence": 0.5034358501434326,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2465,
+      2468
+    ],
+    "confidence": 0.5483421087265015,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2494,
+      2501
+    ],
+    "confidence": 0.6979793310165405,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2503,
+      2510
+    ],
+    "confidence": 0.6593818664550781,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cắn lưỡi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2512,
+      2520
+    ],
+    "confidence": 0.6454087197780609,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiểu tiện không tự chủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2526,
+      2548
+    ],
+    "confidence": 0.6879483580589294,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "CT sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2564,
+      2573
+    ],
+    "confidence": 0.3691116273403168,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2592,
+      2612
+    ],
+    "confidence": 0.5358033031225204,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dưới màng cứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2770,
+      2784
+    ],
+    "confidence": 0.4111718436082204,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  }
+]

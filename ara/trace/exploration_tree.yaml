@@ -1,0 +1,283 @@
+tree:
+  - id: N21
+    type: pivot
+    title: "Turn 2 breakthrough rebuild after 21.8139 plateau"
+    provenance: user
+    timestamp: "2026-08-01T14:40+07:00"
+    from: "Small pair-recall increments on H17"
+    to: "Ontology reconstruction plus architecture-scale learned recall"
+    trigger: >
+      The user reported H17 at 21.8139 and explicitly requested a breakthrough
+      rather than another small blind variant.
+    children:
+      - id: N22
+        type: dead_end
+        title: "Direct H18 WHO candidate selector"
+        provenance: ai-executed
+        timestamp: "2026-08-01T14:55+07:00"
+        hypothesis: >
+          A Qwen proposer/reviewer over the WHO catalogue can repair diagnosis
+          candidates without touching spans.
+        failure_mode: >
+          Implementation preserved old codes after reviewer rejection, mixed
+          unrelated ICD families, and admitted confidence values above 1.0.
+        lesson: >
+          Reviewer authority, family consistency, and bounded confidence must
+          be enforced deterministically before packaging.
+      - id: N23
+        type: experiment
+        title: "H19 reviewer-authoritative WHO reconstruction"
+        provenance: ai-executed
+        timestamp: "2026-08-01T15:05+07:00"
+        result: >
+          Changed 189 diagnosis candidate fields (62 fills, 127 repairs/prunes)
+          while freezing every other field. All 100 records and 57 tests pass;
+          repeated ZIP hash is 26c8fa1d31dcebeb3019dfe5890abf4f7a264c6b27fd46c532ef7dc13a870104.
+        evidence: [C18, "experiments/H19_turn2_who_precision/selection.json",
+          "turn2/output_v5_who_precision.zip"]
+      - id: N24
+        type: experiment
+        title: "H20 expanded learned-pair recall"
+        provenance: ai-executed
+        timestamp: "2026-08-01T15:50+07:00"
+        also_depends_on: [N23]
+        result: >
+          Reviewed 529 disjoint exact two-model spans, detected copied Qwen
+          confidence, and selected 500 additions using type-specific evidence.
+          The 2,450-entity artifact validates 100/100, passes 57 tests, and has
+          deterministic SHA-256 ad5ac42a2fc3d0105537c42873d4aaeba1e24aef57ec9510216cf32f43d25691.
+          The user submitted this matching artifact and reported 29.8409:
+          WER 66.7969, J_assertion 37.7055, and J_candidates 21.4207. This is
+          +8.0270 over H17 and every component improved.
+        evidence: [C19, C20, "experiments/H20_turn2_expanded_pair/selection.json",
+          "experiments/H20_turn2_expanded_pair/analysis.md",
+          "turn2/output_v6_expanded_pair.zip"]
+  - id: N01
+    type: question
+    title: "How to move beyond the V6 score plateau without ground truth"
+    provenance: user
+    timestamp: "2026-07-27T22:00+07:00"
+    description: >
+      Improve the competition pipeline materially rather than spend scarce
+      submissions on formatting changes and small blind tweaks.
+    children:
+      - id: N02
+        type: experiment
+        title: "Activate and class-balance the real BamiBERT checkpoint"
+        provenance: ai-executed
+        timestamp: "2026-07-27T22:20+07:00"
+        result: >
+          Repaired model activation. Weighted training improved reviewed-holdout
+          strict F1 from 0.690476 to 0.867470.
+        evidence: [C01, C02, "models/bami-airace-v15-weighted/training_report.json"]
+        children:
+          - id: N03
+            type: dead_end
+            title: "Raw specialist union"
+            provenance: ai-executed
+            timestamp: "2026-07-27T22:35+07:00"
+            hypothesis: >
+              Route learned symptoms, diagnoses, and tests directly to the
+              submission while V6 supplies sparse classes.
+            failure_mode: >
+              The union introduced more than 600 additions with no unbiased
+              precision estimate.
+            lesson: >
+              A learned model must be evidence-gated rather than unioned.
+          - id: N04
+            type: experiment
+            title: "V16 teacher-student consensus"
+            provenance: ai-executed
+            timestamp: "2026-07-27T22:55+07:00"
+            result: >
+              Preserved V6 and added 169 high-confidence non-overlapping
+              consensus mentions. All 100 records validate, 32 tests pass, and
+              repeat packages are byte-identical. External score is pending.
+            evidence: [C03, "reports/v16_teacher_student.json"]
+          - id: N05
+            type: experiment
+            title: "H7 CRLF coordinate projection"
+            provenance: ai-executed
+            timestamp: "2026-07-27T23:22+07:00"
+            result: >
+              Projected only LF positions to CRLF positions for the exact V6
+              artifact. All 2,254 semantic records remained identical; 2,246
+              entities moved. Validation passed and repeated ZIPs were
+              byte-identical. External score is pending.
+            evidence: [C04, "reports/v17_crlf_positions.json", "output_v17_crlf_positions.zip"]
+          - id: N06
+            type: experiment
+            title: "H8 official-policy and RxNorm semantic audit"
+            provenance: ai-executed
+            timestamp: "2026-07-27T23:50+07:00"
+            result: >
+              Official forum comments confirmed repeated-occurrence,
+              textual-result, unit, and multilabel-assertion policies. All 79
+              unique V6 RxCUIs were Active, but at least 15 uses contradicted
+              mention ingredients, strength, or route. No submission artifact
+              was generated.
+            evidence: [C05, "experiments/H_rxnorm_active_audit/results.json",
+              "literature/official_forum_policy_2026-07-27.md"]
+          - id: N07
+            type: experiment
+            title: "H7 archive-provenance consistency check"
+            provenance: ai-executed
+            timestamp: "2026-07-28T00:12+07:00"
+            result: >
+              All 101 input.zip entries declare MS-DOS/NT FAT origin, while
+              the 100 text files contain 2,889 LF bytes and zero CR bytes.
+              Together with the exact official CRLF offsets and near-zero V6
+              text credit, this strengthens the newline-normalization
+              mechanism. External score remains pending.
+            evidence: [C04, "experiments/H_crlf_coordinate_reconstruction/analysis.md"]
+          - id: N08
+            type: experiment
+            title: "Recover pre-round organizer overview example"
+            provenance: ai-executed
+            timestamp: "2026-07-28T00:32+07:00"
+            result: >
+              A public snapshot confirmed that diagnosis gold may contain both
+              parent and specific ICD candidates. The same snapshot contains
+              WBC/TWBC and drug-strength inconsistencies, so it was retained as
+              policy evidence rather than character-exact gold.
+            evidence: [C06, "literature/organizer_overview_example.md"]
+          - id: N09
+            type: experiment
+            title: "H9 structured-field coverage audit"
+            provenance: ai-executed
+            timestamp: "2026-07-28T00:52+07:00"
+            result: >
+              V6 covered 95-100% of non-empty explicit diagnosis, symptom,
+              admission-reason, test-result, imaging-result, and chronic-
+              disease fields. This rules out catastrophic semantic-field recall
+              as the mechanism behind 0.0398% official text credit.
+            evidence: [C07, "experiments/H_structured_field_coverage/analysis.md"]
+          - id: N10
+            type: experiment
+            title: "H10 i2b2 annotation-policy correspondence"
+            provenance: ai-executed
+            timestamp: "2026-07-28T01:12+07:00"
+            result: >
+              Primary i2b2 sources show strong type, assertion, occurrence, and
+              boundary correspondence with BTC. BTC-specific multilabel and
+              historical-drug behavior prevents direct label conversion.
+            evidence: [C08, "literature/i2b2_policy_mapping.md"]
+          - id: N11
+            type: experiment
+            title: "Primary i2b2 guideline rule extraction"
+            provenance: ai-executed
+            timestamp: "2026-07-28T02:05+07:00"
+            result: >
+              The official PDFs make the boundary prior operational: complete
+              NP/AP spans, modifier retention, one-PP/body-part handling,
+              shared-modifier list grouping, independent-list splitting,
+              occurrence separation, and formatting-header exclusion. The
+              assertion PDF documents Possible-over-Absent precedence, but its
+              six exclusive labels are not BTC's multilabel schema.
+            evidence: [C09, "literature/i2b2_guideline_extract.md"]
+          - id: N12
+            type: experiment
+            title: "Official sample boundary-policy audit"
+            provenance: ai-executed
+            timestamp: "2026-07-28T02:25+07:00"
+            result: >
+              Visual inspection confirmed stable drug/indication boundaries and
+              separate repeated occurrences. The same official sample keeps
+              "sốt đau" together but splits "lo âu mất ngủ", falsifying any
+              universal compound-symptom split or merge rule.
+            evidence: [C10, "literature/official_sample_boundary_policy.md"]
+          - id: N13
+            type: experiment
+            title: "H12 source-generation audit"
+            provenance: ai-executed
+            timestamp: "2026-07-28T02:45+07:00"
+            result: >
+              Repeated-heading counts show a dominant shared three-section
+              template, while 26 files retain English clinical fragments. This
+              supports translation/restructuring and bilingual section-aware
+              modeling, but exact source-corpus provenance was not recovered.
+            evidence: [C11, "experiments/H_source_generation/analysis.md"]
+          - id: N14
+            type: experiment
+            title: "H12 named-source provenance assessment"
+            provenance: ai-executed
+            timestamp: "2026-07-28T03:05+07:00"
+            result: >
+              Primary i2b2 sources confirm matching task families and
+              semi-structured hospital notes under DUA-controlled access, but
+              no BTC record aligned to a source record. The task-family prior
+              is supported; named-source label transfer remains unsupported.
+            evidence: [C12, "literature/source_corpus_provenance_assessment.md"]
+          - id: N15
+            type: experiment
+            title: "Independent candidate-stripping ablation"
+            provenance: ai-executed
+            timestamp: "2026-07-28T03:25+07:00"
+            result: >
+              A participant reported that the same 2,311 entities scored
+              J_candidates 0 with codes and 0.8415 without codes; a fully empty
+              submission scored 0.1933. This independently supports
+              candidate abstention, subject to unaudited peer-report limits.
+            evidence: [C13, "literature/forum_peer_blackbox_evidence_2026-07-27.md"]
+          - id: N16
+            type: experiment
+            title: "H13 assertion experiencer audit"
+            provenance: ai-executed
+            timestamp: "2026-07-28T04:05+07:00"
+            result: >
+              Manual context review found that 18 of 19 V6 isFamily labels
+              describe the patient rather than a relative; most confuse family
+              reporter with family experiencer. V6 also assigns 15 assertions
+              to test/result concepts. External isolation remains pending.
+            evidence: [C14, "experiments/H_assertion_policy_audit/analysis.md"]
+          - id: N17
+            type: experiment
+            title: "H14 test-name/result boundary audit"
+            provenance: ai-executed
+            timestamp: "2026-07-28T04:45+07:00"
+            result: >
+              At least 52 of V6's 156 numeric result spans contain an obvious
+              test-name token; 18 result spans overlap a separately emitted
+              test name. This contradicts the independent name/result taxonomy
+              and motivates a separately evaluated lab-row splitter.
+            evidence: [C15, "experiments/H_test_result_boundary_audit/analysis.md"]
+          - id: N18
+            type: experiment
+            title: "V18 bounded evidence rebuild"
+            provenance: ai-executed
+            timestamp: "2026-07-29T00:00+07:00"
+            result: >
+              Integrated the preregistered lab, assertion, and RxNorm repairs
+              behind independent flags and produced separable LF/CRLF outputs.
+              Twenty-three compound lab rows were split in nine records, 176
+              assertion rows changed, and 12 drug candidates changed. All 43
+              tests and 100-record validators pass; repeat CRLF ZIP hashes are
+              identical. External score remains untested.
+            evidence: [C16, "reports/v18_delta_audit.json",
+              "output_v18_evidence_crlf.zip"]
+            children:
+              - id: N19
+                type: experiment
+                title: "H7 external leaderboard measurement"
+                provenance: user
+                timestamp: "2026-07-29T01:00+07:00"
+                result: >
+                  The isolated CRLF position-only ZIP scored 1.7951 versus
+                  V6's 1.7280. WER was 99.9145, J_assertion 2.9498, and
+                  J_candidates 2.2112, exactly reproducing the public formula.
+                  H7 is externally supported; V18 CRLF is the next controlled
+                  candidate.
+                evidence: [C04, "research-log.md", "output_v17_crlf_positions.zip"]
+              - id: N20
+                type: experiment
+                title: "V18 external semantic-bundle measurement"
+                provenance: user
+                timestamp: "2026-07-29T02:06+07:00"
+                result: >
+                  The CRLF semantic bundle scored 1.7751, below H7 by 0.0200.
+                  Candidate score stayed 2.2112, assertion score fell from
+                  2.9498 to 2.8837, and WER changed only by 0.0003.
+                  Component attribution is not identified because the bundle
+                  combines lab and assertion changes.
+                evidence: [C17, "research-log.md",
+                  "experiments/H18_semantic_isolation"]

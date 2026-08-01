@@ -1,0 +1,352 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      41
+    ],
+    "confidence": 0.9979997277259827,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Viêm loét",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      66
+    ],
+    "confidence": 0.6997208970564383,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      114,
+      122
+    ],
+    "confidence": 0.9813913021768842,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      253,
+      258
+    ],
+    "confidence": 0.991529107093811,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "position": [
+      280,
+      294
+    ],
+    "confidence": 0.9834636373397632,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "position": [
+      295,
+      301
+    ],
+    "confidence": 0.9313993453979492,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      423,
+      431
+    ],
+    "confidence": 0.9982179775834084,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng/khó chịu vùng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      438,
+      460
+    ],
+    "confidence": 0.8900107875795794,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "LL",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      508,
+      510
+    ],
+    "confidence": 0.7713237404823303,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      519,
+      527
+    ],
+    "confidence": 0.9985644121964772,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      557,
+      560
+    ],
+    "confidence": 0.5909910003344218,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất cảm giác ngon",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      578,
+      595
+    ],
+    "confidence": 0.9929319484667345,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy nhược",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      616,
+      625
+    ],
+    "confidence": 0.995231382548809,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      644,
+      652
+    ],
+    "confidence": 0.9987339079380035,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng/khó chịu vùng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      898,
+      920
+    ],
+    "confidence": 0.9345905438166897,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1025,
+      1028
+    ],
+    "confidence": 0.8169674277305603,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "run rẩ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1032,
+      1038
+    ],
+    "confidence": 0.8538359105587006,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất cảm giác ngon",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1041,
+      1058
+    ],
+    "confidence": 0.9899811080910943,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy nhược",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1074,
+      1083
+    ],
+    "confidence": 0.6342211663722992,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1096,
+      1104
+    ],
+    "confidence": 0.9986256539821625,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thiểu niệu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1106,
+      1116
+    ],
+    "confidence": 0.8932934234539667,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy dịch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1118,
+      1127
+    ],
+    "confidence": 0.9972233176231384,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1203,
+      1211
+    ],
+    "confidence": 0.9985939289132755,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tác dụng phụ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1228,
+      1240
+    ],
+    "confidence": 0.9983390616132067,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "position": [
+      1245,
+      1259
+    ],
+    "confidence": 0.9794012287743071,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "position": [
+      1260,
+      1266
+    ],
+    "confidence": 0.9604151844978333,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "position": [
+      1279,
+      1293
+    ],
+    "confidence": 0.9914042618539599,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "position": [
+      1294,
+      1300
+    ],
+    "confidence": 0.9789738456408182,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

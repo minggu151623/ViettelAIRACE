@@ -1,0 +1,57 @@
+session:
+  id: "2026-08-01_001"
+  timestamp: "2026-08-01T16:00+07:00"
+  summary: "Rejected flawed H18, built deterministic H19 WHO candidate repair and H20 500-entity expanded recall artifacts."
+
+events_logged:
+  - type: pivot
+    id: N21
+    provenance: user
+    summary: "User requested a breakthrough after H17 reached only 21.8139."
+  - type: dead_end
+    id: N22
+    provenance: ai-executed
+    summary: "Direct H18 output was rejected before packaging due forced old codes, cross-family selection, and malformed confidence."
+  - type: experiment
+    id: N23
+    provenance: ai-executed
+    summary: "H19 changed 189 diagnosis candidate fields while freezing all other fields."
+  - type: experiment
+    id: N24
+    provenance: ai-executed
+    summary: "H20 selected 500 disjoint learned-pair additions and built a deterministic 2,450-entity artifact."
+  - type: claim
+    id: C19
+    provenance: ai-suggested
+    summary: "Qwen numeric confidence copied proposal confidence and is not calibrated."
+
+ai_actions:
+  - action: "Implemented reviewer-authoritative WHO selection and exact correction policy."
+    provenance: ai-executed
+    files_changed: ["airace/who_icd_rebuild.py", "tests/test_who_icd_rebuild.py",
+      "experiments/H19_turn2_who_precision"]
+  - action: "Implemented expanded two-model retrieval, Qwen review, calibrated selection, merge, validation, and deterministic packaging."
+    provenance: ai-executed
+    files_changed: ["airace/turn2_expanded_pair.py",
+      "experiments/H20_turn2_expanded_pair", "turn2/output_v6_expanded_pair.zip"]
+  - action: "Updated research state, log, findings, and ARA provenance."
+    provenance: ai-executed
+    files_changed: ["research-state.yaml", "research-log.md", "findings.md", "ara"]
+
+claims_touched:
+  - id: C18
+    action: created
+    provenance: ai-suggested
+  - id: C19
+    action: created
+    provenance: ai-suggested
+  - id: C20
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Measure H20 once on the leaderboard and record all component metrics."
+  - "If H20 regresses, isolate H19 candidate-only rather than tuning thresholds blindly."
+
+ai_suggestions_pending:
+  - "Submit H20 as the registered architecture-scale candidate; keep H19 as the controlled fallback."

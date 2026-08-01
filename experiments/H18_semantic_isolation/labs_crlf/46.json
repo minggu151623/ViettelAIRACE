@@ -1,0 +1,57 @@
+[
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [60, 73]
+  },
+  {
+    "text": "khó khăn với hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [206, 230]
+  },
+  {
+    "text": "khó kiểm soát huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [254, 276]
+  },
+  {
+    "text": "đi khập khiễng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [292, 306]
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": ["isHistorical"],
+    "position": [352, 377]
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": ["isHistorical"],
+    "position": [402, 435]
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [499, 524]
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [534, 567]
+  },
+  {
+    "text": "chụp mạch máu thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [600, 618]
+  }
+]

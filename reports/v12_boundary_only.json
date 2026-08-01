@@ -1,0 +1,13 @@
+{
+  "records": 100,
+  "completed": 100,
+  "elapsed_seconds": 0.025,
+  "mode": "boundary_only",
+  "source": "output_v6_structural",
+  "output": "output_v12_boundary_only",
+  "stats": {
+    "output_entities": 2215,
+    "removed:embedded_short_symptom": 39
+  },
+  "errors": []
+}

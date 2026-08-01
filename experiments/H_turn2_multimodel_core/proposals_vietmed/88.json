@@ -1,0 +1,212 @@
+[
+  {
+    "text": "ung thư đường mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      183,
+      200
+    ],
+    "confidence": 0.9982375307008624,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chụp đường mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      237,
+      251
+    ],
+    "confidence": 0.835275261830061,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "run",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      401,
+      404
+    ],
+    "confidence": 0.9920721650123596,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      413,
+      416
+    ],
+    "confidence": 0.995394746462504,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      426,
+      429
+    ],
+    "confidence": 0.9819241960843405,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      493,
+      496
+    ],
+    "confidence": 0.9264414111773173,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ổ dịch trong ổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      504,
+      518
+    ],
+    "confidence": 0.8969003180523851,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Augmentin",
+    "type": "THUỐC",
+    "position": [
+      630,
+      639
+    ],
+    "confidence": 0.968729833761851,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "151392"
+    ]
+  },
+  {
+    "text": "chụp chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      768,
+      782
+    ],
+    "confidence": 0.979391506085029,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mồ hôi",
+    "type": "THUỐC",
+    "position": [
+      924,
+      930
+    ],
+    "confidence": 0.8611904134353002,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "calcium",
+    "type": "THUỐC",
+    "position": [
+      1052,
+      1059
+    ],
+    "confidence": 0.980455219745636,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "1895"
+    ]
+  },
+  {
+    "text": "sắt",
+    "type": "THUỐC",
+    "position": [
+      1061,
+      1064
+    ],
+    "confidence": 0.9896764159202576,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kẽm",
+    "type": "THUỐC",
+    "position": [
+      1066,
+      1069
+    ],
+    "confidence": 0.9593074520428976,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1260,
+      1264
+    ],
+    "confidence": 0.9915642738342285,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bs",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1265,
+      1267
+    ],
+    "confidence": 0.702145516872406,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1268,
+      1271
+    ],
+    "confidence": 0.6331751942634583,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1420,
+      1434
+    ],
+    "confidence": 0.9659014940261841,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

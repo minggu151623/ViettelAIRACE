@@ -1,0 +1,88 @@
+[
+  {
+    "text": "chấn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      124,
+      135
+    ],
+    "confidence": 0.9983073472976685,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dịch sinh học",
+    "type": "THUỐC",
+    "position": [
+      751,
+      764
+    ],
+    "confidence": 0.8220286965370178,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "fibrin",
+    "type": "THUỐC",
+    "position": [
+      820,
+      826
+    ],
+    "confidence": 0.956198493639628,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      836,
+      843
+    ],
+    "confidence": 0.9975667794545492,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "căn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      855,
+      858
+    ],
+    "confidence": 0.5930109620094299,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      883,
+      893
+    ],
+    "confidence": 0.9984717435306973,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1280,
+      1288
+    ],
+    "confidence": 0.998358428478241,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

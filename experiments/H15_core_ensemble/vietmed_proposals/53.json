@@ -1,0 +1,170 @@
+[
+  {
+    "text": "Bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      108,
+      115
+    ],
+    "confidence": 0.9927664200464884,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      116,
+      124
+    ],
+    "confidence": 0.8202568973813739,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      131,
+      144
+    ],
+    "confidence": 0.9974680656478517,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I25.1"
+    ]
+  },
+  {
+    "text": "xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      148,
+      164
+    ],
+    "confidence": 0.9973460659715864,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I70.90"
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      233,
+      246
+    ],
+    "confidence": 0.9889089837670326,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Suy giảm nhận thức",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      269,
+      287
+    ],
+    "confidence": 0.9189754843044015,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "suy giảm nhận thức",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      292,
+      310
+    ],
+    "confidence": 0.8583949111422904,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      679,
+      686
+    ],
+    "confidence": 0.9983270168304443,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      952,
+      959
+    ],
+    "confidence": 0.9984707534313202,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1052,
+      1055
+    ],
+    "confidence": 0.9960976839065552,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I20.9"
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1150,
+      1159
+    ],
+    "confidence": 0.9868509694933891,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1178,
+      1181
+    ],
+    "confidence": 0.9839046597480774,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "I20.9"
+    ]
+  }
+]

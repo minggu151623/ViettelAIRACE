@@ -1,0 +1,18 @@
+{
+  "records": 100,
+  "completed": 100,
+  "source": "output_v6_structural_btc",
+  "output": "output_v17_crlf_positions",
+  "position_mode": "crlf",
+  "shifted_entities": 2246,
+  "entity_counts": {
+    "THUỐC": 165,
+    "CHẨN_ĐOÁN": 400,
+    "TRIỆU_CHỨNG": 1123,
+    "TÊN_XÉT_NGHIỆM": 329,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 235,
+    "THÔNG_TIN_BỆNH_NHÂN": 2
+  },
+  "elapsed_seconds": 0.073,
+  "errors": []
+}

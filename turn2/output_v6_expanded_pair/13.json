@@ -1,0 +1,268 @@
+[
+  {
+    "text": "thương nhẹ ở tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      61,
+      79
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      90,
+      100
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      310,
+      318
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      540,
+      548
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      603,
+      611
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      653,
+      661
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      820,
+      828
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      843,
+      851
+    ]
+  },
+  {
+    "text": "Lyssavirus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      855,
+      865
+    ]
+  },
+  {
+    "text": "họ Lyssaviridae",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      873,
+      888
+    ]
+  },
+  {
+    "text": "tủy sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      988,
+      996
+    ]
+  },
+  {
+    "text": "não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1000,
+      1003
+    ]
+  },
+  {
+    "text": "đại não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1043,
+      1050
+    ]
+  },
+  {
+    "text": "trạng thái điên dại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1059,
+      1078
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1099,
+      1107
+    ]
+  },
+  {
+    "text": "tiêm vaccine phòng dại",
+    "type": "THUỐC",
+    "candidates": [
+      "830457"
+    ],
+    "assertions": [],
+    "position": [
+      1307,
+      1329
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1331,
+      1339
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1367,
+      1375
+    ]
+  },
+  {
+    "text": "virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1387,
+      1392
+    ]
+  },
+  {
+    "text": "bệnh lây truyền",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A63"
+    ],
+    "assertions": [],
+    "position": [
+      1400,
+      1415
+    ]
+  },
+  {
+    "text": "phòng bệnh dại",
+    "type": "THUỐC",
+    "candidates": [
+      "830457"
+    ],
+    "assertions": [],
+    "position": [
+      1430,
+      1444
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1470,
+      1478
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1675,
+      1683
+    ]
+  },
+  {
+    "text": "chó cắn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1713,
+      1720
+    ]
+  }
+]

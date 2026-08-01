@@ -1,0 +1,482 @@
+[
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      62
+    ],
+    "confidence": 0.7229186693827311,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      83
+    ],
+    "confidence": 0.7240721782048544,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      91,
+      110
+    ],
+    "confidence": 0.7315396964550018,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      118,
+      133
+    ],
+    "confidence": 0.7361472010612488,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "âm tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      183,
+      190
+    ],
+    "confidence": 0.2938479036092758,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      202,
+      210
+    ],
+    "confidence": 0.31449873745441437,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Thông tim trái",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      217,
+      231
+    ],
+    "confidence": 0.4177919328212738,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      241,
+      250
+    ],
+    "confidence": 0.2361137643456459,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mảng xơ vữa nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      297,
+      312
+    ],
+    "confidence": 0.4218587204813957,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "plavix",
+    "type": "THUỐC",
+    "position": [
+      355,
+      361
+    ],
+    "confidence": 0.6575912733872732,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nitrateskhi",
+    "type": "THUỐC",
+    "position": [
+      373,
+      384
+    ],
+    "confidence": 0.5844988524913788,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      386,
+      394
+    ],
+    "confidence": 0.6924821138381958,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực sau xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      463,
+      484
+    ],
+    "confidence": 0.6949803709983826,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngữc dữ dội sau xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      549,
+      577
+    ],
+    "confidence": 0.5722747892141342,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau kiểu bóp nghẹt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      600,
+      618
+    ],
+    "confidence": 0.6396016180515289,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      631,
+      644
+    ],
+    "confidence": 0.6862943470478058,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      737,
+      746
+    ],
+    "confidence": 0.6581693490346273,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đau ngực dữ dội sau xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      798,
+      826
+    ],
+    "confidence": 0.5829580511365619,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau kiểu bóp nghẹt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      828,
+      846
+    ],
+    "confidence": 0.6035076677799225,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      888,
+      891
+    ],
+    "confidence": 0.4374152421951294,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      918,
+      925
+    ],
+    "confidence": 0.7518707811832428,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      932,
+      941
+    ],
+    "confidence": 0.7329486012458801,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      948,
+      956
+    ],
+    "confidence": 0.7534571886062622,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      963,
+      966
+    ],
+    "confidence": 0.7588831782341003,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      973,
+      982
+    ],
+    "confidence": 0.751053661108017,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "heparin",
+    "type": "THUỐC",
+    "position": [
+      1006,
+      1013
+    ],
+    "confidence": 0.6533978978792826,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1014,
+      1022
+    ],
+    "confidence": 0.6476593216260275,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nitro",
+    "type": "THUỐC",
+    "position": [
+      1041,
+      1046
+    ],
+    "confidence": 0.5802689790725708,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dilaudid 3mg",
+    "type": "THUỐC",
+    "position": [
+      1050,
+      1062
+    ],
+    "confidence": 0.6933288872241974,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1095,
+      1103
+    ],
+    "confidence": 0.43023698528607685,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "0.03",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1107,
+      1111
+    ],
+    "confidence": 0.38186923662821454,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1118,
+      1128
+    ],
+    "confidence": 0.4457201063632965,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "2.0 ->",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1133,
+      1139
+    ],
+    "confidence": 0.3578599840402603,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "3.2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1140,
+      1143
+    ],
+    "confidence": 0.3510873218377431,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "k (kali) là",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1150,
+      1161
+    ],
+    "confidence": 0.3616091112295787,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "5.4",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1162,
+      1165
+    ],
+    "confidence": 0.37694717446962994,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phosphate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1172,
+      1181
+    ],
+    "confidence": 0.43615928292274475,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "5.6",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1185,
+      1188
+    ],
+    "confidence": 0.38620349764823914,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1221,
+      1232
+    ],
+    "confidence": 0.44783655802408856,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ekg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1234,
+      1237
+    ],
+    "confidence": 0.43052929639816284,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  }
+]

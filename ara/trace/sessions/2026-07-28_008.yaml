@@ -1,0 +1,22 @@
+id: "2026-07-28_008"
+date: "2026-07-28"
+title: "Named-source provenance assessment"
+provenance: ai-executed
+events:
+  - type: experiment
+    description: >
+      Reviewed primary i2b2 challenge, corpus, and access sources and searched
+      distinctive back-translated BTC phrases for a record-level match.
+    evidence:
+      - "literature/source_corpus_provenance_assessment.md"
+  - type: observation
+    description: >
+      i2b2 uses matching task families and semi-structured hospital notes, but
+      exact BTC-to-source alignment was not recovered and corpus access is DUA
+      controlled.
+  - type: decision
+    description: >
+      Preserve i2b2 only as a policy/task-family prior; do not use unofficial
+      mirrors or transfer source labels without licensed exact alignment.
+outcome: >
+  H12 was scope-calibrated. No artifact or submission was produced.

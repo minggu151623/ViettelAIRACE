@@ -1,0 +1,217 @@
+project: viettel-ai-race-v1
+question: >
+  How can an offline Vietnamese clinical NER and coding pipeline improve the
+  black-box Viettel AI Race score when the organizer provides only input text
+  and no ground-truth annotations?
+status: active
+started_at: "2026-07-26"
+current_direction: >
+  Turn 2 uses a new 100-record LF input. The guarded Qwen rebuild is externally
+  supported at 19.0709. H16 now adds a deterministic 344-entity exact
+  three-model consensus core without admitting the 1,267 pair-only rows.
+  Measure this causal span-recall intervention before expanding recall; keep
+  candidate normalization isolated because it remains the largest weighted
+  gap, and never accept a raw model union.
+baseline:
+  best_submitted_artifact: turn2/output_v4_pair_qwen.zip
+  score: 21.8139
+  wer_percent: 74.0072
+  j_assertion: 30.7601
+  j_candidates: 11.9700
+  score_formula: "score% = 0.3*(100-WER%) + 0.3*J_assertion% + 0.4*J_candidates%"
+  verified_formula: >
+    0.3*(100-74.0072) + 0.3*30.7601 + 0.4*11.9700 = 21.81387.
+constraints:
+  - "No organizer ground truth is available."
+  - "Inference must remain offline and deterministic."
+  - "Leaderboard submissions are scarce and must be treated as expensive tests."
+  - "The older organizer overview demonstrates parent/specific ICD candidates, but its OCR strings are not clean gold."
+hypotheses:
+  H1_text_type_precision:
+    status: weakened
+    prediction: >
+      Removing generic headings, nested spans, procedure mentions, and
+      unsupported attributes will improve text_score more reliably than adding
+      recall-oriented model spans.
+  H2_candidate_calibration:
+    status: supported_by_internal_and_independent_blackbox_ablation
+    prediction: >
+      Unsupported ICD candidates should be removed, but mature diagnosis
+      linking must recover defensible parent/specific codes shown by the
+      organizer overview.
+  H3_assertion_scope:
+    status: weakened
+    prediction: >
+      Section-aware and local-scope assertion rules improve assertions without
+      changing text spans.
+  H4_multi_teacher_consensus:
+    status: refuted
+    prediction: >
+      Agreement between independent rule, VietMed-NER, and LLM proposals can
+      identify high-confidence spans, but raw union or unconstrained structured
+      generation will reduce precision.
+  H5_supervised_adaptation:
+    status: locally_supported
+    prediction: >
+      PEFT/PhoBERT-style supervised adaptation could improve span/type/assertion
+      quality only after a trustworthy labeled set is created; pretrained-only
+      inference is not a valid decision model.
+  H6_public_supervised_transfer:
+    status: rejected_after_threshold_calibration
+    prediction: >
+      ViMedNER boundary/type pretraining could improve Vietnamese medical span
+      representations because its taxonomy includes disease, symptom,
+      diagnostic, and treatment, but training is blocked until dataset licensing
+      is clarified and BTC-specific labels are adapted separately. VietBioNER
+      is licensed for attributed boundary pretraining but cannot directly split
+      its combined disease/symptom class; diagnostic-only transfer is rejected
+      because source threshold calibration peaks at precision 0.5.
+  H7_crlf_coordinates:
+    status: externally_supported
+    prediction: >
+      Projecting LF offsets to CRLF coordinates will improve matching if hidden
+      annotations retain the official example's Windows newline coordinates.
+  H8_rxnorm_semantic_reranking:
+    status: exact_scd_route_rule_unit_tested_external_effect_unidentified
+    prediction: >
+      Ranking by supported ingredients, strength, route, and form instead of
+      numeric RxCUI order will remove at least 15 contradictory V6 mappings.
+  H10_i2b2_policy_prior:
+    status: structurally_supported_not_provenance
+    prediction: >
+      Adapted i2b2 boundary rules can improve consistency of independently
+      created Vietnamese annotations, but direct label conversion will fail on
+      BTC-specific type splits and multilabel assertions.
+  H11_phrase_specific_boundaries:
+    status: supported_by_official_sample
+    prediction: >
+      Adjacent symptom boundaries require lexical and contextual evidence;
+      global split-all or merge-all transformations will introduce official-
+      policy contradictions.
+  H12_transferred_source_schema:
+    status: templating_supported_task_family_plausible_named_source_unproven
+    prediction: >
+      The records were translated/restructured through a shared template, so
+      section features and bilingual terminology will outperform purely free-
+      text Vietnamese priors; exact source-label transfer requires alignment.
+  H13_experiencer_not_reporter:
+    status: strongly_supported_semantically_external_effect_unidentified
+    prediction: >
+      isFamily should apply only when the concept belongs to a relative, not
+      when a relative reports the patient's condition; removing reporter-based
+      family labels should improve assertion score in an isolated test.
+  H14_split_lab_name_result:
+    status: bounded_split_implemented_and_validated_bundle_regression_unisolated
+    prediction: >
+      Splitting high-confidence numeric laboratory rows into independent test
+      name and value-plus-unit spans will improve type/boundary matching over
+      V6 compound result spans.
+  H15_specialist_core_ensemble:
+    status: exact_three_model_core_built_external_effect_pending
+    prediction: >
+      Heterogeneous, type-specialist span models with a learned merger and
+      CRLF-aware offsets can improve text/type matching materially, whereas
+      raw model union and post-processing alone cannot bridge the score gap.
+experiments:
+  completed:
+    - "V1 rule/dictionary baseline: 0.3690"
+    - "V2 Qwen hybrid: 1.3060"
+    - "V3 consensus: 1.2726"
+    - "V4 assertion preservation: 1.4075"
+    - "V5 precision BTC artifact: 1.4095"
+    - "V6 structural BTC artifact: 1.7280"
+    - "V6 RxNorm-only controlled ablation: artifact generated; leaderboard comparison pending"
+    - "V7 structured Qwen holdout: local F1 0.545; rejected"
+    - "V10 boundary/assertion repair: external regression 1.7280 -> 1.6368"
+    - "V11 assertion-only artifact generated; external score pending"
+    - "V12 boundary-only artifact generated; external score pending"
+    - "V13 drug-boundary-only artifact generated; external score pending"
+    - "V15 weighted BamiBERT: local strict F1 0.867470"
+    - "V16 teacher-student consensus: deterministic artifact generated; external score pending"
+    - "V16 external result: 1.6868, below V6 1.7280"
+    - "H7 CRLF coordinate reconstruction: protocol locked"
+    - "Independent corpus policy audit: external taxonomies are non-isomorphic; no submission change"
+    - "H8 RxNorm audit: 79/79 codes Active; at least 15 uses semantically contradictory"
+    - "Recovered organizer overview: diagnosis gold can contain parent plus specific ICD candidates"
+    - "H9 structured-field audit: explicit diagnosis/symptom/test fields have 95-100% V6 coverage"
+    - "H10 i2b2 audit: strong structural correspondence, with documented BTC-specific divergences"
+    - "Primary i2b2 guideline extract: operational boundary rules and assertion precedence recorded"
+    - "Official sample boundary audit: drug/indication boundary stable; compound symptom segmentation phrase-specific"
+    - "H12 source-generation audit: dominant shared template and mixed-English residue quantified"
+    - "H12 follow-up: identical ZIP timestamps support common batch export"
+    - "H12 provenance bound: i2b2 task-family plausible; record alignment and named source absent"
+    - "Independent candidate ablation: same 2,311 entities improved J_candidates 0 -> 0.8415 after stripping codes"
+    - "Second peer report: populated codes also received J_candidates=0"
+    - "H13 assertion audit: 18/19 V6 isFamily labels confuse reporter with experiencer"
+    - "H14 lab boundary audit: at least 52 numeric results contain test-name tokens"
+    - "H14 protocol preregistered: numeric lab rows only, all other fields frozen"
+    - "H14 fixture: 15 policy-derived numeric lab rows across eight records"
+    - "H14 detector probe: exact name+result recovered on 4/15 policy-derived rows"
+    - "Official-forum completeness audit: all 148 indexed posts checked; no newer Track-2 policy found"
+    - "H14 experimental splitter: 15/15 fixture pairs and 35/35 project tests; not integrated into inference"
+    - "H14 full-input risk probe: 51 proposed pairs in 22 records; context gates required"
+    - "H14 context gates: 48 pairs in 21 records; demonstrated SpO2/kali hazards removed; 36 tests pass"
+    - "H14 boundary deferral: glued suffixes/trends removed; 45 pairs in 19 records; 37 tests pass"
+    - "H14 V6 overlap audit: 23 compound result spans cover pairs; 14 pairs already fully split"
+    - "H14 determinism: 45-row proposal byte-identical across two runs; offsets valid"
+    - "H14 dry-run: split-only simulation touches 9 V6 records; 7 overlap cases queued"
+    - "H14 overlap review: all 7 warnings are existing test-name spans; alias dedupe required"
+    - "H14 alias regression: longest calcium aliases selected; 38 project tests pass"
+    - "Public Vietnamese medical NER audit corrected: VietBioNER README grants CC BY 4.0; three other sources remain license-blocked"
+    - "VietBioNER official repo pinned at commit 19ba70a; supervised split checksums recorded"
+    - "H6 transfer corpus prepared: 706/300/700 examples and 191/89/202 diagnostic-procedure entities; only that label mapped"
+    - "H6 VietBioNER diagnostic-only transfer: source F1 0.462745, precision 0.355422; rejected for inference"
+    - "H6 threshold calibration: max nontrivial source precision 0.5; transfer checkpoint conclusively rejected"
+    - "H8 bare-ingredient RxNorm repair: exact CPC aliases beat arbitrary product-index IDs; 40 project tests pass; no artifact"
+    - "H8 read-only V6 audit: 8/165 drug candidate fields would change; separate 7 generic corrections from 1 bare-brand choice"
+    - "H8 route correction: IV-to-oral contradiction verified, but RxNorm SCDC vs SCDF vs SCD target convention is unidentified; rewrite deferred"
+    - "H8 official sample TTY audit: 10/11 candidates are SCD; exact ingredient+total-dose+route SCD rule added, 41 tests pass, 12/165 V6 candidate changes read-only"
+    - "H13/V11 scope audit: V11 freezes non-assertion fields but changes 176 assertion rows, including 144 historical additions; not a pure family test"
+    - "V11 history audit: all 147 newly historical rows are in explicit numbered history sections; broad assertion rationale strengthened"
+    - "Leaderboard formula reconstruction corrected: V1/V2/V6/V16 fit exactly; V6 current text contribution is 0.01194 and remaining text headroom is 29.98806"
+    - "H7 coordinate alternatives: official offsets reject UTF-8 bytes and exactly match Unicode+CRLF; all inputs NFC/no astral, leaving newline normalization as sole supported discrepancy"
+    - "H14 review queue: five high-risk contexts isolated with four frozen invariants"
+    - "V18 evidence rebuild: 23 compound lab rows split in 9 records, 176 assertion rows refreshed, 12 RxNorm fields changed"
+    - "V18 LF/CRLF outputs: both validate 100/100; CRLF ZIP is byte-deterministic with SHA-256 9e4fc10bef807a5ecd800fb577de56f988e5fbc584137bf03705d0c48c3adca0"
+    - "H7 external result: CRLF position-only score 1.7951, up from V6 1.7280; WER 99.9145, J_assertion 2.9498, J_candidates 2.2112"
+    - "V18 external result: combined CRLF semantic bundle scored 1.7751, below H7 by 0.0200; J_assertion fell to 2.8837 while J_candidates stayed 2.2112"
+    - "Peer architecture report: a leading low-40s team used about 8 models and rewrote the core; unaudited but directionally consistent with the text-matching bottleneck"
+    - "H15 proposal core: confidence/source sidecars preserve evidence and pass 45 tests"
+    - "H15 VietMed proposal bank: 2,538 proposals over 100/100 records after fixing a null RxNorm fallback"
+    - "H15 Bami-v15 proposal bank: 2,989 proposals over 100/100 records"
+    - "H15 Bami-v3 proposal bank: 2,460 proposals over 100/100 records"
+    - "H15 agreement audit: exact VietMed/Bami agreement is type-dependent; raw union remains unjustified"
+    - "H15 three-model audit: 91 diagnoses, 414 symptoms, and 37 test names agree across all three banks; drug agreement is only 2"
+    - "H15 checkpoint exporter: model/tokenizer loaded once; rerun sidecars are byte-identical and runtime fell from 35.7s to 12.3s"
+    - "Calibration audit: the nine-record manual_validation set exactly reproduces V6 on all 40 entities and is not an independent estimate"
+    - "H15 blinded calibration queue: 12 length-stratified records, UI restricted by record id, no proposal prefill"
+    - "H15 merger features: exact span/type aggregation deduplicates sources and records per-source confidence plus V6 exact/overlap evidence; 46 tests pass"
+    - "H16 Turn 2 proposal regeneration: VietMed-NER, Bami-v15, and Bami-v3 completed on correct LF input"
+    - "H16 exact consensus: 344 unseen non-drug entities admitted across 80 records; 1,267 pair-only rows quarantined"
+    - "H16 artifact: 1,884 entities, 51 tests pass, 100/100 valid, deterministic SHA-256 24c12c819c5f6afd2dec4fb07d1f75c35b96c2f1a2229ef457d551952131dc2d"
+    - "H16 external result: 21.4739; WER 74.5424, J_assertion 30.2734, J_candidates 11.8865; all components improved"
+    - "H17 eligibility: 72 exact VietMed+one-Bami rows after confidence/type gates; 66 retained by Qwen"
+    - "H17 artifact: 1,950 entities, 54 tests pass, 100/100 valid, deterministic SHA-256 f217efeb117611338dc5dd810058f8cd45fb2e5c60fe9622d370ce09aabf9ce1"
+    - "H17 external result: 21.8139; WER 74.0072, J_assertion 30.7601, J_candidates 11.9700; +0.3400 confirms positive but saturating recall"
+    - "H18 ontology audit: 39/388 diagnosis-code uses are ICD-10-CM-only but have a valid WHO three-character category; 126 diagnoses are uncoded"
+    - "H18 Qwen ontology review: 273 unique diagnoses reviewed; exposed forced-old-code and cross-family selector defects; artifact rejected before packaging"
+    - "H19 WHO precision rebuild: 189 diagnosis candidate fields changed, including 62 empty fills and 127 repairs/prunes; 100/100 valid; deterministic ZIP SHA-256 26c8fa1d31dcebeb3019dfe5890abf4f7a264c6b27fd46c532ef7dc13a870104"
+    - "H20 expanded pair review: 529 disjoint exact two-model rows reviewed; Qwen numeric confidence found copied/unreliable, categorical action retained for non-drugs"
+    - "H20 expanded artifact: H19 plus 500 disjoint entities (134 diagnosis, 247 symptom, 37 test, 82 drug); 57 tests; 100/100 valid; deterministic ZIP SHA-256 ad5ac42a2fc3d0105537c42873d4aaeba1e24aef57ec9510216cf32f43d25691"
+    - "H20 external result: 29.8409; WER 66.7969, J_assertion 37.7055, J_candidates 21.4207; +8.0270 over H17 and every component improved"
+  next: >
+    Freeze H20 as the new 29.8409 baseline. Attribute remaining error by type
+    and proposal support without altering the scored artifact. The next
+    experiment must target a structurally distinct source/model or replacement
+    policy; do not perform blind threshold micro-tuning.
+proxy_metrics:
+  - strict_span_type_precision_on_manual_holdout
+  - strict_span_type_recall_on_manual_holdout
+  - assertion_exact_jaccard_local
+  - candidate_jaccard_local
+  - deterministic_byte_identity
+  - schema_and_offset_error_count
+black_box_policy:
+  - "Do not submit an artifact unless a local ablation has a clear directional rationale."
+  - "Record leaderboard results as external evidence, not as proof of a local hypothesis."
+  - "Never tune against the public 100-file output by hard-coding expected annotations."

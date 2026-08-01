@@ -1,0 +1,401 @@
+[
+  {
+    "text": "Bệnh thận đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      41,
+      58
+    ]
+  },
+  {
+    "text": "Bệnh thận đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      68,
+      85
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      170,
+      175
+    ]
+  },
+  {
+    "text": "aza",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      208,
+      211
+    ]
+  },
+  {
+    "text": "thiop",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      211,
+      216
+    ]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": [
+      "152633"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      294,
+      302
+    ]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": [
+      "152633"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      324,
+      332
+    ]
+  },
+  {
+    "text": "Suy thận",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      386,
+      394
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "candidates": [
+      "2913"
+    ],
+    "assertions": [],
+    "position": [
+      457,
+      467
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "candidates": [
+      "2913"
+    ],
+    "assertions": [],
+    "position": [
+      514,
+      524
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "candidates": [
+      "2913"
+    ],
+    "assertions": [],
+    "position": [
+      573,
+      583
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      626,
+      635
+    ]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": [
+      "152633"
+    ],
+    "assertions": [],
+    "position": [
+      653,
+      661
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "candidates": [
+      "2913"
+    ],
+    "assertions": [],
+    "position": [
+      692,
+      702
+    ]
+  },
+  {
+    "text": "prerenal",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      738,
+      746
+    ]
+  },
+  {
+    "text": "virus bk",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      816,
+      824
+    ]
+  },
+  {
+    "text": "creatinin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      839,
+      848
+    ]
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      869,
+      876
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "candidates": [
+      "2913"
+    ],
+    "assertions": [],
+    "position": [
+      953,
+      963
+    ]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1024,
+      1036
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "candidates": [
+      "2913"
+    ],
+    "assertions": [],
+    "position": [
+      1179,
+      1189
+    ]
+  },
+  {
+    "text": "Suy thận",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1271,
+      1279
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1358,
+      1367
+    ]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": [
+      "152633"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1385,
+      1393
+    ]
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1438,
+      1443
+    ]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1529,
+      1541
+    ]
+  },
+  {
+    "text": "kiểm tra ngoại trú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1700,
+      1718
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "candidates": [
+      "2913"
+    ],
+    "assertions": [],
+    "position": [
+      1736,
+      1746
+    ]
+  },
+  {
+    "text": "sinh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1834,
+      1838
+    ]
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2000,
+      2005
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2025,
+      2034
+    ]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2045,
+      2057
+    ]
+  },
+  {
+    "text": "Sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2139,
+      2149
+    ]
+  },
+  {
+    "text": "Sinh thiết thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2191,
+      2206
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2255,
+      2264
+    ]
+  },
+  {
+    "text": "Bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2282,
+      2289
+    ]
+  },
+  {
+    "text": "BK",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2298,
+      2300
+    ]
+  },
+  {
+    "text": "kháng thể hữu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2374,
+      2387
+    ]
+  }
+]

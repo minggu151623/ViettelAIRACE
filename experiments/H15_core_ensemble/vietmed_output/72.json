@@ -1,0 +1,249 @@
+[
+  {
+    "text": "vàng da không",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      118,
+      131
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      132,
+      135
+    ]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      218,
+      227
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      232,
+      236
+    ]
+  },
+  {
+    "text": "xét nghiệm huyết thanh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      259,
+      281
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      294,
+      301
+    ]
+  },
+  {
+    "text": "giãn đường dẫn mật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      311,
+      329
+    ]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      380,
+      384
+    ]
+  },
+  {
+    "text": "nội soi mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      386,
+      397
+    ]
+  },
+  {
+    "text": "khối u",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      499,
+      505
+    ]
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C18.9"
+    ],
+    "assertions": [],
+    "position": [
+      653,
+      660
+    ]
+  },
+  {
+    "text": "biệt hóa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      676,
+      684
+    ]
+  },
+  {
+    "text": "khối u",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      740,
+      746
+    ]
+  },
+  {
+    "text": "bilir",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      862,
+      867
+    ]
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C18.9"
+    ],
+    "assertions": [],
+    "position": [
+      935,
+      942
+    ]
+  },
+  {
+    "text": "biệt hóa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      958,
+      966
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      992,
+      1001
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1013,
+      1020
+    ]
+  },
+  {
+    "text": "giãn đường dẫn mật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1030,
+      1048
+    ]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1099,
+      1103
+    ]
+  },
+  {
+    "text": "(nội soi mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1104,
+      1116
+    ]
+  },
+  {
+    "text": "khối u",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1207,
+      1213
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1370,
+      1379
+    ]
+  },
+  {
+    "text": "u á",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C18.9"
+    ],
+    "assertions": [],
+    "position": [
+      1387,
+      1390
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1413,
+      1422
+    ]
+  },
+  {
+    "text": "khối u",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1461,
+      1467
+    ]
+  }
+]

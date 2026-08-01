@@ -1,0 +1,520 @@
+[
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      47,
+      52
+    ],
+    "confidence": 0.9958570599555969,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "NSAID",
+    "type": "THUỐC",
+    "position": [
+      59,
+      64
+    ],
+    "confidence": 0.9223209619522095,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      77,
+      80
+    ],
+    "confidence": 0.9891091585159302,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngừng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      93,
+      98
+    ],
+    "confidence": 0.7500878572463989,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      106,
+      116
+    ],
+    "confidence": 0.9032479584217071,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      206,
+      209
+    ],
+    "confidence": 0.9979947805404663,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau vùng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      315,
+      323
+    ],
+    "confidence": 0.776869569505964,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      353
+    ],
+    "confidence": 0.9983219146728516,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      365
+    ],
+    "confidence": 0.9988272512952487,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      442,
+      450
+    ],
+    "confidence": 0.9946140817233494,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      551,
+      559
+    ],
+    "confidence": 0.9809936370168414,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      632,
+      643
+    ],
+    "confidence": 0.9849275112152099,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      676,
+      684
+    ],
+    "confidence": 0.9988424678643544,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      703,
+      706
+    ],
+    "confidence": 0.852014442284902,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      743,
+      751
+    ],
+    "confidence": 0.9984629835401263,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      827,
+      836
+    ],
+    "confidence": 0.9438110366463661,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      871,
+      879
+    ],
+    "confidence": 0.9949550117765155,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      979,
+      987
+    ],
+    "confidence": 0.9849020753587995,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1012,
+      1023
+    ],
+    "confidence": 0.9927510976791382,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1031,
+      1039
+    ],
+    "confidence": 0.9985931664705276,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1085,
+      1093
+    ],
+    "confidence": 0.9979796494756427,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1138,
+      1146
+    ],
+    "confidence": 0.9924545202936444,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1161,
+      1169
+    ],
+    "confidence": 0.9948190110070365,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1302,
+      1310
+    ],
+    "confidence": 0.9887950505529132,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1312,
+      1323
+    ],
+    "confidence": 0.9794374823570251,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1358,
+      1369
+    ],
+    "confidence": 0.9979190587997436,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1372,
+      1380
+    ],
+    "confidence": 0.9988713636994362,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1398,
+      1406
+    ],
+    "confidence": 0.998324487890516,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1471,
+      1474
+    ],
+    "confidence": 0.6827713251113892,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1533,
+      1540
+    ],
+    "confidence": 0.9467900991439819,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1563,
+      1568
+    ],
+    "confidence": 0.9867472648620605,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "NSAIDs",
+    "type": "THUỐC",
+    "position": [
+      1569,
+      1575
+    ],
+    "confidence": 0.9517097473144531,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      1596,
+      1606
+    ],
+    "confidence": 0.9064636707305909,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1672,
+      1696
+    ],
+    "confidence": 0.9537775809174858,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1823,
+      1847
+    ],
+    "confidence": 0.9290772144072481,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1871,
+      1880
+    ],
+    "confidence": 0.9682732447981834,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1901,
+      1908
+    ],
+    "confidence": 0.6497770746548971,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1940,
+      1947
+    ],
+    "confidence": 0.870518167813619,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "soi mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2036,
+      2043
+    ],
+    "confidence": 0.7120572030544281,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ERC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2060,
+      2063
+    ],
+    "confidence": 0.6260370016098022,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp cộng hưởng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2155,
+      2170
+    ],
+    "confidence": 0.698265763265746,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sỏi ống dẫn mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2214,
+      2229
+    ],
+    "confidence": 0.7914465136692993,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

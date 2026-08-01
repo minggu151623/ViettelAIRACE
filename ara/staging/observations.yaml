@@ -1,0 +1,9 @@
+observations:
+  - id: O01
+    timestamp: "2026-07-27T22:40+07:00"
+    provenance: ai-suggested
+    content: "The 9-record reviewed holdout is exactly saturated by V6 and cannot select recall expansions."
+    context: "V6 obtained 40/40 exact entities while learned hybrids could only add apparent false positives."
+    potential_type: claim
+    promoted: false
+    stale: true

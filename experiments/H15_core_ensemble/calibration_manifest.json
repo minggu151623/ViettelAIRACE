@@ -1,0 +1,26 @@
+{
+  "purpose": "blinded span/type calibration review; excludes labels/manual_validation.jsonl",
+  "records": [
+    "19",
+    "21",
+    "25",
+    "31",
+    "34",
+    "38",
+    "60",
+    "69",
+    "72",
+    "76",
+    "85",
+    "95"
+  ],
+  "selection": "length-stratified structural sample from the remaining 91 inputs; no model predictions were used to label records",
+  "review_protocol": [
+    "Review raw_text before opening any model proposal.",
+    "Mark exact span and type only; do not infer a diagnosis from a symptom.",
+    "Record repeated occurrences separately.",
+    "Assign assertions only when section/scope evidence is explicit.",
+    "Leave candidates empty unless the code is independently defensible."
+  ],
+  "status": "awaiting_human_adjudication"
+}

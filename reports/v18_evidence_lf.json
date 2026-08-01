@@ -1,0 +1,37 @@
+{
+  "records": 100,
+  "completed": 100,
+  "source": "output_v6_structural_btc",
+  "output": "output_v18_evidence_lf",
+  "position_mode": "raw",
+  "interventions": {
+    "refresh_assertions": true,
+    "refresh_rxnorm": true,
+    "split_numeric_labs": true,
+    "project_crlf_positions": false
+  },
+  "entity_counts": {
+    "CHẨN_ĐOÁN": 400,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 235,
+    "THUỐC": 165,
+    "THÔNG_TIN_BỆNH_NHÂN": 2,
+    "TRIỆU_CHỨNG": 1123,
+    "TÊN_XÉT_NGHIỆM": 346
+  },
+  "stats": {
+    "assertion:changed_entities": 176,
+    "completed_records": 100,
+    "lab:added_numeric_results": 23,
+    "lab:added_test_names": 17,
+    "lab:detected_pairs": 23,
+    "lab:removed_compound_results": 23,
+    "rxnorm:abstained_candidates": 1,
+    "rxnorm:changed_entities": 12,
+    "rxnorm:replaced_candidates": 11,
+    "semantic_output_entities": 2271,
+    "source_entities": 2254
+  },
+  "elapsed_seconds": 1.151,
+  "errors": [],
+  "offline": true
+}

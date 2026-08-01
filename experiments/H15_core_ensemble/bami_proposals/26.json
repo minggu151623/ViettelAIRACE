@@ -1,0 +1,50 @@
+[
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      52,
+      59
+    ],
+    "confidence": 0.6748751401901245,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "giảm cân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      202,
+      210
+    ],
+    "confidence": 0.4363887161016464,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng cân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      214,
+      222
+    ],
+    "confidence": 0.5399200618267059,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng cân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      335,
+      343
+    ],
+    "confidence": 0.5634464621543884,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  }
+]

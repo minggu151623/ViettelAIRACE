@@ -1,0 +1,258 @@
+[
+  {
+    "text": "bệnh lý nội khoa",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      50
+    ],
+    "confidence": 0.9744630720880297,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Ung thư phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      79,
+      91
+    ],
+    "confidence": 0.9977278336882591,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Di căn não",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      115,
+      125
+    ],
+    "confidence": 0.8974786321322124,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      251,
+      264
+    ],
+    "confidence": 0.9979335014466887,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "u di căn bán cầu não",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      325,
+      345
+    ],
+    "confidence": 0.9224509455560688,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      355,
+      360
+    ],
+    "confidence": 0.9941359758377075,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "position": [
+      382,
+      389
+    ],
+    "confidence": 0.8769890325410026,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "856987"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      412,
+      415
+    ],
+    "confidence": 0.9976287484169006,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau b",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      464,
+      469
+    ],
+    "confidence": 0.8995603919029236,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      552,
+      555
+    ],
+    "confidence": 0.9978572726249695,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      595,
+      598
+    ],
+    "confidence": 0.9979537725448608,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      650,
+      653
+    ],
+    "confidence": 0.9974654912948608,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bẹn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      708,
+      715
+    ],
+    "confidence": 0.8801796968494143,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      837,
+      840
+    ],
+    "confidence": 0.9981420040130615,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "position": [
+      906,
+      913
+    ],
+    "confidence": 0.904684339250837,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "856987"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      931,
+      934
+    ],
+    "confidence": 0.997975766658783,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tê",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      982,
+      984
+    ],
+    "confidence": 0.911080002784729,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "position": [
+      1081,
+      1088
+    ],
+    "confidence": 0.8953990936279297,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "856987"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1105,
+      1108
+    ],
+    "confidence": 0.9979481101036072,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  }
+]

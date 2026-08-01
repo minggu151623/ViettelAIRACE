@@ -1,0 +1,554 @@
+[
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      111,
+      116
+    ],
+    "confidence": 0.99540776014328,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      117,
+      122
+    ],
+    "confidence": 0.9921976923942566,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      171,
+      190
+    ],
+    "confidence": 0.8901865803278409,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1042684"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      226,
+      229
+    ],
+    "confidence": 0.9973801970481873,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      310,
+      315
+    ],
+    "confidence": 0.9555844664573669,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      384
+    ],
+    "confidence": 0.9962637594767979,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      449,
+      457
+    ],
+    "confidence": 0.9921979478427342,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      491,
+      499
+    ],
+    "confidence": 0.9952633040291923,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      542,
+      550
+    ],
+    "confidence": 0.9952633040291923,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      590,
+      598
+    ],
+    "confidence": 0.9914223636899676,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "bilirubin",
+    "type": "THUỐC",
+    "position": [
+      692,
+      701
+    ],
+    "confidence": 0.775139762295617,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      775,
+      783
+    ],
+    "confidence": 0.995098854814257,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      801,
+      809
+    ],
+    "confidence": 0.9961659567696708,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      821,
+      838
+    ],
+    "confidence": 0.9895322397351265,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      841,
+      848
+    ],
+    "confidence": 0.997203141450882,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      851,
+      858
+    ],
+    "confidence": 0.9982978403568268,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngứa toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      874,
+      888
+    ],
+    "confidence": 0.9648796102175345,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      904,
+      910
+    ],
+    "confidence": 0.99162837266922,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      917,
+      920
+    ],
+    "confidence": 0.9959563612937927,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Đau vùng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      952,
+      960
+    ],
+    "confidence": 0.8951542803219387,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      965,
+      969
+    ],
+    "confidence": 0.7795600295066833,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "RUQ)",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      971,
+      975
+    ],
+    "confidence": 0.8680738359689713,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1016,
+      1024
+    ],
+    "confidence": 0.9984315012892087,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "phân",
+    "type": "THUỐC",
+    "position": [
+      1090,
+      1094
+    ],
+    "confidence": 0.7500547766685486,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "nhựa đường",
+    "type": "THUỐC",
+    "position": [
+      1112,
+      1122
+    ],
+    "confidence": 0.9573164648479886,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      1183,
+      1202
+    ],
+    "confidence": 0.9132125744452844,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1042684"
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1253,
+      1258
+    ],
+    "confidence": 0.9555844664573669,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "position": [
+      1431,
+      1445
+    ],
+    "confidence": 0.9852333996031019,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1533,
+      1538
+    ],
+    "confidence": 0.9906997084617615,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1655,
+      1658
+    ],
+    "confidence": 0.7271093726158142,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ubin",
+    "type": "THUỐC",
+    "position": [
+      2002,
+      2006
+    ],
+    "confidence": 0.6650817692279816,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2082,
+      2090
+    ],
+    "confidence": 0.9960009455680847,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2091,
+      2096
+    ],
+    "confidence": 0.8348175287246704,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ferritin",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2110,
+      2118
+    ],
+    "confidence": 0.9104303643107414,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2222,
+      2231
+    ],
+    "confidence": 0.9810355231165886,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2243,
+      2255
+    ],
+    "confidence": 0.9453380378809842,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "giãn nở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2327,
+      2334
+    ],
+    "confidence": 0.9352214137713114,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "giãn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2350,
+      2354
+    ],
+    "confidence": 0.9109083414077759,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2370,
+      2373
+    ],
+    "confidence": 0.6539742747942606,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2379,
+      2386
+    ],
+    "confidence": 0.9846357107162476,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2447,
+      2456
+    ],
+    "confidence": 0.9858670458197594,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng men",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2464,
+      2472
+    ],
+    "confidence": 0.8468159096581596,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bilirubin máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2484,
+      2497
+    ],
+    "confidence": 0.899847075343132,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

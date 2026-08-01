@@ -1,0 +1,146 @@
+[
+  {
+    "text": "Ung thư vú",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      25,
+      35
+    ],
+    "confidence": 0.9986492373049259,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "di căn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      36,
+      42
+    ],
+    "confidence": 0.9932718753814698,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tràn dịch màng phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      44,
+      63
+    ],
+    "confidence": 0.9972878539383369,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      77
+    ],
+    "confidence": 0.9986157757895333,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      116,
+      123
+    ],
+    "confidence": 0.9982413947582245,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      127,
+      131
+    ],
+    "confidence": 0.9361569881439209,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tràn dịch màng ngoài tim",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      156,
+      180
+    ],
+    "confidence": 0.9947307543254323,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      207,
+      216
+    ],
+    "confidence": 0.9879453480243683,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      227,
+      234
+    ],
+    "confidence": 0.9987621605396271,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "C18.9"
+    ]
+  },
+  {
+    "text": "di căn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      235,
+      241
+    ],
+    "confidence": 0.807854425907135,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "talc",
+    "type": "THUỐC",
+    "position": [
+      368,
+      372
+    ],
+    "confidence": 0.9555468559265137,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "10323"
+    ]
+  }
+]

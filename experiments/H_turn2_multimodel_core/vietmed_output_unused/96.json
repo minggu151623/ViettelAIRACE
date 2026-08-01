@@ -1,0 +1,117 @@
+[
+  {
+    "text": "tắc hẹp 80%",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      107,
+      118
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      181,
+      190
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      201,
+      221
+    ]
+  },
+  {
+    "text": "ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      223,
+      225
+    ]
+  },
+  {
+    "text": "tắc hẹp 80%",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      236,
+      247
+    ]
+  },
+  {
+    "text": "phục",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      442,
+      446
+    ]
+  },
+  {
+    "text": "thương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      543,
+      549
+    ]
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      572,
+      582
+    ]
+  },
+  {
+    "text": "khô",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      639,
+      642
+    ]
+  },
+  {
+    "text": "chết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      656,
+      660
+    ]
+  },
+  {
+    "text": "bụi bẩn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1171,
+      1178
+    ]
+  },
+  {
+    "text": "vitamin C",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1301,
+      1310
+    ]
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "text": "74 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "assertions": [],
+    "position": [
+      7,
+      14
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      34,
+      37
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      112,
+      115
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      129,
+      132
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      163,
+      166
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      182,
+      185
+    ]
+  },
+  {
+    "text": "Khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      216,
+      220
+    ]
+  },
+  {
+    "text": "Đau ngực T",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      240,
+      250
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      257,
+      260
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      278,
+      285
+    ]
+  },
+  {
+    "text": "KHông phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      304,
+      313
+    ]
+  },
+  {
+    "text": "xuất huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      321,
+      331
+    ]
+  },
+  {
+    "text": "RR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      352,
+      354
+    ]
+  },
+  {
+    "text": "Prothrombin",
+    "type": "THUỐC",
+    "candidates": [
+      "1441688"
+    ],
+    "assertions": [],
+    "position": [
+      527,
+      538
+    ]
+  },
+  {
+    "text": "Troponin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      571,
+      579
+    ]
+  },
+  {
+    "text": "GO",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      603,
+      605
+    ]
+  },
+  {
+    "text": "Đo hoạt độ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      609,
+      619
+    ]
+  },
+  {
+    "text": "ALT",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      620,
+      623
+    ]
+  },
+  {
+    "text": "GPT",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      625,
+      628
+    ]
+  },
+  {
+    "text": "Creatinin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      643,
+      652
+    ]
+  },
+  {
+    "text": "Na",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      674,
+      676
+    ]
+  },
+  {
+    "text": "Cl",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      681,
+      683
+    ]
+  },
+  {
+    "text": "Glucose",
+    "type": "THUỐC",
+    "candidates": [
+      "4850"
+    ],
+    "assertions": [],
+    "position": [
+      698,
+      705
+    ]
+  },
+  {
+    "text": "phân tích",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      747,
+      756
+    ]
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      889,
+      898
+    ]
+  },
+  {
+    "text": "Cơ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.2"
+    ],
+    "assertions": [],
+    "position": [
+      900,
+      902
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I20.9"
+    ],
+    "assertions": [],
+    "position": [
+      904,
+      907
+    ]
+  },
+  {
+    "text": "HA",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I48.91"
+    ],
+    "assertions": [],
+    "position": [
+      942,
+      944
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      966,
+      971
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1112,
+      1116
+    ]
+  },
+  {
+    "text": "tăng cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1215,
+      1223
+    ]
+  },
+  {
+    "text": "tăng cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1336,
+      1344
+    ]
+  }
+]

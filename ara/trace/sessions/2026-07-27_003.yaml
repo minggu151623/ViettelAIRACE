@@ -1,0 +1,40 @@
+session:
+  id: "2026-07-27_003"
+  timestamp: "2026-07-27T23:50+07:00"
+  summary: "Audited official annotation policy and V6 RxNorm semantic consistency."
+
+events_logged:
+  - type: experiment
+    id: N06
+    provenance: ai-executed
+    summary: "Confirmed official occurrence/assertion/test-result rules and audited 79 unique RxCUIs."
+  - type: claim
+    id: C05
+    provenance: ai-suggested
+    summary: "Numeric-first fallback causes at least 15 semantically contradictory candidate uses."
+
+ai_actions:
+  - action: "Collected administrator-authored policy statements from the public forum API."
+    provenance: ai-executed
+    files_changed: ["literature/official_forum_policy_2026-07-27.md"]
+  - action: "Queried NLM history status for every unique V6 RxCUI and recorded the audit."
+    provenance: ai-executed
+    files_changed: ["experiments/H_rxnorm_active_audit/results.json", "experiments/H_rxnorm_active_audit/analysis.md"]
+  - action: "Updated research synthesis and trajectory without generating a submission."
+    provenance: ai-executed
+    files_changed: ["findings.md", "research-log.md", "research-state.yaml"]
+
+claims_touched:
+  - id: C03
+    action: weakened
+    provenance: ai-suggested
+  - id: C05
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Obtain the external H7 CRLF result from the user."
+  - "After H7 is measured, implement ingredient/strength/route-aware RxNorm ranking as an isolated candidate ablation."
+
+ai_suggestions_pending:
+  - "Do not combine H7 coordinates and H8 candidates in one unmeasured submission."

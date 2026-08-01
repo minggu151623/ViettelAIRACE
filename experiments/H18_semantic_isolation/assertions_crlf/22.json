@@ -1,0 +1,40 @@
+[
+  {
+    "text": "bệnh mạch máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [35, 48]
+  },
+  {
+    "text": "aspirin 325mg hằng ngày",
+    "type": "THUỐC",
+    "candidates": ["1536467"],
+    "assertions": ["isHistorical"],
+    "position": [77, 100]
+  },
+  {
+    "text": "rối loạn thần kinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [182, 200]
+  },
+  {
+    "text": "chụp ct sọ não không thuốc cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [230, 266]
+  },
+  {
+    "text": "khối máu tụ dưới màng cứng bán cấp hai bên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [277, 319]
+  },
+  {
+    "text": "chụp ct sọ não không thuốc cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [349, 385]
+  }
+]

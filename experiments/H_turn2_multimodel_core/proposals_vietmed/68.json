@@ -1,0 +1,386 @@
+[
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      16,
+      32
+    ],
+    "confidence": 0.9521875401337941,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      53
+    ],
+    "confidence": 0.9390112806699777,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh lý thần",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      55,
+      67
+    ],
+    "confidence": 0.8834721518285348,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      160,
+      167
+    ],
+    "confidence": 0.998322457075119,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      199,
+      206
+    ],
+    "confidence": 0.9984413981437683,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      226,
+      230
+    ],
+    "confidence": 0.9800693988800049,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      248,
+      255
+    ],
+    "confidence": 0.9980651438236237,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      258,
+      265
+    ],
+    "confidence": 0.9959311683972677,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đau hai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      341,
+      348
+    ],
+    "confidence": 0.9579589565594991,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      361,
+      368
+    ],
+    "confidence": 0.9713693658510844,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      413,
+      422
+    ],
+    "confidence": 0.9810355231165886,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dị tật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      485,
+      491
+    ],
+    "confidence": 0.9323559045791626,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "rối loạn chức năng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      589,
+      607
+    ],
+    "confidence": 0.9972560113551568,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh ba thân",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      650,
+      662
+    ],
+    "confidence": 0.8127095609000236,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Augmentin",
+    "type": "THUỐC",
+    "position": [
+      799,
+      808
+    ],
+    "confidence": 0.9305087990230985,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "151392"
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "position": [
+      810,
+      821
+    ],
+    "confidence": 0.9702564369548451,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "723"
+    ]
+  },
+  {
+    "text": "acid clavulanic",
+    "type": "THUỐC",
+    "position": [
+      822,
+      837
+    ],
+    "confidence": 0.9416099826494853,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      997,
+      1002
+    ],
+    "confidence": 0.9867565631866455,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tái phát",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1090,
+      1098
+    ],
+    "confidence": 0.9974719371114459,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vi khuẩn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1199,
+      1207
+    ],
+    "confidence": 0.8013954418046134,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1239,
+      1244
+    ],
+    "confidence": 0.994361400604248,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1317,
+      1322
+    ],
+    "confidence": 0.9945887327194214,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Augmentin",
+    "type": "THUỐC",
+    "position": [
+      1360,
+      1369
+    ],
+    "confidence": 0.8836945162879096,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "151392"
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1424,
+      1429
+    ],
+    "confidence": 0.9952787160873413,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1434,
+      1443
+    ],
+    "confidence": 0.992078572511673,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hấp thu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1458,
+      1465
+    ],
+    "confidence": 0.8946494460105896,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "men tiêu hóa",
+    "type": "THUỐC",
+    "position": [
+      1498,
+      1510
+    ],
+    "confidence": 0.9852077666815225,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1589,
+      1594
+    ],
+    "confidence": 0.9927175045013428,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vi khuẩn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1596,
+      1604
+    ],
+    "confidence": 0.7708332027707782,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1609,
+      1614
+    ],
+    "confidence": 0.9898563623428345,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1649,
+      1660
+    ],
+    "confidence": 0.9964654445648193,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

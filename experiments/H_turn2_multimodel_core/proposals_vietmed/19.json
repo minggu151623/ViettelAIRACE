@@ -1,0 +1,412 @@
+[
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      252,
+      257
+    ],
+    "confidence": 0.9944652915000916,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "di truyền",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      318,
+      327
+    ],
+    "confidence": 0.9945805370807648,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dị ứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      363
+    ],
+    "confidence": 0.9825307488441467,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "PCP",
+    "type": "THUỐC",
+    "position": [
+      668,
+      671
+    ],
+    "confidence": 0.972614606221517,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      684,
+      691
+    ],
+    "confidence": 0.9757137554032462,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "202433"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      696,
+      699
+    ],
+    "confidence": 0.9981589913368225,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      721,
+      728
+    ],
+    "confidence": 0.9593099015099662,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "202433"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      761,
+      764
+    ],
+    "confidence": 0.9981693029403687,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      809,
+      817
+    ],
+    "confidence": 0.99735198702131,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      828,
+      831
+    ],
+    "confidence": 0.9606757164001465,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      838,
+      846
+    ],
+    "confidence": 0.9985646208127339,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau hố",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      886,
+      892
+    ],
+    "confidence": 0.9654518589377403,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      929,
+      932
+    ],
+    "confidence": 0.9982301592826843,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      962,
+      969
+    ],
+    "confidence": 0.9769904698644366,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "202433"
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      999,
+      1007
+    ],
+    "confidence": 0.9987628931800525,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      1084,
+      1091
+    ],
+    "confidence": 0.9829870292118618,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "202433"
+    ]
+  },
+  {
+    "text": "PCP",
+    "type": "THUỐC",
+    "position": [
+      1113,
+      1116
+    ],
+    "confidence": 0.8558609485626221,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1219,
+      1222
+    ],
+    "confidence": 0.9522057970364889,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1285,
+      1296
+    ],
+    "confidence": 0.9375809073448181,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhâ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1342,
+      1345
+    ],
+    "confidence": 0.6003504991531372,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "o T",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1392,
+      1395
+    ],
+    "confidence": 0.579832911491394,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1422,
+      1433
+    ],
+    "confidence": 0.946704876422882,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "huỳnh quang",
+    "type": "THUỐC",
+    "position": [
+      1660,
+      1672
+    ],
+    "confidence": 0.6854805176908321,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dịch",
+    "type": "THUỐC",
+    "position": [
+      1679,
+      1684
+    ],
+    "confidence": 0.5748332738876343,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1685,
+      1696
+    ],
+    "confidence": 0.9651970028877258,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dịch",
+    "type": "THUỐC",
+    "position": [
+      1775,
+      1780
+    ],
+    "confidence": 0.8421515226364136,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "fibrin",
+    "type": "THUỐC",
+    "position": [
+      1800,
+      1806
+    ],
+    "confidence": 0.9458958705266317,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1816,
+      1823
+    ],
+    "confidence": 0.9982928435007731,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vô căn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1832,
+      1838
+    ],
+    "confidence": 0.846976363658905,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1863,
+      1873
+    ],
+    "confidence": 0.9988078872362772,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "vô căn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1944,
+      1950
+    ],
+    "confidence": 0.9856113314628601,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bệnh ly",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2108,
+      2116
+    ],
+    "confidence": 0.9724551268986293,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "position": [
+      2393,
+      2402
+    ],
+    "confidence": 0.9697027338875664,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

@@ -1,0 +1,508 @@
+[
+  {
+    "text": "62 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "position": [
+      16,
+      23
+    ],
+    "confidence": 0.7903273900349935,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      45,
+      52
+    ],
+    "confidence": 0.9380180537700653,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "gầy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      54,
+      57
+    ],
+    "confidence": 0.9300711750984192,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sút cân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      58,
+      65
+    ],
+    "confidence": 0.9716466863950094,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      101,
+      110
+    ],
+    "confidence": 0.998698391020298,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F10.20"
+    ]
+  },
+  {
+    "text": "đi tiểu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      173,
+      186
+    ],
+    "confidence": 0.9891260067621866,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sút cân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      192,
+      199
+    ],
+    "confidence": 0.9274818897247314,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      219,
+      226
+    ],
+    "confidence": 0.9971943497657776,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      321,
+      335
+    ],
+    "confidence": 0.955998696323134,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Glucose máu",
+    "type": "THUỐC",
+    "position": [
+      337,
+      348
+    ],
+    "confidence": 0.8717095375061035,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "4850"
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      443,
+      448
+    ],
+    "confidence": 0.9956591129302979,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ĐTD typ II",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      458,
+      468
+    ],
+    "confidence": 0.8217741813924577,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      479,
+      484
+    ],
+    "confidence": 0.9961709380149841,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      535,
+      540
+    ],
+    "confidence": 0.9912514090538025,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "position": [
+      554,
+      563
+    ],
+    "confidence": 0.9652716782357957,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "38413"
+    ]
+  },
+  {
+    "text": "Insulin",
+    "type": "THUỐC",
+    "position": [
+      604,
+      611
+    ],
+    "confidence": 0.9680904916354588,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "glargine",
+    "type": "THUỐC",
+    "position": [
+      612,
+      620
+    ],
+    "confidence": 0.8415525406599045,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Isosorbide",
+    "type": "THUỐC",
+    "position": [
+      679,
+      689
+    ],
+    "confidence": 0.9221308112144471,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "6057"
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      698,
+      703
+    ],
+    "confidence": 0.9912380576133728,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "position": [
+      735,
+      747
+    ],
+    "confidence": 0.8654601722955704,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "301542"
+    ]
+  },
+  {
+    "text": "Crestor",
+    "type": "THUỐC",
+    "position": [
+      749,
+      756
+    ],
+    "confidence": 0.780451876776559,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "320864"
+    ]
+  },
+  {
+    "text": "hết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      762,
+      765
+    ],
+    "confidence": 0.8027752637863159,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      766,
+      771
+    ],
+    "confidence": 0.8597807884216309,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "position": [
+      803,
+      813
+    ],
+    "confidence": 0.9515218913555146,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "20352"
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      822,
+      827
+    ],
+    "confidence": 0.986858606338501,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "kali máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      925,
+      933
+    ],
+    "confidence": 0.7316327095031738,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Creatinine",
+    "type": "THUỐC",
+    "position": [
+      937,
+      947
+    ],
+    "confidence": 0.9600015640258789,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2913"
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      990,
+      994
+    ],
+    "confidence": 0.9906925559043884,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1030,
+      1034
+    ],
+    "confidence": 0.9776157736778259,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "position": [
+      1071,
+      1080
+    ],
+    "confidence": 0.9722025659349229,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "38413"
+    ]
+  },
+  {
+    "text": "torsemide",
+    "type": "THUỐC",
+    "position": [
+      1135,
+      1144
+    ],
+    "confidence": 0.9308236638704935,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "38413"
+    ]
+  },
+  {
+    "text": "kiểm tra đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1171,
+      1191
+    ],
+    "confidence": 0.980395526055865,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "que thử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1220,
+      1227
+    ],
+    "confidence": 0.7103343307971954,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "glucose",
+    "type": "THUỐC",
+    "position": [
+      1241,
+      1248
+    ],
+    "confidence": 0.9801672356469291,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "4850"
+    ]
+  },
+  {
+    "text": "CTM",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1374,
+      1377
+    ],
+    "confidence": 0.9693474769592285,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "SHM",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1379,
+      1382
+    ],
+    "confidence": 0.9661593238512675,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp XQ phổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1384,
+      1396
+    ],
+    "confidence": 0.9494342604279519,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1436,
+      1454
+    ],
+    "confidence": 0.9965197117619925,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1482,
+      1492
+    ],
+    "confidence": 0.998354627026452,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

@@ -1,0 +1,746 @@
+[
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      8,
+      16
+    ],
+    "confidence": 0.6000024974346161,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      25,
+      38
+    ],
+    "confidence": 0.47380053003629047,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      53,
+      56
+    ],
+    "confidence": 0.5325309038162231,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phát ban",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      84,
+      92
+    ],
+    "confidence": 0.5541574060916901,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      555,
+      563
+    ],
+    "confidence": 0.45650726556777954,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phình giãn động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      565,
+      590
+    ],
+    "confidence": 0.5886602282524109,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tử",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      596,
+      598
+    ],
+    "confidence": 0.6051102876663208,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      600,
+      615
+    ],
+    "confidence": 0.5695241764187813,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hẹp tắc mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      622,
+      639
+    ],
+    "confidence": 0.5617893822491169,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      644,
+      651
+    ],
+    "confidence": 0.4674146771430969,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      670,
+      678
+    ],
+    "confidence": 0.3940378352999687,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm mạch máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      687,
+      700
+    ],
+    "confidence": 0.614628275235494,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      780,
+      788
+    ],
+    "confidence": 0.49589867889881134,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1341,
+      1349
+    ],
+    "confidence": 0.4717719405889511,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1423,
+      1426
+    ],
+    "confidence": 0.6453424096107483,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1439,
+      1446
+    ],
+    "confidence": 0.6270717978477478,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1458,
+      1461
+    ],
+    "confidence": 0.6143355965614319,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hạ sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1506,
+      1512
+    ],
+    "confidence": 0.46942174434661865,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Mắt đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1534,
+      1540
+    ],
+    "confidence": 0.6941608786582947,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Viêm kết mạc 2 bên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1544,
+      1562
+    ],
+    "confidence": 0.4689865529537201,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đỏ nhưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1564,
+      1572
+    ],
+    "confidence": 0.48564353585243225,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ghèn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1582,
+      1586
+    ],
+    "confidence": 0.46482762694358826,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Môi đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1619,
+      1625
+    ],
+    "confidence": 0.6938905119895935,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nứt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1627,
+      1630
+    ],
+    "confidence": 0.4083978533744812,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "rỉ máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1639,
+      1645
+    ],
+    "confidence": 0.4724982976913452,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Lưỡi đỏ như dâu tây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1650,
+      1669
+    ],
+    "confidence": 0.5866052607695261,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Họng đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1674,
+      1681
+    ],
+    "confidence": 0.7105141580104828,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Sưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1710,
+      1714
+    ],
+    "confidence": 0.6881355941295624,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đỏ mu bàn tay – chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1716,
+      1736
+    ],
+    "confidence": 0.6435895264148712,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đỏ gan bàn tay – chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1741,
+      1762
+    ],
+    "confidence": 0.6840112606684366,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Bong da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1767,
+      1774
+    ],
+    "confidence": 0.6682439843813578,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1779,
+      1783
+    ],
+    "confidence": 0.43741574883461,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Ban đỏ toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1827,
+      1843
+    ],
+    "confidence": 0.634725496172905,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Ban",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1847,
+      1850
+    ],
+    "confidence": 0.5478519201278687,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dát",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1865,
+      1868
+    ],
+    "confidence": 0.4770394563674927,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sẩn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1871,
+      1874
+    ],
+    "confidence": 0.452705517411232,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1882,
+      1884
+    ],
+    "confidence": 0.5672742128372192,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đa xơ cứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1921,
+      1931
+    ],
+    "confidence": 0.6347121000289917,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ảo giác do rượu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1971,
+      1986
+    ],
+    "confidence": 0.6035416662693024,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2042,
+      2055
+    ],
+    "confidence": 0.3626050104697545,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "CRP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2057,
+      2060
+    ],
+    "confidence": 0.3229169026017189,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "máu lắng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2062,
+      2070
+    ],
+    "confidence": 0.31163036823272705,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2074,
+      2081
+    ],
+    "confidence": 0.3423367589712143,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "albumin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2083,
+      2090
+    ],
+    "confidence": 0.31950845569372177,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Xét nghiệm nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2094,
+      2114
+    ],
+    "confidence": 0.37685439735651016,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Cấy máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2118,
+      2125
+    ],
+    "confidence": 0.3057882785797119,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dịch hầu họng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2127,
+      2140
+    ],
+    "confidence": 0.34656233588854474,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2144,
+      2155
+    ],
+    "confidence": 0.37303994099299115,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ECG điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2204,
+      2219
+    ],
+    "confidence": 0.39369320273399355,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2238,
+      2246
+    ],
+    "confidence": 0.461893230676651,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2841,
+      2852
+    ],
+    "confidence": 0.3344776431719462,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2867,
+      2876
+    ],
+    "confidence": 0.2966412305831909,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      3036,
+      3044
+    ],
+    "confidence": 0.6029448509216309,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thương vành mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      3293,
+      3309
+    ],
+    "confidence": 0.5095182756582896,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      3412,
+      3420
+    ],
+    "confidence": 0.5242478847503662,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3550,
+      3557
+    ],
+    "confidence": 0.6115707755088806,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đỏ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3587,
+      3593
+    ],
+    "confidence": 0.6979984939098358,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3595,
+      3601
+    ],
+    "confidence": 0.6873230636119843,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "môi đỏ – nứt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3603,
+      3615
+    ],
+    "confidence": 0.6689057946205139,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "lưỡi đỏ dâu tây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3617,
+      3632
+    ],
+    "confidence": 0.6732928603887558,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sưng hạch cổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3638,
+      3650
+    ],
+    "confidence": 0.6994903683662415,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chứng mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      3724,
+      3739
+    ],
+    "confidence": 0.5816312630971273,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  }
+]

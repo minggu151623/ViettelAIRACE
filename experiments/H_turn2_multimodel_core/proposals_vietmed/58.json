@@ -1,0 +1,708 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      52
+    ],
+    "confidence": 0.9980178718213683,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      54,
+      68
+    ],
+    "confidence": 0.9977831093819588,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      73,
+      83
+    ],
+    "confidence": 0.9989360504680209,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      84,
+      91
+    ],
+    "confidence": 0.7599486311276754,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      114,
+      121
+    ],
+    "confidence": 0.9347693820794424,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thiếu máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      131,
+      140
+    ],
+    "confidence": 0.998359739780426,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      154,
+      163
+    ],
+    "confidence": 0.982801117002964,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Bệnh thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      176,
+      185
+    ],
+    "confidence": 0.9967998266220093,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      196,
+      201
+    ],
+    "confidence": 0.9921976923942566,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đại tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      291,
+      304
+    ],
+    "confidence": 0.9966420162291754,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "XN máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      394,
+      400
+    ],
+    "confidence": 0.5741328954696655,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Glucose",
+    "type": "THUỐC",
+    "position": [
+      411,
+      418
+    ],
+    "confidence": 0.9628505706787109,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "4850"
+    ]
+  },
+  {
+    "text": "Cholesterol",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      440,
+      451
+    ],
+    "confidence": 0.6808847134763544,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "mmol",
+    "type": "THUỐC",
+    "position": [
+      457,
+      461
+    ],
+    "confidence": 0.6470285654067993,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Triglycerid",
+    "type": "THUỐC",
+    "position": [
+      465,
+      476
+    ],
+    "confidence": 0.7603466673330828,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "LDL",
+    "type": "THUỐC",
+    "position": [
+      497,
+      500
+    ],
+    "confidence": 0.883707861105601,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "cholesterol",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      503,
+      514
+    ],
+    "confidence": 0.9414207935333252,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "ol",
+    "type": "THUỐC",
+    "position": [
+      522,
+      524
+    ],
+    "confidence": 0.6231719255447388,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "HDL",
+    "type": "THUỐC",
+    "position": [
+      528,
+      531
+    ],
+    "confidence": 0.8814649979273478,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "cholesterol",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      534,
+      545
+    ],
+    "confidence": 0.9617500305175781,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "HbA1c",
+    "type": "THUỐC",
+    "position": [
+      564,
+      569
+    ],
+    "confidence": 0.7964786291122437,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "HA",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      675,
+      677
+    ],
+    "confidence": 0.9060858488082886,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      705,
+      710
+    ],
+    "confidence": 0.91592937707901,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      739,
+      745
+    ],
+    "confidence": 0.998158860206604,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      814,
+      823
+    ],
+    "confidence": 0.9224515557289124,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      825,
+      839
+    ],
+    "confidence": 0.99822670679826,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "typ II",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      840,
+      846
+    ],
+    "confidence": 0.8961442112922668,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      874,
+      879
+    ],
+    "confidence": 0.995349109172821,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      948,
+      958
+    ],
+    "confidence": 0.9989544351895651,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1007,
+      1012
+    ],
+    "confidence": 0.9945481419563293,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "isosorbide",
+    "type": "THUỐC",
+    "position": [
+      1014,
+      1024
+    ],
+    "confidence": 0.9236150920391083,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "6057"
+    ]
+  },
+  {
+    "text": "crestor",
+    "type": "THUỐC",
+    "position": [
+      1026,
+      1033
+    ],
+    "confidence": 0.9215008871895927,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "320864"
+    ]
+  },
+  {
+    "text": "carvedilol",
+    "type": "THUỐC",
+    "position": [
+      1035,
+      1045
+    ],
+    "confidence": 0.9267367541790008,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "20352"
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1061,
+      1065
+    ],
+    "confidence": 0.9814817905426025,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "isosorbide",
+    "type": "THUỐC",
+    "position": [
+      1076,
+      1086
+    ],
+    "confidence": 0.9417265951633453,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "6057"
+    ]
+  },
+  {
+    "text": "crestor",
+    "type": "THUỐC",
+    "position": [
+      1088,
+      1095
+    ],
+    "confidence": 0.8213286910738263,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "320864"
+    ]
+  },
+  {
+    "text": "carvedilol",
+    "type": "THUỐC",
+    "position": [
+      1097,
+      1107
+    ],
+    "confidence": 0.9075168013572693,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "20352"
+    ]
+  },
+  {
+    "text": "kiểm tra",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1161,
+      1169
+    ],
+    "confidence": 0.9862203342573983,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "kali",
+    "type": "THUỐC",
+    "position": [
+      1179,
+      1183
+    ],
+    "confidence": 0.9910455346107483,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1354,
+      1357
+    ],
+    "confidence": 0.9171724915504456,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "creatinine",
+    "type": "THUỐC",
+    "position": [
+      1388,
+      1398
+    ],
+    "confidence": 0.982612133026123,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2913"
+    ]
+  },
+  {
+    "text": "hemoglobin",
+    "type": "THUỐC",
+    "position": [
+      1405,
+      1415
+    ],
+    "confidence": 0.7796639800071716,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hba1c",
+    "type": "THUỐC",
+    "position": [
+      1422,
+      1427
+    ],
+    "confidence": 0.7438032627105713,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cúm âm tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1486,
+      1497
+    ],
+    "confidence": 0.9433300280570984,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1506,
+      1515
+    ],
+    "confidence": 0.9855689480900764,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1526,
+      1543
+    ],
+    "confidence": 0.9686446867883205,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tuần hoàn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1559,
+      1568
+    ],
+    "confidence": 0.8434673249721527,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tràn dịch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1575,
+      1584
+    ],
+    "confidence": 0.9932804107666016,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1590,
+      1593
+    ],
+    "confidence": 0.7731969952583313,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "insulin",
+    "type": "THUỐC",
+    "position": [
+      1654,
+      1661
+    ],
+    "confidence": 0.993546187877655,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dextrose",
+    "type": "THUỐC",
+    "position": [
+      1665,
+      1673
+    ],
+    "confidence": 0.954188197851181,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng kali máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1678,
+      1691
+    ],
+    "confidence": 0.9089400768280029,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "lasix 40 mg",
+    "type": "THUỐC",
+    "position": [
+      1697,
+      1708
+    ],
+    "confidence": 0.9813727259635925,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "1719291"
+    ]
+  }
+]

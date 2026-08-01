@@ -1,0 +1,494 @@
+[
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      51,
+      67
+    ],
+    "confidence": 0.5616228133440018,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      77
+    ],
+    "confidence": 0.46550053358078003,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      129,
+      150
+    ],
+    "confidence": 0.54519322514534,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      229,
+      235
+    ],
+    "confidence": 0.7205211718877157,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      237,
+      246
+    ],
+    "confidence": 0.7236017286777496,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      248,
+      260
+    ],
+    "confidence": 0.6958530147870382,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      323,
+      344
+    ],
+    "confidence": 0.5419316254556179,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      400,
+      405
+    ],
+    "confidence": 0.5526555180549622,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      465,
+      470
+    ],
+    "confidence": 0.7116802632808685,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Lú lẫn từng đợt gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      477,
+      496
+    ],
+    "confidence": 0.6383490115404129,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cảm giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      507,
+      515
+    ],
+    "confidence": 0.5316704213619232,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      516,
+      525
+    ],
+    "confidence": 0.6422614455223083,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó khăn khi nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      532,
+      553
+    ],
+    "confidence": 0.7358208894729614,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "rối loạn thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      560,
+      577
+    ],
+    "confidence": 0.7219262719154358,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhìn thấy con cái mình ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      579,
+      611
+    ],
+    "confidence": 0.7031769901514053,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      618,
+      634
+    ],
+    "confidence": 0.7190633863210678,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      636,
+      652
+    ],
+    "confidence": 0.6541198641061783,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Ảo thanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      660,
+      668
+    ],
+    "confidence": 0.6531798541545868,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "AH",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      670,
+      672
+    ],
+    "confidence": 0.31170928478240967,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác thính giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      675,
+      693
+    ],
+    "confidence": 0.6460119336843491,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      726,
+      731
+    ],
+    "confidence": 0.6317220330238342,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      817,
+      823
+    ],
+    "confidence": 0.6783735950787863,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      840,
+      849
+    ],
+    "confidence": 0.7288087010383606,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Khó khăn về thị lực gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      856,
+      879
+    ],
+    "confidence": 0.7354112764199575,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "rối loạn thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      886,
+      903
+    ],
+    "confidence": 0.7170572727918625,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhìn thấy con cái ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      905,
+      932
+    ],
+    "confidence": 0.6708735568182809,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      939,
+      955
+    ],
+    "confidence": 0.696854904294014,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Ảo thanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      957,
+      965
+    ],
+    "confidence": 0.5426172514756521,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      984,
+      988
+    ],
+    "confidence": 0.46321719884872437,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      999,
+      1002
+    ],
+    "confidence": 0.541598379611969,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1089,
+      1094
+    ],
+    "confidence": 0.5828533470630646,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct sọ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1278,
+      1288
+    ],
+    "confidence": 0.38384178653359413,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1360,
+      1380
+    ],
+    "confidence": 0.3857270359992981,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1626,
+      1631
+    ],
+    "confidence": 0.6752374470233917,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1754,
+      1774
+    ],
+    "confidence": 0.40218000411987304,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1781,
+      1785
+    ],
+    "confidence": 0.3551928997039795,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct sọ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1818,
+      1828
+    ],
+    "confidence": 0.3805744834244251,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1916,
+      1936
+    ],
+    "confidence": 0.39896156787872317,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đa xơ cứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2190,
+      2200
+    ],
+    "confidence": 0.5971105893452963,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ảo giác do",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2240,
+      2250
+    ],
+    "confidence": 0.6075717210769653,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy nghĩ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2257,
+      2265
+    ],
+    "confidence": 0.4635804444551468,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  }
+]

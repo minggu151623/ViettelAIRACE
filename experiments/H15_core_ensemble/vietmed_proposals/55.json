@@ -1,0 +1,50 @@
+[
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      42,
+      45
+    ],
+    "confidence": 0.9311808496713638,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      47,
+      50
+    ],
+    "confidence": 0.9974365830421448,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      57,
+      60
+    ],
+    "confidence": 0.563912034034729,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      93,
+      96
+    ],
+    "confidence": 0.9980044960975647,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

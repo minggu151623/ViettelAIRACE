@@ -1,0 +1,203 @@
+[
+  {
+    "text": "Bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      30,
+      37
+    ],
+    "confidence": 0.9962604641914368,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      38,
+      46
+    ],
+    "confidence": 0.9685770784105573,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J44.9"
+    ]
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      77,
+      84
+    ],
+    "confidence": 0.9734123945236206,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical",
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chấn thương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      134,
+      145
+    ],
+    "confidence": 0.9978774309158325,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "gãy xương sườn trái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      146,
+      165
+    ],
+    "confidence": 0.9067513819294746,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tai nạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      170,
+      177
+    ],
+    "confidence": 0.9974267482757568,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "trượt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      178,
+      183
+    ],
+    "confidence": 0.5828426480293274,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngã đập ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      254,
+      266
+    ],
+    "confidence": 0.8967418751933358,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chấn thương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      304,
+      315
+    ],
+    "confidence": 0.9986738920211792,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "gãy xương sườn trái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      316,
+      335
+    ],
+    "confidence": 0.821590239351446,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      359,
+      379
+    ],
+    "confidence": 0.7237548438055349,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      408,
+      418
+    ],
+    "confidence": 0.998568058013916,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp cắt lớp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      425,
+      437
+    ],
+    "confidence": 0.587409799749201,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "gãy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      470,
+      473
+    ],
+    "confidence": 0.9879520336786906,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "gãy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      521,
+      524
+    ],
+    "confidence": 0.9871985117594401,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "gã",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      578,
+      580
+    ],
+    "confidence": 0.975579023361206,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

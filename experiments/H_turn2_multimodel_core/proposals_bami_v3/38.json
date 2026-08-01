@@ -1,0 +1,626 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      88
+    ],
+    "confidence": 0.6131293177604675,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "gleevec",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      99,
+      106
+    ],
+    "confidence": 0.49520647525787354,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      113,
+      126
+    ],
+    "confidence": 0.5612081388632456,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      133,
+      163
+    ],
+    "confidence": 0.5011793034417289,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      170,
+      190
+    ],
+    "confidence": 0.6006854375203451,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      197,
+      209
+    ],
+    "confidence": 0.5550409456094106,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      216,
+      224
+    ],
+    "confidence": 0.4345477819442749,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      231,
+      260
+    ],
+    "confidence": 0.4947264918259212,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      279,
+      303
+    ],
+    "confidence": 0.5982969999313354,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      320,
+      323
+    ],
+    "confidence": 0.595816433429718,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      349
+    ],
+    "confidence": 0.741846352815628,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      476,
+      495
+    ],
+    "confidence": 0.6933892220258713,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác dai dẳng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      523,
+      539
+    ],
+    "confidence": 0.6388140171766281,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Lú lẫn ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      546,
+      567
+    ],
+    "confidence": 0.7112369139989217,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      612,
+      615
+    ],
+    "confidence": 0.4373193383216858,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      661,
+      668
+    ],
+    "confidence": 0.7276968359947205,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      693,
+      699
+    ],
+    "confidence": 0.7019464174906412,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      705,
+      714
+    ],
+    "confidence": 0.44580306112766266,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      739,
+      745
+    ],
+    "confidence": 0.7195510268211365,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngã hôm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      754,
+      761
+    ],
+    "confidence": 0.45900072157382965,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "toàn trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      797,
+      816
+    ],
+    "confidence": 0.6950944662094116,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      823,
+      830
+    ],
+    "confidence": 0.7300185561180115,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      837,
+      843
+    ],
+    "confidence": 0.7111895084381104,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      850,
+      861
+    ],
+    "confidence": 0.6515807708104452,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ăn vào",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      863,
+      869
+    ],
+    "confidence": 0.5163683593273163,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      873,
+      876
+    ],
+    "confidence": 0.6113278865814209,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      884,
+      887
+    ],
+    "confidence": 0.70486781001091,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      894,
+      900
+    ],
+    "confidence": 0.5017845630645752,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra dịch mật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      908,
+      919
+    ],
+    "confidence": 0.4966350297133128,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1000,
+      1007
+    ],
+    "confidence": 0.7152820825576782,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1101,
+      1120
+    ],
+    "confidence": 0.6228861957788467,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "trượt ngã xuống sàn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1127,
+      1146
+    ],
+    "confidence": 0.6274448335170746,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1150,
+      1156
+    ],
+    "confidence": 0.5977959632873535,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1163,
+      1174
+    ],
+    "confidence": 0.6491170128186544,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ăn vào",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1176,
+      1182
+    ],
+    "confidence": 0.5148961842060089,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1186,
+      1189
+    ],
+    "confidence": 0.6425437331199646,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nôn không ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1197,
+      1213
+    ],
+    "confidence": 0.6009763836860657,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra dịch mật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1221,
+      1232
+    ],
+    "confidence": 0.6471720735232035,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bạch cầu tăng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1565,
+      1578
+    ],
+    "confidence": 0.3694957196712494,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "39.2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1582,
+      1586
+    ],
+    "confidence": 0.3893001178900401,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "creatinin là 3.0",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1593,
+      1609
+    ],
+    "confidence": 0.37142819662888843,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "troponin là 0.10",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1616,
+      1632
+    ],
+    "confidence": 0.3837305264813559,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "inr là 1.4",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1639,
+      1649
+    ],
+    "confidence": 0.3746243516604106,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tăng men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1656,
+      1668
+    ],
+    "confidence": 0.3647080361843109,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1674,
+      1677
+    ],
+    "confidence": 0.3314552679657936,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "176",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1681,
+      1684
+    ],
+    "confidence": 0.3359687030315399,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ast là 287",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1688,
+      1698
+    ],
+    "confidence": 0.3009515665471554,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1710,
+      1729
+    ],
+    "confidence": 0.35410089045763016,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đái tháo đườngđái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1733,
+      1750
+    ],
+    "confidence": 0.411451314886411,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đườngđái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1742,
+      1750
+    ],
+    "confidence": 0.21475085616111755,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đườngđái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1742,
+      1761
+    ],
+    "confidence": 0.4754147231578827,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1799,
+      1811
+    ],
+    "confidence": 0.42480747898419696,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  }
+]

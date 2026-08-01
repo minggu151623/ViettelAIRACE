@@ -1,0 +1,259 @@
+[
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [32, 46]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [56, 70]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [75, 88]
+  },
+  {
+    "text": "tăng huyết áp vô căn (nguyên phát)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [90, 124]
+  },
+  {
+    "text": "xét nghiệm gắng sức bất thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [177, 207]
+  },
+  {
+    "text": "khó chịu vùng ngực gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [302, 330]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [334, 343]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [347, 354]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [356, 363]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [368, 377]
+  },
+  {
+    "text": "Mức độ nghiêm trọng: Không rõ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [441, 470]
+  },
+  {
+    "text": "Thời gian: Không rõ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [474, 493]
+  },
+  {
+    "text": "Tần suất: Gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [497, 516]
+  },
+  {
+    "text": "Chiếu r xạ: Không rõ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [520, 540]
+  },
+  {
+    "text": "Hoạt động gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [570, 588]
+  },
+  {
+    "text": "Nghỉ ngơi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [617, 626]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [657, 666]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [668, 675]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [677, 686]
+  },
+  {
+    "text": "xét nghiệm gắng sức bất thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [721, 751]
+  },
+  {
+    "text": "đau tại phòng cấp cứu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [821, 842]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [846, 857]
+  },
+  {
+    "text": "điện tâm đồ bình thường tại phòng cấp cứu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [846, 887]
+  },
+  {
+    "text": "đầu tại phòng cấp cứu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [906, 927]
+  },
+  {
+    "text": "Nhiệt độ 36.7°c",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [929, 944]
+  },
+  {
+    "text": "Huyết áp 139/68 mmhg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [946, 966]
+  },
+  {
+    "text": "Mạch 67 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [968, 984]
+  },
+  {
+    "text": "Nhịp thở 16 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [986, 1006]
+  },
+  {
+    "text": "SpO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1008, 1012]
+  },
+  {
+    "text": "SpO2 100% (không thở oxy)",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1008, 1033]
+  },
+  {
+    "text": "nhiệt độ 36.7°c",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1035, 1050]
+  },
+  {
+    "text": "huyết áp 139/68 mmhg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1052, 1072]
+  },
+  {
+    "text": "nhịp tim 67 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1074, 1094]
+  },
+  {
+    "text": "nhịp thở 16 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1096, 1116]
+  },
+  {
+    "text": "độ bão hòa oxy 100% trên khí trời",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1118, 1151]
+  },
+  {
+    "text": "nghiệm pháp gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1200, 1220]
+  },
+  {
+    "text": "Nghiệm pháp gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1270, 1290]
+  },
+  {
+    "text": "thiếu máu cơ tim cục bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1306, 1329]
+  },
+  {
+    "text": "ST chênh xuống ở các chuyển đạo thành dưới và thành bên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1341, 1396]
+  },
+  {
+    "text": "ST chênh xuống kiểu xuống dốc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1405, 1434]
+  },
+  {
+    "text": "giai đoạn hồi phục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1451, 1469]
+  },
+  {
+    "text": "kéo dài đến sau 5 phút hồi phục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1497, 1528]
+  }
+]

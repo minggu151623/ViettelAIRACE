@@ -1,0 +1,18 @@
+{
+  "source": "Organizer round-1 PDF fixture transcribed in tests/official_fixture.py; TTY/name checked on 2026-07-28 through the official RxNav properties endpoint.",
+  "summary": {"SCD": 10, "IN": 1},
+  "candidates": [
+    {"rxcui": "308135", "tty": "SCD", "name": "amlodipine 10 MG Oral Tablet"},
+    {"rxcui": "243670", "tty": "SCD", "name": "aspirin 81 MG Oral Tablet"},
+    {"rxcui": "866436", "tty": "SCD", "name": "24 HR metoprolol succinate 50 MG Extended Release Oral Tablet"},
+    {"rxcui": "392085", "tty": "SCD", "name": "guaifenesin 800 MG Oral Tablet"},
+    {"rxcui": "7597", "tty": "IN", "name": "nystatin"},
+    {"rxcui": "313782", "tty": "SCD", "name": "acetaminophen 325 MG Oral Tablet"},
+    {"rxcui": "904475", "tty": "SCD", "name": "pravastatin sodium 40 MG Oral Tablet"},
+    {"rxcui": "1099279", "tty": "SCD", "name": "docusate sodium 100 MG Oral Tablet"},
+    {"rxcui": "312935", "tty": "SCD", "name": "sennosides, USP 8.6 MG Oral Tablet"},
+    {"rxcui": "197527", "tty": "SCD", "name": "clonazepam 0.5 MG Oral Tablet"},
+    {"rxcui": "197528", "tty": "SCD", "name": "clonazepam 1 MG Oral Tablet"}
+  ],
+  "interpretation": "The sample strongly favors SCD when strength/form is identifiable, but nystatin demonstrates that TTY is not a universal rule. It supports only exact strength-plus-route SCD selection and abstention when no such product exists."
+}

@@ -1,0 +1,40 @@
+session:
+  id: "2026-07-27_002"
+  timestamp: "2026-07-27T23:22+07:00"
+  summary: "Built and validated a position-only CRLF coordinate ablation from V6."
+
+events_logged:
+  - type: experiment
+    id: N05
+    provenance: ai-executed
+    summary: "Projected 2,246 of 2,254 entities from LF to CRLF offsets; semantic fields were unchanged and packaging was deterministic."
+  - type: claim
+    id: C04
+    provenance: ai-suggested
+    summary: "Official example offsets are exactly compatible with inserted CRLF line breaks."
+
+ai_actions:
+  - action: "Added airace/coordinates.py and CLI position-project support."
+    provenance: ai-executed
+    files_changed: ["airace/coordinates.py", "airace/cli.py"]
+  - action: "Added explicit position-mode validation and packaging."
+    provenance: ai-executed
+    files_changed: ["airace/validator.py", "airace/package_output.py"]
+  - action: "Added CRLF reconstruction tests and generated V17."
+    provenance: ai-executed
+    files_changed: ["tests/test_core.py", "output_v17_crlf_positions.zip", "reports/v17_crlf_positions.json"]
+  - action: "Updated research protocol and findings."
+    provenance: ai-executed
+    files_changed: ["experiments/H_crlf_coordinate_reconstruction/protocol.md", "research-log.md", "findings.md", "research-state.yaml"]
+
+claims_touched:
+  - id: C04
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Measure the H7 artifact on the official leaderboard if a submission remains available."
+  - "If H7 is refuted, investigate evaluator matching and source annotation provenance without mixing semantic changes."
+
+ai_suggestions_pending:
+  - "Submit output_v17_crlf_positions.zip as one isolated, high-information black-box test."

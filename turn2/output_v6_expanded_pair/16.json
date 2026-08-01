@@ -1,0 +1,340 @@
+[
+  {
+    "text": "thương nhẹ ở tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      77,
+      95
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      106,
+      116
+    ]
+  },
+  {
+    "text": "tiêm",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isFamily"
+    ],
+    "position": [
+      187,
+      191
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      327,
+      335
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      549,
+      557
+    ]
+  },
+  {
+    "text": "vết cắn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      580,
+      587
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      612,
+      620
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      662,
+      670
+    ]
+  },
+  {
+    "text": "nước bọt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      696,
+      704
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      746,
+      754
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      830,
+      838
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      853,
+      861
+    ]
+  },
+  {
+    "text": "Lyssavirus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      865,
+      875
+    ]
+  },
+  {
+    "text": "hệ thần kinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      981,
+      993
+    ]
+  },
+  {
+    "text": "tủy sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      998,
+      1006
+    ]
+  },
+  {
+    "text": "đại não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1053,
+      1060
+    ]
+  },
+  {
+    "text": "trạng thái điên dại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1070,
+      1089
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1111,
+      1119
+    ]
+  },
+  {
+    "text": "tiêm",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1320,
+      1324
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1344,
+      1352
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1381,
+      1389
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1450,
+      1458
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1484,
+      1492
+    ]
+  },
+  {
+    "text": "nước bọt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      1557,
+      1565
+    ]
+  },
+  {
+    "text": "vết trầy xước",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1627,
+      1640
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1689,
+      1697
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      2009,
+      2017
+    ]
+  },
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "candidates": [
+      "1808"
+    ],
+    "assertions": [],
+    "position": [
+      2178,
+      2195
+    ]
+  },
+  {
+    "text": "vancomycin 1 gram",
+    "type": "THUỐC",
+    "candidates": [
+      "11124"
+    ],
+    "assertions": [],
+    "position": [
+      2211,
+      2228
+    ]
+  },
+  {
+    "text": "levofloxacin 750mg iv",
+    "type": "THUỐC",
+    "candidates": [
+      "330371"
+    ],
+    "assertions": [],
+    "position": [
+      2244,
+      2265
+    ]
+  }
+]

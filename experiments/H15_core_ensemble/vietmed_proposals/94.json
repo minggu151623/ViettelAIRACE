@@ -1,0 +1,310 @@
+[
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      39,
+      47
+    ],
+    "confidence": 0.9986090660095215,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Ung thư vú",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      49,
+      59
+    ],
+    "confidence": 0.9986942697316408,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ER+",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      67,
+      70
+    ],
+    "confidence": 0.9414832790692648,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "HER2",
+    "type": "THUỐC",
+    "position": [
+      71,
+      75
+    ],
+    "confidence": 0.8103354275226593,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      91,
+      96
+    ],
+    "confidence": 0.9862627983093262,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "taxol",
+    "type": "THUỐC",
+    "position": [
+      105,
+      110
+    ],
+    "confidence": 0.9754699349403382,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "fulvestrant",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      114,
+      125
+    ],
+    "confidence": 0.8219616575674578,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      181,
+      189
+    ],
+    "confidence": 0.9952451757022313,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      295,
+      303
+    ],
+    "confidence": 0.9876839433397565,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      318,
+      326
+    ],
+    "confidence": 0.9985401531060536,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      413,
+      421
+    ],
+    "confidence": 0.9921139052936009,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      451,
+      459
+    ],
+    "confidence": 0.9985491558909416,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      461,
+      464
+    ],
+    "confidence": 0.8264861504236857,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      484,
+      489
+    ],
+    "confidence": 0.9736655950546265,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      559,
+      567
+    ],
+    "confidence": 0.8419657008988517,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "không có máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      623,
+      635
+    ],
+    "confidence": 0.6905257454166165,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      637,
+      641
+    ],
+    "confidence": 0.9541940689086914,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      647,
+      655
+    ],
+    "confidence": 0.9632586325917926,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "SPO2",
+    "type": "THUỐC",
+    "position": [
+      720,
+      724
+    ],
+    "confidence": 0.937950924038887,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "compazine",
+    "type": "THUỐC",
+    "position": [
+      764,
+      773
+    ],
+    "confidence": 0.9675740732087029,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "203546"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      796,
+      799
+    ],
+    "confidence": 0.9978944659233093,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "morphineoral",
+    "type": "THUỐC",
+    "position": [
+      812,
+      824
+    ],
+    "confidence": 0.772378625969092,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lorazepam",
+    "type": "THUỐC",
+    "position": [
+      829,
+      838
+    ],
+    "confidence": 0.9065758453475105,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "6470"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      842,
+      845
+    ],
+    "confidence": 0.9977912902832031,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

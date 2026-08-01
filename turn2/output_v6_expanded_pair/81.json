@@ -1,0 +1,94 @@
+[
+  {
+    "text": "hội chứng tăng đông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      140,
+      160
+    ]
+  },
+  {
+    "text": "thrombophilia",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D68"
+    ],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      208,
+      221
+    ]
+  },
+  {
+    "text": "bệnh thrombophilia",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      358,
+      377
+    ]
+  },
+  {
+    "text": "Thrombophilia",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      784,
+      797
+    ]
+  },
+  {
+    "text": "bệnh tăng đông máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      876,
+      894
+    ]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1124,
+      1130
+    ]
+  },
+  {
+    "text": "chảy máu khó cầm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1195,
+      1211
+    ]
+  },
+  {
+    "text": "tắc mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1420,
+      1428
+    ]
+  },
+  {
+    "text": "đặt shunt dẫn lưu tĩnh mạch cửa qua da",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1478,
+      1516
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "records": 100,
+  "completed": 100,
+  "elapsed_seconds": 0.023,
+  "mode": "drug_boundary_only",
+  "source": "output_v6_structural",
+  "output": "output_v13_drug_boundary_only",
+  "stats": {
+    "output_entities": 2254,
+    "trimmed:drug_indication_suffix": 1,
+    "trimmed:drug_action_prefix": 2,
+    "trimmed:drug_glued_history_suffix": 1
+  },
+  "errors": []
+}

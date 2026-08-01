@@ -1,0 +1,566 @@
+[
+  {
+    "text": "NSAID",
+    "type": "THUỐC",
+    "position": [
+      59,
+      64
+    ],
+    "confidence": 0.4003649353981018,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      77,
+      88
+    ],
+    "confidence": 0.3837861120700836,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      106,
+      116
+    ],
+    "confidence": 0.6570523232221603,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "giãn thừng tinh 2.5mm 1 bên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      240,
+      267
+    ],
+    "confidence": 0.6463619271914164,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      341,
+      344
+    ],
+    "confidence": 0.5695350766181946,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nóng phần tinh hoàn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      359,
+      378
+    ],
+    "confidence": 0.5699415504932404,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Giãn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      592,
+      596
+    ],
+    "confidence": 0.6093897223472595,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Giãn thừng tinh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      592,
+      607
+    ],
+    "confidence": 0.6609210769335429,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vô sinh thứ phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      643,
+      659
+    ],
+    "confidence": 0.6510284543037415,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phẫu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      862,
+      866
+    ],
+    "confidence": 0.3117240071296692,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "giãn thừng tinh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      873,
+      888
+    ],
+    "confidence": 0.578976054986318,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      958,
+      984
+    ],
+    "confidence": 0.6992110311985016,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      991,
+      1002
+    ],
+    "confidence": 0.7462736070156097,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1010,
+      1029
+    ],
+    "confidence": 0.6286107823252678,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1036,
+      1043
+    ],
+    "confidence": 0.6897268891334534,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1064,
+      1077
+    ],
+    "confidence": 0.6278506517410278,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1117,
+      1138
+    ],
+    "confidence": 0.6138597369194031,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1140,
+      1148
+    ],
+    "confidence": 0.723884105682373,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1281,
+      1289
+    ],
+    "confidence": 0.7026827534039816,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1291,
+      1302
+    ],
+    "confidence": 0.7249968647956848,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1337,
+      1348
+    ],
+    "confidence": 0.732151448726654,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1351,
+      1370
+    ],
+    "confidence": 0.6562099754810333,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1372,
+      1375
+    ],
+    "confidence": 0.7428830862045288,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1377,
+      1393
+    ],
+    "confidence": 0.6604441404342651,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nội soi thực quản - dạ dày - tá tràng ngoại trú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1446,
+      1493
+    ],
+    "confidence": 0.46360565225283307,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1512,
+      1523
+    ],
+    "confidence": 0.6131213108698527,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "NSAIDs",
+    "type": "THUỐC",
+    "position": [
+      1548,
+      1554
+    ],
+    "confidence": 0.46507635712623596,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      1575,
+      1585
+    ],
+    "confidence": 0.6923322826623917,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1587,
+      1591
+    ],
+    "confidence": 0.35152584314346313,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1592,
+      1613
+    ],
+    "confidence": 0.4534607231616974,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1624,
+      1649
+    ],
+    "confidence": 0.6877849598725637,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Xét",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1651,
+      1654
+    ],
+    "confidence": 0.35679689049720764,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1662,
+      1675
+    ],
+    "confidence": 0.4231857856114705,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "men gan tăng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1685,
+      1697
+    ],
+    "confidence": 0.43163369099299115,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1802,
+      1826
+    ],
+    "confidence": 0.43430101275444033,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng men",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1836,
+      1844
+    ],
+    "confidence": 0.3352893888950348,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1845,
+      1848
+    ],
+    "confidence": 0.28707727789878845,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Nội soi thực quản - dạ dày - tá tràng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1880,
+      1917
+    ],
+    "confidence": 0.4679509520530701,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1919,
+      1930
+    ],
+    "confidence": 0.61038871606191,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1932,
+      1953
+    ],
+    "confidence": 0.4746845901012421,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1956,
+      1981
+    ],
+    "confidence": 0.634805957476298,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2011,
+      2037
+    ],
+    "confidence": 0.45009882961000713,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ERCP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2039,
+      2043
+    ],
+    "confidence": 0.4277050048112869,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ERCP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2062,
+      2066
+    ],
+    "confidence": 0.38712790608406067,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ERCP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2062,
+      2066
+    ],
+    "confidence": 0.2762256860733032,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp cộng hưởng từ mật tụy tụi mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2134,
+      2168
+    ],
+    "confidence": 0.4717915616929531,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sỏi ống dẫn mật chung đoạn cuối",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2193,
+      2224
+    ],
+    "confidence": 0.6729418975966317,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  }
+]

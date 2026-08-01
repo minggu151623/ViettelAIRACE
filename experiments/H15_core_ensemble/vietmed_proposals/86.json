@@ -1,0 +1,200 @@
+[
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      16,
+      32
+    ],
+    "confidence": 0.9521875401337941,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      53
+    ],
+    "confidence": 0.9390112806699777,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh lý thần",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      55,
+      67
+    ],
+    "confidence": 0.8834721518285348,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      160,
+      167
+    ],
+    "confidence": 0.998322457075119,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      199,
+      206
+    ],
+    "confidence": 0.9984413981437683,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      226,
+      230
+    ],
+    "confidence": 0.9800693988800049,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      248,
+      255
+    ],
+    "confidence": 0.9980651438236237,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      258,
+      265
+    ],
+    "confidence": 0.9959311683972677,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Đau hai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      341,
+      348
+    ],
+    "confidence": 0.9579589565594991,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      361,
+      368
+    ],
+    "confidence": 0.9713693658510844,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      413,
+      422
+    ],
+    "confidence": 0.9810355231165886,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dị tật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      485,
+      491
+    ],
+    "confidence": 0.9323559045791626,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "rối loạn chức năng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      589,
+      607
+    ],
+    "confidence": 0.9972560113551568,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh ba thân",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      650,
+      662
+    ],
+    "confidence": 0.8127095609000236,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      797,
+      802
+    ],
+    "confidence": 0.9743295311927795,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "DES",
+    "type": "THUỐC",
+    "position": [
+      804,
+      807
+    ],
+    "confidence": 0.8979582190513611,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

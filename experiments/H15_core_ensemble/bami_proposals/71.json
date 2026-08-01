@@ -1,0 +1,446 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      52
+    ],
+    "confidence": 0.7245942751566569,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      55,
+      69
+    ],
+    "confidence": 0.7207501729329427,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      72,
+      92
+    ],
+    "confidence": 0.741158644358317,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch sau CABG",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      95,
+      137
+    ],
+    "confidence": 0.7441226045290629,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy tim, không đặc hiệu hệ số tống máu 50 inch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      140,
+      186
+    ],
+    "confidence": 0.6406676173210144,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tăng huyết áp phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      189,
+      207
+    ],
+    "confidence": 0.7297414243221283,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "CABG",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      240,
+      244
+    ],
+    "confidence": 0.32137954235076904,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "position": [
+      272,
+      277
+    ],
+    "confidence": 0.6557304163773855,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      349
+    ],
+    "confidence": 0.74725741147995,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      352,
+      359
+    ],
+    "confidence": 0.7626053094863892,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      369,
+      372
+    ],
+    "confidence": 0.5192222595214844,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho khan ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      379,
+      389
+    ],
+    "confidence": 0.7041729887326559,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sưng phù hai mắt cá chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      392,
+      416
+    ],
+    "confidence": 0.7410356998443604,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      419,
+      426
+    ],
+    "confidence": 0.758972555398941,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      437,
+      440
+    ],
+    "confidence": 0.7294548153877258,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ED",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      479,
+      481
+    ],
+    "confidence": 0.32727450132369995,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Suy tim sung huyết cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      485,
+      507
+    ],
+    "confidence": 0.7351212620735168,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "position": [
+      544,
+      549
+    ],
+    "confidence": 0.6466548840204874,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      592,
+      599
+    ],
+    "confidence": 0.7158974409103394,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      603,
+      610
+    ],
+    "confidence": 0.7445619404315948,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      630,
+      632
+    ],
+    "confidence": 0.7664724588394165,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khan ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      633,
+      640
+    ],
+    "confidence": 0.477282851934433,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sưng phù hai mắt cá chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      643,
+      667
+    ],
+    "confidence": 0.724779466787974,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thông tim trái và phải",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      724,
+      746
+    ],
+    "confidence": 0.3514627516269684,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thông tim trái",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      749,
+      763
+    ],
+    "confidence": 0.3888810674349467,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thông tim phải",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      766,
+      780
+    ],
+    "confidence": 0.3656958043575287,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "graft SVG bị tắc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      812,
+      828
+    ],
+    "confidence": 0.7238545616467794,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "graft lima ổn định",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      831,
+      849
+    ],
+    "confidence": 0.7248819470405579,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh động mạch vành phải nặng hơn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      852,
+      885
+    ],
+    "confidence": 0.6638614790780204,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "60",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      890,
+      892
+    ],
+    "confidence": 0.31490781903266907,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "RPL",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      893,
+      896
+    ],
+    "confidence": 0.24977870285511017,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "40",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      900,
+      902
+    ],
+    "confidence": 0.3233542740345001,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mid RCA",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      903,
+      910
+    ],
+    "confidence": 0.2575642541050911,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Động mạch vành trái bình thường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      913,
+      944
+    ],
+    "confidence": 0.6493708292643229,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "áp lực nạp tăng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      947,
+      962
+    ],
+    "confidence": 0.3330254703760147,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "áp lực tâm thu phổi ở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      965,
+      986
+    ],
+    "confidence": 0.37996090948581696,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "áp lực tĩnh mạch bít",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      989,
+      1009
+    ],
+    "confidence": 0.3879680871963501,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  }
+]

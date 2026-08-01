@@ -1,0 +1,157 @@
+[
+  {
+    "text": "rụng tóc từng mảng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L63"
+    ],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      35,
+      53
+    ]
+  },
+  {
+    "text": "rụng tóc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      252,
+      260
+    ]
+  },
+  {
+    "text": "rụng tóc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      404,
+      412
+    ]
+  },
+  {
+    "text": "rụng tóc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      713,
+      721
+    ]
+  },
+  {
+    "text": "rụng tóc toàn bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L63.0"
+    ],
+    "assertions": [],
+    "position": [
+      713,
+      729
+    ]
+  },
+  {
+    "text": "rụng tóc toàn thể",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L63.1"
+    ],
+    "assertions": [],
+    "position": [
+      735,
+      752
+    ]
+  },
+  {
+    "text": "Nghiệm pháp gắng sức dương tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      962,
+      993
+    ]
+  },
+  {
+    "text": "thiếu máu cơ tim cục bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25"
+    ],
+    "assertions": [],
+    "position": [
+      998,
+      1021
+    ]
+  },
+  {
+    "text": "biểu hiện ST chênh xuống",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1023,
+      1047
+    ]
+  },
+  {
+    "text": "diphenylcyclopropenone",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1116,
+      1138
+    ]
+  },
+  {
+    "text": "diphencyprone",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1140,
+      1153
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L23"
+    ],
+    "assertions": [],
+    "position": [
+      1221,
+      1237
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1367,
+      1374
+    ]
+  },
+  {
+    "text": "bất thường sắc tố",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1376,
+      1393
+    ]
+  },
+  {
+    "text": "bạch biến",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1402,
+      1411
+    ]
+  }
+]

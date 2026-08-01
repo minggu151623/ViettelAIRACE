@@ -1,0 +1,39 @@
+{
+  "records": 100,
+  "completed": 100,
+  "elapsed_seconds": 15.514,
+  "device": "mps",
+  "teacher_checkpoint": "/Users/mac/.cache/huggingface/hub/models--cbc-528a--BamiBERT-ViMedNER/snapshots/e508eedd34d124e05cf139cc565806c6d4fc5aad",
+  "student": "output_v15_weighted_bami",
+  "baseline": "output_v6_structural_btc",
+  "thresholds": {
+    "CHẨN_ĐOÁN": 0.97,
+    "TRIỆU_CHỨNG": 0.98,
+    "TÊN_XÉT_NGHIỆM": 0.98
+  },
+  "stats": {
+    "below_threshold:CHẨN_ĐOÁN": 175,
+    "baseline_overlap:TRIỆU_CHỨNG": 654,
+    "accepted:TRIỆU_CHỨNG": 99,
+    "below_threshold:TRIỆU_CHỨNG": 513,
+    "baseline_overlap:TÊN_XÉT_NGHIỆM": 162,
+    "below_threshold:TÊN_XÉT_NGHIỆM": 260,
+    "no_student_agreement:TRIỆU_CHỨNG": 51,
+    "accepted:TÊN_XÉT_NGHIỆM": 45,
+    "output:THUỐC": 165,
+    "output:CHẨN_ĐOÁN": 425,
+    "output:TRIỆU_CHỨNG": 1221,
+    "output:TÊN_XÉT_NGHIỆM": 373,
+    "output:KẾT_QUẢ_XÉT_NGHIỆM": 235,
+    "baseline_overlap:CHẨN_ĐOÁN": 214,
+    "accepted:CHẨN_ĐOÁN": 25,
+    "semantic_filter:TÊN_XÉT_NGHIỆM": 24,
+    "fragment:CHẨN_ĐOÁN": 17,
+    "no_student_agreement:CHẨN_ĐOÁN": 1,
+    "no_student_agreement:TÊN_XÉT_NGHIỆM": 17,
+    "output:THÔNG_TIN_BỆNH_NHÂN": 2,
+    "deduplicated:TÊN_XÉT_NGHIỆM": 1,
+    "deduplicated:TRIỆU_CHỨNG": 1
+  },
+  "errors": []
+}

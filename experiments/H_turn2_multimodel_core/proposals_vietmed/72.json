@@ -1,0 +1,294 @@
+[
+  {
+    "text": "bệnh ly",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      47,
+      55
+    ],
+    "confidence": 0.9724551268986293,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "position": [
+      332,
+      341
+    ],
+    "confidence": 0.9697027338875664,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      566,
+      574
+    ],
+    "confidence": 0.9982186555862427,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      581,
+      597
+    ],
+    "confidence": 0.9970929590138522,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F39"
+    ]
+  },
+  {
+    "text": "Rối loạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      605,
+      613
+    ],
+    "confidence": 0.5754795329911369,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F39"
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      630,
+      644
+    ],
+    "confidence": 0.9967847713402339,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      649,
+      654
+    ],
+    "confidence": 0.9917659163475037,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thuốc kê đơn",
+    "type": "THUỐC",
+    "position": [
+      701,
+      713
+    ],
+    "confidence": 0.9886622560488714,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "position": [
+      746,
+      763
+    ],
+    "confidence": 0.8333759342922884,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "position": [
+      784,
+      793
+    ],
+    "confidence": 0.8988288707203336,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2599"
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "position": [
+      821,
+      829
+    ],
+    "confidence": 0.8857824802398682,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "352990"
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      884,
+      889
+    ],
+    "confidence": 0.9824765920639038,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chất kích thích",
+    "type": "THUỐC",
+    "position": [
+      962,
+      977
+    ],
+    "confidence": 0.9785507363932473,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chất gây nghiện",
+    "type": "THUỐC",
+    "position": [
+      979,
+      994
+    ],
+    "confidence": 0.7931090921771771,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "opioid",
+    "type": "THUỐC",
+    "position": [
+      995,
+      1001
+    ],
+    "confidence": 0.9637535611788431,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1048,
+      1058
+    ],
+    "confidence": 0.7706762419806586,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1112,
+      1120
+    ],
+    "confidence": 0.9979790874889919,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "hưng cảm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1177,
+      1185
+    ],
+    "confidence": 0.8834625993456159,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "có ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1269,
+      1284
+    ],
+    "confidence": 0.9831561941605109,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      1287,
+      1292
+    ],
+    "confidence": 0.9826299548149109,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "position": [
+      1343,
+      1351
+    ],
+    "confidence": 0.8366218507289886,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "352990"
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "position": [
+      1386,
+      1394
+    ],
+    "confidence": 0.8839486986398697,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "352990"
+    ]
+  }
+]

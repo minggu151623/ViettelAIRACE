@@ -1,0 +1,22 @@
+id: "2026-07-28_010"
+date: "2026-07-28"
+title: "Outer-loop assertion audit"
+provenance: ai-executed
+events:
+  - type: experiment
+    description: >
+      Counted every V6 assertion by type and manually reviewed all 19 isFamily
+      contexts.
+    evidence:
+      - "experiments/H_assertion_policy_audit/analysis.md"
+  - type: observation
+    description: >
+      Eighteen family labels describe the patient, usually with a relative only
+      acting as reporter; one maternal-death context is plausibly family-owned.
+  - type: decision
+    description: >
+      Keep H7 as the next isolated measurement, then consider the existing
+      assertion-only artifact for H13 rather than generating another variant.
+outcome: >
+  H13 was added and research-state direction was updated. No artifact or
+  submission was produced.

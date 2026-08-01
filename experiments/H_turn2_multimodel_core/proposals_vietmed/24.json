@@ -1,0 +1,676 @@
+[
+  {
+    "text": "40 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "position": [
+      14,
+      21
+    ],
+    "confidence": 0.7619864046573639,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      49,
+      56
+    ],
+    "confidence": 0.998803049325943,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      58,
+      65
+    ],
+    "confidence": 0.9931483268737793,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      67,
+      75
+    ],
+    "confidence": 0.9943546227046421,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      143,
+      152
+    ],
+    "confidence": 0.9987334683537483,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F10.20"
+    ]
+  },
+  {
+    "text": "Hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      181,
+      190
+    ],
+    "confidence": 0.9983181729912758,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F10.20"
+    ]
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      191,
+      202
+    ],
+    "confidence": 0.7910515666007996,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm độc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      203,
+      212
+    ],
+    "confidence": 0.9981440603733063,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "số",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      238,
+      240
+    ],
+    "confidence": 0.5541236400604248,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      256,
+      259
+    ],
+    "confidence": 0.7382030884424845,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "rét",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      299,
+      302
+    ],
+    "confidence": 0.5511363744735718,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "paracetamol",
+    "type": "THUỐC",
+    "position": [
+      320,
+      331
+    ],
+    "confidence": 0.9070298888466575,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hết sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      378,
+      385
+    ],
+    "confidence": 0.6864578315189905,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vàng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      400,
+      404
+    ],
+    "confidence": 0.9835523962974548,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vàng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      409,
+      413
+    ],
+    "confidence": 0.9119086265563965,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt bn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      441,
+      447
+    ],
+    "confidence": 0.996658613284429,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      448,
+      455
+    ],
+    "confidence": 0.9980256855487823,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      506,
+      509
+    ],
+    "confidence": 0.9211693406105042,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      515,
+      522
+    ],
+    "confidence": 0.9973233044147491,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "HBsAg",
+    "type": "THUỐC",
+    "position": [
+      573,
+      578
+    ],
+    "confidence": 0.9714155554771423,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "HBc",
+    "type": "THUỐC",
+    "position": [
+      610,
+      613
+    ],
+    "confidence": 0.9264078934987386,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "HBc IgM",
+    "type": "THUỐC",
+    "position": [
+      628,
+      635
+    ],
+    "confidence": 0.7000536186354501,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Hội chứng viêm gan vàng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      648,
+      671
+    ],
+    "confidence": 0.9796685032004047,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ứ mật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      675,
+      680
+    ],
+    "confidence": 0.8758168518543243,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hết sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      737,
+      744
+    ],
+    "confidence": 0.7398985028266907,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Bilirubin",
+    "type": "THUỐC",
+    "position": [
+      1053,
+      1062
+    ],
+    "confidence": 0.9701490269766914,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Creatinin",
+    "type": "THUỐC",
+    "position": [
+      1132,
+      1141
+    ],
+    "confidence": 0.9017146627108256,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Hội chứng hủy hoại",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1165,
+      1183
+    ],
+    "confidence": 0.9801343080070283,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Deritis",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1280,
+      1287
+    ],
+    "confidence": 0.9923233645302909,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "prothrombin",
+    "type": "THUỐC",
+    "position": [
+      1334,
+      1345
+    ],
+    "confidence": 0.7397436174479398,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "1441688"
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1410,
+      1417
+    ],
+    "confidence": 0.9903639356295267,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1419,
+      1427
+    ],
+    "confidence": 0.9905116558074951,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "nhiễm virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1566,
+      1577
+    ],
+    "confidence": 0.6970528066158295,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "viêm gan B, C",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1578,
+      1591
+    ],
+    "confidence": 0.9816752893741801,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical",
+      "isFamily"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "dịch tễ",
+    "type": "THUỐC",
+    "position": [
+      1609,
+      1616
+    ],
+    "confidence": 0.9773555363927569,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1647,
+      1652
+    ],
+    "confidence": 0.9923032522201538,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "viêm gan B",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1653,
+      1663
+    ],
+    "confidence": 0.9981936083899604,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1712,
+      1719
+    ],
+    "confidence": 0.9982315003871918,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1725,
+      1732
+    ],
+    "confidence": 0.9635335008303324,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1772,
+      1780
+    ],
+    "confidence": 0.9977748223713466,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1782,
+      1791
+    ],
+    "confidence": 0.7304509878158569,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nước tiểu vàng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1804,
+      1818
+    ],
+    "confidence": 0.6311394686882312,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1824,
+      1832
+    ],
+    "confidence": 0.6582840936524528,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1890,
+      1899
+    ],
+    "confidence": 0.9469345137476921,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Glucose 5%",
+    "type": "THUỐC",
+    "position": [
+      1997,
+      2007
+    ],
+    "confidence": 0.8776918782128228,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "4850"
+    ]
+  },
+  {
+    "text": "5g",
+    "type": "THUỐC",
+    "position": [
+      2118,
+      2120
+    ],
+    "confidence": 0.8570415377616882,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ALT",
+    "type": "THUỐC",
+    "position": [
+      2193,
+      2196
+    ],
+    "confidence": 0.9746344089508057,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "AST",
+    "type": "THUỐC",
+    "position": [
+      2198,
+      2201
+    ],
+    "confidence": 0.7518444210290909,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Fortex 25mg",
+    "type": "THUỐC",
+    "position": [
+      2230,
+      2241
+    ],
+    "confidence": 0.9647126793861389,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ALT",
+    "type": "THUỐC",
+    "position": [
+      2295,
+      2298
+    ],
+    "confidence": 0.9770874977111816,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "AST",
+    "type": "THUỐC",
+    "position": [
+      2300,
+      2303
+    ],
+    "confidence": 0.7037187814712524,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Vitamin",
+    "type": "THUỐC",
+    "position": [
+      2332,
+      2339
+    ],
+    "confidence": 0.9961428046226501,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "3B",
+    "type": "THUỐC",
+    "position": [
+      2340,
+      2342
+    ],
+    "confidence": 0.9653012156486511,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "virus",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2398,
+      2403
+    ],
+    "confidence": 0.914147138595581,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

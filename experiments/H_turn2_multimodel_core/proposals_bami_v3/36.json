@@ -1,0 +1,650 @@
+[
+  {
+    "text": "nặng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      42,
+      50
+    ],
+    "confidence": 0.6905505359172821,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tức nặng 2 chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      52,
+      71
+    ],
+    "confidence": 0.6947520256042481,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiểu ít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      73,
+      80
+    ],
+    "confidence": 0.7116179168224335,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      187,
+      204
+    ],
+    "confidence": 0.5612033531069756,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      212,
+      215
+    ],
+    "confidence": 0.6701165437698364,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù 2 chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      308,
+      322
+    ],
+    "confidence": 0.6277903020381927,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      324,
+      327
+    ],
+    "confidence": 0.6264437437057495,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      381,
+      384
+    ],
+    "confidence": 0.45364636182785034,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      408,
+      415
+    ],
+    "confidence": 0.7023590803146362,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù nhẹ 2 chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      421,
+      439
+    ],
+    "confidence": 0.6925785422325135,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Protein niệu 24h",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      448,
+      464
+    ],
+    "confidence": 0.32536902527014416,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Protein máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      473,
+      484
+    ],
+    "confidence": 0.2962329015135765,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Protein: 52 g/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      488,
+      503
+    ],
+    "confidence": 0.2943892776966095,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Albumin: 20 g/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      505,
+      520
+    ],
+    "confidence": 0.34096697717905045,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Triglycerid:6,7 mmol/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      529,
+      551
+    ],
+    "confidence": 0.3678088575601578,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tổn thương cầu thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      557,
+      585
+    ],
+    "confidence": 0.5812805990378062,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Xét nghiệm nước tiểu protein",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      630,
+      658
+    ],
+    "confidence": 0.301708847284317,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đài bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      744,
+      755
+    ],
+    "confidence": 0.453805814186732,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cầu thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      782,
+      790
+    ],
+    "confidence": 0.6038347482681274,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      812,
+      816
+    ],
+    "confidence": 0.3697170913219452,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      818,
+      821
+    ],
+    "confidence": 0.2895961403846741,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      831,
+      833
+    ],
+    "confidence": 0.2936815619468689,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      835,
+      844
+    ],
+    "confidence": 0.34652410944302875,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "micromol/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      849,
+      859
+    ],
+    "confidence": 0.3677849620580673,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "HC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      885,
+      887
+    ],
+    "confidence": 0.20331092178821564,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "T/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      894,
+      897
+    ],
+    "confidence": 0.3090333491563797,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "HST",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      899,
+      902
+    ],
+    "confidence": 0.30693893879652023,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "103 g/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      904,
+      911
+    ],
+    "confidence": 0.3078119357426961,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Điện giải",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      919,
+      928
+    ],
+    "confidence": 0.3100643903017044,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Na+",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      930,
+      933
+    ],
+    "confidence": 0.30437081307172775,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mmol/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      939,
+      945
+    ],
+    "confidence": 0.3193911910057068,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "K+",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      947,
+      949
+    ],
+    "confidence": 0.30998116731643677,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "5 mmol/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      951,
+      959
+    ],
+    "confidence": 0.3123553196589152,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Cl-: 106 mmol/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      961,
+      976
+    ],
+    "confidence": 0.3159978042046229,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Ca++: 2 mmol/l",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      978,
+      992
+    ],
+    "confidence": 0.3155408451954524,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1020,
+      1024
+    ],
+    "confidence": 0.25622373819351196,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "họng cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1025,
+      1033
+    ],
+    "confidence": 0.458330973982811,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm cầu thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1102,
+      1119
+    ],
+    "confidence": 0.5617523714900017,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1122,
+      1139
+    ],
+    "confidence": 0.5644299052655697,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "protein niệu 24h",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1281,
+      1297
+    ],
+    "confidence": 0.33133988579114276,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "protein máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1299,
+      1310
+    ],
+    "confidence": 0.3169209510087967,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "albumin máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1312,
+      1323
+    ],
+    "confidence": 0.3531438608964284,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "điện giải đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1325,
+      1337
+    ],
+    "confidence": 0.3524697621663411,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "VCTM",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1504,
+      1508
+    ],
+    "confidence": 0.39223362505435944,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1561,
+      1564
+    ],
+    "confidence": 0.5305770039558411,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1566,
+      1580
+    ],
+    "confidence": 0.4509516855080922,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "giảm thải protein",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1582,
+      1599
+    ],
+    "confidence": 0.49751222133636475,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Medrol",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1642,
+      1648
+    ],
+    "confidence": 0.2155238687992096,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Furosemid 40",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1741,
+      1753
+    ],
+    "confidence": 0.28384233713150026,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "FNA",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1826,
+      1829
+    ],
+    "confidence": 0.39916057139635086,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "một nốt sần tuyến giáp phải có cấu trúc vi nang",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1834,
+      1881
+    ],
+    "confidence": 0.5963191335851495,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1908,
+      1929
+    ],
+    "confidence": 0.7053876757621765,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1972,
+      1979
+    ],
+    "confidence": 0.2982275262475014,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sỏi mật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1989,
+      1996
+    ],
+    "confidence": 0.35556526482105255,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  }
+]

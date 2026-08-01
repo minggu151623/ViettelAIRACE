@@ -1,0 +1,19 @@
+{
+  "records": 6,
+  "completed": 6,
+  "elapsed_seconds": 198.128,
+  "entity_counts": {
+    "CHẨN_ĐOÁN": 11,
+    "TRIỆU_CHỨNG": 19,
+    "TÊN_XÉT_NGHIỆM": 15
+  },
+  "rejected": {
+    "duplicate_concept": 26,
+    "ungrounded": 1
+  },
+  "errors": [],
+  "offline": true,
+  "model": "qwen3:8b",
+  "merge_rules": true,
+  "prompt_profile": "structured"
+}

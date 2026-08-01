@@ -1,0 +1,345 @@
+[
+  {
+    "text": "khối u trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      25,
+      42
+    ]
+  },
+  {
+    "text": "u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      64,
+      79
+    ]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      90,
+      100
+    ]
+  },
+  {
+    "text": "u tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      118,
+      125
+    ]
+  },
+  {
+    "text": "Nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      220,
+      227
+    ]
+  },
+  {
+    "text": "Trichophyton rubrum",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      264,
+      283
+    ]
+  },
+  {
+    "text": "T. mentagrophytes",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      292,
+      309
+    ]
+  },
+  {
+    "text": "môi trường ẩm ướt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      350,
+      367
+    ]
+  },
+  {
+    "text": "thời tiết nóng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      369,
+      383
+    ]
+  },
+  {
+    "text": "quần áo ướt và chật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      385,
+      404
+    ]
+  },
+  {
+    "text": "chứng béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      406,
+      419
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      491,
+      498
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      691,
+      698
+    ]
+  },
+  {
+    "text": "Giữ vùng bẹn khô thoáng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      717,
+      740
+    ]
+  },
+  {
+    "text": "lau khô vùng bẹn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      746,
+      762
+    ]
+  },
+  {
+    "text": "tập thể dục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      780,
+      791
+    ]
+  },
+  {
+    "text": "mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      855,
+      861
+    ]
+  },
+  {
+    "text": "bột",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      878,
+      881
+    ]
+  },
+  {
+    "text": "Mặc đồ sạch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      915,
+      926
+    ]
+  },
+  {
+    "text": "thay quần lót",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      936,
+      949
+    ]
+  },
+  {
+    "text": "mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1026,
+      1032
+    ]
+  },
+  {
+    "text": "giặt đồ thể thao",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1038,
+      1054
+    ]
+  },
+  {
+    "text": "đồ lót vừa mặc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1093,
+      1107
+    ]
+  },
+  {
+    "text": "đồ lót quá chật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1124,
+      1139
+    ]
+  },
+  {
+    "text": "ma sát",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1144,
+      1150
+    ]
+  },
+  {
+    "text": "da vùng bẹn tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1158,
+      1180
+    ]
+  },
+  {
+    "text": "vi nấm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1234,
+      1240
+    ]
+  },
+  {
+    "text": "dùng chung đồ dùng cá nhân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1257,
+      1283
+    ]
+  },
+  {
+    "text": "áo quần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1315,
+      1322
+    ]
+  },
+  {
+    "text": "khăn tắm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1324,
+      1332
+    ]
+  },
+  {
+    "text": "đồ dùng cá nhân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1340,
+      1355
+    ]
+  },
+  {
+    "text": "đi mượn đồ dùng cá nhân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1386,
+      1409
+    ]
+  },
+  {
+    "text": "trực tiếp đến khám",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1446,
+      1464
+    ]
+  },
+  {
+    "text": "gặp bác sĩ da liễu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1468,
+      1486
+    ]
+  },
+  {
+    "text": "vấn đề về da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1498,
+      1510
+    ]
+  },
+  {
+    "text": "điều trị triệt để",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1529,
+      1546
+    ]
+  },
+  {
+    "text": "tiền mất tật mang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1563,
+      1580
+    ]
+  }
+]

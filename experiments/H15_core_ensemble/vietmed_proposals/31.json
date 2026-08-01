@@ -1,0 +1,56 @@
+[
+  {
+    "text": "chuyển dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      27,
+      36
+    ],
+    "confidence": 0.8665903061628342,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "Z34.9"
+    ]
+  },
+  {
+    "text": "chuyển dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      82,
+      91
+    ],
+    "confidence": 0.9522152245044708,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "Z34.9"
+    ]
+  },
+  {
+    "text": "co",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      105,
+      107
+    ],
+    "confidence": 0.9813656806945801,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vỡ ố",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      175,
+      179
+    ],
+    "confidence": 0.8806763291358948,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  }
+]

@@ -1,0 +1,689 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      25,
+      32
+    ]
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      33,
+      41
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      48,
+      61
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      68,
+      81
+    ]
+  },
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      104,
+      117
+    ]
+  },
+  {
+    "text": "xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I70.90"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      121,
+      137
+    ]
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      142,
+      157
+    ]
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I48.91"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      172,
+      180
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      322,
+      327
+    ]
+  },
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "candidates": [
+      "6918"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      354,
+      364
+    ]
+  },
+  {
+    "text": "desmopressin",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      405,
+      417
+    ]
+  },
+  {
+    "text": "Rối loạn dáng đi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      491,
+      507
+    ]
+  },
+  {
+    "text": "gãy cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      651,
+      657
+    ]
+  },
+  {
+    "text": "di lệch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      668,
+      675
+    ]
+  },
+  {
+    "text": "gãy cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      898,
+      904
+    ]
+  },
+  {
+    "text": "di lệch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      915,
+      922
+    ]
+  },
+  {
+    "text": "Đau ở hông",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      954,
+      964
+    ]
+  },
+  {
+    "text": "cử động",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      974,
+      981
+    ]
+  },
+  {
+    "text": "thay đổi tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      985,
+      1000
+    ]
+  },
+  {
+    "text": "thay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1087,
+      1091
+    ]
+  },
+  {
+    "text": "Chấn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1173,
+      1184
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1216,
+      1226
+    ]
+  },
+  {
+    "text": "chấn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1276,
+      1287
+    ]
+  },
+  {
+    "text": "mất ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1297,
+      1307
+    ]
+  },
+  {
+    "text": "mất ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1309,
+      1319
+    ]
+  },
+  {
+    "text": "gãy cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1412,
+      1418
+    ]
+  },
+  {
+    "text": "di lệch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1429,
+      1436
+    ]
+  },
+  {
+    "text": "mất vận động vùng đỉnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1438,
+      1460
+    ]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1467,
+      1484
+    ]
+  },
+  {
+    "text": "chụp ct ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1526,
+      1538
+    ]
+  },
+  {
+    "text": "thuốc cản quang",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1545,
+      1560
+    ]
+  },
+  {
+    "text": "tràn dịch màng tim",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1578,
+      1596
+    ]
+  },
+  {
+    "text": "tràn dịch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1598,
+      1607
+    ]
+  },
+  {
+    "text": "phổi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1613,
+      1617
+    ]
+  },
+  {
+    "text": "thoát vị",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1627,
+      1635
+    ]
+  },
+  {
+    "text": "thay đổi khí p",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1647,
+      1661
+    ]
+  },
+  {
+    "text": "giường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1757,
+      1763
+    ]
+  },
+  {
+    "text": "Kết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1853,
+      1856
+    ]
+  },
+  {
+    "text": "khám lâm sàng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1861,
+      1874
+    ]
+  },
+  {
+    "text": "đau ở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1921,
+      1926
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1998,
+      2007
+    ]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2023,
+      2040
+    ]
+  },
+  {
+    "text": "chụp ct ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2061,
+      2073
+    ]
+  },
+  {
+    "text": "thuốc cản quang",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      2080,
+      2095
+    ]
+  },
+  {
+    "text": "tràn dịch màng tim",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2105,
+      2123
+    ]
+  },
+  {
+    "text": "tràn dịch màng phổi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2125,
+      2144
+    ]
+  },
+  {
+    "text": "thoát",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2154,
+      2159
+    ]
+  },
+  {
+    "text": "thay đổi khí p",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2174,
+      2188
+    ]
+  },
+  {
+    "text": "khuyết tật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2252,
+      2262
+    ]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2335,
+      2346
+    ]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2363,
+      2374
+    ]
+  },
+  {
+    "text": "EF30",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2392,
+      2396
+    ]
+  },
+  {
+    "text": "mất vận động vùng đỉnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2398,
+      2420
+    ]
+  },
+  {
+    "text": "mild",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2500,
+      2504
+    ]
+  },
+  {
+    "text": "ARMR",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2505,
+      2509
+    ]
+  },
+  {
+    "text": "Gãy xương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2517,
+      2526
+    ]
+  },
+  {
+    "text": "gãy cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2538,
+      2544
+    ]
+  },
+  {
+    "text": "chụp ct ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2611,
+      2623
+    ]
+  },
+  {
+    "text": "thuốc cản quang",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      2630,
+      2645
+    ]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2652,
+      2663
+    ]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2680,
+      2691
+    ]
+  },
+  {
+    "text": "chụp xạ hình tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2714,
+      2730
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2826,
+      2835
+    ]
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21.9"
+    ],
+    "assertions": [],
+    "position": [
+      2847,
+      2862
+    ]
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I48.91"
+    ],
+    "assertions": [],
+    "position": [
+      2907,
+      2915
+    ]
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21.9"
+    ],
+    "assertions": [],
+    "position": [
+      2941,
+      2956
+    ]
+  },
+  {
+    "text": "tiểu đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2963,
+      2971
+    ]
+  },
+  {
+    "text": "tăng sản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2983,
+      2991
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+id: "2026-07-28_007"
+date: "2026-07-28"
+title: "Source-generation audit"
+provenance: ai-executed
+events:
+  - type: experiment
+    description: >
+      Counted normalized headings across 100 records and audited residual
+      English clinical strings.
+    evidence:
+      - "experiments/H_source_generation/analysis.md"
+  - type: observation
+    description: >
+      Most files share a three-section template and 26 preserve English terms
+      or abbreviations, consistent with translation/restructuring.
+  - type: observation
+    description: >
+      All 100 ZIP text members share one DOS timestamp and identical creator/
+      version metadata, supporting common batch export but not corpus identity.
+  - type: decision
+    description: >
+      Treat section and bilingual features as high-value priors, but do not
+      import labels from any named corpus without exact alignment.
+outcome: >
+  H12 was added with templating supported and named-source provenance explicitly
+  unproven. No artifact or submission was produced.

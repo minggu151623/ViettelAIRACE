@@ -1,0 +1,88 @@
+[
+  {
+    "text": "vết thương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      37,
+      47
+    ],
+    "confidence": 0.997876783212026,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vết thương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      95,
+      105
+    ],
+    "confidence": 0.9984557032585144,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      235,
+      244
+    ],
+    "confidence": 0.9830646887421608,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      257,
+      261
+    ],
+    "confidence": 0.7294843792915344,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      350,
+      360
+    ],
+    "confidence": 0.998325526714325,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      379,
+      383
+    ],
+    "confidence": 0.6412699818611145,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      453,
+      462
+    ],
+    "confidence": 0.9807091504335403,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

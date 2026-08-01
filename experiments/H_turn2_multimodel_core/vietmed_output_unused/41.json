@@ -1,0 +1,338 @@
+[
+  {
+    "text": "15 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "assertions": [],
+    "position": [
+      49,
+      56
+    ]
+  },
+  {
+    "text": "mụn trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      80,
+      92
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      130,
+      134
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      233,
+      236
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      249,
+      252
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      323,
+      326
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      352,
+      355
+    ]
+  },
+  {
+    "text": "tái phát",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      362,
+      370
+    ]
+  },
+  {
+    "text": "chất bã nhờn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      504,
+      516
+    ]
+  },
+  {
+    "text": "tắc nang lông",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      521,
+      534
+    ]
+  },
+  {
+    "text": "chất bã",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      539,
+      546
+    ]
+  },
+  {
+    "text": "Propionibacterium",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      586,
+      603
+    ]
+  },
+  {
+    "text": "acnes",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      604,
+      609
+    ]
+  },
+  {
+    "text": "vi khuẩn kỵ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      611,
+      622
+    ]
+  },
+  {
+    "text": "chất",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      656,
+      660
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K21.0"
+    ],
+    "assertions": [],
+    "position": [
+      676,
+      680
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K21.0"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      724,
+      728
+    ]
+  },
+  {
+    "text": "sẹo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      775,
+      778
+    ]
+  },
+  {
+    "text": "mụn mủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      780,
+      786
+    ]
+  },
+  {
+    "text": "Vi khuẩn C.",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      907,
+      918
+    ]
+  },
+  {
+    "text": "acne",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      919,
+      923
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      957,
+      960
+    ]
+  },
+  {
+    "text": "Tretinoin",
+    "type": "THUỐC",
+    "candidates": [
+      "10753"
+    ],
+    "assertions": [],
+    "position": [
+      962,
+      971
+    ]
+  },
+  {
+    "text": "viêm nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      991,
+      999
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1115,
+      1118
+    ]
+  },
+  {
+    "text": "đau sau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1141,
+      1148
+    ]
+  },
+  {
+    "text": "sẹo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1280,
+      1283
+    ]
+  },
+  {
+    "text": "mụn trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1333,
+      1345
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1481,
+      1486
+    ]
+  },
+  {
+    "text": "tái phát",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1581,
+      1589
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1746,
+      1750
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1787,
+      1792
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1808,
+      1811
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1909,
+      1912
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1958,
+      1961
+    ]
+  }
+]

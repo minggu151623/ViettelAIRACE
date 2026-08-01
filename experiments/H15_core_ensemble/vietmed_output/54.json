@@ -1,0 +1,450 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      20,
+      27
+    ]
+  },
+  {
+    "text": "tái phát u ác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      39,
+      52
+    ]
+  },
+  {
+    "text": "ung thư biểu mô",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      66,
+      81
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      262,
+      267
+    ]
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "candidates": [
+      "11124"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      298,
+      308
+    ]
+  },
+  {
+    "text": "ceftazidi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      311,
+      320
+    ]
+  },
+  {
+    "text": "amiodarone",
+    "type": "THUỐC",
+    "candidates": [
+      "703"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      325,
+      335
+    ]
+  },
+  {
+    "text": "bicarbonate",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      347,
+      358
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      412,
+      416
+    ]
+  },
+  {
+    "text": "suy thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      479,
+      487
+    ]
+  },
+  {
+    "text": "u ác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C18.9"
+    ],
+    "assertions": [],
+    "position": [
+      504,
+      508
+    ]
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      645,
+      654
+    ]
+  },
+  {
+    "text": "viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      655,
+      664
+    ]
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      686,
+      698
+    ]
+  },
+  {
+    "text": "vancomycin",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      728,
+      738
+    ]
+  },
+  {
+    "text": "vancomycin",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      763,
+      773
+    ]
+  },
+  {
+    "text": "ceftazidime",
+    "type": "THUỐC",
+    "candidates": [
+      "2191"
+    ],
+    "assertions": [],
+    "position": [
+      776,
+      787
+    ]
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I48.91"
+    ],
+    "assertions": [],
+    "position": [
+      815,
+      823
+    ]
+  },
+  {
+    "text": "rối loạn huyết động",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      865,
+      884
+    ]
+  },
+  {
+    "text": "amiodarone",
+    "type": "THUỐC",
+    "candidates": [
+      "703"
+    ],
+    "assertions": [],
+    "position": [
+      950,
+      960
+    ]
+  },
+  {
+    "text": "rối loạn cân bằng kiềm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      977,
+      999
+    ]
+  },
+  {
+    "text": "bicarbonate",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1034,
+      1045
+    ]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1231,
+      1234
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1587,
+      1590
+    ]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1633,
+      1642
+    ]
+  },
+  {
+    "text": "viêm phổi thuỳ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1691,
+      1705
+    ]
+  },
+  {
+    "text": "rung cuống nhĩ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1724,
+      1738
+    ]
+  },
+  {
+    "text": "suy giảm huyết động",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1764,
+      1783
+    ]
+  },
+  {
+    "text": "rối loạn cân bằng kiềm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1786,
+      1808
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1841,
+      1844
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2081,
+      2085
+    ]
+  },
+  {
+    "text": "nằm viện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2146,
+      2154
+    ]
+  },
+  {
+    "text": "khám thực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2198,
+      2207
+    ]
+  },
+  {
+    "text": "dịch",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2355,
+      2359
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2498,
+      2501
+    ]
+  },
+  {
+    "text": "xuất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2569,
+      2573
+    ]
+  },
+  {
+    "text": "rối loạn cân bằng kiềm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2656,
+      2678
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2701,
+      2710
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2721,
+      2730
+    ]
+  },
+  {
+    "text": "viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2731,
+      2740
+    ]
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2860,
+      2869
+    ]
+  },
+  {
+    "text": "suy thận cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2877,
+      2889
+    ]
+  },
+  {
+    "text": "tái phát u ác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2892,
+      2905
+    ]
+  },
+  {
+    "text": "rung cuống nhĩ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2919,
+      2933
+    ]
+  }
+]

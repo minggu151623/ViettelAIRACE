@@ -1,0 +1,320 @@
+[
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      30,
+      37
+    ],
+    "confidence": 0.9986090064048767,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh mạch máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      44,
+      57
+    ],
+    "confidence": 0.9961663261055946,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      75,
+      94
+    ],
+    "confidence": 0.9976292427121944,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "J44.9"
+    ]
+  },
+  {
+    "text": "Ngưng thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      110,
+      119
+    ],
+    "confidence": 0.9670937359333038,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tắc nghẽn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      131,
+      140
+    ],
+    "confidence": 0.99819309314092,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Ung thư biểu mô",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      163,
+      178
+    ],
+    "confidence": 0.9692765211130118,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm hang vị",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      336,
+      348
+    ],
+    "confidence": 0.9594860009171746,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "sung huyết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      349,
+      359
+    ],
+    "confidence": 0.9914978345235189,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      403,
+      407
+    ],
+    "confidence": 0.9927614331245422,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "K21.0"
+    ]
+  },
+  {
+    "text": "viêm giãn nở",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      427,
+      439
+    ],
+    "confidence": 0.990342462604696,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ứ máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      443,
+      448
+    ],
+    "confidence": 0.996563509106636,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      477,
+      485
+    ],
+    "confidence": 0.994434484413692,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      503,
+      508
+    ],
+    "confidence": 0.9636874571442604,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      510,
+      516
+    ],
+    "confidence": 0.9654181063175201,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      537,
+      545
+    ],
+    "confidence": 0.9977344224850337,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nan y",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      595,
+      600
+    ],
+    "confidence": 0.9895657896995544,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      649,
+      652
+    ],
+    "confidence": 0.6415297985076904,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      726,
+      741
+    ],
+    "confidence": 0.9873538038560322,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      889,
+      893
+    ],
+    "confidence": 0.9896864295005798,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1084,
+      1089
+    ],
+    "confidence": 0.9874732494354248,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1147,
+      1152
+    ],
+    "confidence": 0.9766221642494202,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1206,
+      1221
+    ],
+    "confidence": 0.9974568613937923,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hang vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1222,
+      1229
+    ],
+    "confidence": 0.7596441904703776,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thiên nhiên",
+    "type": "THUỐC",
+    "position": [
+      1264,
+      1275
+    ],
+    "confidence": 0.6173867285251617,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "quá no",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1619,
+      1625
+    ],
+    "confidence": 0.6160502433776855,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đói",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1639,
+      1642
+    ],
+    "confidence": 0.8420113921165466,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

@@ -1,0 +1,65 @@
+session:
+  id: "2026-07-27_001"
+  timestamp: "2026-07-27T23:06+07:00"
+  summary: "Repaired real model inference, trained weighted BamiBERT, and built deterministic V16 consensus."
+
+events_logged:
+  - type: experiment
+    id: N02
+    provenance: ai-executed
+    summary: "Weighted BamiBERT reached local strict F1 0.867470 after checkpoint activation repair."
+  - type: dead_end
+    id: N03
+    provenance: ai-executed
+    summary: "Rejected raw specialist union because it added more than 600 ungated spans."
+  - type: experiment
+    id: N04
+    provenance: ai-executed
+    summary: "Generated V16 with 169 gated additions and deterministic packaging."
+  - type: claim
+    id: C01
+    provenance: ai-suggested
+    summary: "Earlier Hugging Face checkpoints were silently disabled."
+  - type: claim
+    id: C02
+    provenance: ai-suggested
+    summary: "Class weighting improves the current biased local proxy."
+  - type: claim
+    id: C03
+    provenance: ai-suggested
+    summary: "Teacher-student consensus may improve hidden recall."
+
+ai_actions:
+  - action: "Fixed checkpoint detection, class-weighted training, span recovery, ensemble inference, tests, and deterministic packaging."
+    provenance: ai-executed
+    files_changed:
+      - "airace/inference.py"
+      - "airace/train.py"
+      - "airace/hybrid.py"
+      - "airace/ensemble.py"
+      - "airace/cli.py"
+      - "airace/package_output.py"
+      - "tests/test_core.py"
+  - action: "Generated the validated V16 submission artifact."
+    provenance: ai-executed
+    files_changed:
+      - "output_v16_teacher_student.zip"
+      - "reports/v16_teacher_student.json"
+
+claims_touched:
+  - id: C01
+    action: created
+    provenance: ai-suggested
+  - id: C02
+    action: created
+    provenance: ai-suggested
+  - id: C03
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Obtain one external V16 leaderboard score and compare it with V6."
+  - "Build an independent manually reviewed validation set rather than reuse the V6-saturated holdout."
+
+ai_suggestions_pending:
+  - "Treat V16 as one meaningful architecture evaluation, not as another micro-ablation."

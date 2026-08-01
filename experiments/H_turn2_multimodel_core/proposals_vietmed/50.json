@@ -1,0 +1,394 @@
+[
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      165,
+      172
+    ],
+    "confidence": 0.9956472516059875,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      263,
+      270
+    ],
+    "confidence": 0.9967793226242065,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      300,
+      304
+    ],
+    "confidence": 0.989602267742157,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      353,
+      364
+    ],
+    "confidence": 0.5571507930755615,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      370,
+      377
+    ],
+    "confidence": 0.996930201848348,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      378,
+      386
+    ],
+    "confidence": 0.8372172117233276,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "úng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      392,
+      395
+    ],
+    "confidence": 0.8005663752555847,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I48.91"
+    ]
+  },
+  {
+    "text": "tăng nhãn áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      504,
+      516
+    ],
+    "confidence": 0.9981025511568243,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      703,
+      710
+    ],
+    "confidence": 0.9976986944675446,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mờ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      728,
+      734
+    ],
+    "confidence": 0.9965170383453369,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "úng tuỷ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      850,
+      857
+    ],
+    "confidence": 0.9878471085003443,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sơ sinh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      869,
+      876
+    ],
+    "confidence": 0.8382378021876017,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      958,
+      971
+    ],
+    "confidence": 0.9657222777605057,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "úng thủy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      972,
+      980
+    ],
+    "confidence": 0.6979626928056989,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1000,
+      1007
+    ],
+    "confidence": 0.998178243637085,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "ng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1040,
+      1042
+    ],
+    "confidence": 0.550317645072937,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1109,
+      1116
+    ],
+    "confidence": 0.9966272711753845,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Khám nhãn khoa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1124,
+      1138
+    ],
+    "confidence": 0.5674541798921732,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1192,
+      1203
+    ],
+    "confidence": 0.9763873040676116,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "mờ mắt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1237,
+      1243
+    ],
+    "confidence": 0.9884565949440003,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1315,
+      1324
+    ],
+    "confidence": 0.9624053388834,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "CT ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1337,
+      1344
+    ],
+    "confidence": 0.717255175113678,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán xác",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1386,
+      1399
+    ],
+    "confidence": 0.8360379934310913,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "VPHT",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1405,
+      1409
+    ],
+    "confidence": 0.8098129332065582,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dị vật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1497,
+      1503
+    ],
+    "confidence": 0.9968020915985107,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nghiên cứu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1552,
+      1562
+    ],
+    "confidence": 0.9926653504371643,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1567,
+      1576
+    ],
+    "confidence": 0.9850056543946266,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "VPHT",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1586,
+      1590
+    ],
+    "confidence": 0.7675356566905975,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "CT ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1596,
+      1603
+    ],
+    "confidence": 0.5597158670425415,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1773,
+      1778
+    ],
+    "confidence": 0.9737405180931091,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1801,
+      1808
+    ],
+    "confidence": 0.8356781005859375,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

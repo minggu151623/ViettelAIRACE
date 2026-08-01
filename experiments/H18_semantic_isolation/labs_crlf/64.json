@@ -1,0 +1,99 @@
+[
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [111, 123]
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "candidates": ["42844"],
+    "assertions": [],
+    "position": [277, 285]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [308, 328]
+  },
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [364, 376]
+  },
+  {
+    "text": "túi thừa của cả ruột non và đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [448, 485]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [516, 523]
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "candidates": ["42844"],
+    "assertions": ["isHistorical"],
+    "position": [591, 599]
+  },
+  {
+    "text": "đau vùng hạ vị bên phải và hạ vị bên trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [674, 715]
+  },
+  {
+    "text": "đau vùng hạ vị bên phải và hạ vị bên trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [845, 886]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [894, 901]
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [936, 953]
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "candidates": ["42844"],
+    "assertions": [],
+    "position": [1429, 1437]
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1609, 1626]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1701, 1721]
+  },
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1757, 1769]
+  }
+]

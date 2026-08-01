@@ -1,0 +1,140 @@
+[
+  {
+    "text": "thương nhẹ ở tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      77,
+      95
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      106,
+      116
+    ]
+  },
+  {
+    "text": "Da niêm mạc hồngi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1063,
+      1080
+    ]
+  },
+  {
+    "text": "Đau bụng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1082,
+      1103
+    ]
+  },
+  {
+    "text": "Buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1105,
+      1113
+    ]
+  },
+  {
+    "text": "nôn ra thức ăn và dịch dạ dày",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1115,
+      1144
+    ]
+  },
+  {
+    "text": "morphineoral",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1335,
+      1347
+    ]
+  },
+  {
+    "text": "lorazepam",
+    "type": "THUỐC",
+    "candidates": [
+      "6470"
+    ],
+    "assertions": [],
+    "position": [
+      1352,
+      1361
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      1413,
+      1421
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A82"
+    ],
+    "assertions": [],
+    "position": [
+      2123,
+      2131
+    ]
+  },
+  {
+    "text": "vi rút dại xâm nhập vào",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2222,
+      2245
+    ]
+  },
+  {
+    "text": "Tình trạng miễn dịch của bệnh nhân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2246,
+      2280
+    ]
+  },
+  {
+    "text": "Vùng bị cắn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2281,
+      2292
+    ]
+  },
+  {
+    "text": "khoảng cách gần hơn cho vi rút xâm nhập vào mô thần kinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2430,
+      2486
+    ]
+  }
+]

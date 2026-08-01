@@ -1,0 +1,33 @@
+session:
+  id: "2026-07-28_004"
+  timestamp: "2026-07-28T01:12+07:00"
+  summary: "Established i2b2 as an independent annotation-policy prior, not direct gold."
+
+events_logged:
+  - type: experiment
+    id: N10
+    provenance: ai-executed
+    summary: "Compared primary i2b2 concept/assertion guidance with BTC's official schema."
+  - type: claim
+    id: C08
+    provenance: ai-suggested
+    summary: "i2b2 boundaries are useful priors, but direct label conversion is invalid."
+
+ai_actions:
+  - action: "Reviewed primary i2b2 documentation and clinical annotation studies."
+    provenance: ai-executed
+    files_changed: ["literature/i2b2_policy_mapping.md"]
+  - action: "Added a constrained policy hypothesis without changing submission artifacts."
+    provenance: ai-executed
+    files_changed: ["findings.md", "research-log.md", "research-state.yaml"]
+
+claims_touched:
+  - id: C08
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Use the combined BTC/i2b2 policy to create an independently reviewed annotation set after H7 is measured."
+
+ai_suggestions_pending:
+  - "Do not map i2b2 assertion classes or treatment labels directly into BTC output."

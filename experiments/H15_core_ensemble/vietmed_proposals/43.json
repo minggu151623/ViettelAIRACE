@@ -1,0 +1,322 @@
+[
+  {
+    "text": "nhiễm trùng tụ cầu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      94,
+      112
+    ],
+    "confidence": 0.99419601308814,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      391,
+      406
+    ],
+    "confidence": 0.9966150400589925,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "I21.9"
+    ]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      426,
+      437
+    ],
+    "confidence": 0.9873118976751962,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hẹp van động mạch chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      447,
+      468
+    ],
+    "confidence": 0.9915511530570008,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      491,
+      495
+    ],
+    "confidence": 0.9893804788589478,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      628,
+      639
+    ],
+    "confidence": 0.9869548261165619,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dobutamine",
+    "type": "THUỐC",
+    "position": [
+      649,
+      659
+    ],
+    "confidence": 0.6324325203895569,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "3616"
+    ]
+  },
+  {
+    "text": "hẹp van động mạch chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      669,
+      690
+    ],
+    "confidence": 0.9802823954007842,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      714,
+      718
+    ],
+    "confidence": 0.9878063797950745,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dòng chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      823,
+      832
+    ],
+    "confidence": 0.6755162179470062,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      921,
+      929
+    ],
+    "confidence": 0.9285092609269279,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      977,
+      984
+    ],
+    "confidence": 0.9981656968593597,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      986,
+      994
+    ],
+    "confidence": 0.9964812227657863,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      996,
+      1003
+    ],
+    "confidence": 0.9974736273288727,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1013,
+      1028
+    ],
+    "confidence": 0.9110263696738652,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1034,
+      1042
+    ],
+    "confidence": 0.9729695662856102,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1166,
+      1175
+    ],
+    "confidence": 0.9810355231165886,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1191,
+      1202
+    ],
+    "confidence": 0.9854175209999084,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hẹp van động mạch chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1212,
+      1233
+    ],
+    "confidence": 0.9354948028922081,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1253,
+      1264
+    ],
+    "confidence": 0.9859142859776815,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dobutamine",
+    "type": "THUỐC",
+    "position": [
+      1274,
+      1284
+    ],
+    "confidence": 0.7311697363853454,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "3616"
+    ]
+  },
+  {
+    "text": "hẹp van động mạch chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1294,
+      1315
+    ],
+    "confidence": 0.9939610403369773,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp tim mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1362,
+      1375
+    ],
+    "confidence": 0.7629506729897999,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "LHC",
+    "type": "THUỐC",
+    "position": [
+      1382,
+      1385
+    ],
+    "confidence": 0.9192344745000204,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1402,
+      1411
+    ],
+    "confidence": 0.9865192919969559,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hẹp van động mạch chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1423,
+      1444
+    ],
+    "confidence": 0.926371670988473,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

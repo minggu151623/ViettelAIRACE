@@ -1,0 +1,459 @@
+[
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      109,
+      121
+    ],
+    "confidence": 0.8887521361375783,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ciproflagyl",
+    "type": "THUỐC",
+    "position": [
+      161,
+      172
+    ],
+    "confidence": 0.912790672345595,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      188,
+      191
+    ],
+    "confidence": 0.9982026815414429,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      273,
+      281
+    ],
+    "confidence": 0.9126931875944138,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "42844"
+    ]
+  },
+  {
+    "text": "chụp chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      298,
+      323
+    ],
+    "confidence": 0.8687298574296985,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      359,
+      371
+    ],
+    "confidence": 0.9953484349436574,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      378,
+      388
+    ],
+    "confidence": 0.9988118939929538,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical",
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      393,
+      400
+    ],
+    "confidence": 0.9927664200464884,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      401,
+      409
+    ],
+    "confidence": 0.8202568973813739,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "túi thừa",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      441,
+      449
+    ],
+    "confidence": 0.6748593279293605,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      508,
+      515
+    ],
+    "confidence": 0.997761050860087,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      547,
+      552
+    ],
+    "confidence": 0.9937945604324341,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      582,
+      590
+    ],
+    "confidence": 0.8482832089066505,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "42844"
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      609,
+      612
+    ],
+    "confidence": 0.9975742697715759,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      662,
+      665
+    ],
+    "confidence": 0.9978370070457458,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      741,
+      749
+    ],
+    "confidence": 0.9972663606916156,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      830,
+      833
+    ],
+    "confidence": 0.9980338215827942,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      878,
+      885
+    ],
+    "confidence": 0.997761050860087,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      919,
+      928
+    ],
+    "confidence": 0.971938469107189,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      974,
+      983
+    ],
+    "confidence": 0.9961875379085541,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "hoa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      996,
+      999
+    ],
+    "confidence": 0.9526029229164124,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1037,
+      1043
+    ],
+    "confidence": 0.9798649787902832,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1206,
+      1215
+    ],
+    "confidence": 0.8410900008110773,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ciproflagyl",
+    "type": "THUỐC",
+    "position": [
+      1262,
+      1273
+    ],
+    "confidence": 0.9050706245682456,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1315,
+      1318
+    ],
+    "confidence": 0.9982026815414429,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      1400,
+      1408
+    ],
+    "confidence": 0.9126931875944138,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "42844"
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1446,
+      1455
+    ],
+    "confidence": 0.9961875379085541,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "hoa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1468,
+      1471
+    ],
+    "confidence": 0.9526029229164124,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1509,
+      1515
+    ],
+    "confidence": 0.9798649787902832,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1572,
+      1581
+    ],
+    "confidence": 0.971938469107189,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1627,
+      1636
+    ],
+    "confidence": 0.9869259595870972,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp chụp cắt lớp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1657,
+      1674
+    ],
+    "confidence": 0.6204287335276604,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1718,
+      1730
+    ],
+    "confidence": 0.9934002633218643,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1737,
+      1747
+    ],
+    "confidence": 0.9987517330381606,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  }
+]

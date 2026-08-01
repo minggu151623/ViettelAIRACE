@@ -1,0 +1,180 @@
+[
+  {
+    "text": "tuỵ ngược dòng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      65,
+      79
+    ]
+  },
+  {
+    "text": "khối u thần kinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      130,
+      146
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      171,
+      176
+    ]
+  },
+  {
+    "text": "octreotide",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      206,
+      216
+    ]
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "candidates": [
+      "202866"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      223,
+      229
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      240,
+      250
+    ]
+  },
+  {
+    "text": "nhịn ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      260,
+      267
+    ]
+  },
+  {
+    "text": "u nội tiết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      432,
+      442
+    ]
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      459,
+      469
+    ]
+  },
+  {
+    "text": "ống tuỵ mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      473,
+      484
+    ]
+  },
+  {
+    "text": "Clostridioides difficile",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      671,
+      695
+    ]
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      700,
+      711
+    ]
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "candidates": [
+      "202866"
+    ],
+    "assertions": [],
+    "position": [
+      742,
+      748
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      759,
+      769
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1092,
+      1096
+    ]
+  },
+  {
+    "text": "sưng n",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1171,
+      1177
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1327,
+      1334
+    ]
+  }
+]

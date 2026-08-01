@@ -1,0 +1,42 @@
+session:
+  id: "2026-07-29_002"
+  timestamp: "2026-07-29T01:00+07:00"
+  summary: "External leaderboard measurement supported CRLF coordinates and selected V18 CRLF as next candidate."
+
+events_logged:
+  - type: experiment
+    id: N19
+    provenance: user
+    summary: >
+      User-reported isolated H7 submission scored 1.7951 versus V6 1.7280;
+      WER 99.9145, J_assertion 2.9498, J_candidates 2.2112.
+  - type: claim
+    id: C04
+    provenance: ai-suggested
+    summary: "CRLF coordinate reconstruction is externally supported."
+  - type: decision
+    id: D07
+    provenance: ai-suggested
+    summary: "Use the prebuilt V18 CRLF artifact as the next controlled candidate."
+
+ai_actions:
+  - action: "Recomputed the leaderboard formula and updated research artifacts."
+    provenance: ai-executed
+    files_changed:
+      - "research-state.yaml"
+      - "findings.md"
+      - "research-log.md"
+      - "ara/logic/claims.md"
+      - "ara/trace/exploration_tree.yaml"
+
+claims_touched:
+  - id: C04
+    action: advanced
+    provenance: ai-suggested
+
+open_threads:
+  - "User may choose whether to submit output_v18_evidence_crlf.zip."
+  - "Do not change CRLF projection in the next candidate."
+
+ai_suggestions_pending:
+  - "V18 CRLF should be measured before any further semantic redesign."

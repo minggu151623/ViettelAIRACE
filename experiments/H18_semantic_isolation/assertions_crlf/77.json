@@ -1,0 +1,163 @@
+[
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [30, 35]
+  },
+  {
+    "text": "quá liều klonopinclonidine",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [38, 64]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "candidates": ["2599"],
+    "assertions": ["isHistorical"],
+    "position": [55, 64]
+  },
+  {
+    "text": "tử vong",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [128, 135]
+  },
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [199, 215]
+  },
+  {
+    "text": "Rối loạn lưỡng cực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [224, 242]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [250, 264]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "candidates": ["2599"],
+    "assertions": ["isHistorical"],
+    "position": [377, 386]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "candidates": ["2599"],
+    "assertions": ["isHistorical"],
+    "position": [408, 417]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": ["isHistorical"],
+    "position": [446, 454]
+  },
+  {
+    "text": "Lạm dụng chất kích thích",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [580, 604]
+  },
+  {
+    "text": "chất gây nghiện opioid",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [606, 628]
+  },
+  {
+    "text": "i ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [673, 687]
+  },
+  {
+    "text": "ý nghĩ tự bắn vào đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [691, 712]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [742, 750]
+  },
+  {
+    "text": "hưng cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [807, 815]
+  },
+  {
+    "text": "tăng hoạt động",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [832, 846]
+  },
+  {
+    "text": "giảm nhu cầu ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [850, 866]
+  },
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [902, 914]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": [],
+    "position": [973, 981]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": [],
+    "position": [1016, 1024]
+  },
+  {
+    "text": "ý nghĩ tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1075, 1087]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1119, 1124]
+  },
+  {
+    "text": "hoảng sợ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1126, 1134]
+  },
+  {
+    "text": "hoang tưởng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1142, 1153]
+  }
+]

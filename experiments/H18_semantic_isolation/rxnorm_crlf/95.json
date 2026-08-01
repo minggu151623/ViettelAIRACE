@@ -1,0 +1,56 @@
+[
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [52, 60]
+  },
+  {
+    "text": "đau âm ỉ vùng quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [124, 147]
+  },
+  {
+    "text": "đau bụng âm ỉ quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [212, 235]
+  },
+  {
+    "text": "đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [386, 433]
+  },
+  {
+    "text": "buồn nôn nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [441, 453]
+  },
+  {
+    "text": "Đại tiện bình thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [505, 525]
+  },
+  {
+    "text": "Không đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [552, 566]
+  },
+  {
+    "text": "Không khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [574, 587]
+  },
+  {
+    "text": "Khám bụng mềm, không chướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [589, 616]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "records": 91,
+  "holdout_records": 9,
+  "holdout_labels_path": "labels/manual_validation.jsonl",
+  "entities": 2150,
+  "entity_counts": {
+    "THUỐC": 160,
+    "CHẨN_ĐOÁN": 365,
+    "TRIỆU_CHỨNG": 1087,
+    "TÊN_XÉT_NGHIỆM": 326,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 211,
+    "THÔNG_TIN_BỆNH_NHÂN": 1
+  },
+  "source_counts": {
+    "rule+qwen": 765,
+    "qwen_compact": 1381,
+    "rule_only": 9,
+    "overlap_removed": 37,
+    "teacher+qwen": 32,
+    "drug_without_evidence": 9,
+    "action_as_concept_removed": 3,
+    "action_as_test_removed": 2
+  },
+  "labels_path": "labels/silver_consensus.jsonl",
+  "consensus_output_dir": "output_v3_consensus",
+  "teacher": "/Users/mac/.cache/huggingface/hub/models--cbc-528a--BamiBERT-ViMedNER/snapshots/e508eedd34d124e05cf139cc565806c6d4fc5aad",
+  "elapsed_seconds": 49.388
+}

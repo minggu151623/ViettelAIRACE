@@ -1,0 +1,124 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      41
+    ],
+    "confidence": 0.9979885617891947,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      42,
+      50
+    ],
+    "confidence": 0.9047653164182391,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "xơ gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      61,
+      67
+    ],
+    "confidence": 0.9962849259376526,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K74.60"
+    ]
+  },
+  {
+    "text": "rượu",
+    "type": "THUỐC",
+    "position": [
+      71,
+      75
+    ],
+    "confidence": 0.5569384694099426,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      191,
+      200
+    ],
+    "confidence": 0.9986343756318092,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F10.20"
+    ]
+  },
+  {
+    "text": "hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      270,
+      279
+    ],
+    "confidence": 0.9982410073280334,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F10.20"
+    ]
+  },
+  {
+    "text": "hội chứng não gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      338,
+      355
+    ],
+    "confidence": 0.9216006170026958,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ý thức suy giảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      368,
+      383
+    ],
+    "confidence": 0.8283627686046419,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hội chứng não",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      432,
+      445
+    ],
+    "confidence": 0.873206639662385,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

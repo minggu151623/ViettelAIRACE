@@ -1,0 +1,324 @@
+[
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      21,
+      37
+    ],
+    "confidence": 0.9579111448923747,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      48,
+      57
+    ],
+    "confidence": 0.9899373278021812,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ung thư vú",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      58,
+      68
+    ],
+    "confidence": 0.9874349057674408,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ung thư vú",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      84,
+      94
+    ],
+    "confidence": 0.9986474923789501,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      288,
+      291
+    ],
+    "confidence": 0.9981568455696106,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sư",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      433,
+      435
+    ],
+    "confidence": 0.7258171439170837,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      441,
+      444
+    ],
+    "confidence": 0.9973904490470886,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      525,
+      528
+    ],
+    "confidence": 0.9980541467666626,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      579,
+      583
+    ],
+    "confidence": 0.9863256812095642,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      613,
+      620
+    ],
+    "confidence": 0.9696493250983101,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mẫu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      652,
+      655
+    ],
+    "confidence": 0.7569872140884399,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "floxacin",
+    "type": "THUỐC",
+    "position": [
+      702,
+      710
+    ],
+    "confidence": 0.8625373244285583,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cephalexin",
+    "type": "THUỐC",
+    "position": [
+      714,
+      724
+    ],
+    "confidence": 0.970448911190033,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "2231"
+    ]
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      735,
+      739
+    ],
+    "confidence": 0.9832900762557983,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      767,
+      773
+    ],
+    "confidence": 0.9639068007469177,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      792,
+      801
+    ],
+    "confidence": 0.998508870601654,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      857,
+      861
+    ],
+    "confidence": 0.9920424818992615,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      987,
+      990
+    ],
+    "confidence": 0.9980605244636536,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1016,
+      1025
+    ],
+    "confidence": 0.9983992204070091,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "triệu chứng toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1076,
+      1097
+    ],
+    "confidence": 0.9736036523183188,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1107,
+      1111
+    ],
+    "confidence": 0.9566783308982849,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1187,
+      1190
+    ],
+    "confidence": 0.9962162375450134,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "triệu chứng toàn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1243,
+      1259
+    ],
+    "confidence": 0.9181164522965749,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1306,
+      1310
+    ],
+    "confidence": 0.9780009984970093,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1311,
+      1321
+    ],
+    "confidence": 0.9675159454345703,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "position": [
+      1351,
+      1361
+    ],
+    "confidence": 0.9843281209468842,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "11124"
+    ]
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [41, 54]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [57, 71]
+  },
+  {
+    "text": "biến chứng bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [76, 115]
+  },
+  {
+    "text": "Suy tim không do thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [118, 151]
+  },
+  {
+    "text": "Bệnh thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [181, 199]
+  },
+  {
+    "text": "Torsemide: uống 1 viên/ngày, đôi khi 2 viên/ngày",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": ["isHistorical"],
+    "position": [232, 280]
+  },
+  {
+    "text": "Insulin glargine: theo đơn 100 đơn vị x 2 lần/ngày, hiện đã ngừng sử dụng",
+    "type": "THUỐC",
+    "candidates": ["274783"],
+    "assertions": ["isHistorical"],
+    "position": [283, 356]
+  },
+  {
+    "text": "Isosorbide: đã hết thuốc khoảng 3 tuần trước nhập viện",
+    "type": "THUỐC",
+    "candidates": ["6057"],
+    "assertions": ["isHistorical"],
+    "position": [359, 413]
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "candidates": ["301542"],
+    "assertions": ["isHistorical"],
+    "position": [416, 428]
+  },
+  {
+    "text": "Carvedilol: đã hết thuốc khoảng 3 tuần trước nhập viện",
+    "type": "THUỐC",
+    "candidates": ["20352"],
+    "assertions": ["isHistorical"],
+    "position": [485, 539]
+  },
+  {
+    "text": "tăng kali máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [604, 617]
+  },
+  {
+    "text": "Creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [621, 631]
+  },
+  {
+    "text": "Creatinine tăng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [621, 636]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [931, 938]
+  },
+  {
+    "text": "glucose là thấp, nên ngừng dùng glargine",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [931, 971]
+  },
+  {
+    "text": "Báo cáo bị ngã gần đây",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [975, 997]
+  },
+  {
+    "text": "kali 6.3, mẫu không tan máu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1386, 1413]
+  },
+  {
+    "text": "kali (k).8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1417, 1427]
+  },
+  {
+    "text": "ure (bun) 83",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1431, 1443]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1447, 1457]
+  },
+  {
+    "text": "creatinine 5.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1447, 1461]
+  },
+  {
+    "text": "hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1465, 1475]
+  },
+  {
+    "text": "hemoglobin 7.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1465, 1479]
+  },
+  {
+    "text": "hba1c 6.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1483, 1492]
+  },
+  {
+    "text": "bnp 21,000",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1496, 1506]
+  },
+  {
+    "text": "phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1515, 1534]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1596, 1608]
+  },
+  {
+    "text": "Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1610, 1679]
+  },
+  {
+    "text": "tăng kali máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1745, 1758]
+  },
+  {
+    "text": "iv lasix 40 mg once",
+    "type": "THUỐC",
+    "candidates": ["1719291"],
+    "assertions": [],
+    "position": [1762, 1781]
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "source": "external/VietBioNER",
+  "mapping": {
+    "DiagnosticProcedure": "TÊN_XÉT_NGHIỆM"
+  },
+  "excluded_source_labels": [
+    "Symptom_and_Disease",
+    "Location",
+    "DateTime",
+    "Organisation"
+  ],
+  "splits": {
+    "train": {
+      "examples": 706,
+      "diagnostic_procedure_entities": 191,
+      "source_sha256": "3e3a930c44220c59cbe8bd6a8aa953510c3609015208a4c5c85d2d9684162a72",
+      "output_sha256": "7b5e265cdd127e51bd5991ad0f100b9ae45fcacae7d58064fb49d6a8be8e7c5c"
+    },
+    "valid": {
+      "examples": 300,
+      "diagnostic_procedure_entities": 89,
+      "source_sha256": "9cf2d5736eebfaaa03cf6114f2cf2195a943d9204699fb6b9519f972610ea218",
+      "output_sha256": "e003308313f6f7d841eea883eedb1dab7f35e8a60385e745158cc3c43454298d"
+    },
+    "test": {
+      "examples": 700,
+      "diagnostic_procedure_entities": 202,
+      "source_sha256": "7893fc8e0c4071c5d0712ddd0e36e8c6f212a568b5fa6dcc1d319a6013060f32",
+      "output_sha256": "0bd2e0698c3b043830b273822b16f959fa6f07aa674ee7a2aa0788439aa300a9"
+    }
+  }
+}

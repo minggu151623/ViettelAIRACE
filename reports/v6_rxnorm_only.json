@@ -1,0 +1,22 @@
+{
+  "records": 100,
+  "completed": 100,
+  "elapsed_seconds": 0.025,
+  "source": "output_v5_precision_btc",
+  "output": "output_v6_rxnorm_only",
+  "candidate_policy": "RxNorm for THUỐC; empty candidates for CHẨN_ĐOÁN",
+  "structural_cleanup": false,
+  "stats": {
+    "output:THUỐC": 165,
+    "output:CHẨN_ĐOÁN": 411,
+    "output:TRIỆU_CHỨNG": 1150,
+    "output:TÊN_XÉT_NGHIỆM": 335,
+    "output:KẾT_QUẢ_XÉT_NGHIỆM": 235,
+    "output_entities": 2298,
+    "drug_candidate_entities": 163,
+    "removed_diagnosis_candidate_entities": 124,
+    "removed_diagnosis_candidate_ids": 124,
+    "output:THÔNG_TIN_BỆNH_NHÂN": 2
+  },
+  "errors": []
+}

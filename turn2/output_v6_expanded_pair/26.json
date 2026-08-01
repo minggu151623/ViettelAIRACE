@@ -1,0 +1,585 @@
+[
+  {
+    "text": "BỆNH MẠCH VÀNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.1"
+    ],
+    "assertions": [],
+    "position": [
+      1,
+      15
+    ]
+  },
+  {
+    "text": "Bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.1"
+    ],
+    "assertions": [],
+    "position": [
+      52,
+      66
+    ]
+  },
+  {
+    "text": "Bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.1"
+    ],
+    "assertions": [],
+    "position": [
+      76,
+      90
+    ]
+  },
+  {
+    "text": "đau thắt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      288,
+      301
+    ]
+  },
+  {
+    "text": "nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21"
+    ],
+    "assertions": [],
+    "position": [
+      303,
+      318
+    ]
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I50",
+      "I50.9"
+    ],
+    "assertions": [],
+    "position": [
+      320,
+      327
+    ]
+  },
+  {
+    "text": "đột tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "R96"
+    ],
+    "assertions": [],
+    "position": [
+      333,
+      339
+    ]
+  },
+  {
+    "text": "Xơ vữa động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.1"
+    ],
+    "assertions": [],
+    "position": [
+      399,
+      420
+    ]
+  },
+  {
+    "text": "LDL-cholesterol tăng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      425,
+      445
+    ]
+  },
+  {
+    "text": "Lắng đọng lipid",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      449,
+      464
+    ]
+  },
+  {
+    "text": "hình thành mảng xơ vữa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      467,
+      489
+    ]
+  },
+  {
+    "text": "Mảng xơ vữa to dần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      493,
+      511
+    ]
+  },
+  {
+    "text": "hẹp lòng mạch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      514,
+      527
+    ]
+  },
+  {
+    "text": "Nứt vỡ mảng xơ vữa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      531,
+      549
+    ]
+  },
+  {
+    "text": "huyết khối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      552,
+      562
+    ]
+  },
+  {
+    "text": "tắc mạch cấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      565,
+      577
+    ]
+  },
+  {
+    "text": "Tuổi cao",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      619,
+      627
+    ]
+  },
+  {
+    "text": "Nam giới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      632,
+      640
+    ]
+  },
+  {
+    "text": "Tiền sử gia đình bệnh tim mạch sớm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      644,
+      678
+    ]
+  },
+  {
+    "text": "Hút thuốc lá",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      699,
+      711
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      716,
+      729
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      716,
+      729
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      733,
+      747
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      733,
+      747
+    ]
+  },
+  {
+    "text": "Rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E78.5"
+    ],
+    "assertions": [],
+    "position": [
+      752,
+      770
+    ]
+  },
+  {
+    "text": "Rối loạn lipid máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      752,
+      770
+    ]
+  },
+  {
+    "text": "Béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      774,
+      781
+    ]
+  },
+  {
+    "text": "ít vận động",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      783,
+      794
+    ]
+  },
+  {
+    "text": "Stress kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      798,
+      812
+    ]
+  },
+  {
+    "text": "Đau thắt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      838,
+      851
+    ]
+  },
+  {
+    "text": "Hội chứng vành cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1124,
+      1142
+    ]
+  },
+  {
+    "text": "Nhồi máu cơ tim ST chênh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21.3"
+    ],
+    "assertions": [],
+    "position": [
+      1198,
+      1222
+    ]
+  },
+  {
+    "text": "Nhồi máu không ST chênh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21.4"
+    ],
+    "assertions": [],
+    "position": [
+      1226,
+      1249
+    ]
+  },
+  {
+    "text": "Đau thắt ngực không ổn định",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1253,
+      1280
+    ]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1345,
+      1352
+    ]
+  },
+  {
+    "text": "Mệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1356,
+      1359
+    ]
+  },
+  {
+    "text": "Buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1363,
+      1371
+    ]
+  },
+  {
+    "text": "Đau thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1375,
+      1388
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1428,
+      1436
+    ]
+  },
+  {
+    "text": "tiền sử rung nhĩ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1553,
+      1569
+    ]
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I48.2"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1561,
+      1569
+    ]
+  },
+  {
+    "text": "phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1576,
+      1636
+    ]
+  },
+  {
+    "text": "rối loạn cảm xúc lưỡng cực khác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1643,
+      1674
+    ]
+  },
+  {
+    "text": "phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1711,
+      1771
+    ]
+  },
+  {
+    "text": "Thuốc trước khi nhập viện: đang dùng eliquis (cho rung nhĩ)",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1776,
+      1835
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1883,
+      1886
+    ]
+  },
+  {
+    "text": "sốt và đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1883,
+      1898
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1890,
+      1898
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1951,
+      1959
+    ]
+  },
+  {
+    "text": "đau bụng trên (lần nhập viện trước)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1951,
+      1986
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2015,
+      2018
+    ]
+  },
+  {
+    "text": "sốt nhẹ đến 38.3°C",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2015,
+      2033
+    ]
+  },
+  {
+    "text": "đau hạ sườn phải tái phát, ngày càng nặng hơn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2043,
+      2088
+    ]
+  },
+  {
+    "text": "Tập thể dục ≥ 150 phút/tuần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2109,
+      2136
+    ]
+  },
+  {
+    "text": "Giữ cân nặng hợp lý",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2153,
+      2172
+    ]
+  },
+  {
+    "text": "Kiểm soát HA – đường huyết – lipid",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2185,
+      2219
+    ]
+  },
+  {
+    "text": "Kiểm soát LDL < 1,8 mmol/L (hoặc <70 mg/dL)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2286,
+      2329
+    ]
+  },
+  {
+    "text": "Nhận biết sớm dấu hiệu đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2330,
+      2361
+    ]
+  }
+]

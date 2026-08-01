@@ -1,0 +1,47 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local model checkpoints and caches are reproducible but too large for Git.
+models/
+tmp/
+to_human/
+external/VietBioNER/
+
+# Large extracted/downloaded terminology distributions.
+airace/resources/RxNorm_full_prescribe_07062026.zip
+airace/resources/rxnorm_20260706/
+airace/resources/icd102019enMeta.zip
+airace/resources/icd10cm_Code_Descriptions_2026.zip
+
+# Legacy round-one inputs and generated outputs. Keep only the frozen Turn 2
+# baseline and research evidence explicitly unignored below.
+input/
+input 2/
+output/
+output_*/
+*.zip
+AI Race 2026 - Cuộc đua AI cho kỹ sư Việt Nam.html
+
+# Turn 2 generated variants are excluded by default.
+turn2/output/
+turn2/output_*/
+turn2/*.zip
+
+# Frozen, externally scored H20 baseline.
+!turn2/input_turn2_vong1.zip
+!turn2/output_v6_expanded_pair.zip
+!turn2/output_v6_expanded_pair/
+!turn2/output_v6_expanded_pair/**
+
+# Research evidence may contain deterministic intermediate archives.
+experiments/**/output_repeat.zip

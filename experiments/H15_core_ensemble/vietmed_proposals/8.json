@@ -1,0 +1,124 @@
+[
+  {
+    "text": "cận lâm sàng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      151,
+      163
+    ],
+    "confidence": 0.9840581850572065,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      309,
+      319
+    ],
+    "confidence": 0.9985140760739645,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xét nghiệm tế bào học",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      334,
+      355
+    ],
+    "confidence": 0.9019255792825586,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dịch",
+    "type": "THUỐC",
+    "position": [
+      359,
+      363
+    ],
+    "confidence": 0.8482317924499512,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      448,
+      458
+    ],
+    "confidence": 0.996859093507131,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "triệu chứng chèn ép vùng cổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      536,
+      563
+    ],
+    "confidence": 0.930130705458459,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "khó nuốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      568,
+      576
+    ],
+    "confidence": 0.9391614377498627,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      578,
+      585
+    ],
+    "confidence": 0.9968741834163666,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      712,
+      716
+    ],
+    "confidence": 0.9845870733261108,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      895,
+      905
+    ],
+    "confidence": 0.7455681827333238,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

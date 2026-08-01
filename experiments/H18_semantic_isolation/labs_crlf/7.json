@@ -1,0 +1,174 @@
+[
+  {
+    "text": "Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [53, 124]
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [132, 153]
+  },
+  {
+    "text": "seroquel",
+    "type": "THUỐC",
+    "candidates": ["83553"],
+    "assertions": ["isHistorical"],
+    "position": [194, 202]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [241, 250]
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [328, 349]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [408, 413]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [475, 480]
+  },
+  {
+    "text": "Lú lẫn từng đợt gần đây",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [488, 511]
+  },
+  {
+    "text": "cảm giác chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [519, 537]
+  },
+  {
+    "text": "khó khăn khi nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [545, 566]
+  },
+  {
+    "text": "rối loạn thị giác, nhìn thấy con cái mình ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [574, 625]
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [633, 649]
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [651, 667]
+  },
+  {
+    "text": "Ảo thanh (AH) (ảo giác thính giác)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [676, 710]
+  },
+  {
+    "text": "tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [744, 828]
+  },
+  {
+    "text": "Lú lẫn: từng đợt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [836, 852]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [860, 869]
+  },
+  {
+    "text": "Khó khăn về thị lực gần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [877, 900]
+  },
+  {
+    "text": "rối loạn thị giác: nhìn thấy con cái ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [908, 954]
+  },
+  {
+    "text": "ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [962, 1033]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1114, 1119]
+  },
+  {
+    "text": "chụp ct sọ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1305, 1315]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1388, 1408]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1658, 1663]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1789, 1809]
+  },
+  {
+    "text": "chọc dò dịch não tủy là âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1789, 1820]
+  },
+  {
+    "text": "chụp ct sọ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1854, 1864]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1953, 1973]
+  }
+]

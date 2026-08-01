@@ -1,0 +1,24 @@
+{
+  "records": 100,
+  "entity_counts": {
+    "THUỐC": 167,
+    "CHẨN_ĐOÁN": 411,
+    "TRIỆU_CHỨNG": 1150,
+    "TÊN_XÉT_NGHIỆM": 340,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 235,
+    "THÔNG_TIN_BỆNH_NHÂN": 5
+  },
+  "changed_records": 74,
+  "changed_assertions": 226,
+  "errors": [],
+  "source": "output_qwen3_hybrid",
+  "output": "output_v4_assertion_preserve",
+  "preserved_fields": [
+    "text",
+    "type",
+    "position",
+    "candidates"
+  ],
+  "offline": true,
+  "elapsed_seconds": 0.195
+}

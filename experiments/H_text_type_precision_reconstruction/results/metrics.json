@@ -1,0 +1,34 @@
+{
+  "baseline": "output_v6_structural",
+  "candidate": "output_v10_research_precision",
+  "reviewed_holdout": {
+    "records": 9,
+    "gold_entities": 40,
+    "strict_precision": 1.0,
+    "strict_recall": 1.0,
+    "strict_f1": 1.0,
+    "warning": "saturated and touched by prior rule development; not an unbiased estimate"
+  },
+  "official_fixture": {
+    "entities": 19,
+    "text_score": 1.0,
+    "assertions_score": 1.0,
+    "candidates_score": 1.0,
+    "final_score": 1.0
+  },
+  "changes": {
+    "records_changed": 56,
+    "removed_spans": 43,
+    "added_spans": 4,
+    "assertion_changes": 173
+  },
+  "candidate_entity_count": 2215,
+  "baseline_entity_count": 2254,
+  "validator_errors": 0,
+  "unit_tests": {
+    "passed": 28,
+    "failed": 0
+  },
+  "deterministic_directory_rebuild": true,
+  "zip_sha256": "45912c7cf9b56410f06d97c2895115f51db198932efc2e9127fbe2a3d435af1e"
+}

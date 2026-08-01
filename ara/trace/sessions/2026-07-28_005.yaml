@@ -1,0 +1,22 @@
+id: "2026-07-28_005"
+date: "2026-07-28"
+title: "Primary i2b2 guideline extract"
+provenance: ai-executed
+events:
+  - type: experiment
+    description: >
+      Opened the official i2b2/VA Concept and Assertion Annotation Guideline
+      PDFs and distilled actionable boundary, list, occurrence, header, and
+      assertion-precedence rules into a literature note.
+    evidence:
+      - "literature/i2b2_guideline_extract.md"
+      - "https://www.i2b2.org/NLP/Relations/assets/Concept%20Annotation%20Guideline.pdf"
+      - "https://www.i2b2.org/NLP/Relations/assets/Assertion%20Annotation%20Guideline.pdf"
+  - type: decision
+    description: >
+      Keep this as an independent policy prior only; do not generate or submit
+      an artifact because BTC's multilabel assertions and historical-drug
+      behavior are not isomorphic to i2b2.
+outcome: >
+  H10 is strengthened as a boundary/scope prior with explicit source
+  provenance. No leaderboard submission was made.

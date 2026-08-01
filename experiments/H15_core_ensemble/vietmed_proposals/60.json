@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Trào ngược",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      149,
+      159
+    ],
+    "confidence": 0.9965211749076843,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "trào ngược",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      254,
+      264
+    ],
+    "confidence": 0.853415290514628,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "triệu chứng trào ngược",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      528,
+      550
+    ],
+    "confidence": 0.9968029620155454,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      590,
+      599
+    ],
+    "confidence": 0.9706027656793594,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thoát vị",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      638,
+      646
+    ],
+    "confidence": 0.6317175115857806,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

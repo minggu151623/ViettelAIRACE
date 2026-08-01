@@ -1,0 +1,446 @@
+[
+  {
+    "text": "Bệnh túi thừa",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      53,
+      66
+    ],
+    "confidence": 0.6952585776646932,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "non",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      77,
+      80
+    ],
+    "confidence": 0.4868845045566559,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      88,
+      93
+    ],
+    "confidence": 0.4306849241256714,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xe",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      128,
+      130
+    ],
+    "confidence": 0.3800607919692993,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "colace",
+    "type": "THUỐC",
+    "position": [
+      175,
+      181
+    ],
+    "confidence": 0.5946260243654251,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      230,
+      238
+    ],
+    "confidence": 0.7434118986129761,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau hố chậu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      295,
+      306
+    ],
+    "confidence": 0.7196428179740906,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      355,
+      362
+    ],
+    "confidence": 0.701587438583374,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phân có vẻ thành khuôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      459,
+      481
+    ],
+    "confidence": 0.44815694689750674,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau hố chậu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      535,
+      546
+    ],
+    "confidence": 0.7234721183776855,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      618,
+      625
+    ],
+    "confidence": 0.6516972482204437,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      655,
+      662
+    ],
+    "confidence": 0.6500223875045776,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      695,
+      698
+    ],
+    "confidence": 0.639629065990448,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      743,
+      751
+    ],
+    "confidence": 0.751452624797821,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      758,
+      765
+    ],
+    "confidence": 0.7551192939281464,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      772,
+      780
+    ],
+    "confidence": 0.7547301948070526,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau hố chậu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      820,
+      831
+    ],
+    "confidence": 0.7082496086756388,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cơn đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      859,
+      866
+    ],
+    "confidence": 0.6289140582084656,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      896,
+      903
+    ],
+    "confidence": 0.6566265424092611,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      933,
+      941
+    ],
+    "confidence": 0.7519295811653137,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      1018,
+      1025
+    ],
+    "confidence": 0.6665574113527933,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      1080,
+      1087
+    ],
+    "confidence": 0.6609571278095245,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau vẫn tiếp diễn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1137,
+      1154
+    ],
+    "confidence": 0.5516779124736786,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "T97.8",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1253,
+      1258
+    ],
+    "confidence": 0.3521827757358551,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1260,
+      1268
+    ],
+    "confidence": 0.4151317775249481,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "84",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1269,
+      1271
+    ],
+    "confidence": 0.2859210968017578,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "huyết áp 15670",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1273,
+      1287
+    ],
+    "confidence": 0.3658788502216339,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhịp thở 20",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1289,
+      1300
+    ],
+    "confidence": 0.34899477163950604,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "độ bão hòa oxy 99",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1302,
+      1319
+    ],
+    "confidence": 0.3398128390312195,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khí trời",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1328,
+      1336
+    ],
+    "confidence": 0.28665193915367126,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thiếu máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1366,
+      1375
+    ],
+    "confidence": 0.4090680629014969,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hồng cầu nhỏ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1376,
+      1388
+    ],
+    "confidence": 0.35804516077041626,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "27.2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1392,
+      1396
+    ],
+    "confidence": 0.3157816429932912,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bun/creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1403,
+      1417
+    ],
+    "confidence": 0.3896235177914302,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct bụng, chậu, không thuốc cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1450,
+      1491
+    ],
+    "confidence": 0.4448765109885823,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm túi mật cấp tính không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1567,
+      1605
+    ],
+    "confidence": 0.6886337324976921,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm túi mật cấp tính không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1638,
+      1676
+    ],
+    "confidence": 0.6811321303248405,
+    "source": "bami_v15_weighted",
+    "assertions": [],
+    "candidates": []
+  }
+]

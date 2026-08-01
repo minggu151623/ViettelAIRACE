@@ -1,0 +1,76 @@
+[
+  {
+    "text": "tiểu tiện không tự chủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      70,
+      92
+    ],
+    "confidence": 0.9878446081606279,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      96,
+      98
+    ],
+    "confidence": 0.893948495388031,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      177,
+      186
+    ],
+    "confidence": 0.995170921087265,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tự chủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      193,
+      199
+    ],
+    "confidence": 0.5905247688293457,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "khám thực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      294,
+      303
+    ],
+    "confidence": 0.849533200263977,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khối cứng trong",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      321,
+      336
+    ],
+    "confidence": 0.9417311613048825,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      25,
+      32
+    ],
+    "confidence": 0.9979813893636068,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "mãn tính",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      33,
+      41
+    ],
+    "confidence": 0.9703403881617955,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      48,
+      55
+    ],
+    "confidence": 0.9985373892954418,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      76
+    ],
+    "confidence": 0.9977815570412101,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11.9"
+    ]
+  },
+  {
+    "text": "ngừng thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      113,
+      122
+    ],
+    "confidence": 0.9963310807943344,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      154,
+      161
+    ],
+    "confidence": 0.9984796047210693,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "furosemide",
+    "type": "THUỐC",
+    "position": [
+      197,
+      207
+    ],
+    "confidence": 0.8229803383350373,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "4603"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      256,
+      263
+    ],
+    "confidence": 0.9982026815414429,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      362,
+      369
+    ],
+    "confidence": 0.9984946250915527,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      441,
+      448
+    ],
+    "confidence": 0.9983270168304443,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "căng cứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      495,
+      504
+    ],
+    "confidence": 0.9981960356235504,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      582,
+      584
+    ],
+    "confidence": 0.9925788044929504,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J44.9"
+    ]
+  },
+  {
+    "text": "đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      588,
+      597
+    ],
+    "confidence": 0.9123321026563644,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "căng cứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      685,
+      694
+    ],
+    "confidence": 0.9976355135440826,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "căng cứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      737,
+      746
+    ],
+    "confidence": 0.961949422955513,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      751,
+      755
+    ],
+    "confidence": 0.7252625226974487,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "căng cứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      798,
+      807
+    ],
+    "confidence": 0.9775200039148331,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      877,
+      884
+    ],
+    "confidence": 0.9983726441860199,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      886,
+      888
+    ],
+    "confidence": 0.9966663718223572,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      892,
+      901
+    ],
+    "confidence": 0.8741304948925972,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      912,
+      915
+    ],
+    "confidence": 0.9875999291737875,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù chi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      917,
+      924
+    ],
+    "confidence": 0.9822956323623657,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      997,
+      1002
+    ],
+    "confidence": 0.9311692118644714,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1014,
+      1019
+    ],
+    "confidence": 0.9836328625679016,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1083,
+      1092
+    ],
+    "confidence": 0.9918559849262237,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1378,
+      1388
+    ],
+    "confidence": 0.9975038369496664,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sụn chêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1389,
+      1397
+    ],
+    "confidence": 0.9045303761959076,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1530,
+      1534
+    ],
+    "confidence": 0.9899740219116211,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1626,
+      1630
+    ],
+    "confidence": 0.9857235550880432,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "position": [
+      1708,
+      1721
+    ],
+    "confidence": 0.9610138535499573,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1536467"
+    ]
+  },
+  {
+    "text": "albuteroli",
+    "type": "THUỐC",
+    "position": [
+      1737,
+      1747
+    ],
+    "confidence": 0.7226192235946656,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tropium",
+    "type": "THUỐC",
+    "position": [
+      1750,
+      1757
+    ],
+    "confidence": 0.565676212310791,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "type": "THUỐC",
+    "position": [
+      1783,
+      1810
+    ],
+    "confidence": 0.9251351820098029,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "1743704"
+    ]
+  }
+]

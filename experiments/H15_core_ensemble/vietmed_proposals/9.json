@@ -1,0 +1,198 @@
+[
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      21,
+      37
+    ],
+    "confidence": 0.9290471959114074,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "u cơ trơn tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      56
+    ],
+    "confidence": 0.9636379501649313,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "D25.9"
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      77,
+      82
+    ],
+    "confidence": 0.9936814308166504,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "iron",
+    "type": "THUỐC",
+    "position": [
+      104,
+      108
+    ],
+    "confidence": 0.9003041386604309,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "90176"
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      165,
+      173
+    ],
+    "confidence": 0.9270291243280683,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      182,
+      190
+    ],
+    "confidence": 0.9984336750847953,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      234,
+      248
+    ],
+    "confidence": 0.897629806628594,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      255,
+      263
+    ],
+    "confidence": 0.9981844254902431,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      312,
+      319
+    ],
+    "confidence": 0.9689018527666727,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "u xơ tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      542,
+      554
+    ],
+    "confidence": 0.9891247284231763,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phòng thí nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      676,
+      692
+    ],
+    "confidence": 0.6841401606798172,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      724,
+      733
+    ],
+    "confidence": 0.9810355231165886,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "siêu âm tử cung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      749,
+      764
+    ],
+    "confidence": 0.9655232836329748,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "U cơ trơn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      829,
+      838
+    ],
+    "confidence": 0.9879879276588481,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "D25.9"
+    ]
+  },
+  {
+    "text": "giãn bể thận",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1057,
+      1069
+    ],
+    "confidence": 0.7976475520567461,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  }
+]

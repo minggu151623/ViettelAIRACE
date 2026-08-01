@@ -1,0 +1,593 @@
+[
+  {
+    "text": "nam 17 tuổi",
+    "type": "THÔNG_TIN_BỆNH_NHÂN",
+    "assertions": [],
+    "position": [
+      10,
+      21
+    ]
+  },
+  {
+    "text": "tiểu ít",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      73,
+      80
+    ]
+  },
+  {
+    "text": "hội chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F10.20"
+    ],
+    "assertions": [],
+    "position": [
+      148,
+      157
+    ]
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      187,
+      204
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      308,
+      311
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      324,
+      327
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      381,
+      384
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      408,
+      411
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      421,
+      424
+    ]
+  },
+  {
+    "text": "Protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      448,
+      455
+    ]
+  },
+  {
+    "text": "Protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      473,
+      480
+    ]
+  },
+  {
+    "text": "Protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      488,
+      495
+    ]
+  },
+  {
+    "text": "Albumin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      505,
+      512
+    ]
+  },
+  {
+    "text": "Triglycerid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      529,
+      540
+    ]
+  },
+  {
+    "text": "Tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      557,
+      567
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      651,
+      658
+    ]
+  },
+  {
+    "text": "HC",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      664,
+      666
+    ]
+  },
+  {
+    "text": "sỏi",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      740,
+      743
+    ]
+  },
+  {
+    "text": "viêm cầu thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      777,
+      790
+    ]
+  },
+  {
+    "text": "suy thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      808,
+      816
+    ]
+  },
+  {
+    "text": "Ure",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      818,
+      821
+    ]
+  },
+  {
+    "text": "Creatinin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      835,
+      844
+    ]
+  },
+  {
+    "text": "mol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      854,
+      857
+    ]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      874,
+      883
+    ]
+  },
+  {
+    "text": "HC",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      885,
+      887
+    ]
+  },
+  {
+    "text": "HST",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      899,
+      902
+    ]
+  },
+  {
+    "text": "Na",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      930,
+      932
+    ]
+  },
+  {
+    "text": "141",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      935,
+      938
+    ]
+  },
+  {
+    "text": "ol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      941,
+      943
+    ]
+  },
+  {
+    "text": "K+",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      947,
+      949
+    ]
+  },
+  {
+    "text": "ol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      955,
+      957
+    ]
+  },
+  {
+    "text": "Cl",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      961,
+      963
+    ]
+  },
+  {
+    "text": "106 mmol/l",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      966,
+      976
+    ]
+  },
+  {
+    "text": "Ca++",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      978,
+      982
+    ]
+  },
+  {
+    "text": "ol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      988,
+      990
+    ]
+  },
+  {
+    "text": "viêm họng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical",
+      "isNegated"
+    ],
+    "position": [
+      1020,
+      1029
+    ]
+  },
+  {
+    "text": "viêm nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1035,
+      1045
+    ]
+  },
+  {
+    "text": "Chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1091,
+      1100
+    ]
+  },
+  {
+    "text": "Viêm cầu thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1102,
+      1119
+    ]
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1122,
+      1139
+    ]
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1165,
+      1175
+    ]
+  },
+  {
+    "text": "tái phát",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1192,
+      1200
+    ]
+  },
+  {
+    "text": "protein niệu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1281,
+      1293
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1299,
+      1306
+    ]
+  },
+  {
+    "text": "albumin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1312,
+      1319
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1396,
+      1403
+    ]
+  },
+  {
+    "text": "lipid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1430,
+      1435
+    ]
+  },
+  {
+    "text": "glucid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1442,
+      1448
+    ]
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1458,
+      1463
+    ]
+  },
+  {
+    "text": "lipid máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1571,
+      1580
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1592,
+      1599
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1608,
+      1613
+    ]
+  },
+  {
+    "text": "Medrol 16mg",
+    "type": "THUỐC",
+    "candidates": [
+      "207138"
+    ],
+    "assertions": [],
+    "position": [
+      1642,
+      1653
+    ]
+  },
+  {
+    "text": "Omez 20mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1697,
+      1706
+    ]
+  },
+  {
+    "text": "Furosemid 40 mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1741,
+      1756
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1908,
+      1911
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1972,
+      1979
+    ]
+  },
+  {
+    "text": "sỏi mật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1989,
+      1996
+    ]
+  },
+  {
+    "text": "10mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2015,
+      2019
+    ]
+  }
+]

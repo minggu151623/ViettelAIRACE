@@ -1,0 +1,100 @@
+[
+  {
+    "text": "Nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      45,
+      56
+    ],
+    "confidence": 0.9881834626197815,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "giãn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      148,
+      152
+    ],
+    "confidence": 0.7640740275382996,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kiểm tra sức khoẻ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      167,
+      184
+    ],
+    "confidence": 0.9479255484683172,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      225,
+      239
+    ],
+    "confidence": 0.9877448678016663,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tăng bạch cầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      243,
+      256
+    ],
+    "confidence": 0.5945504456758499,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      295,
+      302
+    ],
+    "confidence": 0.7639201680819193,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      498,
+      507
+    ],
+    "confidence": 0.9849281907081604,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      518,
+      525
+    ],
+    "confidence": 0.7780994375546774,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

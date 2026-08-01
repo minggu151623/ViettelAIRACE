@@ -1,0 +1,110 @@
+[
+  {
+    "text": "Giai đoạn IV Ung thư phổi không tế bào nhỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [68, 110]
+  },
+  {
+    "text": "Di căn não vùng trán phải dã phẫu thuật lấy u",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [118, 163]
+  },
+  {
+    "text": "Tắc mạch huyết khối tĩnh mạch chủ dưới (IVC) và tĩnh mạch chủ trên (SVC) phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [171, 248]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [256, 269]
+  },
+  {
+    "text": "Sa van hai lá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [277, 290]
+  },
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "candidates": ["856987"],
+    "assertions": ["isHistorical"],
+    "position": [390, 397]
+  },
+  {
+    "text": "đau bẹn trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [474, 486]
+  },
+  {
+    "text": "đau bắt đầu 3 ngày trước khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [565, 600]
+  },
+  {
+    "text": "đau ngày càng nặng hơn trong vài ngày tiếp theo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [609, 656]
+  },
+  {
+    "text": "đau cản trở việc đi lại của bà",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [665, 695]
+  },
+  {
+    "text": "đau bẹn trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [724, 736]
+  },
+  {
+    "text": "Lan tỏa: đôi khi lan ra bên hông trái, xuống đầu gối trái khi đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [794, 866]
+  },
+  {
+    "text": "Yếu tố làm nặng thêm: đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [874, 902]
+  },
+  {
+    "text": "Yếu tố làm giảm: vicodin (không thấy giảm đau)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [910, 956]
+  },
+  {
+    "text": "Triệu chứng kèm theo: Không có cảm giác tê, cảm giác châm chích, yếu hoặc cảm giác nặng ở chân trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [964, 1063]
+  },
+  {
+    "text": "Uống vicodin không thấy giảm đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1099, 1131]
+  },
+  {
+    "text": "Bầm máu vùng bẹn trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1185, 1206]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      37,
+      45
+    ],
+    "confidence": 0.9969541004725865,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      118,
+      126
+    ],
+    "confidence": 0.9968479105404445,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      136,
+      147
+    ],
+    "confidence": 0.9927510738372802,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      160,
+      166
+    ],
+    "confidence": 0.9916324138641357,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      302,
+      313
+    ],
+    "confidence": 0.9967156052589417,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      315,
+      322
+    ],
+    "confidence": 0.918710524837176,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mất ăn ngon",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      324,
+      335
+    ],
+    "confidence": 0.9679048466682435,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      347,
+      355
+    ],
+    "confidence": 0.9985109344124794,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "nhịp tim nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      418,
+      432
+    ],
+    "confidence": 0.9541012526868464,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "suy thận cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      476,
+      488
+    ],
+    "confidence": 0.998022122816606,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chẩn đoán",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      520,
+      529
+    ],
+    "confidence": 0.9876045286655426,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      548,
+      552
+    ],
+    "confidence": 0.6401054263114929,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "lớp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      557,
+      560
+    ],
+    "confidence": 0.650497555732727,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      578,
+      590
+    ],
+    "confidence": 0.9884164224971425,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

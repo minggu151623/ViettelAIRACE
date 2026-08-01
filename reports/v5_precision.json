@@ -1,0 +1,24 @@
+{
+  "records": 100,
+  "entity_counts": {
+    "THUỐC": 165,
+    "CHẨN_ĐOÁN": 411,
+    "TRIỆU_CHỨNG": 1150,
+    "TÊN_XÉT_NGHIỆM": 335,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 235,
+    "THÔNG_TIN_BỆNH_NHÂN": 2
+  },
+  "added_candidate_entities": 0,
+  "added_candidate_codes": {},
+  "removed_noise": {
+    "THÔNG_TIN_BỆNH_NHÂN": 3,
+    "TÊN_XÉT_NGHIỆM": 5,
+    "THUỐC": 2
+  },
+  "errors": [],
+  "source": "output_v4_assertion_preserve",
+  "aliases": "airace/resources/icd10cm_aliases_v5.json",
+  "enable_icd": false,
+  "output": "output_v5_precision",
+  "elapsed_seconds": 0.098
+}

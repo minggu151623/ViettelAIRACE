@@ -1,0 +1,186 @@
+[
+  {
+    "text": "bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      41
+    ],
+    "confidence": 0.9979997277259827,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      70
+    ],
+    "confidence": 0.9980358117156558,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10"
+    ]
+  },
+  {
+    "text": "bệnh gút",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      77,
+      85
+    ],
+    "confidence": 0.9984693020582198,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      107,
+      120
+    ],
+    "confidence": 0.9889089837670326,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ung thư đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      143,
+      160
+    ],
+    "confidence": 0.981878857565861,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C18.9"
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      167,
+      174
+    ],
+    "confidence": 0.9985373892954418,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "xơ gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      191,
+      197
+    ],
+    "confidence": 0.9973262786865235,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K74.60"
+    ]
+  },
+  {
+    "text": "tăng áp lực",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      208,
+      219
+    ],
+    "confidence": 0.9906429926554361,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "trướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      238,
+      244
+    ],
+    "confidence": 0.6001734137535095,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "tràn dịch màng phổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      248,
+      266
+    ],
+    "confidence": 0.8379284375393553,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": null
+  },
+  {
+    "text": "Thuốc",
+    "type": "THUỐC",
+    "position": [
+      273,
+      278
+    ],
+    "confidence": 0.9936614036560059,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "3L4",
+    "type": "THUỐC",
+    "position": [
+      461,
+      464
+    ],
+    "confidence": 0.6920448342959086,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dịch ổ",
+    "type": "THUỐC",
+    "position": [
+      479,
+      485
+    ],
+    "confidence": 0.5726128390857151,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  }
+]

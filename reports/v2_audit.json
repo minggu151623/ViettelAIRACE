@@ -1,0 +1,2541 @@
+{
+  "counts": {
+    "baseline": {
+      "THUỐC": 64,
+      "TRIỆU_CHỨNG": 564,
+      "CHẨN_ĐOÁN": 140,
+      "TÊN_XÉT_NGHIỆM": 107,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 43,
+      "THÔNG_TIN_BỆNH_NHÂN": 47
+    },
+    "precision": {
+      "THUỐC": 181,
+      "TRIỆU_CHỨNG": 564,
+      "CHẨN_ĐOÁN": 140,
+      "TÊN_XÉT_NGHIỆM": 107,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 43,
+      "THÔNG_TIN_BỆNH_NHÂN": 47
+    },
+    "recall": {
+      "THUỐC": 181,
+      "TRIỆU_CHỨNG": 691,
+      "CHẨN_ĐOÁN": 168,
+      "TÊN_XÉT_NGHIỆM": 107,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 43,
+      "THÔNG_TIN_BỆNH_NHÂN": 47
+    }
+  },
+  "new_precision_entities": 119,
+  "new_recall_entities": 248,
+  "precision_empty_candidates": 2,
+  "samples": {
+    "new_precision": [
+      {
+        "record": "5",
+        "text": "levophed",
+        "type": "THUỐC",
+        "candidates": [
+          "227559"
+        ],
+        "assertions": [],
+        "position": [
+          1360,
+          1368
+        ]
+      },
+      {
+        "record": "5",
+        "text": "propofol",
+        "type": "THUỐC",
+        "candidates": [
+          "8782"
+        ],
+        "assertions": [],
+        "position": [
+          1375,
+          1383
+        ]
+      },
+      {
+        "record": "5",
+        "text": "phentolamine",
+        "type": "THUỐC",
+        "candidates": [
+          "8153"
+        ],
+        "assertions": [],
+        "position": [
+          1408,
+          1420
+        ]
+      },
+      {
+        "record": "7",
+        "text": "seroquel",
+        "type": "THUỐC",
+        "candidates": [
+          "83553"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          190,
+          198
+        ]
+      },
+      {
+        "record": "12",
+        "text": "levofloxacin",
+        "type": "THUỐC",
+        "candidates": [
+          "82122"
+        ],
+        "assertions": [],
+        "position": [
+          876,
+          888
+        ]
+      },
+      {
+        "record": "12",
+        "text": "tylenol",
+        "type": "THUỐC",
+        "candidates": [
+          "202433"
+        ],
+        "assertions": [],
+        "position": [
+          975,
+          982
+        ]
+      },
+      {
+        "record": "13",
+        "text": "bactrim",
+        "type": "THUỐC",
+        "candidates": [
+          "151399"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          382,
+          389
+        ]
+      },
+      {
+        "record": "13",
+        "text": "bactrim",
+        "type": "THUỐC",
+        "candidates": [
+          "151399"
+        ],
+        "assertions": [],
+        "position": [
+          1887,
+          1894
+        ]
+      },
+      {
+        "record": "17",
+        "text": "tylenol",
+        "type": "THUỐC",
+        "candidates": [
+          "202433"
+        ],
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          367,
+          374
+        ]
+      },
+      {
+        "record": "17",
+        "text": "advil",
+        "type": "THUỐC",
+        "candidates": [
+          "153010"
+        ],
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          378,
+          383
+        ]
+      },
+      {
+        "record": "20",
+        "text": "desmopressin",
+        "type": "THUỐC",
+        "candidates": [
+          "3251"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          405,
+          417
+        ]
+      },
+      {
+        "record": "24",
+        "text": "cephalexin",
+        "type": "THUỐC",
+        "candidates": [
+          "2231"
+        ],
+        "assertions": [],
+        "position": [
+          714,
+          724
+        ]
+      },
+      {
+        "record": "24",
+        "text": "vancomycin",
+        "type": "THUỐC",
+        "candidates": [
+          "11124"
+        ],
+        "assertions": [],
+        "position": [
+          1351,
+          1361
+        ]
+      },
+      {
+        "record": "28",
+        "text": "eliquis",
+        "type": "THUỐC",
+        "candidates": [
+          "1364436"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          358,
+          365
+        ]
+      },
+      {
+        "record": "30",
+        "text": "gleevec",
+        "type": "THUỐC",
+        "candidates": [
+          "282386"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          190,
+          197
+        ]
+      },
+      {
+        "record": "30",
+        "text": "allopurinol",
+        "type": "THUỐC",
+        "candidates": [
+          "519"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          239,
+          250
+        ]
+      },
+      {
+        "record": "30",
+        "text": "gleevec",
+        "type": "THUỐC",
+        "candidates": [
+          "282386"
+        ],
+        "assertions": [],
+        "position": [
+          751,
+          758
+        ]
+      },
+      {
+        "record": "30",
+        "text": "allopurinol",
+        "type": "THUỐC",
+        "candidates": [
+          "519"
+        ],
+        "assertions": [],
+        "position": [
+          797,
+          808
+        ]
+      },
+      {
+        "record": "30",
+        "text": "gleevec",
+        "type": "THUỐC",
+        "candidates": [
+          "282386"
+        ],
+        "assertions": [],
+        "position": [
+          1324,
+          1331
+        ]
+      },
+      {
+        "record": "30",
+        "text": "allopurinol",
+        "type": "THUỐC",
+        "candidates": [
+          "519"
+        ],
+        "assertions": [],
+        "position": [
+          1369,
+          1380
+        ]
+      },
+      {
+        "record": "32",
+        "text": "albuterol",
+        "type": "THUỐC",
+        "candidates": [
+          "435"
+        ],
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          1465,
+          1474
+        ]
+      },
+      {
+        "record": "33",
+        "text": "bumetanide 2mg iv",
+        "type": "THUỐC",
+        "candidates": [
+          "197419"
+        ],
+        "assertions": [],
+        "position": [
+          1401,
+          1418
+        ]
+      },
+      {
+        "record": "33",
+        "text": "vancomycin",
+        "type": "THUỐC",
+        "candidates": [
+          "11124"
+        ],
+        "assertions": [],
+        "position": [
+          1434,
+          1444
+        ]
+      },
+      {
+        "record": "33",
+        "text": "levofloxacin 750mg iv",
+        "type": "THUỐC",
+        "candidates": [
+          "311296"
+        ],
+        "assertions": [],
+        "position": [
+          1467,
+          1488
+        ]
+      },
+      {
+        "record": "33",
+        "text": "methylprednisolone 125mg iv",
+        "type": "THUỐC",
+        "candidates": [
+          "1743704"
+        ],
+        "assertions": [],
+        "position": [
+          1579,
+          1606
+        ]
+      },
+      {
+        "record": "35",
+        "text": "gleevec",
+        "type": "THUỐC",
+        "candidates": [
+          "282386"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          99,
+          106
+        ]
+      },
+      {
+        "record": "35",
+        "text": "gleevec",
+        "type": "THUỐC",
+        "candidates": [
+          "282386"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          381,
+          388
+        ]
+      },
+      {
+        "record": "35",
+        "text": "gleevec",
+        "type": "THUỐC",
+        "candidates": [
+          "282386"
+        ],
+        "assertions": [],
+        "position": [
+          1047,
+          1054
+        ]
+      },
+      {
+        "record": "35",
+        "text": "gleevec",
+        "type": "THUỐC",
+        "candidates": [
+          "282386"
+        ],
+        "assertions": [
+          "isFamily",
+          "isNegated"
+        ],
+        "position": [
+          1718,
+          1725
+        ]
+      },
+      {
+        "record": "36",
+        "text": "azathioprine",
+        "type": "THUỐC",
+        "candidates": [
+          "1256"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          208,
+          220
+        ]
+      },
+      {
+        "record": "36",
+        "text": "prograf",
+        "type": "THUỐC",
+        "candidates": [
+          "196463"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          233,
+          240
+        ]
+      },
+      {
+        "record": "36",
+        "text": "cellcept",
+        "type": "THUỐC",
+        "candidates": [
+          "152633"
+        ],
+        "assertions": [],
+        "position": [
+          294,
+          302
+        ]
+      },
+      {
+        "record": "36",
+        "text": "cellcept",
+        "type": "THUỐC",
+        "candidates": [
+          "152633"
+        ],
+        "assertions": [],
+        "position": [
+          324,
+          332
+        ]
+      },
+      {
+        "record": "36",
+        "text": "cellcept",
+        "type": "THUỐC",
+        "candidates": [
+          "152633"
+        ],
+        "assertions": [],
+        "position": [
+          653,
+          661
+        ]
+      },
+      {
+        "record": "36",
+        "text": "prograf",
+        "type": "THUỐC",
+        "candidates": [
+          "196463"
+        ],
+        "assertions": [],
+        "position": [
+          893,
+          900
+        ]
+      },
+      {
+        "record": "36",
+        "text": "cellcept",
+        "type": "THUỐC",
+        "candidates": [
+          "152633"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          1385,
+          1393
+        ]
+      },
+      {
+        "record": "36",
+        "text": "prograf",
+        "type": "THUỐC",
+        "candidates": [
+          "196463"
+        ],
+        "assertions": [],
+        "position": [
+          1469,
+          1476
+        ]
+      },
+      {
+        "record": "37",
+        "text": "Torsemide",
+        "type": "THUỐC",
+        "candidates": [
+          "38413"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          224,
+          233
+        ]
+      },
+      {
+        "record": "37",
+        "text": "Insulin glargine",
+        "type": "THUỐC",
+        "candidates": [
+          "274783"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          274,
+          290
+        ]
+      },
+      {
+        "record": "37",
+        "text": "Isosorbide",
+        "type": "THUỐC",
+        "candidates": [
+          "6057"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          349,
+          359
+        ]
+      },
+      {
+        "record": "37",
+        "text": "Rosuvastatin",
+        "type": "THUỐC",
+        "candidates": [
+          "301542"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          405,
+          417
+        ]
+      },
+      {
+        "record": "37",
+        "text": "Crestor",
+        "type": "THUỐC",
+        "candidates": [
+          "320864"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          419,
+          426
+        ]
+      },
+      {
+        "record": "37",
+        "text": "Carvedilol",
+        "type": "THUỐC",
+        "candidates": [
+          "20352"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          473,
+          483
+        ]
+      },
+      {
+        "record": "37",
+        "text": "Torsemide",
+        "type": "THUỐC",
+        "candidates": [
+          "38413"
+        ],
+        "assertions": [],
+        "position": [
+          741,
+          750
+        ]
+      },
+      {
+        "record": "37",
+        "text": "torsemide",
+        "type": "THUỐC",
+        "candidates": [
+          "38413"
+        ],
+        "assertions": [],
+        "position": [
+          805,
+          814
+        ]
+      },
+      {
+        "record": "37",
+        "text": "isosorbide",
+        "type": "THUỐC",
+        "candidates": [
+          "6057"
+        ],
+        "assertions": [],
+        "position": [
+          1040,
+          1050
+        ]
+      },
+      {
+        "record": "37",
+        "text": "crestor",
+        "type": "THUỐC",
+        "candidates": [
+          "320864"
+        ],
+        "assertions": [],
+        "position": [
+          1052,
+          1059
+        ]
+      },
+      {
+        "record": "37",
+        "text": "carvedilol",
+        "type": "THUỐC",
+        "candidates": [
+          "20352"
+        ],
+        "assertions": [],
+        "position": [
+          1061,
+          1071
+        ]
+      },
+      {
+        "record": "37",
+        "text": "isosorbide",
+        "type": "THUỐC",
+        "candidates": [
+          "6057"
+        ],
+        "assertions": [],
+        "position": [
+          1102,
+          1112
+        ]
+      },
+      {
+        "record": "37",
+        "text": "crestor",
+        "type": "THUỐC",
+        "candidates": [
+          "320864"
+        ],
+        "assertions": [],
+        "position": [
+          1114,
+          1121
+        ]
+      },
+      {
+        "record": "37",
+        "text": "carvedilol",
+        "type": "THUỐC",
+        "candidates": [
+          "20352"
+        ],
+        "assertions": [],
+        "position": [
+          1123,
+          1133
+        ]
+      },
+      {
+        "record": "40",
+        "text": "tylenol",
+        "type": "THUỐC",
+        "candidates": [
+          "202433"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          176,
+          183
+        ]
+      },
+      {
+        "record": "40",
+        "text": "mucinex",
+        "type": "THUỐC",
+        "candidates": [
+          "352777"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          190,
+          197
+        ]
+      },
+      {
+        "record": "40",
+        "text": "tylenol",
+        "type": "THUỐC",
+        "candidates": [
+          "202433"
+        ],
+        "assertions": [],
+        "position": [
+          1243,
+          1250
+        ]
+      },
+      {
+        "record": "40",
+        "text": "mucinex",
+        "type": "THUỐC",
+        "candidates": [
+          "352777"
+        ],
+        "assertions": [],
+        "position": [
+          1254,
+          1261
+        ]
+      },
+      {
+        "record": "42",
+        "text": "methadone",
+        "type": "THUỐC",
+        "candidates": [
+          "6813"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          162,
+          171
+        ]
+      },
+      {
+        "record": "43",
+        "text": "dobutamine",
+        "type": "THUỐC",
+        "candidates": [
+          "3616"
+        ],
+        "assertions": [],
+        "position": [
+          649,
+          659
+        ]
+      },
+      {
+        "record": "43",
+        "text": "dobutamine",
+        "type": "THUỐC",
+        "candidates": [
+          "3616"
+        ],
+        "assertions": [],
+        "position": [
+          1274,
+          1284
+        ]
+      },
+      {
+        "record": "44",
+        "text": "morphine",
+        "type": "THUỐC",
+        "candidates": [
+          "7052"
+        ],
+        "assertions": [],
+        "position": [
+          1740,
+          1748
+        ]
+      },
+      {
+        "record": "44",
+        "text": "dilaudid",
+        "type": "THUỐC",
+        "candidates": [
+          "224913"
+        ],
+        "assertions": [],
+        "position": [
+          1760,
+          1768
+        ]
+      },
+      {
+        "record": "44",
+        "text": "diltiazem",
+        "type": "THUỐC",
+        "candidates": [
+          "3443"
+        ],
+        "assertions": [],
+        "position": [
+          1813,
+          1822
+        ]
+      },
+      {
+        "record": "50",
+        "text": "albuterol",
+        "type": "THUỐC",
+        "candidates": [
+          "435"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          159,
+          168
+        ]
+      },
+      {
+        "record": "50",
+        "text": "prednisone",
+        "type": "THUỐC",
+        "candidates": [
+          "8640"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          747,
+          757
+        ]
+      },
+      {
+        "record": "50",
+        "text": "prednisone 40 mg",
+        "type": "THUỐC",
+        "candidates": [
+          "8640"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          915,
+          931
+        ]
+      },
+      {
+        "record": "50",
+        "text": "prednisone",
+        "type": "THUỐC",
+        "candidates": [
+          "8640"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          1010,
+          1020
+        ]
+      },
+      {
+        "record": "50",
+        "text": "prednisone",
+        "type": "THUỐC",
+        "candidates": [
+          "8640"
+        ],
+        "assertions": [],
+        "position": [
+          1444,
+          1454
+        ]
+      },
+      {
+        "record": "50",
+        "text": "prednisone 40 mg",
+        "type": "THUỐC",
+        "candidates": [
+          "8640"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          1561,
+          1577
+        ]
+      },
+      {
+        "record": "50",
+        "text": "combivent",
+        "type": "THUỐC",
+        "candidates": [
+          "151539"
+        ],
+        "assertions": [],
+        "position": [
+          1910,
+          1919
+        ]
+      },
+      {
+        "record": "50",
+        "text": "magnesium",
+        "type": "THUỐC",
+        "candidates": [
+          "6574"
+        ],
+        "assertions": [],
+        "position": [
+          1954,
+          1963
+        ]
+      },
+      {
+        "record": "50",
+        "text": "prednisone",
+        "type": "THUỐC",
+        "candidates": [
+          "8640"
+        ],
+        "assertions": [],
+        "position": [
+          1979,
+          1989
+        ]
+      },
+      {
+        "record": "52",
+        "text": "Augmentin",
+        "type": "THUỐC",
+        "candidates": [
+          "151392"
+        ],
+        "assertions": [],
+        "position": [
+          630,
+          639
+        ]
+      },
+      {
+        "record": "54",
+        "text": "vancomycin",
+        "type": "THUỐC",
+        "candidates": [
+          "11124"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          298,
+          308
+        ]
+      },
+      {
+        "record": "54",
+        "text": "ceftazidime",
+        "type": "THUỐC",
+        "candidates": [
+          "2191"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          311,
+          322
+        ]
+      },
+      {
+        "record": "54",
+        "text": "amiodarone",
+        "type": "THUỐC",
+        "candidates": [
+          "703"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          325,
+          335
+        ]
+      },
+      {
+        "record": "54",
+        "text": "vancomycin",
+        "type": "THUỐC",
+        "candidates": [
+          "11124"
+        ],
+        "assertions": [],
+        "position": [
+          728,
+          738
+        ]
+      },
+      {
+        "record": "54",
+        "text": "ceftazidime",
+        "type": "THUỐC",
+        "candidates": [
+          "2191"
+        ],
+        "assertions": [],
+        "position": [
+          776,
+          787
+        ]
+      },
+      {
+        "record": "54",
+        "text": "amiodarone",
+        "type": "THUỐC",
+        "candidates": [
+          "703"
+        ],
+        "assertions": [],
+        "position": [
+          950,
+          960
+        ]
+      },
+      {
+        "record": "63",
+        "text": "colace",
+        "type": "THUỐC",
+        "candidates": [
+          "82000"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          175,
+          181
+        ]
+      },
+      {
+        "record": "63",
+        "text": "tylenol",
+        "type": "THUỐC",
+        "candidates": [
+          "202433"
+        ],
+        "assertions": [],
+        "position": [
+          618,
+          625
+        ]
+      },
+      {
+        "record": "63",
+        "text": "tylenol",
+        "type": "THUỐC",
+        "candidates": [
+          "202433"
+        ],
+        "assertions": [],
+        "position": [
+          655,
+          662
+        ]
+      },
+      {
+        "record": "63",
+        "text": "tylenol",
+        "type": "THUỐC",
+        "candidates": [
+          "202433"
+        ],
+        "assertions": [],
+        "position": [
+          896,
+          903
+        ]
+      },
+      {
+        "record": "63",
+        "text": "tylenol",
+        "type": "THUỐC",
+        "candidates": [
+          "202433"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          1018,
+          1025
+        ]
+      },
+      {
+        "record": "63",
+        "text": "tylenol",
+        "type": "THUỐC",
+        "candidates": [
+          "202433"
+        ],
+        "assertions": [],
+        "position": [
+          1080,
+          1087
+        ]
+      },
+      {
+        "record": "64",
+        "text": "percocet",
+        "type": "THUỐC",
+        "candidates": [
+          "42844"
+        ],
+        "assertions": [],
+        "position": [
+          273,
+          281
+        ]
+      },
+      {
+        "record": "64",
+        "text": "percocet",
+        "type": "THUỐC",
+        "candidates": [
+          "42844"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          582,
+          590
+        ]
+      },
+      {
+        "record": "64",
+        "text": "percocet",
+        "type": "THUỐC",
+        "candidates": [
+          "42844"
+        ],
+        "assertions": [],
+        "position": [
+          1400,
+          1408
+        ]
+      },
+      {
+        "record": "66",
+        "text": "ertapenem",
+        "type": "THUỐC",
+        "candidates": [
+          "325642"
+        ],
+        "assertions": [],
+        "position": [
+          587,
+          596
+        ]
+      },
+      {
+        "record": "73",
+        "text": "clopidogrel",
+        "type": "THUỐC",
+        "candidates": [
+          "32968"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          787,
+          798
+        ]
+      },
+      {
+        "record": "73",
+        "text": "prasugrel",
+        "type": "THUỐC",
+        "candidates": [
+          "613391"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          800,
+          809
+        ]
+      },
+      {
+        "record": "73",
+        "text": "clopidogrel",
+        "type": "THUỐC",
+        "candidates": [
+          "32968"
+        ],
+        "assertions": [],
+        "position": [
+          822,
+          833
+        ]
+      },
+      {
+        "record": "73",
+        "text": "ranexa 500mg daily",
+        "type": "THUỐC",
+        "candidates": [
+          "860738"
+        ],
+        "assertions": [],
+        "position": [
+          1025,
+          1043
+        ]
+      },
+      {
+        "record": "74",
+        "text": "cipro",
+        "type": "THUỐC",
+        "candidates": [
+          "203563"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          165,
+          170
+        ]
+      },
+      {
+        "record": "74",
+        "text": "bactrim",
+        "type": "THUỐC",
+        "candidates": [
+          "151399"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          177,
+          184
+        ]
+      },
+      {
+        "record": "74",
+        "text": "morphine",
+        "type": "THUỐC",
+        "candidates": [
+          "7052"
+        ],
+        "assertions": [],
+        "position": [
+          648,
+          656
+        ]
+      },
+      {
+        "record": "74",
+        "text": "cipro",
+        "type": "THUỐC",
+        "candidates": [
+          "203563"
+        ],
+        "assertions": [],
+        "position": [
+          1012,
+          1017
+        ]
+      },
+      {
+        "record": "74",
+        "text": "bactrim",
+        "type": "THUỐC",
+        "candidates": [
+          "151399"
+        ],
+        "assertions": [],
+        "position": [
+          1021,
+          1028
+        ]
+      },
+      {
+        "record": "75",
+        "text": "ativan",
+        "type": "THUỐC",
+        "candidates": [
+          "202479"
+        ],
+        "assertions": [],
+        "position": [
+          1342,
+          1348
+        ]
+      },
+      {
+        "record": "75",
+        "text": "Lorazepam",
+        "type": "THUỐC",
+        "candidates": [
+          "6470"
+        ],
+        "assertions": [],
+        "position": [
+          1351,
+          1360
+        ]
+      },
+      {
+        "record": "75",
+        "text": "lovenox",
+        "type": "THUỐC",
+        "candidates": [
+          "225036"
+        ],
+        "assertions": [],
+        "position": [
+          1368,
+          1375
+        ]
+      },
+      {
+        "record": "76",
+        "text": "plavix",
+        "type": "THUỐC",
+        "candidates": [
+          "174742"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          355,
+          361
+        ]
+      }
+    ],
+    "new_recall": [
+      {
+        "record": "1",
+        "text": "Khó thở nhẹ khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          688,
+          707
+        ]
+      },
+      {
+        "record": "1",
+        "text": "Tăng đánh trống ngực",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          782,
+          802
+        ]
+      },
+      {
+        "record": "3",
+        "text": "ngất xỉu trong xe",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          533,
+          550
+        ]
+      },
+      {
+        "record": "3",
+        "text": "Không đánh trống ngực",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          690,
+          711
+        ]
+      },
+      {
+        "record": "3",
+        "text": "Không quầng sáng",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          714,
+          730
+        ]
+      },
+      {
+        "record": "3",
+        "text": "Không chóng mặt",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          733,
+          748
+        ]
+      },
+      {
+        "record": "3",
+        "text": "Không buồn nôn",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          751,
+          765
+        ]
+      },
+      {
+        "record": "3",
+        "text": "Không đổ mồ hôi",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          768,
+          783
+        ]
+      },
+      {
+        "record": "3",
+        "text": "khó thở khi gắng sức",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          878,
+          898
+        ]
+      },
+      {
+        "record": "3",
+        "text": "khó thở về đêm",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          901,
+          915
+        ]
+      },
+      {
+        "record": "3",
+        "text": "khó thở khi nằm",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          918,
+          933
+        ]
+      },
+      {
+        "record": "3",
+        "text": "Xỉu trước",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          983,
+          992
+        ]
+      },
+      {
+        "record": "3",
+        "text": "khó thở khi gắng sức",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1837,
+          1857
+        ]
+      },
+      {
+        "record": "3",
+        "text": "khó thở về đêm",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          2052,
+          2066
+        ]
+      },
+      {
+        "record": "3",
+        "text": "khó thở khi nằm",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          2256,
+          2271
+        ]
+      },
+      {
+        "record": "3",
+        "text": "Xỉu trước",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          2807,
+          2816
+        ]
+      },
+      {
+        "record": "4",
+        "text": "đau bụng vùng hạ sườn phải",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          979,
+          1005
+        ]
+      },
+      {
+        "record": "4",
+        "text": "chướng bụng",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1012,
+          1023
+        ]
+      },
+      {
+        "record": "4",
+        "text": "buồn nôn thoáng qua",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1031,
+          1050
+        ]
+      },
+      {
+        "record": "4",
+        "text": "Nôn mửa",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1057,
+          1064
+        ]
+      },
+      {
+        "record": "5",
+        "text": "tăng lipid máu, không đặc hiệu",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [
+          "E78.5"
+        ],
+        "assertions": [
+          "isHistorical",
+          "isNegated"
+        ],
+        "position": [
+          117,
+          147
+        ]
+      },
+      {
+        "record": "5",
+        "text": "đau bụng vùng thượng vị",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          387,
+          410
+        ]
+      },
+      {
+        "record": "7",
+        "text": "ho Rối loạn cảm xúc",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [
+          "F39"
+        ],
+        "assertions": [
+          "isHistorical",
+          "isNegated"
+        ],
+        "position": [
+          48,
+          67
+        ]
+      },
+      {
+        "record": "7",
+        "text": "tự tử",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          465,
+          470
+        ]
+      },
+      {
+        "record": "7",
+        "text": "Lú lẫn từng đợt gần đây",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          477,
+          500
+        ]
+      },
+      {
+        "record": "7",
+        "text": "cảm giác chóng mặt",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          507,
+          525
+        ]
+      },
+      {
+        "record": "7",
+        "text": "ảo giác thị giác",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          618,
+          634
+        ]
+      },
+      {
+        "record": "7",
+        "text": "Ảo thanh",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          660,
+          668
+        ]
+      },
+      {
+        "record": "7",
+        "text": "tự tử",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          726,
+          731
+        ]
+      },
+      {
+        "record": "7",
+        "text": "Lú lẫn",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          817,
+          823
+        ]
+      },
+      {
+        "record": "7",
+        "text": "Khó khăn về thị lực gần",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          856,
+          879
+        ]
+      },
+      {
+        "record": "7",
+        "text": "rối loạn thị giác",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          886,
+          903
+        ]
+      },
+      {
+        "record": "7",
+        "text": "ảo giác thị giác, Ảo thanh",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          939,
+          965
+        ]
+      },
+      {
+        "record": "9",
+        "text": "lower abdominal pain",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          228,
+          248
+        ]
+      },
+      {
+        "record": "9",
+        "text": "chảy máu nhiều",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          255,
+          269
+        ]
+      },
+      {
+        "record": "10",
+        "text": "đôi khi đau bụng quặn",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          118,
+          139
+        ]
+      },
+      {
+        "record": "10",
+        "text": "đôi khi đi ngoài ra máu",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          154,
+          177
+        ]
+      },
+      {
+        "record": "10",
+        "text": "không tăng cân nhiều",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          180,
+          200
+        ]
+      },
+      {
+        "record": "11",
+        "text": "bệnh gút không đặc hiệu",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [
+          "isHistorical",
+          "isNegated"
+        ],
+        "position": [
+          77,
+          100
+        ]
+      },
+      {
+        "record": "11",
+        "text": "bệnh thận mạn, không đặc hiệu",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [
+          "isHistorical",
+          "isNegated"
+        ],
+        "position": [
+          107,
+          136
+        ]
+      },
+      {
+        "record": "11",
+        "text": "béo phì",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [],
+        "position": [
+          167,
+          174
+        ]
+      },
+      {
+        "record": "12",
+        "text": "ho x1 ngày",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          230,
+          240
+        ]
+      },
+      {
+        "record": "12",
+        "text": "ho ra máu x3 đêm qua",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          247,
+          267
+        ]
+      },
+      {
+        "record": "12",
+        "text": "Đờm pha màu hồng",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          623,
+          639
+        ]
+      },
+      {
+        "record": "12",
+        "text": "fever",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          646,
+          651
+        ]
+      },
+      {
+        "record": "13",
+        "text": "béo phì",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [],
+        "position": [
+          170,
+          177
+        ]
+      },
+      {
+        "record": "13",
+        "text": "Tăng huyết áp nguyên phát.",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [
+          "I10"
+        ],
+        "assertions": [],
+        "position": [
+          184,
+          210
+        ]
+      },
+      {
+        "record": "13",
+        "text": "Tổn thương cực kỳ đau đớn",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1389,
+          1414
+        ]
+      },
+      {
+        "record": "13",
+        "text": "Lan đến mông bên phải",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1479,
+          1500
+        ]
+      },
+      {
+        "record": "14",
+        "text": "đau ngực trái",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          123,
+          136
+        ]
+      },
+      {
+        "record": "14",
+        "text": "đau ngực trái",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          182,
+          195
+        ]
+      },
+      {
+        "record": "16",
+        "text": "xơ gan do rượu",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [
+          "K74.60"
+        ],
+        "assertions": [],
+        "position": [
+          137,
+          151
+        ]
+      },
+      {
+        "record": "16",
+        "text": "hạ huyết áp, không đặc hiệu",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          991,
+          1018
+        ]
+      },
+      {
+        "record": "16",
+        "text": "đau bụng gián đoạn",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1071,
+          1089
+        ]
+      },
+      {
+        "record": "16",
+        "text": "khó thở khi gắng sức",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1092,
+          1112
+        ]
+      },
+      {
+        "record": "16",
+        "text": "chán ăn trong vài tháng",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1147,
+          1170
+        ]
+      },
+      {
+        "record": "17",
+        "text": "đau cơ",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          628,
+          634
+        ]
+      },
+      {
+        "record": "17",
+        "text": "đau cổ",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          637,
+          643
+        ]
+      },
+      {
+        "record": "17",
+        "text": "đau vai phải",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          646,
+          658
+        ]
+      },
+      {
+        "record": "17",
+        "text": "sưng quanh khớp ức đòn",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          661,
+          683
+        ]
+      },
+      {
+        "record": "17",
+        "text": "ho khan",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          696,
+          703
+        ]
+      },
+      {
+        "record": "17",
+        "text": "sợ ánh sáng",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          716,
+          727
+        ]
+      },
+      {
+        "record": "18",
+        "text": "đau ngực trái",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          292,
+          305
+        ]
+      },
+      {
+        "record": "18",
+        "text": "đau sau xương ức",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          312,
+          328
+        ]
+      },
+      {
+        "record": "18",
+        "text": "đau lan ra sau lưng",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          335,
+          354
+        ]
+      },
+      {
+        "record": "20",
+        "text": "bệnh thận mạn, không đặc hiệu",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [
+          "isHistorical",
+          "isNegated"
+        ],
+        "position": [
+          68,
+          97
+        ]
+      },
+      {
+        "record": "20",
+        "text": "rung nhĩ kịch phát",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [
+          "I48.91"
+        ],
+        "assertions": [],
+        "position": [
+          172,
+          190
+        ]
+      },
+      {
+        "record": "20",
+        "text": "tăng sản tuyến tiền liệt",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [],
+        "position": [
+          197,
+          221
+        ]
+      },
+      {
+        "record": "21",
+        "text": "suy tim, không đặc hiệu",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [
+          "isHistorical",
+          "isNegated"
+        ],
+        "position": [
+          68,
+          91
+        ]
+      },
+      {
+        "record": "21",
+        "text": "bệnh thận mạn, không đặc hiệu",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [
+          "isHistorical",
+          "isNegated"
+        ],
+        "position": [
+          98,
+          127
+        ]
+      },
+      {
+        "record": "24",
+        "text": "đau khi sờ nắn vùng mổ",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          987,
+          1009
+        ]
+      },
+      {
+        "record": "24",
+        "text": "không sốt",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          1032,
+          1041
+        ]
+      },
+      {
+        "record": "27",
+        "text": "hội chứng turner, không đặc hiệu",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [
+          "isHistorical",
+          "isNegated"
+        ],
+        "position": [
+          48,
+          80
+        ]
+      },
+      {
+        "record": "27",
+        "text": "Không sốt",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          526,
+          535
+        ]
+      },
+      {
+        "record": "27",
+        "text": "Không ớn lạnh",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          542,
+          555
+        ]
+      },
+      {
+        "record": "27",
+        "text": "Không đau ngực",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          562,
+          576
+        ]
+      },
+      {
+        "record": "27",
+        "text": "Không  khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          583,
+          597
+        ]
+      },
+      {
+        "record": "27",
+        "text": "Không khó thở khi gắng sức",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          663,
+          689
+        ]
+      },
+      {
+        "record": "27",
+        "text": "Không đánh trống ngực",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          696,
+          717
+        ]
+      },
+      {
+        "record": "27",
+        "text": "Không đau ngực",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          783,
+          797
+        ]
+      },
+      {
+        "record": "28",
+        "text": "đau hạ sườn phải",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1091,
+          1107
+        ]
+      },
+      {
+        "record": "28",
+        "text": "sốt nhẹ đến 38.3°C",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1114,
+          1132
+        ]
+      },
+      {
+        "record": "28",
+        "text": "đau hạ sườn phải liên tục",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          1191,
+          1216
+        ]
+      },
+      {
+        "record": "29",
+        "text": "tiểu tiện không tự chủ",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          177,
+          199
+        ]
+      },
+      {
+        "record": "29",
+        "text": "sa âm đạo",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          202,
+          211
+        ]
+      },
+      {
+        "record": "29",
+        "text": "bàng quang căng,",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          214,
+          230
+        ]
+      },
+      {
+        "record": "29",
+        "text": "cảm giác bí tiếu liên tục",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          233,
+          258
+        ]
+      },
+      {
+        "record": "30",
+        "text": "tăng cholesterol máu đơn thuần",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          95,
+          125
+        ]
+      },
+      {
+        "record": "32",
+        "text": "Đái tháo đường típ 2",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [
+          "E11.9"
+        ],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          96,
+          116
+        ]
+      },
+      {
+        "record": "32",
+        "text": "bệnh thận mạn, không đặc hiệu",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [
+          "isNegated"
+        ],
+        "position": [
+          156,
+          185
+        ]
+      },
+      {
+        "record": "33",
+        "text": "béo phì",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          48,
+          55
+        ]
+      },
+      {
+        "record": "33",
+        "text": "ngừng thở khi ngủ",
+        "type": "CHẨN_ĐOÁN",
+        "candidates": [],
+        "assertions": [],
+        "position": [
+          113,
+          130
+        ]
+      },
+      {
+        "record": "33",
+        "text": "căng cứng vai trái",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          495,
+          513
+        ]
+      },
+      {
+        "record": "33",
+        "text": "chủ quan sốt",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          604,
+          616
+        ]
+      },
+      {
+        "record": "33",
+        "text": "phù chi dưới",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          623,
+          635
+        ]
+      },
+      {
+        "record": "34",
+        "text": "ăn uống kém do buồn nôn",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          408,
+          431
+        ]
+      },
+      {
+        "record": "34",
+        "text": "nôn x 1",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          534,
+          541
+        ]
+      },
+      {
+        "record": "34",
+        "text": "chủ quan sốt và run rẩy",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          548,
+          571
+        ]
+      },
+      {
+        "record": "34",
+        "text": "mất cảm giác ngon miệng/chán ăn",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          578,
+          609
+        ]
+      },
+      {
+        "record": "34",
+        "text": "suy nhược",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+          616,
+          625
+        ]
+      }
+    ],
+    "empty_candidates": [
+      {
+        "record": "4",
+        "text": "NSAID",
+        "type": "THUỐC",
+        "candidates": [],
+        "assertions": [
+          "isHistorical"
+        ],
+        "position": [
+          59,
+          64
+        ]
+      },
+      {
+        "record": "37",
+        "text": "insulin",
+        "type": "THUỐC",
+        "candidates": [],
+        "assertions": [],
+        "position": [
+          1680,
+          1687
+        ]
+      }
+    ]
+  }
+}

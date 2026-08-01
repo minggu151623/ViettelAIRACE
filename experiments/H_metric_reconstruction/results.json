@@ -1,0 +1,22 @@
+[
+  {
+    "artifact": "V1 rule baseline",
+    "displayed": {"final": 0.3690, "wer": 99.9525, "j_assertion": 0.9248, "j_candidates": 0.1933},
+    "reconstructed_final": 0.36901
+  },
+  {
+    "artifact": "V2 Qwen hybrid",
+    "displayed": {"final": 1.3060, "wer": 99.9611, "j_assertion": 2.5774, "j_candidates": 1.3028},
+    "reconstructed_final": 1.30601
+  },
+  {
+    "artifact": "V6 structural",
+    "displayed": {"final": 1.7280, "wer": 99.9602, "j_assertion": 2.9216, "j_candidates": 2.0991},
+    "reconstructed_final": 1.72806
+  },
+  {
+    "artifact": "V16 teacher-student",
+    "displayed": {"final": 1.6868, "wer": 99.9619, "j_assertion": 2.8475, "j_candidates": 2.0528},
+    "reconstructed_final": 1.68680
+  }
+]

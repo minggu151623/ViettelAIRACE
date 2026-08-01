@@ -1,0 +1,113 @@
+[
+  {
+    "text": "ung thư vú trái giai IIIB ung thư vú trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [59, 100]
+  },
+  {
+    "text": "xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [267, 317]
+  },
+  {
+    "text": "sau khi xuất viện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [350, 367]
+  },
+  {
+    "text": "ống dẫn lưu JP được rút vào ngày DD MM",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [375, 413]
+  },
+  {
+    "text": "bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [421, 494]
+  },
+  {
+    "text": "tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [522, 580]
+  },
+  {
+    "text": "chọc hút dịch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [640, 653]
+  },
+  {
+    "text": "levafloxacin và cephalexin",
+    "type": "THUỐC",
+    "candidates": ["2231"],
+    "assertions": [],
+    "position": [713, 739]
+  },
+  {
+    "text": "tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [747, 817]
+  },
+  {
+    "text": "ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [958, 1000]
+  },
+  {
+    "text": "đau khi sờ nắn vùng mổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1008, 1030]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1038, 1047]
+  },
+  {
+    "text": "không sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1055, 1064]
+  },
+  {
+    "text": "ban đỏ ở vị trí phẫu thuật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1181, 1207]
+  },
+  {
+    "text": "đau ấn vùng mổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1215, 1229]
+  },
+  {
+    "text": "không sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1237, 1246]
+  },
+  {
+    "text": "chọc hút dịch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1358, 1371]
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "candidates": ["11124"],
+    "assertions": [],
+    "position": [1384, 1394]
+  }
+]

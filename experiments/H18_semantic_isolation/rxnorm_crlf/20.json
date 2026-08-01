@@ -1,0 +1,215 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [50, 63]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [71, 100]
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch với Nhồi máu cơ tim gần đây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [108, 169]
+  },
+  {
+    "text": "rung nhĩ kịch phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [177, 195]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [203, 227]
+  },
+  {
+    "text": "xạ hình tưới máu cơ tim mibi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [298, 326]
+  },
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "candidates": ["6918"],
+    "assertions": ["isHistorical"],
+    "position": [365, 375]
+  },
+  {
+    "text": "desmopressin",
+    "type": "THUỐC",
+    "candidates": ["3251"],
+    "assertions": ["isHistorical"],
+    "position": [417, 429]
+  },
+  {
+    "text": "Rối loạn dáng đi với nhiều lần ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [506, 540]
+  },
+  {
+    "text": "ngã với gãy cổ xương đùi di lệch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [661, 693]
+  },
+  {
+    "text": "ngã hôm qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [767, 778]
+  },
+  {
+    "text": "Có thể tự đi lại và lái xe sau ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [786, 820]
+  },
+  {
+    "text": "Sáng nay không thể tự ra khỏi giường và tự đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [828, 877]
+  },
+  {
+    "text": "Gọi xe cứu thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [885, 902]
+  },
+  {
+    "text": "Phát hiện có gãy cổ xương đùi di lệch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [910, 947]
+  },
+  {
+    "text": "Đau ở hông phải khi cử động và thay đổi tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [980, 1026]
+  },
+  {
+    "text": "Yếu tố làm nặng thêm: cử động, thay đổi tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1085, 1131]
+  },
+  {
+    "text": "ngã do cơ học hôm qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1176, 1197]
+  },
+  {
+    "text": "Chấn thương tù ở Chi dưới phải (RLE)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1205, 1241]
+  },
+  {
+    "text": "vết thương hở phần khác của chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1249, 1285]
+  },
+  {
+    "text": "Không có tiền sử chấn thương đầu hoặc mất ý thức (mất ý thức)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1293, 1354]
+  },
+  {
+    "text": "có thể chịu trọng lượng và lái xe sau ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1362, 1403]
+  },
+  {
+    "text": "Gọi xe cứu thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1411, 1428]
+  },
+  {
+    "text": "Phát hiện có gãy cổ xương đùi di lệch; mất vận động vùng đỉnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1436, 1497]
+  },
+  {
+    "text": "chụp x-quang ngực Hình ảnh mức nước - hơi vùng ngực.",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1505, 1557]
+  },
+  {
+    "text": "chụp ct ngực không thuốc cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [1565, 1599]
+  },
+  {
+    "text": "đau ở hông phải khi cử động và thay đổi tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1966, 2012]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [2075, 2087]
+  },
+  {
+    "text": "chụp ct ngực không thuốc cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [2109, 2143]
+  },
+  {
+    "text": "xạ hình tưới máu cơ tim  mibi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [2270, 2299]
+  },
+  {
+    "text": "siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [2385, 2560]
+  },
+  {
+    "text": "chụp ct ngực không thuốc cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [2664, 2698]
+  },
+  {
+    "text": "rung nhĩ kịch phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2966, 2984]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [3043, 3067]
+  }
+]

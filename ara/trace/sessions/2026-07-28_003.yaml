@@ -1,0 +1,34 @@
+session:
+  id: "2026-07-28_003"
+  timestamp: "2026-07-28T00:52+07:00"
+  summary: "Audited field-level V6 recall to distinguish semantic failure from coordinate failure."
+
+events_logged:
+  - type: experiment
+    id: N09
+    provenance: ai-executed
+    summary: "Measured 95-100% coverage on explicit diagnosis, symptom, and test fields."
+  - type: claim
+    id: C07
+    provenance: ai-suggested
+    summary: "Catastrophic semantic-field recall cannot explain the official 0.0398% text credit."
+
+ai_actions:
+  - action: "Parsed all 100 records by structured heading and measured overlap with V6 entities."
+    provenance: ai-executed
+    files_changed: ["experiments/H_structured_field_coverage/protocol.md", "experiments/H_structured_field_coverage/analysis.md"]
+  - action: "Updated research synthesis without generating an output variant."
+    provenance: ai-executed
+    files_changed: ["findings.md", "research-log.md", "research-state.yaml"]
+
+claims_touched:
+  - id: C07
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Measure H7 CRLF coordinates on the official evaluator."
+  - "Independently annotate exact boundaries/types after resolving the coordinate system."
+
+ai_suggestions_pending:
+  - "Continue treating H7 as the next isolated submission, not a semantic bundle."

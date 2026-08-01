@@ -1,0 +1,244 @@
+[
+  {
+    "text": "mang thai",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      60,
+      69
+    ],
+    "confidence": 0.8458562195301056,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "cục máu đông",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      280,
+      294
+    ],
+    "confidence": 0.9984477529158959,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tác dụng phu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      371,
+      385
+    ],
+    "confidence": 0.9986892729742914,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nguy cơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      576,
+      583
+    ],
+    "confidence": 0.9371514717737833,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiền sản giật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      584,
+      597
+    ],
+    "confidence": 0.9980653127034506,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiền sản giật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      616,
+      629
+    ],
+    "confidence": 0.9981968885376341,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "biến chứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      639,
+      649
+    ],
+    "confidence": 0.9988931814829508,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiền sản giật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      664,
+      677
+    ],
+    "confidence": 0.9983813819431123,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      701,
+      706
+    ],
+    "confidence": 0.9968711733818054,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tác dụng phụ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      740,
+      752
+    ],
+    "confidence": 0.9986554647420909,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      757,
+      762
+    ],
+    "confidence": 0.9964583516120911,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      777,
+      785
+    ],
+    "confidence": 0.9986055833952767,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tác dụng phụ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      821,
+      833
+    ],
+    "confidence": 0.9988573975377268,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tác dụng phụ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      914,
+      926
+    ],
+    "confidence": 0.998843192280113,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      976,
+      980
+    ],
+    "confidence": 0.9925404191017151,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "aspirin",
+    "type": "THUỐC",
+    "position": [
+      1114,
+      1121
+    ],
+    "confidence": 0.9900508522987366,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "1191"
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      1166,
+      1171
+    ],
+    "confidence": 0.8445689678192139,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1219,
+      1227
+    ],
+    "confidence": 0.9765212365559169,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ra máu đỏ tươi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1228,
+      1242
+    ],
+    "confidence": 0.6951163842127873,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1248,
+      1252
+    ],
+    "confidence": 0.5559000968933105,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

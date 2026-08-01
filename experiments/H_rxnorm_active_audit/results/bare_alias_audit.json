@@ -1,0 +1,148 @@
+{
+  "baseline": "output_v6_structural_btc",
+  "drug_entities": 165,
+  "candidate_changes": [
+    {
+      "file": 20,
+      "entity_index": 6,
+      "text": "metoprolol",
+      "before": [
+        "1370474"
+      ],
+      "after": [
+        "6918"
+      ]
+    },
+    {
+      "file": 27,
+      "entity_index": 30,
+      "text": "metoprolol",
+      "before": [
+        "1162132"
+      ],
+      "after": [
+        "6918"
+      ]
+    },
+    {
+      "file": 33,
+      "entity_index": 25,
+      "text": "bumetanide 2mg iv",
+      "before": [
+        "197419"
+      ],
+      "after": []
+    },
+    {
+      "file": 33,
+      "entity_index": 27,
+      "text": "levofloxacin 750mg iv",
+      "before": [
+        "311296"
+      ],
+      "after": [
+        "1665515"
+      ]
+    },
+    {
+      "file": 36,
+      "entity_index": 3,
+      "text": "prograf",
+      "before": [
+        "108514"
+      ],
+      "after": [
+        "196463"
+      ]
+    },
+    {
+      "file": 37,
+      "entity_index": 29,
+      "text": "iv lasix 40 mg once",
+      "before": [
+        "200809"
+      ],
+      "after": [
+        "1719291"
+      ]
+    },
+    {
+      "file": 44,
+      "entity_index": 32,
+      "text": "metoprolol",
+      "before": [
+        "1162132"
+      ],
+      "after": [
+        "6918"
+      ]
+    },
+    {
+      "file": 70,
+      "entity_index": 2,
+      "text": "acetaminophen",
+      "before": [
+        "1006887"
+      ],
+      "after": [
+        "161"
+      ]
+    },
+    {
+      "file": 70,
+      "entity_index": 19,
+      "text": "acetaminophen",
+      "before": [
+        "1006887"
+      ],
+      "after": [
+        "161"
+      ]
+    },
+    {
+      "file": 70,
+      "entity_index": 31,
+      "text": "acetaminophen",
+      "before": [
+        "1006887"
+      ],
+      "after": [
+        "161"
+      ]
+    },
+    {
+      "file": 75,
+      "entity_index": 10,
+      "text": "aspirin",
+      "before": [
+        "1052415"
+      ],
+      "after": [
+        "1191"
+      ]
+    },
+    {
+      "file": 100,
+      "entity_index": 31,
+      "text": "Laxis 20mg",
+      "before": [
+        "200801"
+      ],
+      "after": [
+        "1719290"
+      ]
+    }
+  ],
+  "records_changed": [
+    20,
+    27,
+    33,
+    36,
+    37,
+    44,
+    70,
+    75,
+    100
+  ],
+  "submission_artifact_written": false
+}

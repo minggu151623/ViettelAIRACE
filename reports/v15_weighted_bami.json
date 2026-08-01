@@ -1,0 +1,17 @@
+{
+  "records": 100,
+  "elapsed_seconds": 15.966,
+  "entity_counts": {
+    "THUỐC": 247,
+    "CHẨN_ĐOÁN": 585,
+    "TRIỆU_CHỨNG": 1333,
+    "TÊN_XÉT_NGHIỆM": 751,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 87
+  },
+  "entities_with_candidates": 346,
+  "assertion_count": 603,
+  "errors": [],
+  "offline": true,
+  "model": "token-model+rules",
+  "profile": "precision"
+}

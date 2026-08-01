@@ -1,0 +1,19 @@
+{
+  "records": 100,
+  "completed": 100,
+  "elapsed_seconds": 0.979,
+  "generation_elapsed_seconds": 2943.644,
+  "entity_counts": {
+    "THUỐC": 167,
+    "CHẨN_ĐOÁN": 411,
+    "TRIỆU_CHỨNG": 1150,
+    "TÊN_XÉT_NGHIỆM": 340,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 235,
+    "THÔNG_TIN_BỆNH_NHÂN": 5
+  },
+  "rejected": {},
+  "errors": [],
+  "offline": true,
+  "model": "qwen3:8b",
+  "merge_rules": true
+}

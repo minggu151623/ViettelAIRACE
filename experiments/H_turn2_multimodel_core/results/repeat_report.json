@@ -1,0 +1,7430 @@
+{
+  "records": 100,
+  "source": "turn2/output_v2_llm_guarded",
+  "proposal_dirs": [
+    "experiments/H_turn2_multimodel_core/proposals_vietmed",
+    "experiments/H_turn2_multimodel_core/proposals_bami_v15",
+    "experiments/H_turn2_multimodel_core/proposals_bami_v3"
+  ],
+  "min_sources": 3,
+  "additions": 344,
+  "additions_by_type": {
+    "CHẨN_ĐOÁN": 47,
+    "TRIỆU_CHỨNG": 280,
+    "TÊN_XÉT_NGHIỆM": 17
+  },
+  "support_combinations": {
+    "bami_v15+bami_v3+vietmed_ner": 344
+  },
+  "rejected": {
+    "ineligible_type": 1,
+    "insufficient_support": 6245
+  },
+  "addition_rows": [
+    {
+      "record": "1",
+      "text": "Tim đập nhanh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1669,
+        1682
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.723737,
+        "bami_v3": 0.721461,
+        "vietmed_ner": 0.981967
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "1",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1684,
+        1691
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.716345,
+        "bami_v3": 0.717063,
+        "vietmed_ner": 0.997832
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "1",
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1832,
+        1839
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.694101,
+        "bami_v3": 0.710094,
+        "vietmed_ner": 0.99417
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "1",
+      "text": "suy thận cấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1861,
+        1873
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.664139,
+        "bami_v3": 0.41967,
+        "vietmed_ner": 0.990625
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "1",
+      "text": "bại não",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1995,
+        2002
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.609319,
+        "bami_v3": 0.63696,
+        "vietmed_ner": 0.954552
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "1",
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2501,
+        2508
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.550319,
+        "bami_v3": 0.629127,
+        "vietmed_ner": 0.988283
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "1",
+      "text": "nhiễm khuẩn tiết niệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3613,
+        3634
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.69265,
+        "bami_v3": 0.536378,
+        "vietmed_ner": 0.916567
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "2",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1423,
+        1426
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.691186,
+        "bami_v3": 0.645342,
+        "vietmed_ner": 0.805725
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "2",
+      "text": "Sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1458,
+        1461
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.667186,
+        "bami_v3": 0.614336,
+        "vietmed_ner": 0.787415
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "2",
+      "text": "ghèn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1582,
+        1586
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.478132,
+        "bami_v3": 0.464828,
+        "vietmed_ner": 0.580693
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "2",
+      "text": "rỉ máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1639,
+        1645
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.48908,
+        "bami_v3": 0.472498,
+        "vietmed_ner": 0.920969
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "2",
+      "text": "siêu âm tim",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2841,
+        2852
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.462014,
+        "bami_v3": 0.334478,
+        "vietmed_ner": 0.980908
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "2",
+      "text": "Kawasaki",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3036,
+        3044
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.604944,
+        "bami_v3": 0.602945,
+        "vietmed_ner": 0.995812
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "2",
+      "text": "sốt cao",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3550,
+        3557
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.555731,
+        "bami_v3": 0.611571,
+        "vietmed_ner": 0.994879
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "2",
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3595,
+        3601
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.690732,
+        "bami_v3": 0.687323,
+        "vietmed_ner": 0.896741
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "3",
+      "text": "run tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        79,
+        86
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.709481,
+        "bami_v3": 0.691417,
+        "vietmed_ner": 0.997718
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "3",
+      "text": "ù tai",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        819,
+        824
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.722474,
+        "bami_v3": 0.705263,
+        "vietmed_ner": 0.998229
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "3",
+      "text": "hạ huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2807,
+        2818
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.716715,
+        "bami_v3": 0.734634,
+        "vietmed_ner": 0.986445
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "3",
+      "text": "chụp ct sọ não",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        3655,
+        3669
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.47561,
+        "bami_v3": 0.384581,
+        "vietmed_ner": 0.805588
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "4",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        73,
+        81
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.740349,
+        "bami_v3": 0.721713,
+        "vietmed_ner": 0.998811
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "4",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        85,
+        94
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.742212,
+        "bami_v3": 0.723495,
+        "vietmed_ner": 0.998629
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "4",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        821,
+        830
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.734627,
+        "bami_v3": 0.719421,
+        "vietmed_ner": 0.998335
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "4",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        937,
+        945
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.730954,
+        "bami_v3": 0.719161,
+        "vietmed_ner": 0.998677
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "4",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        949,
+        958
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.735168,
+        "bami_v3": 0.721427,
+        "vietmed_ner": 0.99848
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "4",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1244,
+        1252
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.737634,
+        "bami_v3": 0.724077,
+        "vietmed_ner": 0.998782
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "5",
+      "text": "rậm lông",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1021,
+        1029
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.630394,
+        "bami_v3": 0.628661,
+        "vietmed_ner": 0.841308
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "5",
+      "text": "béo phì",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1031,
+        1038
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.547957,
+        "bami_v3": 0.533104,
+        "vietmed_ner": 0.998709
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "5",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1169,
+        1177
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.716088,
+        "bami_v3": 0.705026,
+        "vietmed_ner": 0.998044
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "5",
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1954,
+        1962
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.726364,
+        "bami_v3": 0.704225,
+        "vietmed_ner": 0.941559
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "5",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1969,
+        1976
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.729725,
+        "bami_v3": 0.702897,
+        "vietmed_ner": 0.998262
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "5",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2011,
+        2014
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.444794,
+        "bami_v3": 0.373199,
+        "vietmed_ner": 0.997976
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "6",
+      "text": "Bệnh tim mạch",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        21,
+        34
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.707236,
+        "bami_v3": 0.526445,
+        "vietmed_ner": 0.996571
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "6",
+      "text": "Rối loạn lipid máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        69,
+        87
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.72576,
+        "bami_v3": 0.586857,
+        "vietmed_ner": 0.985161
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "6",
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        89,
+        103
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.720445,
+        "bami_v3": 0.571032,
+        "vietmed_ner": 0.994172
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "6",
+      "text": "Đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2008,
+        2015
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.698187,
+        "bami_v3": 0.671287,
+        "vietmed_ner": 0.974879
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "6",
+      "text": "rối loạn ý thức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2132,
+        2147
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.418891,
+        "bami_v3": 0.638714,
+        "vietmed_ner": 0.993627
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "7",
+      "text": "siêu âm",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1347,
+        1354
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.382656,
+        "bami_v3": 0.251998,
+        "vietmed_ner": 0.970779
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "7",
+      "text": "siêu âm",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1886,
+        1893
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.434213,
+        "bami_v3": 0.256403,
+        "vietmed_ner": 0.921527
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "7",
+      "text": "viêm dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3167,
+        3178
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.69756,
+        "bami_v3": 0.514477,
+        "vietmed_ner": 0.813093
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "8",
+      "text": "hội chứng nghiện rượu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        323,
+        344
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.711237,
+        "bami_v3": 0.541932,
+        "vietmed_ner": 0.857682
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "F10.20"
+      ]
+    },
+    {
+      "record": "8",
+      "text": "sốt phát ban",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2294,
+        2306
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.467407,
+        "bami_v3": 0.614539,
+        "vietmed_ner": 0.968925
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "8",
+      "text": "phát ban",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2357,
+        2365
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.686642,
+        "bami_v3": 0.678093,
+        "vietmed_ner": 0.990702
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "8",
+      "text": "Nhồi máu cơ tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2642,
+        2657
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.733966,
+        "bami_v3": 0.603294,
+        "vietmed_ner": 0.991009
+      },
+      "assertions": [],
+      "candidates": [
+        "I21.9"
+      ]
+    },
+    {
+      "record": "8",
+      "text": "Viêm cơ tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2764,
+        2775
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.716612,
+        "bami_v3": 0.531403,
+        "vietmed_ner": 0.979761
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "8",
+      "text": "Rối loạn tiêu hóa",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2817,
+        2834
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.721226,
+        "bami_v3": 0.560854,
+        "vietmed_ner": 0.997635
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "8",
+      "text": "bong da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3033,
+        3040
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.496228,
+        "bami_v3": 0.474883,
+        "vietmed_ner": 0.969209
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "9",
+      "text": "siêu âm",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1347,
+        1354
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.382656,
+        "bami_v3": 0.251998,
+        "vietmed_ner": 0.970779
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "9",
+      "text": "siêu âm",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1886,
+        1893
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.434213,
+        "bami_v3": 0.256403,
+        "vietmed_ner": 0.921527
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "Căng thẳng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        226,
+        236
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.695124,
+        "bami_v3": 0.69685,
+        "vietmed_ner": 0.923448
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        497,
+        512
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.729007,
+        "bami_v3": 0.731572,
+        "vietmed_ner": 0.924284
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        878,
+        885
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.671811,
+        "bami_v3": 0.671138,
+        "vietmed_ner": 0.998193
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        935,
+        942
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.711189,
+        "bami_v3": 0.682594,
+        "vietmed_ner": 0.998199
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1180,
+        1187
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.738125,
+        "bami_v3": 0.712633,
+        "vietmed_ner": 0.998332
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1461,
+        1469
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.727588,
+        "bami_v3": 0.701114,
+        "vietmed_ner": 0.99826
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1475,
+        1478
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.6811,
+        "bami_v3": 0.579458,
+        "vietmed_ner": 0.574762
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "đổ mồ hôi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1480,
+        1489
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.647757,
+        "bami_v3": 0.49611,
+        "vietmed_ner": 0.973895
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2115,
+        2122
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.721168,
+        "bami_v3": 0.710226,
+        "vietmed_ner": 0.998089
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2406,
+        2421
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.731274,
+        "bami_v3": 0.700149,
+        "vietmed_ner": 0.896265
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "phân tích nước tiểu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2633,
+        2652
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.448946,
+        "bami_v3": 0.374144,
+        "vietmed_ner": 0.908221
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "chụp x-quang ngực",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2708,
+        2725
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.477107,
+        "bami_v3": 0.391744,
+        "vietmed_ner": 0.944606
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "11",
+      "text": "Bệnh tim mạch",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        21,
+        34
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.707236,
+        "bami_v3": 0.526445,
+        "vietmed_ner": 0.996571
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "11",
+      "text": "Rối loạn lipid máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        69,
+        87
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.72576,
+        "bami_v3": 0.586857,
+        "vietmed_ner": 0.985161
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "11",
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        89,
+        103
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.720445,
+        "bami_v3": 0.571032,
+        "vietmed_ner": 0.994172
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "11",
+      "text": "co giật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2494,
+        2501
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.720924,
+        "bami_v3": 0.697979,
+        "vietmed_ner": 0.998222
+      },
+      "assertions": [
+        "isHistorical",
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "11",
+      "text": "cứng đờ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2503,
+        2510
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.70694,
+        "bami_v3": 0.659382,
+        "vietmed_ner": 0.998077
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "11",
+      "text": "tiểu tiện không tự chủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2526,
+        2548
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.696167,
+        "bami_v3": 0.687948,
+        "vietmed_ner": 0.930991
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "12",
+      "text": "Bệnh phổi kẽ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        44,
+        56
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.725753,
+        "bami_v3": 0.536388,
+        "vietmed_ner": 0.948817
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "12",
+      "text": "tổn thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1021,
+        1031
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.431138,
+        "bami_v3": 0.457417,
+        "vietmed_ner": 0.996779
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "12",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1150,
+        1153
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.438197,
+        "bami_v3": 0.439357,
+        "vietmed_ner": 0.997807
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "13",
+      "text": "chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        90,
+        100
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.671616,
+        "bami_v3": 0.656774,
+        "vietmed_ner": 0.99834
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "14",
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        698,
+        711
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.717584,
+        "bami_v3": 0.550736,
+        "vietmed_ner": 0.997933
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "I10"
+      ]
+    },
+    {
+      "record": "14",
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        927,
+        934
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.637442,
+        "bami_v3": 0.620767,
+        "vietmed_ner": 0.997841
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "14",
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1246,
+        1253
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.751372,
+        "bami_v3": 0.738266,
+        "vietmed_ner": 0.998002
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "15",
+      "text": "Bệnh phổi kẽ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        44,
+        56
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.725753,
+        "bami_v3": 0.536388,
+        "vietmed_ner": 0.948817
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "15",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1150,
+        1153
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.459376,
+        "bami_v3": 0.469707,
+        "vietmed_ner": 0.997807
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "15",
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1860,
+        1866
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.72704,
+        "bami_v3": 0.699128,
+        "vietmed_ner": 0.943607
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "15",
+      "text": "Viêm mô tế bào",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2029,
+        2043
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.725717,
+        "bami_v3": 0.573019,
+        "vietmed_ner": 0.963167
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "16",
+      "text": "chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        106,
+        116
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.682765,
+        "bami_v3": 0.673961,
+        "vietmed_ner": 0.998436
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "17",
+      "text": "sưng nướu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        809,
+        818
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.687953,
+        "bami_v3": 0.657429,
+        "vietmed_ner": 0.936538
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "17",
+      "text": "hôi miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        838,
+        847
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.704476,
+        "bami_v3": 0.697276,
+        "vietmed_ner": 0.707676
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "17",
+      "text": "chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1424,
+        1432
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.523409,
+        "bami_v3": 0.483262,
+        "vietmed_ner": 0.998292
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "17",
+      "text": "mất răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1834,
+        1842
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.694885,
+        "bami_v3": 0.687821,
+        "vietmed_ner": 0.993891
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "18",
+      "text": "bệnh mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        791,
+        805
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.694403,
+        "bami_v3": 0.505857,
+        "vietmed_ner": 0.988309
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "18",
+      "text": "38.3°C",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1125,
+        1131
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.480183,
+        "bami_v3": 0.477858,
+        "vietmed_ner": 0.837212
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "18",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1293,
+        1301
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.735346,
+        "bami_v3": 0.728823,
+        "vietmed_ner": 0.997352
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "18",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1605,
+        1613
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.722334,
+        "bami_v3": 0.683845,
+        "vietmed_ner": 0.998381
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "18",
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1654,
+        1662
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.712529,
+        "bami_v3": 0.691906,
+        "vietmed_ner": 0.996282
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "18",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1664,
+        1671
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.722768,
+        "bami_v3": 0.693764,
+        "vietmed_ner": 0.998231
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "18",
+      "text": "chụp ct bụng chậu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2405,
+        2422
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.478495,
+        "bami_v3": 0.40063,
+        "vietmed_ner": 0.748123
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "19",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        761,
+        764
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.676383,
+        "bami_v3": 0.53107,
+        "vietmed_ner": 0.998169
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "19",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        809,
+        817
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.743628,
+        "bami_v3": 0.721648,
+        "vietmed_ner": 0.997352
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "19",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        838,
+        846
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.745429,
+        "bami_v3": 0.720409,
+        "vietmed_ner": 0.998565
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "19",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        999,
+        1007
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.747776,
+        "bami_v3": 0.724441,
+        "vietmed_ner": 0.998763
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "20",
+      "text": "chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        106,
+        116
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.682765,
+        "bami_v3": 0.673961,
+        "vietmed_ner": 0.998436
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "21",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1928,
+        1936
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.694234,
+        "bami_v3": 0.667641,
+        "vietmed_ner": 0.988795
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "21",
+      "text": "chướng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1938,
+        1949
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.724556,
+        "bami_v3": 0.705305,
+        "vietmed_ner": 0.979437
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "21",
+      "text": "chướng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1984,
+        1995
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.745904,
+        "bami_v3": 0.730512,
+        "vietmed_ner": 0.997919
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "21",
+      "text": "đau lưng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2024,
+        2032
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.74526,
+        "bami_v3": 0.725684,
+        "vietmed_ner": 0.998324
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        449,
+        457
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.721002,
+        "bami_v3": 0.710962,
+        "vietmed_ner": 0.992198
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        542,
+        550
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.728247,
+        "bami_v3": 0.729645,
+        "vietmed_ner": 0.995263
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        590,
+        598
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.722142,
+        "bami_v3": 0.721192,
+        "vietmed_ner": 0.991422
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        775,
+        783
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.740989,
+        "bami_v3": 0.737288,
+        "vietmed_ner": 0.995099
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "mệt mỏi toàn thân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        821,
+        838
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.682977,
+        "bami_v3": 0.683271,
+        "vietmed_ner": 0.989532
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "yếu sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        841,
+        848
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.699877,
+        "bami_v3": 0.708165,
+        "vietmed_ner": 0.997203
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "ngứa toàn thân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        874,
+        888
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.660903,
+        "bami_v3": 0.677487,
+        "vietmed_ner": 0.96488
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1016,
+        1024
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.719163,
+        "bami_v3": 0.697804,
+        "vietmed_ner": 0.998432
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "23",
+      "text": "đổ mồ hôi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        247,
+        256
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.6526,
+        "bami_v3": 0.616912,
+        "vietmed_ner": 0.768179
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "23",
+      "text": "Mất ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        303,
+        310
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.703876,
+        "bami_v3": 0.70078,
+        "vietmed_ner": 0.967041
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "23",
+      "text": "stress",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        463,
+        469
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.330123,
+        "bami_v3": 0.528122,
+        "vietmed_ner": 0.985026
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "23",
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1047,
+        1054
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.726147,
+        "bami_v3": 0.718128,
+        "vietmed_ner": 0.997699
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "23",
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1453,
+        1460
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.646432,
+        "bami_v3": 0.666676,
+        "vietmed_ner": 0.996627
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "23",
+      "text": "phù gai thị",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1536,
+        1547
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.35795,
+        "bami_v3": 0.541086,
+        "vietmed_ner": 0.976387
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "23",
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1705,
+        1712
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.607502,
+        "bami_v3": 0.66579,
+        "vietmed_ner": 0.997646
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "24",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        506,
+        509
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.560394,
+        "bami_v3": 0.576435,
+        "vietmed_ner": 0.921169
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "24",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        515,
+        522
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.713,
+        "bami_v3": 0.703013,
+        "vietmed_ner": 0.997323
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "24",
+      "text": "vàng mắt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1419,
+        1427
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.688371,
+        "bami_v3": 0.688382,
+        "vietmed_ner": 0.990512
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "24",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1712,
+        1719
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.724022,
+        "bami_v3": 0.722117,
+        "vietmed_ner": 0.998232
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "24",
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1725,
+        1732
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.697749,
+        "bami_v3": 0.696888,
+        "vietmed_ner": 0.963534
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "25",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        386,
+        394
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.709989,
+        "bami_v3": 0.687212,
+        "vietmed_ner": 0.996728
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "25",
+      "text": "chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        403,
+        411
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.704461,
+        "bami_v3": 0.666062,
+        "vietmed_ner": 0.997723
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "25",
+      "text": "trễ kinh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        416,
+        424
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.715853,
+        "bami_v3": 0.698075,
+        "vietmed_ner": 0.935731
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "25",
+      "text": "ung thư cổ tử cung",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        895,
+        913
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.696415,
+        "bami_v3": 0.54792,
+        "vietmed_ner": 0.991999
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "25",
+      "text": "mụn trứng cá",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1227,
+        1239
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.635448,
+        "bami_v3": 0.646816,
+        "vietmed_ner": 0.99827
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "25",
+      "text": "nám",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1241,
+        1244
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.673111,
+        "bami_v3": 0.603054,
+        "vietmed_ner": 0.996494
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "25",
+      "text": "tàn nhang",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1246,
+        1255
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.664108,
+        "bami_v3": 0.633399,
+        "vietmed_ner": 0.998326
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "25",
+      "text": "sạm da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1257,
+        1263
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.646908,
+        "bami_v3": 0.593985,
+        "vietmed_ner": 0.825286
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "26",
+      "text": "BỆNH MẠCH VÀNH",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1,
+        15
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.705322,
+        "bami_v3": 0.556667,
+        "vietmed_ner": 0.993207
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "26",
+      "text": "Bệnh mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        52,
+        66
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.705235,
+        "bami_v3": 0.521309,
+        "vietmed_ner": 0.997456
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "26",
+      "text": "Bệnh mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        76,
+        90
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.696094,
+        "bami_v3": 0.510962,
+        "vietmed_ner": 0.997599
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "26",
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        716,
+        729
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.713818,
+        "bami_v3": 0.548691,
+        "vietmed_ner": 0.998019
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "I10"
+      ]
+    },
+    {
+      "record": "26",
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        733,
+        747
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.71141,
+        "bami_v3": 0.545942,
+        "vietmed_ner": 0.987736
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "26",
+      "text": "Rối loạn lipid máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        752,
+        770
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.729318,
+        "bami_v3": 0.590384,
+        "vietmed_ner": 0.990845
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "26",
+      "text": "Đau thắt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        838,
+        851
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.725915,
+        "bami_v3": 0.725945,
+        "vietmed_ner": 0.847236
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "26",
+      "text": "Khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1345,
+        1352
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.747613,
+        "bami_v3": 0.739453,
+        "vietmed_ner": 0.845453
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "26",
+      "text": "Đau thượng vị",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1375,
+        1388
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.720437,
+        "bami_v3": 0.72583,
+        "vietmed_ner": 0.908497
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "26",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1883,
+        1886
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.739172,
+        "bami_v3": 0.690853,
+        "vietmed_ner": 0.869203
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "26",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1890,
+        1898
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.732213,
+        "bami_v3": 0.726894,
+        "vietmed_ner": 0.996251
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "26",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1951,
+        1959
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.730222,
+        "bami_v3": 0.725387,
+        "vietmed_ner": 0.997067
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "26",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2015,
+        2018
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.6951,
+        "bami_v3": 0.673779,
+        "vietmed_ner": 0.911737
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "27",
+      "text": "viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        68,
+        77
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.66096,
+        "bami_v3": 0.396303,
+        "vietmed_ner": 0.998046
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "27",
+      "text": "Viêm phổi hoại tử",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        572,
+        589
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.703818,
+        "bami_v3": 0.520655,
+        "vietmed_ner": 0.976553
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "29",
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        80,
+        93
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.730623,
+        "bami_v3": 0.553097,
+        "vietmed_ner": 0.997933
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "I10"
+      ]
+    },
+    {
+      "record": "29",
+      "text": "Khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        222,
+        229
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.749211,
+        "bami_v3": 0.724241,
+        "vietmed_ner": 0.993713
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "29",
+      "text": "nghẹt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        343,
+        353
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.713873,
+        "bami_v3": 0.702446,
+        "vietmed_ner": 0.995733
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "29",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        358,
+        361
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.673617,
+        "bami_v3": 0.616409,
+        "vietmed_ner": 0.900551
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "29",
+      "text": "nghẹt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        435,
+        445
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.732122,
+        "bami_v3": 0.717812,
+        "vietmed_ner": 0.997066
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "29",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        504,
+        511
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.745843,
+        "bami_v3": 0.723308,
+        "vietmed_ner": 0.998452
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "29",
+      "text": "phù ngoại vi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        548,
+        560
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.70385,
+        "bami_v3": 0.718002,
+        "vietmed_ner": 0.997725
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "29",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        640,
+        643
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.742707,
+        "bami_v3": 0.693497,
+        "vietmed_ner": 0.881648
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "29",
+      "text": "tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        715,
+        728
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.702195,
+        "bami_v3": 0.505082,
+        "vietmed_ner": 0.998645
+      },
+      "assertions": [],
+      "candidates": [
+        "I10"
+      ]
+    },
+    {
+      "record": "30",
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        514,
+        517
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.726913,
+        "bami_v3": 0.681429,
+        "vietmed_ner": 0.691896
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "30",
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        519,
+        525
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.738316,
+        "bami_v3": 0.724294,
+        "vietmed_ner": 0.696528
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "30",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        536,
+        539
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.731478,
+        "bami_v3": 0.679578,
+        "vietmed_ner": 0.825742
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "30",
+      "text": "buồn ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1931,
+        1939
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.527668,
+        "bami_v3": 0.559241,
+        "vietmed_ner": 0.998358
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        341,
+        344
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.569535,
+        "bami_v3": 0.560142,
+        "vietmed_ner": 0.997265
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "đau lưng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1140,
+        1148
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.723884,
+        "bami_v3": 0.664568,
+        "vietmed_ner": 0.994819
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1281,
+        1289
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.702683,
+        "bami_v3": 0.683706,
+        "vietmed_ner": 0.988795
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "chướng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1291,
+        1302
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.724997,
+        "bami_v3": 0.702557,
+        "vietmed_ner": 0.979437
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "chướng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1337,
+        1348
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.732151,
+        "bami_v3": 0.712593,
+        "vietmed_ner": 0.997919
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "32",
+      "text": "yếu cơ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1447,
+        1453
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.734883,
+        "bami_v3": 0.713962,
+        "vietmed_ner": 0.955022
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "33",
+      "text": "mụn cám",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        392,
+        399
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.580586,
+        "bami_v3": 0.579767,
+        "vietmed_ner": 0.99606
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "33",
+      "text": "mụn đầu trắng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        403,
+        416
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.586019,
+        "bami_v3": 0.587752,
+        "vietmed_ner": 0.972678
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "33",
+      "text": "ngủ quên",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        751,
+        759
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.529582,
+        "bami_v3": 0.539753,
+        "vietmed_ner": 0.660287
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "33",
+      "text": "ngất xỉu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1427,
+        1435
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.543341,
+        "bami_v3": 0.483235,
+        "vietmed_ner": 0.824373
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "34",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        619,
+        627
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.725261,
+        "bami_v3": 0.70482,
+        "vietmed_ner": 0.998627
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "34",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        773,
+        781
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.719739,
+        "bami_v3": 0.709946,
+        "vietmed_ner": 0.998527
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "34",
+      "text": "sợ tiếng động",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        796,
+        809
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.509402,
+        "bami_v3": 0.524372,
+        "vietmed_ner": 0.653852
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "34",
+      "text": "căng thẳng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        811,
+        821
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.557626,
+        "bami_v3": 0.457175,
+        "vietmed_ner": 0.998237
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "34",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        909,
+        912
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.60511,
+        "bami_v3": 0.55888,
+        "vietmed_ner": 0.998325
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "34",
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        963,
+        970
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.509198,
+        "bami_v3": 0.542012,
+        "vietmed_ner": 0.97553
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "34",
+      "text": "suy thoái võng mạc",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1222,
+        1240
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.628133,
+        "bami_v3": 0.419644,
+        "vietmed_ner": 0.962935
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "36",
+      "text": "tiểu ít",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        73,
+        80
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.725542,
+        "bami_v3": 0.711618,
+        "vietmed_ner": 0.958291
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "36",
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        324,
+        327
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.689199,
+        "bami_v3": 0.626444,
+        "vietmed_ner": 0.983885
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "36",
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        381,
+        384
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.599405,
+        "bami_v3": 0.453646,
+        "vietmed_ner": 0.939065
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "36",
+      "text": "Viêm cầu thận mạn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1102,
+        1119
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.715802,
+        "bami_v3": 0.561752,
+        "vietmed_ner": 0.995637
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "36",
+      "text": "Hội chứng thận hư",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1122,
+        1139
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.721204,
+        "bami_v3": 0.56443,
+        "vietmed_ner": 0.998065
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "36",
+      "text": "siêu âm",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1972,
+        1979
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.448921,
+        "bami_v3": 0.298228,
+        "vietmed_ner": 0.979143
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "37",
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1087,
+        1093
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.71486,
+        "bami_v3": 0.699043,
+        "vietmed_ner": 0.943607
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "37",
+      "text": "chảy mủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1095,
+        1102
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.696846,
+        "bami_v3": 0.632229,
+        "vietmed_ner": 0.997259
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "38",
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        113,
+        126
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.730989,
+        "bami_v3": 0.561208,
+        "vietmed_ner": 0.997934
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "I10"
+      ]
+    },
+    {
+      "record": "38",
+      "text": "ra máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        894,
+        900
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.54673,
+        "bami_v3": 0.501785,
+        "vietmed_ner": 0.986038
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "39",
+      "text": "tụt huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        390,
+        402
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.632001,
+        "bami_v3": 0.70853,
+        "vietmed_ner": 0.991913
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "39",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        477,
+        484
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.733102,
+        "bami_v3": 0.728286,
+        "vietmed_ner": 0.997119
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "39",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        826,
+        833
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.739584,
+        "bami_v3": 0.722176,
+        "vietmed_ner": 0.998151
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "39",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1021,
+        1028
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.753845,
+        "bami_v3": 0.745205,
+        "vietmed_ner": 0.998065
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "39",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1031,
+        1038
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.75717,
+        "bami_v3": 0.746092,
+        "vietmed_ner": 0.998065
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "39",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1483,
+        1490
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.746833,
+        "bami_v3": 0.742453,
+        "vietmed_ner": 0.998298
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "39",
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1506,
+        1508
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.63194,
+        "bami_v3": 0.683503,
+        "vietmed_ner": 0.995081
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "39",
+      "text": "đờm vàng loãng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1521,
+        1535
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.43693,
+        "bami_v3": 0.498979,
+        "vietmed_ner": 0.924127
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "40",
+      "text": "Đi ngoài phân đen",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        34,
+        51
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.676034,
+        "bami_v3": 0.693204,
+        "vietmed_ner": 0.91391
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "40",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        53,
+        60
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.730591,
+        "bami_v3": 0.721169,
+        "vietmed_ner": 0.997439
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "40",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        196,
+        199
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.372189,
+        "bami_v3": 0.375078,
+        "vietmed_ner": 0.974873
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "40",
+      "text": "Viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        868,
+        877
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.673047,
+        "bami_v3": 0.420589,
+        "vietmed_ner": 0.996145
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "40",
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        909,
+        923
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.667217,
+        "bami_v3": 0.469412,
+        "vietmed_ner": 0.994408
+      },
+      "assertions": [],
+      "candidates": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "40",
+      "text": "co giật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1568,
+        1575
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.693774,
+        "bami_v3": 0.670287,
+        "vietmed_ner": 0.998222
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "40",
+      "text": "cứng đờ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1577,
+        1584
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.714241,
+        "bami_v3": 0.666904,
+        "vietmed_ner": 0.998077
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "40",
+      "text": "tiểu tiện không tự chủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1600,
+        1622
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.68919,
+        "bami_v3": 0.688092,
+        "vietmed_ner": 0.930991
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        75,
+        88
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.729071,
+        "bami_v3": 0.545168,
+        "vietmed_ner": 0.998036
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "I10"
+      ]
+    },
+    {
+      "record": "42",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        219,
+        228
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.589605,
+        "bami_v3": 0.725437,
+        "vietmed_ner": 0.997919
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        298,
+        300
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.740261,
+        "bami_v3": 0.711089,
+        "vietmed_ner": 0.994892
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "thiếu oxy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        302,
+        311
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.690979,
+        "bami_v3": 0.708672,
+        "vietmed_ner": 0.992942
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        745,
+        754
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.711913,
+        "bami_v3": 0.72156,
+        "vietmed_ner": 0.997919
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "đi tiểu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        782,
+        789
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.630806,
+        "bami_v3": 0.631296,
+        "vietmed_ner": 0.990634
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        874,
+        881
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.747834,
+        "bami_v3": 0.730203,
+        "vietmed_ner": 0.998497
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        912,
+        919
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.689821,
+        "bami_v3": 0.696198,
+        "vietmed_ner": 0.998471
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1054,
+        1063
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.746102,
+        "bami_v3": 0.731017,
+        "vietmed_ner": 0.998414
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1112,
+        1120
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.747869,
+        "bami_v3": 0.738111,
+        "vietmed_ner": 0.788349
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1193,
+        1200
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.742675,
+        "bami_v3": 0.733812,
+        "vietmed_ner": 0.998419
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "chụp x-quang ngực",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1894,
+        1911
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.402773,
+        "bami_v3": 0.38173,
+        "vietmed_ner": 0.968631
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "43",
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1872,
+        1879
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.688251,
+        "bami_v3": 0.684308,
+        "vietmed_ner": 0.997582
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "44",
+      "text": "buồn ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1631,
+        1639
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.46949,
+        "bami_v3": 0.534381,
+        "vietmed_ner": 0.998358
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        243,
+        246
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.386608,
+        "bami_v3": 0.502938,
+        "vietmed_ner": 0.82865
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        254,
+        262
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.634837,
+        "bami_v3": 0.654349,
+        "vietmed_ner": 0.993965
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1444,
+        1451
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.749452,
+        "bami_v3": 0.735708,
+        "vietmed_ner": 0.998316
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1625,
+        1633
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.755807,
+        "bami_v3": 0.742068,
+        "vietmed_ner": 0.998461
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "Ăn không ngon miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1705,
+        1724
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.713084,
+        "bami_v3": 0.732743,
+        "vietmed_ner": 0.964802
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1816,
+        1824
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.761603,
+        "bami_v3": 0.748196,
+        "vietmed_ner": 0.998509
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1828,
+        1831
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.714672,
+        "bami_v3": 0.678424,
+        "vietmed_ner": 0.618477
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "tụt huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        390,
+        402
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.617645,
+        "bami_v3": 0.718821,
+        "vietmed_ner": 0.991913
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        833,
+        841
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.725749,
+        "bami_v3": 0.724689,
+        "vietmed_ner": 0.998287
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        843,
+        851
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.729147,
+        "bami_v3": 0.722852,
+        "vietmed_ner": 0.979483
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        853,
+        856
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.715697,
+        "bami_v3": 0.67556,
+        "vietmed_ner": 0.784151
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        858,
+        867
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.733899,
+        "bami_v3": 0.722466,
+        "vietmed_ner": 0.998035
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "táo bón",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        874,
+        881
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.723424,
+        "bami_v3": 0.721817,
+        "vietmed_ner": 0.998406
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        932,
+        935
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.733508,
+        "bami_v3": 0.694262,
+        "vietmed_ner": 0.842588
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        937,
+        945
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.736073,
+        "bami_v3": 0.732372,
+        "vietmed_ner": 0.996492
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        947,
+        956
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.738048,
+        "bami_v3": 0.720719,
+        "vietmed_ner": 0.998188
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        986,
+        994
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.728767,
+        "bami_v3": 0.729943,
+        "vietmed_ner": 0.990035
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "đờm vàng loãng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1431,
+        1445
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.402046,
+        "bami_v3": 0.537997,
+        "vietmed_ner": 0.924127
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "49",
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        35,
+        43
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.538665,
+        "bami_v3": 0.642431,
+        "vietmed_ner": 0.998679
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "49",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        286,
+        293
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.706018,
+        "bami_v3": 0.666817,
+        "vietmed_ner": 0.998241
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "49",
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        639,
+        647
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.41672,
+        "bami_v3": 0.50603,
+        "vietmed_ner": 0.99824
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "49",
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        948,
+        956
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.60398,
+        "bami_v3": 0.618025,
+        "vietmed_ner": 0.998041
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "49",
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        970,
+        978
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.568552,
+        "bami_v3": 0.623294,
+        "vietmed_ner": 0.998159
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "50",
+      "text": "phù gai thị",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1192,
+        1203
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.587342,
+        "bami_v3": 0.591348,
+        "vietmed_ner": 0.976387
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "51",
+      "text": "đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        62,
+        76
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.69391,
+        "bami_v3": 0.537581,
+        "vietmed_ner": 0.997782
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "51",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        362,
+        369
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.717735,
+        "bami_v3": 0.710281,
+        "vietmed_ner": 0.998495
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "51",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        441,
+        448
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.746485,
+        "bami_v3": 0.736657,
+        "vietmed_ner": 0.998327
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "51",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        877,
+        884
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.702756,
+        "bami_v3": 0.70649,
+        "vietmed_ner": 0.998373
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "51",
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        886,
+        888
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.729901,
+        "bami_v3": 0.692622,
+        "vietmed_ner": 0.996666
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "51",
+      "text": "đờm trắng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        892,
+        901
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.523789,
+        "bami_v3": 0.47775,
+        "vietmed_ner": 0.87413
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "51",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        912,
+        915
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.689411,
+        "bami_v3": 0.641098,
+        "vietmed_ner": 0.9876
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "53",
+      "text": "Xét nghiệm máu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        321,
+        335
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.401828,
+        "bami_v3": 0.348046,
+        "vietmed_ner": 0.955999
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "53",
+      "text": "CTM",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1374,
+        1377
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.456526,
+        "bami_v3": 0.322676,
+        "vietmed_ner": 0.969347
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "55",
+      "text": "Huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1289,
+        1297
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.442899,
+        "bami_v3": 0.584103,
+        "vietmed_ner": 0.886353
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "55",
+      "text": "căng thẳng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1382,
+        1392
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.438459,
+        "bami_v3": 0.474681,
+        "vietmed_ner": 0.998598
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "55",
+      "text": "huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1397,
+        1405
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.490416,
+        "bami_v3": 0.554583,
+        "vietmed_ner": 0.995719
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "55",
+      "text": "huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1600,
+        1608
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.457121,
+        "bami_v3": 0.490788,
+        "vietmed_ner": 0.954155
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "57",
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        39,
+        52
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.712728,
+        "bami_v3": 0.532513,
+        "vietmed_ner": 0.998018
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "I10"
+      ]
+    },
+    {
+      "record": "57",
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        54,
+        68
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.69726,
+        "bami_v3": 0.521344,
+        "vietmed_ner": 0.997783
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "58",
+      "text": "XN máu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        394,
+        400
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.393298,
+        "bami_v3": 0.34964,
+        "vietmed_ner": 0.574133
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "59",
+      "text": "mụn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        266,
+        269
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.500035,
+        "bami_v3": 0.425182,
+        "vietmed_ner": 0.994153
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "59",
+      "text": "mụn cám",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        316,
+        323
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.632535,
+        "bami_v3": 0.645548,
+        "vietmed_ner": 0.99606
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "59",
+      "text": "mụn đầu trắng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        327,
+        340
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.63316,
+        "bami_v3": 0.65851,
+        "vietmed_ner": 0.972678
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "59",
+      "text": "viêm xương tủy",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        948,
+        962
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.586359,
+        "bami_v3": 0.471665,
+        "vietmed_ner": 0.983956
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "60",
+      "text": "mụn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        266,
+        269
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.496749,
+        "bami_v3": 0.434451,
+        "vietmed_ner": 0.994153
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "60",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1196,
+        1203
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.742043,
+        "bami_v3": 0.716405,
+        "vietmed_ner": 0.997848
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "60",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1213,
+        1221
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.735463,
+        "bami_v3": 0.711316,
+        "vietmed_ner": 0.994874
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "60",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1232,
+        1240
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.740833,
+        "bami_v3": 0.717016,
+        "vietmed_ner": 0.998602
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "61",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        598,
+        605
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.74249,
+        "bami_v3": 0.729414,
+        "vietmed_ner": 0.998151
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "61",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        793,
+        800
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.749595,
+        "bami_v3": 0.742672,
+        "vietmed_ner": 0.998065
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "61",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        803,
+        810
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.751178,
+        "bami_v3": 0.743095,
+        "vietmed_ner": 0.998065
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "61",
+      "text": "đờm vàng loãng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        902,
+        916
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.532482,
+        "bami_v3": 0.630901,
+        "vietmed_ner": 0.924127
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        244,
+        246
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.762006,
+        "bami_v3": 0.714279,
+        "vietmed_ner": 0.994892
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "thiếu oxy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        248,
+        257
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.728198,
+        "bami_v3": 0.724592,
+        "vietmed_ner": 0.992942
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        379,
+        386
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.751202,
+        "bami_v3": 0.737893,
+        "vietmed_ner": 0.998361
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        395,
+        402
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.699229,
+        "bami_v3": 0.702078,
+        "vietmed_ner": 0.998456
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        436,
+        443
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.751947,
+        "bami_v3": 0.741132,
+        "vietmed_ner": 0.998065
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "đi tiểu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        522,
+        529
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.630773,
+        "bami_v3": 0.603194,
+        "vietmed_ner": 0.990634
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        614,
+        621
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.739246,
+        "bami_v3": 0.721181,
+        "vietmed_ner": 0.998497
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        652,
+        659
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.683246,
+        "bami_v3": 0.676828,
+        "vietmed_ner": 0.998471
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        794,
+        803
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.717442,
+        "bami_v3": 0.718073,
+        "vietmed_ner": 0.998414
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        852,
+        860
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.739619,
+        "bami_v3": 0.735486,
+        "vietmed_ner": 0.788349
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        933,
+        940
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.725833,
+        "bami_v3": 0.714257,
+        "vietmed_ner": 0.998419
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        964,
+        971
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.735507,
+        "bami_v3": 0.728348,
+        "vietmed_ner": 0.9982
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "64",
+      "text": "mất thăng bằng khi đi đứng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        356,
+        382
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.667998,
+        "bami_v3": 0.66182,
+        "vietmed_ner": 0.848434
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "64",
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1201,
+        1208
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.676652,
+        "bami_v3": 0.617219,
+        "vietmed_ner": 0.998642
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "64",
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1210,
+        1219
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.724316,
+        "bami_v3": 0.695397,
+        "vietmed_ner": 0.998633
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "64",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1221,
+        1229
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.735714,
+        "bami_v3": 0.706909,
+        "vietmed_ner": 0.998796
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "64",
+      "text": "đỏ mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1231,
+        1237
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.721681,
+        "bami_v3": 0.694984,
+        "vietmed_ner": 0.998011
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "65",
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        252,
+        260
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.3592,
+        "bami_v3": 0.536799,
+        "vietmed_ner": 0.996941
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "65",
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        404,
+        412
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.37805,
+        "bami_v3": 0.434474,
+        "vietmed_ner": 0.99824
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "65",
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        713,
+        721
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.400071,
+        "bami_v3": 0.509127,
+        "vietmed_ner": 0.998041
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "66",
+      "text": "dị cảm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        858,
+        864
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.49693,
+        "bami_v3": 0.493993,
+        "vietmed_ner": 0.998082
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "68",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        248,
+        255
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.755435,
+        "bami_v3": 0.738443,
+        "vietmed_ner": 0.998065
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "68",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1434,
+        1443
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.459196,
+        "bami_v3": 0.523392,
+        "vietmed_ner": 0.992079
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "69",
+      "text": "tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        430,
+        432
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.438266,
+        "bami_v3": 0.446455,
+        "vietmed_ner": 0.643828
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "70",
+      "text": "đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        62,
+        76
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.69391,
+        "bami_v3": 0.537581,
+        "vietmed_ner": 0.997782
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "70",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        362,
+        369
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.717735,
+        "bami_v3": 0.710281,
+        "vietmed_ner": 0.998495
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "70",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        441,
+        448
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.746485,
+        "bami_v3": 0.736657,
+        "vietmed_ner": 0.998327
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "70",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        877,
+        884
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.701195,
+        "bami_v3": 0.708295,
+        "vietmed_ner": 0.998373
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "70",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        912,
+        915
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.690168,
+        "bami_v3": 0.655162,
+        "vietmed_ner": 0.9876
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "70",
+      "text": "thiếu oxy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1083,
+        1092
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.586687,
+        "bami_v3": 0.588531,
+        "vietmed_ner": 0.991856
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "70",
+      "text": "thiếu oxy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1279,
+        1288
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.650622,
+        "bami_v3": 0.685232,
+        "vietmed_ner": 0.991966
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "71",
+      "text": "viêm nang lông",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        914,
+        928
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.694645,
+        "bami_v3": 0.529507,
+        "vietmed_ner": 0.946034
+      },
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "73",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        423,
+        431
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.722093,
+        "bami_v3": 0.710678,
+        "vietmed_ner": 0.998218
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "73",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        519,
+        527
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.749225,
+        "bami_v3": 0.730845,
+        "vietmed_ner": 0.998564
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "73",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        557,
+        560
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.73737,
+        "bami_v3": 0.671825,
+        "vietmed_ner": 0.590991
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "73",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1257,
+        1260
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.699744,
+        "bami_v3": 0.639457,
+        "vietmed_ner": 0.816967
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "73",
+      "text": "thiểu niệu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1338,
+        1348
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.48564,
+        "bami_v3": 0.677411,
+        "vietmed_ner": 0.893295
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "73",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1435,
+        1443
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.676833,
+        "bami_v3": 0.700976,
+        "vietmed_ner": 0.998594
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "74",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        783,
+        786
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.681764,
+        "bami_v3": 0.651888,
+        "vietmed_ner": 0.590991
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "74",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1251,
+        1254
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.735163,
+        "bami_v3": 0.649344,
+        "vietmed_ner": 0.816967
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "74",
+      "text": "thiểu niệu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1332,
+        1342
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.588933,
+        "bami_v3": 0.7085,
+        "vietmed_ner": 0.893293
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "76",
+      "text": "buồn ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1280,
+        1288
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.465822,
+        "bami_v3": 0.521446,
+        "vietmed_ner": 0.998358
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "77",
+      "text": "x-quang",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1409,
+        1416
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.46924,
+        "bami_v3": 0.317992,
+        "vietmed_ner": 0.695689
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "77",
+      "text": "chụp cắt lớp vi tính",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1514,
+        1534
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.485366,
+        "bami_v3": 0.400539,
+        "vietmed_ner": 0.814325
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "78",
+      "text": "chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1226,
+        1234
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.679237,
+        "bami_v3": 0.649118,
+        "vietmed_ner": 0.998637
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "80",
+      "text": "hoại tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        938,
+        945
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.387548,
+        "bami_v3": 0.418542,
+        "vietmed_ner": 0.99201
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "81",
+      "text": "ra máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1124,
+        1130
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.554063,
+        "bami_v3": 0.499623,
+        "vietmed_ner": 0.994933
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "85",
+      "text": "viêm bể thận",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        473,
+        485
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.720537,
+        "bami_v3": 0.545206,
+        "vietmed_ner": 0.996579
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "85",
+      "text": "viêm phế quản",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        489,
+        502
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.70571,
+        "bami_v3": 0.54313,
+        "vietmed_ner": 0.997745
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "86",
+      "text": "nghẹt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        38,
+        48
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.740963,
+        "bami_v3": 0.713744,
+        "vietmed_ner": 0.992024
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "86",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        55,
+        62
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.745649,
+        "bami_v3": 0.720199,
+        "vietmed_ner": 0.998361
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "86",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        98,
+        105
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.751252,
+        "bami_v3": 0.72935,
+        "vietmed_ner": 0.998065
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "86",
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        299,
+        304
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.731957,
+        "bami_v3": 0.714131,
+        "vietmed_ner": 0.963687
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "86",
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        306,
+        312
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.721557,
+        "bami_v3": 0.705746,
+        "vietmed_ner": 0.965418
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "86",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        333,
+        341
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.732152,
+        "bami_v3": 0.722598,
+        "vietmed_ner": 0.997734
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "87",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        182,
+        185
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.521876,
+        "bami_v3": 0.516511,
+        "vietmed_ner": 0.998073
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "87",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        278,
+        285
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.472197,
+        "bami_v3": 0.502699,
+        "vietmed_ner": 0.991487
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "88",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        413,
+        416
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.704569,
+        "bami_v3": 0.664883,
+        "vietmed_ner": 0.995395
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "88",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        426,
+        429
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.614736,
+        "bami_v3": 0.634133,
+        "vietmed_ner": 0.981924
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "88",
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        493,
+        496
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.6634,
+        "bami_v3": 0.626909,
+        "vietmed_ner": 0.926441
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "89",
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        55,
+        69
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.695097,
+        "bami_v3": 0.489682,
+        "vietmed_ner": 0.997158
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "89",
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        73,
+        86
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.677369,
+        "bami_v3": 0.507234,
+        "vietmed_ner": 0.998007
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "I10"
+      ]
+    },
+    {
+      "record": "90",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        825,
+        828
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.749691,
+        "bami_v3": 0.694251,
+        "vietmed_ner": 0.997619
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "91",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        455,
+        462
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.752081,
+        "bami_v3": 0.739833,
+        "vietmed_ner": 0.998327
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "91",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        590,
+        597
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.701033,
+        "bami_v3": 0.714825,
+        "vietmed_ner": 0.99655
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "91",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        669,
+        676
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.670947,
+        "bami_v3": 0.696166,
+        "vietmed_ner": 0.997451
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "91",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        730,
+        737
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.721218,
+        "bami_v3": 0.717697,
+        "vietmed_ner": 0.998188
+      },
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "91",
+      "text": "Cơn nhịp nhanh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        762,
+        776
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.689206,
+        "bami_v3": 0.613203,
+        "vietmed_ner": 0.991657
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "92",
+      "text": "sốt cao",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        407,
+        414
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.669011,
+        "bami_v3": 0.667583,
+        "vietmed_ner": 0.882036
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "92",
+      "text": "hạ huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        466,
+        477
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.376758,
+        "bami_v3": 0.496762,
+        "vietmed_ner": 0.905743
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "92",
+      "text": "Đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        970,
+        978
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.702805,
+        "bami_v3": 0.720383,
+        "vietmed_ner": 0.961064
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "93",
+      "text": "huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1007,
+        1015
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.437447,
+        "bami_v3": 0.49594,
+        "vietmed_ner": 0.995719
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "95",
+      "text": "biến dạng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        947,
+        956
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.459548,
+        "bami_v3": 0.432169,
+        "vietmed_ner": 0.99802
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "95",
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1330,
+        1339
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.622891,
+        "bami_v3": 0.690958,
+        "vietmed_ner": 0.997919
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "97",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        387,
+        394
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.75215,
+        "bami_v3": 0.73642,
+        "vietmed_ner": 0.998316
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "97",
+      "text": "ăn không ngon miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        463,
+        482
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.715492,
+        "bami_v3": 0.71897,
+        "vietmed_ner": 0.988053
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "97",
+      "text": "Ăn không ngon miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        648,
+        667
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.72727,
+        "bami_v3": 0.742251,
+        "vietmed_ner": 0.964802
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "99",
+      "text": "biến đổi ý thức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        378,
+        393
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.665306,
+        "bami_v3": 0.682661,
+        "vietmed_ner": 0.996838
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "99",
+      "text": "hạ huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        410,
+        421
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.707806,
+        "bami_v3": 0.709403,
+        "vietmed_ner": 0.969941
+      },
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "99",
+      "text": "biến đổi ý thức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        484,
+        499
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.688627,
+        "bami_v3": 0.690257,
+        "vietmed_ner": 0.974149
+      },
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "99",
+      "text": "chụp x-quang ngực",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1080,
+        1097
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.450952,
+        "bami_v3": 0.393673,
+        "vietmed_ner": 0.903775
+      },
+      "assertions": [],
+      "candidates": null
+    }
+  ]
+}

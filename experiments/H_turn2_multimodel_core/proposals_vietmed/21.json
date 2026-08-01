@@ -1,0 +1,608 @@
+[
+  {
+    "text": "Rối loạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      29,
+      37
+    ],
+    "confidence": 0.8779400416782924,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "F39"
+    ]
+  },
+  {
+    "text": "chuyển hóa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      38,
+      48
+    ],
+    "confidence": 0.74535071849823,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tinh bột",
+    "type": "THUỐC",
+    "position": [
+      49,
+      57
+    ],
+    "confidence": 0.9377155559403556,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "(amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      58,
+      70
+    ],
+    "confidence": 0.8726518700520197,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      88,
+      93
+    ],
+    "confidence": 0.9949316382408142,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thoái hóa tinh bột",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      313,
+      331
+    ],
+    "confidence": 0.9781737929016217,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      353
+    ],
+    "confidence": 0.9888899434696544,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      378,
+      380
+    ],
+    "confidence": 0.5823745727539062,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "position": [
+      381,
+      388
+    ],
+    "confidence": 0.9290040135383606,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "position": [
+      442,
+      449
+    ],
+    "confidence": 0.9497008919715881,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "amyloid",
+    "type": "THUỐC",
+    "position": [
+      468,
+      475
+    ],
+    "confidence": 0.8105975389480591,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "position": [
+      521,
+      528
+    ],
+    "confidence": 0.7232726812362671,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "amyloid",
+    "type": "THUỐC",
+    "position": [
+      529,
+      536
+    ],
+    "confidence": 0.812611494745527,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "protein",
+    "type": "THUỐC",
+    "position": [
+      660,
+      667
+    ],
+    "confidence": 0.8846476674079895,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "amyloid",
+    "type": "THUỐC",
+    "position": [
+      668,
+      675
+    ],
+    "confidence": 0.8670466116496495,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy các cơ quan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      713,
+      728
+    ],
+    "confidence": 0.7560675186770303,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tử vong",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      750,
+      757
+    ],
+    "confidence": 0.9953142387526377,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "amyloid",
+    "type": "THUỐC",
+    "position": [
+      792,
+      799
+    ],
+    "confidence": 0.7756795883178711,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thoái hóa tinh bột",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      811,
+      829
+    ],
+    "confidence": 0.996875724641446,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thoái hóa tinh bột",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      994,
+      1012
+    ],
+    "confidence": 0.9948100308082762,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1043,
+      1050
+    ],
+    "confidence": 0.99867182970047,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "C18.9"
+    ]
+  },
+  {
+    "text": "ung thư máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1094,
+      1105
+    ],
+    "confidence": 0.9973101615905762,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "u tủy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1113,
+      1118
+    ],
+    "confidence": 0.9947149356206257,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1134,
+      1145
+    ],
+    "confidence": 0.8529162298549305,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1195,
+      1206
+    ],
+    "confidence": 0.9820548675277017,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1231,
+      1242
+    ],
+    "confidence": 0.9774028767238964,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tự miễn dịch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1243,
+      1255
+    ],
+    "confidence": 0.8625886837641399,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1270,
+      1281
+    ],
+    "confidence": 0.9809079495343295,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "di truyền",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1282,
+      1291
+    ],
+    "confidence": 0.9951554387807846,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thoái hóa tinh bột",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1311,
+      1329
+    ],
+    "confidence": 0.9894540577587498,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "amyloidosis",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1444,
+      1455
+    ],
+    "confidence": 0.9855079596692865,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1558,
+      1568
+    ],
+    "confidence": 0.9973565936088562,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1605,
+      1613
+    ],
+    "confidence": 0.9849020753587995,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1638,
+      1649
+    ],
+    "confidence": 0.9927510976791382,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1657,
+      1665
+    ],
+    "confidence": 0.9985931664705276,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1711,
+      1719
+    ],
+    "confidence": 0.9979796494756427,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1764,
+      1772
+    ],
+    "confidence": 0.9924545202936444,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1787,
+      1795
+    ],
+    "confidence": 0.9948190110070365,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1928,
+      1936
+    ],
+    "confidence": 0.9887950505529132,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1938,
+      1949
+    ],
+    "confidence": 0.9794374823570251,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1984,
+      1995
+    ],
+    "confidence": 0.9979190587997436,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1998,
+      2006
+    ],
+    "confidence": 0.9988713636994362,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2024,
+      2032
+    ],
+    "confidence": 0.998324487890516,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2097,
+      2100
+    ],
+    "confidence": 0.6827713251113892,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm dạ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2159,
+      2166
+    ],
+    "confidence": 0.9467900991439819,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "position": [
+      2189,
+      2194
+    ],
+    "confidence": 0.9867472648620605,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "NSAIDs",
+    "type": "THUỐC",
+    "position": [
+      2195,
+      2201
+    ],
+    "confidence": 0.9517097473144531,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      2222,
+      2232
+    ],
+    "confidence": 0.9064636707305909,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2298,
+      2322
+    ],
+    "confidence": 0.9537775809174858,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2449,
+      2473
+    ],
+    "confidence": 0.9290772144072481,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

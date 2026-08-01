@@ -1,0 +1,110 @@
+[
+  {
+    "text": "Nghẽn tắc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      50,
+      59
+    ],
+    "confidence": 0.9979628399014473,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I65.29"
+    ]
+  },
+  {
+    "text": "hẹp động mạch cảnh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      63,
+      81
+    ],
+    "confidence": 0.9981356697256157,
+    "source": "vietmed_ner",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I65.29"
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      235,
+      242
+    ],
+    "confidence": 0.9889622529347738,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Doppler động mạch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      243,
+      260
+    ],
+    "confidence": 0.9502011185342615,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nghẽn tắc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      264,
+      273
+    ],
+    "confidence": 0.9981771036982536,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "I65.29"
+    ]
+  },
+  {
+    "text": "hẹp động mạch cảnh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      277,
+      295
+    ],
+    "confidence": 0.9973724235673579,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": [
+      "I65.29"
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      320,
+      327
+    ],
+    "confidence": 0.9853088855743408,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "động mạch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      487,
+      496
+    ],
+    "confidence": 0.909601479768753,
+    "source": "vietmed_ner",
+    "assertions": [],
+    "candidates": null
+  }
+]

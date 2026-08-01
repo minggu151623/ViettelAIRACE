@@ -1,0 +1,1594 @@
+{
+  "source": "turn2/output",
+  "output": "turn2/output_v2_llm_guarded",
+  "proposal_dirs": [
+    "experiments/H_turn2_llm_guarded_rebuild/qwen_broad_probe",
+    "experiments/H_turn2_llm_guarded_rebuild/qwen_structured_probe"
+  ],
+  "candidate_review": "experiments/H_turn2_llm_guarded_rebuild/candidate_review.json",
+  "elapsed_seconds": 0.072,
+  "stats": {
+    "candidate_ids_removed": 104,
+    "records": 100,
+    "entities_before": 1486,
+    "entities_after": 1540,
+    "candidate_entities_replaced": 44,
+    "candidate_ids_added_by_safe_alias": 44,
+    "added:TÊN_XÉT_NGHIỆM": 12,
+    "added:TRIỆU_CHỨNG": 21,
+    "added:CHẨN_ĐOÁN": 21,
+    "added:THUỐC": 1
+  },
+  "changes": [
+    {
+      "record": "1",
+      "action": "DROP_CANDIDATE",
+      "text": "long não",
+      "code": "219922"
+    },
+    {
+      "record": "1",
+      "action": "DROP_CANDIDATE",
+      "text": "hiến máu",
+      "code": "1012103"
+    },
+    {
+      "record": "1",
+      "action": "DROP_CANDIDATE",
+      "text": "long não",
+      "code": "219922"
+    },
+    {
+      "record": "2",
+      "action": "DROP_CANDIDATE",
+      "text": "Bệnh Kawasaki",
+      "code": "E75.23"
+    },
+    {
+      "record": "2",
+      "action": "DROP_CANDIDATE",
+      "text": "viêm mạch máu",
+      "code": "M31.0"
+    },
+    {
+      "record": "2",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Bệnh Kawasaki",
+      "before": [],
+      "after": [
+        "M30.3"
+      ]
+    },
+    {
+      "record": "3",
+      "action": "DROP_CANDIDATE",
+      "text": "hội chứng Parkinson",
+      "code": "G21.11"
+    },
+    {
+      "record": "4",
+      "action": "DROP_CANDIDATE",
+      "text": "loét tá tràng",
+      "code": "K25"
+    },
+    {
+      "record": "4",
+      "action": "DROP_CANDIDATE",
+      "text": "chẩn đoán viêm dạ dày ruột do virus",
+      "code": "A08.3"
+    },
+    {
+      "record": "4",
+      "action": "DROP_CANDIDATE",
+      "text": "loét tá tràng",
+      "code": "K25"
+    },
+    {
+      "record": "4",
+      "action": "REPLACE_CANDIDATES",
+      "text": "loét tá tràng",
+      "before": [],
+      "after": [
+        "K26"
+      ]
+    },
+    {
+      "record": "4",
+      "action": "REPLACE_CANDIDATES",
+      "text": "loét tá tràng",
+      "before": [],
+      "after": [
+        "K26"
+      ]
+    },
+    {
+      "record": "5",
+      "action": "DROP_CANDIDATE",
+      "text": "tắc nghẽn kéo dài",
+      "code": "K83.1"
+    },
+    {
+      "record": "5",
+      "action": "DROP_CANDIDATE",
+      "text": "ung thư biểu mô tuyến",
+      "code": "C22.0"
+    },
+    {
+      "record": "5",
+      "action": "DROP_CANDIDATE",
+      "text": "ung thư biểu mô tuyến",
+      "code": "C22.0"
+    },
+    {
+      "record": "7",
+      "action": "DROP_CANDIDATE",
+      "text": "viêm bao tử",
+      "code": "N73.0"
+    },
+    {
+      "record": "7",
+      "action": "REPLACE_CANDIDATES",
+      "text": "viêm bao tử",
+      "before": [],
+      "after": [
+        "K29.7"
+      ]
+    },
+    {
+      "record": "9",
+      "action": "DROP_CANDIDATE",
+      "text": "viêm bao tử",
+      "code": "N73.0"
+    },
+    {
+      "record": "9",
+      "action": "REPLACE_CANDIDATES",
+      "text": "viêm bao tử",
+      "before": [],
+      "after": [
+        "K29.7"
+      ]
+    },
+    {
+      "record": "11",
+      "action": "DROP_CANDIDATE",
+      "text": "tụ máu ngoài màng cứng phải cấp tính trên nền tổn thương mạn tính",
+      "code": "I62.03"
+    },
+    {
+      "record": "11",
+      "action": "DROP_CANDIDATE",
+      "text": "nang màng nhện",
+      "code": "N43"
+    },
+    {
+      "record": "11",
+      "action": "DROP_CANDIDATE",
+      "text": "tổn thương mạn tính",
+      "code": "S85"
+    },
+    {
+      "record": "11",
+      "action": "DROP_CANDIDATE",
+      "text": "tổn thương mạn tính",
+      "code": "S85.5"
+    },
+    {
+      "record": "12",
+      "action": "DROP_CANDIDATE",
+      "text": "doxycyclinebactrim",
+      "code": "3640"
+    },
+    {
+      "record": "13",
+      "action": "DROP_CANDIDATE",
+      "text": "họ Lyssaviridae",
+      "code": "R05"
+    },
+    {
+      "record": "13",
+      "action": "DROP_CANDIDATE",
+      "text": "tủy sống",
+      "code": "D33"
+    },
+    {
+      "record": "13",
+      "action": "DROP_CANDIDATE",
+      "text": "não",
+      "code": "G93"
+    },
+    {
+      "record": "13",
+      "action": "DROP_CANDIDATE",
+      "text": "não",
+      "code": "G93.6"
+    },
+    {
+      "record": "13",
+      "action": "DROP_CANDIDATE",
+      "text": "đại não",
+      "code": "C71"
+    },
+    {
+      "record": "13",
+      "action": "DROP_CANDIDATE",
+      "text": "virus",
+      "code": "A83"
+    },
+    {
+      "record": "13",
+      "action": "DROP_CANDIDATE",
+      "text": "virus",
+      "code": "A83.6"
+    },
+    {
+      "record": "15",
+      "action": "DROP_CANDIDATE",
+      "text": "Bệnh phổi kẽ do sử dụng corticoid liều cao kéo dài",
+      "code": "J84.112"
+    },
+    {
+      "record": "15",
+      "action": "DROP_CANDIDATE",
+      "text": "viêm mô tế bào",
+      "code": "H60"
+    },
+    {
+      "record": "15",
+      "action": "DROP_CANDIDATE",
+      "text": "viêm mô tế bào",
+      "code": "H60.1"
+    },
+    {
+      "record": "15",
+      "action": "DROP_CANDIDATE",
+      "text": "chẩn đoán Viêm mô tế bào",
+      "code": "C96.A"
+    },
+    {
+      "record": "15",
+      "action": "DROP_CANDIDATE",
+      "text": "Viêm mô tế bào",
+      "code": "H60"
+    },
+    {
+      "record": "15",
+      "action": "DROP_CANDIDATE",
+      "text": "Viêm mô tế bào",
+      "code": "H60.1"
+    },
+    {
+      "record": "15",
+      "action": "REPLACE_CANDIDATES",
+      "text": "viêm mô tế bào",
+      "before": [],
+      "after": [
+        "L03.9"
+      ]
+    },
+    {
+      "record": "15",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Viêm mô tế bào",
+      "before": [],
+      "after": [
+        "L03.9"
+      ]
+    },
+    {
+      "record": "16",
+      "action": "DROP_CANDIDATE",
+      "text": "nước bọt",
+      "code": "K11"
+    },
+    {
+      "record": "16",
+      "action": "DROP_CANDIDATE",
+      "text": "hệ thần kinh",
+      "code": "A17"
+    },
+    {
+      "record": "16",
+      "action": "DROP_CANDIDATE",
+      "text": "tủy sống",
+      "code": "D33"
+    },
+    {
+      "record": "16",
+      "action": "DROP_CANDIDATE",
+      "text": "nước bọt",
+      "code": "K11"
+    },
+    {
+      "record": "17",
+      "action": "DROP_CANDIDATE",
+      "text": "Tiểu đường",
+      "code": "T18"
+    },
+    {
+      "record": "17",
+      "action": "DROP_CANDIDATE",
+      "text": "tiểu đường",
+      "code": "T18"
+    },
+    {
+      "record": "17",
+      "action": "DROP_CANDIDATE",
+      "text": "tiểu đường",
+      "code": "T18"
+    },
+    {
+      "record": "17",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Tiểu đường",
+      "before": [],
+      "after": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "17",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tiểu đường",
+      "before": [],
+      "after": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "17",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tiểu đường",
+      "before": [],
+      "after": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "18",
+      "action": "DROP_CANDIDATE",
+      "text": "Dự phòng bệnh mạch vành",
+      "code": "I25.1"
+    },
+    {
+      "record": "18",
+      "action": "DROP_CANDIDATE",
+      "text": "Dự phòng tiên phát",
+      "code": "I25.1"
+    },
+    {
+      "record": "21",
+      "action": "DROP_CANDIDATE",
+      "text": "viêm dạ dày",
+      "code": "K29.9"
+    },
+    {
+      "record": "21",
+      "action": "REPLACE_CANDIDATES",
+      "text": "viêm dạ dày",
+      "before": [],
+      "after": [
+        "K29.7"
+      ]
+    },
+    {
+      "record": "22",
+      "action": "DROP_CANDIDATE",
+      "text": "túi mật giãn nở rõ rệt",
+      "code": "K82.3"
+    },
+    {
+      "record": "23",
+      "action": "DROP_CANDIDATE",
+      "text": "Tăng nhãn áp",
+      "code": "Q15.0"
+    },
+    {
+      "record": "24",
+      "action": "DROP_CANDIDATE",
+      "text": "Glucose 5% x 1000",
+      "code": "1086383"
+    },
+    {
+      "record": "29",
+      "action": "DROP_CANDIDATE",
+      "text": "nhiễm khuẩn huyết",
+      "code": "A20"
+    },
+    {
+      "record": "30",
+      "action": "DROP_CANDIDATE",
+      "text": "MÀY đay VÔ CĂN",
+      "code": "L50.9"
+    },
+    {
+      "record": "30",
+      "action": "DROP_CANDIDATE",
+      "text": "bệnh lý mày đay vô căn",
+      "code": "L50.9"
+    },
+    {
+      "record": "30",
+      "action": "DROP_CANDIDATE",
+      "text": "bệnh mạn tính",
+      "code": "N18"
+    },
+    {
+      "record": "30",
+      "action": "REPLACE_CANDIDATES",
+      "text": "MÀY đay VÔ CĂN",
+      "before": [],
+      "after": [
+        "L50.1"
+      ]
+    },
+    {
+      "record": "30",
+      "action": "REPLACE_CANDIDATES",
+      "text": "bệnh lý mày đay vô căn",
+      "before": [],
+      "after": [
+        "L50.1"
+      ]
+    },
+    {
+      "record": "32",
+      "action": "DROP_CANDIDATE",
+      "text": "tăng lipid máu",
+      "code": "E78.1"
+    },
+    {
+      "record": "32",
+      "action": "DROP_CANDIDATE",
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "code": "C88.2"
+    },
+    {
+      "record": "32",
+      "action": "DROP_CANDIDATE",
+      "text": "Bệnh amyloidosis tự miễn dịch",
+      "code": "C88.3"
+    },
+    {
+      "record": "32",
+      "action": "DROP_CANDIDATE",
+      "text": "amyloidosis",
+      "code": "E85.4"
+    },
+    {
+      "record": "32",
+      "action": "DROP_CANDIDATE",
+      "text": "amyloidosis",
+      "code": "E85.4"
+    },
+    {
+      "record": "32",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tăng lipid máu",
+      "before": [],
+      "after": [
+        "E78.5"
+      ]
+    },
+    {
+      "record": "33",
+      "action": "DROP_CANDIDATE",
+      "text": "tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "33",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "xét nghiệm gắng sức bất thường",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        71,
+        101
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "khó chịu vùng ngực gián đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        193,
+        221
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        224,
+        233
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        236,
+        243
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        245,
+        252
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "đổ mồ hôi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        256,
+        265
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        536,
+        545
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        547,
+        554
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "đổ mồ hôi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        556,
+        565
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "xét nghiệm gắng sức bất thường",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        599,
+        629
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        695,
+        698
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "Viêm hang vị sung huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        743,
+        766
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        884,
+        900
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        910,
+        915
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        917,
+        923
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        944,
+        952
+      ]
+    },
+    {
+      "record": "35",
+      "action": "ADD_ENTITY",
+      "text": "nội soi dạ dày",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1219,
+        1233
+      ]
+    },
+    {
+      "record": "37",
+      "action": "DROP_CANDIDATE",
+      "text": "Viêm mô tế bào",
+      "code": "A69.2"
+    },
+    {
+      "record": "37",
+      "action": "DROP_CANDIDATE",
+      "text": "Viêm mô tế bào",
+      "code": "A69.20"
+    },
+    {
+      "record": "37",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Viêm mô tế bào",
+      "before": [],
+      "after": [
+        "L03.9"
+      ]
+    },
+    {
+      "record": "39",
+      "action": "DROP_CANDIDATE",
+      "text": "Ung thư biểu mô tuyến đại tràng",
+      "code": "D01.0"
+    },
+    {
+      "record": "39",
+      "action": "DROP_CANDIDATE",
+      "text": "ung thư tuyến đại tràng",
+      "code": "D01"
+    },
+    {
+      "record": "39",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Ung thư biểu mô tuyến đại tràng",
+      "before": [],
+      "after": [
+        "C18.9"
+      ]
+    },
+    {
+      "record": "42",
+      "action": "DROP_CANDIDATE",
+      "text": "niêm mạc phù nề",
+      "code": "R60.0"
+    },
+    {
+      "record": "42",
+      "action": "DROP_CANDIDATE",
+      "text": "viêm phổi thùy dưới phải (RLL PNA)",
+      "code": "R10.31"
+    },
+    {
+      "record": "42",
+      "action": "REPLACE_CANDIDATES",
+      "text": "viêm phổi thùy dưới phải (RLL PNA)",
+      "before": [],
+      "after": [
+        "J18.9"
+      ]
+    },
+    {
+      "record": "43",
+      "action": "DROP_CANDIDATE",
+      "text": "tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "43",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    },
+    {
+      "record": "44",
+      "action": "DROP_CANDIDATE",
+      "text": "MÀY đay VÔ CĂN",
+      "code": "L50.9"
+    },
+    {
+      "record": "44",
+      "action": "DROP_CANDIDATE",
+      "text": "bệnh lý mày đay vô căn",
+      "code": "L50.9"
+    },
+    {
+      "record": "44",
+      "action": "REPLACE_CANDIDATES",
+      "text": "MÀY đay VÔ CĂN",
+      "before": [],
+      "after": [
+        "L50.1"
+      ]
+    },
+    {
+      "record": "44",
+      "action": "REPLACE_CANDIDATES",
+      "text": "bệnh lý mày đay vô căn",
+      "before": [],
+      "after": [
+        "L50.1"
+      ]
+    },
+    {
+      "record": "46",
+      "action": "DROP_CANDIDATE",
+      "text": "tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "46",
+      "action": "DROP_CANDIDATE",
+      "text": "tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "46",
+      "action": "DROP_CANDIDATE",
+      "text": "Thành thất trái dày",
+      "code": "I50.1"
+    },
+    {
+      "record": "46",
+      "action": "DROP_CANDIDATE",
+      "text": "buồng thất trái không giãn",
+      "code": "I50.1"
+    },
+    {
+      "record": "46",
+      "action": "DROP_CANDIDATE",
+      "text": "chức năng tâm thu thất trái bảo tồn",
+      "code": "F06.8"
+    },
+    {
+      "record": "46",
+      "action": "DROP_CANDIDATE",
+      "text": "Tăng áp lực động mạch phổi nhẹ",
+      "code": "I27.22"
+    },
+    {
+      "record": "46",
+      "action": "DROP_CANDIDATE",
+      "text": "Tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "46",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    },
+    {
+      "record": "46",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    },
+    {
+      "record": "46",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    },
+    {
+      "record": "47",
+      "action": "DROP_CANDIDATE",
+      "text": "ung thư tuyến đại tràng",
+      "code": "D01"
+    },
+    {
+      "record": "49",
+      "action": "DROP_CANDIDATE",
+      "text": "ung thư di căn theo đường bạch huyết",
+      "code": "C62"
+    },
+    {
+      "record": "54",
+      "action": "DROP_CANDIDATE",
+      "text": "Tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "54",
+      "action": "DROP_CANDIDATE",
+      "text": "Giả gout",
+      "code": "M10.9"
+    },
+    {
+      "record": "54",
+      "action": "DROP_CANDIDATE",
+      "text": "dị tật bẩm sinh",
+      "code": "Q74"
+    },
+    {
+      "record": "54",
+      "action": "DROP_CANDIDATE",
+      "text": "dị tật bẩm sinh",
+      "code": "Q74.1"
+    },
+    {
+      "record": "54",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "Đo sức bền cơ tim bằng đồng vị phóng xạ",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        68,
+        107
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "dị tật cố định vùng trước vách và vách dưới",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        119,
+        162
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "giảm chức năng tâm thu thất trái nghiêm trọng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        168,
+        213
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "rối loạn chức năng thất trái",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        223,
+        251
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "Chụp động mạch vành",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        255,
+        274
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "bệnh ba thân động mạch vành nghiêm trọng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        284,
+        324
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "Chụp động mạch vành",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        355,
+        374
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "Viêm hang vị sung huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        411,
+        434
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        552,
+        568
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        578,
+        583
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        585,
+        591
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        612,
+        620
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "nội soi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        720,
+        727
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "nội soi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        887,
+        894
+      ]
+    },
+    {
+      "record": "56",
+      "action": "ADD_ENTITY",
+      "text": "nội soi dạ dày",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        887,
+        901
+      ]
+    },
+    {
+      "record": "59",
+      "action": "DROP_CANDIDATE",
+      "text": "Vi khuẩn C. acne",
+      "code": "A49.8"
+    },
+    {
+      "record": "59",
+      "action": "DROP_CANDIDATE",
+      "text": "Viêm tại chỗ",
+      "code": "T49"
+    },
+    {
+      "record": "59",
+      "action": "DROP_CANDIDATE",
+      "text": "Viêm tại chỗ",
+      "code": "T49.0"
+    },
+    {
+      "record": "60",
+      "action": "DROP_CANDIDATE",
+      "text": "da hết mụn không tái phát",
+      "code": "L70.9"
+    },
+    {
+      "record": "62",
+      "action": "REPLACE_CANDIDATES",
+      "text": "viêm phổi thùy dưới phải (RLL PNA)",
+      "before": [],
+      "after": [
+        "J18.9"
+      ]
+    },
+    {
+      "record": "63",
+      "action": "DROP_CANDIDATE",
+      "text": "tăng cholesterol máu đơn thuần",
+      "code": "E78.1"
+    },
+    {
+      "record": "63",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tăng cholesterol máu đơn thuần",
+      "before": [],
+      "after": [
+        "E78.0"
+      ]
+    },
+    {
+      "record": "64",
+      "action": "DROP_CANDIDATE",
+      "text": "bệnh động mạch vành",
+      "code": "I25.110"
+    },
+    {
+      "record": "65",
+      "action": "DROP_CANDIDATE",
+      "text": "thiếu máu cơ tim cục bộ",
+      "code": "I25.2"
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "suy tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        30,
+        37
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "bệnh mạch máu ngoại biên",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        44,
+        68
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "bệnh phổi tắc nghẽn mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        75,
+        103
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "Ngưng thở khi ngủ do tắc nghẽn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        110,
+        140
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        163,
+        224
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "Viêm hang vị sung huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        336,
+        359
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        477,
+        493
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        503,
+        508
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        510,
+        516
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        537,
+        545
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "nội soi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        645,
+        652
+      ]
+    },
+    {
+      "record": "67",
+      "action": "ADD_ENTITY",
+      "text": "nội soi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        812,
+        819
+      ]
+    },
+    {
+      "record": "67",
+      "action": "REPLACE_CANDIDATES",
+      "text": "suy tim",
+      "before": [],
+      "after": [
+        "I50.9"
+      ]
+    },
+    {
+      "record": "67",
+      "action": "REPLACE_CANDIDATES",
+      "text": "bệnh phổi tắc nghẽn mạn tính",
+      "before": [],
+      "after": [
+        "J44.9"
+      ]
+    },
+    {
+      "record": "67",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Ngưng thở khi ngủ do tắc nghẽn",
+      "before": [],
+      "after": [
+        "G47.33"
+      ]
+    },
+    {
+      "record": "68",
+      "action": "DROP_CANDIDATE",
+      "text": "giảm chức năng tâm thu thất trái",
+      "code": "I50.1"
+    },
+    {
+      "record": "69",
+      "action": "DROP_CANDIDATE",
+      "text": "trầm cảm",
+      "code": "F33.9"
+    },
+    {
+      "record": "69",
+      "action": "DROP_CANDIDATE",
+      "text": "trầm cảm",
+      "code": "F33.9"
+    },
+    {
+      "record": "71",
+      "action": "DROP_CANDIDATE",
+      "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+      "code": "N99.511"
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "khối u trực tràng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        25,
+        42
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "u ác trực tràng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        64,
+        79
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "sinh thiết",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        90,
+        100
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "u tuyến",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        118,
+        125
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "Nấm bẹn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        220,
+        227
+      ]
+    },
+    {
+      "record": "75",
+      "action": "ADD_ENTITY",
+      "text": "nấm bẹn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        491,
+        498
+      ]
+    },
+    {
+      "record": "75",
+      "action": "REPLACE_CANDIDATES",
+      "text": "u ác trực tràng",
+      "before": [],
+      "after": [
+        "C20"
+      ]
+    },
+    {
+      "record": "75",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Nấm bẹn",
+      "before": [],
+      "after": [
+        "B35.6"
+      ]
+    },
+    {
+      "record": "75",
+      "action": "REPLACE_CANDIDATES",
+      "text": "nấm bẹn",
+      "before": [],
+      "after": [
+        "B35.6"
+      ]
+    },
+    {
+      "record": "76",
+      "action": "DROP_CANDIDATE",
+      "text": "MÀY đay VÔ CĂN",
+      "code": "L50.9"
+    },
+    {
+      "record": "76",
+      "action": "DROP_CANDIDATE",
+      "text": "bệnh lý mày đay vô căn",
+      "code": "L50.9"
+    },
+    {
+      "record": "76",
+      "action": "DROP_CANDIDATE",
+      "text": "bệnh mạn tính",
+      "code": "N18"
+    },
+    {
+      "record": "76",
+      "action": "REPLACE_CANDIDATES",
+      "text": "MÀY đay VÔ CĂN",
+      "before": [],
+      "after": [
+        "L50.1"
+      ]
+    },
+    {
+      "record": "76",
+      "action": "REPLACE_CANDIDATES",
+      "text": "bệnh lý mày đay vô căn",
+      "before": [],
+      "after": [
+        "L50.1"
+      ]
+    },
+    {
+      "record": "78",
+      "action": "DROP_CANDIDATE",
+      "text": "viêm nhiễm",
+      "code": "L30.3"
+    },
+    {
+      "record": "80",
+      "action": "DROP_CANDIDATE",
+      "text": "liệu pháp lợi tiểu",
+      "code": "54365"
+    },
+    {
+      "record": "84",
+      "action": "ADD_ENTITY",
+      "text": "Nấm bẹn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        114,
+        121
+      ]
+    },
+    {
+      "record": "84",
+      "action": "ADD_ENTITY",
+      "text": "nấm bẹn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        385,
+        392
+      ]
+    },
+    {
+      "record": "84",
+      "action": "ADD_ENTITY",
+      "text": "thuốc giảm đau opioid",
+      "type": "THUỐC",
+      "position": [
+        55,
+        76
+      ]
+    },
+    {
+      "record": "84",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Nấm bẹn",
+      "before": [],
+      "after": [
+        "B35.6"
+      ]
+    },
+    {
+      "record": "84",
+      "action": "REPLACE_CANDIDATES",
+      "text": "nấm bẹn",
+      "before": [],
+      "after": [
+        "B35.6"
+      ]
+    },
+    {
+      "record": "85",
+      "action": "DROP_CANDIDATE",
+      "text": "tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "85",
+      "action": "DROP_CANDIDATE",
+      "text": "viêm bể thận và viêm phế quản",
+      "code": "J41"
+    },
+    {
+      "record": "85",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    },
+    {
+      "record": "87",
+      "action": "DROP_CANDIDATE",
+      "text": "Cơn đau thắt ngực không ổn định-bệnh tăng HA vô căn(nguyên phát)",
+      "code": "I10"
+    },
+    {
+      "record": "90",
+      "action": "DROP_CANDIDATE",
+      "text": "Ipratropium",
+      "code": "214199"
+    },
+    {
+      "record": "91",
+      "action": "DROP_CANDIDATE",
+      "text": "Tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "91",
+      "action": "DROP_CANDIDATE",
+      "text": "Tiền sử phẫu thuật cắt bỏ đại tràng",
+      "code": "Y83.6"
+    },
+    {
+      "record": "91",
+      "action": "DROP_CANDIDATE",
+      "text": "Ung thư đại tràng",
+      "code": "C17.2"
+    },
+    {
+      "record": "91",
+      "action": "DROP_CANDIDATE",
+      "text": "Gần đây nhập viện để đánh giá tổng quát về tiêu hóa",
+      "code": "Z05.5"
+    },
+    {
+      "record": "91",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    },
+    {
+      "record": "91",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Ung thư đại tràng",
+      "before": [],
+      "after": [
+        "C18.9"
+      ]
+    },
+    {
+      "record": "95",
+      "action": "DROP_CANDIDATE",
+      "text": "tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "95",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    },
+    {
+      "record": "96",
+      "action": "ADD_ENTITY",
+      "text": "tắc hẹp 80% động mạch thận trái L",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        107,
+        140
+      ]
+    },
+    {
+      "record": "96",
+      "action": "ADD_ENTITY",
+      "text": "tắc hẹp 80% động mạch thận trái L",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        236,
+        269
+      ]
+    },
+    {
+      "record": "96",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tắc hẹp 80% động mạch thận trái L",
+      "before": [],
+      "after": [
+        "I70.1"
+      ]
+    },
+    {
+      "record": "96",
+      "action": "REPLACE_CANDIDATES",
+      "text": "tắc hẹp 80% động mạch thận trái L",
+      "before": [],
+      "after": [
+        "I70.1"
+      ]
+    },
+    {
+      "record": "98",
+      "action": "DROP_CANDIDATE",
+      "text": "klonopinclonidine",
+      "code": "2599"
+    },
+    {
+      "record": "99",
+      "action": "DROP_CANDIDATE",
+      "text": "Tăng huyết áp",
+      "code": "I15"
+    },
+    {
+      "record": "99",
+      "action": "REPLACE_CANDIDATES",
+      "text": "Tăng huyết áp",
+      "before": [],
+      "after": [
+        "I10"
+      ]
+    }
+  ]
+}

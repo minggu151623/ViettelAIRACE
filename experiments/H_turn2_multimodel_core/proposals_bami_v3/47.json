@@ -1,0 +1,602 @@
+[
+  {
+    "text": "Ung thư biểu mô tuyến đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      70
+    ],
+    "confidence": 0.5903453358582088,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      73,
+      101
+    ],
+    "confidence": 0.5714366684357325,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      120,
+      134
+    ],
+    "confidence": 0.5276033182938894,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xơ gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      137,
+      151
+    ],
+    "confidence": 0.5536679178476334,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ung thư tuyến đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      283,
+      306
+    ],
+    "confidence": 0.5465666741132736,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xơ gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      337,
+      351
+    ],
+    "confidence": 0.5549591183662415,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tụt huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      390,
+      402
+    ],
+    "confidence": 0.7188212076822916,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nguyên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      412,
+      418
+    ],
+    "confidence": 0.44471874833106995,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      427,
+      434
+    ],
+    "confidence": 0.7364832162857056,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      477,
+      484
+    ],
+    "confidence": 0.7283695936203003,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "Viêm phổi bệnh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      557,
+      571
+    ],
+    "confidence": 0.43190351128578186,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rung",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      580,
+      584
+    ],
+    "confidence": 0.32912391424179077,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      585,
+      588
+    ],
+    "confidence": 0.5270072221755981,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhịp nhanh trên thất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      592,
+      612
+    ],
+    "confidence": 0.5952994376420975,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đi tiêu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      805,
+      812
+    ],
+    "confidence": 0.550214558839798,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      833,
+      841
+    ],
+    "confidence": 0.7246887981891632,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      843,
+      851
+    ],
+    "confidence": 0.7228517234325409,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      853,
+      856
+    ],
+    "confidence": 0.675560474395752,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      858,
+      867
+    ],
+    "confidence": 0.7224655151367188,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      874,
+      881
+    ],
+    "confidence": 0.7218170464038849,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đi tiêu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      903,
+      910
+    ],
+    "confidence": 0.6745083928108215,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      932,
+      935
+    ],
+    "confidence": 0.6942615509033203,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      937,
+      945
+    ],
+    "confidence": 0.7323718965053558,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      947,
+      956
+    ],
+    "confidence": 0.7207191586494446,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      958,
+      973
+    ],
+    "confidence": 0.6357261737187704,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      986,
+      994
+    ],
+    "confidence": 0.7299429774284363,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dịch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1000,
+      1004
+    ],
+    "confidence": 0.5625852942466736,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đỏ da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1027,
+      1032
+    ],
+    "confidence": 0.7185507714748383,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bục chỉ khâu bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1039,
+      1056
+    ],
+    "confidence": 0.7059459388256073,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ran nổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1118,
+      1124
+    ],
+    "confidence": 0.676242470741272,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1126,
+      1133
+    ],
+    "confidence": 0.7171353101730347,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dịch rỉ huyết thanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1135,
+      1154
+    ],
+    "confidence": 0.6314153969287872,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phân nâu dương tính guaiac",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1169,
+      1195
+    ],
+    "confidence": 0.5568293418203082,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1343,
+      1354
+    ],
+    "confidence": 0.6928672194480896,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1373,
+      1380
+    ],
+    "confidence": 0.7453579008579254,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1383,
+      1390
+    ],
+    "confidence": 0.7437349855899811,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1393,
+      1400
+    ],
+    "confidence": 0.744960367679596,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho mạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1416,
+      1422
+    ],
+    "confidence": 0.5593953281641006,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đờm vàng loãng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1431,
+      1445
+    ],
+    "confidence": 0.537997305393219,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ran",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1448,
+      1451
+    ],
+    "confidence": 0.6815353631973267,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1454,
+      1461
+    ],
+    "confidence": 0.7255421578884125,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "dịch thanh dịch lẫn máu từ vết mổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1464,
+      1497
+    ],
+    "confidence": 0.5410274863243103,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phân nâu dương tính guaiac",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1500,
+      1526
+    ],
+    "confidence": 0.605239280632564,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "huyết khối 26.3",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1547,
+      1562
+    ],
+    "confidence": 0.3770023584365845,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1662,
+      1674
+    ],
+    "confidence": 0.4318936268488566,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phổi thùy dưới phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1682,
+      1701
+    ],
+    "confidence": 0.5075138732790947,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dịch màng phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1722,
+      1736
+    ],
+    "confidence": 0.43403388063112897,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm phổi bệnh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1842,
+      1856
+    ],
+    "confidence": 0.4198962102333705,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1864,
+      1872
+    ],
+    "confidence": 0.505303755402565,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhịp nhanh trên thất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1877,
+      1897
+    ],
+    "confidence": 0.6194940358400345,
+    "source": "bami_v3",
+    "assertions": [],
+    "candidates": null
+  }
+]

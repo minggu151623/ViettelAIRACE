@@ -1,0 +1,450 @@
+[
+  {
+    "text": "dấu mề đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      81,
+      91
+    ]
+  },
+  {
+    "text": "mề đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      85,
+      91
+    ]
+  },
+  {
+    "text": "ngứa khắp người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      117
+    ]
+  },
+  {
+    "text": "dấu mề đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      157,
+      167
+    ]
+  },
+  {
+    "text": "mề đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      161,
+      167
+    ]
+  },
+  {
+    "text": "dị ứng do thời tiết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      357,
+      376
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C91"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      642,
+      673
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282386"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      684,
+      691
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      698,
+      711
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E78.0"
+    ],
+    "assertions": [],
+    "position": [
+      718,
+      732
+    ]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11"
+    ],
+    "assertions": [],
+    "position": [
+      755,
+      775
+    ]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M41.9"
+    ],
+    "assertions": [],
+    "position": [
+      782,
+      794
+    ]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M10.9"
+    ],
+    "assertions": [],
+    "position": [
+      801,
+      809
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N18.6"
+    ],
+    "assertions": [],
+    "position": [
+      816,
+      829
+    ]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N40.1"
+    ],
+    "assertions": [],
+    "position": [
+      864,
+      888
+    ]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      905,
+      908
+    ]
+  },
+  {
+    "text": "Ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      917,
+      920
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      927,
+      934
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282386"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      966,
+      973
+    ]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1061,
+      1080
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1108,
+      1115
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1131,
+      1137
+    ]
+  },
+  {
+    "text": "ngà",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1138,
+      1141
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1246,
+      1253
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1278,
+      1284
+    ]
+  },
+  {
+    "text": "ngà",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1285,
+      1288
+    ]
+  },
+  {
+    "text": "lympho T",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1420,
+      1428
+    ]
+  },
+  {
+    "text": "tế bào mast",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1576,
+      1589
+    ]
+  },
+  {
+    "text": "miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1706,
+      1717
+    ]
+  },
+  {
+    "text": "lắng đọng các phức hợp miễn dịch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1774,
+      1813
+    ]
+  },
+  {
+    "text": "miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1802,
+      1813
+    ]
+  },
+  {
+    "text": "bổ thê",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1815,
+      1822
+    ]
+  },
+  {
+    "text": "sợi fibrin",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1828,
+      1839
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L10"
+    ],
+    "assertions": [],
+    "position": [
+      1857,
+      1871
+    ]
+  },
+  {
+    "text": "Mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L10"
+    ],
+    "assertions": [],
+    "position": [
+      1969,
+      1983
+    ]
+  },
+  {
+    "text": "thể hệ sau",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2324,
+      2336
+    ]
+  },
+  {
+    "text": "buồn ngu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2347,
+      2356
+    ]
+  },
+  {
+    "text": "lựa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2362,
+      2366
+    ]
+  },
+  {
+    "text": "liều thấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2436,
+      2447
+    ]
+  },
+  {
+    "text": "cách ngày",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2448,
+      2459
+    ]
+  },
+  {
+    "text": "nga",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2472,
+      2475
+    ]
+  },
+  {
+    "text": "giảm liều chậm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2482,
+      2499
+    ]
+  },
+  {
+    "text": "2,5 – 5mg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2500,
+      2509
+    ]
+  },
+  {
+    "text": "mỗi 2-3 tuần",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2510,
+      2524
+    ]
+  }
+]

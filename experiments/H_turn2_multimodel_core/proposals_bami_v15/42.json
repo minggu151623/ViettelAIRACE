@@ -1,0 +1,686 @@
+[
+  {
+    "text": "ho đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      51,
+      68
+    ],
+    "confidence": 0.7360778898000717,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      75,
+      88
+    ],
+    "confidence": 0.7290705641110738,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      95,
+      102
+    ],
+    "confidence": 0.7011181116104126,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ngưng thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      109,
+      118
+    ],
+    "confidence": 0.5882918983697891,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khi ngủ do tắc nghẽn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      119,
+      139
+    ],
+    "confidence": 0.642783659696579,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      176,
+      183
+    ],
+    "confidence": 0.6457678774992625,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mucinex d",
+    "type": "THUỐC",
+    "position": [
+      190,
+      199
+    ],
+    "confidence": 0.6898207664489746,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      219,
+      228
+    ],
+    "confidence": 0.5896046161651611,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      298,
+      300
+    ],
+    "confidence": 0.7402608394622803,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      302,
+      311
+    ],
+    "confidence": 0.6909792125225067,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau bụng vùng thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      424,
+      451
+    ],
+    "confidence": 0.646609228849411,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      453,
+      459
+    ],
+    "confidence": 0.7109707593917847,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      461,
+      468
+    ],
+    "confidence": 0.6892486413319906,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      480,
+      494
+    ],
+    "confidence": 0.46251874417066574,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "niêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      534,
+      538
+    ],
+    "confidence": 0.3328709900379181,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phù nề",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      543,
+      549
+    ],
+    "confidence": 0.46384212374687195,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sung huyết đỏ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      551,
+      564
+    ],
+    "confidence": 0.35861684878667194,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      696,
+      703
+    ],
+    "confidence": 0.7314967513084412,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      710,
+      713
+    ],
+    "confidence": 0.7423979043960571,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      745,
+      754
+    ],
+    "confidence": 0.7119130492210388,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      782,
+      789
+    ],
+    "confidence": 0.6308060884475708,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "lần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      796,
+      799
+    ],
+    "confidence": 0.45754629373550415,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau buốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      822,
+      830
+    ],
+    "confidence": 0.5491682291030884,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      838,
+      842
+    ],
+    "confidence": 0.4407494068145752,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      874,
+      881
+    ],
+    "confidence": 0.7478344738483429,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      912,
+      919
+    ],
+    "confidence": 0.6898213624954224,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "ho đặc",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      949,
+      955
+    ],
+    "confidence": 0.6956030428409576,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1019,
+      1022
+    ],
+    "confidence": 0.7468041777610779,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1032,
+      1035
+    ],
+    "confidence": 0.7141457796096802,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1054,
+      1063
+    ],
+    "confidence": 0.7461022734642029,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1112,
+      1120
+    ],
+    "confidence": 0.7478694319725037,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "buồn nôn/nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1136,
+      1148
+    ],
+    "confidence": 0.6252163872122765,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "đổ mồ hôi đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1164,
+      1177
+    ],
+    "confidence": 0.63751620054245,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1193,
+      1200
+    ],
+    "confidence": 0.7426747679710388,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "khó thở khi nằm đột ngột",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1224,
+      1248
+    ],
+    "confidence": 0.5631630619366964,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "paroxysmal",
+    "type": "THUỐC",
+    "position": [
+      1250,
+      1260
+    ],
+    "confidence": 0.382332319021225,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nocturnal",
+    "type": "THUỐC",
+    "position": [
+      1261,
+      1270
+    ],
+    "confidence": 0.31928299367427826,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "giãn phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1381,
+      1394
+    ],
+    "confidence": 0.6818924148877462,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "position": [
+      1413,
+      1425
+    ],
+    "confidence": 0.6922110617160797,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      1449,
+      1456
+    ],
+    "confidence": 0.6626884341239929,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mucinex d",
+    "type": "THUỐC",
+    "position": [
+      1460,
+      1469
+    ],
+    "confidence": 0.7093175768852233,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1567,
+      1571
+    ],
+    "confidence": 0.3849586248397827,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "spo2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1567,
+      1571
+    ],
+    "confidence": 0.25533802062273026,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "90",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1575,
+      1577
+    ],
+    "confidence": 0.21259751915931702,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "-92%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1577,
+      1581
+    ],
+    "confidence": 0.2976532280445099,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1582,
+      1586
+    ],
+    "confidence": 0.2699459493160248,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "spo2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1582,
+      1586
+    ],
+    "confidence": 0.28394049406051636,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "số lượng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1738,
+      1746
+    ],
+    "confidence": 0.3844047039747238,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1747,
+      1755
+    ],
+    "confidence": 0.3247548118233681,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "12.5",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1759,
+      1763
+    ],
+    "confidence": 0.34988588094711304,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "tổng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1770,
+      1774
+    ],
+    "confidence": 0.37301355600357056,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1775,
+      1794
+    ],
+    "confidence": 0.36596160382032394,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "protein niệu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1820,
+      1832
+    ],
+    "confidence": 0.26215580850839615,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "troponin âm tính x1",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1842,
+      1861
+    ],
+    "confidence": 0.399311078446252,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1894,
+      1911
+    ],
+    "confidence": 0.40277307108044624,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": null
+  },
+  {
+    "text": "viêm phổi thùy dưới phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1924,
+      1948
+    ],
+    "confidence": 0.7150658011436463,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "RLL PNA",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1950,
+      1957
+    ],
+    "confidence": 0.6200057685375213,
+    "source": "bami_v15",
+    "assertions": [],
+    "candidates": []
+  }
+]

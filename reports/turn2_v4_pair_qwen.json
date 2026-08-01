@@ -1,0 +1,2155 @@
+{
+  "source": "turn2/output_v3_ensemble_core",
+  "review": "experiments/H_turn2_pair_qwen/pair_review.json",
+  "records": 100,
+  "additions": 66,
+  "additions_by_type": {
+    "CHẨN_ĐOÁN": 16,
+    "TRIỆU_CHỨNG": 46,
+    "TÊN_XÉT_NGHIỆM": 4
+  },
+  "addition_rows": [
+    {
+      "record": "1",
+      "text": "thiếu máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1821,
+        1830
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.622522,
+        "vietmed_ner": 0.997767
+      },
+      "context": "h, khó thở\n • Vàng da, vàng mắt\n\nKhi đi khám, xét nghiệm máu thường cho thấy thiếu máu do tan huyết, hồng cầu bị phá hủy hàng loạt, dẫn đến ⟦thiếu máu⟧, vàng da vàng mắt và thậm chí suy thận cấp. Đặc biệt, nếu trẻ sơ sinh bị vàng da nặng sau khoảng 2 tuần tuổi, các tổn thương thần kinh có t",
+      "id": 0,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.997767
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.997767
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "1",
+      "text": "chậm phát triển trí tuệ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2004,
+        2027
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.665673,
+        "vietmed_ner": 0.994115
+      },
+      "context": " thận cấp. Đặc biệt, nếu trẻ sơ sinh bị vàng da nặng sau khoảng 2 tuần tuổi, các tổn thương thần kinh có thể rất nghiêm trọng, gây bại não, ⟦chậm phát triển trí tuệ⟧ và vận động.\n\nVới những trường hợp biểu hiện nhẹ, trẻ chỉ cần được theo dõi, tránh các yếu tố gây tan huyết và tình trạng thiếu máu thường ",
+      "id": 1,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.994115
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.994115
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "4",
+      "text": "nôn ra máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1555,
+        1565
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.665042,
+        "vietmed_ner": 0.968581
+      },
+      "context": "ày ruột do virus.\n    - 2 tuần sau điều trị  viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, tiêu chảy, ⟦nôn ra máu⟧. nội soi cho thấy nhiều loét tá tràng và hồi tràng. dương tính xét nghiệm phân tìm cryptosporidium.\n    - Gần đây: ngừng sử dụng omeprazole",
+      "id": 2,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.968581
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.968581
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "4",
+      "text": "nôn ra máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2553,
+        2563
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.714058,
+        "vietmed_ner": 0.885315
+      },
+      "context": "tuần sau tập viêm dạ dày ruột do virus)\n    - Ngừng sử dụng omeprazole để làm test hơi thở h. pylori (gần đây)\n    - Phát triển đau bụng và ⟦nôn ra máu⟧ trở nên tồi tệ hơn (khi ngừng omeprazole)\n\nChào bạn, bạn mắc ung thư tuyến giáp và chắc đã phẫu thuật, hiện bác sĩ đang kê đơn cho bạn uống",
+      "id": 3,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.885315
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.885315
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "6",
+      "text": "chụp CT",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        553,
+        560
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.39958,
+        "vietmed_ner": 0.949895
+      },
+      "context": "m một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính. \nCác lần ⟦chụp CT⟧ theo dõi sau đó ổn định và bệnh nhân được xuất viện, hẹn tái khám chuyên khoa Ngoại thần kinh.\nSau xuất viện, bệnh nhân từng quay lại khoa ",
+      "id": 4,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.949895
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.949895
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "6",
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        711,
+        718
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.708622,
+        "vietmed_ner": 0.997473
+      },
+      "context": "au đó ổn định và bệnh nhân được xuất viện, hẹn tái khám chuyên khoa Ngoại thần kinh.\nSau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì ⟦đau đầu⟧ kéo dài. \nChụp kiểm tra ghi nhận tụ máu ngoài màng cứng phải cấp tính trên nền tổn thương mạn tính. \nBệnh nhân tiếp tục được theo dõi, các ",
+      "id": 5,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.997473
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.997473
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "6",
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1001,
+        1008
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.688829,
+        "vietmed_ner": 0.994823
+      },
+      "context": " chụp CT kiểm tra không ghi nhận diễn tiến xấu nên được xuất viện về nhà.\nTrong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn ⟦đau đầu⟧ vùng thái dương phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.\nNgày vào viện, bu",
+      "id": 6,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.994823
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.994823
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "7",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1030,
+        1038
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.698023,
+        "vietmed_ner": 0.98402
+      },
+      "context": " ăn tinh bột. Tối hôm 03/5/2021 em không ăn cơm mà chỉ ăn rau luộc sau đó ăn thêm 2 quả chuối và uống 1 chai nhỏ Yakult. Đến 21h em bắt đầu ⟦đau bụng⟧ râm ran và cơn đau càng dồn đạp đến 12h đêm. Em đau đến mức chỉ biết ôm bụng mà không thể nhúc nhích được chân tay vì quá đau. Người nhà em",
+      "id": 7,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.98402
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.98402
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "9",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1030,
+        1038
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.698023,
+        "vietmed_ner": 0.98402
+      },
+      "context": " ăn tinh bột. Tối hôm 03/5/2021 em không ăn cơm mà chỉ ăn rau luộc sau đó ăn thêm 2 quả chuối và uống 1 chai nhỏ Yakult. Đến 21h em bắt đầu ⟦đau bụng⟧ râm ran và cơn đau càng dồn đạp đến 12h đêm. Em đau đến mức chỉ biết ôm bụng mà không thể nhúc nhích được chân tay vì quá đau. Người nhà em",
+      "id": 8,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.98402
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.98402
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "10",
+      "text": "chụp x-quang ngực",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2223,
+        2240
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.38158,
+        "vietmed_ner": 0.954865
+      },
+      "context": "c tim, tăng đánh trống ngực, và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - ⟦chụp x-quang ngực⟧ không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhậ",
+      "id": 9,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.954865
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.954865
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "11",
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        711,
+        718
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.708622,
+        "vietmed_ner": 0.997473
+      },
+      "context": "au đó ổn định và bệnh nhân được xuất viện, hẹn tái khám chuyên khoa Ngoại thần kinh.\nSau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì ⟦đau đầu⟧ kéo dài. \nChụp kiểm tra ghi nhận tụ máu ngoài màng cứng phải cấp tính trên nền tổn thương mạn tính. \nBệnh nhân tiếp tục được theo dõi, các ",
+      "id": 10,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.997473
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.997473
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "11",
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1001,
+        1008
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.688829,
+        "vietmed_ner": 0.994823
+      },
+      "context": " chụp CT kiểm tra không ghi nhận diễn tiến xấu nên được xuất viện về nhà.\nTrong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn ⟦đau đầu⟧ vùng thái dương phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.\nNgày vào viện, bu",
+      "id": 11,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.994823
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.994823
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "17",
+      "text": "nhiễm trùng lợi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        738,
+        753
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.655318,
+        "vietmed_ner": 0.949539
+      },
+      "context": "inh mùi hôi.\n- Viêm quanh răng: Các mô bao quanh cuống răng bị viêm và sưng do nhiễm vi khuẩn, sang chấn răng. \n- Viêm nha chu: Đây là dạng ⟦nhiễm trùng lợi⟧ nặng, các triệu chứng gồm đau khi nhai, răng lung lay, sưng nướu, dễ chảy máu răng, hôi miệng, có mủ. Viêm nha chu nếu để kéo dài, chân răn",
+      "id": 12,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.949539
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.949539
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "17",
+      "text": "viêm khớp dạng thấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        945,
+        964
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.686218,
+        "vietmed_ner": 0.997499
+      },
+      "context": "ay, sưng nướu, dễ chảy máu răng, hôi miệng, có mủ. Viêm nha chu nếu để kéo dài, chân răng có thể bị hư hại dẫn đến tình trạng mất răng hoặc ⟦viêm khớp dạng thấp⟧, các bệnh hô hấp, đột quỵ,...\n- Thiếu canxi và vitamin: Thiếu hụt canxi dễ gây loãng xương, sâu răng và có nguy cơ bị viêm nha chu. Hôi miệ",
+      "id": 13,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.997499
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.997499
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "17",
+      "text": "Ngưng thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1916,
+        1925
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.651559,
+        "vietmed_ner": 0.967094
+      },
+      "context": "n vi khuẩn xâm nhập, gây hôi miệng, chảy máu chân răng và mất răng.\n    - bệnh mạch máu ngoại biên\n    - bệnh phổi tắc nghẽn mạn tính\n    - ⟦Ngưng thở⟧ khi ngủ do tắc nghẽn đang dùng BiPAP\n    - Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện c",
+      "id": 14,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.967094
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.967094
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "20",
+      "text": "Bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1413,
+        1421
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.58549,
+        "vietmed_ner": 0.978547
+      },
+      "context": "h viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.  Đánh giá tại bệnh viện\n2. ⟦Bệnh dại⟧ lây truyền qua đường nào?\nVi-rút dại chủ yếu được lây truyền từ nước bọt của các loài động vật bị dại sang người qua vết cắn hoặc qua vết t",
+      "id": 15,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.978547
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.978547
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "20",
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2123,
+        2131
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.591166,
+        "vietmed_ner": 0.899271
+      },
+      "context": "hí nghiệm với động vật. Tuy nhiên các ca mắc dạng này chưa ghi nhận tại Việt Nam.\n- Các yếu tố có thể ảnh hưởng đến sự phát triển lây nhiễm ⟦bệnh dại⟧ bao gồm:\nLoại hình tiếp xúc và loại động vật cắn\nMức độ nghiêm trọng của vết cắn\nSố lượng vi rút dại xâm nhập vào\nTình trạng miễn dịch của ",
+      "id": 16,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.899271
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.899271
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "21",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1605,
+        1613
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.732641,
+        "vietmed_ner": 0.984902
+      },
+      "context": ", các phương pháp điều trị có thể giúp bạn kiểm soát các triệu chứng bệnh cũng như ngăn chặn tổn thương \n    Các triệu chứng hiện tại\n    - ⟦đau bụng⟧ vùng hạ sườn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n   ",
+      "id": 17,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.984902
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.984902
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "21",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1657,
+        1665
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.734652,
+        "vietmed_ner": 0.998593
+      },
+      "context": " các triệu chứng bệnh cũng như ngăn chặn tổn thương \n    Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - chướng bụng \n    - ⟦buồn nôn⟧ thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, đau lưng (khu trú ",
+      "id": 18,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998593
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998593
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "21",
+      "text": "đau lưng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1711,
+        1719
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.732371,
+        "vietmed_ner": 0.99798
+      },
+      "context": "   Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  ⟦đau lưng⟧ âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi la",
+      "id": 19,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.99798
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.99798
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "21",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1764,
+        1772
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.727378,
+        "vietmed_ner": 0.992455
+      },
+      "context": "ờn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: ⟦đau bụng⟧ hạ sườn phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.)\n    - Thời gian: Thường xuất h",
+      "id": 20,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.992455
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.992455
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "21",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1998,
+        2006
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.740107,
+        "vietmed_ner": 0.998871
+      },
+      "context": "an ra phía trước bụng.)\n    - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)\n    - Các triệu chứng liên quan: chướng bụng,  ⟦buồn nôn⟧ thoáng qua, nôn, đau lưng kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết ",
+      "id": 21,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998871
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998871
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "21",
+      "text": "Xét nghiệm chức năng gan",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2449,
+        2473
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.414936,
+        "vietmed_ner": 0.929077
+      },
+      "context": "chức năng gan cho thấy men gan tăng.\nSau đó bệnh nhân đến khoa Cấp cứu để được đánh giá và điều trị tiếp\n.Đánh giá tại bệnh viện\nXét nghiệm:⟦Xét nghiệm chức năng gan⟧ ghi nhận tăng men gan.\n",
+      "id": 22,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.929077
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.929077
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        376,
+        384
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.736839,
+        "vietmed_ner": 0.996264
+      },
+      "context": ", thường 4 viên mỗi giờ\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n\n2. Bệnh sử hiện tại\nLý do nhập viện: ⟦đau bụng⟧ ngày càng nặng\nThời điểm khởi phát triệu chứng\n- Tiền sử 2 ngày đau bụng ngày càng nặng\n- Tiền sử 2 tháng đau bụng liên tục\nDiễn biến bệnh\n",
+      "id": 23,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.996264
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.996264
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        491,
+        499
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.72816,
+        "vietmed_ner": 0.995263
+      },
+      "context": "iện tại\nLý do nhập viện: đau bụng ngày càng nặng\nThời điểm khởi phát triệu chứng\n- Tiền sử 2 ngày đau bụng ngày càng nặng\n- Tiền sử 2 tháng ⟦đau bụng⟧ liên tục\nDiễn biến bệnh\n- Tiền sử 2 tháng đau bụng liên tục\n- 2 ngày trước khi nhập viện, đau bụng trở nên tồi tệ hơn\n- Diễn biến trong việ",
+      "id": 24,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.995263
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.995263
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        801,
+        809
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.736038,
+        "vietmed_ner": 0.996166
+      },
+      "context": "u có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- ⟦đau bụng⟧ liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị tr",
+      "id": 25,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.996166
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.996166
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "22",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        851,
+        858
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.739552,
+        "vietmed_ner": 0.998298
+      },
+      "context": "ăng lên đạt đỉnh 6.7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- ⟦khó thở⟧ khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sa",
+      "id": 26,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998298
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998298
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "25",
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1983,
+        1989
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.712539,
+        "vietmed_ner": 0.963907
+      },
+      "context": "học hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ⟦ban đỏ⟧ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Tri",
+      "id": 27,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.963907
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.963907
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "26",
+      "text": "rung nhĩ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1561,
+        1569
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.599712,
+        "vietmed_ner": 0.997742
+      },
+      "context": "i thác đau ngực + yếu tố nguy cơ\n\n1.  Tiền sử bệnh\n    bệnh nhân có tiền sử nhập viện gần đây vìviêm tụy\n    Bệnh lý mãn tính\n    - tiền sử ⟦rung nhĩ⟧\n    - phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)\n    - rối loạn cảm xúc lưỡng cực khác\n    Tiền sử phẫu thuật / thủ thuật",
+      "id": 28,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.997742
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.997742
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "I48.91"
+      ]
+    },
+    {
+      "record": "27",
+      "text": "Viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        211,
+        220
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.666182,
+        "vietmed_ner": 0.996436
+      },
+      "context": "m phổi và tiến triển tiếp theo là hình thành áp xe phổi. Hay là VP và VPHT là hai bệnh có cơ chế bệnh sinh khác nhau ạ.\nTrả lời : Chào bạn!\n⟦Viêm phổi⟧ là tình trạng viêm phế quản, phế nang, giai đoạn đầu là xuất tiết dịch, nếu điều trị sớm và kịp thời thì sẽ nhanh chóng hết với những cơ th",
+      "id": 29,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.996436
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.996436
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "27",
+      "text": "viêm xơ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1320,
+        1327
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.622785,
+        "vietmed_ner": 0.997441
+      },
+      "context": "bao bọc. Sau đó thương tổn các phế quản lân cận và bệnh nhân sẽ khạc ra mủ, và các tổ chức hoại tử. Sau một thời gian (khoảng 6-8 tuần) thì ⟦viêm xơ⟧ bắt đầu bao quanh ổ áp xe tạo nên nhiều vách ngăn, hoặc là mủ sẽ lan qua vùng lân cận gây nên các thương tổn mới.\n    - Đến hôm nay, bệnh n",
+      "id": 30,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.997441
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.997441
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "31",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        958,
+        966
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.730392,
+        "vietmed_ner": 0.984902
+      },
+      "context": ". Hầu hết bv tuyến tỉnh đều có thể điều trị phẫu thuật giãn thừng tinh hiệu quả. Chúc bạn nhiều sức khoẻ.    Các triệu chứng hiện tại\n    - ⟦đau bụng⟧ vùng hạ sườn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n   ",
+      "id": 31,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.984902
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.984902
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1010,
+        1018
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.733331,
+        "vietmed_ner": 0.998593
+      },
+      "context": "ật giãn thừng tinh hiệu quả. Chúc bạn nhiều sức khoẻ.    Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - chướng bụng \n    - ⟦buồn nôn⟧ thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, đau lưng (khu trú ",
+      "id": 32,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998593
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998593
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1117,
+        1125
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.705772,
+        "vietmed_ner": 0.992455
+      },
+      "context": "ờn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: ⟦đau bụng⟧ hạ sườn phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.)\n    - Thời gian: Thường xuất h",
+      "id": 33,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.992455
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.992455
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1351,
+        1359
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.728027,
+        "vietmed_ner": 0.998871
+      },
+      "context": "an ra phía trước bụng.)\n    - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)\n    - Các triệu chứng liên quan: chướng bụng,  ⟦buồn nôn⟧ thoáng qua, nôn, đau lưng kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết ",
+      "id": 34,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998871
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998871
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "đau lưng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1377,
+        1385
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.716513,
+        "vietmed_ner": 0.998324
+      },
+      "context": "  - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)\n    - Các triệu chứng liên quan: chướng bụng,  buồn nôn thoáng qua, nôn, ⟦đau lưng⟧ kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận viêm dạ dày.\n",
+      "id": 35,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998324
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998324
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "31",
+      "text": "Xét nghiệm chức năng gan",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1802,
+        1826
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.434301,
+        "vietmed_ner": 0.929077
+      },
+      "context": "chức năng gan cho thấy men gan tăng.\nSau đó bệnh nhân đến khoa Cấp cứu để được đánh giá và điều trị tiếp\n.Đánh giá tại bệnh viện\nXét nghiệm:⟦Xét nghiệm chức năng gan⟧ ghi nhận tăng men gan.\nChẩn đoán hình ảnh và thăm dò:Nội soi thực quản - dạ dày - tá tràng: viêm dạ dày.\nCộng hưởng từ mật tụy : sỏi đoạn c",
+      "id": 36,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.929077
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.929077
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "33",
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1063,
+        1066
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.685391,
+        "vietmed_ner": 0.998218
+      },
+      "context": "y ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và ⟦đau⟧ ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortn",
+      "id": 37,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998218
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998218
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "34",
+      "text": "viêm xoang",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        974,
+        984
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.612231,
+        "vietmed_ner": 0.998542
+      },
+      "context": "rạng đau nửa đầu, đa số người bệnh đều bị đau nửa đầu bên trái. Tình trạng đau kéo dài, thường xuyên dễ bị chẩn đoán nguyên nhân đau đầu do ⟦viêm xoang⟧ và có thể dẫn đến điều trị không đúng bệnh. Người bị cơn đau nửa đầu trái hành hạ để lâu sẽ gây ra các hậu quả nguy hiểm cho sức khỏe như s",
+      "id": 38,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998542
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998542
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "36",
+      "text": "viêm cầu thận",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        777,
+        790
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.619393,
+        "vietmed_ner": 0.99446
+      },
+      "context": "iệm nước tiểu protein (–), HC (–)\nTrụ niệu (–): trụ trong, trụ sáp, trụ hình hạt.\n        SA: không có sỏi đài bể thận, niệu quản, theo dõi ⟦viêm cầu thận⟧\n        Không có suy thận: Ure: 6,4 mmol/l; Creatinin: 79 micromol/l\n     Không có thiếu máu: HC: 4,49 T/l; HST: 103 g/l\n       Điện giải: ",
+      "id": 39,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.99446
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.99446
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "40",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        169,
+        176
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.726256,
+        "vietmed_ner": 0.997273
+      },
+      "context": "n vì Đi ngoài phân đen, khó thở \nBệnh sử: Cách vào viện 4 ngày \nBN xuất hiện đau bụng quanh rốn, nôn thức ăn lẫn máu kèm đi ngoài phân đen, ⟦khó thở⟧ liên tục, không rõ sốt => Vào viện tuyến dưới nội soi tiêu hóa, chẩn đoán XHTH quá liều thuốc kháng vitamin K (INR 15), được dùng *********",
+      "id": 40,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.997273
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.997273
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "sung huyết đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        551,
+        564
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.663031,
+        "vietmed_ner": 0.991249
+      },
+      "context": "n nay em bị đau bụng vùng thượng vị, ợ hơi, ợ chua. Em đã đi nội soi dạ dày thì được biết là hang vị, tiền môn vị, niêm mạc phù nề, ⟦sung huyết đỏ⟧. Xin hỏi bác sĩ bệnh có nguy hiểm không? Cần làm gì để điều trị dứt điểm. Em dùng nghệ mật ong có tốt không?\n    - mệt mỏi\n",
+      "id": 41,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.991249
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.991249
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "42",
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        949,
+        951
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.704487,
+        "vietmed_ner": 0.996282
+      },
+      "context": "êm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ⟦ho⟧ đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hô",
+      "id": 42,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.996282
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.996282
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1505,
+        1512
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.743554,
+        "vietmed_ner": 0.99777
+      },
+      "context": "F)\n    - Sinh thiết tuyến tiền liệt\n2.  Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu ⟦mệt mỏi⟧ nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức. Tuần qua có buồn nôn, và nôn .\nKhám hiệ",
+      "id": 45,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.99777
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.99777
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "ngứa da toàn thân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1541,
+        1558
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.736288,
+        "vietmed_ner": 0.959923
+      },
+      "context": "2.  Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ⟦ngứa da toàn thân⟧ nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức. Tuần qua có buồn nôn, và nôn .\nKhám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều",
+      "id": 46,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.959923
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.959923
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "46",
+      "text": "Mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1685,
+        1692
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.700254,
+        "vietmed_ner": 0.990212
+      },
+      "context": " da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức. Tuần qua có buồn nôn, và nôn .\nKhám hiện tại thấy\nBệnh nhân tỉnhi\n    - ⟦Mệt mỏi⟧ nhiều\n    - Ăn không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\n    - khó thở khi gắng sức \n    - buồn nôn và nôn ",
+      "id": 47,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.990212
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.990212
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "47",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1393,
+        1400
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.74496,
+        "vietmed_ner": 0.998298
+      },
+      "context": "a Cấp cứu)\n- dấu hiệu sinh tồn 98.6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- ⟦khó thở⟧ khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- ran\n- phù phù\n- dịch thanh dịch lẫn máu từ vết mổ\n- phân nâu dương tính guaiac\nKết quả xét n",
+      "id": 48,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998298
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998298
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "51",
+      "text": "suy tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        154,
+        161
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.597812,
+        "vietmed_ner": 0.99848
+      },
+      "context": "nh\n    Các bệnh lý mãn tính\n    - béo phì\n    - đái tháo đường được kiểm soát bằng chế độ ăn\n    - ngừng thở khi ngủ\n    - tiền sử lâm sàng ⟦suy tim⟧, không đặc hiệu\n    Dị ứng: Dị ứng furosemide\n\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n ",
+      "id": 49,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.99848
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.99848
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "55",
+      "text": "đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        938,
+        952
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.60368,
+        "vietmed_ner": 0.998485
+      },
+      "context": "g có và huyết áp của em mỗi lần đo đều bình thường. Em cảm ơn ạ\n1.  Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - Suy thận mạn giai đoạn V do ⟦đái tháo đường⟧ và tăng huyết áp\n    - u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt \n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật cắt bỏ u ",
+      "id": 50,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998485
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998485
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": [
+        "E11.9"
+      ]
+    },
+    {
+      "record": "61",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        864,
+        871
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.743627,
+        "vietmed_ner": 0.998298
+      },
+      "context": "khi phẫu thuật.\nTriệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- ⟦khó thở⟧ khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\nĐối với phụ nữ sau sanh 10 ngày như em, thời gi",
+      "id": 51,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998298
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998298
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "61",
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        887,
+        889
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.709923,
+        "vietmed_ner": 0.995081
+      },
+      "context": "hứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ⟦ho⟧ mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\nĐối với phụ nữ sau sanh 10 ngày như em, thời gian cấy que tránh t",
+      "id": 52,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.995081
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.995081
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "62",
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        876,
+        884
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.735149,
+        "vietmed_ner": 0.998665
+      },
+      "context": "hông khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận ⟦buồn nôn⟧/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    ",
+      "id": 53,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998665
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998665
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isNegated"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "64",
+      "text": "bệnh mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        969,
+        983
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.651818,
+        "vietmed_ner": 0.997978
+      },
+      "context": "n (nitroglycerin) thì tác dụng chủ yếu của thuốc là làm giãn mạch vành, gây tăng tưới máu cho cơ tim, dùng để ngừa cơn đau thắt ngực\n trong ⟦bệnh mạch vành⟧. Thuốc được thải ra khỏi cơ thể nhanh và không tích lũy nên không gây hại khi dùng lâu dài, nhưng trái lại thuốc này có nhiều tác dụng phụ ",
+      "id": 54,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.997978
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.997978
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "68",
+      "text": "Khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        258,
+        265
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.734243,
+        "vietmed_ner": 0.995931
+      },
+      "context": "ột năm qua bệnh nhân thi thoảng xuất hiện mệt mỏi, nhất là khi vận động gắng sức khó thở tăng.\nLúc vào viện khám\nBệnh nhân tỉnh\n- mệt mỏi\n- ⟦Khó thở⟧ tăng khi vận động gắng sức\n- Đi lại khó khăn, cần dùng gậy hỗ trợ đi lại\n- Đau hai bàn chân do bệnh lý thần kinh ngoại biên \nCận lâm sàng:\n",
+      "id": 56,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.995931
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.995931
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "70",
+      "text": "suy tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        154,
+        161
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.597812,
+        "vietmed_ner": 0.99848
+      },
+      "context": "nh\n    Các bệnh lý mãn tính\n    - béo phì\n    - đái tháo đường được kiểm soát bằng chế độ ăn\n    - ngừng thở khi ngủ\n    - tiền sử lâm sàng ⟦suy tim⟧, không đặc hiệu\n    Dị ứng: Dị ứng furosemide\n\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n ",
+      "id": 57,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.99848
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.99848
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "70",
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        886,
+        888
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.695334,
+        "vietmed_ner": 0.996666
+      },
+      "context": " vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ⟦ho⟧ có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp ",
+      "id": 58,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.996666
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.996666
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "78",
+      "text": "chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1188,
+        1196
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.622986,
+        "vietmed_ner": 0.998545
+      },
+      "context": "hi có thay đổi huyết áp, hắt hơi mạnh, viêm nhiễm hoặc tác động như ngoáy mũi có thể gây tổn thương điểm mạch và gây chảy máu mũi. Đa số là ⟦chảy máu⟧ ít và tự cầm. Tuy nhiên, nếu chảy máu tái phát nhiều, số lượng chảy nhiều dẫn đến choáng thì bạn phải đến khoa Tai mũi họng để được nội soi",
+      "id": 61,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998545
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998545
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "80",
+      "text": "bệnh gút",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        64,
+        72
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.589466,
+        "vietmed_ner": 0.951628
+      },
+      "context": "Câu hỏi từ người dùng:\n\nChào bác sĩ, ông em năm nay 70 tuổi, bị ⟦bệnh gút⟧ hai năm nay, cũng điều trị mấy tháng khỏi đau rồi không uống thuốc nữa, mà gần đây xuất hiện hạt nhỏ màu trắng trên da chỗ mấy khớp ngón ta",
+      "id": 62,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.951628
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.951628
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "86",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        71,
+        78
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.720161,
+        "vietmed_ner": 0.998456
+      },
+      "context": "Câu hỏi từ người dùng:\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa ⟦khó thở⟧ khi gắng sức\n    - mệt mỏi\n\nCâu trả lời của bác sĩ:\n\nViêm hang vị sung huyết là tình trạng niêm mạc vùng hang vị dạ dày viêm, các mạch máu ",
+      "id": 63,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998456
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998456
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "91",
+      "text": "Thuyên tắc phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        222,
+        237
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.666502,
+        "vietmed_ner": 0.965839
+      },
+      "context": "   - Tăng huyết áp\n    - Tiền sử phẫu thuật cắt bỏ đại tràng do Ung thư đại tràng\n    - Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử ⟦Thuyên tắc phổi⟧ đang dùng coumadin)\n    Tiền sử phẫu thuật / thủ thuật: Cắt đại tràng nhiều năm trước\n    Thuốc trước khi nhập viện: coumadin\n\n2.  Tiền sử ",
+      "id": 65,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.965839
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.965839
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": []
+    },
+    {
+      "record": "95",
+      "text": "bệnh gút",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        64,
+        72
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v15": 0.589466,
+        "vietmed_ner": 0.951628
+      },
+      "context": "Câu hỏi từ người dùng:\n\nChào bác sĩ, ông em năm nay 70 tuổi, bị ⟦bệnh gút⟧ hai năm nay, cũng điều trị mấy tháng khỏi đau rồi không uống thuốc nữa, mà gần đây xuất hiện hạt nhỏ màu trắng trên da chỗ mấy khớp ngón ta",
+      "id": 66,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.951628
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.951628
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": []
+    },
+    {
+      "record": "95",
+      "text": "ngưng thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1220,
+        1229
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.684735,
+        "vietmed_ner": 0.986963
+      },
+      "context": " cấp, đau các khớp rất nhiều.\n\n1.  Tiền sử bệnh lý\n    Các bệnh lý mạn tính\n    - ho đái tháo đường\n    - tăng huyết áp\n    - béo phì\n    - ⟦ngưng thở⟧ khi ngủ do tắc nghẽn\n    Thuốc trước khi nhập viện\n    - tylenol\n    - mucinex d\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n\n",
+      "id": 67,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.986963
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.986963
+        }
+      ],
+      "accepted": true,
+      "assertions": [
+        "isHistorical"
+      ],
+      "candidates": null
+    },
+    {
+      "record": "97",
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        448,
+        455
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.742837,
+        "vietmed_ner": 0.99777
+      },
+      "context": "F)\n    - Sinh thiết tuyến tiền liệt\n2.  Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu ⟦mệt mỏi⟧ nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức. Tuần qua có buồn nôn, và nôn .\nKhám hiệ",
+      "id": 68,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.99777
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.99777
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "97",
+      "text": "ngứa da toàn thân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        484,
+        501
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.732981,
+        "vietmed_ner": 0.959923
+      },
+      "context": "2.  Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ⟦ngứa da toàn thân⟧ nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức. Tuần qua có buồn nôn, và nôn .\nKhám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều",
+      "id": 69,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.959923
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.959923
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "97",
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        534,
+        541
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.739701,
+        "vietmed_ner": 0.998246
+      },
+      "context": ", mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, ⟦khó thở⟧ khi gắng sức. Tuần qua có buồn nôn, và nôn .\nKhám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều\n    - Ăn không ngon miệng\n    - Ngứa da",
+      "id": 70,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.998246
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.998246
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    },
+    {
+      "record": "97",
+      "text": "Mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        628,
+        635
+      ],
+      "sources": [
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "confidences": {
+        "bami_v3": 0.682701,
+        "vietmed_ner": 0.990212
+      },
+      "context": " da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức. Tuần qua có buồn nôn, và nôn .\nKhám hiện tại thấy\nBệnh nhân tỉnhi\n    - ⟦Mệt mỏi⟧ nhiều\n    - Ăn không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\nNhưng đợt này chỉ nồi to ra thôi ạ\nEm bị mấy năm ",
+      "id": 71,
+      "reviews": [
+        {
+          "action": "KEEP",
+          "confidence": 0.990212
+        },
+        {
+          "action": "KEEP",
+          "confidence": 0.990212
+        }
+      ],
+      "accepted": true,
+      "assertions": [],
+      "candidates": null
+    }
+  ]
+}

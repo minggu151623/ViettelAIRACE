@@ -1,0 +1,27 @@
+{
+  "official_first_span": {
+    "mention": "amlodipine",
+    "published_start": 58,
+    "flattened_unicode_codepoint_start": 56,
+    "crlf_unicode_codepoint_start": 58,
+    "flattened_utf8_byte_start": 75,
+    "crlf_utf8_byte_start": 77,
+    "flattened_utf16_code_unit_start": 56
+  },
+  "official_final_end": {
+    "published_end": 554,
+    "flattened_unicode_codepoint_end": 532,
+    "crlf_unicode_codepoint_end": 554,
+    "crlf_utf8_byte_end": 624,
+    "inserted_crlf_pairs": 11
+  },
+  "distributed_inputs": {
+    "files": 100,
+    "lf_bytes": 2889,
+    "crlf_pairs": 0,
+    "carriage_returns": 0,
+    "nfc_normalized_files": 100,
+    "astral_unicode_characters": 0
+  },
+  "conclusion": "The official offsets reject UTF-8 byte coordinates and exactly match Unicode character offsets after CRLF insertion. UTF-16 and code-point offsets are equivalent for these inputs because no astral characters occur. Newline normalization is the only supported coordinate discrepancy."
+}
