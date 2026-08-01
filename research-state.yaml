@@ -6,21 +6,20 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Turn 2 uses a new 100-record LF input. The guarded Qwen rebuild is externally
-  supported at 19.0709. H16 now adds a deterministic 344-entity exact
-  three-model consensus core without admitting the 1,267 pair-only rows.
-  Measure this causal span-recall intervention before expanding recall; keep
-  candidate normalization isolated because it remains the largest weighted
-  gap, and never accept a raw model union.
+  Freeze H20 at 29.8409 and stop using scarce leaderboard submissions as the
+  inner-loop objective. H21 builds an independent Turn 2 blind review set,
+  paired-bootstrap uncertainty, and a selective promotion gate. Challenger
+  work must remain separate and fall back to H20 unless the preregistered gate
+  passes; no blind threshold micro-tuning is allowed.
 baseline:
-  best_submitted_artifact: turn2/output_v4_pair_qwen.zip
-  score: 21.8139
-  wer_percent: 74.0072
-  j_assertion: 30.7601
-  j_candidates: 11.9700
+  best_submitted_artifact: turn2/output_v6_expanded_pair.zip
+  score: 29.8409
+  wer_percent: 66.7969
+  j_assertion: 37.7055
+  j_candidates: 21.4207
   score_formula: "score% = 0.3*(100-WER%) + 0.3*J_assertion% + 0.4*J_candidates%"
   verified_formula: >
-    0.3*(100-74.0072) + 0.3*30.7601 + 0.4*11.9700 = 21.81387.
+    0.3*(100-66.7969) + 0.3*37.7055 + 0.4*21.4207 = 29.84086.
 constraints:
   - "No organizer ground truth is available."
   - "Inference must remain offline and deterministic."
@@ -112,6 +111,12 @@ hypotheses:
       Heterogeneous, type-specialist span models with a learned merger and
       CRLF-aware offsets can improve text/type matching materially, whereas
       raw model union and post-processing alone cannot bridge the score gap.
+  H21_blind_promotion_gate:
+    status: preregistered
+    prediction: >
+      A prediction-blind, structurally stratified review set and paired
+      bootstrap gate can reject unstable challengers offline; selective
+      fallback preserves H20 whenever evidence is insufficient.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -200,10 +205,9 @@ experiments:
     - "H20 expanded artifact: H19 plus 500 disjoint entities (134 diagnosis, 247 symptom, 37 test, 82 drug); 57 tests; 100/100 valid; deterministic ZIP SHA-256 ad5ac42a2fc3d0105537c42873d4aaeba1e24aef57ec9510216cf32f43d25691"
     - "H20 external result: 29.8409; WER 66.7969, J_assertion 37.7055, J_candidates 21.4207; +8.0270 over H17 and every component improved"
   next: >
-    Freeze H20 as the new 29.8409 baseline. Attribute remaining error by type
-    and proposal support without altering the scored artifact. The next
-    experiment must target a structurally distinct source/model or replacement
-    policy; do not perform blind threshold micro-tuning.
+    Execute preregistered H21: create the immutable Turn 2 calibration manifest,
+    annotation queue, paired evaluator, bootstrap confidence intervals and
+    promotion report without altering the scored H20 artifact.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
