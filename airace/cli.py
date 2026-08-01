@@ -230,6 +230,18 @@ def build_parser() -> argparse.ArgumentParser:
     )
     blind_eval.add_argument("--report", required=True)
     blind_eval.add_argument("--bootstrap-iterations", type=int, default=10_000)
+    pseudo = sub.add_parser("pseudo-reconstruct")
+    pseudo.add_argument("--input", default="turn2/input")
+    pseudo.add_argument(
+        "--source", default="scoring_system/ground_truth_predict"
+    )
+    pseudo.add_argument(
+        "--output", default="turn2/output_v7_pseudo_reconstruction"
+    )
+    pseudo.add_argument(
+        "--report",
+        default="experiments/H22_calibrated_pseudo_reconstruction/build_report.json",
+    )
     train = sub.add_parser("train")
     train.add_argument("--labels", default="labels/annotations.jsonl")
     train.add_argument("--output", default="models/phobert-medical")
@@ -535,6 +547,15 @@ def main(argv: list[str] | None = None) -> None:
             split=args.split,
             output_path=args.report,
             bootstrap_iterations=args.bootstrap_iterations,
+        )
+    elif args.command == "pseudo-reconstruct":
+        from .pseudo_reconstruct import reconstruct_pseudo_labels
+
+        result = reconstruct_pseudo_labels(
+            args.input,
+            args.source,
+            args.output,
+            args.report,
         )
     elif args.command == "train":
         from .train import train_model

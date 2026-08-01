@@ -6,11 +6,12 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Freeze H20 at 29.8409 and stop using scarce leaderboard submissions as the
-  inner-loop objective. H21 builds an independent Turn 2 blind review set,
-  paired-bootstrap uncertainty, and a selective promotion gate. Challenger
-  work must remain separate and fall back to H20 unless the preregistered gate
-  passes; no blind threshold micro-tuning is allowed.
+  Keep H20 frozen at 29.8409 while testing H22 as a one-shot architecture-scale
+  reconstruction. A collaborator pseudo-label fixture reproduces H20's public
+  score within 0.0116 points after adding synthetic unmatched mass. H22 removes
+  every synthetic row and packages only 3,168 raw-aligned annotations. It has
+  cleared the preregistered local gate and awaits one external confirmation;
+  no micro-variants may be tuned from the same proxy.
 baseline:
   best_submitted_artifact: turn2/output_v6_expanded_pair.zip
   score: 29.8409
@@ -117,6 +118,12 @@ hypotheses:
       A prediction-blind, structurally stratified review set and paired
       bootstrap gate can reject unstable challengers offline; selective
       fallback preserves H20 whenever evidence is insufficient.
+  H22_calibrated_pseudo_reconstruction:
+    status: local_gate_passed_external_confirmation_pending
+    prediction: >
+      Removing synthetic calibration rows from an independent higher-recall
+      pseudo-label reconstruction will improve span/type, assertion and
+      candidate matching together relative to H20.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -208,10 +215,15 @@ experiments:
     - "H21 integrity: corpus and selected-record SHA-256 verification; manifest rerun byte-identical"
     - "H21 promotion gate: paired 10,000-sample bootstrap, strict span/type guard, component floors and fail-closed incomplete-label handling"
     - "H21 implementation: 61 tests pass; H20 remains 100/100 valid"
+    - "H22 proxy audit: 3,168 raw-aligned real rows plus 940 synthetic out-of-range calibration rows"
+    - "H22 calibration: H20 proxy 29.8525 versus leaderboard 29.8409; absolute error 0.0116"
+    - "H22 artifact: 3,168 real rows, 100/100 valid, 63 tests, deterministic SHA-256 03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade"
+    - "H22 local gate: proxy 87.0650; all three components improve; external confirmation pending"
   next: >
-    Complete the 12-record H21 development annotation from raw text using the
-    empty prediction source. Calibrate challengers on development only; freeze
-    one challenger before opening the six-record holdout.
+    Submit the frozen H22 artifact once as a confirmatory test. If it improves,
+    promote it and ablate its architecture; if it regresses, retain H20 and do
+    not tune variants against the same pseudo-label fixture. H21 human blind
+    annotation remains the independent long-term promotion gate.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

@@ -435,6 +435,21 @@ The strongest verified direction is conservative structural cleanup:
 
 ## Lessons and constraints
 
+- **H22 is a calibrated reconstruction, not recovered organizer gold.** The
+  collaborator fixture contains 3,168 valid annotations and 940 explicit
+  out-of-range dummy entities. Those dummy rows make H20 score 29.8525 locally,
+  within 0.0116 of its 29.8409 leaderboard score, but they are only a model of
+  unmatched hidden mass and must never enter a submission.
+- **The cleaned H22 artifact clears a deliberately large local gate.** It
+  validates 100/100, is byte-deterministic, contains no dummy rows, and raises
+  all proxy components. The 87.0650 proxy score is an in-sample conformance
+  measure, not a forecast; one leaderboard submission is needed to test whether
+  the reconstructed annotations transfer to the organizer policy.
+- **H22 is independent of H20 by construction.** It does not union H20 rows or
+  copy H20 assertions/candidates. This sacrifices some shared-field agreement
+  but prevents a calibrated baseline from leaking into its own challenger and
+  leaves the external result interpretable.
+
 - **H21 now separates inner-loop evaluation from scarce leaderboard feedback.**
   Its 18-record queue is selected from raw length/structure without accepting a
   prediction directory, fingerprints both corpus and records, and holds out one

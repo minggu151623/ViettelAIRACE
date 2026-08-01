@@ -1,0 +1,25 @@
+{
+  "baseline": {
+    "artifact": "turn2/output_v6_expanded_pair.zip",
+    "final_score": 29.85253946692851,
+    "WER": 66.31886686074913,
+    "J_assertion": 37.9406215108594,
+    "J_candidates": 20.915032679738562
+  },
+  "challenger": {
+    "artifact": "turn2/output_v7_pseudo_reconstruction.zip",
+    "sha256": "03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade",
+    "final_score": 87.0650463736568,
+    "WER": 20.614688429067773,
+    "J_assertion": 82.1724386842311,
+    "J_candidates": 96.49430324276949
+  },
+  "delta": {
+    "final_score": 57.21250690672829,
+    "WER": -45.70417843168136,
+    "J_assertion": 44.2318171733717,
+    "J_candidates": 75.57927056303093
+  },
+  "decision": "ELIGIBLE_FOR_ONE_EXTERNAL_CONFIRMATORY_SUBMISSION",
+  "warning": "The pseudo-label fixture is not organizer ground truth; its score is not a leaderboard forecast."
+}

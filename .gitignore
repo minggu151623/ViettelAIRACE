@@ -43,5 +43,8 @@ turn2/*.zip
 !turn2/output_v6_expanded_pair/
 !turn2/output_v6_expanded_pair/**
 
+# Preregistered H22 confirmatory submission artifact.
+!turn2/output_v7_pseudo_reconstruction.zip
+
 # Research evidence may contain deterministic intermediate archives.
 experiments/**/output_repeat.zip

@@ -1,0 +1,33 @@
+{
+  "hypothesis": "H22_calibrated_pseudo_reconstruction",
+  "records": 100,
+  "kept_real_rows": 3168,
+  "dropped_calibration_rows": 940,
+  "counts": {
+    "CHẨN_ĐOÁN": 863,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 322,
+    "THUỐC": 275,
+    "TRIỆU_CHỨNG": 1260,
+    "TÊN_XÉT_NGHIỆM": 448
+  },
+  "assertions": {
+    "isFamily": 61,
+    "isHistorical": 551,
+    "isNegated": 178
+  },
+  "rows_with_candidates": 1041,
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 863,
+      "TÊN_XÉT_NGHIỆM": 448,
+      "TRIỆU_CHỨNG": 1260,
+      "THUỐC": 275,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "output": "turn2/output_v7_pseudo_reconstruction"
+}

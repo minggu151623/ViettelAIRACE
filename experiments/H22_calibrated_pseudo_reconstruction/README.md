@@ -55,3 +55,18 @@ expensive confirmatory submission; it does not guarantee an external gain.
 If the leaderboard score improves, H22 becomes the new baseline and later work
 must ablate its components. If it regresses, retain H20 and do not generate
 threshold micro-variants from the same proxy.
+
+## Frozen build result
+
+- Retained 3,168/3,168 raw-aligned rows and removed 940/940 calibration rows.
+- Validated 100/100 records; no duplicate span/type or text/offset error.
+- Repeated archive SHA-256:
+  `03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade`.
+- H20 proxy: 29.8525; H22 proxy: 87.0650 (+57.2125).
+- Proxy WER: 66.3189 -> 20.6147; assertion Jaccard: 37.9406 ->
+  82.1724; candidate Jaccard: 20.9150 -> 96.4943.
+- The ZIP contains exactly 100 `output/*.json` members and zero dummy rows.
+
+H22 clears the preregistered local gate. Its leaderboard behavior remains an
+external confirmatory question; the proxy score must not be reported as an
+expected leaderboard score.

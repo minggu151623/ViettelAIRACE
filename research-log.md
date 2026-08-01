@@ -783,3 +783,25 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - Missing annotations return `INCOMPLETE_ANNOTATIONS`; development evaluation
   cannot emit `PROMOTE`; only the untouched holdout may clear the gate.
 - Baseline validation remains 100/100 and all 61 project tests pass.
+
+## 2026-08-02 — H22 calibrated pseudo-label reconstruction
+
+- Audited collaborator commit `91ce0c6`: its so-called ground truth is a proxy,
+  not organizer gold. It contains 3,168 valid raw-text annotations and 940
+  synthetic `x` rows at impossible offsets.
+- Scored frozen H20 against the untouched proxy: 29.8525 versus the observed
+  29.8409 leaderboard score. Component proxies are WER 66.3189, assertion
+  37.9406 and candidate 20.9150.
+- Preregistered H22 before building or scoring it. The transform fails closed
+  on every invalid non-dummy row and forbids importing any H20 field.
+- Built 3,168 real annotations: 863 diagnoses, 1,260 symptoms, 448 test names,
+  322 test results and 275 drugs. It includes 790 assertion labels and 1,041
+  coded rows.
+- H22 scores 87.0650 on the calibration proxy (WER 20.6147, assertion 82.1724,
+  candidate 96.4943), clearing all frozen component gates. This value is not a
+  leaderboard prediction because the real proxy rows are evaluated in-sample.
+- All 63 tests pass; 100/100 files validate; ZIP integrity passes; two builds
+  share SHA-256
+  `03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade`.
+- No competition submission was performed. H20 remains the external baseline
+  until the user submits H22 once.

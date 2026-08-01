@@ -320,7 +320,10 @@ def build_parser() -> argparse.ArgumentParser:
         help="prediction directory or ZIP",
     )
     parser.add_argument(
-        "--ground-truth", type=Path, default=Path("../ViettelAIRACE/scorering_system/ground_truth_predict"), help="ground-truth directory or ZIP"
+        "--ground-truth",
+        type=Path,
+        default=Path("scoring_system/ground_truth_predict"),
+        help="ground-truth directory or ZIP",
     )
     parser.add_argument(
         "--output", type=Path, default=Path("output/score.json"), help="result JSON path"
