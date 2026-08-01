@@ -56,3 +56,13 @@
 - **Sensitivity**: medium
 - **Code ref**: [`airace/blind_eval.py`,
   `experiments/H21_blind_promotion_gate/calibration_manifest.json`]
+
+## H09: Fail closed when stripping calibration sentinels
+- **Rationale**: Synthetic unmatched rows are identifiable by impossible
+  offsets and literal sentinel text, but a malformed real annotation must not
+  be silently discarded by the same filter. Drop only explicit sentinels and
+  abort on every other invalid row.
+- **Provenance**: ai-suggested
+- **Sensitivity**: low
+- **Code ref**: [`airace/pseudo_reconstruct.py`,
+  `tests/test_pseudo_reconstruct.py`]

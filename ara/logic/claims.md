@@ -267,3 +267,19 @@
   `experiments/H21_blind_promotion_gate/reports/smoke_incomplete.json`]
 - **Dependencies**: [C20]
 - **Tags**: blind-validation, bootstrap, promotion, safety
+
+## C22: H22 is a calibrated proxy challenger, not recovered gold
+- **Statement**: The collaborator fixture separates into 3,168 raw-aligned
+  pseudo-labels and 940 synthetic out-of-range rows; removing every synthetic
+  row yields a valid independent challenger whose transfer to organizer policy
+  requires external confirmation.
+- **Status**: supported internally; external effect untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Any retained H22 row fails raw-offset validation,
+  a calibration dummy survives packaging, identical builds differ, or the
+  submitted artifact fails to improve over H20 under the organizer evaluator.
+- **Proof**: [`experiments/H22_calibrated_pseudo_reconstruction/build_report.json`,
+  `experiments/H22_calibrated_pseudo_reconstruction/proxy_comparison.json`,
+  `turn2/output_v7_pseudo_reconstruction.zip`]
+- **Dependencies**: [C20, C21]
+- **Tags**: pseudo-labels, calibration, reconstruction, external-pending

@@ -1,4 +1,35 @@
 tree:
+  - id: N27
+    type: decision
+    title: "Use the first reset submission as an H22 confirmation"
+    provenance: user
+    timestamp: "2026-08-02T05:00+07:00"
+    choice: >
+      Continue improving after the daily five submissions reset and prepare one
+      new artifact for the user's first submission.
+    alternatives:
+      - "Resubmit frozen H20"
+      - "Spend the first slot on another H20 threshold micro-variant"
+    evidence: >
+      The user explicitly requested a new improvement and stated they would
+      perform submission one after delivery.
+    children:
+      - id: N28
+        type: experiment
+        title: "H22 calibrated pseudo-label reconstruction"
+        provenance: ai-executed
+        timestamp: "2026-08-02T05:30+07:00"
+        result: >
+          Audited collaborator commit 91ce0c6 as a proxy containing 3,168
+          raw-aligned annotations and 940 synthetic out-of-range rows. The
+          untouched proxy reproduced H20 at 29.8525 versus 29.8409 external.
+          After preregistration, H22 removed all synthetic rows, validated
+          100/100 records, passed 63 tests, and packaged byte-identically with
+          SHA-256 03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade.
+          It scored 87.0650 in-sample on the proxy and awaits external testing;
+          no organizer submission was performed by the AI.
+        evidence: [C22, "experiments/H22_calibrated_pseudo_reconstruction/proxy_comparison.json",
+          "turn2/output_v7_pseudo_reconstruction.zip"]
   - id: N25
     type: decision
     title: "Adopt an isolated blind-evaluation track"

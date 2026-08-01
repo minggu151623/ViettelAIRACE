@@ -9,3 +9,7 @@
   `reports/v18_evidence_crlf.json`, and `reports/v18_delta_audit.json`.
 - Deterministic V18 CRLF SHA-256:
   `9e4fc10bef807a5ecd800fb577de56f988e5fbc584137bf03705d0c48c3adca0`.
+- H22 proxy comparison:
+  `experiments/H22_calibrated_pseudo_reconstruction/proxy_comparison.json`.
+- Deterministic H22 SHA-256:
+  `03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade`.

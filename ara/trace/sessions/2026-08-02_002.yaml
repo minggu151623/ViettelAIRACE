@@ -1,0 +1,47 @@
+session:
+  id: "2026-08-02_002"
+  timestamp: "2026-08-02T05:34+07:00"
+  summary: "Audited the collaborator proxy, preregistered H22, and built a deterministic 3,168-entity confirmatory artifact."
+
+events_logged:
+  - type: decision
+    id: N27
+    provenance: user
+    summary: "Use the first reset submission slot to confirm a new improvement."
+  - type: experiment
+    id: N28
+    provenance: ai-executed
+    summary: "H22 removed 940 calibration rows and cleared the frozen local gate."
+  - type: claim
+    id: C22
+    provenance: ai-suggested
+    summary: "The proxy is calibrated but is not recovered organizer ground truth."
+  - type: heuristic
+    id: H09
+    provenance: ai-suggested
+    summary: "Drop only explicit calibration sentinels and fail on other invalid rows."
+
+ai_actions:
+  - action: "Integrated and audited collaborator commit 91ce0c6."
+    provenance: ai-executed
+    files_changed: ["scoring_system/score.py"]
+  - action: "Implemented deterministic pseudo-label reconstruction and tests."
+    provenance: ai-executed
+    files_changed: ["airace/pseudo_reconstruct.py", "airace/cli.py",
+      "tests/test_pseudo_reconstruct.py"]
+  - action: "Built and validated the H22 submission archive."
+    provenance: ai-executed
+    files_changed: ["turn2/output_v7_pseudo_reconstruction.zip",
+      "experiments/H22_calibrated_pseudo_reconstruction/proxy_comparison.json"]
+
+claims_touched:
+  - id: C22
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "User must submit H22 and report final score, WER, J_assertion, and J_candidates."
+  - "If H22 regresses, preserve H20 and do not tune micro-variants against the same proxy."
+
+ai_suggestions_pending:
+  - "Treat the H22 leaderboard result as a one-shot transfer test, not proof that the proxy is ground truth."
