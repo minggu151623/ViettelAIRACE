@@ -1,0 +1,48 @@
+session:
+  id: "2026-08-03_009"
+  timestamp: "2026-08-03T04:50+07:00"
+  summary: "Stress-tested H41 inference across five distribution shapes and found small-sample Type-I inflation plus a 45-passage robust power requirement."
+
+events_logged:
+  - type: experiment
+    id: N61
+    provenance: ai-executed
+    summary: "H49 found 15-passage Type-I of 0.0236–0.1126 and moved robust d=0.5 80% power from 30 to 45 passages."
+  - type: claim
+    id: C45
+    provenance: ai-suggested
+    summary: "The H41 percentile gate is distribution-sensitive at small n and requires a preregistered robustness repair."
+
+ai_actions:
+  - action: "Preregistered, implemented and deterministically repeated a five-family H41 power envelope."
+    provenance: ai-executed
+    files_changed:
+      - "airace/h41_power_robustness.py"
+      - "experiments/H49_h41_power_robustness"
+      - "tests/test_h41_power_robustness.py"
+  - action: "Validated 145 tests and preserved the H44 artifact hash."
+    provenance: ai-executed
+    files_changed:
+      - "research-state.yaml"
+      - "research-log.md"
+      - "findings.md"
+  - action: "Created and opened the H49 distributional robustness report."
+    provenance: ai-executed
+    files_changed:
+      - "to_human/h49_distribution_robustness_report.html"
+
+claims_touched:
+  - id: C44
+    action: weakened
+    provenance: ai-suggested
+  - id: C45
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "A preregistered small-sample inference repair is needed before H41 labels open."
+  - "H44 external score and component metrics remain pending."
+  - "H41 independent reviewer labels remain pending."
+
+ai_suggestions_pending:
+  - "Use a distributional envelope, not the Normal point estimate, for future H41 queue sizing."

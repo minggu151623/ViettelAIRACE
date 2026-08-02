@@ -705,6 +705,22 @@ tree:
                 evidence: [C44,
                   "experiments/H48_h41_power_curve/results/power.json",
                   "ara/evidence/tables/h48_h41_power.md"]
+                children:
+                  - id: N61
+                    type: experiment
+                    title: "H49 distributional stress test of H41 inference"
+                    provenance: ai-executed
+                    timestamp: "2026-08-03T04:50+07:00"
+                    result: >
+                      Across five mean-zero, unit-variance noise families, the
+                      15-passage Type-I rate ranged from 0.0236 to 0.1126.
+                      Worst-family d=0.5 power was 0.7452 at 30 passages and
+                      0.8546 at 45, so the Normal-based 30-passage estimate was
+                      not robust. All 145 tests passed without label,
+                      prediction, queue or ZIP changes.
+                    evidence: [C45,
+                      "experiments/H49_h41_power_robustness/results/power_envelope.json",
+                      "ara/evidence/tables/h49_h41_power_robustness.md"]
 
   - id: N53
     type: pivot

@@ -41,3 +41,6 @@
   assertion loss covered 36 novel entities but only 0.04605 weighted points.
 - H48 H41 power curve: `tables/h48_h41_power.md`; 15 passages control Type-I
   at 0.053 but have only 0.5882 power at `d=0.5`, while 30 reach 0.8034.
+- H49 H41 distributional stress test: `tables/h49_h41_power_robustness.md`;
+  15-passage Type-I spans 0.0236–0.1126 and robust 80% power at `d=0.5`
+  requires 45 passages across the frozen families.

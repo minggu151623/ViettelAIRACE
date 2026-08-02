@@ -587,16 +587,34 @@
 - **Tags**: assertions, negative-transfer, ancestry, leverage, abstention
 
 ## C44: The frozen H41 holdout is a high-effect gate, not an equivalence test
-- **Statement**: H41's 15 independent holdout passages control false promotion
-  near 5%, but lack 80% power for a standardized passage-level effect of 0.5;
-  non-promotion cannot establish equivalence or absence of a moderate gain.
-- **Status**: supported under the preregistered Normal-delta simulation model
+- **Statement**: Under Normal passage deltas, H41's 15 independent holdout
+  passages control false promotion near 5% but lack 80% power for a
+  standardized effect of 0.5; non-promotion cannot establish equivalence or
+  absence of a moderate gain.
+- **Status**: revised; underpower supported, universal Type-I wording narrowed
 - **Provenance**: ai-suggested
 - **Falsification criteria**: A preregistered reproducible power analysis of
   the same frozen gate gives at least 80% power at `d=0.5`, or an exact
   derivation shows the implemented simulation underestimates its sensitivity.
 - **Proof**: [`experiments/H48_h41_power_curve/protocol.yaml`,
   `experiments/H48_h41_power_curve/results/power.json`,
-  `airace/h41_power.py`]
+  `airace/h41_power.py`,
+  `experiments/H49_h41_power_robustness/results/power_envelope.json`]
 - **Dependencies**: [C38]
 - **Tags**: statistical-power, bootstrap, repeated-passages, equivalence
+
+## C45: H41's percentile gate is distribution-sensitive at small sample sizes
+- **Statement**: At 15 passages, the stratified percentile-bootstrap lower
+  bound does not maintain a universal near-5% false-promotion rate across
+  mean-zero, unit-variance discrete, heavy-tailed and skewed delta families;
+  Normal-only power also understates the robust sample requirement.
+- **Status**: supported by preregistered distributional simulation
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A preregistered exact or Monte Carlo audit of the
+  implemented gate shows Type-I within 0.02–0.08 for every frozen family and
+  at least 80% power at `d=0.5` for 30 passages in every family.
+- **Proof**: [`experiments/H49_h41_power_robustness/protocol.yaml`,
+  `experiments/H49_h41_power_robustness/results/power_envelope.json`,
+  `airace/h41_power_robustness.py`]
+- **Dependencies**: [C38, C44]
+- **Tags**: percentile-bootstrap, skewness, Type-I, statistical-power
