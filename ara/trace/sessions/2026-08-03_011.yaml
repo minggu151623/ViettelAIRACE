@@ -1,0 +1,50 @@
+session:
+  id: "2026-08-03_011"
+  timestamp: "2026-08-03T05:36+07:00"
+  summary: "Proved distribution-free H41 gates are valid but vacuous and pivoted from repairing n=15 to a future larger independent confirmation design."
+
+events_logged:
+  - type: dead_end
+    id: N63
+    provenance: ai-executed
+    summary: "H51 bounded gates had zero worst-family power through d=1 and n=60 despite perfect Type-I control."
+  - type: pivot
+    id: N64
+    provenance: ai-suggested
+    summary: "Close synthetic n=15 repair and use label-locked development evidence to preregister a larger independent holdout."
+  - type: claim
+    id: C47
+    provenance: ai-suggested
+    summary: "Finite-sample bounded gates are vacuous at H41's tested sample scale."
+
+ai_actions:
+  - action: "Proved the exact score-delta range from metric code and preregistered two bounded confidence gates."
+    provenance: ai-executed
+    files_changed:
+      - "experiments/H51_h41_bounded_gate/protocol.yaml"
+  - action: "Implemented and deterministically repeated Hoeffding and stratum-wise empirical Bernstein stress tests."
+    provenance: ai-executed
+    files_changed:
+      - "airace/h41_bounded_gate.py"
+      - "experiments/H51_h41_bounded_gate/results"
+      - "tests/test_h41_bounded_gate.py"
+  - action: "Validated 151 tests and created the H51 bounded-gate report."
+    provenance: ai-executed
+    files_changed:
+      - "findings.md"
+      - "research-log.md"
+      - "research-state.yaml"
+      - "to_human/h51_bounded_gate_report.html"
+
+claims_touched:
+  - id: C47
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Complete H41 reviewer labels for independent development and error analysis."
+  - "After label lock, define a raw practical effect and preregister a larger independent holdout without repurposing the frozen 15."
+  - "H44 external score and component metrics remain pending."
+
+ai_suggestions_pending:
+  - "Do not run more synthetic repairs of the frozen 15-passage gate without new empirical assumptions."

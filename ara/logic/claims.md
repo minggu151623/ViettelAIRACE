@@ -633,3 +633,19 @@
   `airace/h41_inference_repair.py`]
 - **Dependencies**: [C45]
 - **Tags**: bootstrap-t, Welch-t, small-sample, numerical-stability, power
+
+## C47: Distribution-free bounded gates are vacuous at H41 scale
+- **Statement**: Although H41 passage deltas are exactly bounded in `[-1,1]`,
+  Hoeffding and stratum-wise empirical Bernstein lower bounds cannot provide
+  useful promotion power for the tested bounded families at 15–60 passages.
+- **Status**: supported by analytic penalties and preregistered simulation
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A valid finite-sample bound using only the frozen
+  independence and `[-1,1]` assumptions achieves at least 0.50 worst-family
+  power at `d=0.75` for n=15 or 0.80 at `d=0.5` by n=60.
+- **Proof**: [`airace/metrics.py`,
+  `experiments/H51_h41_bounded_gate/protocol.yaml`,
+  `experiments/H51_h41_bounded_gate/results/bounded_gate.json`,
+  `airace/h41_bounded_gate.py`]
+- **Dependencies**: [C45, C46]
+- **Tags**: Hoeffding, empirical-Bernstein, finite-sample, bounded-data, power

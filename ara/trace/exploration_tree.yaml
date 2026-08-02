@@ -745,6 +745,42 @@ tree:
                         evidence: [C46,
                           "experiments/H50_h41_inference_repair/results/method_comparison.json",
                           "ara/evidence/tables/h50_h41_inference_repair.md"]
+                        children:
+                          - id: N63
+                            type: dead_end
+                            title: "H51 finite-sample bounded H41 gates"
+                            provenance: ai-executed
+                            timestamp: "2026-08-03T05:35+07:00"
+                            hypothesis: >
+                              The exact [-1,1] score-delta range can support a
+                              distribution-free gate with useful power at 15
+                              to 60 independent passages.
+                            failure_mode: >
+                              Hoeffding subtracts 0.7013 at n=15 and 0.3507 at
+                              n=60. Stratum-wise empirical Bernstein subtracts
+                              at least 6.6783 and 1.3558 even at zero variance.
+                              Both control Type-I but have zero worst-family
+                              power through d=1 for every tested n.
+                            lesson: >
+                              Guaranteed finite-sample validity is vacuous at
+                              this scale. Synthetic repair of the frozen gate
+                              is closed; more independent data and an empirical
+                              raw effect scale are required.
+                            evidence: [C47,
+                              "experiments/H51_h41_bounded_gate/results/bounded_gate.json",
+                              "ara/evidence/tables/h51_h41_bounded_gate.md"]
+                            children:
+                              - id: N64
+                                type: pivot
+                                title: "Pivot from repairing n=15 to new independent confirmation"
+                                provenance: ai-suggested
+                                timestamp: "2026-08-03T05:36+07:00"
+                                from: "Synthetic calibration of the frozen 15-passage promotion gate"
+                                to: "Label-locked development analysis followed by a newly preregistered larger independent holdout"
+                                trigger: >
+                                  H49–H51 jointly show that approximate gates
+                                  miscalibrate or destabilize while guaranteed
+                                  bounded gates are powerless through n=60.
 
   - id: N53
     type: pivot

@@ -47,3 +47,6 @@
 - H50 H41 inference repair: `tables/h50_h41_inference_repair.md`; Welch-t and
   bootstrap-t reduce maximum Type-I but fail power, lower-rate, or numerical-
   stability gates at 15 passages, so no repair was installed.
+- H51 bounded H41 gates: `tables/h51_h41_bounded_gate.md`; Hoeffding and
+  empirical Bernstein control false promotion but have zero worst-family power
+  through `d=1` and n=60, closing synthetic repair of the frozen gate.
