@@ -1237,3 +1237,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - Exploratory Turn-2 audit found 271 exact repeated-line groups covering 43.07%
   of input characters; 104 have inconsistent H38 local annotations. This opens
   a corpus-structure direction independent of another source-weight sweep.
+
+## 2026-08-03 — H40 repeated-passage protocol locked
+
+- Defined exact physical lines of at least 40 characters repeated in at least
+  two records; no text normalization or near-duplicate matching is allowed.
+- Registered evidence as independent family-by-occurrence units, so two Bami
+  checkpoints cannot double-count and one model repeating the same error across
+  records cannot satisfy both occurrence and family requirements alone.
+- Assertions remain occurrence-specific. Candidate-bearing entities require a
+  repeated exact alias/tuple or a unanimous overlapping tuple.
+- Locked leave-one-occurrence-out stability, controls, hazards, change-count,
+  exact consistency, isolation, validation and determinism gates before code.

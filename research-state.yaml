@@ -228,6 +228,12 @@ hypotheses:
       Synthetic F1 improved 0.69350 to 0.81017, but only 4/19 real held-out
       source/type cells improved log-loss. Sources encode incompatible policies;
       stacker and artifact generation were canceled.
+  H40_repeated_passage_consistency:
+    status: preregistered_not_run
+    prediction: >
+      Aggregating independent family evidence across literally identical Turn-2
+      passage occurrences will recover a stable canonical local annotation
+      policy without treating correlated checkpoints as independent labels.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -360,11 +366,11 @@ experiments:
     - "H38 external result: 39.2813; WER +0.8057 favorable, assertion -0.0234, candidate +0.1866, total +0.3093"
     - "H39 dependency-aware joint label-model protocol locked; implementation not yet run"
     - "H39 rejected before stacker: synthetic F1 +0.11667, but only 4/19 real leave-one-family-out cells improve; no ZIP"
+    - "H40 exact repeated-passage consistency protocol locked; implementation not yet run"
   next: >
-    Preregister a repeated-passage consistency graph for Turn 2. Treat exact
-    passage occurrences as corpus-internal evidence, aggregate independent
-    family support across occurrences, keep assertions context-specific, and
-    require leave-one-occurrence-out and hazard gates before any artifact.
+    Implement H40's exact passage graph, canonical selector and leave-one-
+    occurrence-out gate. Continue to integration only if stability, controls,
+    hazards and the registered 100-to-400 change window all pass.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

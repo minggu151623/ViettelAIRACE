@@ -1,0 +1,102 @@
+hypothesis: H40_repeated_passage_consistency_graph
+status: preregistered
+created_at: "2026-08-03T00:35:00+07:00"
+question: >
+  Can exact repeated passages provide corpus-internal supervision for a
+  canonical local span/type/candidate policy that is more independent than
+  agreement among correlated proposal models?
+
+motivation:
+  frozen_baseline_score: 39.2813
+  H39_result: failed_15_of_19_real_leave_one_family_out_cells
+  exploratory_census_before_lock:
+    minimum_line_characters: 40
+    duplicate_groups: 271
+    occurrences: 610
+    records_covered: 83
+    input_character_coverage: 0.430744246063871
+    H38_inconsistent_groups: 104
+    H38_entities_inside_occurrences: 1005
+    rows_missing_vs_modal_H38_signature: 151
+    rows_extra_vs_modal_H38_signature: 171
+
+frozen_inputs:
+  input_tree_sha256: d68702073a5e478df60ab389b71587813ffac08475902f043446346ef0f15bcf
+  baseline_zip:
+    path: turn2/output_v10_multiview_consensus.zip
+    sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  proposal_views:
+    bami_v15: 2dd6b6e6804e80afb3419f32c705851b4ae8055e4aa866492644c444958091cd
+    bami_v3: 71d6a38f7f55aad80857e456172e9c00175d6c47cf9f9cf4cf8498fbd116a75e
+    vietmed: 5bc85a01d47119d29696865d3be0feb51d905c3eecd1780f9d4802bb86c3b69b
+    qwen_guarded: 0f5a53fdd46a82dc2556ae11f3b53615a5ed6448cc156100801aac2c8bc979c4
+    h34_oof: 21823c984a992ce29ac6dc84e529e3056ec4192db0b23137d2bdcc82cce811a4
+
+passage_definition:
+  segmentation: exact_nonempty_physical_line_after_trimming_outer_whitespace
+  minimum_characters: 40
+  minimum_distinct_records: 2
+  normalization: none
+  rationale: >
+    No case folding, Unicode rewriting, punctuation rewriting or whitespace
+    collapse is allowed; only literally identical text is treated as repeated.
+
+evidence_model:
+  unit: independent_family_by_occurrence
+  families:
+    bami: [bami_v15, bami_v3]
+    vietmed: [vietmed]
+    qwen_guarded: [qwen_guarded]
+    h34_oof: [h34_oof]
+  bami_combination: one_family_support_if_either_checkpoint_emits_exact_relative_span_and_type
+  canonical_entity_key: [relative_start, relative_end, type]
+  eligibility:
+    - exact_support_in_at_least_2_distinct_occurrences
+    - exact_support_from_at_least_2_independent_families_across_the_group
+    - occurrence_support_at_least_ceil_group_occurrences_divided_by_2
+    - no_equal_support_cross_type_key_at_the_same_relative_position
+  conflict_order:
+    - more_distinct_occurrences
+    - more_independent_families
+    - more_family_occurrence_units
+    - shorter_span
+    - lexicographic_entity_key
+  overlap_decoder: weighted_interval_scheduling_using_the_frozen_conflict_order
+
+integration:
+  scope: entities_fully_contained_in_registered_repeated_lines_only
+  span_and_type: replace_each_occurrence_with_the_group_canonical_signature
+  assertions: >
+    Never propagate across records. Preserve the occurrence's exact or
+    overlapping H38 assertions; use the frozen rule engine only for a truly
+    disjoint canonical addition.
+  candidates: >
+    For diagnosis/drug, use a nonempty tuple only when the same normalized text
+    and tuple occur in at least two distinct H38 occurrences. Otherwise preserve
+    a unanimous overlapping occurrence tuple; if neither condition holds, do
+    not add that candidate-bearing entity.
+  unaffected_entities: dictionary_identical_to_H38
+
+controls_and_gates:
+  - frozen_hashes_match
+  - leave_one_occurrence_out_canonical_stability_at_least_0.95_on_groups_with_3_plus_occurrences
+  - H38_positive_control_retention_at_least_0.95
+  - registered_and_numeric_hazard_drop_rate_equals_1
+  - no_cross_type_tie_is_integrated
+  - at_least_100_and_at_most_400_rows_changed
+  - every_affected_repeated_line_has_identical_relative_span_type_candidate_signature
+  - assertions_are_never_copied_between_records
+  - entities_outside_affected_lines_are_dictionary_identical
+  - all_100_records_validate
+  - repeated_output_and_zip_are_byte_identical
+
+failure_policy: >
+  Do not lower occurrence/family support, normalize near-duplicate passages,
+  propagate assertions, resolve cross-type ties with an LLM, or generate a ZIP
+  after a failed gate. Record the census and return to prediction-blind human
+  annotation if exact repetition cannot produce at least 100 controlled edits.
+
+if_passed:
+  output: turn2/output_v11_repeated_passage_consistency
+  zip: turn2/output_v11_repeated_passage_consistency.zip
+  submission: user_only
