@@ -957,3 +957,17 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The registered failure policy therefore activates a type-specialist fusion
   rather than discarding the dense model or tuning a weight. No ZIP or
   competition submission was created.
+
+## 2026-08-02 — H24 fixed type-specialist router passes all retrieval gates
+
+- Preregistered a parameter-free router before fused metric computation:
+  Qwen3 Embedding for diagnoses and character TF-IDF for drugs. No score
+  interpolation, threshold or learned parameter exists.
+- Dev R@1/R@5/R@10 is 16.67/25.00/27.78%; test is
+  17.86/30.36/39.29%.
+- Against lexical retrieval, dev/test R@1 gains are +5.56/+7.14 points and
+  R@5 gains are +13.89/+12.50 points. All four frozen gates pass, and each type
+  exactly preserves the ranking of its stronger source.
+- The router is promoted only as the internal H24 retrieval baseline. Weak H23
+  links are not organizer truth, span/type is unchanged and no ZIP or
+  competition submission was created.

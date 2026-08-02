@@ -207,3 +207,16 @@ test R@10 rises from lexical 21.43% to 37.50%, and diagnosis test R@1 reaches
 the next ablation is a parameter-free type specialist: Qwen for diagnoses and
 lexical retrieval for drugs. Graph/reranking is now permitted only above that
 stronger fused baseline.
+
+## Stage-6 type-specialist fusion passes
+
+The preregistered zero-parameter router uses Qwen rankings for diagnoses and
+character TF-IDF rankings for drugs. It reaches dev R@1/R@5/R@10 of
+16.67/25.00/27.78% and test 17.86/30.36/39.29%. Relative to lexical, dev/test
+R@1 improves by 5.56/7.14 points and R@5 by 13.89/12.50 points, passing all
+four frozen retrieval gates.
+
+This is now the H24 retrieval baseline. It still cannot authorize a ZIP:
+retrieval labels are weak H23 mappings and span/type performance is untouched.
+The next registered component must rerank only this top-k pool with context
+and ontology evidence, and must beat the fixed router without per-test tuning.

@@ -598,6 +598,14 @@ The strongest verified direction is conservative structural cleanup:
   Vietnamese-English diagnosis terms; character TF-IDF remains superior for
   drug ingredients and brand strings. A fixed type switch is better founded
   than a globally tuned sparse/dense weight on only 36 dev rows.
+- **The fixed type router is the first H24 retrieval design to generalize.** It
+  reaches dev/test R@1 16.67/17.86% and R@5 25.00/30.36%, clearing every
+  preregistered sparse-dense gate. The gain comes from architectural division
+  of labour, not a tuned interpolation weight.
+- **The remaining retrieval error is primarily ranking inside a useful pool.**
+  Test R@10 is 39.29% while R@1 is 17.86%; a contextual classifier/reranker can
+  in principle recover another 21.43 points without widening proposals. This
+  is now a better target for graph and hard-negative methods than raw recall.
 - **H24 evaluation remains weak-label evaluation.** The 518 link rows are
   derived from H23 and are not organizer truth. Alias-group splitting prevents
   surface leakage, but a gain only proves the new model can learn the frozen

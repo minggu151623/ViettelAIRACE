@@ -131,7 +131,7 @@ hypotheses:
       candidates will hedge organizer ontology differences and improve
       candidate Jaccard without changing text or assertion metrics.
   H24_ontology_graph_classifier:
-    status: qwen_candidate_pool_positive_type_specialist_fusion_next
+    status: type_specialist_retrieval_passed_context_graph_reranker_next
     prediction: >
       A customized sparse+dense concept retriever with ontology-graph losses,
       graph-mined hard negatives and a contextual classifier/reranker will
@@ -248,11 +248,11 @@ experiments:
     - "H24 graph variant canceled under preregistered failure policy because alignment-only does not beat lexical retrieval"
     - "H24 train-only prototypes: no fitted parameters; dev/test R@1 2.78/5.36%, test R@5 8.93%; partial complement but gate failed"
     - "H24 Qwen3 multilingual dense: dev/test R@10 25.00/37.50% vs lexical 11.11/21.43%; R@1 gate failed but candidate pool is positive"
+    - "H24 fixed type router passes: dev/test R@1 16.67/17.86%, R@5 25.00/30.36%; all four sparse-dense gates clear"
   next: >
-    Preregister a zero-parameter type-specialist fusion: Qwen3 ranking for
-    diagnoses and character TF-IDF ranking for drugs. If it clears the frozen
-    dev/test gates, mine full-ontology hard negatives and train or apply a
-    multilingual reranker only inside the fused top-k candidate pool.
+    Preregister a multilingual context/concept reranker over the fixed router's
+    top-10 pool, with graph family/distance features and full-ontology mined
+    negatives. Compare against 16.67/17.86 dev/test R@1 before touching H23.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
