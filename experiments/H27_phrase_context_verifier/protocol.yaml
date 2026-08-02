@@ -1,0 +1,61 @@
+hypothesis: H27_dual_prompt_phrase_context_verifier
+status: preregistered
+created_at: "2026-08-02T22:00:00+07:00"
+question: >
+  Can two independent semantic and boundary prompts remove context-blind H26
+  phrase matches while preserving recurring clinical concepts?
+
+frozen_candidate_source:
+  protocol: experiments/H26_phrase_policy_distillation/protocol.yaml
+  result: experiments/H26_phrase_policy_distillation/results/report.json
+  matcher: case_insensitive
+  minimum_train_record_support: 2
+  lexicon_size: 235
+  candidate_rule: disjoint_from_h20_longest_phrase_first
+
+review_model:
+  model: qwen3:8b
+  ollama_id: 500a1f067a9f
+  temperature: 0
+  invented_spans_allowed: false
+  numeric_confidence_used: false
+  prompts:
+    semantic:
+      seed: 3109
+      focus: clinical_concept_and_btc_type_in_local_context
+    boundary:
+      seed: 7823
+      focus: complete_boundary_homonym_and_substring_validity
+  acceptance: unanimous_KEEP
+  missing_or_malformed_response: DROP
+
+policy:
+  keep:
+    - explicit_clinical_mention_with_correct_type
+    - historical_negated_family_or_educational_clinical_mentions
+    - repeated_occurrences_when_each_is_an_explicit_mention
+  drop:
+    - anatomy_or_common_word_with_nonclinical_sense
+    - substring_of_longer_nonentity_expression
+    - wrong_type
+    - incomplete_or_fused_boundary
+    - section_heading_without_specific_concept
+
+evaluation:
+  target_warning: H23_is_pseudo_target_and_absence_is_unlabeled
+  dev_records: reuse_H25_dev
+  test_records: reuse_H25_test
+  dev_gate_before_test:
+    - true_H23_addition_retention_at_least_0_80
+    - pseudo_addition_precision_improves_at_least_0_15_over_H26
+    - strict_F1_gain_over_H20_at_least_3_absolute_points
+  final_gate:
+    - same_three_conditions_hold_on_test
+    - no_type_loses_more_than_2_f1_points
+    - known_fused_boundary_hazards_are_all_dropped
+    - all_responses_complete_and_rebuild_deterministic
+
+failure_policy: >
+  Cancel test review if dev fails. Never tune prompts after dev decisions, never
+  manufacture labels from H23 absence, and do not create a ZIP unless all dev
+  and test gates pass.
