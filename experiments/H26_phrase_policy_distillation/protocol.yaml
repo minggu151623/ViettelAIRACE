@@ -1,0 +1,67 @@
+hypothesis: H26_train_only_phrase_policy_distillation
+status: preregistered
+created_at: "2026-08-02T21:00:00+07:00"
+question: >
+  Can exact high-purity phrase/type rules distilled only from H23 train records
+  recover held-out H23-like spans as an independent proposal source?
+
+frozen_inputs:
+  input_digest: 6fc2a65811ffd8f5012dc292895f4e62cfd658133ad484a66e921a8e3458888a
+  h23_digest: 6c1be08ea2cc6a61a96d04123761782b8a78cd23ece82bcc4f5a745b97f4169f
+  simulated_baseline: turn2/output_v6_expanded_pair
+  target_warning: H23_is_externally_useful_pseudo_target_not_organizer_gold
+
+record_split:
+  reuse: experiments/H25_pu_span_assertion/protocol.yaml#record_split
+  train_count: 70
+  dev_count: 15
+  test_count: 15
+
+lexicon_construction:
+  source: h23_entities_from_train_records_only
+  normalization: unicode_nfc_casefold_collapse_whitespace
+  required_type_purity: 1.0
+  minimum_characters: 3
+  minimum_train_record_support_grid: [2, 3, 4]
+  reject:
+    - newline_or_carriage_return
+    - no_alphabetic_character
+    - generic_section_heading
+    - phrase_with_more_than_12_tokens
+
+registered_matchers:
+  case_sensitive:
+    mode: exact_literal_with_alphanumeric_boundaries
+  case_insensitive:
+    mode: regex_ignorecase_with_alphanumeric_boundaries
+  occurrence_policy: emit_each_distinct_raw_occurrence
+  overlap_policy: >
+    Preserve H20, discard every phrase proposal overlapping it, then greedily
+    select longer phrases before shorter phrases with lexical tie breaking.
+  assertion_policy: existing_deterministic_infer_assertions
+
+selection:
+  dev_rule: >
+    Maximize strict span/type F1 among the six registered matcher/support
+    combinations. Ties choose higher record support, then case-sensitive.
+  test_access: once_after_selection
+
+metrics:
+  - lexicon_size_by_type
+  - heldout_phrase_coverage
+  - addition_precision_recall_f1
+  - strict_span_type_micro_f1_from_h20_to_h23
+  - per_type_strict_f1
+  - train_dev_test_duplicate_phrase_rate
+
+promotion_gate:
+  - dev_and_test_f1_gain_at_least_3_absolute_points
+  - dev_and_test_addition_precision_at_least_0_75
+  - no_entity_type_loses_more_than_2_f1_points
+  - at_least_20_true_additions_on_each_heldout_split
+  - deterministic_rebuild_and_all_tests_pass
+
+failure_policy: >
+  Reject phrase distillation if either held-out split fails. Do not add an LLM
+  verifier, create a ZIP, or inspect test errors until dev has selected the one
+  frozen configuration.
