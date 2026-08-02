@@ -1,0 +1,67 @@
+hypothesis: H51_h41_bounded_gate
+status: preregistered
+registered_at: "2026-08-03T05:28:00+07:00"
+question: >
+  Does the exact [-1, 1] passage-delta bound permit a useful finite-sample,
+  distribution-free H41 promotion gate?
+
+metric_bound_proof:
+  component_scores: "text, assertion, and candidate scores are each in [0, 1]"
+  final_score: "0.3*text + 0.3*assertion + 0.4*candidate is in [0, 1]"
+  challenger_minus_baseline_delta: "in [-1, 1]"
+  code_reference: airace/metrics.py
+
+candidate_bounds:
+  global_hoeffding:
+    lower: "mean - 2*sqrt(log(1/alpha)/(2*n))"
+    alpha: 0.025
+    assumptions: "independent passage deltas in [-1,1]; identical laws not required"
+  stratified_empirical_bernstein:
+    source: "Maurer and Pontil 2009, Theorem 4"
+    construction: >
+      Rescale each delta from [-1,1] to [0,1]. In each frozen stratum, subtract
+      sqrt(2*V_n*log(2/delta_h)/n_h) +
+      7*log(2/delta_h)/(3*(n_h-1)), with delta_h=alpha/3. Transform back and
+      combine stratum lower bounds using frozen passage-count weights.
+    assumptions: "independent iid deltas within each frozen stratum"
+
+bounded_stress_families:
+  - symmetric_uniform
+  - rademacher
+  - beta_right_skew
+  - beta_left_skew
+  - rare_two_point
+  construction: >
+    Every centered noise family is scaled to support inside [-0.5,0.5]. An
+    effect d is added as d times that family's theoretical standard deviation,
+    preserving final support inside [-1,1] for d up to 1.
+
+simulation:
+  passage_counts: [15, 30, 45, 60]
+  strata_proportions: [3, 5, 7]
+  standardized_effects: [0.0, 0.5, 0.75, 1.0]
+  replications: 10000
+  seed: 5101
+  no_bootstrap_or_post_selection: true
+
+registered_outputs:
+  - analytic_penalty_or_zero_variance_floor_by_passage_count
+  - type_i_and_power_by_method_family_and_passage_count
+  - worst_family_power_envelope
+  - deterministic_repeat_hash
+
+usefulness_gate:
+  - maximum_type_i_at_most_0_025_for_both_methods
+  - at_least_one_method_has_worst_family_power_at_least_0_50_at_d_0_75_for_n_15
+  - at_least_one_method_reaches_0_80_worst_family_power_at_d_0_5_by_n_60
+
+decision_rule: >
+  A method may replace H41 inference only if every Type-I and usefulness gate
+  passes. If validity passes but usefulness fails, close statistical repair at
+  n=15 and require more independent passages; do not install a vacuous bound.
+
+artifact_policy:
+  submission_zip: forbidden
+  annotation_queue_change: forbidden
+  label_prediction_or_evaluator_access: forbidden
+  deterministic_repeat_required: true
