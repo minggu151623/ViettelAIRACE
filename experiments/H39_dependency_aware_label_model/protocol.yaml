@@ -68,6 +68,30 @@ controls:
     Derived artifacts H37 and H38 cannot increase source support. Two Bami
     checkpoints cannot contribute more than one family vote to a control gate.
 
+synthetic_correlated_noise_benchmark:
+  task: binary_KEEP_DROP
+  examples: 20000
+  positive_prevalence: 0.35
+  seed: 3901
+  anchored_controls: 500_stratified
+  source_noise:
+    bami_family_shared_flip_probability: 0.42
+    bami_v15_independent_flip_probability: 0.02
+    bami_v3_independent_flip_probability: 0.02
+    vietmed_independent_accuracy: 0.82
+    qwen_guarded_independent_accuracy: 0.76
+    h34_oof_independent_accuracy: 0.70
+  metric: positive_class_F1
+  baseline: unweighted_five_source_majority
+
+leave_one_family_out_definition: >
+  On the real frozen candidate universe, remove one source family, fit the label
+  model on the remaining families using training record folds, and predict the
+  held-out family's observed non-abstain vote. Compare binary vote log-loss with
+  unweighted majority among the same remaining families. Evaluate each entity
+  type having at least 20 held-out non-abstain observations; this is a source-
+  prediction stability test, not organizer-ground-truth accuracy.
+
 gates_before_artifact:
   - frozen_hashes_match
   - synthetic_correlated_noise_F1_exceeds_majority_by_at_least_0.05
