@@ -1,0 +1,35 @@
+experiment: H24_type_specialist_sparse_dense_fusion
+status: preregistered_before_fused_metric_computation
+registered_at: "2026-08-02T09:31:00+07:00"
+fallback_artifact: turn2/output_v8_candidate_semantic.zip
+evidence: >
+  Frozen per-type results show that Qwen3 supplies cross-lingual diagnosis
+  recall while character TF-IDF remains superior for drug strings. The fusion
+  is a fixed router with no fitted weight, score threshold or test-selected
+  parameter.
+inputs:
+  lexical_report: experiments/H24_ontology_graph_classifier/lexical_baseline.json
+  qwen_report: experiments/H24_ontology_graph_classifier/qwen_multilingual/report.json
+  dataset: experiments/H24_ontology_graph_classifier/link_dataset.json
+  dataset_sha256: c78f3c57afe038a0f9ff06e20b39475e2ad5e83d67fb2c6e46c161e0489b9aaf
+router:
+  CHẨN_ĐOÁN: qwen3_embedding_0.6b_multilingual_dense
+  THUỐC: char_wb_tfidf
+  score_fusion: none
+  learned_parameters: 0
+  top_k: [1, 5, 10]
+evaluation:
+  folds: [train, dev, test]
+  report_by: [fold, entity_type]
+  test_policy: compute_once_after_protocol_commit
+  tie_policy: preserve_source_ranking_exactly
+promotion_gate:
+  dev_and_test_recall_at_1_over_lexical_absolute: 0.05
+  dev_and_test_recall_at_5_over_lexical_absolute: 0.08
+  no_entity_type_regresses_vs_its_selected_source: true
+  leaderboard_is_not_used_for_selection: true
+failure_policy:
+  - Preserve H23 when the fixed router fails either dev or test gate.
+  - Do not tune a sparse/dense interpolation weight on the 36-row dev fold.
+  - Graph and reranker experiments must compare against this router if it passes.
+  - Retrieval metrics alone cannot authorize a challenger ZIP.
