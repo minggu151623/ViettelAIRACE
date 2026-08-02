@@ -924,3 +924,20 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The next mechanistic test will preserve the pretrained embedding geometry,
   replace seen concept titles with train-only clinical mention prototypes and,
   only after a positive result, mine hard negatives across the full ontology.
+
+## 2026-08-02 — H24 clinical prototypes are complementary but insufficient
+
+- The preregistered zero-parameter ablation built 287 concept prototypes only
+  from train-fold Vietnamese mention embeddings; no dev/test mention entered a
+  prototype and no projection was fitted.
+- Train R@1/R@5/R@10 rose to 58.69/69.01/72.07%, while dev reached only
+  2.78/2.78/2.78% and test 5.36/8.93/8.93%.
+- Relative to unadapted dense retrieval, test R@1 was unchanged and test R@5
+  improved by 3.57 points, but dev R@1 regressed by 2.78 points. The frozen
+  promotion gate failed.
+- Prototype and lexical top-10 hits are complementary on one dev and three
+  test queries, mostly diagnoses, but sparse lexical retrieval remains much
+  stronger overall (dev/test R@1 11.11/10.71%).
+- This isolates the encoder mismatch: the next baseline is a dedicated
+  multilingual retrieval encoder, not another Bami projection. No ZIP or
+  competition submission was created.

@@ -179,3 +179,16 @@ fallback; no ZIP or competition submission was created. There are now 75
 passing tests. The next experiment must preserve pretrained geometry, create
 clinical mention prototypes, and mine false candidates over the complete
 ontology instead of relying only on in-batch negatives.
+
+## Stage-4 train-only clinical prototypes
+
+Replacing 287 seen ontology title embeddings with normalized means of their
+train-only Vietnamese mentions required no fitted parameters. It lifted train
+R@1 to 58.69%, but dev/test reached only 2.78/5.36%. Test R@5 improved from
+the unadapted dense baseline's 5.36% to 8.93%, including three prototype-only
+hits, but dev regressed from 5.56% R@1 and the overall test R@1 was unchanged.
+
+The prototype gate therefore fails. It shows limited complementary diagnosis
+signal but not a general retriever. The next retrieval baseline replaces the
+NER encoder with a dedicated multilingual embedding model; sparse lexical
+retrieval remains the fallback and graph reranking remains conditional.

@@ -580,6 +580,16 @@ The strongest verified direction is conservative structural cleanup:
   train-only mean embedding per linked concept can test whether Vietnamese
   paraphrases cluster without fitting random heads. BioSyn-style full-ontology
   mining and lexical fusion are conditional follow-ups, not bundled changes.
+- **Bami clinical prototypes add a few diagnosis hits but do not generalize.**
+  They leave test R@1 at 5.36% and raise test R@5 to 8.93%, while dev R@1
+  regresses to 2.78%. The few complementary hits justify later fusion, but the
+  dominant bottleneck is now clearly a missing Vietnamese-English retrieval
+  encoder rather than a missing graph layer.
+- **A dedicated multilingual embedder must precede graph learning.** Graph
+  propagation cannot repair query/concept vectors that fail to meet. Qwen3
+  Embedding is registered next because it is retrieval-specific,
+  instruction-aware and multilingual; it will be tested unchanged before any
+  graph or classifier contribution is claimed.
 - **H24 evaluation remains weak-label evaluation.** The 518 link rows are
   derived from H23 and are not organizer truth. Alias-group splitting prevents
   surface leakage, but a gain only proves the new model can learn the frozen

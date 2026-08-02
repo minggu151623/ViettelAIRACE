@@ -131,7 +131,7 @@ hypotheses:
       candidates will hedge organizer ontology differences and improve
       candidate Jaccard without changing text or assertion metrics.
   H24_ontology_graph_classifier:
-    status: alignment_only_refuted_overfit_pivot_to_clinical_prototypes
+    status: clinical_prototypes_partial_negative_multilingual_retriever_next
     prediction: >
       A customized sparse+dense concept retriever with ontology-graph losses,
       graph-mined hard negatives and a contextual classifier/reranker will
@@ -246,11 +246,12 @@ experiments:
     - "H24 alignment protocol frozen: exact data/model hashes, two registered variants, dev-only selection and one-shot test"
     - "H24 alignment-only negative: train R@1 30.28% but dev 2.78% and test 0%; random projection memorizes weak links"
     - "H24 graph variant canceled under preregistered failure policy because alignment-only does not beat lexical retrieval"
+    - "H24 train-only prototypes: no fitted parameters; dev/test R@1 2.78/5.36%, test R@5 8.93%; partial complement but gate failed"
   next: >
-    Preregister and evaluate a KRISSBERT-style clinical mention prototype
-    retriever that preserves the frozen backbone geometry. If it generalizes,
-    add BioSyn-style hard negatives mined from the complete ontology through a
-    zero-initialized residual adapter; do not reuse the failed random heads.
+    Pin and preregister Qwen3-Embedding-0.6B as a dedicated multilingual
+    Vietnamese-to-English ontology retriever. Evaluate it without fitting,
+    retain lexical retrieval as an independent baseline, and add graph or
+    mined-negative reranking only if cross-lingual retrieval generalizes.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
