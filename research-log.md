@@ -1466,3 +1466,21 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   Repeat reports are byte-identical at SHA-256
   `a635b2e992898177daa8603e8bbefb0200c8eac3ba6c39745c06626bb12287c0`;
   the H44 ZIP is unchanged and no second artifact was created.
+
+## 2026-08-03 — H53 separates H44 family breadth from lexical breadth
+
+- Preregistered concentration gates before any external H44 result, using
+  inverse-Simpson effective counts and top-k row shares rather than treating
+  611 repeated changes as independent trials.
+- H44 spans 148 parent families; effective family count is 47.4782, top-one
+  share 6.71%, and top-five share 24.71%. The family-breadth gate passes.
+- H44 spans 286 NFKC/casefold/whitespace-normalized mention-specific units;
+  effective lexical count is 89.7622 and misses the locked threshold of 100,
+  although top-ten share is only 24.06%. The lexical-breadth gate fails.
+- Reconciled the older 288 census: casefold-only reproduces 288, while strict
+  normalization merges a canonically equivalent Unicode spelling and an
+  embedded-newline variant. This is not a row-count discrepancy.
+- Corrected the pre-result decision-tree semantics to “family-only breadth.”
+  H44's ZIP, numerical gates and submission priority remain unchanged; no
+  second artifact was created. Repeat reports are byte-identical at SHA-256
+  `c633a4aee6956e03688b555b9a59de3d99bd42b098807902ff602129f2d17bc1`.

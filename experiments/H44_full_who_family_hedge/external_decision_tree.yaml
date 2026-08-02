@@ -39,6 +39,22 @@ pre_result_exposure_calibration:
     These are exposure-normalized arithmetic ratios, not estimates of hidden
     gold prevalence or guaranteed score effects; unknown row weights differ.
 
+pre_result_concentration_calibration:
+  audit: H53_h44_exposure_concentration
+  unique_parent_families: 148
+  effective_parent_families_inverse_simpson: 47.478189
+  top_5_parent_row_share: 0.247136
+  unique_normalized_mention_specific_pairs: 286
+  effective_normalized_mention_specific_pairs_inverse_simpson: 89.762202
+  top_10_normalized_mention_specific_row_share: 0.240589
+  interpretation: family_only
+  limitation: >
+    H44 passes the preregistered family-breadth gate but not the lexical-
+    breadth gate. An external result can therefore support transfer across
+    many WHO families, but not broad surface-form generalization. The older
+    288-pair census used casefold only; NFKC plus whitespace collapse merges
+    one canonically equivalent spelling pair and one embedded-newline pair.
+
 branch_order:
   - id: validation_anomaly
     when: >
@@ -57,7 +73,8 @@ branch_order:
     interpretation: >
       The hierarchy mechanism generalizes materially beyond CM-exclusive rows,
       retaining at least 34.25% of H23's exposure-normalized per-row yield.
-      This supports broad transfer but does not prove universal row prevalence.
+      This supports transfer across broad WHO-family exposure, but does not
+      prove broad lexical transfer or universal row prevalence.
     action: >
       Promote H44 to best baseline. Do not sweep thresholds; use the remaining
       slots only for a distinct, preregistered mechanism or the H41 blind-label
@@ -69,7 +86,8 @@ branch_order:
     interpretation: >
       The hierarchy hedge transfers weakly across the 611 H44 rows, retaining
       roughly 1.37% to 34.25% of H23's exposure-normalized per-row yield. The
-      effect is too diluted for another indiscriminate expansion.
+      effect is too diluted for another indiscriminate expansion, and H53's
+      lexical-breadth failure forbids claiming broad surface-form transfer.
     action: >
       Keep H44 only if its total score is higher than H38. Freeze broad family
       expansion and require an independently motivated subgroup ablation before

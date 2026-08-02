@@ -15,3 +15,16 @@ This is a deliberately high-upside hierarchy-policy test. H23 established the
 direction externally, but H44 tests whether it generalizes beyond ontology-
 exclusive rows. WER and assertion Jaccard should remain invariant; leaderboard
 movement should be candidate-derived.
+
+H53 audits the intervention distribution before the score is revealed. The
+611 rows cover 148 parent families, with an inverse-Simpson effective count of
+47.48 and only 24.71% of rows in the top five families, so the registered
+family-breadth gate passes. They cover 286 NFKC/casefold/whitespace-normalized
+mention-specific pairs, but the inverse-Simpson effective count is 89.76,
+below the registered lexical-breadth threshold of 100; the lexical gate fails.
+The old census of 288 used casefold only, while the stricter normalization
+merges one canonically equivalent Unicode pair and one embedded-newline pair.
+
+Accordingly, a positive external H44 result can establish broad WHO-family
+transfer but not broad surface-form transfer. This semantic correction leaves
+the artifact, submission priority and numerical decision gates unchanged.

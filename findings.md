@@ -829,6 +829,16 @@ The strongest verified direction is conservative structural cleanup:
   yield. These are not hidden-gold prevalence estimates because row weights are
   unknown. The gates stay fixed, but strong positive now means material broad
   transfer rather than a universal corpus policy.
+- **H44 is family-broad but not lexically broad under a preregistered
+  concentration audit.** H53 finds 148 WHO parent families across the 611
+  changes, with inverse-Simpson effective count 47.48 and top-five row share
+  24.71%; all family-breadth gates pass. The same rows contain 286 strictly
+  normalized mention-specific units, but their effective count is 89.76,
+  below the locked threshold of 100, despite a 24.06% top-ten share. Thus a
+  positive H44 result may support transfer across many WHO families, but not
+  broad surface-form generalization. The prior 288-unit census used casefold
+  only; NFKC plus whitespace collapse merges one Unicode-equivalent spelling
+  pair and one newline variant. The ZIP and numerical gates remain unchanged.
 - **H45 closes generic ranked-prefix expansion under the metric that matters.**
   Jaccard-aware dev selection chooses `k=1` globally and for both entity types
   on H24's frozen weak-link split. One-shot test Jaccard is 0.17857 at `k=1`,

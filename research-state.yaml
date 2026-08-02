@@ -365,6 +365,19 @@ hypotheses:
       Full H23 per-row yield implies +1.4600 candidate Jaccard. The existing
       +0.02/+0.50 gates equal 1.37%/34.25% yield. Counts and interpretation were
       corrected before score reveal; numerical gates and H44 ZIP stayed fixed.
+  H53_h44_exposure_concentration:
+    status: supported_family_only_breadth_correction
+    prediction: >
+      Row-count calibration may overstate H44's diversity if repeated mentions
+      concentrate the 611 changes in a small set of WHO families or lexical
+      units; preregistered concentration metrics can bound the interpretation
+      before the external score is revealed.
+    result: >
+      Family breadth passes: 148 unique families, effective count 47.4782 and
+      top-five share 0.2471. Lexical breadth fails: 286 strictly normalized
+      mention-specific units have effective count 89.7622 below the gate of
+      100, despite top-ten share 0.2406. H44 can support broad family transfer,
+      not broad lexical transfer; artifact and numerical gates stayed fixed.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -514,9 +527,12 @@ experiments:
     - "H50 inference repair rejected: percentile max Type-I 0.1132; Welch-t worst d=0.5 power 0.3448; bootstrap-t power 0.2880 with 4.62% nonfinite; 148 tests, evaluator unchanged"
     - "H51 bounded gates rejected as vacuous: Hoeffding penalty 0.7013 at n=15; empirical Bernstein zero-variance penalty 6.6783; zero worst-family power through d=1 and n=60; 151 tests"
     - "H52 H44 transfer calibration: H23/H44 overlap 0, H44 adds 611 rows, union 755; full H23-equivalent yield +1.4600 candidate; practical/strong gates equal 1.37%/34.25% yield"
+    - "H53 H44 concentration: 148 families/effective 47.48 passes family breadth; 286 lexical units/effective 89.76 fails lexical breadth; decision semantics corrected, ZIP unchanged"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
-    candidate Jaccard before constructing another artifact. In parallel,
+    candidate Jaccard before constructing another artifact. Interpret a
+    positive result as broad WHO-family transfer, not broad lexical transfer,
+    per H53's frozen concentration audit. In parallel,
     complete H41 reviewer_1 labels for all 60 passages and independent
     reviewer_2 labels for the frozen 15-passage double-annotation queue. Lock
     both checksums, require span/type F1 >= 0.85 and assertion Jaccard >= 0.80,
