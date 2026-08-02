@@ -971,3 +971,17 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The router is promoted only as the internal H24 retrieval baseline. Weak H23
   links are not organizer truth, span/type is unchanged and no ZIP or
   competition submission was created.
+
+## 2026-08-02 — H24 off-the-shelf context/graph reranker rejected
+
+- Pinned official `Qwen/Qwen3-Reranker-0.6B` revision
+  `e61197ed45024b0ed8a2d74b80b4d909f1255473` and implemented the exact yes/no
+  relevance probability with a memory-safe final-token logits path.
+- Text-only dev R@1/R@5 was 5.56/22.22%. Exact WHO/RxNorm direct relations
+  left R@1 at 5.56% and raised R@5 to 27.78%, so dev selected graph.
+- The selected graph variant scored test R@1/R@5/R@10
+  17.86/30.36/39.29%, exactly the fixed router's aggregate result. Diagnosis
+  gained one R@1 hit while drug lost one; no net improvement occurred.
+- The generic reranker gate failed. Graph evidence is not claimed effective
+  because it did not improve the promoted baseline. A train-only project
+  classifier over mined sparse+dense negatives is the next mechanism.

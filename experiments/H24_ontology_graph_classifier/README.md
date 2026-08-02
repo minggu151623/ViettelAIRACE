@@ -220,3 +220,17 @@ This is now the H24 retrieval baseline. It still cannot authorize a ZIP:
 retrieval labels are weak H23 mappings and span/type performance is untouched.
 The next registered component must rerank only this top-k pool with context
 and ontology evidence, and must beat the fixed router without per-test tuning.
+
+## Stage-7 off-the-shelf context/graph reranker rejected
+
+The official Qwen3 Reranker was evaluated with last-token yes/no logits. On
+dev, text-only R@1/R@5 is 5.56/22.22%; adding exact direct graph relations
+keeps R@1 at 5.56% and raises R@5 to 27.78%. Dev therefore selects graph, but
+the selected test result is 17.86/30.36/39.29%—identical to the router at all
+aggregate depths.
+
+Graph relations help ordering inside the generic reranker on dev, but neither
+variant beats the fixed router and the promotion gate fails. The result
+supports a project-trained classifier over mined sparse+dense negatives rather
+than another unchanged relevance model. The router remains the H24 baseline;
+no ZIP was created.

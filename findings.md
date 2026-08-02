@@ -606,6 +606,15 @@ The strongest verified direction is conservative structural cleanup:
   Test R@10 is 39.29% while R@1 is 17.86%; a contextual classifier/reranker can
   in principle recover another 21.43 points without widening proposals. This
   is now a better target for graph and hard-negative methods than raw recall.
+- **An unchanged multilingual reranker does not solve ontology ranking.** The
+  graph-enriched variant raises dev R@5 within the reranker but leaves selected
+  test R@1/R@5/R@10 exactly equal to the fixed router. Generic relevance
+  judgments are not calibrated to BTC concept specificity or RxNorm policy.
+- **The next classifier must learn from the project's own mined mistakes.** A
+  bounded pair model can use dense similarity, sparse rank, exact match,
+  context similarity, code depth and graph-family features on train-only hard
+  candidates. This changes the source core in the way the peer report implied,
+  while retaining a measurable router fallback.
 - **H24 evaluation remains weak-label evaluation.** The 518 link rows are
   derived from H23 and are not organizer truth. Alias-group splitting prevents
   surface leakage, but a gain only proves the new model can learn the frozen
