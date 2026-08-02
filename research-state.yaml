@@ -39,9 +39,11 @@ current_direction: >
   This validates consensus directionally but closes same-family expansion as a
   breakthrough path. H39 then passes its correlated-noise simulation but fails
   15/19 real leave-one-family-out cells, proving the sources encode incompatible
-  policies rather than one recoverable latent vote. Turn 2 instead exposes 271
-  exact repeated-line groups covering 43.07% of characters; the next outer loop
-  will exploit cross-occurrence consistency rather than reweight model votes.
+  policies rather than one recoverable latent vote. Turn 2 exposes 271 repeated-
+  line groups covering 43.07% of characters, but H40 canonical stability is only
+  88.37% and its 551 changes exceed the registered ceiling. Repetition cannot
+  invent the missing policy; it will now be used only to multiply independent,
+  prediction-blind passage annotations across exact occurrences.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -229,11 +231,15 @@ hypotheses:
       source/type cells improved log-loss. Sources encode incompatible policies;
       stacker and artifact generation were canceled.
   H40_repeated_passage_consistency:
-    status: preregistered_not_run
+    status: rejected_stability_and_change_window_failed
     prediction: >
       Aggregating independent family evidence across literally identical Turn-2
       passage occurrences will recover a stable canonical local annotation
       policy without treating correlated checkpoints as independent labels.
+    result: >
+      Retained 47/48 controls, but leave-one-occurrence-out stability reached
+      only 88.37% and 551 proposed row changes exceeded the 400-row ceiling.
+      Integration and ZIP generation were canceled.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -367,10 +373,12 @@ experiments:
     - "H39 dependency-aware joint label-model protocol locked; implementation not yet run"
     - "H39 rejected before stacker: synthetic F1 +0.11667, but only 4/19 real leave-one-family-out cells improve; no ZIP"
     - "H40 exact repeated-passage consistency protocol locked; implementation not yet run"
+    - "H40 rejected before integration: 88.37% stability and 551 changes; controls 47/48; no ZIP"
   next: >
-    Implement H40's exact passage graph, canonical selector and leave-one-
-    occurrence-out gate. Continue to integration only if stability, controls,
-    hazards and the registered 100-to-400 change window all pass.
+    Build a prediction-blind annotation queue over unique repeated passages,
+    ranked only by multiplicity and length. Project each reviewed local label to
+    every exact occurrence, then use record-disjoint calibration to train the
+    span/type/assertion stacker. Do not expose H38/model predictions to reviewers.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

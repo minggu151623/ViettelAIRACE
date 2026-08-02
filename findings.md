@@ -771,6 +771,12 @@ The strongest verified direction is conservative structural cleanup:
   characters. H38 is inconsistent on 104 groups. Unlike model agreement, exact
   repeated text is corpus-internal evidence that can support occurrence-level
   transfer, provided assertions remain context-specific.
+- **Repetition multiplies labels but does not create them.** H40 retains 97.92%
+  of controls, yet canonical stability is only 88.37% and the automatic rewrite
+  would touch 551 rows. Exact copies reveal which annotations should be
+  consistent, but two-occurrence groups cannot adjudicate conflicting model
+  policies. The correct use is prediction-blind annotation of unique passages,
+  followed by exact projection—not another automatic modal threshold.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

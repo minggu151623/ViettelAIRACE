@@ -1,0 +1,39 @@
+{
+  "status": "failed_before_integration",
+  "frozen_hashes": {
+    "bami_v15": "2dd6b6e6804e80afb3419f32c705851b4ae8055e4aa866492644c444958091cd",
+    "bami_v3": "71d6a38f7f55aad80857e456172e9c00175d6c47cf9f9cf4cf8498fbd116a75e",
+    "vietmed": "5bc85a01d47119d29696865d3be0feb51d905c3eecd1780f9d4802bb86c3b69b",
+    "qwen_guarded": "0f5a53fdd46a82dc2556ae11f3b53615a5ed6448cc156100801aac2c8bc979c4",
+    "h34_oof": "21823c984a992ce29ac6dc84e529e3056ec4192db0b23137d2bdcc82cce811a4",
+    "input_tree": "d68702073a5e478df60ab389b71587813ffac08475902f043446346ef0f15bcf",
+    "baseline_zip": "a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b"
+  },
+  "census": {
+    "duplicate_groups": 271,
+    "occurrences": 610,
+    "records_covered": 83,
+    "affected_groups": 122,
+    "canonical_entities": 346,
+    "excluded_cross_type_ties": 2,
+    "proposed_changed_rows": 551
+  },
+  "leave_one_occurrence_out": {
+    "equal": 152,
+    "total": 172,
+    "stability": 0.8837209302325582
+  },
+  "positive_controls": {
+    "retained": 47,
+    "total": 48,
+    "rate": 0.9791666666666666
+  },
+  "gates": {
+    "frozen_hashes_match": true,
+    "leave_one_occurrence_out_stability_at_least_0_95": false,
+    "positive_control_retention_at_least_0_95": true,
+    "registered_and_numeric_hazards_excluded": true,
+    "no_cross_type_tie_integrated": true,
+    "changed_rows_between_100_and_400": false
+  }
+}

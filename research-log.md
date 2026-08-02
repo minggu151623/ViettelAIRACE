@@ -1249,3 +1249,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   repeated exact alias/tuple or a unanimous overlapping tuple.
 - Locked leave-one-occurrence-out stability, controls, hazards, change-count,
   exact consistency, isolation, validation and determinism gates before code.
+
+## 2026-08-03 — H40 fails before integration
+
+- Reproduced 271 exact line groups and built 346 candidate canonical entities
+  across 122 affected groups.
+- Positive controls passed at 47/48 and hazards/cross-type ties were excluded.
+- Leave-one-occurrence-out stability was only 152/172 = 88.37%, below 95%; the
+  proposed 551 row changes also exceeded the frozen 400-row ceiling.
+- Stopped before modifying H38 or creating a ZIP. All 119 tests pass; repeated
+  early-gate JSON is byte-identical.
+- Pivot: use repeated passages as a multiplier for prediction-blind human labels
+  rather than claiming repetition itself identifies the correct annotation.
