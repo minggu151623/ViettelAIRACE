@@ -1,0 +1,77 @@
+hypothesis: H42_h41_cluster_gate
+status: preregistered
+created_at: "2026-08-03T10:25:00+07:00"
+question: >
+  Does the frozen H41 promotion gate need passage-clustered inference to avoid
+  treating exact repeated occurrences as independent evidence?
+
+motivation:
+  h41_holdout_unique_passages: 15
+  h41_holdout_occurrences: 41
+  h41_holdout_strata:
+    high: {passages: 3, occurrences_per_passage: 4}
+    middle: {passages: 5, occurrences_per_passage: 3}
+    low: {passages: 7, occurrences_per_passage: 2}
+  implementation_gap: >
+    airace.blind_eval evaluates complete record annotations and bootstraps
+    records. H41 supplies passage-local entities plus occurrence-local
+    assertions, so the old evaluator cannot be reused as its promotion gate.
+
+prediction: >
+  Under a zero-mean correlated-noise simulation matching the frozen H41
+  holdout cluster sizes, bootstrapping 41 occurrences independently will be
+  anti-conservative when within-passage correlation is high, while resampling
+  the 15 unique passages within frozen strata will materially reduce false
+  promotions. H41 must therefore use passage clusters as the primary inference
+  unit and treat occurrence-level estimates as descriptive only.
+
+frozen_simulation:
+  seed: 424241
+  replications: 10000
+  bootstrap_iterations_per_replication: 1000
+  cluster_sizes: [4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2]
+  stratum_ids: [high, high, high, middle, middle, middle, middle, middle,
+                low, low, low, low, low, low, low]
+  intraclass_correlations: [0.0, 0.3, 0.6, 0.9]
+  null_data_generation: >
+    For passage i and occurrence j, delta_ij = sqrt(rho)*u_i +
+    sqrt(1-rho)*epsilon_ij, where all u and epsilon are independent standard
+    normal draws. No clipping or post-selection is allowed.
+  naive_method: >
+    Flatten all occurrences, resample 41 values with replacement, and promote
+    when the percentile-bootstrap 95% lower bound of the mean is above zero.
+  cluster_method: >
+    Average occurrences within each passage, resample passages with replacement
+    separately inside high/middle/low strata at their frozen 3/5/7 counts,
+    combine strata using frozen holdout weights 3/15, 5/15 and 7/15, and
+    promote when the percentile-bootstrap 95% lower bound is above zero.
+
+registered_gates:
+  - simulation_is_byte_deterministic_for_the_frozen_seed
+  - at_rho_0_6_naive_false_promotion_rate_exceeds_cluster_rate_by_at_least_0_03
+  - at_rho_0_9_naive_false_promotion_rate_exceeds_cluster_rate_by_at_least_0_08
+  - h41_primary_bootstrap_resamples_unique_passages_within_strata
+  - h41_never_scores_unannotated_record_regions_as_gold_negatives
+  - occurrence_level_scores_are_labeled_descriptive_not_independent
+
+implementation_after_simulation:
+  primary_estimand: unweighted_mean_over_unique_holdout_passages
+  resampling_unit: unique_passage_id
+  stratification: frozen_h41_high_middle_low
+  local_scoring: >
+    Score only the exact passage interval. Stage-A span/type/candidate labels
+    are shared by exact occurrences; stage-B assertions are scored separately
+    per occurrence and aggregated inside their passage cluster.
+  boundary_crossing_policy: >
+    A prediction overlapping a selected passage but extending beyond its
+    frozen boundaries is a local false positive and may not be silently clipped.
+  reporting:
+    - passage_cluster_primary_interval
+    - per_stratum_effects
+    - descriptive_occurrence_weighted_effect
+    - effective_independent_units
+
+failure_policy: >
+  If the registered simulation gates fail, do not retrofit the method after
+  seeing H41 labels. Record the failure and keep H41 blocked. No model output,
+  human annotation, leaderboard artifact, or submission ZIP is used by H42.
