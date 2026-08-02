@@ -732,3 +732,21 @@ tree:
         evidence: [C40,
           "experiments/H44_full_who_family_hedge/results/build_report.json",
           "ara/evidence/tables/h43_h44_reset_slot.md"]
+        children:
+          - id: N56
+            type: decision
+            title: "Lock H44 interpretation before external score reveal"
+            provenance: ai-suggested
+            timestamp: "2026-08-03T03:05+07:00"
+            choice: >
+              Keep H44 as the sole pending leaderboard experiment and map its
+              four metrics through frozen anomaly, strong-positive,
+              small-positive, practical-null and negative branches.
+            alternatives:
+              - "Construct another reset-slot artifact before H44 attribution"
+              - "Interpret any positive displayed movement as success"
+            evidence: >
+              H44 is candidate-only, so WER and assertion must remain fixed and
+              total-score movement must reconcile with 0.4 times candidate
+              Jaccard movement. The null band and strong gate were registered
+              before the leaderboard values were known.

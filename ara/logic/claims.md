@@ -536,6 +536,7 @@
   H38 while WER/assertions remain invariant.
 - **Proof**: [`experiments/H44_full_who_family_hedge/protocol.yaml`,
   `experiments/H44_full_who_family_hedge/results/build_report.json`,
+  `experiments/H44_full_who_family_hedge/external_decision_tree.yaml`,
   `turn2/output_v12_full_who_family_hedge.zip`]
 - **Dependencies**: [C24, C25, C39]
 - **Tags**: WHO-ICD, hierarchy, parent-specific, submission-candidate

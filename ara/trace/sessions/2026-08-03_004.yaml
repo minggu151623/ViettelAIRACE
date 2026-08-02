@@ -1,0 +1,35 @@
+session:
+  id: "2026-08-03_004"
+  timestamp: "2026-08-03T03:05+07:00"
+  summary: "Locked H44's external decision tree and produced an auditable reset-slot report before score reveal."
+
+events_logged:
+  - type: decision
+    id: N56
+    provenance: ai-suggested
+    summary: "Keep H44 as the only pending artifact and apply frozen metric branches before any follow-up build."
+
+ai_actions:
+  - action: "Reverified the H44 submission SHA-256 and encoded candidate-only attribution checks plus outcome thresholds."
+    provenance: ai-executed
+    files_changed:
+      - "experiments/H44_full_who_family_hedge/external_decision_tree.yaml"
+      - "research-state.yaml"
+      - "research-log.md"
+  - action: "Created and opened an HTML report containing the score trajectory, H44 isolation audit and locked next actions."
+    provenance: ai-executed
+    files_changed:
+      - "to_human/h44_reset_slot_report.html"
+
+claims_touched:
+  - id: C40
+    action: advanced
+    provenance: ai-suggested
+
+open_threads:
+  - "Submit H44 once and record score, WER, assertion Jaccard and candidate Jaccard."
+  - "Apply external_decision_tree.yaml before creating any second reset-slot artifact."
+  - "H41 reviewer-1 and independent reviewer-2 labels remain pending."
+
+ai_suggestions_pending:
+  - "Treat a candidate-Jaccard delta within ±0.02 as practically null and +0.50 as strong generalization."
