@@ -1,4 +1,7 @@
 sessions:
+  - id: "2026-08-02_003"
+    file: "2026-08-02_003.yaml"
+    summary: "Recorded H22's external jump to 38.7976 and promoted it to the frozen baseline."
   - id: "2026-08-02_002"
     file: "2026-08-02_002.yaml"
     summary: "Audited the collaborator proxy, preregistered H22, and built a deterministic 3,168-entity confirmatory artifact."

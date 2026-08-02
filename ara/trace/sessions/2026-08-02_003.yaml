@@ -1,0 +1,41 @@
+session:
+  id: "2026-08-02_003"
+  timestamp: "2026-08-02T07:00+07:00"
+  summary: "Recorded H22's external jump to 38.7976 and promoted it to the frozen baseline."
+
+events_logged:
+  - type: experiment
+    id: N29
+    provenance: user
+    summary: "H22 improved all three leaderboard components and scored 38.7976."
+  - type: claim
+    id: C22
+    provenance: ai-suggested
+    summary: "H22 transfer is now externally supported."
+  - type: claim
+    id: C23
+    provenance: ai-suggested
+    summary: "The proxy is directional but not calibrated for absolute scores."
+
+ai_actions:
+  - action: "Verified the displayed formula and decomposed the 8.9567 gain."
+    provenance: ai-executed
+    files_changed: ["experiments/H22_calibrated_pseudo_reconstruction/external_result.json"]
+  - action: "Promoted H22 to baseline and created the baseline-38.7976 Git tag."
+    provenance: ai-executed
+    files_changed: ["research-state.yaml", "findings.md", "research-log.md"]
+
+claims_touched:
+  - id: C22
+    action: confirmed
+    provenance: ai-suggested
+  - id: C23
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Preregister H23 as a candidate-only ablation on frozen H22 spans and assertions."
+  - "Do not use the 87.0650 proxy score as a leaderboard forecast."
+
+ai_suggestions_pending:
+  - "Spend the next slot only after a bounded semantic candidate audit clears a frozen gate."

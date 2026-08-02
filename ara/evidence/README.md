@@ -13,3 +13,5 @@
   `experiments/H22_calibrated_pseudo_reconstruction/proxy_comparison.json`.
 - Deterministic H22 SHA-256:
   `03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade`.
+- External H22 result: `experiments/H22_calibrated_pseudo_reconstruction/external_result.json`
+  — score 38.7976, WER 57.2161, assertion 47.5455, candidates 29.2469.

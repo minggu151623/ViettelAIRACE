@@ -273,7 +273,7 @@
   pseudo-labels and 940 synthetic out-of-range rows; removing every synthetic
   row yields a valid independent challenger whose transfer to organizer policy
   requires external confirmation.
-- **Status**: supported internally; external effect untested
+- **Status**: supported externally as a transfer intervention
 - **Provenance**: ai-suggested
 - **Falsification criteria**: Any retained H22 row fails raw-offset validation,
   a calibration dummy survives packaging, identical builds differ, or the
@@ -283,3 +283,17 @@
   `turn2/output_v7_pseudo_reconstruction.zip`]
 - **Dependencies**: [C20, C21]
 - **Tags**: pseudo-labels, calibration, reconstruction, external-pending
+
+## C23: The H22 proxy is directionally useful but not score-calibrated
+- **Statement**: The pseudo-label proxy can identify a productive
+  architecture-scale replacement, but its in-sample score cannot forecast the
+  organizer score or safely tune small variants.
+- **Status**: supported externally
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Multiple preregistered challengers show that
+  proxy score differences accurately predict both leaderboard ranking and
+  absolute score within a small error bound.
+- **Proof**: [`experiments/H22_calibrated_pseudo_reconstruction/proxy_comparison.json`,
+  `experiments/H22_calibrated_pseudo_reconstruction/external_result.json`]
+- **Dependencies**: [C22]
+- **Tags**: proxy, calibration, leaderboard, scope

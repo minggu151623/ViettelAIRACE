@@ -30,6 +30,20 @@ tree:
           no organizer submission was performed by the AI.
         evidence: [C22, "experiments/H22_calibrated_pseudo_reconstruction/proxy_comparison.json",
           "turn2/output_v7_pseudo_reconstruction.zip"]
+        children:
+          - id: N29
+            type: experiment
+            title: "H22 external leaderboard confirmation"
+            provenance: user
+            timestamp: "2026-08-02T06:59+07:00"
+            result: >
+              The user submitted the matching 03651cfea61d... archive and
+              reported 38.7976, up 8.9567 from H20. WER improved to 57.2161,
+              assertion Jaccard to 47.5455, and candidate Jaccard to 29.2469.
+              All three components improved. The proxy selected the correct
+              direction but overestimated the absolute result by 48.2674.
+            evidence: [C22, C23,
+              "experiments/H22_calibrated_pseudo_reconstruction/external_result.json"]
   - id: N25
     type: decision
     title: "Adopt an isolated blind-evaluation track"
