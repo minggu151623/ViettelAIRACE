@@ -1,0 +1,71 @@
+hypothesis: H44_full_who_family_hedge
+status: preregistered
+created_at: "2026-08-03T12:20:00+07:00"
+question: >
+  Does extending the externally positive H23 parent/specific hedge from only
+  ICD-10-CM-exclusive codes to every singleton diagnosis-specific code recover
+  the organizer's mixed WHO-family candidate policy at architecture scale?
+
+motivation:
+  baseline:
+    artifact: turn2/output_v10_multiview_consensus.zip
+    sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+    external_score: 39.2813
+    candidate_jaccard: 29.7776
+  external_mechanism:
+    h22_candidate_jaccard: 29.2469
+    h23_candidate_jaccard: 29.5910
+    h23_parent_additions: 144
+    h23_gain: 0.3441
+  frozen_h38_census:
+    eligible_singleton_diagnoses: 611
+    affected_records: 97
+    unique_normalized_mention_specific_pairs: 288
+  rationale: >
+    The organizer example permits parent plus specific diagnosis candidates,
+    and H23 externally validated that adding a same-family WHO category while
+    preserving the specific code improves candidate Jaccard. H23 stopped at
+    CM-exclusive codes; H44 tests whether the hidden target consistently mixes
+    hierarchy levels across all singleton specific diagnosis codes.
+
+transform:
+  source: turn2/output_v10_multiview_consensus
+  eligible_when:
+    - entity_type_is_diagnosis
+    - candidate_list_has_exactly_one_code
+    - code_has_more_than_three_alphanumeric_characters
+    - first_three_characters_form_a_bundled_WHO_ICD_10_2019_category
+    - parent_is_not_already_present
+  output_candidates: [WHO_three_character_parent, frozen_specific_code]
+  frozen:
+    - entity_count_and_order
+    - text
+    - type
+    - position
+    - assertions
+    - every_drug_candidate
+    - every_noneligible_diagnosis_candidate
+  no_model_or_reviewer: true
+
+registered_gates:
+  - source_zip_hash_matches
+  - exactly_611_rows_change_across_exactly_97_records
+  - every_change_is_singleton_to_same_family_parent_plus_specific
+  - zero_candidate_removals
+  - zero_non_candidate_field_changes
+  - all_3226_entities_and_100_records_validate
+  - two_full_builds_are_byte_identical
+  - two_ZIP_builds_are_byte_identical
+
+failure_policy: >
+  If any structural count, family, isolation, validation or determinism gate
+  fails, do not submit. Do not select rows after seeing the build output.
+
+if_passed:
+  output_dir: turn2/output_v12_full_who_family_hedge
+  artifact: turn2/output_v12_full_who_family_hedge.zip
+  submission_priority: first_of_five_reset_slots
+  expected_external_invariants: [wer_unchanged, assertion_jaccard_unchanged]
+  interpretation: >
+    A positive result supports a corpus-wide mixed-hierarchy candidate policy;
+    a negative result bounds H23 to CM-exclusive ontology-version mismatch.
