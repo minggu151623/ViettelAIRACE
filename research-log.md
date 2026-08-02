@@ -1433,3 +1433,20 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   are byte-identical at SHA-256
   `d245368a99e5112888e636c18cdbd070f9863e56e2172e9312fd8fe621487582`;
   all 148 tests pass and H44 remains untouched.
+
+## 2026-08-03 — H51 closes finite-sample bounded repair as vacuous
+
+- Proved from metric code that passage final-score deltas lie in `[-1,1]` and
+  preregistered global Hoeffding plus stratum-union empirical Bernstein gates.
+- The Hoeffding lower bound subtracts 0.7013 at n=15 and 0.3507 at n=60. The
+  empirical Bernstein additive penalty is at least 6.6783/1.3558 at those
+  sizes even with zero observed variance.
+- Both methods produce zero false promotions across five bounded families, but
+  also zero worst-family power through standardized effect `d=1` for every
+  n≤60. Validity passes; both usefulness gates fail.
+- Closed the synthetic small-n repair branch. Future confirmation requires
+  label-locked development estimates and a new, larger independent holdout,
+  not another retrofit of the frozen 15 passages. Repeat reports are byte-
+  identical at SHA-256
+  `2f8339727bb284339f9e5c689edd6d031b9cd1455e9284beb1bc27e0bedcb7ac`;
+  all 151 tests pass and H44 remains unchanged.

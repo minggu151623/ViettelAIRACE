@@ -1,0 +1,612 @@
+{
+  "analytic_penalties": [
+    {
+      "empirical_bernstein_zero_variance_penalty": 6.678260021405611,
+      "hoeffding_penalty": 0.7013206070563293,
+      "passages": 15,
+      "strata_counts": [
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "empirical_bernstein_zero_variance_penalty": 2.888447651374997,
+      "hoeffding_penalty": 0.4959085570353965,
+      "passages": 30,
+      "strata_counts": [
+        6,
+        10,
+        14
+      ]
+    },
+    {
+      "empirical_bernstein_zero_variance_penalty": 1.845148437525137,
+      "hoeffding_penalty": 0.4049076412722034,
+      "passages": 45,
+      "strata_counts": [
+        9,
+        15,
+        21
+      ]
+    },
+    {
+      "empirical_bernstein_zero_variance_penalty": 1.355790953931113,
+      "hoeffding_penalty": 0.35066030352816463,
+      "passages": 60,
+      "strata_counts": [
+        12,
+        20,
+        28
+      ]
+    }
+  ],
+  "artifact_policy": "NO_LABEL_PREDICTION_QUEUE_EVALUATOR_OR_ZIP_CHANGE",
+  "bounded_noise_families": [
+    "symmetric_uniform",
+    "rademacher",
+    "beta_right_skew",
+    "beta_left_skew",
+    "rare_two_point"
+  ],
+  "content_sha256_before_hash_field": "25bf4f36d02eb47c74590fe666512dd2d86fb7f3846c2fdf3dd3a154724c38a8",
+  "decision": "VALID_BUT_VACUOUS",
+  "envelopes": {
+    "15": {
+      "global_hoeffding": {
+        "maximum_type_i": 0.0,
+        "minimum_power_d_0_5": 0.0,
+        "minimum_power_d_0_75": 0.0,
+        "minimum_power_d_1_0": 0.0
+      },
+      "stratified_empirical_bernstein": {
+        "maximum_type_i": 0.0,
+        "minimum_power_d_0_5": 0.0,
+        "minimum_power_d_0_75": 0.0,
+        "minimum_power_d_1_0": 0.0
+      }
+    },
+    "30": {
+      "global_hoeffding": {
+        "maximum_type_i": 0.0,
+        "minimum_power_d_0_5": 0.0,
+        "minimum_power_d_0_75": 0.0,
+        "minimum_power_d_1_0": 0.0
+      },
+      "stratified_empirical_bernstein": {
+        "maximum_type_i": 0.0,
+        "minimum_power_d_0_5": 0.0,
+        "minimum_power_d_0_75": 0.0,
+        "minimum_power_d_1_0": 0.0
+      }
+    },
+    "45": {
+      "global_hoeffding": {
+        "maximum_type_i": 0.0,
+        "minimum_power_d_0_5": 0.0,
+        "minimum_power_d_0_75": 0.0,
+        "minimum_power_d_1_0": 0.0
+      },
+      "stratified_empirical_bernstein": {
+        "maximum_type_i": 0.0,
+        "minimum_power_d_0_5": 0.0,
+        "minimum_power_d_0_75": 0.0,
+        "minimum_power_d_1_0": 0.0
+      }
+    },
+    "60": {
+      "global_hoeffding": {
+        "maximum_type_i": 0.0,
+        "minimum_power_d_0_5": 0.0,
+        "minimum_power_d_0_75": 0.0,
+        "minimum_power_d_1_0": 0.0
+      },
+      "stratified_empirical_bernstein": {
+        "maximum_type_i": 0.0,
+        "minimum_power_d_0_5": 0.0,
+        "minimum_power_d_0_75": 0.0,
+        "minimum_power_d_1_0": 0.0
+      }
+    }
+  },
+  "hypothesis": "H51_h41_bounded_gate",
+  "replications": 10000,
+  "results": [
+    {
+      "method": "global_hoeffding",
+      "noise_family": "symmetric_uniform",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.2886751345948129
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "symmetric_uniform",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.2886751345948129
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "symmetric_uniform",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.2886751345948129
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "symmetric_uniform",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.2886751345948129
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "symmetric_uniform",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0028
+      },
+      "theoretical_noise_sd": 0.2886751345948129
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "symmetric_uniform",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.2886751345948129
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "symmetric_uniform",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0456
+      },
+      "theoretical_noise_sd": 0.2886751345948129
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "symmetric_uniform",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.2886751345948129
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "rademacher",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0036,
+        "1.0": 0.057
+      },
+      "theoretical_noise_sd": 0.5
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "rademacher",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.5
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "rademacher",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0025,
+        "0.75": 0.1045,
+        "1.0": 0.581
+      },
+      "theoretical_noise_sd": 0.5
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "rademacher",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.5
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "rademacher",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0177,
+        "0.75": 0.3757,
+        "1.0": 0.8813
+      },
+      "theoretical_noise_sd": 0.5
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "rademacher",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.5
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "rademacher",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0462,
+        "0.75": 0.6544,
+        "1.0": 0.9858
+      },
+      "theoretical_noise_sd": 0.5
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "rademacher",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.5
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "beta_right_skew",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "beta_right_skew",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "beta_right_skew",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "beta_right_skew",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "beta_right_skew",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "beta_right_skew",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "beta_right_skew",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "beta_right_skew",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "beta_left_skew",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "beta_left_skew",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "beta_left_skew",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "beta_left_skew",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "beta_left_skew",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "beta_left_skew",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "beta_left_skew",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "beta_left_skew",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.10206207261596575
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "rare_two_point",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.25
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "rare_two_point",
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.25
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "rare_two_point",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.25
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "rare_two_point",
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.25
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "rare_two_point",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.25
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "rare_two_point",
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.25
+    },
+    {
+      "method": "global_hoeffding",
+      "noise_family": "rare_two_point",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0018
+      },
+      "theoretical_noise_sd": 0.25
+    },
+    {
+      "method": "stratified_empirical_bernstein",
+      "noise_family": "rare_two_point",
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0,
+        "0.5": 0.0,
+        "0.75": 0.0,
+        "1.0": 0.0
+      },
+      "theoretical_noise_sd": 0.25
+    }
+  ],
+  "runtime": {
+    "numpy": "2.1.3",
+    "python": "3.13.5"
+  },
+  "seed": 5101,
+  "standardized_effects": [
+    0.0,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "usefulness_gates": {
+    "maximum_type_i_at_most_0_025_for_both_methods": true,
+    "one_method_has_n15_worst_power_at_least_0_50_at_d_0_75": false,
+    "one_method_has_n60_worst_power_at_least_0_80_at_d_0_5": false
+  }
+}

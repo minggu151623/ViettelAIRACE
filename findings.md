@@ -873,6 +873,17 @@ The strongest verified direction is conservative structural cleanup:
   H41 remains valuable for development and error discovery, but robust
   confirmatory promotion needs more independent holdout passages or a
   separately justified bounded-data procedure.
+- **Distribution-free bounded gates are valid but vacuous at H41 scale.** The
+  metric gives an exact `[-1,1]` passage-delta range. H51's one-sided Hoeffding
+  bound must subtract 0.7013 at 15 passages and still subtracts 0.3507 at 60.
+  A stratum-wise empirical Bernstein bound is wider: its zero-variance additive
+  penalty is 6.6783 at 15 and 1.3558 at 60 because the error budget is split
+  across tiny 3/5/7 strata. Both methods have zero false promotions, but their
+  worst-family power is zero through `d=1` for every tested n≤60. This closes
+  synthetic repair of the frozen gate: approximate methods are miscalibrated
+  or unstable, while guaranteed methods cannot promote. After annotation lock,
+  development labels may define a raw effect scale for a newly preregistered,
+  genuinely larger independent holdout; the frozen 15 cannot be repurposed.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

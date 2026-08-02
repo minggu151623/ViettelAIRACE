@@ -1,5 +1,5 @@
 hypothesis: H51_h41_bounded_gate
-status: preregistered
+status: completed_valid_but_vacuous
 registered_at: "2026-08-03T05:28:00+07:00"
 question: >
   Does the exact [-1, 1] passage-delta bound permit a useful finite-sample,
@@ -66,3 +66,20 @@ artifact_policy:
   annotation_queue_change: forbidden
   label_prediction_or_evaluator_access: forbidden
   deterministic_repeat_required: true
+
+result:
+  decision: VALID_BUT_VACUOUS
+  type_i_gate_passed: true
+  usefulness_gates_passed: false
+  analytic_penalties:
+    n_15:
+      hoeffding: 0.7013206071
+      empirical_bernstein_zero_variance: 6.6782600214
+    n_60:
+      hoeffding: 0.3506603035
+      empirical_bernstein_zero_variance: 1.3557909539
+  worst_family_power: >
+    Both methods have 0 power at d=0.5, d=0.75, and d=1.0 for every tested n
+    from 15 through 60 because at least one bounded family remains undetectable.
+  repeat_sha256: 2f8339727bb284339f9e5c689edd6d031b9cd1455e9284beb1bc27e0bedcb7ac
+  repository_tests_passed: 151
