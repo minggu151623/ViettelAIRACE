@@ -243,10 +243,11 @@ experiments:
     - "H24 lexical baseline: overall R@1 10.81%, diagnosis 2.62%, drug 45.92%; dense semantic headroom confirmed"
     - "H24 customized source core: dual projection encoder, relation graph adapter, hard-negative and multitask context classifier; 72 tests pass"
     - "H24 unadapted dense baseline: R@1 4.05% vs lexical 10.81%; diagnosis dev/test R@1 0%; unchanged checkpoint refuted"
+    - "H24 alignment protocol frozen: exact data/model hashes, two registered variants, dev-only selection and one-shot test"
   next: >
-    Train the registered mention/concept alignment on the frozen train fold,
-    then add graph-derived hard negatives as a separate ablation. Only after
-    dense+graph and context gates clear may a challenger be packaged.
+    Train alignment-only under the frozen configuration, select on dev, and
+    read test once. Then train the separately registered graph-hard-negative
+    variant and compare hard-negative accuracy before any context model.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

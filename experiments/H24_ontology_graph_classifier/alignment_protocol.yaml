@@ -1,0 +1,60 @@
+experiment: H24_alignment_ablation
+status: preregistered_before_training
+registered_at: "2026-08-02T08:18:00+07:00"
+fallback_artifact: turn2/output_v8_candidate_semantic.zip
+data:
+  dataset: experiments/H24_ontology_graph_classifier/link_dataset.json
+  dataset_sha256: c78f3c57afe038a0f9ff06e20b39475e2ad5e83d67fb2c6e46c161e0489b9aaf
+  label_status: weak_pseudo_labels_not_organizer_ground_truth
+  train_fold: train
+  selection_fold: dev
+  final_fold: test
+  split_rule: identical_normalized_aliases_are_confined_to_one_fold
+backbone:
+  path: models/bami-airace-v15-weighted
+  model_sha256: 1037051cdd398a5466370c895ac0bfe69c28beb308e7131741c9f06053372f3d
+  policy: frozen_exact_base_embeddings
+  pooling: masked_mean
+model:
+  embedding_size: 256
+  projection: linear_gelu_layernorm
+  temperature: 0.07
+  variants:
+    alignment_only:
+      concept_features: self_embedding
+      negatives: same_type_in_batch
+    graph_hard_negative:
+      concept_features: concatenate_self_and_direct_neighbor_mean
+      negatives: same_type_in_batch_plus_up_to_4_graph_neighbors
+      graph_loss: margin_positive_over_graph_hard_negative
+training:
+  seed: 2402
+  optimizer: AdamW
+  epochs_max: 120
+  patience: 15
+  batch_size: 32
+  learning_rate: 0.0003
+  weight_decay: 0.01
+  gradient_clip_norm: 1.0
+  dev_selection: highest_dev_recall_at_1_then_recall_at_5
+evaluation:
+  retrieval_space: all_69991_type_restricted_concepts
+  metrics: [recall_at_1, recall_at_5, recall_at_10, graph_hard_negative_accuracy]
+  report_by: [fold, entity_type, seen_vs_unseen_concept]
+  baselines:
+    lexical_recall_at_1: 0.10810810810810811
+    lexical_recall_at_5: 0.14092664092664092
+    unadapted_dense_recall_at_1: 0.04054054054054054
+promotion_gate:
+  full_model_over_lexical_recall_at_1_absolute: 0.05
+  full_model_over_lexical_recall_at_5_absolute: 0.08
+  graph_hard_negative_accuracy_over_alignment_only_absolute: 0.05
+  require_graph_or_hard_negative_independent_gain: true
+  test_fold_is_read_once_after_dev_selection: true
+  leaderboard_is_not_used_for_selection: true
+failure_policy:
+  - Preserve H23 when alignment-only cannot beat lexical retrieval.
+  - Reject graph features when hard-negative accuracy gain is below five points.
+  - Do not build a challenger ZIP from retrieval metrics alone.
+  - Do not interpret pseudo-link recall as organizer candidate Jaccard.
+

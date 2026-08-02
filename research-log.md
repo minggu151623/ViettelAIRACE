@@ -895,3 +895,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - This refutes using the pretrained checkpoint directly and supports the
   preregistered separate projection/alignment stage. No training, ZIP or
   competition submission occurred. All 73 tests pass.
+
+## 2026-08-02 — H24 alignment ablation preregistration
+
+- Froze the exact 518-row dataset, alias-group train/dev/test split, Bami-v15
+  model hash, optimizer, seed and early-stopping rule before training.
+- Registered two variants only: alignment-only with same-type in-batch
+  negatives, then self+neighbor graph features with up to four graph-derived
+  hard negatives and a margin loss.
+- Dev selects checkpoints; test is read once after selection. Retrieval always
+  spans all 69,991 type-restricted concepts.
+- The graph variant must improve hard-negative accuracy by at least five
+  absolute points over alignment-only. Retrieval alone cannot authorize a ZIP.
