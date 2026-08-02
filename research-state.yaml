@@ -6,21 +6,21 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Keep H20 frozen at 29.8409 while testing H22 as a one-shot architecture-scale
-  reconstruction. A collaborator pseudo-label fixture reproduces H20's public
-  score within 0.0116 points after adding synthetic unmatched mass. H22 removes
-  every synthetic row and packages only 3,168 raw-aligned annotations. It has
-  cleared the preregistered local gate and awaits one external confirmation;
-  no micro-variants may be tuned from the same proxy.
+  Freeze externally confirmed H22 at 38.7976. Its 3,168-entity reconstruction
+  improved text, assertions, and candidates together over H20, validating the
+  architecture-scale annotation replacement. The proxy was directionally
+  useful but overestimated the absolute score by 48.2674 points. The next
+  experiment should isolate candidate normalization on H22's frozen spans and
+  assertions rather than perturb the now-confirmed extraction core.
 baseline:
-  best_submitted_artifact: turn2/output_v6_expanded_pair.zip
-  score: 29.8409
-  wer_percent: 66.7969
-  j_assertion: 37.7055
-  j_candidates: 21.4207
+  best_submitted_artifact: turn2/output_v7_pseudo_reconstruction.zip
+  score: 38.7976
+  wer_percent: 57.2161
+  j_assertion: 47.5455
+  j_candidates: 29.2469
   score_formula: "score% = 0.3*(100-WER%) + 0.3*J_assertion% + 0.4*J_candidates%"
   verified_formula: >
-    0.3*(100-66.7969) + 0.3*37.7055 + 0.4*21.4207 = 29.84086.
+    0.3*(100-57.2161) + 0.3*47.5455 + 0.4*29.2469 = 38.79758.
 constraints:
   - "No organizer ground truth is available."
   - "Inference must remain offline and deterministic."
@@ -119,7 +119,7 @@ hypotheses:
       bootstrap gate can reject unstable challengers offline; selective
       fallback preserves H20 whenever evidence is insufficient.
   H22_calibrated_pseudo_reconstruction:
-    status: local_gate_passed_external_confirmation_pending
+    status: externally_supported_all_components_improved
     prediction: >
       Removing synthetic calibration rows from an independent higher-recall
       pseudo-label reconstruction will improve span/type, assertion and
@@ -219,11 +219,12 @@ experiments:
     - "H22 calibration: H20 proxy 29.8525 versus leaderboard 29.8409; absolute error 0.0116"
     - "H22 artifact: 3,168 real rows, 100/100 valid, 63 tests, deterministic SHA-256 03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade"
     - "H22 local gate: proxy 87.0650; all three components improve; external confirmation pending"
+    - "H22 external result: 38.7976; WER 57.2161, J_assertion 47.5455, J_candidates 29.2469; +8.9567 over H20"
   next: >
-    Submit the frozen H22 artifact once as a confirmatory test. If it improves,
-    promote it and ablate its architecture; if it regresses, retain H20 and do
-    not tune variants against the same pseudo-label fixture. H21 human blind
-    annotation remains the independent long-term promotion gate.
+    Preregister a candidate-only H23 ablation that freezes all 3,168 H22
+    text/type/position/assertion fields. Use semantic ontology evidence and
+    cross-model agreement, not the in-sample proxy score, to change candidates.
+    Preserve H22 as fallback unless a bounded local audit clears the gate.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

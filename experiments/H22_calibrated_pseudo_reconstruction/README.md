@@ -70,3 +70,22 @@ threshold micro-variants from the same proxy.
 H22 clears the preregistered local gate. Its leaderboard behavior remains an
 external confirmatory question; the proxy score must not be reported as an
 expected leaderboard score.
+
+## External result
+
+The user submitted the matching archive (displayed hash prefix `03651cfea61d`)
+on 2026-08-02 and reported:
+
+- final score: **38.7976**;
+- WER: **57.2161**;
+- assertion Jaccard: **47.5455**;
+- candidate Jaccard: **29.2469**.
+
+Relative to H20, the gains are +8.9567 final, +9.5808 text credit, +9.8400
+assertion Jaccard, and +7.8262 candidate Jaccard. Weighted contributions are
++2.87424 text, +2.95200 assertions, and +3.13048 candidates. H22 is therefore
+externally supported and becomes the frozen baseline.
+
+The 87.0650 proxy score overestimated the external result by 48.2674 points.
+The proxy successfully selected the direction but is not calibrated for
+absolute prediction or fine-grained threshold tuning.

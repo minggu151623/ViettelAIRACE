@@ -1,0 +1,27 @@
+{
+  "artifact": "turn2/output_v7_pseudo_reconstruction.zip",
+  "sha256": "03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade",
+  "submitted_at": "2026-08-02T06:59:00+07:00",
+  "score": 38.7976,
+  "WER": 57.2161,
+  "J_assertion": 47.5455,
+  "J_candidates": 29.2469,
+  "previous_baseline": {
+    "artifact": "turn2/output_v6_expanded_pair.zip",
+    "score": 29.8409,
+    "WER": 66.7969,
+    "J_assertion": 37.7055,
+    "J_candidates": 21.4207
+  },
+  "delta": {
+    "score": 8.9567,
+    "text_credit": 9.5808,
+    "J_assertion": 9.84,
+    "J_candidates": 7.8262,
+    "weighted_text": 2.87424,
+    "weighted_assertion": 2.952,
+    "weighted_candidates": 3.13048
+  },
+  "formula_check": 38.79758,
+  "provenance": "user-reported leaderboard screenshot"
+}

@@ -805,3 +805,17 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   `03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade`.
 - No competition submission was performed. H20 remains the external baseline
   until the user submits H22 once.
+
+## 2026-08-02 — H22 externally confirmed at 38.7976
+
+- The user submitted H22 at 06:59; the displayed `03651cfea61d...` hash prefix
+  matches the frozen local artifact.
+- Score improved 29.8409 -> 38.7976 (+8.9567). WER improved 66.7969 ->
+  57.2161, assertion Jaccard improved 37.7055 -> 47.5455, and candidate
+  Jaccard improved 21.4207 -> 29.2469.
+- Formula decomposition gives +2.87424 text, +2.95200 assertions, and +3.13048
+  candidates, totaling +8.95672 subject to display rounding.
+- H22 is promoted to the frozen baseline. The proxy's 87.0650 was
+  directionally useful but not an absolute leaderboard forecast.
+- No further submission was performed. The next proposed axis is a
+  preregistered candidate-only ablation with all H22 extraction fields frozen.

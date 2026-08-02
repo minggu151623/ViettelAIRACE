@@ -1,5 +1,21 @@
 # Findings
 
+## 2026-08-02 — H22 external jump to 38.7976
+
+- The submitted hash prefix `03651cfea61d` matches the registered H22 archive.
+- H22 improves the frozen H20 baseline by **+8.9567**, from 29.8409 to
+  **38.7976**. WER improves 66.7969 -> 57.2161, assertion Jaccard improves
+  37.7055 -> 47.5455, and candidate Jaccard improves 21.4207 -> 29.2469.
+- Weighted gains are +2.87424 text, +2.95200 assertions, and +3.13048
+  candidates. All components improve, externally supporting the full
+  annotation reconstruction rather than a single-metric exploit.
+- The local proxy correctly selected H22 but its 87.0650 absolute score was
+  optimistic by 48.2674 points. It is suitable for coarse architectural
+  selection, not fine-grained tuning or score forecasting.
+- Candidate normalization supplied the largest gain and remains the largest
+  weighted headroom. The next clean experiment should freeze H22 extraction
+  and assertions and change candidates only.
+
 ## 2026-08-01 — Guarded Turn 2 LLM artifact improves all metrics
 
 - `turn2/output_v2_llm_guarded.zip` scored **19.0709**, improving the Turn 2
