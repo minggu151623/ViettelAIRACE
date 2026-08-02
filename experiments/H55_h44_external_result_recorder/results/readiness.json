@@ -1,0 +1,48 @@
+{
+  "all_registered_cases_pass": true,
+  "cases": [
+    {
+      "branch_id": "validation_anomaly",
+      "case": "wrong_zip_hash",
+      "decision": "STOP_ATTRIBUTION"
+    },
+    {
+      "branch_id": "validation_anomaly",
+      "case": "wer_movement",
+      "decision": "STOP_ATTRIBUTION"
+    },
+    {
+      "branch_id": "validation_anomaly",
+      "case": "assertion_movement",
+      "decision": "STOP_ATTRIBUTION"
+    },
+    {
+      "branch_id": "validation_anomaly",
+      "case": "score_reconciliation_failure",
+      "decision": "STOP_ATTRIBUTION"
+    },
+    {
+      "branch_id": "strong_positive",
+      "case": "strong_positive",
+      "decision": "PROMOTE_H44"
+    },
+    {
+      "branch_id": "small_positive",
+      "case": "small_positive",
+      "decision": "PROMOTE_H44_WEAK"
+    },
+    {
+      "branch_id": "practical_null",
+      "case": "practical_null",
+      "decision": "RETAIN_H38"
+    },
+    {
+      "branch_id": "negative",
+      "case": "negative",
+      "decision": "RETAIN_H38"
+    }
+  ],
+  "decision_tree_sha256": "b5f6f63f9aea86e30742fff3db901f7fee1f492dc6cdfe17458ca7c2b1d8e9a8",
+  "h44_zip_sha256": "5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba",
+  "hypothesis": "H55_h44_external_result_recorder"
+}

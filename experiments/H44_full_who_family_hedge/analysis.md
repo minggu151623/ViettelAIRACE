@@ -38,3 +38,11 @@ stratum is independently large enough for a separately preregistered
 post-result ablation if aggregate evidence warrants one. A negative H44 result
 would reject indiscriminate expansion into new families, not erase H23's
 observed CM-exclusive gain. No subgroup artifact has been built.
+
+H55 closes the remaining result-ingestion risk. Its recorder loads this YAML
+tree rather than duplicating branch prose, verifies both submitted and local
+ZIP hashes, rejects nonfinite or candidate-only-inconsistent metrics, and
+copies the first matching frozen branch into the accepted result. All four
+registered anomaly cases stop attribution and all four valid synthetic cases
+select the expected branch. Synthetic fixtures are software verification, not
+leaderboard evidence; no external-result file exists yet.

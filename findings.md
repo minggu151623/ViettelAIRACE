@@ -850,6 +850,16 @@ The strongest verified direction is conservative structural cleanup:
   cannot overturn H23's observed CM-exclusive gain; a positive result is much
   stronger evidence because it demonstrates transfer into untouched families.
   No subgroup artifact exists, and H44's ZIP and numerical gates are unchanged.
+- **H44's pre-result research is complete and result ingestion now fails
+  closed.** H55 loads the frozen decision tree directly, binds accepted output
+  to its SHA-256, verifies submitted and local ZIP identity, requires finite
+  metrics, enforces WER/assertion invariance, and reconciles total-score
+  movement with `0.4 × candidate delta`. Four anomaly fixtures all stop
+  attribution; strong, small, null and negative fixtures map to their exact
+  frozen branches. An invalid run creates no external-result file. These are
+  software checks, not leaderboard evidence. Further pre-result H44 analysis
+  would now be diminishing-return speculation; the next evidence-bearing step
+  is the single unchanged submission or prediction-blind H41 label completion.
 - **H45 closes generic ranked-prefix expansion under the metric that matters.**
   Jaccard-aware dev selection chooses `k=1` globally and for both entity types
   on H24's frozen weak-link split. One-shot test Jaccard is 0.17857 at `k=1`,

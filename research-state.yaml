@@ -390,6 +390,17 @@ hypotheses:
       still material at 150 rows across 28 families. Negative H44 would reject
       broad extrapolation, not erase H23; strong positive would establish
       transfer into untouched families. ZIP and numerical gates stayed fixed.
+  H55_h44_external_result_recorder:
+    status: passed_readiness_no_external_result
+    prediction: >
+      Loading the frozen decision tree mechanically can eliminate remaining
+      result-ingestion risks without adding another speculative H44 audit.
+    result: >
+      All eight registered synthetic cases map correctly: four identity or
+      metric anomalies stop attribution, while strong/small/null/negative map
+      to the exact frozen decisions. Invalid CLI input creates no result file.
+      Reports are deterministic, 164 tests pass, and synthetic fixtures are
+      explicitly not leaderboard evidence.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -541,9 +552,11 @@ experiments:
     - "H52 H44 transfer calibration: H23/H44 overlap 0, H44 adds 611 rows, union 755; full H23-equivalent yield +1.4600 candidate; practical/strong gates equal 1.37%/34.25% yield"
     - "H53 H44 concentration: 148 families/effective 47.48 passes family breadth; 286 lexical units/effective 89.76 fails lexical breadth; decision semantics corrected, ZIP unchanged"
     - "H54 H44 novelty: 461/611 rows and 120/148 families are H23-novel; H44 primarily tests cross-family extrapolation, while a frozen 150-row/28-family seen stratum remains material"
+    - "H55 H44 result recorder: 4/4 anomaly cases stop attribution, 4/4 valid branches map correctly, invalid input writes no result, 164 tests; external result still absent"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
-    candidate Jaccard before constructing another artifact. Interpret a
+    candidate Jaccard through H55 before constructing another artifact. Do not
+    hand-select a branch or create `external_result.json` manually. Interpret a
     positive result as broad WHO-family transfer, not broad lexical transfer,
     per H53's frozen concentration audit. H54 further fixes the causal scope:
     75.45% of rows are in H23-untouched families, so negative movement rejects

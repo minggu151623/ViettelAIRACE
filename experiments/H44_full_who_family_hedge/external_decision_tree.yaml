@@ -74,6 +74,16 @@ pre_result_family_novelty_decomposition:
     large enough for a separately preregistered post-result ablation if the
     aggregate branch warrants one; no such artifact exists now.
 
+result_recording:
+  audit: H55_h44_external_result_recorder
+  implementation: airace/h44_result_recorder.py
+  status: ready
+  policy: >
+    Load this tree directly, verify submitted and local ZIP hashes, require
+    finite metrics, enforce candidate-only invariants, select the first frozen
+    branch mechanically, and bind any accepted result to this tree's SHA-256.
+    Identity or validation anomalies must not create an external-result file.
+
 branch_order:
   - id: validation_anomaly
     when: >
