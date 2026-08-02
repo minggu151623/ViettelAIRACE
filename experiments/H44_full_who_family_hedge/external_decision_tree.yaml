@@ -25,6 +25,20 @@ derived_checks:
   equivalent_strong_score_delta: 0.2
   practical_null_band: 0.02
 
+pre_result_exposure_calibration:
+  audit: H52_h44_transfer_calibration
+  h23_changed_rows: 144
+  h44_additional_disjoint_rows: 611
+  exact_overlap_rows: 0
+  union_parent_hedge_rows: 755
+  h23_candidate_delta_per_row: 0.0023895833
+  linear_candidate_delta_at_100_percent_h23_per_row_yield: 1.4600354167
+  practical_gate_equivalent_h23_yield_ratio: 0.0136982978
+  strong_gate_equivalent_h23_yield_ratio: 0.3424574461
+  limitation: >
+    These are exposure-normalized arithmetic ratios, not estimates of hidden
+    gold prevalence or guaranteed score effects; unknown row weights differ.
+
 branch_order:
   - id: validation_anomaly
     when: >
@@ -41,8 +55,9 @@ branch_order:
     when: >
       delta_J_candidates >= 0.5, delta_score >= 0.2, and all derived checks pass.
     interpretation: >
-      Mixed parent/specific hierarchy is a corpus-wide target policy rather
-      than a CM-exclusive exception.
+      The hierarchy mechanism generalizes materially beyond CM-exclusive rows,
+      retaining at least 34.25% of H23's exposure-normalized per-row yield.
+      This supports broad transfer but does not prove universal row prevalence.
     action: >
       Promote H44 to best baseline. Do not sweep thresholds; use the remaining
       slots only for a distinct, preregistered mechanism or the H41 blind-label
@@ -52,8 +67,9 @@ branch_order:
     when: >
       delta_J_candidates > 0.02 but < 0.5 and all derived checks pass.
     interpretation: >
-      The hierarchy hedge transfers, but most of the 467 rows beyond H23 are
-      neutral or harmful; the effect is too diluted for indiscriminate scaling.
+      The hierarchy hedge transfers weakly across the 611 H44 rows, retaining
+      roughly 1.37% to 34.25% of H23's exposure-normalized per-row yield. The
+      effect is too diluted for another indiscriminate expansion.
     action: >
       Keep H44 only if its total score is higher than H38. Freeze broad family
       expansion and require an independently motivated subgroup ablation before
@@ -64,7 +80,9 @@ branch_order:
       abs(delta_J_candidates) <= 0.02 and all derived checks pass.
     interpretation: >
       The evaluator is effectively insensitive to the additional broad hedge,
-      or matched gains and penalties cancel at displayed precision.
+      or matched gains and penalties cancel at displayed precision. The
+      absolute movement is no more than about 1.37% of H23-equivalent per-row
+      yield under the linear exposure calibration.
     action: >
       Retain H38, close generalized hierarchy expansion, and move effort to H41
       prediction-blind labels rather than another ontology sweep.

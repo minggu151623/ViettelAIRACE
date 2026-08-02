@@ -1450,3 +1450,19 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   identical at SHA-256
   `2f8339727bb284339f9e5c689edd6d031b9cd1455e9284beb1bc27e0bedcb7ac`;
   all 151 tests pass and H44 remains unchanged.
+
+## 2026-08-03 — H52 corrects H44 lineage and calibrates transfer
+
+- An exploratory inconsistency audit found that the locked decision tree's
+  “467 rows beyond H23” wording did not match H44's 611-row build census.
+- Stable occurrence identity confirms zero overlap between H23's 144 and
+  H44's 611 changes. H44 therefore contributes 611 new rows; their union is 755.
+- H23's external yield was 0.0023896 candidate points per changed row. Linear
+  exposure scaling forecasts +1.4600 candidate Jaccard (+0.5840 total score)
+  at 100% transfer. The unchanged practical/strong gates represent 1.37% and
+  34.25% H23-equivalent per-row yield.
+- Corrected the decision-tree counts and narrowed strong-positive wording from
+  universal policy to material broad transfer before any H44 score was known.
+  Repeat reports are byte-identical at SHA-256
+  `a635b2e992898177daa8603e8bbefb0200c8eac3ba6c39745c06626bb12287c0`;
+  the H44 ZIP is unchanged and no second artifact was created.

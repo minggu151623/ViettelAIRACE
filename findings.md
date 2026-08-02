@@ -819,6 +819,16 @@ The strongest verified direction is conservative structural cleanup:
   All validation and determinism gates pass. This is a high-upside external
   test of whether the organizer consistently mixes WHO family and specific
   hierarchy levels, not another consensus threshold variant.
+- **H44's strong gate requires material, not universal, H23 transfer.** H52
+  corrects a pre-result lineage error: H23's 144 rows and H44's 611 rows have
+  zero exact overlap, so H44 contains 611—not 467—additional interventions and
+  their union is 755. H23 yielded 0.0023896 candidate points per changed row;
+  linear exposure scaling predicts +1.4600 candidate and +0.5840 total score
+  if H44 retains 100% of that yield. The locked +0.02 practical and +0.50
+  strong gates correspond to only 1.37% and 34.25% H23-equivalent per-row
+  yield. These are not hidden-gold prevalence estimates because row weights are
+  unknown. The gates stay fixed, but strong positive now means material broad
+  transfer rather than a universal corpus policy.
 - **H45 closes generic ranked-prefix expansion under the metric that matters.**
   Jaccard-aware dev selection chooses `k=1` globally and for both entity types
   on H24's frozen weak-link split. One-shot test Jaccard is 0.17857 at `k=1`,

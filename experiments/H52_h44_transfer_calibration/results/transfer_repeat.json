@@ -1,0 +1,38 @@
+{
+  "artifact_policy": "H44_UNCHANGED_NO_SECOND_ARTIFACT",
+  "content_sha256_before_hash_field": "409849ee4a18d337d31740fcba0ccf71e706151f38feebab2974bcd6f84d1f6d",
+  "decision_tree_correction": {
+    "correct_additional_row_count": 611,
+    "correct_total_parent_hedge_interventions_across_h23_h44": 755,
+    "incorrect_additional_row_count": 467
+  },
+  "h23_external_yield": {
+    "candidate_delta": 0.3441,
+    "candidate_delta_per_changed_row": 0.0023895833333333334
+  },
+  "h44_linear_transfer_forecast": {
+    "candidate_delta_at_100_percent_h23_per_row_yield": 1.4600354166666667,
+    "forecast_score_from_h38_39_2813": 39.86531416666667,
+    "total_score_delta_at_100_percent_h23_per_row_yield": 0.5840141666666667
+  },
+  "hypothesis": "H52_h44_transfer_calibration",
+  "identity_key": [
+    "record_id",
+    "exact_position",
+    "preserved_specific_code"
+  ],
+  "interpretation": "EXPOSURE_CALIBRATION_NOT_GOLD_PREVALENCE_OR_SCORE_GUARANTEE",
+  "lineage": {
+    "disjoint_h44_rows": 611,
+    "exact_overlap_rows": 0,
+    "h23_rows": 144,
+    "h44_rows": 611,
+    "union_rows": 755
+  },
+  "locked_gate_calibration": {
+    "practical_candidate_delta": 0.02,
+    "practical_gate_equivalent_h23_yield_ratio": 0.013698297843802306,
+    "strong_candidate_delta": 0.5,
+    "strong_gate_equivalent_h23_yield_ratio": 0.3424574460950576
+  }
+}

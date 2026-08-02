@@ -1,5 +1,5 @@
 hypothesis: H52_h44_transfer_calibration
-status: preregistered_after_exploratory_count_discrepancy
+status: completed_corrected_pre_result_interpretation
 registered_at: "2026-08-03T05:48:00+07:00"
 question: >
   How much of H23's externally observed per-row candidate yield must H44's
@@ -54,3 +54,14 @@ artifact_policy:
   second_artifact: forbidden
   h44_zip_change: forbidden
   external_result_access: forbidden
+
+result:
+  exact_overlap_rows: 0
+  disjoint_h44_rows: 611
+  union_rows: 755
+  h23_candidate_delta_per_changed_row: 0.0023895833
+  full_transfer_candidate_delta: 1.4600354167
+  full_transfer_total_score_delta: 0.5840141667
+  practical_gate_equivalent_h23_yield_ratio: 0.0136982978
+  strong_gate_equivalent_h23_yield_ratio: 0.3424574461
+  report_sha256: a635b2e992898177daa8603e8bbefb0200c8eac3ba6c39745c06626bb12287c0

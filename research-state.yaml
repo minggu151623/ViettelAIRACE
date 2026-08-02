@@ -354,6 +354,17 @@ hypotheses:
       0.7013 at n=15 and 0.3507 at n=60; stratum-wise empirical Bernstein is
       wider. Worst-family power was zero through d=1 for every n≤60. No gate
       was installed and the synthetic statistical-repair branch is closed.
+  H52_h44_transfer_calibration:
+    status: supported_pre_result_lineage_correction
+    prediction: >
+      Stable occurrence identities will clarify H44's disjoint exposure and
+      convert its locked candidate-delta gates into H23-equivalent transfer
+      ratios without using the pending external result.
+    result: >
+      H23's 144 and H44's 611 rows have zero overlap; union exposure is 755.
+      Full H23 per-row yield implies +1.4600 candidate Jaccard. The existing
+      +0.02/+0.50 gates equal 1.37%/34.25% yield. Counts and interpretation were
+      corrected before score reveal; numerical gates and H44 ZIP stayed fixed.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -502,6 +513,7 @@ experiments:
     - "H49 distributional power envelope: n=15 Type-I 0.0236–0.1126; robust d=0.5 power reaches 0.8546 only at n=45; 145 tests, no labels, predictions, queue or ZIP changed"
     - "H50 inference repair rejected: percentile max Type-I 0.1132; Welch-t worst d=0.5 power 0.3448; bootstrap-t power 0.2880 with 4.62% nonfinite; 148 tests, evaluator unchanged"
     - "H51 bounded gates rejected as vacuous: Hoeffding penalty 0.7013 at n=15; empirical Bernstein zero-variance penalty 6.6783; zero worst-family power through d=1 and n=60; 151 tests"
+    - "H52 H44 transfer calibration: H23/H44 overlap 0, H44 adds 611 rows, union 755; full H23-equivalent yield +1.4600 candidate; practical/strong gates equal 1.37%/34.25% yield"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
     candidate Jaccard before constructing another artifact. In parallel,
