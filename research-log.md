@@ -1198,3 +1198,14 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   numeric temperature typed as a symptom and potentially over-specific ICD
   inheritance for shortened diagnoses. These are recorded rather than removed
   post hoc. The artifact is a submission candidate, not an external result.
+
+## 2026-08-02 — H38 external result: 39.2813
+
+- The user submitted the exact H38 ZIP and reported 39.2813, +0.3093 over H37.
+- WER improved 56.9633 → 56.1576, assertion Jaccard fell 47.4154 → 47.3920,
+  and candidate Jaccard improved 29.5910 → 29.7776.
+- Weighted decomposition is +0.24171 text, -0.00702 assertions and +0.07464
+  candidates, summing to +0.30933 modulo display rounding.
+- The positive direction validates exact multi-view consensus as a precision
+  mechanism, but its marginal yield is too low for another consensus threshold
+  variant. The outer loop pivots away from same-family span expansion.

@@ -41,3 +41,12 @@ shortened diagnosis such as `Bệnh tim mạch` with `I25.1`.
 These observations do not authorize post-hoc deletion from H38. They define a
 future preregistered semantic-compatibility safeguard. H38 remains a materially
 larger, controlled black-box candidate, not a claimed guaranteed improvement.
+
+## External result
+
+The user submitted the frozen artifact and reported 39.2813, a gain of 0.3093
+over H37. WER improved 56.9633 → 56.1576 and candidate Jaccard improved
+29.5910 → 29.7776; assertion Jaccard slipped 47.4154 → 47.3920. Under the
+official weighted formula, text contributes +0.24171, candidates +0.07464 and
+assertions -0.00702. The direction is positive, but the gain from 183 selected
+rows is much too small to justify another threshold or consensus expansion.

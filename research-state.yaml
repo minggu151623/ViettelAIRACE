@@ -33,21 +33,22 @@ current_direction: >
   H36's controlled dual verifier passes every frozen gate: 90% positive-control
   retention, 100% registered-hazard rejection, 92.59% prompt agreement and 42
   accepted novel rows. H37 integrates 22 symptom-boundary replacements and four
-  additions, but gains only 0.0368 externally. H38 therefore scales to exact
-  3-of-5 agreement across five frozen views and passes every registered local
-  gate, selecting 183 rows over 68 records. The artifact is deterministic and
-  valid, but shared model ancestry leaves correlated semantic and candidate-
-  inheritance risks. H38 is a controlled submission candidate, not yet
-  external evidence.
+  additions, but gains only 0.0368 externally. H38 scales to exact 3-of-5
+  agreement across five frozen views and changes 183 rows over 68 records. It
+  scores 39.2813, only +0.3093: text and candidates improve, assertions slip.
+  This validates consensus directionally but closes same-family expansion as a
+  breakthrough path. The next outer loop must create genuinely independent
+  supervision or recover the organizer/source annotation policy; it must not
+  tune another H38 threshold.
 baseline:
-  best_submitted_artifact: turn2/output_v9_verified_symptoms.zip
-  score: 38.9720
-  wer_percent: 56.9633
-  j_assertion: 47.4154
-  j_candidates: 29.5910
+  best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
+  score: 39.2813
+  wer_percent: 56.1576
+  j_assertion: 47.3920
+  j_candidates: 29.7776
   score_formula: "score% = 0.3*(100-WER%) + 0.3*J_assertion% + 0.4*J_candidates%"
   verified_formula: >
-    0.3*(100-57.2161) + 0.3*47.5455 + 0.4*29.5910 = 38.93522.
+    0.3*(100-56.1576) + 0.3*47.3920 + 0.4*29.7776 = 39.28136.
 constraints:
   - "No organizer ground truth is available."
   - "Inference must remain offline and deterministic."
@@ -204,7 +205,7 @@ hypotheses:
       improved 0.2528 but assertion Jaccard fell 0.1301; candidates were fixed,
       yielding only +0.0368 total. Do not extend this with another micro-queue.
   H38_multiview_consensus:
-    status: local_gates_passed_external_effect_pending
+    status: externally_supported_positive_but_insufficient_axis_closed
     prediction: >
       Exact agreement among at least three of five heterogeneous frozen views,
       followed by dual verification and conservative candidate handling, can
@@ -212,8 +213,9 @@ hypotheses:
     result: >
       Selected 183 rows across 68 records; retained 91.67% of controls, rejected
       all registered hazards, validated 100/100 files and reproduced identical
-      ZIP bytes. Manual audit still finds correlated semantic errors, so the
-      leaderboard effect is unknown until the user submits the frozen artifact.
+      ZIP bytes. External score reached 39.2813 (+0.3093), driven by WER and a
+      smaller candidate gain while assertions slipped. Do not tune another
+      consensus threshold on these correlated sources.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -343,11 +345,13 @@ experiments:
     - "H37 verified symptoms: 22 boundary rows plus four disjoint additions; 100/100 valid; deterministic ZIP 032041a8f92bc97ca6a92d4cb4809d6aa39122471056df97bfe1fd1fe4585abc"
     - "H37 external result: 38.9720; WER +0.2528 favorable, assertion -0.1301, candidate unchanged, total +0.0368"
     - "H38 five-view consensus: 183 rows across 68 records; all local gates pass; deterministic ZIP a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b"
+    - "H38 external result: 39.2813; WER +0.8057 favorable, assertion -0.0234, candidate +0.1866, total +0.3093"
   next: >
-    Preserve H38 unchanged as the next black-box candidate. In parallel,
-    preregister a semantic-compatibility safeguard for numeric measurements,
-    generic short spans and candidate inheritance after boundary shortening;
-    do not post-hoc tune H38 after inspecting its accepted examples.
+    Run an outer-loop source/supervision pivot. Audit whether the templated
+    records can be aligned to an independently labeled source or whether a
+    prediction-blind human annotation subset can train a boundary/type/assertion
+    stacker. Freeze H38 as baseline and do not spend submissions on consensus
+    threshold, hazard-list, or candidate-inheritance micro-variants.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

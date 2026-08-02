@@ -1,0 +1,26 @@
+{
+  "artifact": "turn2/output_v10_multiview_consensus.zip",
+  "artifact_sha256": "a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b",
+  "submitted_by": "user",
+  "reported_at": "2026-08-02T23:56:00+07:00",
+  "score": 39.2813,
+  "WER": 56.1576,
+  "num_scored": 100,
+  "J_assertion": 47.3920,
+  "num_records": 100,
+  "J_candidates": 29.7776,
+  "source": {
+    "kind": "user_screenshot",
+    "path": "/var/folders/82/1zcbzb5s4k95yjv104b71qn40000gn/T/codex-clipboard-c88eee42-44e6-4ec8-ab5c-e591dfb00238.png",
+    "sha256": "836ecb2963da7502d39cd32fab7a98447581d4cfd1b80f93c3ed6429ac19e30d"
+  },
+  "comparison_to_H37": {
+    "score_delta": 0.3093,
+    "WER_delta": -0.8057,
+    "J_assertion_delta": -0.0234,
+    "J_candidates_delta": 0.1866,
+    "weighted_text_contribution": 0.24171,
+    "weighted_assertion_contribution": -0.00702,
+    "weighted_candidate_contribution": 0.07464
+  }
+}

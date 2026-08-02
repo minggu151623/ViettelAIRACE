@@ -753,6 +753,12 @@ The strongest verified direction is conservative structural cleanup:
   typed as a symptom) and possible over-specific candidate inheritance after
   diagnosis shortening. Multi-view agreement is therefore a scalable proposal
   mechanism, not a substitute for independent labels.
+- **H38 is externally positive but establishes a low ceiling for consensus
+  expansion.** Score rises 38.9720 → 39.2813 (+0.3093). The gain comes from WER
+  (+0.24171 weighted) and candidates (+0.07464), while assertions lose 0.00702.
+  This is a real improvement, but 183 selected rows buy only 0.31 points. Adding
+  more rows from the same correlated proposal family cannot plausibly close the
+  roughly 11-point gap to 50; threshold tuning on H38 is now a closed axis.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
