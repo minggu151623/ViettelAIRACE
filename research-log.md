@@ -1019,3 +1019,20 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - H25 is rejected. No ZIP or competition submission was created. The next
   preregistered mechanism will test train-only phrase-policy distillation as an
   independent proposal source rather than tune PU thresholds.
+
+## 2026-08-02 — H26 phrase policy transfers but needs context
+
+- Preregistered a train-record-only phrase lexicon, three support floors and
+  case-sensitive/insensitive matchers before building the lexicon.
+- Dev selected 235 phrases with support in at least two train records and
+  case-insensitive Unicode-aware boundaries.
+- Starting from the H20 simulation, strict F1 improved 52.14 -> 56.22% on dev
+  and 55.95 -> 57.27% on test. The intervention recovers 43/26 held-out H23
+  additions, materially more than contextual PU.
+- Addition precision is only 50.59/36.11%. Context errors include anatomical
+  `mạch`, adjective `phù hợp`, generic `đau`, and result terms detached from a
+  test. H23-absent clinical falls also show why pseudo-target absence is not a
+  clean negative label.
+- H26 is retained as an independent proposal generator but fails promotion.
+  No ZIP or competition submission was created. A fixed semantic verifier is
+  the next registered mechanism.

@@ -10,8 +10,11 @@ current_direction: >
   candidate retriever, but H25 shows that source votes plus Qwen context cannot
   adjudicate correlated proposal errors: held-out F1 gains are only 0.39/0.40
   points and addition precision is below 42%. The next independent experiment
-  distills high-purity span/type phrases from train records only, before any
-  direct-LLM expansion or new submission artifact is considered.
+  distilled 235 high-purity span/type phrases from train records only. This
+  improves held-out F1 but remains context-blind and low precision. The next
+  controlled component is a local-LLM semantic verifier over only the fixed
+  phrase candidates, with known homonym and boundary hazards registered before
+  test evaluation. No new submission artifact is authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -147,6 +150,16 @@ hypotheses:
       41.67/36.84% addition precision. Assertion learning regressed dev despite
       improving test. Correlated fused-boundary errors survived high-stability
       filtering, so H23 remains unchanged.
+  H26_phrase_policy_distillation:
+    status: promising_proposal_source_precision_gate_failed
+    prediction: >
+      High-purity phrase/type rules learned only from train records can transfer
+      recurring annotation policy to held-out records independently of model
+      confidence.
+    result: >
+      A 235-phrase lexicon improved strict F1 by 4.08 points on dev and 1.32 on
+      test, but addition precision was only 50.59/36.11%. Contextual homonyms
+      and substrings require semantic verification before merging.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"

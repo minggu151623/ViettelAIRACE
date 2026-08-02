@@ -646,6 +646,16 @@ The strongest verified direction is conservative structural cleanup:
   High-purity phrases learned only from H23 train records can test whether the
   templated corpus transfers boundaries and types without relying on correlated
   model confidence. This must precede another direct-LLM or PU fusion layer.
+- **Train-only phrase policy transfers, but context determines correctness.**
+  A 235-entry high-purity lexicon raises held-out strict F1 by 4.08 points on
+  dev and 1.32 on test, recovering 43 and 26 true pseudo-target additions.
+  This is far stronger than H25 PU, but raw addition precision is only
+  50.59/36.11% because phrases such as `mạch`, `phù`, and `bình thường` change
+  meaning with context.
+- **H23 absence cannot be used as a clean phrase-level negative.** Several
+  H23-absent matches are legitimate clinical concepts in context (for example
+  a patient actually falling). A contextual verifier should therefore enforce
+  semantic boundary/type policy, not merely learn to reproduce H23 inclusion.
 
 - Keep every experiment deterministic and byte-identical on rerun.
 - Treat each leaderboard submission as a preregistered ablation, not as a
