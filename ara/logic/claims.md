@@ -340,3 +340,57 @@
   `experiments/H24_ontology_graph_classifier/graph_manifest.json`]
 - **Dependencies**: [C23, C25]
 - **Tags**: ontology, graph, retrieval, Vietnamese, diagnosis
+
+## C27: Retrieval-pretrained multilingual geometry beats weak projection fitting
+- **Statement**: On the frozen 69,991-node ontology and alias-group split,
+  Qwen3 Embedding expands held-out top-k recall while alignment heads trained
+  from 426 H23-derived rows collapse out of sample.
+- **Status**: supported internally; organizer transfer untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A repeated frozen-split run makes the learned
+  alignment model match Qwen on dev/test R@5, or an independent organizer-like
+  corpus reverses their ranking.
+- **Proof**: [`experiments/H24_ontology_graph_classifier/alignment_only/report.json`,
+  `experiments/H24_ontology_graph_classifier/qwen_multilingual/report.json`]
+- **Dependencies**: [C26]
+- **Tags**: multilingual, retrieval, alignment, weak-labels
+
+## C28: Entity-type routing is the strongest H24 linker
+- **Statement**: A zero-parameter router using multilingual dense retrieval
+  for diagnoses and character TF-IDF for drugs improves both dev and test
+  Recall@1 and Recall@5 over the frozen lexical baseline.
+- **Status**: supported internally; promoted as candidate generator only
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Rebuilding from pinned inputs changes the
+  rankings, or an independent labeled set shows either specialist is weaker
+  than its alternative for the routed type.
+- **Proof**: [`experiments/H24_ontology_graph_classifier/type_specialist/report.json`,
+  `experiments/H24_ontology_graph_classifier/type_specialist_protocol.yaml`]
+- **Dependencies**: [C27]
+- **Tags**: routing, diagnosis, drug, dense, lexical
+
+## C29: Generic semantic reranking does not dominate specialist retrieval
+- **Statement**: The pinned Qwen3 Reranker, with or without direct ontology
+  relation text, fails to improve aggregate test Recall@1 or Recall@5 over the
+  fixed type-specialist router.
+- **Status**: refuted as a promotion path on H24
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A preregistered context representation or graph
+  encoding clears the router gate on an independent record-held-out set.
+- **Proof**: [`experiments/H24_ontology_graph_classifier/reranker/report.json`,
+  `experiments/H24_ontology_graph_classifier/reranker_protocol.yaml`]
+- **Dependencies**: [C28]
+- **Tags**: reranker, graph, ablation, negative-result
+
+## C30: H23 weak links are insufficient for deeper linker fitting
+- **Statement**: A train-only classifier over the union candidate pool adds
+  only one test Recall@5 hit and no Recall@1 gain; graph features add no dev
+  gain, so further fitting on the same 518 pseudo links is not justified.
+- **Status**: supported internally; scope limited to the current feature family
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A preregistered model using only the same weak
+  rows clears the fixed router's dev R@1 and R@5 gates without leakage.
+- **Proof**: [`experiments/H24_ontology_graph_classifier/feature_classifier/report.json`,
+  `experiments/H24_ontology_graph_classifier/feature_classifier_protocol.yaml`]
+- **Dependencies**: [C28, C29]
+- **Tags**: weak-labels, classifier, graph, saturation, pivot

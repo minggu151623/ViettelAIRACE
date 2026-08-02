@@ -1,0 +1,97 @@
+session:
+  id: "2026-08-02_006"
+  timestamp: "2026-08-02T19:00+07:00"
+  summary: "Completed H24 multilingual, specialist, reranker and graph-classifier ablations and closed the linker inner loop."
+
+events_logged:
+  - type: dead_end
+    id: N33
+    provenance: ai-executed
+    summary: "Alignment heads overfit the 518-row weak-link set."
+  - type: experiment
+    id: N34
+    provenance: ai-executed
+    summary: "Dedicated multilingual retrieval plus fixed type routing cleared all sparse-dense gates."
+  - type: dead_end
+    id: N35
+    provenance: ai-executed
+    summary: "Generic reranking and graph features failed to beat the specialist router."
+  - type: pivot
+    id: N36
+    provenance: ai-suggested
+    summary: "Moved the outer loop from linker fitting to span, type and assertion classification."
+  - type: claim
+    id: C27
+    provenance: ai-suggested
+    summary: "Retrieval-pretrained multilingual geometry generalizes better than weak projection fitting."
+  - type: claim
+    id: C28
+    provenance: ai-suggested
+    summary: "Entity-type routing is the strongest H24 linker."
+  - type: claim
+    id: C29
+    provenance: ai-suggested
+    summary: "Generic semantic reranking does not dominate specialist retrieval."
+  - type: claim
+    id: C30
+    provenance: ai-suggested
+    summary: "H23 weak links are insufficient for deeper linker fitting."
+  - type: heuristic
+    id: H13
+    provenance: ai-suggested
+    summary: "Route normalization by entity type before learning fusion weights."
+  - type: heuristic
+    id: H14
+    provenance: ai-suggested
+    summary: "Score only the final reranker token to avoid sequence-vocabulary logits."
+
+ai_actions:
+  - action: "Ran alignment-only and train-only prototype ablations under frozen failure rules."
+    provenance: ai-executed
+    files_changed: ["airace/ontology_alignment.py", "airace/ontology_prototypes.py"]
+  - action: "Pinned and evaluated Qwen3 Embedding across all 69,991 concept titles."
+    provenance: ai-executed
+    files_changed: ["airace/ontology_qwen.py",
+      "experiments/H24_ontology_graph_classifier/qwen_multilingual/report.json"]
+  - action: "Preregistered and promoted the zero-parameter type-specialist router internally."
+    provenance: ai-executed
+    files_changed: ["airace/ontology_fusion.py",
+      "experiments/H24_ontology_graph_classifier/type_specialist/report.json"]
+  - action: "Implemented a memory-safe official Qwen reranker and exact graph ablation."
+    provenance: ai-executed
+    files_changed: ["airace/ontology_reranker.py",
+      "experiments/H24_ontology_graph_classifier/reranker/report.json"]
+  - action: "Trained semantic and semantic-plus-graph classifiers on train-only mined candidates."
+    provenance: ai-executed
+    files_changed: ["airace/ontology_classifier.py",
+      "experiments/H24_ontology_graph_classifier/feature_classifier/report.json"]
+  - action: "Ran all 83 repository tests and pushed every preregistered checkpoint and result."
+    provenance: ai-executed
+    files_changed: ["tests/test_ontology_alignment.py", "tests/test_ontology_prototypes.py",
+      "tests/test_ontology_qwen.py", "tests/test_ontology_fusion.py",
+      "tests/test_ontology_reranker.py", "tests/test_ontology_classifier.py"]
+
+claims_touched:
+  - id: C26
+    action: advanced
+    provenance: ai-suggested
+  - id: C27
+    action: created
+    provenance: ai-suggested
+  - id: C28
+    action: created
+    provenance: ai-suggested
+  - id: C29
+    action: created
+    provenance: ai-suggested
+  - id: C30
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Build a record-held-out positive-unlabeled span/type/assertion proposal classifier."
+  - "Use the fixed type router only after a proposal survives the extraction gate."
+  - "Require end-to-end blind evidence before creating another submission ZIP."
+
+ai_suggestions_pending:
+  - "Do not spend a leaderboard slot on linker-only H24 results."

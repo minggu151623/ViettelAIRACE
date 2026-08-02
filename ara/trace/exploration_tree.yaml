@@ -23,6 +23,63 @@ tree:
         evidence: [C25, C26,
           "experiments/H24_ontology_graph_classifier/graph_manifest.json",
           "experiments/H24_ontology_graph_classifier/lexical_baseline.json"]
+        children:
+          - id: N33
+            type: dead_end
+            title: "Alignment heads overfit 518 weak links"
+            provenance: ai-executed
+            timestamp: "2026-08-02T09:30+07:00"
+            failure_mode: >
+              Alignment-only training raised train R@1 to 30.28% but produced
+              2.78% dev and 0% test R@1 over the full ontology. The frozen
+              lexical gate failed, so the graph-training variant was canceled.
+            lesson: >
+              Random projections and in-batch negatives cannot replace a
+              retrieval-pretrained multilingual geometry at this label scale.
+            evidence: [C27,
+              "experiments/H24_ontology_graph_classifier/alignment_only/report.json"]
+          - id: N34
+            type: experiment
+            title: "Dedicated multilingual retrieval and type-specialist routing"
+            provenance: ai-executed
+            timestamp: "2026-08-02T12:30+07:00"
+            result: >
+              Qwen3 Embedding expanded candidate-pool recall, then a frozen
+              zero-parameter router used Qwen for diagnoses and character
+              TF-IDF for drugs. Dev/test R@1 reached 16.67/17.86% and R@5
+              reached 25.00/30.36%, clearing all four registered gates against
+              lexical retrieval.
+            evidence: [C27, C28,
+              "experiments/H24_ontology_graph_classifier/qwen_multilingual/report.json",
+              "experiments/H24_ontology_graph_classifier/type_specialist/report.json"]
+            children:
+              - id: N35
+                type: dead_end
+                title: "Generic reranker and graph features fail the router gate"
+                provenance: ai-executed
+                timestamp: "2026-08-02T16:30+07:00"
+                failure_mode: >
+                  The official Qwen reranker with exact graph relations tied
+                  the router on test R@1/R@5, while train-only semantic and
+                  graph classifiers left dev R@1 unchanged at 16.67%.
+                lesson: >
+                  The 518 H23-derived links can evaluate candidate generation
+                  but cannot safely fit another generic ranking layer.
+                evidence: [C29, C30,
+                  "experiments/H24_ontology_graph_classifier/reranker/report.json",
+                  "experiments/H24_ontology_graph_classifier/feature_classifier/report.json"]
+              - id: N36
+                type: pivot
+                title: "Move H24 outer loop to span, type and assertion"
+                provenance: ai-suggested
+                timestamp: "2026-08-02T18:30+07:00"
+                from: "Further weak-link reranker fitting"
+                to: "Record-held-out positive-unlabeled proposal classification"
+                trigger: >
+                  Linker R@1 saturated while the external H23 WER and assertion
+                  metrics, 57.2161 and 47.5455, retain larger score headroom.
+                evidence: [C30,
+                  "experiments/H24_ontology_graph_classifier/README.md"]
   - id: N27
     type: decision
     title: "Use the first reset submission as an H22 confirmation"

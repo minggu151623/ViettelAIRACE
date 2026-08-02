@@ -1,4 +1,7 @@
 sessions:
+  - id: "2026-08-02_006"
+    file: "2026-08-02_006.yaml"
+    summary: "Completed H24 multilingual, specialist, reranker and graph-classifier ablations and closed the linker inner loop."
   - id: "2026-08-02_005"
     file: "2026-08-02_005.yaml"
     summary: "Closed candidate-list micro-tuning and implemented the H24 ontology-graph contextual model core."

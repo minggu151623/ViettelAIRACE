@@ -95,3 +95,23 @@
 - **Provenance**: ai-suggested
 - **Sensitivity**: high
 - **Code ref**: [`airace/ontology_graph.py`, `airace/ontology_model.py`]
+
+## H13: Route normalization by entity type before learning fusion weights
+- **Rationale**: Cross-lingual dense retrieval recovers Vietnamese diagnoses,
+  while exact lexical overlap remains substantially stronger for medication
+  names. A fixed type router preserves both strengths and avoids calibrating
+  incomparable scores on pseudo labels.
+- **Provenance**: ai-suggested
+- **Sensitivity**: medium
+- **Code ref**: [`airace/ontology_fusion.py`,
+  `experiments/H24_ontology_graph_classifier/type_specialist_protocol.yaml`]
+
+## H14: Score only the final reranker token
+- **Rationale**: Qwen relevance depends on the yes/no logits at the final
+  position. Applying the language-model head only to the final hidden state is
+  mathematically equivalent to materializing sequence-by-vocabulary logits and
+  reduces memory enough for reproducible local ablations.
+- **Provenance**: ai-suggested
+- **Sensitivity**: low
+- **Code ref**: [`airace/ontology_reranker.py`,
+  `tests/test_ontology_reranker.py`]
