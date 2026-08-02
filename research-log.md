@@ -1134,3 +1134,13 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   gate by 0.57 points, so H34 is formally failed and generated no queue.
 - The trainer fix is retained. No ZIP was created. A frozen read-only agreement
   audit may be registered next without retroactively relaxing H34.
+
+## 2026-08-03 — H35 independent agreement yields 51 novel rows
+
+- Audited the frozen H34 OOF predictions without changing them. Of 316 spans
+  absent from H23, 45 exactly agree with VietMed and eight agree with H26 on
+  records held out from phrase construction; two receive both supports.
+- The 51-row union includes many coherent clinical mentions, but also both
+  known fused-token hazards (`doxycyclinebactrim`, `klonopinclonidine`).
+- Agreement is promoted as a proposal filter only. A dual verifier with frozen
+  positive controls is required before any merge. No ZIP was created.

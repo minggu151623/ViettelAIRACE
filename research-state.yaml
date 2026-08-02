@@ -28,7 +28,10 @@ current_direction: >
   repairs it: substituted aggregate precision/recall/F1 is
   82.23/46.15/59.12%. One fold recall gate misses by 0.57 points, so H34 remains
   formally failed. The next step is a read-only independent-agreement audit of
-  these frozen OOF predictions. No new submission artifact is authorized yet.
+  these frozen OOF predictions. H35 finds 51 novel exact agreements (45
+  VietMed, eight held-out phrase, two both), but two known fused hazards remain.
+  The next step is a controlled dual semantic/boundary verifier with H23-present
+  positive controls. No new submission artifact is authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -298,11 +301,12 @@ experiments:
     - "H32 cross-fit failed aggregate: precision 83.06%, recall 36.68%, F1 50.89%; one fold emitted zero spans at global 0.90"
     - "H33 per-fold calibration failed: precision 81.23%, recall 38.26%, F1 52.02%; collapsed fold remains empty"
     - "H34 minimum-epoch recovery: fold F1 0 -> 54.35; aggregate precision/recall/F1 82.23/46.15/59.12, but fold recall misses gate by 0.57 points"
+    - "H35 agreement audit: 316 H34-new spans -> 51 exact independent agreements; two known fused hazards remain"
   next: >
-    Preregister a read-only independent-agreement audit over H34's frozen
-    combined OOF predictions. Count exact novel agreement with VietMed and H26,
-    inspect contexts, and do not merge or package unless a later protocol
-    establishes a conservative promotion rule.
+    Preregister dual semantic/type and boundary review of H35's frozen queue,
+    together with deterministic H23-present positive controls and structural
+    hazard negatives. Only a complete, high-agreement review may create a
+    candidate merge protocol; no direct ZIP is authorized.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

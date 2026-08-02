@@ -721,6 +721,11 @@ The strongest verified direction is conservative structural cleanup:
   82.23/46.15/59.12%. It formally misses the fold recall gate by 0.57 points,
   so no merge is authorized, but future token trainers must not early-stop
   before epoch five under this class-weighted schedule.
+- **Independent agreement isolates a compact novel queue.** H35 reduces 316
+  H34-new spans to 51 exact agreements: 45 with VietMed, eight with held-out
+  phrase policy, and two with both. Many are plausible missed concepts, but two
+  known fused-token hazards survive, so source agreement must still be followed
+  by semantic and boundary verification.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

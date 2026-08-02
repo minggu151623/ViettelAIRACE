@@ -1,0 +1,724 @@
+{
+  "h34_predictions": 1778,
+  "h34_novel": 316,
+  "tier_A_vietmed": 45,
+  "tier_B_phrase_heldout": 8,
+  "both_sources": 2,
+  "known_hazards_in_queue": 2,
+  "queue": [
+    {
+      "record": 1,
+      "position": [
+        1995,
+        2002
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "bại não",
+      "confidence": 0.8824722766876221,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "Đặc biệt, nếu trẻ sơ sinh bị vàng da nặng sau khoảng 2 tuần tuổi, các tổn thương thần kinh có thể rất nghiêm trọng, gây bại não, chậm phát triển trí tuệ và vận động.\n\nVới những trường hợp biểu hiện nhẹ, trẻ chỉ cần được theo dõi, tránh các yếu tố "
+    },
+    {
+      "record": 4,
+      "position": [
+        2704,
+        2717
+      ],
+      "type": "THUỐC",
+      "text": "levothyroxine",
+      "confidence": 0.9422396123409271,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "khi ngừng omeprazole)\n\nChào bạn, bạn mắc ung thư tuyến giáp và chắc đã phẫu thuật, hiện bác sĩ đang kê đơn cho bạn uống levothyroxine với liều 75 microgam/ngày (lưu ý: một viên thuốc Berlthyrox có hàm lượng là 100 microgam chứ không phải 100 miligam như"
+    },
+    {
+      "record": 4,
+      "position": [
+        2767,
+        2777
+      ],
+      "type": "THUỐC",
+      "text": "Berlthyrox",
+      "confidence": 0.9299978762865067,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "chắc đã phẫu thuật, hiện bác sĩ đang kê đơn cho bạn uống levothyroxine với liều 75 microgam/ngày (lưu ý: một viên thuốc Berlthyrox có hàm lượng là 100 microgam chứ không phải 100 miligam như bạn đã nói), là hormone tuyến giáp tổng hợp, nhằm bù lại lư"
+    },
+    {
+      "record": 6,
+      "position": [
+        231,
+        234
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "ngã",
+      "confidence": 0.9170423150062561,
+      "tier_A_vietmed": false,
+      "tier_B_phrase_heldout": true,
+      "known_hazard": false,
+      "context": "h sử\nLý do vào viện: Cơn rối loạn ý thức thoáng qua, nghi ngờ cơn co giật.\nKhoảng 1 tháng trước nhập viện, bệnh nhân bị ngã và được chẩn đoán xuất huyết dưới nhện. Chụp cắt lớp vi tính sọ não cho hình ảnh  xuất huyết dưới nhện vùng trán phải, "
+    },
+    {
+      "record": 6,
+      "position": [
+        1694,
+        1709
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "ý thức dao động",
+      "confidence": 0.8864919543266296,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "\nTrong cơn, bệnh nhân kích thích nhẹ, liên tục cố gắng đứng dậy và tỏ ra không hiểu tình trạng đang xảy ra. \nTình trạng ý thức dao động kéo dài khoảng 20 phút rồi cải thiện dần. \nKhi nhân viên cấp cứu đến nơi, bệnh nhân bắt đầu tỉnh táo trở lại và hồi phụ"
+    },
+    {
+      "record": 8,
+      "position": [
+        981,
+        988
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "ảo giác",
+      "confidence": 0.9080975353717804,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "hăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên"
+    },
+    {
+      "record": 8,
+      "position": [
+        2329,
+        2336
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "sốt cao",
+      "confidence": 0.9028995335102081,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ông hóa mủ.\n\nLưu ý quan trọng:\nCác triệu chứng của Kawasaki dễ nhầm với sốt siêu vi, sốt phát ban, nhiễm trùng. Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + môi đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.\n4. Biến chứng nguy h"
+    },
+    {
+      "record": 8,
+      "position": [
+        2817,
+        2834
+      ],
+      "type": "CHẨN_ĐOÁN",
+      "text": "Rối loạn tiêu hóa",
+      "confidence": 0.9400876760482788,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "không điều trị đúng cách sẽ bị biến chứng này.\nBiến chứng khác:\n • Viêm cơ tim\n • Tràn dịch màng tim\n • Tăng men gan\n • Rối loạn tiêu hóa\n5. Chẩn đoán bệnh Kawasaki\n\nTiêu chuẩn chẩn đoán\n\nSốt ≥5 ngày + 4/5 tiêu chí sau:\n 1. Viêm kết mạc 2 bên không ghèn\n 2."
+    },
+    {
+      "record": 8,
+      "position": [
+        3033,
+        3040
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "bong da",
+      "confidence": 0.905479371547699,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "au:\n 1. Viêm kết mạc 2 bên không ghèn\n 2. Môi – miệng thay đổi (nứt, đỏ, lưỡi dâu tây)\n 3. Tổn thương đầu chi (phù, đỏ, bong da)\n 4. Ban đỏ toàn thân\n 5. Hạch cổ to ≥1,5 cm\n\nCác xét nghiệm cần làm\n"
+    },
+    {
+      "record": 9,
+      "position": [
+        2118,
+        2134
+      ],
+      "type": "THUỐC",
+      "text": "Simethicon 100mg",
+      "confidence": 0.935449500878652,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": " 3 loại thuốc em sử dụng như sau:\nAquima: nhôm hydroxid, magie hydroxid và **********.\nSimenic: Alverin citrate 40mg và Simethicon 100mg\nPimperam: metoclopramide 10mg\nThông tin về độ an toàn khi sử dụng các loại thuốc trên ở phụ nữ mang thai như sau:\nNhôm "
+    },
+    {
+      "record": 9,
+      "position": [
+        2145,
+        2164
+      ],
+      "type": "THUỐC",
+      "text": "metoclopramide 10mg",
+      "confidence": 0.9206520691514015,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ư sau:\nAquima: nhôm hydroxid, magie hydroxid và **********.\nSimenic: Alverin citrate 40mg và Simethicon 100mg\nPimperam: metoclopramide 10mg\nThông tin về độ an toàn khi sử dụng các loại thuốc trên ở phụ nữ mang thai như sau:\nNhôm hydroxid và magie hydroxid có "
+    },
+    {
+      "record": 10,
+      "position": [
+        122,
+        130
+      ],
+      "type": "THUỐC",
+      "text": "atenolol",
+      "confidence": 0.9239314595858256,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "  Tiền sử bệnh\n    Thuốc trước khi nhập viện\n    - metoprolol 25mg po bid\n    - doxycycline cho viêm tuyến mồ hôi\n    - atenolol (uống hôm nay)\n    Các yếu tố nguy cơ liên quan\n    - Theo lời bệnh nhân kể lại bệnh nhân có   Căng thẳng  nhiều trong "
+    },
+    {
+      "record": 13,
+      "position": [
+        2179,
+        2190
+      ],
+      "type": "CHẨN_ĐOÁN",
+      "text": "bệnh dạibao",
+      "confidence": 0.9321103990077972,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ật. Tuy nhiên các ca mắc dạng này chưa ghi nhận tại Việt Nam.\n- Các yếu tố có thể ảnh hưởng đến sự phát triển lây nhiễm bệnh dạibao gồm:\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau ngực trái cấp tính và đau sau xương ức lan ra sau lưng\nMức độ n"
+    },
+    {
+      "record": 14,
+      "position": [
+        85,
+        91
+      ],
+      "type": "CHẨN_ĐOÁN",
+      "text": "mề đay",
+      "confidence": 0.92889204621315,
+      "tier_A_vietmed": false,
+      "tier_B_phrase_heldout": true,
+      "known_hazard": false,
+      "context": "Câu hỏi từ người dùng :\n\nDạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và ngứa khắp người, bạn em bị nổi quanh năm luôn ạ. Những dấu mề đay nổi rất khó chịu và ngứa, được biết bạn em "
+    },
+    {
+      "record": 14,
+      "position": [
+        161,
+        167
+      ],
+      "type": "CHẨN_ĐOÁN",
+      "text": "mề đay",
+      "confidence": 0.9288231134414673,
+      "tier_A_vietmed": false,
+      "tier_B_phrase_heldout": true,
+      "known_hazard": false,
+      "context": "ời bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và ngứa khắp người, bạn em bị nổi quanh năm luôn ạ. Những dấu mề đay nổi rất khó chịu và ngứa, được biết bạn em có từng đi chữa trị và sử dụng rất nhiều thuốc nhưng không đỡ ạ. Mẹ của bạn "
+    },
+    {
+      "record": 15,
+      "position": [
+        2332,
+        2350
+      ],
+      "type": "THUỐC",
+      "text": "doxycyclinebactrim",
+      "confidence": 0.9394255611631606,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": true,
+      "context": "ngày nhập viện\n    - Được giới thiệu đến Khoa Cấp cứu để đánh giá thêm\n    - Bệnh nhân kiên quyết muốn tiếp tục sử dụng doxycyclinebactrim cho khả năng Viêm mô tế bào\n    - Cảm thấy rằng cô ấy đã có cải thiện do những loại thuốc này và không muốn ngừng chúng"
+    },
+    {
+      "record": 17,
+      "position": [
+        1057,
+        1065
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "sâu răng",
+      "confidence": 0.8775609135627747,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ng hoặc viêm khớp dạng thấp, các bệnh hô hấp, đột quỵ,...\n- Thiếu canxi và vitamin: Thiếu hụt canxi dễ gây loãng xương, sâu răng và có nguy cơ bị viêm nha chu. Hôi miệng và chảy máu chân răng còn có thể do cơ thể thiếu hụt vitamin K.\n- Tiểu đường: "
+    },
+    {
+      "record": 20,
+      "position": [
+        1335,
+        1347
+      ],
+      "type": "THUỐC",
+      "text": "morphineoral",
+      "confidence": 0.9389681935310363,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "36.3 độ C\nNhịp thở: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.  Đánh giá tại bệnh viện\n2. Bệnh dại lây truyền qua đường nào?\nVi-rút dại chủ yếu "
+    },
+    {
+      "record": 22,
+      "position": [
+        590,
+        598
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "đau bụng",
+      "confidence": 0.9475302398204803,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ng\n- Tiền sử 2 tháng đau bụng liên tục\nDiễn biến bệnh\n- Tiền sử 2 tháng đau bụng liên tục\n- 2 ngày trước khi nhập viện, đau bụng trở nên tồi tệ hơn\n- Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên"
+    },
+    {
+      "record": 23,
+      "position": [
+        303,
+        310
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "Mất ngủ",
+      "confidence": 0.8886996805667877,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ời kỳ mãn kinh có thể đóng một vai trò. Trong thời kỳ mãn kinh, đổ mồ hôi đêm và bốc hỏa thường làm gián đoạn giấc ngủ. Mất ngủ cũng phổ biến với thai kỳ.\nLời khuyên dành cho bạn:\n-        Chủ động giải quyết những sang chấn tâm lý có khả năng gây"
+    },
+    {
+      "record": 29,
+      "position": [
+        222,
+        229
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "Khó thở",
+      "confidence": 0.9485089182853699,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "áo đường típ 2\n- ho Rung nhĩ kèm đáp ứng thất nhanh\n- bệnh thận mạn, không đặc hiệu\n2. Bệnh sử hiện tại\nLý do vào viện: Khó thở tăng dần, diễn tiến nặng hơn từ sáng ngày nhập viện.\nKhoảng 5 ngày trước nhập viện, bệnh nhân xuất hiện cảm giác nghẹt "
+    },
+    {
+      "record": 29,
+      "position": [
+        504,
+        511
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "khó thở",
+      "confidence": 0.9488027691841125,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ảng 38,3°C. \nSau đó không còn sốt nhưng tình trạng nghẹt ngực vẫn kéo dài. \nTrong vài ngày gần đây, bệnh nhân xuất hiện khó thở tăng dần, chủ yếu khi gắng sức, kèm phù ngoại vi tăng dần trong vài tuần trở lại đây.\nBệnh nhân có tiền sử nhập viện gầ"
+    },
+    {
+      "record": 30,
+      "position": [
+        536,
+        539
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "sốt",
+      "confidence": 0.9398471713066101,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "- Vị trí: RL (Chân phải)\n    - Mức độ nghiêm trọng: đau tăng dần\n    - Các triệu chứng liên quan: phù, ban đỏ, chủ quan sốt, ớn lạnh\n    Các sự kiện trước khi nhập viện: được chuyển từ nơi trú ẩn đến Khoa Cấp cứu để đánh giá\n    Tình trạng nga"
+    },
+    {
+      "record": 30,
+      "position": [
+        1931,
+        1939
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "buồn ngủ",
+      "confidence": 0.9177279770374298,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "hiệu quả kiểm soát triệu chứng và những tác hại gây độc của liệu pháp điều trị. *************** có thể hệ sau không gây buồn ngủ là đơn hàng đầu sau đó đến *************** có thể hệ 1, ********* bậc thấp cách ngày hoặc hàng ngày và giảm dần chậm 2,"
+    },
+    {
+      "record": 33,
+      "position": [
+        326,
+        329
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "mụn",
+      "confidence": 0.8720590472221375,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": true,
+      "known_hazard": false,
+      "context": "u, thì sau khoảng 3 tháng điều trị da cháu ít dầu hơn và dường như không còn mụn. Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và mụn đầu trắng. Cháu không biết có nên đi khám "
+    },
+    {
+      "record": 34,
+      "position": [
+        974,
+        984
+      ],
+      "type": "CHẨN_ĐOÁN",
+      "text": "viêm xoang",
+      "confidence": 0.9249704480171204,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": " số người bệnh đều bị đau nửa đầu bên trái. Tình trạng đau kéo dài, thường xuyên dễ bị chẩn đoán nguyên nhân đau đầu do viêm xoang và có thể dẫn đến điều trị không đúng bệnh. Người bị cơn đau nửa đầu trái hành hạ để lâu sẽ gây ra các hậu quả nguy hiể"
+    },
+    {
+      "record": 39,
+      "position": [
+        390,
+        402
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "tụt huyết áp",
+      "confidence": 0.9279221494992574,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "àng sigma vì ung thư tuyến đại tràng\nCác yếu tố nguy cơ liên quan: xơ gan do rượu\n\n2. Bệnh sử hiện tại\nLý do nhập viện: tụt huyết áp không rõ nguyên nhân và mệt mỏi\nThời điểm khởi phát triệu chứng: vài ngày mệt mỏi\nDiễn biến bệnh\n- Bệnh nhân nhập viện,"
+    },
+    {
+      "record": 39,
+      "position": [
+        826,
+        833
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "mệt mỏi",
+      "confidence": 0.9485709369182587,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ày hẹn để cắt bỏ các mũi kẹp còn lại và thay thế vật liệu độn.\n- Hôm nay, bệnh nhân đến khoa Cấp cứu khám vì tình trạng mệt mỏi kéo dài trong vài ngày, kèm theo khó khăn khi ra khỏi giường vào sáng nay.\n- Bệnh nhân đã có đau bụng gián đoạn kể từ k"
+    },
+    {
+      "record": 46,
+      "position": [
+        1217,
+        1232
+      ],
+      "type": "CHẨN_ĐOÁN",
+      "text": "Stent mạch vành",
+      "confidence": 0.9435548484325409,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "i bảo tồn\n(EF BP: 55%)\nHở hai lá nhiều.\nHở chủ vừa.\nTăng áp lực động mạch phổi nhẹ\n\nChẩn đoán: Phù phổi cấp - Suy tim - Stent mạch vành - Tăng huyết áp\n\nXử trí : \n\n    - Phẫu thuật cắt bỏ u dây thần kinh số VIII \n    - Đặt shunt động tĩnh mạch (AVF) ở tay"
+    },
+    {
+      "record": 46,
+      "position": [
+        1816,
+        1824
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "buồn nôn",
+      "confidence": 0.9416873753070831,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ều\n    - Ăn không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\n    - khó thở khi gắng sức \n    - buồn nôn và nôn \nCận lâm sàng\n ********************* x 1,0 Viên\nNgày uống 1 viên buổi tối "
+    },
+    {
+      "record": 46,
+      "position": [
+        1828,
+        1831
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "nôn",
+      "confidence": 0.9068133234977722,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\n    - khó thở khi gắng sức \n    - buồn nôn và nôn \nCận lâm sàng\n ********************* x 1,0 Viên\nNgày uống 1 viên buổi tối "
+    },
+    {
+      "record": 50,
+      "position": [
+        263,
+        270
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "đau đầu",
+      "confidence": 0.9359529614448547,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "[Date].\n    - Bị tăng đau đầu cải thiện khi nằm ngửa.\n    - Nhập viện khoa Thần kinh vào thời điểm đó để điều trị chứng đau đầu.\n    - Được bác sĩ nhãn khoa khám trong quá trình nhập viện đó và không phát hiện phù gai thị.\n    Bệnh lý mãn tính: nã"
+    },
+    {
+      "record": 50,
+      "position": [
+        1109,
+        1116
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "đau đầu",
+      "confidence": 0.9330393075942993,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": " hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.\n    - Nhập viện trước đây vào khoa Thần kinh để điều trị chứng đau đầu.\n    - Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có phù gai thị.\n    - Đến hôm nay, bệnh nhân bị"
+    },
+    {
+      "record": 51,
+      "position": [
+        877,
+        884
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "khó thở",
+      "confidence": 0.8554513156414032,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc v"
+    },
+    {
+      "record": 54,
+      "position": [
+        998,
+        1001
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "ngã",
+      "confidence": 0.9373034238815308,
+      "tier_A_vietmed": false,
+      "tier_B_phrase_heldout": true,
+      "known_hazard": false,
+      "context": "n\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\nNhư bạn cũng biết đấy, bất kỳ một"
+    },
+    {
+      "record": 57,
+      "position": [
+        54,
+        68
+      ],
+      "type": "CHẨN_ĐOÁN",
+      "text": "Đái tháo đường",
+      "confidence": 0.9316876232624054,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "1. Tiền sử bệnh\nTiền sử bệnh nội khoa:\nTăng huyết áp.\nĐái tháo đường, có biến chứng bệnh lý thần kinh ngoại biên.\nSuy tim không do thiếu máu cơ tim (theo chẩn đoán trước đây).\nBệnh thận mạ"
+    },
+    {
+      "record": 57,
+      "position": [
+        965,
+        968
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "ngã",
+      "confidence": 0.8572070002555847,
+      "tier_A_vietmed": false,
+      "tier_B_phrase_heldout": true,
+      "known_hazard": false,
+      "context": " tra đường huyết thường xuyên tại nhà do hết que thử đường máu.\n- glucose là thấp, nên ngừng dùng glargine\n- Báo cáo bị ngã gần đây\n- Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại\n- Các loại thuốc (isosorbide, crestor, carvedilol) đã hết khi đi k"
+    },
+    {
+      "record": 61,
+      "position": [
+        902,
+        916
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "đờm vàng loãng",
+      "confidence": 0.9461587270100912,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\nĐối với phụ nữ sau sanh 10 ngày như em, thời gian cấy que tránh thai như"
+    },
+    {
+      "record": 63,
+      "position": [
+        902,
+        916
+      ],
+      "type": "THUỐC",
+      "text": "thuốc giảm đau",
+      "confidence": 0.8977163632710775,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "Không có thay đổi đáng kể về triệu chứng mặc dù đã điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định và ngừng thuốc giảm đau.\n    - Liều gleevec đã ngừng cách nhập viện 5 ngày.\n    - allopurinol đã ngừng cách nhập viện 5 ngày.\n    - ảo giác xảy"
+    },
+    {
+      "record": 64,
+      "position": [
+        1508,
+        1516
+      ],
+      "type": "THUỐC",
+      "text": "Nitramyl",
+      "confidence": 0.9088304042816162,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": " thay bằng các thuốc khác. \nHiện nay có nhiều thuốc đã được chứng minh hiệu quả hơn và an toàn hơn, ít tác dụng phụ hơn Nitramyl. Vì vậy bạn có thể đưa Mẹ bạn đến khám 1 bác sĩ chuyên khoa tim mạch để chỉ định thuốc phù hợp. \nCám ơn bạn đã tham gia"
+    },
+    {
+      "record": 72,
+      "position": [
+        332,
+        353
+      ],
+      "type": "THUỐC",
+      "text": "corticoid liều thấp",
+      "confidence": 0.8946477174758911,
+      "tier_A_vietmed": false,
+      "tier_B_phrase_heldout": true,
+      "known_hazard": false,
+      "context": " **************** thể hệ sau không gây buồn ngủ là lựa chọn hàng đầu sau đó đến **************** thể hệ 1, corticoid liều thấp cách ngày hoặc hàng ngày và giảm liều chậm 2,5 – 5mg mỗi 2-3 tuần. Nếu không đỡ hoặc có chống chỉ định, xin "
+    },
+    {
+      "record": 72,
+      "position": [
+        746,
+        763
+      ],
+      "type": "THUỐC",
+      "text": "klonopinclonidine",
+      "confidence": 0.9332334796587626,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": true,
+      "known_hazard": true,
+      "context": "  - rối loạn lo âu\n    Thuốc đã điều trị trước khi nhập viện lần này\n    - Thuốc kê đơn (tên không được chỉ định)\n    - klonopinclonidine (được kê đơn)\n    - clonidine (mua trên đường phố)\n    - suboxone (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày, dừng"
+    },
+    {
+      "record": 73,
+      "position": [
+        557,
+        560
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "sốt",
+      "confidence": 0.9391230940818787,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": " đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu "
+    },
+    {
+      "record": 73,
+      "position": [
+        1257,
+        1260
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "sốt",
+      "confidence": 0.9368917942047119,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "ũng như ngăn chặn tổn thương \n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng k"
+    },
+    {
+      "record": 82,
+      "position": [
+        551,
+        559
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "Đau bụng",
+      "confidence": 0.9451626837253571,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "có tiền sử đau lưng kéo dài từ lâu, khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.\nĐau bụng chủ yếu khu trú vùng hạ sườn phải, xuất hiện nhiều sau ăn, kèm cảm giác chướng bụng. \nCác triệu chứng liên quan gồm buồ"
+    },
+    {
+      "record": 85,
+      "position": [
+        72,
+        86
+      ],
+      "type": "CHẨN_ĐOÁN",
+      "text": "đái tháo đường",
+      "confidence": 0.9419756134351095,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "1.  Tiền sử bệnh nội khoa\n    Các bệnh mãn tính\n    - Tiểu đường loại 1 đái tháo đường\n    - tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - béo phì\n    - Nhiễm trùng đường tiết niệu (UTIs) tái phá"
+    },
+    {
+      "record": 87,
+      "position": [
+        182,
+        185
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "đau",
+      "confidence": 0.9154379963874817,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "h sử; cách vào viện khoảng 2 tháng, bn \nxuất hiện đau ngực T âm ỉ. đau không lan \nđợt này tình trạng đau ngực tăng lên, đau \ntăng khi gắng sức vào viện: \nKhám lúc vào: \nBn tỉnh \nĐau ngực T âm ỉ \nđau không lan \nkhông khó thở\nDa niêm mạc hồng \nK"
+    },
+    {
+      "record": 91,
+      "position": [
+        669,
+        676
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "khó thở",
+      "confidence": 0.944522887468338,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "n lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngự"
+    },
+    {
+      "record": 91,
+      "position": [
+        762,
+        776
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "Cơn nhịp nhanh",
+      "confidence": 0.9432405630747477,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": "hay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n "
+    },
+    {
+      "record": 94,
+      "position": [
+        244,
+        252
+      ],
+      "type": "TRIỆU_CHỨNG",
+      "text": "buồn nôn",
+      "confidence": 0.940730482339859,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": " máu vùng viêm giãn nở do ứ máu nhiều. Biểu hiện chủ yếu là đau bụng cồn cào kèm theo ợ hơi, ợ chua, có thể có cảm giác buồn nôn hoặc nôn. Trước kia bệnh dạ dày được coi là bệnh nan y và nguy hiểm nhưng mấy chục năm gần đây nhờ nội soi phát triển n"
+    },
+    {
+      "record": 95,
+      "position": [
+        973,
+        988
+      ],
+      "type": "CHẨN_ĐOÁN",
+      "text": "nhiễm trùng máu",
+      "confidence": 0.9327165881792704,
+      "tier_A_vietmed": true,
+      "tier_B_phrase_heldout": false,
+      "known_hazard": false,
+      "context": " lên, cản trở vận động. Nếu không được xử lý kịp thời, hạt tophi bị vỡ ra có thể gây hoại tử, biến dạng xương khớp, gây nhiễm trùng máu, rất khó lành\n\nCó những trường hợp acid uric tron hạt tophi giải phóng vào máu gây cơn gout cấp, đau các khớp rất nhiều"
+    }
+  ]
+}
