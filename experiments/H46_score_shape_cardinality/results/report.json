@@ -1,0 +1,120 @@
+{
+  "alpha_results": [
+    {
+      "action_counts": {
+        "1": 13,
+        "10": 2,
+        "2": 7,
+        "3": 1,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 3
+      },
+      "alpha": 0.1,
+      "dev_jaccard": 0.08928571428571429,
+      "mean_k": 3.107142857142857
+    },
+    {
+      "action_counts": {
+        "1": 14,
+        "10": 2,
+        "2": 7,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 3
+      },
+      "alpha": 1.0,
+      "dev_jaccard": 0.08928571428571429,
+      "mean_k": 2.9642857142857144
+    },
+    {
+      "action_counts": {
+        "1": 14,
+        "10": 2,
+        "2": 7,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 3
+      },
+      "alpha": 10.0,
+      "dev_jaccard": 0.08928571428571429,
+      "mean_k": 2.9642857142857144
+    },
+    {
+      "action_counts": {
+        "1": 17,
+        "10": 2,
+        "2": 5,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 3
+      },
+      "alpha": 100.0,
+      "dev_jaccard": 0.07142857142857142,
+      "mean_k": 2.8214285714285716
+    }
+  ],
+  "artifact_policy": "NO_SUBMISSION_ZIP",
+  "decision": "REJECT_BEFORE_TEST",
+  "dev": {
+    "action_counts": {
+      "1": 13,
+      "10": 2,
+      "2": 7,
+      "3": 1,
+      "4": 0,
+      "5": 2,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 3
+    },
+    "adaptive_jaccard": 0.08928571428571429,
+    "baseline_top1_jaccard": 0.07142857142857142,
+    "delta": 0.017857142857142863,
+    "gates": {
+      "macro_jaccard_delta_at_least_0_02": false,
+      "mean_predicted_k_at_most_3": false,
+      "paired_bootstrap_95_percent_lower_bound_above_0": false
+    },
+    "mean_k": 3.107142857142857,
+    "paired_bootstrap": {
+      "ci95_high": 0.05357142857142857,
+      "ci95_low": 0.0,
+      "point_delta": 0.017857142857142863,
+      "resamples": 10000,
+      "seed": 4601
+    },
+    "rows": 28
+  },
+  "feature_dimension": 33,
+  "hypothesis": "H46_score_shape_cardinality",
+  "input_hashes": {
+    "concepts": "4b08669bbdfaca23ab987aa29c924bd7ce1e66b92f1303d5a91e35bb6c6f22d7",
+    "dataset": "c4237bb90e2e46563f4887907271a512b21b5c2b81cc182865215068d76ed7b6",
+    "queries": "29d8cc6a36ca1f0fe4e097153c1eb9e517c35887b637bfeab69e52867aa4bba5",
+    "ranking": "87dbc1391dd1ab58693efec6933b34c73f53ca6f6f9d13730925125b9cf2e41b"
+  },
+  "label_warning": "weak_pseudo_labels_not_organizer_ground_truth",
+  "ontology_node_sha256": "40c3dd800ee9897f8a41b13f1e277d89bf310471f7279004fd8f8b3a74ee5e08",
+  "ranking_reproduction": "420/420",
+  "selected_alpha": 0.1,
+  "test": {
+    "status": "canceled_by_preregistered_dev_gate"
+  }
+}

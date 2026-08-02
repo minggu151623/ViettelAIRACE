@@ -827,6 +827,14 @@ The strongest verified direction is conservative structural cleanup:
   calibrated row-level cardinality signal—not more retrieval depth. H44 remains
   a distinct externally grounded family-policy test; H24 recall@k gains cannot
   justify broad candidate lists or a reset-slot artifact.
+- **H46 finds weak row-level cardinality signal but rejects it before test.**
+  A ridge utility model using only frozen Qwen cosine shape improves diagnosis
+  dev Jaccard from 0.07143 to 0.08929 (+0.01786), but misses the registered
+  +0.02 gate, its paired-bootstrap interval is `[0, 0.05357]`, and mean chosen
+  `k=3.107` exceeds the safety ceiling. Five of 28 rows receive `k=9` or `k=10`,
+  showing unstable extrapolation. The test fold remains unopened under H46.
+  Score margins are not worthless, but 28 weak dev aliases cannot calibrate a
+  safe set policy; this branch now requires H41 independent labels.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

@@ -1356,3 +1356,16 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - A per-row prefix oracle reaches 0.233099, revealing calibration headroom but
   no deployable selection rule. All 135 tests pass, repeat reports are byte-
   identical, and no submission ZIP was created.
+
+## 2026-08-03 — H46 score-shape calibration rejected before test
+
+- Reproduced 420/420 H24 diagnosis top-10 rankings from frozen Qwen embedding
+  caches and locked a train-only ridge utility model before evaluation.
+- On 28 alias-disjoint dev diagnoses, adaptive Jaccard rose 0.071429 → 0.089286
+  (+0.017857), but the 95% paired-bootstrap interval was `[0, 0.053571]` and
+  mean selected cardinality was 3.107.
+- All three preregistered dev gates failed. The H46 test fold was canceled and
+  no new features, thresholds, ZIP, or leaderboard artifact were constructed.
+- Repeat reports are byte-identical at SHA-256
+  `58573af96d2f6a3589ede0939be8bfd650335e2d6db7bdd9aaa8711c5745c8f5`;
+  all 137 tests pass.

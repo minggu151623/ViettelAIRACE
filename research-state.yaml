@@ -62,7 +62,11 @@ current_direction: >
   ranked-prefix Jaccard on H24's frozen weak-link split. Dev selects k=1 for
   both types; test falls monotonically from 0.17857 at k=1 to 0.03912 at k=10.
   Generic candidate-list expansion is closed: ranking depth without calibrated
-  row-level set size is not a submission mechanism.
+  row-level set size is not a submission mechanism. H46 then tests the missing
+  row-level score-shape mechanism: diagnosis dev Jaccard rises by 0.01786, but
+  the confidence interval includes zero and mean k exceeds its ceiling. Test is
+  canceled by protocol. Candidate cardinality now requires independent labels,
+  not another weak-link feature family.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -444,6 +448,7 @@ experiments:
     - "H44 full WHO hedge: 611 diagnosis rows across 97 records; 100/100 valid, 132 tests, deterministic ZIP 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba"
     - "H44 external decision tree locked before score reveal: candidate delta null band ±0.02, strong-positive gate +0.50, candidate-only metric invariants required"
     - "H45 Jaccard cardinality rejected: dev selects k=1 for both types; test 0.17857 at k=1 vs 0.10714/0.06012/0.03912 at k=2/5/10; no ZIP"
+    - "H46 score-shape calibration rejected before test: dev +0.01786, CI [0, 0.05357], mean k 3.107; 420/420 rankings reproduced, 137 tests, no ZIP"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
     candidate Jaccard before constructing another artifact. In parallel,
@@ -455,7 +460,10 @@ experiments:
     level estimates as descriptive, never as independent bootstrap units.
     Do not expose H38/model predictions to either reviewer before label lock.
     Do not build a generic top-k candidate challenger: H45 shows retrieval depth
-    without calibrated row-level cardinality sharply reduces Jaccard.
+    without calibrated row-level cardinality sharply reduces Jaccard. Do not
+    extend H46 with new weak-link features: its dev signal is uncertain and its
+    test fold remains unopened; resume cardinality only with H41 independent
+    labels.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
