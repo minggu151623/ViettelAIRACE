@@ -1,0 +1,137 @@
+hypothesis: H41_repeated_passage_blind_annotation
+status: preregistered
+created_at: "2026-08-03T09:15:00+07:00"
+question: >
+  Can a small prediction-blind annotation set over unique repeated Turn-2
+  passages provide sufficiently independent supervision to select extraction,
+  assertion and ontology changes without spending leaderboard submissions?
+
+motivation:
+  frozen_external_baseline:
+    artifact: turn2/output_v10_multiview_consensus.zip
+    sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+    score: 39.2813
+  H39_result: 4_of_19_real_leave_one_family_out_cells_improved
+  H40_result:
+    repeated_groups: 271
+    character_coverage: 0.430744246063871
+    canonical_stability: 0.8837209302325582
+    conclusion: repetition_multiplies_labels_but_does_not_create_them
+
+frozen_inputs:
+  input_tree: turn2/input
+  input_tree_sha256: d68702073a5e478df60ab389b71587813ffac08475902f043446346ef0f15bcf
+  forbidden_during_selection_and_annotation:
+    - turn2/output_v10_multiview_consensus
+    - turn2/output_v10_multiview_consensus.zip
+    - all_model_outputs
+    - all_proposal_views
+    - all_prior_human_or_llm_reviews
+
+passage_universe:
+  segmentation: exact_nonempty_physical_line_after_trimming_outer_whitespace
+  minimum_characters: 40
+  minimum_distinct_records: 2
+  normalization: none
+  identity: sha256_of_exact_utf8_passage
+
+queue_selection:
+  total_unique_passages: 60
+  ranking: descending_length_times_distinct_record_count_then_seeded_sha256
+  tie_seed: 4101
+  strata:
+    high:
+      condition: distinct_record_count_at_least_4
+      count: 15
+      holdout: 4
+    middle:
+      condition: distinct_record_count_equals_3
+      count: 15
+      holdout: 4
+    low:
+      condition: distinct_record_count_equals_2
+      count: 30
+      holdout: 7
+  split_assignment: >
+    Within each selected stratum, order by sha256(seed || passage_id); assign
+    the registered holdout count first and all remaining passages to
+    development.
+  selection_features_allowed:
+    - exact_raw_passage
+    - passage_length
+    - distinct_record_count
+    - exact_occurrence_offsets
+    - deterministic_hash
+  selection_features_forbidden:
+    - model_predictions
+    - existing_output_entities
+    - confidence
+    - candidate_codes
+    - leaderboard_results_by_record
+
+annotation_policy:
+  stage_A_passage:
+    display: exact_passage_only
+    labels: [text, type, relative_position, candidates]
+    empty_passage_annotation: allowed_and_explicit
+    model_prefill: forbidden
+    candidate_prefill: forbidden
+  stage_B_occurrence:
+    display: exact_passage_plus_200_characters_left_and_right_context
+    labels: [assertions]
+    assertion_values: [isNegated, isHistorical, isFamily]
+    model_prefill: forbidden
+    rule_prefill: forbidden
+  candidate_policy: >
+    A reviewer may enter an ICD-10 or RxCUI only from independent medical
+    knowledge or a separately consulted official terminology. Empty is safer
+    than guessing. No current pipeline candidate is shown.
+  offset_policy: >
+    Every stage-A position is [start,end) relative to the exact passage and
+    must satisfy passage[start:end] == text. Projection adds the frozen
+    occurrence start without text normalization.
+
+review_design:
+  development_passages: 45
+  hidden_holdout_passages: 15
+  minimum_reviewers: 2
+  independence: reviewers_must_not_see_each_others_labels_before_lock
+  double_annotation: all_15_holdout_passages_and_every_holdout_occurrence
+  adjudication: only_after_both_independent_files_are_checksum_locked
+
+registered_gates_before_model_comparison:
+  - input_hash_matches
+  - exactly_60_unique_passages_with_registered_stratum_counts
+  - exactly_45_development_and_15_holdout_passages
+  - queue_and_UI_import_no_prediction_or_output_directory
+  - all_selected_occurrence_offsets_round_trip_exactly
+  - all_60_stage_A_passages_reviewed_by_primary_reviewer
+  - all_selected_occurrences_have_stage_B_assertion_review
+  - all_15_holdout_passages_double_annotated_independently
+  - holdout_strict_span_type_F1_between_reviewers_at_least_0.85
+  - holdout_assertion_macro_jaccard_between_reviewers_at_least_0.80
+  - zero_invalid_type_assertion_candidate_or_offset_rows
+  - labels_and_adjudication_manifest_are_checksum_locked
+
+registered_model_gate_after_label_lock:
+  training_scope: development_only
+  selection_scope: development_only
+  one_shot_evaluation_scope: adjudicated_holdout_only
+  baseline: frozen_H38
+  challenger_requirements:
+    - strict_span_type_F1_exceeds_H38
+    - bootstrap_95_percent_lower_bound_for_competition_score_delta_is_above_0
+    - assertion_macro_jaccard_not_below_H38_minus_0.01
+    - candidate_weighted_jaccard_not_below_H38_minus_0.01
+    - all_100_records_validate
+    - repeated_output_and_zip_are_byte_identical
+
+failure_policy: >
+  Do not reveal model predictions in the queue, tune on holdout, weaken
+  inter-reviewer gates, or create a submission ZIP when annotations are
+  incomplete or the one-shot holdout gate fails. Record the result and keep
+  H38 as the external baseline.
+
+if_passed:
+  artifact_name: turn2/output_v11_h41_supervised
+  submission: user_only
