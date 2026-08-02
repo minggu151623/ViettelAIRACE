@@ -29,3 +29,5 @@
   `experiments/H41_repeated_passage_blind_annotation/results/queue_audit.json`;
   main queue SHA-256
   `a10b345aea2247cc5843e89894130f43279bd5bfc36c7bfda0c7abd357bd5f08`.
+- H42 clustered-inference audit: `tables/h42_cluster_gate.md`; full simulation
+  at `experiments/H42_h41_cluster_gate/results/null_simulation.json`.

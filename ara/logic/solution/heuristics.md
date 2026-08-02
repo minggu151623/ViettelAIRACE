@@ -164,3 +164,13 @@
 - **Sensitivity**: high
 - **Code ref**: [`airace/passage_annotation.py`,
   `airace/passage_annotation_app.py`, `tests/test_passage_annotation.py`]
+
+## H20: Bootstrap passage clusters, not projected occurrences
+- **Rationale**: Exact projection increases labeled coverage but copies the
+  passage-level error source. Resample unique passage IDs inside the frozen
+  high/middle/low strata, aggregate assertion variation within passage, and
+  report occurrence-weighted estimates as descriptive only.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/h41_cluster_gate.py`,
+  `tests/test_h41_cluster_gate.py`]

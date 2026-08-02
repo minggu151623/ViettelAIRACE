@@ -495,3 +495,19 @@
   `experiments/H41_repeated_passage_blind_annotation/results/queue_audit.json`]
 - **Dependencies**: [C35, C36]
 - **Tags**: repeated-passages, annotation, independence, projection
+
+## C38: Repeated occurrences are not independent promotion units
+- **Statement**: H41 must resample unique passages within its frozen strata;
+  treating exact repeated occurrences as independent bootstrap observations
+  materially inflates false promotion under plausible within-passage error
+  correlation.
+- **Status**: supported by preregistered simulation; real-label calibration pending
+- **Provenance**: ai-suggested
+- **Falsification criteria**: The frozen H42 simulation fails either registered
+  reduction gate, or an independent derivation shows occurrence resampling
+  controls the nominal error despite shared passage effects.
+- **Proof**: [`experiments/H42_h41_cluster_gate/protocol.yaml`,
+  `experiments/H42_h41_cluster_gate/results/null_simulation.json`,
+  `airace/h41_cluster_gate.py`]
+- **Dependencies**: [C37]
+- **Tags**: bootstrap, clustered-data, repeated-passages, promotion-gate

@@ -1,0 +1,42 @@
+session:
+  id: "2026-08-03_002"
+  timestamp: "2026-08-03T10:50+07:00"
+  summary: "Preregistered H42, proved occurrence bootstrap anti-conservative, and repaired H41 with passage-local clustered inference."
+
+events_logged:
+  - type: experiment
+    id: N52
+    provenance: ai-executed
+    summary: "H42 passed both correlated-null reduction gates and produced a deterministic cluster-aware evaluator."
+  - type: claim
+    id: C38
+    provenance: ai-suggested
+    summary: "Repeated occurrences multiply annotation coverage but are not independent promotion units."
+  - type: heuristic
+    id: H20
+    provenance: ai-suggested
+    summary: "Bootstrap unique passages within frozen strata and keep occurrence-weighted effects descriptive."
+
+ai_actions:
+  - action: "Preregistered H42 before simulation in a separate protocol commit."
+    provenance: ai-executed
+    files_changed: ["experiments/H42_h41_cluster_gate/protocol.yaml"]
+  - action: "Ran 40 million bootstrap samples under the frozen correlated-null design and reproduced identical JSON bytes."
+    provenance: ai-executed
+    files_changed: ["experiments/H42_h41_cluster_gate/results/null_simulation.json"]
+  - action: "Implemented passage-local scoring, crossing-boundary rejection and stratified passage bootstrap; ran 127 tests."
+    provenance: ai-executed
+    files_changed: ["airace/h41_cluster_gate.py", "tests/test_h41_cluster_gate.py"]
+
+claims_touched:
+  - id: C38
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Reviewer 1 must label all 60 H41 passages without model or output exposure."
+  - "Reviewer 2 must independently label the frozen 15-passage queue."
+  - "After checksum lock and adjudication, use only the H42 passage-clustered evaluator for the one-shot holdout decision."
+
+ai_suggestions_pending:
+  - "Do not treat 164 projected occurrences as independent observations in any later significance test."
