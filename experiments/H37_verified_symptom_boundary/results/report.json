@@ -1,0 +1,768 @@
+{
+  "accepted_symptoms": 29,
+  "applied_rows": 26,
+  "applied_unique": true,
+  "counts": {
+    "skipped_conflicts": 3,
+    "removed_baseline_rows": 21,
+    "added_output_rows": 26,
+    "disjoint_additions": 4,
+    "boundary_rows": 22
+  },
+  "skipped": [
+    {
+      "record": 1,
+      "text": "bại não",
+      "position": [
+        1995,
+        2002
+      ],
+      "overlaps": [
+        {
+          "text": "bại não",
+          "type": "CHẨN_ĐOÁN",
+          "candidates": [
+            "G80.9"
+          ],
+          "assertions": [],
+          "position": [
+            1995,
+            2002
+          ]
+        }
+      ]
+    },
+    {
+      "record": 17,
+      "text": "sâu răng",
+      "position": [
+        1057,
+        1065
+      ],
+      "overlaps": [
+        {
+          "text": "sâu răng",
+          "type": "CHẨN_ĐOÁN",
+          "candidates": [
+            "K02.9"
+          ],
+          "assertions": [],
+          "position": [
+            1057,
+            1065
+          ]
+        }
+      ]
+    },
+    {
+      "record": 23,
+      "text": "Mất ngủ",
+      "position": [
+        303,
+        310
+      ],
+      "overlaps": [
+        {
+          "text": "Mất ngủ",
+          "type": "CHẨN_ĐOÁN",
+          "candidates": [
+            "G47.0"
+          ],
+          "assertions": [],
+          "position": [
+            303,
+            310
+          ]
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "record": 6,
+      "removed": [
+        {
+          "text": "Tình trạng ý thức dao động",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            1683,
+            1709
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "ngã",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            231,
+            234
+          ]
+        },
+        {
+          "text": "ý thức dao động",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            1694,
+            1709
+          ]
+        }
+      ]
+    },
+    {
+      "record": 8,
+      "removed": [
+        {
+          "text": "sốt cao 3–4 ngày",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            2329,
+            2345
+          ]
+        },
+        {
+          "text": "Tổn thương đầu chi (phù, đỏ, bong da)",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            3004,
+            3041
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "ảo giác",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            981,
+            988
+          ]
+        },
+        {
+          "text": "sốt cao",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            2329,
+            2336
+          ]
+        },
+        {
+          "text": "bong da",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            3033,
+            3040
+          ]
+        }
+      ]
+    },
+    {
+      "record": 22,
+      "removed": [
+        {
+          "text": "đau bụng trở nên tồi tệ hơn",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            590,
+            617
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "đau bụng",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            590,
+            598
+          ]
+        }
+      ]
+    },
+    {
+      "record": 29,
+      "removed": [
+        {
+          "text": "Khó thở tăng dần",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            222,
+            238
+          ]
+        },
+        {
+          "text": "khó thở tăng dần",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            504,
+            520
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "Khó thở",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            222,
+            229
+          ]
+        },
+        {
+          "text": "khó thở",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            504,
+            511
+          ]
+        }
+      ]
+    },
+    {
+      "record": 30,
+      "removed": [
+        {
+          "text": "chủ quan sốt",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            527,
+            539
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "sốt",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            536,
+            539
+          ]
+        },
+        {
+          "text": "buồn ngủ",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            1931,
+            1939
+          ]
+        }
+      ]
+    },
+    {
+      "record": 33,
+      "removed": [],
+      "added": [
+        {
+          "text": "mụn",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            326,
+            329
+          ]
+        }
+      ]
+    },
+    {
+      "record": 39,
+      "removed": [
+        {
+          "text": "tụt huyết áp không rõ nguyên nhân",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            390,
+            423
+          ]
+        },
+        {
+          "text": "mệt mỏi kéo dài trong vài ngày",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            826,
+            856
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "tụt huyết áp",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            390,
+            402
+          ]
+        },
+        {
+          "text": "mệt mỏi",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            826,
+            833
+          ]
+        }
+      ]
+    },
+    {
+      "record": 46,
+      "removed": [
+        {
+          "text": "buồn nôn và nôn",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            1816,
+            1831
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "buồn nôn",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            1816,
+            1824
+          ]
+        },
+        {
+          "text": "nôn",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            1828,
+            1831
+          ]
+        }
+      ]
+    },
+    {
+      "record": 50,
+      "removed": [
+        {
+          "text": "chứng đau đầu",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            257,
+            270
+          ]
+        },
+        {
+          "text": "chứng đau đầu",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            1103,
+            1116
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "đau đầu",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            263,
+            270
+          ]
+        },
+        {
+          "text": "đau đầu",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            1109,
+            1116
+          ]
+        }
+      ]
+    },
+    {
+      "record": 51,
+      "removed": [
+        {
+          "text": "khó nằm vào ban đêm để ngủ vì khó thở",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            847,
+            884
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "khó thở",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            877,
+            884
+          ]
+        }
+      ]
+    },
+    {
+      "record": 54,
+      "removed": [
+        {
+          "text": "ngã hôm nay",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            998,
+            1009
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "ngã",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            998,
+            1001
+          ]
+        }
+      ]
+    },
+    {
+      "record": 57,
+      "removed": [
+        {
+          "text": "ngã gần đây",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            965,
+            976
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "ngã",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isHistorical"
+          ],
+          "position": [
+            965,
+            968
+          ]
+        }
+      ]
+    },
+    {
+      "record": 61,
+      "removed": [
+        {
+          "text": "ho mạn tính có đờm vàng loãng",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            887,
+            916
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "đờm vàng loãng",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            902,
+            916
+          ]
+        }
+      ]
+    },
+    {
+      "record": 73,
+      "removed": [
+        {
+          "text": "sốt và run rẩy",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            557,
+            571
+          ]
+        },
+        {
+          "text": "sốt và run rẩy",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            1257,
+            1271
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "sốt",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            557,
+            560
+          ]
+        },
+        {
+          "text": "sốt",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            1257,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "record": 82,
+      "removed": [
+        {
+          "text": "Đau bụng chủ yếu khu trú vùng hạ sườn phải",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            551,
+            593
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "Đau bụng",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            551,
+            559
+          ]
+        }
+      ]
+    },
+    {
+      "record": 91,
+      "removed": [
+        {
+          "text": "khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isNegated"
+          ],
+          "position": [
+            730,
+            776
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "Cơn nhịp nhanh",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [
+            "isNegated"
+          ],
+          "position": [
+            762,
+            776
+          ]
+        }
+      ]
+    },
+    {
+      "record": 94,
+      "removed": [
+        {
+          "text": "buồn nôn hoặc nôn",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            244,
+            261
+          ]
+        }
+      ],
+      "added": [
+        {
+          "text": "buồn nôn",
+          "type": "TRIỆU_CHỨNG",
+          "assertions": [],
+          "position": [
+            244,
+            252
+          ]
+        }
+      ]
+    }
+  ],
+  "unaffected_entities_identical": true,
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 863,
+      "TÊN_XÉT_NGHIỆM": 448,
+      "TRIỆU_CHỨNG": 1265,
+      "THUỐC": 275,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "zip": {
+    "zip": "turn2/output_v9_verified_symptoms.zip",
+    "files": 100,
+    "members": [
+      "output/1.json",
+      "output/2.json",
+      "output/3.json",
+      "output/4.json",
+      "output/5.json",
+      "output/6.json",
+      "output/7.json",
+      "output/8.json",
+      "output/9.json",
+      "output/10.json",
+      "output/11.json",
+      "output/12.json",
+      "output/13.json",
+      "output/14.json",
+      "output/15.json",
+      "output/16.json",
+      "output/17.json",
+      "output/18.json",
+      "output/19.json",
+      "output/20.json",
+      "output/21.json",
+      "output/22.json",
+      "output/23.json",
+      "output/24.json",
+      "output/25.json",
+      "output/26.json",
+      "output/27.json",
+      "output/28.json",
+      "output/29.json",
+      "output/30.json",
+      "output/31.json",
+      "output/32.json",
+      "output/33.json",
+      "output/34.json",
+      "output/35.json",
+      "output/36.json",
+      "output/37.json",
+      "output/38.json",
+      "output/39.json",
+      "output/40.json",
+      "output/41.json",
+      "output/42.json",
+      "output/43.json",
+      "output/44.json",
+      "output/45.json",
+      "output/46.json",
+      "output/47.json",
+      "output/48.json",
+      "output/49.json",
+      "output/50.json",
+      "output/51.json",
+      "output/52.json",
+      "output/53.json",
+      "output/54.json",
+      "output/55.json",
+      "output/56.json",
+      "output/57.json",
+      "output/58.json",
+      "output/59.json",
+      "output/60.json",
+      "output/61.json",
+      "output/62.json",
+      "output/63.json",
+      "output/64.json",
+      "output/65.json",
+      "output/66.json",
+      "output/67.json",
+      "output/68.json",
+      "output/69.json",
+      "output/70.json",
+      "output/71.json",
+      "output/72.json",
+      "output/73.json",
+      "output/74.json",
+      "output/75.json",
+      "output/76.json",
+      "output/77.json",
+      "output/78.json",
+      "output/79.json",
+      "output/80.json",
+      "output/81.json",
+      "output/82.json",
+      "output/83.json",
+      "output/84.json",
+      "output/85.json",
+      "output/86.json",
+      "output/87.json",
+      "output/88.json",
+      "output/89.json",
+      "output/90.json",
+      "output/91.json",
+      "output/92.json",
+      "output/93.json",
+      "output/94.json",
+      "output/95.json",
+      "output/96.json",
+      "output/97.json",
+      "output/98.json",
+      "output/99.json",
+      "output/100.json"
+    ]
+  },
+  "zip_sha256": "032041a8f92bc97ca6a92d4cb4809d6aa39122471056df97bfe1fd1fe4585abc"
+}

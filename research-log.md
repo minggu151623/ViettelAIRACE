@@ -1155,3 +1155,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   rejected set contains incomplete, generic, unsupported, and fused mentions.
 - H36 produced a verified queue only, as preregistered. No merge ZIP or
   competition submission was created.
+
+## 2026-08-02 — H37 verified symptoms produce a candidate artifact
+
+- Froze H23 and H36 hashes before integration. Limited the transform to
+  `TRIỆU_CHỨNG`, so no ICD/RxNorm decision can enter this ablation.
+- Replaced 21 longer H23 symptom rows with 22 independently supported core
+  spans, added four disjoint symptoms, and skipped three cross-type conflicts.
+- Preserved assertions for replacements and used the unchanged assertion rule
+  only for disjoint rows. All unaffected H23 entities remain identical.
+- All 100 records validate; 108 tests pass; repeated packaging is byte-identical
+  at SHA-256 `032041a8f92bc97ca6a92d4cb4809d6aa39122471056df97bfe1fd1fe4585abc`.
+- Created `turn2/output_v9_verified_symptoms.zip`. It has not been submitted.

@@ -32,10 +32,11 @@ current_direction: >
   VietMed, eight held-out phrase, two both), but two known fused hazards remain.
   H36's controlled dual verifier passes every frozen gate: 90% positive-control
   retention, 100% registered-hazard rejection, 92.59% prompt agreement and 42
-  accepted novel rows. Twenty-nine are symptoms and therefore require no
-  candidate code. The next experiment will freeze these rows and isolate a
-  symptom-only merge with rule-derived assertions before any diagnosis/drug
-  candidate enrichment. No new submission artifact is authorized yet.
+  accepted novel rows. H37 integrates only the 29 symptom candidates: 22
+  verified core-boundary replacements, four disjoint additions, and three
+  cross-type conflicts skipped. Every structural and determinism gate passes,
+  creating the unsubmitted V9 artifact. Diagnosis/drug additions remain frozen
+  until candidate enrichment has an independent gate.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -191,6 +192,15 @@ hypotheses:
       Retained 27/30 positive controls, rejected both hazards, achieved 92.59%
       prompt agreement and accepted 42/51 novel rows. Direct merge remains
       forbidden; symptom-only integration is the registered successor.
+  H37_verified_symptom_boundary:
+    status: passed_candidate_artifact_unsubmitted
+    prediction: >
+      Independently supported, dual-verified symptom cores can repair H23's
+      inflated boundaries without risking ICD/RxNorm candidate score.
+    result: >
+      Applied 22 boundary rows and four disjoint additions, skipped all three
+      type conflicts, preserved unaffected entities, and passed schema, offset,
+      test, and byte-determinism gates.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -317,11 +327,12 @@ experiments:
     - "H34 minimum-epoch recovery: fold F1 0 -> 54.35; aggregate precision/recall/F1 82.23/46.15/59.12, but fold recall misses gate by 0.57 points"
     - "H35 agreement audit: 316 H34-new spans -> 51 exact independent agreements; two known fused hazards remain"
     - "H36 controlled verifier passed: 27/30 controls retained, both hazards rejected, 42/51 novel rows accepted"
+    - "H37 verified symptoms: 22 boundary rows plus four disjoint additions; 100/100 valid; deterministic ZIP 032041a8f92bc97ca6a92d4cb4809d6aa39122471056df97bfe1fd1fe4585abc"
   next: >
-    Preregister a symptom-only merge from H36's frozen accepted queue. Infer
-    assertions with the unchanged rule engine, keep every H23 row byte-stable,
-    validate offsets/schema/determinism, and keep diagnosis/drug additions out
-    until candidate enrichment has an independent gate.
+    Keep H37 as the next leaderboard candidate. Separately preregister
+    diagnosis/drug enrichment for the 13 H36-accepted rows using existing H23
+    exact aliases and the frozen H24 type router; do not attach an unsupported
+    code or alter the H37 symptom ablation before external measurement.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

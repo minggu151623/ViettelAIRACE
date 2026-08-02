@@ -732,6 +732,12 @@ The strongest verified direction is conservative structural cleanup:
   prompts. It accepts 42/51 novel rows, including 29 symptoms that can be tested
   without introducing an ICD/RxNorm candidate decision. This authorizes a
   symptom-only integration experiment, not an automatic submission.
+- **Verified symptom agreement chiefly identifies H23 boundary inflation.** Of
+  29 H36-accepted symptoms, 22 are core spans inside 21 longer H23 symptoms,
+  four are disjoint additions, and three conflict with an H23 diagnosis type.
+  H37 applies only the first two groups. It removes 314 net boundary characters
+  while freezing candidates and all unaffected entities; structural and
+  determinism gates pass. External effect is not yet known.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
