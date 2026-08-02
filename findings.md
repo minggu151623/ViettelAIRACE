@@ -688,6 +688,15 @@ The strongest verified direction is conservative structural cleanup:
 
 ## Open questions
 
+### H29 boundary-policy update
+
+- **General semantic completeness is not the annotation boundary policy.** H29
+  achieved complete choice coverage but only 37.07% corrupted-span recovery and
+  70.13% unchanged-control retention. Qwen frequently selected a surrounding
+  grammatical clause or a semantically plausible shorter phrase. A boundary
+  model must learn BIO-style inclusion decisions from the project's repeated
+  records; prompt wording is not a reliable substitute.
+
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
 2. Does the RxNorm-only policy improve the external candidate score over V6?

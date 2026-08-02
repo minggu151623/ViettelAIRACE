@@ -1,0 +1,48 @@
+{
+  "dev": {
+    "enumeration": {
+      "candidate_entities": 392,
+      "excluded_unrepresentable": 17,
+      "eligible_entities": 375,
+      "covered_entities": 375,
+      "coverage": 1.0
+    },
+    "corrupted_cases": 375,
+    "corrupted_exact_recovery": 0.37066666666666664,
+    "control_cases": 375,
+    "unchanged_control_retention": 0.7013333333333334,
+    "malformed_response_rate": 0.013333333333333308,
+    "responses_complete": false,
+    "per_type": {
+      "CHẨN_ĐOÁN": {
+        "support": 113,
+        "exact_recovery": 0.5398230088495575
+      },
+      "KẾT_QUẢ_XÉT_NGHIỆM": {
+        "support": 25,
+        "exact_recovery": 0.24
+      },
+      "THUỐC": {
+        "support": 4,
+        "exact_recovery": 0.0
+      },
+      "TRIỆU_CHỨNG": {
+        "support": 198,
+        "exact_recovery": 0.3181818181818182
+      },
+      "TÊN_XÉT_NGHIỆM": {
+        "support": 35,
+        "exact_recovery": 0.2571428571428571
+      }
+    }
+  },
+  "dev_gates": {
+    "eligible_enumerator_coverage_equals_1": true,
+    "corrupted_exact_recovery_at_least_0_70": false,
+    "unchanged_control_retention_at_least_0_93": false,
+    "malformed_response_rate_equals_0": false
+  },
+  "test": null,
+  "test_gates": null,
+  "status": "dev_failed_test_canceled"
+}

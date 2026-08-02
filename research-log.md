@@ -1061,3 +1061,16 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   punctuation.
 - The model and test phases were canceled before any decisions were generated.
   No ZIP or competition submission was created.
+
+## 2026-08-03 — H29 prompt boundary selection rejected
+
+- Registered ±7-token expansion, raw plus punctuation-trimmed choices, and
+  excluded 17 pseudo-targets not representable by token boundaries. The eligible
+  choice set covered 375/375 dev entities.
+- Frozen `qwen3:8b` decisions recovered only 139/375 corrupted spans (37.07%)
+  and retained 263/375 unchanged controls (70.13%). The malformed rate was
+  1.33%; all three model-dependent gates failed.
+- Errors were symmetric: 97 corrupted predictions were too long, 97 too short,
+  and 37 shifted. Another 106 already-correct controls were over-expanded.
+- Test was canceled and no ZIP was created. The next architecture must learn
+  token inclusion/BIO policy from held-out weak labels.

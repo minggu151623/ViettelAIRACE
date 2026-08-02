@@ -13,10 +13,12 @@ current_direction: >
   precision-improvement gate and therefore never touched test. Residual errors
   are dominated by incomplete local boundaries that binary KEEP/DROP cannot
   repair. H28 correctly stopped before inference because its ±4-token choice
-  set covered only 82.91% of dev targets. The successor will restrict the
-  benchmark to token-aligned targets and prove complete enumeration before a
-  frozen local boundary selector is invoked. No new submission artifact is
-  authorized yet.
+  set covered only 82.91% of dev targets. H29 then proved 100% eligible choice
+  coverage, but Qwen recovered only 37.07% of corrupted spans and damaged
+  29.87% of unchanged controls. Prompt-level boundary repair is rejected. The
+  next architecture will fine-tune a medical token classifier on H23 train
+  records and evaluate untouched dev/test records. No new submission artifact
+  is authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -280,11 +282,12 @@ experiments:
     - "H26 train-only phrase source: dev/test F1 gains +4.08/+1.32, but addition precision 50.59/36.11%"
     - "H27 dual-prompt verifier rejected on dev: retention 81.40%, F1 gain +4.06, pseudo-precision gain +10.82 below +15 gate; test canceled"
     - "H28 boundary selector stopped pre-inference: enumerator coverage 82.91% below 95%; model and test canceled"
+    - "H29 token-aligned selector rejected: coverage 100%, corrupted recovery 37.07%, control retention 70.13%, malformed 1.33%; test canceled"
   next: >
-    Register a token-aligned boundary benchmark with a seven-token expansion
-    radius and prove choice coverage before inference. Evaluate corrupted exact
-    recovery and unchanged controls on dev, then test once only if all gates
-    pass. Do not alter H23 until that architecture passes frozen gates.
+    Preregister supervised weak-label adaptation of a medical token classifier
+    on H23 train records. Tune only on dev, evaluate test once, and compare its
+    independent exact proposals against H20/H23 before any merge or ZIP. Keep
+    externally confirmed H23 frozen until all gates pass.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
