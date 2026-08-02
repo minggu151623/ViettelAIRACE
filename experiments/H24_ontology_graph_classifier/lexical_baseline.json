@@ -1,0 +1,9369 @@
+{
+  "method": "char_wb_tfidf",
+  "ngram_range": [
+    2,
+    5
+  ],
+  "queries": 518,
+  "concept_nodes": 69991,
+  "concept_aliases": 69991,
+  "recall": {
+    "@1": 0.10810810810810811,
+    "@5": 0.14092664092664092,
+    "@10": 0.16795366795366795
+  },
+  "recall_by_type": {
+    "CHẨN_ĐOÁN": {
+      "@1": 0.02619047619047619,
+      "@5": 0.05,
+      "@10": 0.06904761904761905
+    },
+    "THUỐC": {
+      "@1": 0.45918367346938777,
+      "@5": 0.5306122448979592,
+      "@10": 0.5918367346938775
+    }
+  },
+  "predictions": [
+    {
+      "id": 0,
+      "gold": [
+        "ICD:E85.9"
+      ],
+      "top10": [
+        "ICD:E85",
+        "ICD:E85.8",
+        "ICD:L99.0",
+        "ICD:E85.9",
+        "ICD:M14.4",
+        "ICD:E85.3",
+        "ICD:E85.4",
+        "ICD:E85.1",
+        "ICD:E85.2",
+        "ICD:E85.0"
+      ]
+    },
+    {
+      "id": 1,
+      "gold": [
+        "ICD:I10"
+      ],
+      "top10": [
+        "ICD:T73.0",
+        "ICD:R29.4",
+        "ICD:W16",
+        "ICD:S77.0",
+        "ICD:G10",
+        "ICD:Z72.6",
+        "ICD:J67.7",
+        "ICD:Z71.7",
+        "ICD:Y02",
+        "ICD:C34.8"
+      ]
+    },
+    {
+      "id": 2,
+      "gold": [
+        "ICD:K65"
+      ],
+      "top10": [
+        "ICD:L85.3",
+        "ICD:Z95.3",
+        "ICD:Q82.1",
+        "ICD:E50.2",
+        "ICD:E50.0",
+        "ICD:E50.3",
+        "ICD:E50.6",
+        "ICD:E50.1",
+        "ICD:Q99.2",
+        "ICD:Y57.5"
+      ]
+    },
+    {
+      "id": 3,
+      "gold": [
+        "ICD:J85.2"
+      ],
+      "top10": [
+        "ICD:L85.3",
+        "ICD:Z95.3",
+        "ICD:Q82.1",
+        "ICD:E50.2",
+        "ICD:E50.0",
+        "ICD:E50.6",
+        "ICD:E50.3",
+        "ICD:E50.1",
+        "ICD:N84.1",
+        "ICD:D68.1"
+      ]
+    },
+    {
+      "id": 4,
+      "gold": [
+        "ICD:J85.2"
+      ],
+      "top10": [
+        "ICD:X11",
+        "ICD:Z91.3",
+        "ICD:F51.2",
+        "ICD:E71.0",
+        "ICD:G47.2",
+        "ICD:Y54.2",
+        "ICD:L85.3",
+        "ICD:J45.8",
+        "ICD:L94.6",
+        "ICD:N31.0"
+      ]
+    },
+    {
+      "id": 5,
+      "gold": [
+        "ICD:J85.2"
+      ],
+      "top10": [
+        "ICD:X11",
+        "ICD:Z72.3",
+        "ICD:E83.3",
+        "ICD:E71.0",
+        "ICD:G47.2",
+        "ICD:L90.3",
+        "ICD:B85.4",
+        "ICD:F51.2",
+        "ICD:T54.0",
+        "ICD:T74.1"
+      ]
+    },
+    {
+      "id": 6,
+      "gold": [
+        "ICD:L80"
+      ],
+      "top10": [
+        "ICD:W53",
+        "ICD:O83.0",
+        "ICD:P15.3",
+        "ICD:P15.4",
+        "ICD:P13.3",
+        "ICD:P15.0",
+        "ICD:P15",
+        "ICD:Z37.0",
+        "ICD:P12",
+        "ICD:T18.2"
+      ]
+    },
+    {
+      "id": 7,
+      "gold": [
+        "ICD:G80.9"
+      ],
+      "top10": [
+        "ICD:B74.2",
+        "ICD:E51.1",
+        "ICD:P36.4",
+        "ICD:D26.0",
+        "ICD:B74.1",
+        "ICD:D26.1",
+        "ICD:M24.7",
+        "ICD:P11.3",
+        "ICD:P36.1",
+        "ICD:D22.4"
+      ]
+    },
+    {
+      "id": 8,
+      "gold": [
+        "ICD:S06"
+      ],
+      "top10": [
+        "ICD:L94.6",
+        "ICD:W16",
+        "ICD:V52.4",
+        "ICD:V54.4",
+        "ICD:V58.4",
+        "ICD:V63.4",
+        "ICD:T27.1",
+        "ICD:V53.4",
+        "ICD:Y02",
+        "ICD:V56.4"
+      ]
+    },
+    {
+      "id": 9,
+      "gold": [
+        "ICD:M21"
+      ],
+      "top10": [
+        "ICD:R07.1",
+        "ICD:W53",
+        "ICD:L12.2",
+        "ICD:K81.1",
+        "ICD:T17.5",
+        "ICD:R19.4",
+        "ICD:R07",
+        "ICD:D31.3",
+        "ICD:V88.3",
+        "ICD:V87.3"
+      ]
+    },
+    {
+      "id": 10,
+      "gold": [
+        "ICD:L50.1"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V75",
+        "ICD:V88.6",
+        "ICD:V87.6",
+        "ICD:V45",
+        "ICD:V05",
+        "ICD:V81.2",
+        "ICD:V65",
+        "ICD:V55"
+      ]
+    },
+    {
+      "id": 11,
+      "gold": [
+        "ICD:N31.9"
+      ],
+      "top10": [
+        "ICD:N13.5",
+        "ICD:M48.2",
+        "ICD:O30.2",
+        "ICD:W16",
+        "ICD:S76.1",
+        "ICD:W76",
+        "ICD:Z62.6",
+        "ICD:D69.1",
+        "ICD:Y61.7",
+        "ICD:R23"
+      ]
+    },
+    {
+      "id": 12,
+      "gold": [
+        "ICD:Q89.9"
+      ],
+      "top10": [
+        "ICD:Z37.0",
+        "ICD:I49.5",
+        "ICD:J33.8",
+        "ICD:J01",
+        "ICD:J01.8",
+        "ICD:Z37.1",
+        "ICD:E05.1",
+        "ICD:J32",
+        "ICD:J32.8",
+        "ICD:T70.1"
+      ]
+    },
+    {
+      "id": 13,
+      "gold": [
+        "ICD:L81.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:W84",
+        "ICD:W77",
+        "ICD:W83",
+        "ICD:O99.1",
+        "ICD:Z13.0",
+        "ICD:X43",
+        "ICD:T44",
+        "ICD:X63",
+        "ICD:V90.2"
+      ]
+    },
+    {
+      "id": 14,
+      "gold": [
+        "ICD:E85.9"
+      ],
+      "top10": [
+        "ICD:E85",
+        "ICD:E85.8",
+        "ICD:L99.0",
+        "ICD:E85.9",
+        "ICD:M14.4",
+        "ICD:E85.3",
+        "ICD:E85.4",
+        "ICD:E85.1",
+        "ICD:E85.2",
+        "ICD:E85.0"
+      ]
+    },
+    {
+      "id": 15,
+      "gold": [
+        "ICD:E85"
+      ],
+      "top10": [
+        "ICD:E85",
+        "ICD:E85.8",
+        "ICD:L99.0",
+        "ICD:E85.9",
+        "ICD:M14.4",
+        "ICD:E85.3",
+        "ICD:E85.4",
+        "ICD:E85.1",
+        "ICD:E85.2",
+        "ICD:E85.0"
+      ]
+    },
+    {
+      "id": 16,
+      "gold": [
+        "ICD:E85.8"
+      ],
+      "top10": [
+        "ICD:E85",
+        "ICD:E85.8",
+        "ICD:L99.0",
+        "ICD:E85.9",
+        "ICD:M14.4",
+        "ICD:E85.3",
+        "ICD:E85.4",
+        "ICD:E85.1",
+        "ICD:E85.2",
+        "ICD:E85.0"
+      ]
+    },
+    {
+      "id": 17,
+      "gold": [
+        "ICD:E85.2"
+      ],
+      "top10": [
+        "ICD:E85",
+        "ICD:E85.8",
+        "ICD:L99.0",
+        "ICD:E85.9",
+        "ICD:M14.4",
+        "ICD:E85.3",
+        "ICD:E85.4",
+        "ICD:E85.1",
+        "ICD:E85.2",
+        "ICD:E85.0"
+      ]
+    },
+    {
+      "id": 18,
+      "gold": [
+        "ICD:E85.3"
+      ],
+      "top10": [
+        "ICD:E85",
+        "ICD:E85.8",
+        "ICD:L99.0",
+        "ICD:E85.9",
+        "ICD:M14.4",
+        "ICD:E85.3",
+        "ICD:E85.4",
+        "ICD:E85.1",
+        "ICD:E85.2",
+        "ICD:E85.0"
+      ]
+    },
+    {
+      "id": 19,
+      "gold": [
+        "ICD:I25"
+      ],
+      "top10": [
+        "ICD:S77.2",
+        "ICD:S77.1",
+        "ICD:S77",
+        "ICD:T27.1",
+        "ICD:P08",
+        "ICD:R06.5",
+        "ICD:W16",
+        "ICD:T27.5",
+        "ICD:T04.1",
+        "ICD:V74.4"
+      ]
+    },
+    {
+      "id": 20,
+      "gold": [
+        "ICD:I25.0"
+      ],
+      "top10": [
+        "ICD:S77.2",
+        "ICD:S77.1",
+        "ICD:S77",
+        "ICD:T27.1",
+        "ICD:P08",
+        "ICD:R06.5",
+        "ICD:W16",
+        "ICD:T27.5",
+        "ICD:T04.1",
+        "ICD:V74.4"
+      ]
+    },
+    {
+      "id": 21,
+      "gold": [
+        "ICD:C92"
+      ],
+      "top10": [
+        "ICD:P13.3",
+        "ICD:S77.2",
+        "ICD:O83.0",
+        "ICD:S36.3",
+        "ICD:T18.2",
+        "ICD:R06.5",
+        "ICD:Z50.5",
+        "ICD:T27.1",
+        "ICD:P12.3",
+        "ICD:A79.0"
+      ]
+    },
+    {
+      "id": 22,
+      "gold": [
+        "ICD:C92.1"
+      ],
+      "top10": [
+        "ICD:P13.3",
+        "ICD:S77.2",
+        "ICD:O83.0",
+        "ICD:S36.3",
+        "ICD:T18.2",
+        "ICD:R06.5",
+        "ICD:Z50.5",
+        "ICD:T27.1",
+        "ICD:P12.3",
+        "ICD:A79.0"
+      ]
+    },
+    {
+      "id": 23,
+      "gold": [
+        "ICD:Q66"
+      ],
+      "top10": [
+        "ICD:W53",
+        "ICD:R07.1",
+        "ICD:T17.5",
+        "ICD:P12.1",
+        "ICD:O83.0",
+        "ICD:P13.3",
+        "ICD:D24",
+        "ICD:T19.1",
+        "ICD:P11.2",
+        "ICD:V88.3"
+      ]
+    },
+    {
+      "id": 24,
+      "gold": [
+        "ICD:Q66.5"
+      ],
+      "top10": [
+        "ICD:W53",
+        "ICD:R07.1",
+        "ICD:T17.5",
+        "ICD:P12.1",
+        "ICD:O83.0",
+        "ICD:P13.3",
+        "ICD:D24",
+        "ICD:T19.1",
+        "ICD:P11.2",
+        "ICD:V88.3"
+      ]
+    },
+    {
+      "id": 25,
+      "gold": [
+        "ICD:K31.9"
+      ],
+      "top10": [
+        "ICD:P11.2",
+        "ICD:P11.1",
+        "ICD:F07",
+        "ICD:F07.8",
+        "ICD:F07.9",
+        "ICD:M14.0",
+        "ICD:E60",
+        "ICD:P12.3",
+        "ICD:E58",
+        "ICD:P12.1"
+      ]
+    },
+    {
+      "id": 26,
+      "gold": [
+        "ICD:A82.9"
+      ],
+      "top10": [
+        "ICD:P11.2",
+        "ICD:P11.1",
+        "ICD:E51.1",
+        "ICD:L90.3",
+        "ICD:D82.1",
+        "ICD:P13.3",
+        "ICD:C46.3",
+        "ICD:P12.3",
+        "ICD:P08",
+        "ICD:O92.2"
+      ]
+    },
+    {
+      "id": 27,
+      "gold": [
+        "ICD:K70.9"
+      ],
+      "top10": [
+        "ICD:A48.0",
+        "ICD:M67.4",
+        "ICD:A66.5",
+        "ICD:Z52.9",
+        "ICD:E75.1",
+        "ICD:E75.0",
+        "ICD:J85.0",
+        "ICD:G51.1",
+        "ICD:K46.1",
+        "ICD:K42.1"
+      ]
+    },
+    {
+      "id": 28,
+      "gold": [
+        "ICD:E05.0"
+      ],
+      "top10": [
+        "ICD:G70.0",
+        "ICD:W60",
+        "ICD:O21.0",
+        "ICD:O34.5",
+        "ICD:P94.0",
+        "ICD:G70",
+        "ICD:O21.1",
+        "ICD:X51",
+        "ICD:P52.2",
+        "ICD:T06.0"
+      ]
+    },
+    {
+      "id": 29,
+      "gold": [
+        "ICD:M10.9"
+      ],
+      "top10": [
+        "ICD:P08",
+        "ICD:K25.2",
+        "ICD:P13.3",
+        "ICD:X14",
+        "ICD:P15.5",
+        "ICD:O91",
+        "ICD:W78",
+        "ICD:P15.3",
+        "ICD:K25.6",
+        "ICD:P15.4"
+      ]
+    },
+    {
+      "id": 30,
+      "gold": [
+        "ICD:M30.3"
+      ],
+      "top10": [
+        "ICD:M30.3",
+        "ICD:B81.0",
+        "ICD:C46.0",
+        "ICD:C46",
+        "ICD:H27.0",
+        "ICD:C46.2",
+        "ICD:C46.3",
+        "ICD:C46.7",
+        "ICD:C46.9",
+        "ICD:C46.1"
+      ]
+    },
+    {
+      "id": 31,
+      "gold": [
+        "ICD:R90"
+      ],
+      "top10": [
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:Q68.5",
+        "ICD:K13.1",
+        "ICD:P13.3",
+        "ICD:W16",
+        "ICD:Z94.2",
+        "ICD:R07.1",
+        "ICD:V54.4",
+        "ICD:Z72.6"
+      ]
+    },
+    {
+      "id": 32,
+      "gold": [
+        "ICD:L50.1"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V75",
+        "ICD:V45",
+        "ICD:V81.2",
+        "ICD:V65",
+        "ICD:V05",
+        "ICD:V15",
+        "ICD:V80.6",
+        "ICD:V55"
+      ]
+    },
+    {
+      "id": 33,
+      "gold": [
+        "ICD:G62.9"
+      ],
+      "top10": [
+        "ICD:N13.5",
+        "ICD:P13.3",
+        "ICD:P15.0",
+        "ICD:Z37.0",
+        "ICD:P15.3",
+        "ICD:P15",
+        "ICD:P15.4",
+        "ICD:N27.1",
+        "ICD:M48.2",
+        "ICD:D30.0"
+      ]
+    },
+    {
+      "id": 34,
+      "gold": [
+        "ICD:G43"
+      ],
+      "top10": [
+        "ICD:L60.4",
+        "ICD:Q91.7",
+        "ICD:L81.3",
+        "ICD:D03",
+        "ICD:D03.0",
+        "ICD:Q91",
+        "ICD:D05",
+        "ICD:D04",
+        "ICD:D05.0",
+        "ICD:D05.7"
+      ]
+    },
+    {
+      "id": 35,
+      "gold": [
+        "ICD:I73.9"
+      ],
+      "top10": [
+        "ICD:P13.3",
+        "ICD:Z37.0",
+        "ICD:O83.0",
+        "ICD:G95.0",
+        "ICD:P15.3",
+        "ICD:A66.5",
+        "ICD:P15.4",
+        "ICD:P15.0",
+        "ICD:P15",
+        "ICD:D13.1"
+      ]
+    },
+    {
+      "id": 36,
+      "gold": [
+        "ICD:I25"
+      ],
+      "top10": [
+        "ICD:O83.0",
+        "ICD:S36.3",
+        "ICD:A79.0",
+        "ICD:Z50.5",
+        "ICD:D13.1",
+        "ICD:T18.2",
+        "ICD:C16",
+        "ICD:C16.2",
+        "ICD:R05",
+        "ICD:S77.2"
+      ]
+    },
+    {
+      "id": 37,
+      "gold": [
+        "ICD:I25.1"
+      ],
+      "top10": [
+        "ICD:O83.0",
+        "ICD:S36.3",
+        "ICD:A79.0",
+        "ICD:Z50.5",
+        "ICD:D13.1",
+        "ICD:T18.2",
+        "ICD:C16",
+        "ICD:C16.2",
+        "ICD:R05",
+        "ICD:S77.2"
+      ]
+    },
+    {
+      "id": 38,
+      "gold": [
+        "ICD:I25"
+      ],
+      "top10": [
+        "ICD:I25.4",
+        "ICD:Q25.6",
+        "ICD:Q25.5",
+        "ICD:T82.2",
+        "ICD:I28.1",
+        "ICD:S45.0",
+        "ICD:S85.2",
+        "ICD:S15.0",
+        "ICD:S75.0",
+        "ICD:Q24.5"
+      ]
+    },
+    {
+      "id": 39,
+      "gold": [
+        "ICD:B35.6"
+      ],
+      "top10": [
+        "ICD:D24",
+        "ICD:D33",
+        "ICD:D36.0",
+        "ICD:P13.3",
+        "ICD:W53",
+        "ICD:D30.3",
+        "ICD:D10",
+        "ICD:D43",
+        "ICD:D13.1",
+        "ICD:P11.2"
+      ]
+    },
+    {
+      "id": 40,
+      "gold": [
+        "ICD:J84.9"
+      ],
+      "top10": [
+        "ICD:C46.3",
+        "ICD:T28.0",
+        "ICD:C46",
+        "ICD:E83.3",
+        "ICD:C46.2",
+        "ICD:D10",
+        "ICD:C46.0",
+        "ICD:Q38.7",
+        "ICD:L90.3",
+        "ICD:P14.2"
+      ]
+    },
+    {
+      "id": 41,
+      "gold": [
+        "ICD:J44.9"
+      ],
+      "top10": [
+        "ICD:R05",
+        "ICD:P08",
+        "ICD:S77.2",
+        "ICD:S71.1",
+        "ICD:S70.1",
+        "ICD:T34.6",
+        "ICD:S77.1",
+        "ICD:S78",
+        "ICD:S71",
+        "ICD:Q72.1"
+      ]
+    },
+    {
+      "id": 42,
+      "gold": [
+        "ICD:J44.9"
+      ],
+      "top10": [
+        "ICD:A37.9",
+        "ICD:R68.2",
+        "ICD:S78.9",
+        "ICD:S70.9",
+        "ICD:C06.9",
+        "ICD:W03",
+        "ICD:Q40.3",
+        "ICD:C16.9",
+        "ICD:P08",
+        "ICD:S77.2"
+      ]
+    },
+    {
+      "id": 43,
+      "gold": [
+        "ICD:L63.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:Q68.5",
+        "ICD:T27.1",
+        "ICD:V90.2",
+        "ICD:X81",
+        "ICD:Y31",
+        "ICD:R91",
+        "ICD:T04.0"
+      ]
+    },
+    {
+      "id": 44,
+      "gold": [
+        "ICD:I10"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:A97",
+        "ICD:A97.1",
+        "ICD:X91",
+        "ICD:S39.6",
+        "ICD:Q38",
+        "ICD:K40",
+        "ICD:W16",
+        "ICD:X70",
+        "ICD:K14.5"
+      ]
+    },
+    {
+      "id": 45,
+      "gold": [
+        "ICD:D68.5"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:Q68.5",
+        "ICD:T27.1",
+        "ICD:X81",
+        "ICD:V90.2",
+        "ICD:Y31",
+        "ICD:T04.0",
+        "ICD:T27.5"
+      ]
+    },
+    {
+      "id": 46,
+      "gold": [
+        "ICD:N18.9"
+      ],
+      "top10": [
+        "ICD:S77.2",
+        "ICD:Q97.1",
+        "ICD:S71.1",
+        "ICD:S70.1",
+        "ICD:T34.6",
+        "ICD:S71",
+        "ICD:E06.2",
+        "ICD:Z50.5",
+        "ICD:E05.1",
+        "ICD:Q72.1"
+      ]
+    },
+    {
+      "id": 47,
+      "gold": [
+        "ICD:N18.9"
+      ],
+      "top10": [
+        "ICD:S77.2",
+        "ICD:S77",
+        "ICD:W77",
+        "ICD:T04.1",
+        "ICD:D03.7",
+        "ICD:S71",
+        "ICD:S79.9",
+        "ICD:T04.7",
+        "ICD:S77.0",
+        "ICD:S77.1"
+      ]
+    },
+    {
+      "id": 48,
+      "gold": [
+        "ICD:N18.4"
+      ],
+      "top10": [
+        "ICD:M31.6",
+        "ICD:Q63.3",
+        "ICD:M31.5",
+        "ICD:K10.1",
+        "ICD:A07.1",
+        "ICD:S77.2",
+        "ICD:S77",
+        "ICD:W77",
+        "ICD:T04.1",
+        "ICD:K05.1"
+      ]
+    },
+    {
+      "id": 49,
+      "gold": [
+        "ICD:E85.9"
+      ],
+      "top10": [
+        "ICD:B35.0",
+        "ICD:B36.1",
+        "ICD:B35.3",
+        "ICD:Q05.1",
+        "ICD:B35.5",
+        "ICD:H93.1",
+        "ICD:Q05.6",
+        "ICD:T34.2",
+        "ICD:B35.2",
+        "ICD:S28"
+      ]
+    },
+    {
+      "id": 50,
+      "gold": [
+        "ICD:E85.9"
+      ],
+      "top10": [
+        "ICD:E85",
+        "ICD:E85.8",
+        "ICD:L99.0",
+        "ICD:E85.9",
+        "ICD:M14.4",
+        "ICD:E85.3",
+        "ICD:E85.4",
+        "ICD:E85.2",
+        "ICD:E85.1",
+        "ICD:E85.0"
+      ]
+    },
+    {
+      "id": 51,
+      "gold": [
+        "ICD:D68.5"
+      ],
+      "top10": [
+        "ICD:D68.6",
+        "ICD:D68.5",
+        "ICD:D72.1",
+        "ICD:F65.4",
+        "ICD:I82.1",
+        "ICD:O22.2",
+        "ICD:O87.0",
+        "ICD:I74.5",
+        "ICD:Y44.5",
+        "ICD:I81"
+      ]
+    },
+    {
+      "id": 52,
+      "gold": [
+        "ICD:B01.9",
+        "ICD:B02.9"
+      ],
+      "top10": [
+        "ICD:Q05.1",
+        "ICD:Q05",
+        "ICD:P54.1",
+        "ICD:M91.2",
+        "ICD:Q05.6",
+        "ICD:Q76.0",
+        "ICD:S34.3",
+        "ICD:K92.1",
+        "ICD:Q05.4",
+        "ICD:I82.2"
+      ]
+    },
+    {
+      "id": 53,
+      "gold": [
+        "ICD:B01.9",
+        "ICD:B02.9"
+      ],
+      "top10": [
+        "ICD:B01.2",
+        "ICD:B01.0",
+        "ICD:B01.8",
+        "ICD:B01.1",
+        "ICD:B01.9",
+        "ICD:B02",
+        "ICD:B01",
+        "ICD:B02.1",
+        "ICD:B02.3",
+        "ICD:B02.8"
+      ]
+    },
+    {
+      "id": 54,
+      "gold": [
+        "ICD:E11.9"
+      ],
+      "top10": [
+        "ICD:Z72.6",
+        "ICD:Q33.5",
+        "ICD:L60.4",
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:Y02",
+        "ICD:P13.3",
+        "ICD:Q68.4",
+        "ICD:Q68.5",
+        "ICD:N89.6"
+      ]
+    },
+    {
+      "id": 55,
+      "gold": [
+        "ICD:I25"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X33",
+        "ICD:O83.0",
+        "ICD:S36.3",
+        "ICD:Y02",
+        "ICD:A79.0",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:Z50.5",
+        "ICD:C16"
+      ]
+    },
+    {
+      "id": 56,
+      "gold": [
+        "ICD:I25.1"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X33",
+        "ICD:O83.0",
+        "ICD:S36.3",
+        "ICD:Y02",
+        "ICD:A79.0",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:Z50.5",
+        "ICD:C16"
+      ]
+    },
+    {
+      "id": 57,
+      "gold": [
+        "ICD:K64.9"
+      ],
+      "top10": [
+        "ICD:V04.1",
+        "ICD:A79.0",
+        "ICD:V54.5",
+        "ICD:V54.6",
+        "ICD:V54",
+        "ICD:V54.9",
+        "ICD:V03.1",
+        "ICD:V63.5",
+        "ICD:V74.5",
+        "ICD:Q91.6"
+      ]
+    },
+    {
+      "id": 58,
+      "gold": [
+        "ICD:L40.9"
+      ],
+      "top10": [
+        "ICD:D31.4",
+        "ICD:P03.0",
+        "ICD:P11.3",
+        "ICD:T18.0",
+        "ICD:P15.3",
+        "ICD:D36.0",
+        "ICD:E50.5",
+        "ICD:P15.4",
+        "ICD:P13.3",
+        "ICD:P15.0"
+      ]
+    },
+    {
+      "id": 59,
+      "gold": [
+        "ICD:K29.7"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:V96.1",
+        "ICD:X91",
+        "ICD:X70",
+        "ICD:Y20",
+        "ICD:J98.4",
+        "ICD:J85.0",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:Q33.0"
+      ]
+    },
+    {
+      "id": 60,
+      "gold": [
+        "ICD:M86.9"
+      ],
+      "top10": [
+        "ICD:Y02",
+        "ICD:T27.1",
+        "ICD:W16",
+        "ICD:X33",
+        "ICD:X81",
+        "ICD:Y59.0",
+        "ICD:Z72.6",
+        "ICD:E50.2",
+        "ICD:M90.0",
+        "ICD:T04.0"
+      ]
+    },
+    {
+      "id": 61,
+      "gold": [
+        "ICD:G35"
+      ],
+      "top10": [
+        "ICD:T27.1",
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Q68.5",
+        "ICD:T27.5",
+        "ICD:Y02",
+        "ICD:R06.5",
+        "ICD:T04.0",
+        "ICD:P13.3",
+        "ICD:X81"
+      ]
+    },
+    {
+      "id": 62,
+      "gold": [
+        "ICD:G43"
+      ],
+      "top10": [
+        "ICD:G43",
+        "ICD:G43.8",
+        "ICD:G43.1",
+        "ICD:G43.0",
+        "ICD:G43.3",
+        "ICD:G43.9",
+        "ICD:G43.2",
+        "ICD:B83.0",
+        "ICD:I82.1",
+        "ICD:L60.4"
+      ]
+    },
+    {
+      "id": 63,
+      "gold": [
+        "ICD:I25"
+      ],
+      "top10": [
+        "ICD:O83.0",
+        "ICD:S77.2",
+        "ICD:S36.3",
+        "ICD:R06.5",
+        "ICD:A79.0",
+        "ICD:T27.1",
+        "ICD:P13.3",
+        "ICD:Z50.5",
+        "ICD:D13.1",
+        "ICD:T18.2"
+      ]
+    },
+    {
+      "id": 64,
+      "gold": [
+        "ICD:I25.1"
+      ],
+      "top10": [
+        "ICD:O83.0",
+        "ICD:S77.2",
+        "ICD:S36.3",
+        "ICD:R06.5",
+        "ICD:A79.0",
+        "ICD:T27.1",
+        "ICD:P13.3",
+        "ICD:Z50.5",
+        "ICD:D13.1",
+        "ICD:T18.2"
+      ]
+    },
+    {
+      "id": 65,
+      "gold": [
+        "ICD:M10.9"
+      ],
+      "top10": [
+        "ICD:M10",
+        "ICD:M10.4",
+        "ICD:M10.0",
+        "ICD:M10.2",
+        "ICD:M10.1",
+        "ICD:M10.3",
+        "ICD:M10.9",
+        "ICD:M14.0",
+        "ICD:Z73.0",
+        "ICD:B16.9"
+      ]
+    },
+    {
+      "id": 66,
+      "gold": [
+        "ICD:E66.9"
+      ],
+      "top10": [
+        "ICD:E83.3",
+        "ICD:P14.2",
+        "ICD:F06",
+        "ICD:F06.9",
+        "ICD:F06.8",
+        "ICD:T54.0",
+        "ICD:T28.0",
+        "ICD:Z56.6",
+        "ICD:T17.2",
+        "ICD:A36.0"
+      ]
+    },
+    {
+      "id": 67,
+      "gold": [
+        "ICD:J98.9"
+      ],
+      "top10": [
+        "ICD:S77.2",
+        "ICD:T67.2",
+        "ICD:S70.0",
+        "ICD:S79.9",
+        "ICD:M70.7",
+        "ICD:S71",
+        "ICD:S77",
+        "ICD:S78",
+        "ICD:B15.0",
+        "ICD:Q65.6"
+      ]
+    },
+    {
+      "id": 68,
+      "gold": [
+        "ICD:K03.6"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:V90.2",
+        "ICD:Y61.7",
+        "ICD:V90",
+        "ICD:Y31",
+        "ICD:V90.5",
+        "ICD:V91.2",
+        "ICD:Q16",
+        "ICD:W77",
+        "ICD:Z72.6"
+      ]
+    },
+    {
+      "id": 69,
+      "gold": [
+        "ICD:B16.9"
+      ],
+      "top10": [
+        "ICD:A83.6",
+        "ICD:A92.5",
+        "ICD:A98.4",
+        "ICD:A92.3",
+        "ICD:A98.3",
+        "ICD:P35.4",
+        "ICD:A92.0",
+        "ICD:B97.4",
+        "ICD:A93.0",
+        "ICD:J12.2"
+      ]
+    },
+    {
+      "id": 70,
+      "gold": [
+        "ICD:F79"
+      ],
+      "top10": [
+        "ICD:Q24.2",
+        "ICD:Q91.6",
+        "ICD:Q90.2",
+        "ICD:Q91.2",
+        "ICD:N30.3",
+        "ICD:B79",
+        "ICD:O30.1",
+        "ICD:B75",
+        "ICD:Q92.9",
+        "ICD:A59"
+      ]
+    },
+    {
+      "id": 71,
+      "gold": [
+        "ICD:F79",
+        "ICD:F82"
+      ],
+      "top10": [
+        "ICD:Q24.2",
+        "ICD:Q91.6",
+        "ICD:Q90.2",
+        "ICD:Q91.2",
+        "ICD:N30.3",
+        "ICD:V03.1",
+        "ICD:V54.6",
+        "ICD:B79",
+        "ICD:V63.6",
+        "ICD:V54.5"
+      ]
+    },
+    {
+      "id": 72,
+      "gold": [
+        "ICD:M21"
+      ],
+      "top10": [
+        "ICD:M48.2",
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y61.7",
+        "ICD:O21.8",
+        "ICD:Y02",
+        "ICD:R29.4",
+        "ICD:N18",
+        "ICD:Q33.0",
+        "ICD:Q68.5"
+      ]
+    },
+    {
+      "id": 73,
+      "gold": [
+        "ICD:C92"
+      ],
+      "top10": [
+        "ICD:C92.1",
+        "ICD:Q04.6",
+        "ICD:Y90.8",
+        "ICD:Y90.0",
+        "ICD:Y90.1",
+        "ICD:Y90.2",
+        "ICD:Y90.4",
+        "ICD:Y90.3",
+        "ICD:Y90.6",
+        "ICD:Y90.5"
+      ]
+    },
+    {
+      "id": 74,
+      "gold": [
+        "ICD:R18"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:T27.5",
+        "ICD:T27.1",
+        "ICD:Z72.6",
+        "ICD:Z94.2",
+        "ICD:V90.2",
+        "ICD:Z50.6",
+        "ICD:Q33.0",
+        "ICD:Q68.5",
+        "ICD:O21.8"
+      ]
+    },
+    {
+      "id": 75,
+      "gold": [
+        "ICD:M10.9"
+      ],
+      "top10": [
+        "ICD:M10",
+        "ICD:M10.4",
+        "ICD:M10.0",
+        "ICD:M10.2",
+        "ICD:M10.1",
+        "ICD:M10.9",
+        "ICD:M10.3",
+        "ICD:M14.0",
+        "ICD:E03.1",
+        "ICD:B16.9"
+      ]
+    },
+    {
+      "id": 76,
+      "gold": [
+        "ICD:I47.1"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:Z65.4",
+        "ICD:X34.1",
+        "ICD:L74.4",
+        "ICD:X33",
+        "ICD:Y54.2",
+        "ICD:X35",
+        "ICD:X34",
+        "ICD:X37",
+        "ICD:T67.3"
+      ]
+    },
+    {
+      "id": 77,
+      "gold": [
+        "ICD:I20.0"
+      ],
+      "top10": [
+        "ICD:L60.4",
+        "ICD:Q91.7",
+        "ICD:L81.3",
+        "ICD:W16",
+        "ICD:S77.2",
+        "ICD:X43",
+        "ICD:O99.1",
+        "ICD:S77.1",
+        "ICD:Q91",
+        "ICD:T44"
+      ]
+    },
+    {
+      "id": 78,
+      "gold": [
+        "ICD:A07.2"
+      ],
+      "top10": [
+        "ICD:A07.2",
+        "ICD:B45",
+        "ICD:B48.1",
+        "ICD:B45.9",
+        "ICD:B45.1",
+        "ICD:B45.8",
+        "ICD:B45.0",
+        "ICD:B45.2",
+        "ICD:B45.3",
+        "ICD:B45.7"
+      ]
+    },
+    {
+      "id": 79,
+      "gold": [
+        "ICD:Q25.0"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:T27.1",
+        "ICD:V90.2",
+        "ICD:T27.5",
+        "ICD:Y02",
+        "ICD:T04.0",
+        "ICD:Q68.5",
+        "ICD:R91",
+        "ICD:X81"
+      ]
+    },
+    {
+      "id": 80,
+      "gold": [
+        "ICD:Q17.2"
+      ],
+      "top10": [
+        "ICD:C25.2",
+        "ICD:S77.2",
+        "ICD:S71.1",
+        "ICD:C50.6",
+        "ICD:S70.1",
+        "ICD:S71",
+        "ICD:S79.9",
+        "ICD:S77.1",
+        "ICD:S79.8",
+        "ICD:S77"
+      ]
+    },
+    {
+      "id": 81,
+      "gold": [
+        "ICD:T78"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:V90.2",
+        "ICD:O75.1",
+        "ICD:R91",
+        "ICD:Y02",
+        "ICD:B22.2",
+        "ICD:Y61.7",
+        "ICD:Q68.5",
+        "ICD:F50"
+      ]
+    },
+    {
+      "id": 82,
+      "gold": [
+        "ICD:T78"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:O96",
+        "ICD:O96.0",
+        "ICD:W77",
+        "ICD:O96.9",
+        "ICD:O99.1",
+        "ICD:O96.1",
+        "ICD:W84",
+        "ICD:A93.2",
+        "ICD:W83"
+      ]
+    },
+    {
+      "id": 83,
+      "gold": [
+        "ICD:T78.1",
+        "ICD:T78.4"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:O96",
+        "ICD:O96.0",
+        "ICD:W77",
+        "ICD:O96.9",
+        "ICD:O99.1",
+        "ICD:O96.1",
+        "ICD:W84",
+        "ICD:A93.2",
+        "ICD:W83"
+      ]
+    },
+    {
+      "id": 84,
+      "gold": [
+        "ICD:T78.4"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:O96",
+        "ICD:O96.0",
+        "ICD:O99.1",
+        "ICD:E05.3",
+        "ICD:O96.9",
+        "ICD:R04.1",
+        "ICD:S28",
+        "ICD:Y84",
+        "ICD:O96.1"
+      ]
+    },
+    {
+      "id": 85,
+      "gold": [
+        "ICD:T17.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:O99.1",
+        "ICD:W77",
+        "ICD:Z13.0",
+        "ICD:W84",
+        "ICD:O21.8",
+        "ICD:Y02",
+        "ICD:V90.2",
+        "ICD:W83",
+        "ICD:L85"
+      ]
+    },
+    {
+      "id": 86,
+      "gold": [
+        "ICD:T14.2"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:O21.8",
+        "ICD:X81",
+        "ICD:T47",
+        "ICD:K91.0",
+        "ICD:O75.1",
+        "ICD:V90.2",
+        "ICD:Q68.5"
+      ]
+    },
+    {
+      "id": 87,
+      "gold": [
+        "ICD:D68.5"
+      ],
+      "top10": [
+        "ICD:Q55",
+        "ICD:Q55.9",
+        "ICD:Q55.8",
+        "ICD:Z31.5",
+        "ICD:Q52",
+        "ICD:C63.8",
+        "ICD:N50",
+        "ICD:D07",
+        "ICD:Q52.9",
+        "ICD:Q52.8"
+      ]
+    },
+    {
+      "id": 88,
+      "gold": [
+        "ICD:T86.1"
+      ],
+      "top10": [
+        "ICD:S71",
+        "ICD:S79.8",
+        "ICD:S79.9",
+        "ICD:S71.1",
+        "ICD:S77.2",
+        "ICD:S74.8",
+        "ICD:S76.3",
+        "ICD:S70.1",
+        "ICD:S79",
+        "ICD:S78"
+      ]
+    },
+    {
+      "id": 89,
+      "gold": [
+        "ICD:M11"
+      ],
+      "top10": [
+        "ICD:M10",
+        "ICD:M10.4",
+        "ICD:M10.0",
+        "ICD:M10.2",
+        "ICD:M10.1",
+        "ICD:M10.9",
+        "ICD:M10.3",
+        "ICD:M14.0",
+        "ICD:E03.1",
+        "ICD:B16.9"
+      ]
+    },
+    {
+      "id": 90,
+      "gold": [
+        "ICD:M11.2"
+      ],
+      "top10": [
+        "ICD:M10",
+        "ICD:M10.4",
+        "ICD:M10.0",
+        "ICD:M10.2",
+        "ICD:M10.1",
+        "ICD:M10.9",
+        "ICD:M10.3",
+        "ICD:M14.0",
+        "ICD:E03.1",
+        "ICD:B16.9"
+      ]
+    },
+    {
+      "id": 91,
+      "gold": [
+        "ICD:F32.9"
+      ],
+      "top10": [
+        "ICD:M31.6",
+        "ICD:Q63.3",
+        "ICD:K10.1",
+        "ICD:M31.5",
+        "ICD:A07.1",
+        "ICD:K05.1",
+        "ICD:K05.0",
+        "ICD:S77.0",
+        "ICD:G82",
+        "ICD:S77"
+      ]
+    },
+    {
+      "id": 92,
+      "gold": [
+        "ICD:J47"
+      ],
+      "top10": [
+        "ICD:K05.0",
+        "ICD:K05.1",
+        "ICD:K06.0",
+        "ICD:U83.2",
+        "ICD:O30.2",
+        "ICD:K06.1",
+        "ICD:M31.6",
+        "ICD:G80.0",
+        "ICD:E80.4",
+        "ICD:K05"
+      ]
+    },
+    {
+      "id": 93,
+      "gold": [
+        "ICD:I86.1"
+      ],
+      "top10": [
+        "ICD:B35.0",
+        "ICD:B35.3",
+        "ICD:B36.1",
+        "ICD:H93.1",
+        "ICD:B35.1",
+        "ICD:B35.2",
+        "ICD:B35.4",
+        "ICD:B35.5",
+        "ICD:K05.0",
+        "ICD:K05.1"
+      ]
+    },
+    {
+      "id": 94,
+      "gold": [
+        "ICD:I95.9"
+      ],
+      "top10": [
+        "ICD:Q65.2",
+        "ICD:Q65.9",
+        "ICD:Q65.1",
+        "ICD:Q65.5",
+        "ICD:Q65.0",
+        "ICD:Q65.4",
+        "ICD:Q65.3",
+        "ICD:Q36.1",
+        "ICD:J33.9",
+        "ICD:Q36.0"
+      ]
+    },
+    {
+      "id": 95,
+      "gold": [
+        "ICD:M99"
+      ],
+      "top10": [
+        "ICD:Q36",
+        "ICD:C00",
+        "ICD:D10.0",
+        "ICD:D03.0",
+        "ICD:C44.0",
+        "ICD:D23.0",
+        "ICD:C00.1",
+        "ICD:C44.7",
+        "ICD:D23.7",
+        "ICD:D03.7"
+      ]
+    },
+    {
+      "id": 96,
+      "gold": [
+        "ICD:M48"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:V90.2",
+        "ICD:B22.2",
+        "ICD:X81",
+        "ICD:Q68.5",
+        "ICD:Z46.1",
+        "ICD:R29.4",
+        "ICD:O21.8"
+      ]
+    },
+    {
+      "id": 97,
+      "gold": [
+        "ICD:M48.0"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:V90.2",
+        "ICD:B22.2",
+        "ICD:X81",
+        "ICD:Q68.5",
+        "ICD:Z46.1",
+        "ICD:R29.4",
+        "ICD:O21.8"
+      ]
+    },
+    {
+      "id": 98,
+      "gold": [
+        "ICD:M48"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Q68.5",
+        "ICD:Y31",
+        "ICD:Q33.0",
+        "ICD:Z72.6",
+        "ICD:R29.4",
+        "ICD:Q96.3",
+        "ICD:Q16",
+        "ICD:S77.0",
+        "ICD:V90.2"
+      ]
+    },
+    {
+      "id": 99,
+      "gold": [
+        "ICD:I25"
+      ],
+      "top10": [
+        "ICD:S36.3",
+        "ICD:A79.0",
+        "ICD:S65.3",
+        "ICD:O83.0",
+        "ICD:S77.2",
+        "ICD:Z50.5",
+        "ICD:K31.7",
+        "ICD:C16",
+        "ICD:K07.2",
+        "ICD:T34.6"
+      ]
+    },
+    {
+      "id": 100,
+      "gold": [
+        "ICD:I25"
+      ],
+      "top10": [
+        "ICD:S77.2",
+        "ICD:S77",
+        "ICD:S36.3",
+        "ICD:A79.0",
+        "ICD:S65.3",
+        "ICD:O83.0",
+        "ICD:T27.1",
+        "ICD:Z50.5",
+        "ICD:T04.0",
+        "ICD:K31.7"
+      ]
+    },
+    {
+      "id": 101,
+      "gold": [
+        "ICD:J85.0"
+      ],
+      "top10": [
+        "ICD:L94.6",
+        "ICD:X15",
+        "ICD:L90.3",
+        "ICD:D06",
+        "ICD:Z74.2",
+        "ICD:T54.0",
+        "ICD:C81",
+        "ICD:R45.5",
+        "ICD:E83.3",
+        "ICD:X98"
+      ]
+    },
+    {
+      "id": 102,
+      "gold": [
+        "ICD:I34.0"
+      ],
+      "top10": [
+        "ICD:X15",
+        "ICD:D76.1",
+        "ICD:R45.5",
+        "ICD:X98",
+        "ICD:Z72.1",
+        "ICD:Z74.2",
+        "ICD:G90.2",
+        "ICD:C81",
+        "ICD:X77",
+        "ICD:Y27"
+      ]
+    },
+    {
+      "id": 103,
+      "gold": [
+        "ICD:Q66"
+      ],
+      "top10": [
+        "ICD:J32",
+        "ICD:Z37.0",
+        "ICD:J32.8",
+        "ICD:F94.2",
+        "ICD:I49.5",
+        "ICD:J32.9",
+        "ICD:M86.4",
+        "ICD:J32.1",
+        "ICD:T17.0",
+        "ICD:J32.3"
+      ]
+    },
+    {
+      "id": 104,
+      "gold": [
+        "ICD:E28.2"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:Z72.6",
+        "ICD:W76",
+        "ICD:O21.8",
+        "ICD:Y02",
+        "ICD:Q68.5",
+        "ICD:V90.2",
+        "ICD:T27.5",
+        "ICD:X81"
+      ]
+    },
+    {
+      "id": 105,
+      "gold": [
+        "ICD:D89"
+      ],
+      "top10": [
+        "ICD:D55",
+        "ICD:D53.0",
+        "ICD:Y43.6",
+        "ICD:D55.8",
+        "ICD:R80",
+        "ICD:R74",
+        "ICD:E78.6",
+        "ICD:R74.9",
+        "ICD:D55.9",
+        "ICD:T45.3"
+      ]
+    },
+    {
+      "id": 106,
+      "gold": [
+        "ICD:F10"
+      ],
+      "top10": [
+        "ICD:S77",
+        "ICD:S77.2",
+        "ICD:S77.1",
+        "ICD:P08",
+        "ICD:W16",
+        "ICD:N89.6",
+        "ICD:V85.4",
+        "ICD:B22.2",
+        "ICD:T04.0",
+        "ICD:V97.1"
+      ]
+    },
+    {
+      "id": 107,
+      "gold": [
+        "ICD:G20"
+      ],
+      "top10": [
+        "ICD:G20",
+        "ICD:F02.3",
+        "ICD:G21.4",
+        "ICD:G21",
+        "ICD:G21.8",
+        "ICD:G21.9",
+        "ICD:Y46.7",
+        "ICD:G21.3",
+        "ICD:G22",
+        "ICD:G21.2"
+      ]
+    },
+    {
+      "id": 108,
+      "gold": [
+        "ICD:K58"
+      ],
+      "top10": [
+        "ICD:Z50.5",
+        "ICD:S36.3",
+        "ICD:A79.0",
+        "ICD:O83.0",
+        "ICD:S77.2",
+        "ICD:Q38.7",
+        "ICD:C16",
+        "ICD:D13.1",
+        "ICD:S77.1",
+        "ICD:T18.2"
+      ]
+    },
+    {
+      "id": 109,
+      "gold": [
+        "ICD:D68.5"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:V90.2",
+        "ICD:Q68.5",
+        "ICD:O21.8",
+        "ICD:X81",
+        "ICD:T04.0",
+        "ICD:T27.1",
+        "ICD:B22.2"
+      ]
+    },
+    {
+      "id": 110,
+      "gold": [
+        "ICD:N04.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:O99.1",
+        "ICD:S77.2",
+        "ICD:O10.1",
+        "ICD:O10",
+        "ICD:S77",
+        "ICD:O10.3",
+        "ICD:O10.9",
+        "ICD:R07.1",
+        "ICD:O10.4"
+      ]
+    },
+    {
+      "id": 111,
+      "gold": [
+        "ICD:Q96.9"
+      ],
+      "top10": [
+        "ICD:Q96",
+        "ICD:Q96.9",
+        "ICD:Q96.8",
+        "ICD:F50.9",
+        "ICD:G90.2",
+        "ICD:A68.9",
+        "ICD:F95.9",
+        "ICD:R50.9",
+        "ICD:O28.9",
+        "ICD:H69.9"
+      ]
+    },
+    {
+      "id": 112,
+      "gold": [
+        "ICD:I24.9"
+      ],
+      "top10": [
+        "ICD:S77.2",
+        "ICD:K13.1",
+        "ICD:R29.4",
+        "ICD:S77",
+        "ICD:S77.0",
+        "ICD:T04.0",
+        "ICD:W16",
+        "ICD:T27.5",
+        "ICD:O21.8",
+        "ICD:V43.4"
+      ]
+    },
+    {
+      "id": 113,
+      "gold": [
+        "ICD:B16.9"
+      ],
+      "top10": [
+        "ICD:A48.0",
+        "ICD:A66.5",
+        "ICD:M67.4",
+        "ICD:J85.0",
+        "ICD:Z72.6",
+        "ICD:W16",
+        "ICD:K43.7",
+        "ICD:Y02",
+        "ICD:Y51.2",
+        "ICD:L88"
+      ]
+    },
+    {
+      "id": 114,
+      "gold": [
+        "ICD:I82"
+      ],
+      "top10": [
+        "ICD:T73.0",
+        "ICD:M72.0",
+        "ICD:G10",
+        "ICD:S42.3",
+        "ICD:S42.4",
+        "ICD:S42.2",
+        "ICD:C46",
+        "ICD:F02.2",
+        "ICD:Q14.0",
+        "ICD:C46.0"
+      ]
+    },
+    {
+      "id": 115,
+      "gold": [
+        "ICD:I82.9"
+      ],
+      "top10": [
+        "ICD:T73.0",
+        "ICD:M72.0",
+        "ICD:G10",
+        "ICD:S42.3",
+        "ICD:S42.4",
+        "ICD:S42.2",
+        "ICD:C46",
+        "ICD:F02.2",
+        "ICD:Q14.0",
+        "ICD:C46.0"
+      ]
+    },
+    {
+      "id": 116,
+      "gold": [
+        "ICD:I82"
+      ],
+      "top10": [
+        "ICD:S36.3",
+        "ICD:A79.0",
+        "ICD:Q86.0",
+        "ICD:Z50.5",
+        "ICD:P37.2",
+        "ICD:O83.0",
+        "ICD:T40.7",
+        "ICD:D00",
+        "ICD:C16",
+        "ICD:D13.1"
+      ]
+    },
+    {
+      "id": 117,
+      "gold": [
+        "ICD:M30.3"
+      ],
+      "top10": [
+        "ICD:M30.3",
+        "ICD:B81.0",
+        "ICD:C46.0",
+        "ICD:C46",
+        "ICD:H27.0",
+        "ICD:C46.2",
+        "ICD:C46.7",
+        "ICD:C46.9",
+        "ICD:C46.1",
+        "ICD:C46.3"
+      ]
+    },
+    {
+      "id": 118,
+      "gold": [
+        "ICD:K90"
+      ],
+      "top10": [
+        "ICD:D53.0",
+        "ICD:R80",
+        "ICD:E78.6",
+        "ICD:O12.1",
+        "ICD:E77",
+        "ICD:E77.8",
+        "ICD:E78.8",
+        "ICD:E77.1",
+        "ICD:R77",
+        "ICD:R77.2"
+      ]
+    },
+    {
+      "id": 119,
+      "gold": [
+        "ICD:N97.0"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:T27.1",
+        "ICD:V90.2",
+        "ICD:Y31",
+        "ICD:Q68.5",
+        "ICD:T27.5",
+        "ICD:X81",
+        "ICD:B22.2"
+      ]
+    },
+    {
+      "id": 120,
+      "gold": [
+        "ICD:F11.1",
+        "ICD:F15.1"
+      ],
+      "top10": [
+        "ICD:T40.2",
+        "ICD:Y50.1",
+        "ICD:Y45.0",
+        "ICD:F11",
+        "ICD:T50.7",
+        "ICD:F11.0",
+        "ICD:F11.5",
+        "ICD:F11.6",
+        "ICD:F11.3",
+        "ICD:F11.2"
+      ]
+    },
+    {
+      "id": 121,
+      "gold": [
+        "ICD:G82"
+      ],
+      "top10": [
+        "ICD:L67",
+        "ICD:L67.8",
+        "ICD:L67.9",
+        "ICD:Z41.0",
+        "ICD:L67.1",
+        "ICD:Q84.2",
+        "ICD:L65",
+        "ICD:K13.3",
+        "ICD:C91.4",
+        "ICD:L65.8"
+      ]
+    },
+    {
+      "id": 122,
+      "gold": [
+        "ICD:G82.2"
+      ],
+      "top10": [
+        "ICD:L67",
+        "ICD:L67.8",
+        "ICD:L67.9",
+        "ICD:Z41.0",
+        "ICD:L67.1",
+        "ICD:Q84.2",
+        "ICD:L65",
+        "ICD:K13.3",
+        "ICD:C91.4",
+        "ICD:L65.8"
+      ]
+    },
+    {
+      "id": 123,
+      "gold": [
+        "ICD:F29"
+      ],
+      "top10": [
+        "ICD:R10.3",
+        "ICD:Z56.2",
+        "ICD:D16.2",
+        "ICD:C40.2",
+        "ICD:R07.0",
+        "ICD:M54.5",
+        "ICD:O63",
+        "ICD:K08.1",
+        "ICD:R22.4",
+        "ICD:Z61.0"
+      ]
+    },
+    {
+      "id": 124,
+      "gold": [
+        "ICD:M81.9"
+      ],
+      "top10": [
+        "ICD:O63",
+        "ICD:Q68.5",
+        "ICD:W16",
+        "ICD:H91",
+        "ICD:Z72.6",
+        "ICD:S87",
+        "ICD:D16.2",
+        "ICD:C40.2",
+        "ICD:Y02",
+        "ICD:T27.1"
+      ]
+    },
+    {
+      "id": 125,
+      "gold": [
+        "ICD:K22.1"
+      ],
+      "top10": [
+        "ICD:C40.2",
+        "ICD:D16.2",
+        "ICD:R10.3",
+        "ICD:O63",
+        "ICD:Z56.2",
+        "ICD:R22.4",
+        "ICD:C34.3",
+        "ICD:C50.3",
+        "ICD:C50.5",
+        "ICD:Z61.0"
+      ]
+    },
+    {
+      "id": 126,
+      "gold": [
+        "ICD:K26.9"
+      ],
+      "top10": [
+        "ICD:O63",
+        "ICD:C40.2",
+        "ICD:D16.2",
+        "ICD:H91",
+        "ICD:Q68.5",
+        "ICD:T27.1",
+        "ICD:S87",
+        "ICD:T27.5",
+        "ICD:C34.3",
+        "ICD:O63.9"
+      ]
+    },
+    {
+      "id": 127,
+      "gold": [
+        "ICD:K22.1"
+      ],
+      "top10": [
+        "ICD:U83.2",
+        "ICD:G80.0",
+        "ICD:O89.3",
+        "ICD:C50.3",
+        "ICD:C50.5",
+        "ICD:S76.1",
+        "ICD:O30.2",
+        "ICD:K71.4",
+        "ICD:D69.1",
+        "ICD:Z56.2"
+      ]
+    },
+    {
+      "id": 128,
+      "gold": [
+        "ICD:L89"
+      ],
+      "top10": [
+        "ICD:M31.6",
+        "ICD:L89.3",
+        "ICD:M31.5",
+        "ICD:K10.1",
+        "ICD:Q63.3",
+        "ICD:A07.1",
+        "ICD:B23.0",
+        "ICD:G83.1",
+        "ICD:K05.0",
+        "ICD:K05.1"
+      ]
+    },
+    {
+      "id": 129,
+      "gold": [
+        "ICD:I62"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:O21.8",
+        "ICD:Q68.5",
+        "ICD:V90.2",
+        "ICD:X81",
+        "ICD:O75.1"
+      ]
+    },
+    {
+      "id": 130,
+      "gold": [
+        "ICD:Z34"
+      ],
+      "top10": [
+        "ICD:E61.3",
+        "ICD:T57.2",
+        "ICD:W16",
+        "ICD:D18.0",
+        "ICD:O96",
+        "ICD:D18",
+        "ICD:O96.9",
+        "ICD:O96.0",
+        "ICD:D56",
+        "ICD:O96.1"
+      ]
+    },
+    {
+      "id": 131,
+      "gold": [
+        "ICD:Z34"
+      ],
+      "top10": [
+        "ICD:E61.3",
+        "ICD:Y90.0",
+        "ICD:T57.2",
+        "ICD:O96",
+        "ICD:O96.9",
+        "ICD:O96.0",
+        "ICD:O96.1",
+        "ICD:W16",
+        "ICD:Q97.1",
+        "ICD:D18"
+      ]
+    },
+    {
+      "id": 132,
+      "gold": [
+        "ICD:O00"
+      ],
+      "top10": [
+        "ICD:E61.3",
+        "ICD:J85.0",
+        "ICD:Q33.0",
+        "ICD:Q33",
+        "ICD:J98.4",
+        "ICD:Q33.8",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:W16",
+        "ICD:J67.0"
+      ]
+    },
+    {
+      "id": 133,
+      "gold": [
+        "ICD:G47.0"
+      ],
+      "top10": [
+        "ICD:L60.0",
+        "ICD:C70",
+        "ICD:J85.0",
+        "ICD:C70.1",
+        "ICD:C02.8",
+        "ICD:T44.2",
+        "ICD:E04.1",
+        "ICD:C70.0",
+        "ICD:C70.9",
+        "ICD:C72.3"
+      ]
+    },
+    {
+      "id": 134,
+      "gold": [
+        "ICD:L50.9"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V81.9",
+        "ICD:V81.8",
+        "ICD:V81.2",
+        "ICD:V45",
+        "ICD:V75",
+        "ICD:V65",
+        "ICD:V05",
+        "ICD:V80.6"
+      ]
+    },
+    {
+      "id": 135,
+      "gold": [
+        "ICD:L50.8"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V81.9",
+        "ICD:V81.8",
+        "ICD:V05",
+        "ICD:V45",
+        "ICD:V75",
+        "ICD:V81.2",
+        "ICD:V25",
+        "ICD:V65"
+      ]
+    },
+    {
+      "id": 136,
+      "gold": [
+        "ICD:L50.8"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V05",
+        "ICD:V45",
+        "ICD:V75",
+        "ICD:V81.9",
+        "ICD:V25",
+        "ICD:V65",
+        "ICD:V81.8",
+        "ICD:V81.2"
+      ]
+    },
+    {
+      "id": 137,
+      "gold": [
+        "ICD:L50.1"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V81.9",
+        "ICD:V45",
+        "ICD:V81.8",
+        "ICD:V65",
+        "ICD:V05",
+        "ICD:V15",
+        "ICD:V75",
+        "ICD:V55"
+      ]
+    },
+    {
+      "id": 138,
+      "gold": [
+        "ICD:L50.1"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V81.9",
+        "ICD:V81.8",
+        "ICD:V45",
+        "ICD:V75",
+        "ICD:V05",
+        "ICD:V25",
+        "ICD:V80.6",
+        "ICD:V15"
+      ]
+    },
+    {
+      "id": 139,
+      "gold": [
+        "ICD:L50.9"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V81.9",
+        "ICD:V81.8",
+        "ICD:V45",
+        "ICD:V75",
+        "ICD:V05",
+        "ICD:V25",
+        "ICD:V80.6",
+        "ICD:V15"
+      ]
+    },
+    {
+      "id": 140,
+      "gold": [
+        "ICD:L70.0"
+      ],
+      "top10": [
+        "ICD:E83.5",
+        "ICD:P71",
+        "ICD:P71.8",
+        "ICD:C03",
+        "ICD:E83.4",
+        "ICD:C18",
+        "ICD:C20",
+        "ICD:Q34.1",
+        "ICD:D33",
+        "ICD:Q04.0"
+      ]
+    },
+    {
+      "id": 141,
+      "gold": [
+        "ICD:L70.9"
+      ],
+      "top10": [
+        "ICD:E83.5",
+        "ICD:P71",
+        "ICD:P71.8",
+        "ICD:C03",
+        "ICD:E83.4",
+        "ICD:C18",
+        "ICD:C20",
+        "ICD:Q34.1",
+        "ICD:D33",
+        "ICD:Q04.0"
+      ]
+    },
+    {
+      "id": 142,
+      "gold": [
+        "ICD:L70.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:Z72.6",
+        "ICD:V63.4",
+        "ICD:Z94.2",
+        "ICD:V58.4",
+        "ICD:V54.4",
+        "ICD:V90.2",
+        "ICD:Z50.6"
+      ]
+    },
+    {
+      "id": 143,
+      "gold": [
+        "ICD:L70.0"
+      ],
+      "top10": [
+        "ICD:D03.5",
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:D03",
+        "ICD:D03.7",
+        "ICD:Z72.6",
+        "ICD:L60.4",
+        "ICD:Z94.2",
+        "ICD:V58.4"
+      ]
+    },
+    {
+      "id": 144,
+      "gold": [
+        "ICD:L70.9"
+      ],
+      "top10": [
+        "ICD:D03.5",
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:D03",
+        "ICD:D03.7",
+        "ICD:Z72.6",
+        "ICD:L60.4",
+        "ICD:Z94.2",
+        "ICD:V58.4"
+      ]
+    },
+    {
+      "id": 145,
+      "gold": [
+        "ICD:B35.6"
+      ],
+      "top10": [
+        "ICD:D33",
+        "ICD:D24",
+        "ICD:D43",
+        "ICD:C71",
+        "ICD:D36.9",
+        "ICD:D27",
+        "ICD:D12.8",
+        "ICD:D48.2",
+        "ICD:D32",
+        "ICD:D36.1"
+      ]
+    },
+    {
+      "id": 146,
+      "gold": [
+        "ICD:G93.0"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:W16",
+        "ICD:L60.0",
+        "ICD:J85.0",
+        "ICD:O21.8",
+        "ICD:Z72.6",
+        "ICD:C34.8",
+        "ICD:R11",
+        "ICD:W70",
+        "ICD:C11.8"
+      ]
+    },
+    {
+      "id": 147,
+      "gold": [
+        "ICD:G91.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:W77",
+        "ICD:X43",
+        "ICD:W84",
+        "ICD:W83",
+        "ICD:T44",
+        "ICD:P13.3",
+        "ICD:S77.1",
+        "ICD:X63",
+        "ICD:Y13"
+      ]
+    },
+    {
+      "id": 148,
+      "gold": [
+        "ICD:G91.8"
+      ],
+      "top10": [
+        "ICD:S62.5",
+        "ICD:S67.0",
+        "ICD:S64.3",
+        "ICD:Q69.1",
+        "ICD:E05.1",
+        "ICD:S65.4",
+        "ICD:E04.1",
+        "ICD:Z37.0",
+        "ICD:I49.5",
+        "ICD:S66.0"
+      ]
+    },
+    {
+      "id": 149,
+      "gold": [
+        "ICD:G91.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:A21",
+        "ICD:W70",
+        "ICD:R76.1",
+        "ICD:P37.0",
+        "ICD:V90.2",
+        "ICD:Q96",
+        "ICD:Z72.6",
+        "ICD:A17.0",
+        "ICD:A18.6"
+      ]
+    },
+    {
+      "id": 150,
+      "gold": [
+        "ICD:G91.9"
+      ],
+      "top10": [
+        "ICD:I49.5",
+        "ICD:A19.0",
+        "ICD:Z37.0",
+        "ICD:E05.1",
+        "ICD:E04.1",
+        "ICD:J33.8",
+        "ICD:J01",
+        "ICD:Z37.1",
+        "ICD:J01.8",
+        "ICD:J32"
+      ]
+    },
+    {
+      "id": 151,
+      "gold": [
+        "ICD:I49.1"
+      ],
+      "top10": [
+        "ICD:S62.5",
+        "ICD:S64.3",
+        "ICD:Q69.1",
+        "ICD:S67.0",
+        "ICD:S65.4",
+        "ICD:S56.0",
+        "ICD:S66.0",
+        "ICD:S66.2",
+        "ICD:S66.4",
+        "ICD:S68.0"
+      ]
+    },
+    {
+      "id": 152,
+      "gold": [
+        "ICD:I49.3"
+      ],
+      "top10": [
+        "ICD:S62.5",
+        "ICD:S64.3",
+        "ICD:Q69.1",
+        "ICD:S67.0",
+        "ICD:S65.4",
+        "ICD:S56.0",
+        "ICD:S66.2",
+        "ICD:S66.0",
+        "ICD:S66.4",
+        "ICD:S56.3"
+      ]
+    },
+    {
+      "id": 153,
+      "gold": [
+        "ICD:G47"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:S77.2",
+        "ICD:T04.0",
+        "ICD:L60.0",
+        "ICD:S77",
+        "ICD:S77.1",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:Q68.5",
+        "ICD:J85.0"
+      ]
+    },
+    {
+      "id": 154,
+      "gold": [
+        "ICD:G47.3"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:S77.2",
+        "ICD:T04.0",
+        "ICD:L60.0",
+        "ICD:S77",
+        "ICD:S77.1",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:Q68.5",
+        "ICD:J85.0"
+      ]
+    },
+    {
+      "id": 155,
+      "gold": [
+        "ICD:G47"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:S77.1",
+        "ICD:S77.2",
+        "ICD:S77",
+        "ICD:L60.0",
+        "ICD:X43",
+        "ICD:W77",
+        "ICD:T04.0",
+        "ICD:V90.2",
+        "ICD:R91"
+      ]
+    },
+    {
+      "id": 156,
+      "gold": [
+        "ICD:G47.3"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:S77.1",
+        "ICD:S77.2",
+        "ICD:S77",
+        "ICD:L60.0",
+        "ICD:X43",
+        "ICD:W77",
+        "ICD:T04.0",
+        "ICD:V90.2",
+        "ICD:R91"
+      ]
+    },
+    {
+      "id": 157,
+      "gold": [
+        "ICD:A49.9"
+      ],
+      "top10": [
+        "ICD:L74.4",
+        "ICD:Y54.2",
+        "ICD:N31.0",
+        "ICD:P59.3",
+        "ICD:L94.6",
+        "ICD:F94.2",
+        "ICD:Q82.4",
+        "ICD:T50.2",
+        "ICD:Y52.4",
+        "ICD:Y49.1"
+      ]
+    },
+    {
+      "id": 158,
+      "gold": [
+        "ICD:A41"
+      ],
+      "top10": [
+        "ICD:U82.1",
+        "ICD:Y40.0",
+        "ICD:U82.0",
+        "ICD:Z88.0",
+        "ICD:T36.0",
+        "ICD:B48.4",
+        "ICD:Z71.7",
+        "ICD:N31.0",
+        "ICD:V81.2",
+        "ICD:V66.4"
+      ]
+    },
+    {
+      "id": 159,
+      "gold": [
+        "ICD:N39.0"
+      ],
+      "top10": [
+        "ICD:B36.1",
+        "ICD:L74.4",
+        "ICD:N31.0",
+        "ICD:Y54.2",
+        "ICD:P59.3",
+        "ICD:T65.5",
+        "ICD:L94.6",
+        "ICD:A92.3",
+        "ICD:T50.2",
+        "ICD:F94.2"
+      ]
+    },
+    {
+      "id": 160,
+      "gold": [
+        "ICD:N39.0"
+      ],
+      "top10": [
+        "ICD:B36.1",
+        "ICD:L74.4",
+        "ICD:N31.0",
+        "ICD:Y54.2",
+        "ICD:P59.3",
+        "ICD:W16",
+        "ICD:Q33.5",
+        "ICD:C34.8",
+        "ICD:D14.3",
+        "ICD:C34"
+      ]
+    },
+    {
+      "id": 161,
+      "gold": [
+        "ICD:N39.0"
+      ],
+      "top10": [
+        "ICD:B36.1",
+        "ICD:L74.4",
+        "ICD:N31.0",
+        "ICD:Y54.2",
+        "ICD:P59.3",
+        "ICD:Q33.5",
+        "ICD:W16",
+        "ICD:Y02",
+        "ICD:V90.2",
+        "ICD:C34.8"
+      ]
+    },
+    {
+      "id": 162,
+      "gold": [
+        "ICD:N39.0"
+      ],
+      "top10": [
+        "ICD:D03.9",
+        "ICD:D09.9",
+        "ICD:W16",
+        "ICD:Y02",
+        "ICD:M48.2",
+        "ICD:T04.0",
+        "ICD:T27.1",
+        "ICD:V90.2",
+        "ICD:T27.5",
+        "ICD:Z72.6"
+      ]
+    },
+    {
+      "id": 163,
+      "gold": [
+        "ICD:A09"
+      ],
+      "top10": [
+        "ICD:L74.4",
+        "ICD:D03.7",
+        "ICD:D03.1",
+        "ICD:B36.1",
+        "ICD:Y54.2",
+        "ICD:Q33.5",
+        "ICD:Q68.4",
+        "ICD:D03",
+        "ICD:W16",
+        "ICD:B22.2"
+      ]
+    },
+    {
+      "id": 164,
+      "gold": [
+        "ICD:B49"
+      ],
+      "top10": [
+        "ICD:L74.4",
+        "ICD:N31.0",
+        "ICD:P59.3",
+        "ICD:Y54.2",
+        "ICD:F94.2",
+        "ICD:Q82.4",
+        "ICD:C03",
+        "ICD:T50.2",
+        "ICD:C47",
+        "ICD:C20"
+      ]
+    },
+    {
+      "id": 165,
+      "gold": [
+        "ICD:B35.9"
+      ],
+      "top10": [
+        "ICD:L74.4",
+        "ICD:Q05",
+        "ICD:N31.0",
+        "ICD:P59.3",
+        "ICD:Q76.0",
+        "ICD:C72.1",
+        "ICD:Y54.2",
+        "ICD:S34.3",
+        "ICD:E80.1",
+        "ICD:G83.4"
+      ]
+    },
+    {
+      "id": 166,
+      "gold": [
+        "ICD:B99"
+      ],
+      "top10": [
+        "ICD:L74.4",
+        "ICD:Y54.2",
+        "ICD:N31.0",
+        "ICD:P59.3",
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:Y02",
+        "ICD:T04.0",
+        "ICD:S77",
+        "ICD:T27.5"
+      ]
+    },
+    {
+      "id": 167,
+      "gold": [
+        "ICD:B95.2",
+        "ICD:L08.9"
+      ],
+      "top10": [
+        "ICD:A40.2",
+        "ICD:U83.0",
+        "ICD:B95.2",
+        "ICD:A49.1",
+        "ICD:U83.1",
+        "ICD:A04.6",
+        "ICD:N81.5",
+        "ICD:B95",
+        "ICD:J20.2",
+        "ICD:P77"
+      ]
+    },
+    {
+      "id": 168,
+      "gold": [
+        "ICD:A41.9"
+      ],
+      "top10": [
+        "ICD:L74.4",
+        "ICD:Y54.2",
+        "ICD:T73.0",
+        "ICD:Z85.1",
+        "ICD:Z80.1",
+        "ICD:N31.0",
+        "ICD:S77",
+        "ICD:P59.3",
+        "ICD:V68.4",
+        "ICD:T04.0"
+      ]
+    },
+    {
+      "id": 169,
+      "gold": [
+        "ICD:A41.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:V90.2",
+        "ICD:Y02",
+        "ICD:T04.0",
+        "ICD:Z72.6",
+        "ICD:B22.2",
+        "ICD:T27.1",
+        "ICD:O21.8",
+        "ICD:Y31",
+        "ICD:V68.4"
+      ]
+    },
+    {
+      "id": 170,
+      "gold": [
+        "ICD:K05.3"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:T04.0",
+        "ICD:Q68.5",
+        "ICD:V90.2",
+        "ICD:O63",
+        "ICD:X81"
+      ]
+    },
+    {
+      "id": 171,
+      "gold": [
+        "ICD:A41.9"
+      ],
+      "top10": [
+        "ICD:L74.4",
+        "ICD:Y54.2",
+        "ICD:D03.5",
+        "ICD:P59.3",
+        "ICD:N31.0",
+        "ICD:W16",
+        "ICD:D03.7",
+        "ICD:Y02",
+        "ICD:T27.1",
+        "ICD:T04.0"
+      ]
+    },
+    {
+      "id": 172,
+      "gold": [
+        "ICD:K12.2"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:V90.2",
+        "ICD:B22.2",
+        "ICD:T27.1",
+        "ICD:Y31",
+        "ICD:T04.0",
+        "ICD:X81",
+        "ICD:O21.8"
+      ]
+    },
+    {
+      "id": 173,
+      "gold": [
+        "ICD:J06.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:S77.0",
+        "ICD:V54.4",
+        "ICD:V63.4",
+        "ICD:V58.4",
+        "ICD:S77",
+        "ICD:T27.5",
+        "ICD:S77.2",
+        "ICD:R29.4"
+      ]
+    },
+    {
+      "id": 174,
+      "gold": [
+        "ICD:N39.0"
+      ],
+      "top10": [
+        "ICD:L63.0",
+        "ICD:Z51.3",
+        "ICD:L85.2",
+        "ICD:O26.7",
+        "ICD:S97.1",
+        "ICD:L68.0",
+        "ICD:F94.0",
+        "ICD:T04.4",
+        "ICD:L85.3",
+        "ICD:L94.2"
+      ]
+    },
+    {
+      "id": 175,
+      "gold": [
+        "ICD:B96.8"
+      ],
+      "top10": [
+        "ICD:L74.4",
+        "ICD:D22",
+        "ICD:D22.0",
+        "ICD:D22.4",
+        "ICD:Y54.2",
+        "ICD:D22.5",
+        "ICD:E56.1",
+        "ICD:N31.0",
+        "ICD:D22.1",
+        "ICD:P59.3"
+      ]
+    },
+    {
+      "id": 176,
+      "gold": [
+        "ICD:B34.9"
+      ],
+      "top10": [
+        "ICD:A83.6",
+        "ICD:A92.5",
+        "ICD:A98.4",
+        "ICD:A92.3",
+        "ICD:A98.3",
+        "ICD:P35.4",
+        "ICD:A93.0",
+        "ICD:A92.0",
+        "ICD:J11",
+        "ICD:U07.1"
+      ]
+    },
+    {
+      "id": 177,
+      "gold": [
+        "ICD:B00.9"
+      ],
+      "top10": [
+        "ICD:B00",
+        "ICD:P35.2",
+        "ICD:A60",
+        "ICD:O26.4",
+        "ICD:L28.0",
+        "ICD:B00.3",
+        "ICD:B00.5",
+        "ICD:B00.8",
+        "ICD:B00.4",
+        "ICD:L28"
+      ]
+    },
+    {
+      "id": 178,
+      "gold": [
+        "ICD:B19.9"
+      ],
+      "top10": [
+        "ICD:A83.6",
+        "ICD:A92.5",
+        "ICD:A98.4",
+        "ICD:A92.3",
+        "ICD:A98.3",
+        "ICD:P35.4",
+        "ICD:A93.0",
+        "ICD:U07.1",
+        "ICD:U07.2",
+        "ICD:J11"
+      ]
+    },
+    {
+      "id": 179,
+      "gold": [
+        "ICD:K26.9",
+        "ICD:K63.3"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:O63",
+        "ICD:Y02",
+        "ICD:Q68.5",
+        "ICD:T04.0",
+        "ICD:Z72.6",
+        "ICD:V90.2",
+        "ICD:X81"
+      ]
+    },
+    {
+      "id": 180,
+      "gold": [
+        "ICD:K26.9",
+        "ICD:K63.3"
+      ],
+      "top10": [
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:O63",
+        "ICD:W16",
+        "ICD:P13.3",
+        "ICD:H91",
+        "ICD:Z94.2",
+        "ICD:Q68.5",
+        "ICD:S87",
+        "ICD:S77.2"
+      ]
+    },
+    {
+      "id": 181,
+      "gold": [
+        "ICD:K26.9",
+        "ICD:K63.3"
+      ],
+      "top10": [
+        "ICD:T27.1",
+        "ICD:O63",
+        "ICD:T27.5",
+        "ICD:W16",
+        "ICD:Q68.5",
+        "ICD:H91",
+        "ICD:Z94.2",
+        "ICD:V63.4",
+        "ICD:V54.4",
+        "ICD:V68.4"
+      ]
+    },
+    {
+      "id": 182,
+      "gold": [
+        "ICD:I47.1"
+      ],
+      "top10": [
+        "ICD:L74.4",
+        "ICD:Y54.2",
+        "ICD:Y48.0",
+        "ICD:T67.3",
+        "ICD:W78",
+        "ICD:Q97.1",
+        "ICD:R45.2",
+        "ICD:S78",
+        "ICD:W79",
+        "ICD:S74.8"
+      ]
+    },
+    {
+      "id": 183,
+      "gold": [
+        "ICD:I21.9"
+      ],
+      "top10": [
+        "ICD:D03",
+        "ICD:L60.4",
+        "ICD:D06",
+        "ICD:D03.0",
+        "ICD:D03.4",
+        "ICD:D03.5",
+        "ICD:D04",
+        "ICD:D03.8",
+        "ICD:D05",
+        "ICD:D05.0"
+      ]
+    },
+    {
+      "id": 184,
+      "gold": [
+        "ICD:I21"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:X33",
+        "ICD:X34",
+        "ICD:X37",
+        "ICD:X35",
+        "ICD:B74.2",
+        "ICD:X34.9",
+        "ICD:O15.9"
+      ]
+    },
+    {
+      "id": 185,
+      "gold": [
+        "ICD:I21.9"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:X33",
+        "ICD:X34",
+        "ICD:X37",
+        "ICD:X35",
+        "ICD:B74.2",
+        "ICD:X34.9",
+        "ICD:O15.9"
+      ]
+    },
+    {
+      "id": 186,
+      "gold": [
+        "ICD:I21.3"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:A83.3",
+        "ICD:X34.1",
+        "ICD:X37",
+        "ICD:Z65.4",
+        "ICD:X33",
+        "ICD:X34",
+        "ICD:X35",
+        "ICD:B74.2",
+        "ICD:X34.9"
+      ]
+    },
+    {
+      "id": 187,
+      "gold": [
+        "ICD:I21.4"
+      ],
+      "top10": [
+        "ICD:A83.3",
+        "ICD:R07.1",
+        "ICD:D05",
+        "ICD:W21",
+        "ICD:W22",
+        "ICD:D05.7",
+        "ICD:R07.3",
+        "ICD:K31.2",
+        "ICD:N60.0",
+        "ICD:N28.1"
+      ]
+    },
+    {
+      "id": 188,
+      "gold": [
+        "ICD:L50.9"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V81.9",
+        "ICD:V81.8",
+        "ICD:V45",
+        "ICD:V75",
+        "ICD:V05",
+        "ICD:V05.0",
+        "ICD:V25",
+        "ICD:V80.6"
+      ]
+    },
+    {
+      "id": 189,
+      "gold": [
+        "ICD:E04.1"
+      ],
+      "top10": [
+        "ICD:D22.0",
+        "ICD:D22.4",
+        "ICD:D22.5",
+        "ICD:D22",
+        "ICD:D22.7",
+        "ICD:W76",
+        "ICD:D22.1",
+        "ICD:K05.1",
+        "ICD:D22.2",
+        "ICD:D22.6"
+      ]
+    },
+    {
+      "id": 190,
+      "gold": [
+        "ICD:K25.9"
+      ],
+      "top10": [
+        "ICD:Y65.1",
+        "ICD:B83.2",
+        "ICD:B78",
+        "ICD:B81.2",
+        "ICD:O63",
+        "ICD:B78.9",
+        "ICD:B78.0",
+        "ICD:B78.1",
+        "ICD:B78.7",
+        "ICD:B81.3"
+      ]
+    },
+    {
+      "id": 191,
+      "gold": [
+        "ICD:G20"
+      ],
+      "top10": [
+        "ICD:G20",
+        "ICD:F02.3",
+        "ICD:G21.4",
+        "ICD:G21",
+        "ICD:G21.8",
+        "ICD:G21.9",
+        "ICD:Y46.7",
+        "ICD:G21.3",
+        "ICD:G22",
+        "ICD:G21.2"
+      ]
+    },
+    {
+      "id": 192,
+      "gold": [
+        "ICD:I25"
+      ],
+      "top10": [
+        "ICD:Q38.7",
+        "ICD:K05.1",
+        "ICD:S77.2",
+        "ICD:K05.0",
+        "ICD:S36.3",
+        "ICD:O83.0",
+        "ICD:K06.0",
+        "ICD:A79.0",
+        "ICD:R06.5",
+        "ICD:T27.1"
+      ]
+    },
+    {
+      "id": 193,
+      "gold": [
+        "ICD:H47"
+      ],
+      "top10": [
+        "ICD:R26.0",
+        "ICD:R26.1",
+        "ICD:R63.5",
+        "ICD:O26.1",
+        "ICD:O26.0",
+        "ICD:R26",
+        "ICD:R26.8",
+        "ICD:A48.0",
+        "ICD:Y48.5",
+        "ICD:K29.6"
+      ]
+    },
+    {
+      "id": 194,
+      "gold": [
+        "ICD:H47.1"
+      ],
+      "top10": [
+        "ICD:R26.0",
+        "ICD:R26.1",
+        "ICD:R63.5",
+        "ICD:O26.1",
+        "ICD:O26.0",
+        "ICD:R26",
+        "ICD:R26.8",
+        "ICD:A48.0",
+        "ICD:Y48.5",
+        "ICD:K29.6"
+      ]
+    },
+    {
+      "id": 195,
+      "gold": [
+        "ICD:H47.1"
+      ],
+      "top10": [
+        "ICD:R26.0",
+        "ICD:R26.1",
+        "ICD:R63.5",
+        "ICD:O26.1",
+        "ICD:O26.0",
+        "ICD:R26",
+        "ICD:A48.0",
+        "ICD:R26.8",
+        "ICD:Z72.6",
+        "ICD:L90.3"
+      ]
+    },
+    {
+      "id": 196,
+      "gold": [
+        "ICD:J81"
+      ],
+      "top10": [
+        "ICD:E83.3",
+        "ICD:T54.0",
+        "ICD:A36.0",
+        "ICD:T74.1",
+        "ICD:J31.2",
+        "ICD:B85.3",
+        "ICD:J39.2",
+        "ICD:J02",
+        "ICD:F40.1",
+        "ICD:O22.3"
+      ]
+    },
+    {
+      "id": 197,
+      "gold": [
+        "ICD:T45.5"
+      ],
+      "top10": [
+        "ICD:E56.1",
+        "ICD:E50",
+        "ICD:E55",
+        "ICD:E56.0",
+        "ICD:D51.1",
+        "ICD:E56",
+        "ICD:E56.9",
+        "ICD:E64.1",
+        "ICD:E64.2",
+        "ICD:E50.9"
+      ]
+    },
+    {
+      "id": 198,
+      "gold": [
+        "ICD:T45.5"
+      ],
+      "top10": [
+        "ICD:E56.1",
+        "ICD:E50",
+        "ICD:E55",
+        "ICD:E56.0",
+        "ICD:D51.1",
+        "ICD:E56",
+        "ICD:E64.2",
+        "ICD:E56.9",
+        "ICD:E64.1",
+        "ICD:E50.9"
+      ]
+    },
+    {
+      "id": 199,
+      "gold": [
+        "ICD:J18.9"
+      ],
+      "top10": [
+        "ICD:J15.7",
+        "ICD:B01.2",
+        "ICD:J15.0",
+        "ICD:J12.8",
+        "ICD:J13",
+        "ICD:P23",
+        "ICD:J17.2",
+        "ICD:J15.8",
+        "ICD:B20.6",
+        "ICD:J12.0"
+      ]
+    },
+    {
+      "id": 200,
+      "gold": [
+        "ICD:F39"
+      ],
+      "top10": [
+        "ICD:D16.2",
+        "ICD:Z61.0",
+        "ICD:C40.2",
+        "ICD:O63",
+        "ICD:R10.3",
+        "ICD:R22.4",
+        "ICD:M54.5",
+        "ICD:C34.3",
+        "ICD:Q72",
+        "ICD:S81"
+      ]
+    },
+    {
+      "id": 201,
+      "gold": [
+        "ICD:F32.9"
+      ],
+      "top10": [
+        "ICD:T79.0",
+        "ICD:T79.1",
+        "ICD:V87.3",
+        "ICD:V87.2",
+        "ICD:V87.4",
+        "ICD:V87.7",
+        "ICD:V87.5",
+        "ICD:V87.0",
+        "ICD:V87.6",
+        "ICD:V87.8"
+      ]
+    },
+    {
+      "id": 202,
+      "gold": [
+        "ICD:F31"
+      ],
+      "top10": [
+        "ICD:O63",
+        "ICD:Q33.0",
+        "ICD:D16.2",
+        "ICD:C40.2",
+        "ICD:S87",
+        "ICD:Q68.5",
+        "ICD:H91.0",
+        "ICD:H91",
+        "ICD:D22.7",
+        "ICD:O63.9"
+      ]
+    },
+    {
+      "id": 203,
+      "gold": [
+        "ICD:E85.9"
+      ],
+      "top10": [
+        "ICD:E85",
+        "ICD:E85.8",
+        "ICD:L99.0",
+        "ICD:E85.9",
+        "ICD:M14.4",
+        "ICD:E85.3",
+        "ICD:E85.4",
+        "ICD:E85.2",
+        "ICD:E85.1",
+        "ICD:E85.0"
+      ]
+    },
+    {
+      "id": 204,
+      "gold": [
+        "ICD:E78.5"
+      ],
+      "top10": [
+        "ICD:E75.5",
+        "ICD:E75",
+        "ICD:E75.6",
+        "ICD:E78",
+        "ICD:E78.4",
+        "ICD:E75.2",
+        "ICD:E78.2",
+        "ICD:E75.3",
+        "ICD:E78.5",
+        "ICD:D03.0"
+      ]
+    },
+    {
+      "id": 205,
+      "gold": [
+        "ICD:F41.9"
+      ],
+      "top10": [
+        "ICD:D16.2",
+        "ICD:C40.2",
+        "ICD:R10.3",
+        "ICD:O63",
+        "ICD:D05.0",
+        "ICD:R22.4",
+        "ICD:Z61.0",
+        "ICD:C34.3",
+        "ICD:M54.5",
+        "ICD:K08.1"
+      ]
+    },
+    {
+      "id": 206,
+      "gold": [
+        "ICD:F31.9"
+      ],
+      "top10": [
+        "ICD:O63",
+        "ICD:D16.2",
+        "ICD:C40.2",
+        "ICD:S87",
+        "ICD:Q68.5",
+        "ICD:H91",
+        "ICD:O63.9",
+        "ICD:C34.3",
+        "ICD:Q33.1",
+        "ICD:Q33.0"
+      ]
+    },
+    {
+      "id": 207,
+      "gold": [
+        "ICD:G25.9"
+      ],
+      "top10": [
+        "ICD:O63",
+        "ICD:D16.2",
+        "ICD:C40.2",
+        "ICD:H91",
+        "ICD:Q68.5",
+        "ICD:S87",
+        "ICD:O63.9",
+        "ICD:C34.3",
+        "ICD:W16",
+        "ICD:Q33.1"
+      ]
+    },
+    {
+      "id": 208,
+      "gold": [
+        "ICD:I48"
+      ],
+      "top10": [
+        "ICD:Q43.1",
+        "ICD:J98.4",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:Y31",
+        "ICD:J67.0",
+        "ICD:Q33.0",
+        "ICD:Q33.5",
+        "ICD:J85.0",
+        "ICD:Q33.2"
+      ]
+    },
+    {
+      "id": 209,
+      "gold": [
+        "ICD:I48.9"
+      ],
+      "top10": [
+        "ICD:Q43.1",
+        "ICD:J98.4",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:Y31",
+        "ICD:J67.0",
+        "ICD:Q33.0",
+        "ICD:Q33.5",
+        "ICD:J85.0",
+        "ICD:Q33.2"
+      ]
+    },
+    {
+      "id": 210,
+      "gold": [
+        "ICD:I48"
+      ],
+      "top10": [
+        "ICD:Q43.1",
+        "ICD:J98.4",
+        "ICD:Y31",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:Q33.0",
+        "ICD:J85.0",
+        "ICD:J67.0",
+        "ICD:T27.1",
+        "ICD:Z94.2"
+      ]
+    },
+    {
+      "id": 211,
+      "gold": [
+        "ICD:L63.0"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:P13.3",
+        "ICD:V90.2",
+        "ICD:O89.3",
+        "ICD:Z72.6",
+        "ICD:W77",
+        "ICD:O29.3",
+        "ICD:X43",
+        "ICD:L57",
+        "ICD:L57.8"
+      ]
+    },
+    {
+      "id": 212,
+      "gold": [
+        "ICD:L63.1"
+      ],
+      "top10": [
+        "ICD:O89.3",
+        "ICD:W16",
+        "ICD:W77",
+        "ICD:W84",
+        "ICD:W83",
+        "ICD:X43",
+        "ICD:E05.1",
+        "ICD:O29.3",
+        "ICD:X63",
+        "ICD:O99.1"
+      ]
+    },
+    {
+      "id": 213,
+      "gold": [
+        "ICD:L63.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:V90.2",
+        "ICD:Y31",
+        "ICD:R91",
+        "ICD:Q68.5",
+        "ICD:X81",
+        "ICD:B22.2",
+        "ICD:O21.8"
+      ]
+    },
+    {
+      "id": 214,
+      "gold": [
+        "ICD:L63.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:Y02",
+        "ICD:V90.2",
+        "ICD:O21.8",
+        "ICD:Y31",
+        "ICD:R91",
+        "ICD:Q68.5",
+        "ICD:X81",
+        "ICD:B22.2"
+      ]
+    },
+    {
+      "id": 215,
+      "gold": [
+        "ICD:S09.9"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:A93.1",
+        "ICD:W16",
+        "ICD:Z84.3",
+        "ICD:Z72.6",
+        "ICD:F62.8",
+        "ICD:J85.0",
+        "ICD:Y02",
+        "ICD:L57",
+        "ICD:V90.2"
+      ]
+    },
+    {
+      "id": 216,
+      "gold": [
+        "ICD:K02.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:D03",
+        "ICD:D03.7",
+        "ICD:Z72.6",
+        "ICD:B22.2",
+        "ICD:L60.4",
+        "ICD:D03.6",
+        "ICD:D04",
+        "ICD:D03.1",
+        "ICD:Y61.7"
+      ]
+    },
+    {
+      "id": 217,
+      "gold": [
+        "ICD:N96"
+      ],
+      "top10": [
+        "ICD:D56",
+        "ICD:D56.3",
+        "ICD:D56.0",
+        "ICD:D56.8",
+        "ICD:O96",
+        "ICD:D56.1",
+        "ICD:L67.8",
+        "ICD:Q97.1",
+        "ICD:O96.9",
+        "ICD:L67"
+      ]
+    },
+    {
+      "id": 218,
+      "gold": [
+        "ICD:O03.9"
+      ],
+      "top10": [
+        "ICD:D56",
+        "ICD:D56.3",
+        "ICD:D56.0",
+        "ICD:D56.8",
+        "ICD:O96",
+        "ICD:D56.1",
+        "ICD:L67.8",
+        "ICD:Q97.1",
+        "ICD:O96.9",
+        "ICD:L67"
+      ]
+    },
+    {
+      "id": 219,
+      "gold": [
+        "ICD:O60.1"
+      ],
+      "top10": [
+        "ICD:E04.1",
+        "ICD:I49.5",
+        "ICD:V06.0",
+        "ICD:Z37.0",
+        "ICD:J34",
+        "ICD:J01",
+        "ICD:J32",
+        "ICD:J33.8",
+        "ICD:J34.8",
+        "ICD:P12.1"
+      ]
+    },
+    {
+      "id": 220,
+      "gold": [
+        "ICD:K80"
+      ],
+      "top10": [
+        "ICD:L90.3",
+        "ICD:C46.0",
+        "ICD:D82.1",
+        "ICD:C46",
+        "ICD:C46.7",
+        "ICD:L29.1",
+        "ICD:L29.0",
+        "ICD:E51.1",
+        "ICD:C46.1",
+        "ICD:N88.2"
+      ]
+    },
+    {
+      "id": 221,
+      "gold": [
+        "ICD:N20.0"
+      ],
+      "top10": [
+        "ICD:N72",
+        "ICD:D83",
+        "ICD:N88.8",
+        "ICD:N88",
+        "ICD:D83.1",
+        "ICD:D83.8",
+        "ICD:D83.9",
+        "ICD:L90.3",
+        "ICD:K83.4",
+        "ICD:D80.5"
+      ]
+    },
+    {
+      "id": 222,
+      "gold": [
+        "ICD:K80"
+      ],
+      "top10": [
+        "ICD:L90.3",
+        "ICD:C46.0",
+        "ICD:D82.1",
+        "ICD:C46.1",
+        "ICD:C46",
+        "ICD:C46.7",
+        "ICD:L29.1",
+        "ICD:L29.0",
+        "ICD:E51.1",
+        "ICD:C53"
+      ]
+    },
+    {
+      "id": 223,
+      "gold": [
+        "ICD:N20.1"
+      ],
+      "top10": [
+        "ICD:U83.2",
+        "ICD:O30.2",
+        "ICD:S76.1",
+        "ICD:D69.1",
+        "ICD:D03",
+        "ICD:D06",
+        "ICD:D04",
+        "ICD:G80.0",
+        "ICD:D03.4",
+        "ICD:C50.3"
+      ]
+    },
+    {
+      "id": 224,
+      "gold": [
+        "ICD:K80.5"
+      ],
+      "top10": [
+        "ICD:T73.0",
+        "ICD:Q33.0",
+        "ICD:J98.4",
+        "ICD:D14.3",
+        "ICD:C34",
+        "ICD:D02.2",
+        "ICD:C34.8",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:J67.0"
+      ]
+    },
+    {
+      "id": 225,
+      "gold": [
+        "ICD:K80"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:V90.2",
+        "ICD:Y02",
+        "ICD:X81",
+        "ICD:Y31",
+        "ICD:Q68.5",
+        "ICD:B22.2",
+        "ICD:O21.8",
+        "ICD:Z46.1"
+      ]
+    },
+    {
+      "id": 226,
+      "gold": [
+        "ICD:K80.5"
+      ],
+      "top10": [
+        "ICD:V96.2",
+        "ICD:E24",
+        "ICD:H05.5",
+        "ICD:M67.0",
+        "ICD:E03.4",
+        "ICD:E24.8",
+        "ICD:M21.3",
+        "ICD:F40.2",
+        "ICD:B57.2",
+        "ICD:V90.6"
+      ]
+    },
+    {
+      "id": 227,
+      "gold": [
+        "ICD:N20.0"
+      ],
+      "top10": [
+        "ICD:R07.0",
+        "ICD:Q97.1",
+        "ICD:M54.6",
+        "ICD:Y84",
+        "ICD:Y83",
+        "ICD:Y88.3",
+        "ICD:E05.1",
+        "ICD:O87.3",
+        "ICD:S23.3",
+        "ICD:E06.2"
+      ]
+    },
+    {
+      "id": 228,
+      "gold": [
+        "ICD:N20.0"
+      ],
+      "top10": [
+        "ICD:D33.2",
+        "ICD:D23.9",
+        "ICD:R52.9",
+        "ICD:D12.6",
+        "ICD:D06",
+        "ICD:U83.2",
+        "ICD:Z38.3",
+        "ICD:D29.9",
+        "ICD:G93.9",
+        "ICD:D33.0"
+      ]
+    },
+    {
+      "id": 229,
+      "gold": [
+        "ICD:K80"
+      ],
+      "top10": [
+        "ICD:E24",
+        "ICD:E24.8",
+        "ICD:E24.9",
+        "ICD:B43.0",
+        "ICD:I23",
+        "ICD:L94.2",
+        "ICD:I23.2",
+        "ICD:W16",
+        "ICD:I23.8",
+        "ICD:E24.2"
+      ]
+    },
+    {
+      "id": 230,
+      "gold": [
+        "ICD:K80.5"
+      ],
+      "top10": [
+        "ICD:E24",
+        "ICD:E24.8",
+        "ICD:E24.9",
+        "ICD:B43.0",
+        "ICD:I23",
+        "ICD:L94.2",
+        "ICD:I23.2",
+        "ICD:W16",
+        "ICD:I23.8",
+        "ICD:E24.2"
+      ]
+    },
+    {
+      "id": 231,
+      "gold": [
+        "ICD:R21"
+      ],
+      "top10": [
+        "ICD:A82.1",
+        "ICD:M76.3",
+        "ICD:A95.1",
+        "ICD:B74.0",
+        "ICD:P74.2",
+        "ICD:P74.3",
+        "ICD:M54.5",
+        "ICD:N15.0",
+        "ICD:N75.0",
+        "ICD:Y06"
+      ]
+    },
+    {
+      "id": 232,
+      "gold": [
+        "ICD:B34.9"
+      ],
+      "top10": [
+        "ICD:D03.8",
+        "ICD:D09.7",
+        "ICD:D03",
+        "ICD:D09",
+        "ICD:D06",
+        "ICD:D04",
+        "ICD:D03.0",
+        "ICD:I49.5",
+        "ICD:D05",
+        "ICD:D03.5"
+      ]
+    },
+    {
+      "id": 233,
+      "gold": [
+        "ICD:F43.9"
+      ],
+      "top10": [
+        "ICD:F43.0",
+        "ICD:N39.3",
+        "ICD:O68",
+        "ICD:F43.8",
+        "ICD:F43.1",
+        "ICD:M84.3",
+        "ICD:P22",
+        "ICD:P22.8",
+        "ICD:Z73.3",
+        "ICD:J80"
+      ]
+    },
+    {
+      "id": 234,
+      "gold": [
+        "ICD:K76.9"
+      ],
+      "top10": [
+        "ICD:A48.0",
+        "ICD:M67.4",
+        "ICD:A66.5",
+        "ICD:J85.0",
+        "ICD:G51.1",
+        "ICD:L88",
+        "ICD:E75.0",
+        "ICD:K05.1",
+        "ICD:E75.1",
+        "ICD:R02"
+      ]
+    },
+    {
+      "id": 235,
+      "gold": [
+        "ICD:D84.9"
+      ],
+      "top10": [
+        "ICD:K05.1",
+        "ICD:K05.0",
+        "ICD:K06.0",
+        "ICD:S36.3",
+        "ICD:E80.4",
+        "ICD:K06.1",
+        "ICD:K05",
+        "ICD:M31.6",
+        "ICD:S65.2",
+        "ICD:Z50.5"
+      ]
+    },
+    {
+      "id": 236,
+      "gold": [
+        "ICD:D84"
+      ],
+      "top10": [
+        "ICD:Y54.0",
+        "ICD:Y42.0",
+        "ICD:T38.0",
+        "ICD:T50.0",
+        "ICD:F01.3",
+        "ICD:Y54.1",
+        "ICD:M43.6",
+        "ICD:C13.0",
+        "ICD:H65.3",
+        "ICD:G24.3"
+      ]
+    },
+    {
+      "id": 237,
+      "gold": [
+        "ICD:D84.9"
+      ],
+      "top10": [
+        "ICD:Y54.0",
+        "ICD:Y42.0",
+        "ICD:T38.0",
+        "ICD:T50.0",
+        "ICD:F01.3",
+        "ICD:Y54.1",
+        "ICD:M43.6",
+        "ICD:C13.0",
+        "ICD:H65.3",
+        "ICD:G24.3"
+      ]
+    },
+    {
+      "id": 238,
+      "gold": [
+        "ICD:J96"
+      ],
+      "top10": [
+        "ICD:S70",
+        "ICD:S00.0",
+        "ICD:S00.5",
+        "ICD:M72.0",
+        "ICD:S70.9",
+        "ICD:S00",
+        "ICD:S77.0",
+        "ICD:Z81.4",
+        "ICD:T67.2",
+        "ICD:S73.1"
+      ]
+    },
+    {
+      "id": 239,
+      "gold": [
+        "ICD:N19"
+      ],
+      "top10": [
+        "ICD:S20",
+        "ICD:Z84.0",
+        "ICD:Y83",
+        "ICD:S70",
+        "ICD:M72.0",
+        "ICD:J95.1",
+        "ICD:Z87.2",
+        "ICD:O87.0",
+        "ICD:E06.1",
+        "ICD:S20.8"
+      ]
+    },
+    {
+      "id": 240,
+      "gold": [
+        "ICD:N17.9"
+      ],
+      "top10": [
+        "ICD:S70",
+        "ICD:S70.8",
+        "ICD:S70.9",
+        "ICD:S20",
+        "ICD:S77.2",
+        "ICD:Z84.0",
+        "ICD:S00.5",
+        "ICD:S79.9",
+        "ICD:Y83",
+        "ICD:S77"
+      ]
+    },
+    {
+      "id": 241,
+      "gold": [
+        "ICD:N18.5"
+      ],
+      "top10": [
+        "ICD:M31.6",
+        "ICD:M31.5",
+        "ICD:K10.1",
+        "ICD:Q63.3",
+        "ICD:A07.1",
+        "ICD:M79.1",
+        "ICD:H92.0",
+        "ICD:G82",
+        "ICD:S13.5",
+        "ICD:Y63.2"
+      ]
+    },
+    {
+      "id": 242,
+      "gold": [
+        "ICD:N18.5"
+      ],
+      "top10": [
+        "ICD:M31.6",
+        "ICD:M31.5",
+        "ICD:K10.1",
+        "ICD:Q63.3",
+        "ICD:A07.1",
+        "ICD:M79.1",
+        "ICD:H92.0",
+        "ICD:G82",
+        "ICD:S13.5",
+        "ICD:Y63.2"
+      ]
+    },
+    {
+      "id": 243,
+      "gold": [
+        "ICD:H35.9"
+      ],
+      "top10": [
+        "ICD:S28",
+        "ICD:S20",
+        "ICD:M54.6",
+        "ICD:S29.9",
+        "ICD:S27.5",
+        "ICD:J95.1",
+        "ICD:S25.0",
+        "ICD:S24.5",
+        "ICD:S21",
+        "ICD:S20.2"
+      ]
+    },
+    {
+      "id": 244,
+      "gold": [
+        "ICD:I50"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:X33",
+        "ICD:X34",
+        "ICD:X37",
+        "ICD:X35",
+        "ICD:X34.9",
+        "ICD:X34.8",
+        "ICD:O15.9"
+      ]
+    },
+    {
+      "id": 245,
+      "gold": [
+        "ICD:I50.9"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:X33",
+        "ICD:X34",
+        "ICD:X37",
+        "ICD:X35",
+        "ICD:X34.9",
+        "ICD:X34.8",
+        "ICD:O15.9"
+      ]
+    },
+    {
+      "id": 246,
+      "gold": [
+        "ICD:I42.8",
+        "ICD:I50.9"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X33",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:X34",
+        "ICD:X37",
+        "ICD:X35",
+        "ICD:Y02",
+        "ICD:B74.2",
+        "ICD:O15.9"
+      ]
+    },
+    {
+      "id": 247,
+      "gold": [
+        "ICD:I50.9"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X33",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:X34",
+        "ICD:X37",
+        "ICD:X35",
+        "ICD:Y02",
+        "ICD:B74.2",
+        "ICD:O15.9"
+      ]
+    },
+    {
+      "id": 248,
+      "gold": [
+        "ICD:I50.9"
+      ],
+      "top10": [
+        "ICD:Z80.9",
+        "ICD:Z85.9",
+        "ICD:S57.9",
+        "ICD:D03.7",
+        "ICD:S77.0",
+        "ICD:S77",
+        "ICD:S77.2",
+        "ICD:O15.9",
+        "ICD:B22.2",
+        "ICD:Y13"
+      ]
+    },
+    {
+      "id": 249,
+      "gold": [
+        "ICD:I25.9"
+      ],
+      "top10": [
+        "ICD:R95.0",
+        "ICD:S77.2",
+        "ICD:S70",
+        "ICD:Z35.0",
+        "ICD:Y54.2",
+        "ICD:S36.3",
+        "ICD:Z35.4",
+        "ICD:K00.1",
+        "ICD:M72.0",
+        "ICD:P15.3"
+      ]
+    },
+    {
+      "id": 250,
+      "gold": [
+        "ICD:I74.9"
+      ],
+      "top10": [
+        "ICD:Q51.1",
+        "ICD:A93.2",
+        "ICD:W16",
+        "ICD:L57",
+        "ICD:Q52.1",
+        "ICD:L57.8",
+        "ICD:Q33.0",
+        "ICD:L57.9",
+        "ICD:W77",
+        "ICD:Q51.2"
+      ]
+    },
+    {
+      "id": 251,
+      "gold": [
+        "ICD:N97.1"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:R91",
+        "ICD:V90.2",
+        "ICD:Y02",
+        "ICD:B22.2",
+        "ICD:Q68.5",
+        "ICD:X81"
+      ]
+    },
+    {
+      "id": 252,
+      "gold": [
+        "ICD:I64"
+      ],
+      "top10": [
+        "ICD:C25.2",
+        "ICD:C50.6",
+        "ICD:P15.3",
+        "ICD:P15.4",
+        "ICD:P15.0",
+        "ICD:P11.3",
+        "ICD:P12",
+        "ICD:D37.1",
+        "ICD:P11.2",
+        "ICD:P15.1"
+      ]
+    },
+    {
+      "id": 253,
+      "gold": [
+        "ICD:I27.9"
+      ],
+      "top10": [
+        "ICD:E83.3",
+        "ICD:T54.0",
+        "ICD:G54.6",
+        "ICD:D10",
+        "ICD:A36.0",
+        "ICD:T74.1",
+        "ICD:T28.0",
+        "ICD:G54.7",
+        "ICD:T17.2",
+        "ICD:Z50.1"
+      ]
+    },
+    {
+      "id": 254,
+      "gold": [
+        "ICD:K76.6"
+      ],
+      "top10": [
+        "ICD:S77.2",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:A79.0",
+        "ICD:S77",
+        "ICD:S36.3",
+        "ICD:S65.3",
+        "ICD:Z50.5",
+        "ICD:O83.0",
+        "ICD:C16.8"
+      ]
+    },
+    {
+      "id": 255,
+      "gold": [
+        "ICD:E80.6"
+      ],
+      "top10": [
+        "ICD:E80.6",
+        "ICD:E80.7",
+        "ICD:E80",
+        "ICD:R17.0",
+        "ICD:R17.9",
+        "ICD:R17",
+        "ICD:K83.5",
+        "ICD:R82.2",
+        "ICD:K83",
+        "ICD:K83.8"
+      ]
+    },
+    {
+      "id": 256,
+      "gold": [
+        "ICD:E78"
+      ],
+      "top10": [
+        "ICD:K82.4",
+        "ICD:E78.0",
+        "ICD:H60.4",
+        "ICD:H71",
+        "ICD:K71.0",
+        "ICD:A00",
+        "ICD:H95.0",
+        "ICD:A00.0",
+        "ICD:Y58.2",
+        "ICD:K81"
+      ]
+    },
+    {
+      "id": 257,
+      "gold": [
+        "ICD:I10"
+      ],
+      "top10": [
+        "ICD:D56.0",
+        "ICD:T81.0",
+        "ICD:W76",
+        "ICD:W16",
+        "ICD:Z64.3",
+        "ICD:S67",
+        "ICD:O28.0",
+        "ICD:R78.3",
+        "ICD:L65",
+        "ICD:Z64.2"
+      ]
+    },
+    {
+      "id": 258,
+      "gold": [
+        "ICD:I10"
+      ],
+      "top10": [
+        "ICD:L89.2",
+        "ICD:C82.3",
+        "ICD:D66",
+        "ICD:C82.4",
+        "ICD:C82.2",
+        "ICD:C82.1",
+        "ICD:E76.1",
+        "ICD:L89.1",
+        "ICD:G90.6",
+        "ICD:D51.2"
+      ]
+    },
+    {
+      "id": 259,
+      "gold": [
+        "ICD:I10"
+      ],
+      "top10": [
+        "ICD:T73.0",
+        "ICD:W16",
+        "ICD:R29.4",
+        "ICD:S77.0",
+        "ICD:G10",
+        "ICD:Z72.6",
+        "ICD:V90.2",
+        "ICD:J67.7",
+        "ICD:Z71.7",
+        "ICD:S77"
+      ]
+    },
+    {
+      "id": 260,
+      "gold": [
+        "ICD:I10"
+      ],
+      "top10": [
+        "ICD:A97",
+        "ICD:W76",
+        "ICD:M72.0",
+        "ICD:A97.1",
+        "ICD:A97.0",
+        "ICD:C02.8",
+        "ICD:K14.5",
+        "ICD:W16",
+        "ICD:K14",
+        "ICD:K40"
+      ]
+    },
+    {
+      "id": 261,
+      "gold": [
+        "ICD:I10"
+      ],
+      "top10": [
+        "ICD:Q85.0",
+        "ICD:V96.2",
+        "ICD:W76",
+        "ICD:A97",
+        "ICD:M72.0",
+        "ICD:V90.6",
+        "ICD:K63.1",
+        "ICD:A97.1",
+        "ICD:W16",
+        "ICD:M62.1"
+      ]
+    },
+    {
+      "id": 262,
+      "gold": [
+        "ICD:E87.5"
+      ],
+      "top10": [
+        "ICD:T54.3",
+        "ICD:Y43.5",
+        "ICD:C46",
+        "ICD:C46.0",
+        "ICD:B21.0",
+        "ICD:C46.2",
+        "ICD:E87.3",
+        "ICD:C46.7",
+        "ICD:C46.9",
+        "ICD:C46.1"
+      ]
+    },
+    {
+      "id": 263,
+      "gold": [
+        "ICD:E78.5"
+      ],
+      "top10": [
+        "ICD:E75.5",
+        "ICD:E75",
+        "ICD:E75.6",
+        "ICD:E78",
+        "ICD:E75.2",
+        "ICD:E78.4",
+        "ICD:E78.2",
+        "ICD:E75.3",
+        "ICD:E78.5",
+        "ICD:D03.0"
+      ]
+    },
+    {
+      "id": 264,
+      "gold": [
+        "ICD:E78.5"
+      ],
+      "top10": [
+        "ICD:E75.5",
+        "ICD:E75",
+        "ICD:E75.6",
+        "ICD:E78",
+        "ICD:E75.2",
+        "ICD:E75.3",
+        "ICD:E78.4",
+        "ICD:E78.2",
+        "ICD:E78.5",
+        "ICD:D03.9"
+      ]
+    },
+    {
+      "id": 265,
+      "gold": [
+        "ICD:R74.8"
+      ],
+      "top10": [
+        "ICD:A48.0",
+        "ICD:M67.4",
+        "ICD:A66.5",
+        "ICD:J85.0",
+        "ICD:R10.0",
+        "ICD:G51.1",
+        "ICD:E75.1",
+        "ICD:E75.0",
+        "ICD:L88",
+        "ICD:R02"
+      ]
+    },
+    {
+      "id": 266,
+      "gold": [
+        "ICD:H40.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:R29.4",
+        "ICD:S77.0",
+        "ICD:T04.0",
+        "ICD:V90.2",
+        "ICD:K13.1",
+        "ICD:Y02",
+        "ICD:V90.1",
+        "ICD:L60.0"
+      ]
+    },
+    {
+      "id": 267,
+      "gold": [
+        "ICD:Q15.0"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:R29.4",
+        "ICD:S77.0",
+        "ICD:T04.0",
+        "ICD:V90.2",
+        "ICD:K13.1",
+        "ICD:Y02",
+        "ICD:V90.1",
+        "ICD:L60.0"
+      ]
+    },
+    {
+      "id": 268,
+      "gold": [
+        "ICD:L73.8"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:R76.1",
+        "ICD:M90.0",
+        "ICD:Z11.1",
+        "ICD:A21",
+        "ICD:Q96",
+        "ICD:Z72.6",
+        "ICD:P37.0",
+        "ICD:T27.1",
+        "ICD:M49.0"
+      ]
+    },
+    {
+      "id": 269,
+      "gold": [
+        "ICD:N40"
+      ],
+      "top10": [
+        "ICD:Q33.5",
+        "ICD:R76.1",
+        "ICD:A18.4",
+        "ICD:W16",
+        "ICD:Z60.2",
+        "ICD:M79.6",
+        "ICD:Z59.3",
+        "ICD:Z94.2",
+        "ICD:T27.1",
+        "ICD:C49.2"
+      ]
+    },
+    {
+      "id": 270,
+      "gold": [
+        "ICD:K59"
+      ],
+      "top10": [
+        "ICD:F17",
+        "ICD:P13.3",
+        "ICD:P15.3",
+        "ICD:P15.4",
+        "ICD:P15.0",
+        "ICD:Z58.7",
+        "ICD:P11.2",
+        "ICD:P15.1",
+        "ICD:P11.1",
+        "ICD:F06"
+      ]
+    },
+    {
+      "id": 271,
+      "gold": [
+        "ICD:K59.0"
+      ],
+      "top10": [
+        "ICD:P15.3",
+        "ICD:P15.4",
+        "ICD:P15.0",
+        "ICD:P15.1",
+        "ICD:P13.3",
+        "ICD:P10.4",
+        "ICD:P12",
+        "ICD:P13",
+        "ICD:P11.2",
+        "ICD:P11.1"
+      ]
+    },
+    {
+      "id": 272,
+      "gold": [
+        "ICD:N85.8"
+      ],
+      "top10": [
+        "ICD:Q33.0",
+        "ICD:J98.4",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:Q33.5",
+        "ICD:J67.0",
+        "ICD:Q33",
+        "ICD:C78.0",
+        "ICD:Z94.2",
+        "ICD:Q33.8"
+      ]
+    },
+    {
+      "id": 273,
+      "gold": [
+        "ICD:Z96.6"
+      ],
+      "top10": [
+        "ICD:O96",
+        "ICD:W16",
+        "ICD:O96.9",
+        "ICD:O96.0",
+        "ICD:O96.1",
+        "ICD:D56",
+        "ICD:D56.0",
+        "ICD:D56.8",
+        "ICD:D56.1",
+        "ICD:Q97.1"
+      ]
+    },
+    {
+      "id": 274,
+      "gold": [
+        "ICD:E53.8"
+      ],
+      "top10": [
+        "ICD:D51.1",
+        "ICD:D51",
+        "ICD:D51.8",
+        "ICD:D51.9",
+        "ICD:D51.3",
+        "ICD:D51.0",
+        "ICD:S77.2",
+        "ICD:S71.1",
+        "ICD:S77",
+        "ICD:E51"
+      ]
+    },
+    {
+      "id": 275,
+      "gold": [
+        "ICD:E56.9",
+        "ICD:E58"
+      ],
+      "top10": [
+        "ICD:E50",
+        "ICD:E55",
+        "ICD:E56.0",
+        "ICD:E56.1",
+        "ICD:D51.1",
+        "ICD:E56",
+        "ICD:E56.9",
+        "ICD:D51",
+        "ICD:E50.9",
+        "ICD:E53.9"
+      ]
+    },
+    {
+      "id": 276,
+      "gold": [
+        "ICD:E58"
+      ],
+      "top10": [
+        "ICD:F41",
+        "ICD:F06.4",
+        "ICD:F41.8",
+        "ICD:F41.3",
+        "ICD:F41.9",
+        "ICD:F40",
+        "ICD:F40.8",
+        "ICD:F41.1",
+        "ICD:F93.2",
+        "ICD:F40.9"
+      ]
+    },
+    {
+      "id": 277,
+      "gold": [
+        "ICD:D55.0"
+      ],
+      "top10": [
+        "ICD:D55.0",
+        "ICD:R10.0",
+        "ICD:S71",
+        "ICD:S71.1",
+        "ICD:Q52.3",
+        "ICD:S31.8",
+        "ICD:S79.9",
+        "ICD:Z91.1",
+        "ICD:H61.2",
+        "ICD:S79.8"
+      ]
+    },
+    {
+      "id": 278,
+      "gold": [
+        "ICD:E56.1"
+      ],
+      "top10": [
+        "ICD:E56.1",
+        "ICD:E50",
+        "ICD:E55",
+        "ICD:E56.0",
+        "ICD:D51.1",
+        "ICD:E56",
+        "ICD:E56.9",
+        "ICD:E50.9",
+        "ICD:E53.9",
+        "ICD:D51"
+      ]
+    },
+    {
+      "id": 279,
+      "gold": [
+        "ICD:D64.9"
+      ],
+      "top10": [
+        "ICD:L60.4",
+        "ICD:D03",
+        "ICD:D03.0",
+        "ICD:S77.2",
+        "ICD:S71.1",
+        "ICD:S77",
+        "ICD:E51",
+        "ICD:S79.9",
+        "ICD:S77.1",
+        "ICD:S70.1"
+      ]
+    },
+    {
+      "id": 280,
+      "gold": [
+        "ICD:I25.9"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:X33",
+        "ICD:X34",
+        "ICD:L60.4",
+        "ICD:D03",
+        "ICD:X37",
+        "ICD:X35",
+        "ICD:S77.2"
+      ]
+    },
+    {
+      "id": 281,
+      "gold": [
+        "ICD:I25.9"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:Z65.4",
+        "ICD:X34.1",
+        "ICD:L60.4",
+        "ICD:X33",
+        "ICD:X37",
+        "ICD:X34",
+        "ICD:X35",
+        "ICD:D03",
+        "ICD:S70.1"
+      ]
+    },
+    {
+      "id": 282,
+      "gold": [
+        "ICD:I25.9"
+      ],
+      "top10": [
+        "ICD:S77",
+        "ICD:S77.2",
+        "ICD:S77.1",
+        "ICD:X38",
+        "ICD:X33",
+        "ICD:X34.1",
+        "ICD:Y02",
+        "ICD:Z65.4",
+        "ICD:L85",
+        "ICD:S79.9"
+      ]
+    },
+    {
+      "id": 283,
+      "gold": [
+        "ICD:D55.0"
+      ],
+      "top10": [
+        "ICD:D03",
+        "ICD:S71",
+        "ICD:L60.4",
+        "ICD:S79.9",
+        "ICD:S77",
+        "ICD:S76",
+        "ICD:D03.0",
+        "ICD:S77.2",
+        "ICD:E51",
+        "ICD:S79.8"
+      ]
+    },
+    {
+      "id": 284,
+      "gold": [
+        "ICD:D55.0"
+      ],
+      "top10": [
+        "ICD:D03",
+        "ICD:S71",
+        "ICD:L60.4",
+        "ICD:S79.9",
+        "ICD:S77",
+        "ICD:D03.0",
+        "ICD:S77.2",
+        "ICD:S79.8",
+        "ICD:D03.5",
+        "ICD:S78"
+      ]
+    },
+    {
+      "id": 285,
+      "gold": [
+        "ICD:D55.0"
+      ],
+      "top10": [
+        "ICD:D03",
+        "ICD:S71",
+        "ICD:L60.4",
+        "ICD:S79.9",
+        "ICD:S77",
+        "ICD:D03.0",
+        "ICD:S77.2",
+        "ICD:E51",
+        "ICD:S79.8",
+        "ICD:D03.5"
+      ]
+    },
+    {
+      "id": 286,
+      "gold": [
+        "ICD:D55.0"
+      ],
+      "top10": [
+        "ICD:D55.0",
+        "ICD:R10.0",
+        "ICD:S71.1",
+        "ICD:S71",
+        "ICD:S31.8",
+        "ICD:H61.2",
+        "ICD:Q52.3",
+        "ICD:S79.9",
+        "ICD:Z91.1",
+        "ICD:R10.1"
+      ]
+    },
+    {
+      "id": 287,
+      "gold": [
+        "ICD:I25.9"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:X33",
+        "ICD:X34",
+        "ICD:S77.1",
+        "ICD:S77.2",
+        "ICD:S77",
+        "ICD:Y55.0",
+        "ICD:S79.9"
+      ]
+    },
+    {
+      "id": 288,
+      "gold": [
+        "ICD:E53.8"
+      ],
+      "top10": [
+        "ICD:D51.1",
+        "ICD:D51",
+        "ICD:D51.8",
+        "ICD:D51.9",
+        "ICD:D51.3",
+        "ICD:E50",
+        "ICD:E55",
+        "ICD:E56.0",
+        "ICD:E56.1",
+        "ICD:E56"
+      ]
+    },
+    {
+      "id": 289,
+      "gold": [
+        "ICD:D68.5"
+      ],
+      "top10": [
+        "ICD:D68.6",
+        "ICD:D68.5",
+        "ICD:D72.1",
+        "ICD:F65.4",
+        "ICD:I82.1",
+        "ICD:O22.2",
+        "ICD:O87.0",
+        "ICD:I74.5",
+        "ICD:Y44.5",
+        "ICD:I81"
+      ]
+    },
+    {
+      "id": 290,
+      "gold": [
+        "ICD:I26"
+      ],
+      "top10": [
+        "ICD:S62.5",
+        "ICD:Q69.1",
+        "ICD:S64.3",
+        "ICD:S65.4",
+        "ICD:S67.0",
+        "ICD:S56.0",
+        "ICD:S66.4",
+        "ICD:S66.2",
+        "ICD:S68.0",
+        "ICD:S66.0"
+      ]
+    },
+    {
+      "id": 291,
+      "gold": [
+        "ICD:I26.9"
+      ],
+      "top10": [
+        "ICD:S62.5",
+        "ICD:Q69.1",
+        "ICD:S64.3",
+        "ICD:S65.4",
+        "ICD:S67.0",
+        "ICD:S56.0",
+        "ICD:S66.4",
+        "ICD:S66.2",
+        "ICD:S68.0",
+        "ICD:S66.0"
+      ]
+    },
+    {
+      "id": 292,
+      "gold": [
+        "ICD:I26"
+      ],
+      "top10": [
+        "ICD:L67",
+        "ICD:L67.8",
+        "ICD:Z41.0",
+        "ICD:S62.5",
+        "ICD:L67.9",
+        "ICD:L67.1",
+        "ICD:Q69.1",
+        "ICD:S64.3",
+        "ICD:Q84.2",
+        "ICD:L65"
+      ]
+    },
+    {
+      "id": 293,
+      "gold": [
+        "ICD:I26.9"
+      ],
+      "top10": [
+        "ICD:L67",
+        "ICD:L67.8",
+        "ICD:Z41.0",
+        "ICD:S62.5",
+        "ICD:L67.9",
+        "ICD:L67.1",
+        "ICD:Q69.1",
+        "ICD:S64.3",
+        "ICD:Q84.2",
+        "ICD:L65"
+      ]
+    },
+    {
+      "id": 294,
+      "gold": [
+        "ICD:O14.9"
+      ],
+      "top10": [
+        "ICD:K05.0",
+        "ICD:K05.1",
+        "ICD:K06.0",
+        "ICD:M31.6",
+        "ICD:E80.4",
+        "ICD:K06.1",
+        "ICD:K05",
+        "ICD:K10.1",
+        "ICD:Q63.3",
+        "ICD:Y63.2"
+      ]
+    },
+    {
+      "id": 295,
+      "gold": [
+        "ICD:E11.9"
+      ],
+      "top10": [
+        "ICD:Q33.5",
+        "ICD:W16",
+        "ICD:N89.6",
+        "ICD:Z72.6",
+        "ICD:L60.4",
+        "ICD:Q68.4",
+        "ICD:D03.7",
+        "ICD:O21.8",
+        "ICD:Y02",
+        "ICD:D03"
+      ]
+    },
+    {
+      "id": 296,
+      "gold": [
+        "ICD:E10.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:O63",
+        "ICD:Q68.5",
+        "ICD:P13.3",
+        "ICD:H91",
+        "ICD:Z72.6",
+        "ICD:W77",
+        "ICD:Q33.5",
+        "ICD:T27.1",
+        "ICD:V90.2"
+      ]
+    },
+    {
+      "id": 297,
+      "gold": [
+        "ICD:Q16.1"
+      ],
+      "top10": [
+        "ICD:Z37.0",
+        "ICD:C25.2",
+        "ICD:I49.5",
+        "ICD:C50.6",
+        "ICD:Q61.0",
+        "ICD:Z24",
+        "ICD:J01",
+        "ICD:Z37.1",
+        "ICD:M86.4",
+        "ICD:J33.8"
+      ]
+    },
+    {
+      "id": 298,
+      "gold": [
+        "ICD:N03.9"
+      ],
+      "top10": [
+        "ICD:Q97.1",
+        "ICD:S77.2",
+        "ICD:O99.1",
+        "ICD:R07.0",
+        "ICD:W16",
+        "ICD:S77.1",
+        "ICD:W77",
+        "ICD:Y84",
+        "ICD:E05.1",
+        "ICD:E06.2"
+      ]
+    },
+    {
+      "id": 299,
+      "gold": [
+        "ICD:S83"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:O99.1",
+        "ICD:Z13.0",
+        "ICD:O99.4",
+        "ICD:O99.6",
+        "ICD:O99.5",
+        "ICD:O99.7",
+        "ICD:R07",
+        "ICD:L57.8",
+        "ICD:R07.1"
+      ]
+    },
+    {
+      "id": 300,
+      "gold": [
+        "ICD:I25.9"
+      ],
+      "top10": [
+        "ICD:S77.2",
+        "ICD:Z50.5",
+        "ICD:S77.1",
+        "ICD:W16",
+        "ICD:O99.1",
+        "ICD:T27.1",
+        "ICD:A79.0",
+        "ICD:R06.5",
+        "ICD:W77",
+        "ICD:S36.3"
+      ]
+    },
+    {
+      "id": 301,
+      "gold": [
+        "ICD:F32"
+      ],
+      "top10": [
+        "ICD:W14",
+        "ICD:P71",
+        "ICD:P71.8",
+        "ICD:Q24.2",
+        "ICD:Q91.6",
+        "ICD:Q90.2",
+        "ICD:Q91.2",
+        "ICD:C33",
+        "ICD:V63.5",
+        "ICD:V03.1"
+      ]
+    },
+    {
+      "id": 302,
+      "gold": [
+        "ICD:F32.9"
+      ],
+      "top10": [
+        "ICD:W14",
+        "ICD:P71",
+        "ICD:P71.8",
+        "ICD:Q24.2",
+        "ICD:Q91.6",
+        "ICD:Q90.2",
+        "ICD:Q91.2",
+        "ICD:C33",
+        "ICD:V63.5",
+        "ICD:V03.1"
+      ]
+    },
+    {
+      "id": 303,
+      "gold": [
+        "ICD:I31.3"
+      ],
+      "top10": [
+        "ICD:Q43.1",
+        "ICD:L03.3",
+        "ICD:T21",
+        "ICD:D03.5",
+        "ICD:D23.5",
+        "ICD:Q20.0",
+        "ICD:D22.5",
+        "ICD:T21.0",
+        "ICD:C44.5",
+        "ICD:T21.3"
+      ]
+    },
+    {
+      "id": 304,
+      "gold": [
+        "ICD:J90"
+      ],
+      "top10": [
+        "ICD:A79.0",
+        "ICD:Q38.7",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:W16",
+        "ICD:O83.0",
+        "ICD:S36.3",
+        "ICD:V54.4",
+        "ICD:V63.4",
+        "ICD:C16.8"
+      ]
+    },
+    {
+      "id": 305,
+      "gold": [
+        "ICD:J90"
+      ],
+      "top10": [
+        "ICD:A79.0",
+        "ICD:L90.3",
+        "ICD:Q38.7",
+        "ICD:D51.2",
+        "ICD:T27.1",
+        "ICD:D22.5",
+        "ICD:T27.5",
+        "ICD:V54.6",
+        "ICD:V63.6",
+        "ICD:E83.3"
+      ]
+    },
+    {
+      "id": 306,
+      "gold": [
+        "ICD:I31"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X33",
+        "ICD:X34.1",
+        "ICD:Y02",
+        "ICD:Z65.4",
+        "ICD:X34",
+        "ICD:X35",
+        "ICD:X37",
+        "ICD:B74.2",
+        "ICD:O15.9"
+      ]
+    },
+    {
+      "id": 307,
+      "gold": [
+        "ICD:K21.9"
+      ],
+      "top10": [
+        "ICD:U83.2",
+        "ICD:G80.0",
+        "ICD:S27.5",
+        "ICD:S76.1",
+        "ICD:O30.2",
+        "ICD:S23.0",
+        "ICD:J66",
+        "ICD:J66.8",
+        "ICD:O96",
+        "ICD:D69.1"
+      ]
+    },
+    {
+      "id": 308,
+      "gold": [
+        "ICD:L70.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:T27.5",
+        "ICD:T27.1",
+        "ICD:Z72.6",
+        "ICD:Z94.2",
+        "ICD:V90.2",
+        "ICD:Z50.6",
+        "ICD:Q33.0",
+        "ICD:Q68.5",
+        "ICD:O21.8"
+      ]
+    },
+    {
+      "id": 309,
+      "gold": [
+        "ICD:L70.0"
+      ],
+      "top10": [
+        "ICD:Y02",
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:X33",
+        "ICD:Y59.0",
+        "ICD:T04.0",
+        "ICD:V63.4",
+        "ICD:O21.8",
+        "ICD:A87"
+      ]
+    },
+    {
+      "id": 310,
+      "gold": [
+        "ICD:I62"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:T27.1",
+        "ICD:Z72.6",
+        "ICD:V90.2",
+        "ICD:T27.5",
+        "ICD:Y02",
+        "ICD:R91",
+        "ICD:O75.1",
+        "ICD:Y61.7",
+        "ICD:B22.2"
+      ]
+    },
+    {
+      "id": 311,
+      "gold": [
+        "ICD:I62"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:V90.2",
+        "ICD:T27.1",
+        "ICD:Y02",
+        "ICD:T27.5",
+        "ICD:T04.0",
+        "ICD:Q68.5",
+        "ICD:R91",
+        "ICD:X81"
+      ]
+    },
+    {
+      "id": 312,
+      "gold": [
+        "ICD:S06"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:Z72.6",
+        "ICD:T04.0",
+        "ICD:Q33.0",
+        "ICD:Y02",
+        "ICD:Q68.5",
+        "ICD:V90.2",
+        "ICD:T27.5",
+        "ICD:Q16",
+        "ICD:T27.1"
+      ]
+    },
+    {
+      "id": 313,
+      "gold": [
+        "ICD:K82.8"
+      ],
+      "top10": [
+        "ICD:K06.0",
+        "ICD:K05.0",
+        "ICD:K05.1",
+        "ICD:K06.1",
+        "ICD:M31.6",
+        "ICD:E80.4",
+        "ICD:K10.1",
+        "ICD:M31.5",
+        "ICD:K05",
+        "ICD:Y63.2"
+      ]
+    },
+    {
+      "id": 314,
+      "gold": [
+        "ICD:C61"
+      ],
+      "top10": [
+        "ICD:D03.0",
+        "ICD:L60.4",
+        "ICD:D03",
+        "ICD:D04",
+        "ICD:D05.0",
+        "ICD:D03.5",
+        "ICD:D03.7",
+        "ICD:D05",
+        "ICD:D06",
+        "ICD:R76.1"
+      ]
+    },
+    {
+      "id": 315,
+      "gold": [
+        "ICD:C20"
+      ],
+      "top10": [
+        "ICD:Z50.6",
+        "ICD:D03.5",
+        "ICD:T09.6",
+        "ICD:T27.1",
+        "ICD:Z94.2",
+        "ICD:Q91.6",
+        "ICD:F95.0",
+        "ICD:Q90.2",
+        "ICD:T27.5",
+        "ICD:Q91.2"
+      ]
+    },
+    {
+      "id": 316,
+      "gold": [
+        "ICD:D33.3"
+      ],
+      "top10": [
+        "ICD:D66",
+        "ICD:L89.2",
+        "ICD:N13.5",
+        "ICD:C82.3",
+        "ICD:C82.4",
+        "ICD:C82.2",
+        "ICD:L89.1",
+        "ICD:D51.2",
+        "ICD:S37.0",
+        "ICD:G90.6"
+      ]
+    },
+    {
+      "id": 317,
+      "gold": [
+        "ICD:D24"
+      ],
+      "top10": [
+        "ICD:D03.0",
+        "ICD:D03",
+        "ICD:L60.4",
+        "ICD:D04",
+        "ICD:D05.0",
+        "ICD:D03.5",
+        "ICD:A21",
+        "ICD:Z22.7",
+        "ICD:D06",
+        "ICD:Q96.8"
+      ]
+    },
+    {
+      "id": 318,
+      "gold": [
+        "ICD:N60.0"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:O00.1",
+        "ICD:O21.8",
+        "ICD:C57.0",
+        "ICD:R11",
+        "ICD:J85.0",
+        "ICD:D03",
+        "ICD:C96.2",
+        "ICD:L60.0",
+        "ICD:J34.3"
+      ]
+    },
+    {
+      "id": 319,
+      "gold": [
+        "ICD:N13"
+      ],
+      "top10": [
+        "ICD:N03",
+        "ICD:C72.3",
+        "ICD:N03.8",
+        "ICD:T65.5",
+        "ICD:C72.4",
+        "ICD:E04.1",
+        "ICD:D36.1",
+        "ICD:C47",
+        "ICD:N03.9",
+        "ICD:K71.1"
+      ]
+    },
+    {
+      "id": 320,
+      "gold": [
+        "ICD:D12.8"
+      ],
+      "top10": [
+        "ICD:D03",
+        "ICD:D03.0",
+        "ICD:D04",
+        "ICD:D03.5",
+        "ICD:A21",
+        "ICD:D06",
+        "ICD:A21.9",
+        "ICD:D05",
+        "ICD:Q96",
+        "ICD:D09"
+      ]
+    },
+    {
+      "id": 321,
+      "gold": [
+        "ICD:D24"
+      ],
+      "top10": [
+        "ICD:D03",
+        "ICD:D03.0",
+        "ICD:D04",
+        "ICD:D03.5",
+        "ICD:A21",
+        "ICD:D06",
+        "ICD:A21.9",
+        "ICD:D05",
+        "ICD:Q96",
+        "ICD:D09"
+      ]
+    },
+    {
+      "id": 322,
+      "gold": [
+        "ICD:C80"
+      ],
+      "top10": [
+        "ICD:B35.1",
+        "ICD:J98.4",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:J67.0",
+        "ICD:Q33.0",
+        "ICD:Q33.5",
+        "ICD:Z94.2",
+        "ICD:Q33.2",
+        "ICD:Q33"
+      ]
+    },
+    {
+      "id": 323,
+      "gold": [
+        "ICD:C22.1"
+      ],
+      "top10": [
+        "ICD:B35.1",
+        "ICD:J98.4",
+        "ICD:S27.3",
+        "ICD:J67.2",
+        "ICD:Q33.3",
+        "ICD:J67.0",
+        "ICD:Q33.0",
+        "ICD:Q33.5",
+        "ICD:Z94.2",
+        "ICD:T27.1"
+      ]
+    },
+    {
+      "id": 324,
+      "gold": [
+        "ICD:C60.9"
+      ],
+      "top10": [
+        "ICD:B35.1",
+        "ICD:J98.4",
+        "ICD:J67.2",
+        "ICD:S27.3",
+        "ICD:Q33.0",
+        "ICD:Q33.3",
+        "ICD:T27.1",
+        "ICD:T35",
+        "ICD:J67.0",
+        "ICD:T27.5"
+      ]
+    },
+    {
+      "id": 325,
+      "gold": [
+        "ICD:C80"
+      ],
+      "top10": [
+        "ICD:B35.1",
+        "ICD:J98.4",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:J67.2",
+        "ICD:Z94.2",
+        "ICD:Q33.5",
+        "ICD:J67.0",
+        "ICD:Q33.0",
+        "ICD:Q33.2"
+      ]
+    },
+    {
+      "id": 326,
+      "gold": [
+        "ICD:C18.9"
+      ],
+      "top10": [
+        "ICD:Z94.2",
+        "ICD:J98.4",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:T27.1",
+        "ICD:Q33.0",
+        "ICD:B35.1",
+        "ICD:Q33.5",
+        "ICD:J67.0",
+        "ICD:J67.2"
+      ]
+    },
+    {
+      "id": 327,
+      "gold": [
+        "ICD:C53.9"
+      ],
+      "top10": [
+        "ICD:J98.4",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:Q33.0",
+        "ICD:J67.0",
+        "ICD:Q33.5",
+        "ICD:Z94.2",
+        "ICD:Q33",
+        "ICD:Q33.2",
+        "ICD:Q33.8"
+      ]
+    },
+    {
+      "id": 328,
+      "gold": [
+        "ICD:C78.0"
+      ],
+      "top10": [
+        "ICD:J98.4",
+        "ICD:D82.1",
+        "ICD:L67.8",
+        "ICD:O99.1",
+        "ICD:S27.3",
+        "ICD:L67.9",
+        "ICD:L67",
+        "ICD:L65",
+        "ICD:Z41.0",
+        "ICD:L65.8"
+      ]
+    },
+    {
+      "id": 329,
+      "gold": [
+        "ICD:C73"
+      ],
+      "top10": [
+        "ICD:B35.1",
+        "ICD:J98.4",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:Z94.2",
+        "ICD:Q33.5",
+        "ICD:J67.0",
+        "ICD:Q33.0",
+        "ICD:Q33.2",
+        "ICD:J85.0"
+      ]
+    },
+    {
+      "id": 330,
+      "gold": [
+        "ICD:C18.9"
+      ],
+      "top10": [
+        "ICD:Z94.2",
+        "ICD:J98.4",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:Q33.0",
+        "ICD:T27.1",
+        "ICD:B35.1",
+        "ICD:Q33.5",
+        "ICD:J67.0",
+        "ICD:T27.5"
+      ]
+    },
+    {
+      "id": 331,
+      "gold": [
+        "ICD:C50.9"
+      ],
+      "top10": [
+        "ICD:D82.1",
+        "ICD:J98.4",
+        "ICD:B35.1",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:Q33.0",
+        "ICD:J67.0",
+        "ICD:Q33.5",
+        "ICD:J99.0",
+        "ICD:M05.1"
+      ]
+    },
+    {
+      "id": 332,
+      "gold": [
+        "ICD:C18.9"
+      ],
+      "top10": [
+        "ICD:J98.4",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:Q33.0",
+        "ICD:Z94.2",
+        "ICD:B35.1",
+        "ICD:T27.1",
+        "ICD:J67.0",
+        "ICD:Q33.5",
+        "ICD:T27.5"
+      ]
+    },
+    {
+      "id": 333,
+      "gold": [
+        "ICD:C22.1"
+      ],
+      "top10": [
+        "ICD:J98.4",
+        "ICD:S27.3",
+        "ICD:Q33.3",
+        "ICD:Q33.0",
+        "ICD:J67.0",
+        "ICD:B35.1",
+        "ICD:Q33.5",
+        "ICD:Q33",
+        "ICD:T27.1",
+        "ICD:Z94.2"
+      ]
+    },
+    {
+      "id": 334,
+      "gold": [
+        "ICD:Z95.2"
+      ],
+      "top10": [
+        "ICD:V53",
+        "ICD:V03",
+        "ICD:V43",
+        "ICD:V73",
+        "ICD:V53.9",
+        "ICD:V51.9",
+        "ICD:V53.3",
+        "ICD:V50.9",
+        "ICD:V51.3",
+        "ICD:V50.3"
+      ]
+    },
+    {
+      "id": 335,
+      "gold": [
+        "ICD:N03.9"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:Y07",
+        "ICD:X35",
+        "ICD:N95.2",
+        "ICD:F43.2",
+        "ICD:X38",
+        "ICD:F51.5",
+        "ICD:T74",
+        "ICD:Z65.4",
+        "ICD:T74.8"
+      ]
+    },
+    {
+      "id": 336,
+      "gold": [
+        "ICD:B96.8"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:E56.1",
+        "ICD:E50",
+        "ICD:B07",
+        "ICD:B33.2",
+        "ICD:E55",
+        "ICD:E56.0",
+        "ICD:B30",
+        "ICD:X34.1",
+        "ICD:X38"
+      ]
+    },
+    {
+      "id": 337,
+      "gold": [
+        "ICD:K29"
+      ],
+      "top10": [
+        "ICD:Q24.4",
+        "ICD:M54.5",
+        "ICD:Y59.0",
+        "ICD:Y58",
+        "ICD:L80",
+        "ICD:W43",
+        "ICD:A83.6",
+        "ICD:I35.8",
+        "ICD:Q25.3",
+        "ICD:A07.0"
+      ]
+    },
+    {
+      "id": 338,
+      "gold": [
+        "ICD:K29.7"
+      ],
+      "top10": [
+        "ICD:Q24.4",
+        "ICD:M54.5",
+        "ICD:Y59.0",
+        "ICD:Y58",
+        "ICD:L80",
+        "ICD:W43",
+        "ICD:A83.6",
+        "ICD:I35.8",
+        "ICD:Q25.3",
+        "ICD:A07.0"
+      ]
+    },
+    {
+      "id": 339,
+      "gold": [
+        "ICD:N12"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:O87.3",
+        "ICD:A08.3",
+        "ICD:D51.1",
+        "ICD:X38",
+        "ICD:B30.8",
+        "ICD:B07",
+        "ICD:B33.2",
+        "ICD:A87.8",
+        "ICD:J12.8"
+      ]
+    },
+    {
+      "id": 340,
+      "gold": [
+        "ICD:N03.9"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:B97",
+        "ICD:B97.8",
+        "ICD:D03",
+        "ICD:B33.2",
+        "ICD:O87.3",
+        "ICD:L60.4",
+        "ICD:D04",
+        "ICD:B30.8",
+        "ICD:D06"
+      ]
+    },
+    {
+      "id": 341,
+      "gold": [
+        "ICD:N03.9"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:D03",
+        "ICD:D04",
+        "ICD:O87.3",
+        "ICD:D06",
+        "ICD:B97",
+        "ICD:B97.8",
+        "ICD:D03.0",
+        "ICD:B33.2",
+        "ICD:R07.0"
+      ]
+    },
+    {
+      "id": 342,
+      "gold": [
+        "ICD:I51.4"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:Z65.4",
+        "ICD:X34.1",
+        "ICD:X33",
+        "ICD:X35",
+        "ICD:X34",
+        "ICD:X37",
+        "ICD:X34.9",
+        "ICD:X34.8",
+        "ICD:Y02"
+      ]
+    },
+    {
+      "id": 343,
+      "gold": [
+        "ICD:K29"
+      ],
+      "top10": [
+        "ICD:E55",
+        "ICD:E50",
+        "ICD:E56.0",
+        "ICD:E56.1",
+        "ICD:Y59.0",
+        "ICD:D51.3",
+        "ICD:E56.8",
+        "ICD:H43",
+        "ICD:B33.8",
+        "ICD:E55.9"
+      ]
+    },
+    {
+      "id": 344,
+      "gold": [
+        "ICD:K29.7"
+      ],
+      "top10": [
+        "ICD:E55",
+        "ICD:E50",
+        "ICD:E56.0",
+        "ICD:E56.1",
+        "ICD:Y59.0",
+        "ICD:D51.3",
+        "ICD:E56.8",
+        "ICD:H43",
+        "ICD:B33.8",
+        "ICD:E55.9"
+      ]
+    },
+    {
+      "id": 345,
+      "gold": [
+        "ICD:A08.4"
+      ],
+      "top10": [
+        "ICD:A83.6",
+        "ICD:A92.5",
+        "ICD:A98.4",
+        "ICD:A92.3",
+        "ICD:A98.3",
+        "ICD:P35.4",
+        "ICD:A93.0",
+        "ICD:A92.0",
+        "ICD:U07.1",
+        "ICD:J11"
+      ]
+    },
+    {
+      "id": 346,
+      "gold": [
+        "ICD:L25.9"
+      ],
+      "top10": [
+        "ICD:Q05",
+        "ICD:Q76.0",
+        "ICD:F95",
+        "ICD:S34.3",
+        "ICD:E80.1",
+        "ICD:E50.6",
+        "ICD:G83.4",
+        "ICD:E50.2",
+        "ICD:B18.2",
+        "ICD:Y59.0"
+      ]
+    },
+    {
+      "id": 347,
+      "gold": [
+        "ICD:L23.9"
+      ],
+      "top10": [
+        "ICD:Q05",
+        "ICD:Y02",
+        "ICD:W16",
+        "ICD:F95",
+        "ICD:Z35.6",
+        "ICD:Q33.5",
+        "ICD:Q76.0",
+        "ICD:O08.6",
+        "ICD:F95.8",
+        "ICD:X33"
+      ]
+    },
+    {
+      "id": 348,
+      "gold": [
+        "ICD:B16.9"
+      ],
+      "top10": [
+        "ICD:A83.6",
+        "ICD:A92.5",
+        "ICD:A92.3",
+        "ICD:A98.4",
+        "ICD:A98.3",
+        "ICD:P35.4",
+        "ICD:A92.0",
+        "ICD:A93.0",
+        "ICD:B97.4",
+        "ICD:J12.2"
+      ]
+    },
+    {
+      "id": 349,
+      "gold": [
+        "ICD:K29"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:V96.1",
+        "ICD:X91",
+        "ICD:Y20",
+        "ICD:X70",
+        "ICD:J98.4",
+        "ICD:J85.0",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:Q33.0"
+      ]
+    },
+    {
+      "id": 350,
+      "gold": [
+        "ICD:K29.7"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:V96.1",
+        "ICD:X91",
+        "ICD:Y20",
+        "ICD:X70",
+        "ICD:J98.4",
+        "ICD:J85.0",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:Q33.0"
+      ]
+    },
+    {
+      "id": 351,
+      "gold": [
+        "ICD:J02.9"
+      ],
+      "top10": [
+        "ICD:Y02",
+        "ICD:W16",
+        "ICD:X33",
+        "ICD:R29.4",
+        "ICD:S77.0",
+        "ICD:Y59.0",
+        "ICD:B20.3",
+        "ICD:T04.0",
+        "ICD:P35.3",
+        "ICD:O21.8"
+      ]
+    },
+    {
+      "id": 352,
+      "gold": [
+        "ICD:H10.9"
+      ],
+      "top10": [
+        "ICD:X33",
+        "ICD:E56.1",
+        "ICD:Y02",
+        "ICD:M48.2",
+        "ICD:N18.2",
+        "ICD:P08",
+        "ICD:V85.4",
+        "ICD:V97.1",
+        "ICD:W16",
+        "ICD:S87.0"
+      ]
+    },
+    {
+      "id": 353,
+      "gold": [
+        "ICD:M06.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:S77.2",
+        "ICD:S77",
+        "ICD:Y02",
+        "ICD:R29.4",
+        "ICD:O99.1",
+        "ICD:E53",
+        "ICD:S77.0",
+        "ICD:E56.1",
+        "ICD:K13.1"
+      ]
+    },
+    {
+      "id": 354,
+      "gold": [
+        "ICD:I77.6"
+      ],
+      "top10": [
+        "ICD:X36",
+        "ICD:D03",
+        "ICD:Y59.0",
+        "ICD:D03.0",
+        "ICD:D03.5",
+        "ICD:D03.4",
+        "ICD:B83.0",
+        "ICD:F80.8",
+        "ICD:A92.2",
+        "ICD:S31.4"
+      ]
+    },
+    {
+      "id": 355,
+      "gold": [
+        "ICD:K51"
+      ],
+      "top10": [
+        "ICD:O63",
+        "ICD:Y02",
+        "ICD:C40.2",
+        "ICD:T27.1",
+        "ICD:D16.2",
+        "ICD:H91",
+        "ICD:T27.5",
+        "ICD:Q68.5",
+        "ICD:X33",
+        "ICD:S87"
+      ]
+    },
+    {
+      "id": 356,
+      "gold": [
+        "ICD:K51.9"
+      ],
+      "top10": [
+        "ICD:O63",
+        "ICD:Y02",
+        "ICD:C40.2",
+        "ICD:T27.1",
+        "ICD:D16.2",
+        "ICD:H91",
+        "ICD:T27.5",
+        "ICD:Q68.5",
+        "ICD:X33",
+        "ICD:S87"
+      ]
+    },
+    {
+      "id": 357,
+      "gold": [
+        "ICD:I77.6"
+      ],
+      "top10": [
+        "ICD:D00",
+        "ICD:Y59.0",
+        "ICD:S36.3",
+        "ICD:C16",
+        "ICD:D03",
+        "ICD:O83.0",
+        "ICD:A79.0",
+        "ICD:L60.4",
+        "ICD:A87",
+        "ICD:Z50.5"
+      ]
+    },
+    {
+      "id": 358,
+      "gold": [
+        "ICD:L03"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:L80",
+        "ICD:W43",
+        "ICD:A83.6",
+        "ICD:D51.1",
+        "ICD:X38",
+        "ICD:B07",
+        "ICD:A87",
+        "ICD:B33.2",
+        "ICD:Z31.2"
+      ]
+    },
+    {
+      "id": 359,
+      "gold": [
+        "ICD:L03.9"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:L80",
+        "ICD:W43",
+        "ICD:A83.6",
+        "ICD:D51.1",
+        "ICD:X38",
+        "ICD:B07",
+        "ICD:A87",
+        "ICD:B33.2",
+        "ICD:Z31.2"
+      ]
+    },
+    {
+      "id": 360,
+      "gold": [
+        "ICD:L73.9"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:Y02",
+        "ICD:W16",
+        "ICD:O21.8",
+        "ICD:J85.0",
+        "ICD:L60.0",
+        "ICD:C34.8",
+        "ICD:Z72.6",
+        "ICD:X81",
+        "ICD:R11"
+      ]
+    },
+    {
+      "id": 361,
+      "gold": [
+        "ICD:K05.3"
+      ],
+      "top10": [
+        "ICD:S27.4",
+        "ICD:B79",
+        "ICD:C67.7",
+        "ICD:Q64.4",
+        "ICD:C34",
+        "ICD:Q32.3",
+        "ICD:A96.1",
+        "ICD:D14.3",
+        "ICD:C34.0",
+        "ICD:Q32"
+      ]
+    },
+    {
+      "id": 362,
+      "gold": [
+        "ICD:L08.9"
+      ],
+      "top10": [
+        "ICD:A66.5",
+        "ICD:G95.0",
+        "ICD:L74.4",
+        "ICD:B30.2",
+        "ICD:Q05",
+        "ICD:G04.2",
+        "ICD:Q31.3",
+        "ICD:N31.0",
+        "ICD:P59.3",
+        "ICD:Q31.5"
+      ]
+    },
+    {
+      "id": 363,
+      "gold": [
+        "ICD:J40"
+      ],
+      "top10": [
+        "ICD:U83.2",
+        "ICD:O30.2",
+        "ICD:R45.6",
+        "ICD:D69.1",
+        "ICD:S76.1",
+        "ICD:Y59.0",
+        "ICD:B30.2",
+        "ICD:G80.0",
+        "ICD:M65.4",
+        "ICD:A78"
+      ]
+    },
+    {
+      "id": 364,
+      "gold": [
+        "ICD:J18.9"
+      ],
+      "top10": [
+        "ICD:R45.6",
+        "ICD:Y59.0",
+        "ICD:X34.1",
+        "ICD:B30.2",
+        "ICD:X38",
+        "ICD:B07",
+        "ICD:B33.2",
+        "ICD:B30",
+        "ICD:E83.3",
+        "ICD:A87"
+      ]
+    },
+    {
+      "id": 365,
+      "gold": [
+        "ICD:J18.9"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:R45.6",
+        "ICD:B07",
+        "ICD:B33.2",
+        "ICD:B30",
+        "ICD:X34.1",
+        "ICD:X38",
+        "ICD:A87",
+        "ICD:B30.2",
+        "ICD:B30.8"
+      ]
+    },
+    {
+      "id": 366,
+      "gold": [
+        "ICD:J85.0"
+      ],
+      "top10": [
+        "ICD:X34.1",
+        "ICD:X15",
+        "ICD:L90.3",
+        "ICD:T54.0",
+        "ICD:D66",
+        "ICD:X98",
+        "ICD:E83.3",
+        "ICD:R45.6",
+        "ICD:C81",
+        "ICD:X77"
+      ]
+    },
+    {
+      "id": 367,
+      "gold": [
+        "ICD:J84.9"
+      ],
+      "top10": [
+        "ICD:R45.6",
+        "ICD:E56.1",
+        "ICD:Y59.0",
+        "ICD:X34.1",
+        "ICD:B30.2",
+        "ICD:X38",
+        "ICD:B07",
+        "ICD:B33.2",
+        "ICD:B30",
+        "ICD:E83.3"
+      ]
+    },
+    {
+      "id": 368,
+      "gold": [
+        "ICD:J18.9"
+      ],
+      "top10": [
+        "ICD:L90.3",
+        "ICD:X34.1",
+        "ICD:D66",
+        "ICD:Z50.1",
+        "ICD:E83.3",
+        "ICD:R45.6",
+        "ICD:N84.1",
+        "ICD:L29.0",
+        "ICD:B30.2",
+        "ICD:A36.0"
+      ]
+    },
+    {
+      "id": 369,
+      "gold": [
+        "ICD:J18.9"
+      ],
+      "top10": [
+        "ICD:J12.8",
+        "ICD:J15.4",
+        "ICD:J15.5",
+        "ICD:B20.6",
+        "ICD:J12.9",
+        "ICD:X34.1",
+        "ICD:P23.0",
+        "ICD:L90.3",
+        "ICD:P23.4",
+        "ICD:J15.7"
+      ]
+    },
+    {
+      "id": 370,
+      "gold": [
+        "ICD:J18.9"
+      ],
+      "top10": [
+        "ICD:Q24.2",
+        "ICD:N30.3",
+        "ICD:Q91.6",
+        "ICD:Q90.2",
+        "ICD:Y02",
+        "ICD:Q91.2",
+        "ICD:Q92.9",
+        "ICD:W01",
+        "ICD:O30.1",
+        "ICD:W16"
+      ]
+    },
+    {
+      "id": 371,
+      "gold": [
+        "ICD:K05.3"
+      ],
+      "top10": [
+        "ICD:O30.2",
+        "ICD:S76.1",
+        "ICD:D69.1",
+        "ICD:G80.0",
+        "ICD:C50.3",
+        "ICD:C50.5",
+        "ICD:C50.2",
+        "ICD:C50.4",
+        "ICD:Z62.6",
+        "ICD:X34"
+      ]
+    },
+    {
+      "id": 372,
+      "gold": [
+        "ICD:K29"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:V96.1",
+        "ICD:X91",
+        "ICD:Y20",
+        "ICD:X70",
+        "ICD:J98.4",
+        "ICD:J85.0",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:Q33.0"
+      ]
+    },
+    {
+      "id": 373,
+      "gold": [
+        "ICD:K29.7"
+      ],
+      "top10": [
+        "ICD:W76",
+        "ICD:V96.1",
+        "ICD:X91",
+        "ICD:Y20",
+        "ICD:X70",
+        "ICD:J98.4",
+        "ICD:J85.0",
+        "ICD:Q33.3",
+        "ICD:S27.3",
+        "ICD:Q33.0"
+      ]
+    },
+    {
+      "id": 374,
+      "gold": [
+        "ICD:K29.4"
+      ],
+      "top10": [
+        "ICD:M87.1",
+        "ICD:E55",
+        "ICD:P10.4",
+        "ICD:P71.3",
+        "ICD:A92.3",
+        "ICD:M87.2",
+        "ICD:M25.7",
+        "ICD:H43",
+        "ICD:Z65.4",
+        "ICD:A83.6"
+      ]
+    },
+    {
+      "id": 375,
+      "gold": [
+        "ICD:K20"
+      ],
+      "top10": [
+        "ICD:B18.2",
+        "ICD:E64.2",
+        "ICD:B17.1",
+        "ICD:G80.0",
+        "ICD:U83.2",
+        "ICD:O30.2",
+        "ICD:A01.3",
+        "ICD:S76.1",
+        "ICD:B18.8",
+        "ICD:Y59.0"
+      ]
+    },
+    {
+      "id": 376,
+      "gold": [
+        "ICD:K20"
+      ],
+      "top10": [
+        "ICD:U83.2",
+        "ICD:B18.2",
+        "ICD:G80.0",
+        "ICD:E64.2",
+        "ICD:O30.2",
+        "ICD:S76.1",
+        "ICD:D69.1",
+        "ICD:A78",
+        "ICD:M65.4",
+        "ICD:M54.6"
+      ]
+    },
+    {
+      "id": 377,
+      "gold": [
+        "ICD:I51.4"
+      ],
+      "top10": [
+        "ICD:X38",
+        "ICD:X34.1",
+        "ICD:Z65.4",
+        "ICD:X33",
+        "ICD:X35",
+        "ICD:X34",
+        "ICD:X37",
+        "ICD:X34.9",
+        "ICD:X34.8",
+        "ICD:Y02"
+      ]
+    },
+    {
+      "id": 378,
+      "gold": [
+        "ICD:K81.9"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:X34.1",
+        "ICD:X38",
+        "ICD:B07",
+        "ICD:A87",
+        "ICD:B33.2",
+        "ICD:B30",
+        "ICD:A87.8",
+        "ICD:D66",
+        "ICD:B30.8"
+      ]
+    },
+    {
+      "id": 379,
+      "gold": [
+        "ICD:K81.0"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:X34.1",
+        "ICD:N84.1",
+        "ICD:B33.2",
+        "ICD:B30",
+        "ICD:X38",
+        "ICD:B07",
+        "ICD:A87",
+        "ICD:B30.8",
+        "ICD:E53"
+      ]
+    },
+    {
+      "id": 380,
+      "gold": [
+        "ICD:K85.9"
+      ],
+      "top10": [
+        "ICD:Y59.0",
+        "ICD:E50",
+        "ICD:E55",
+        "ICD:E56.0",
+        "ICD:E56.1",
+        "ICD:X38",
+        "ICD:B07",
+        "ICD:B33.2",
+        "ICD:B30",
+        "ICD:E56.8"
+      ]
+    },
+    {
+      "id": 381,
+      "gold": [
+        "ICD:M86.9"
+      ],
+      "top10": [
+        "ICD:Y02",
+        "ICD:W16",
+        "ICD:X33",
+        "ICD:Y59.0",
+        "ICD:O21.8",
+        "ICD:X81",
+        "ICD:E50.2",
+        "ICD:A87",
+        "ICD:Z72.6",
+        "ICD:E50.0"
+      ]
+    },
+    {
+      "id": 382,
+      "gold": [
+        "ICD:M86"
+      ],
+      "top10": [
+        "ICD:Y02",
+        "ICD:W16",
+        "ICD:E50.2",
+        "ICD:T27.1",
+        "ICD:X33",
+        "ICD:E50.0",
+        "ICD:T27.5",
+        "ICD:E50.3",
+        "ICD:S77.2",
+        "ICD:X81"
+      ]
+    },
+    {
+      "id": 383,
+      "gold": [
+        "ICD:L73.2"
+      ],
+      "top10": [
+        "ICD:N74.0",
+        "ICD:Y59.0",
+        "ICD:X34.1",
+        "ICD:A21",
+        "ICD:O34.1",
+        "ICD:Q96",
+        "ICD:A18.6",
+        "ICD:O00.1",
+        "ICD:M90.0",
+        "ICD:A18.5"
+      ]
+    },
+    {
+      "id": 384,
+      "gold": [
+        "ICD:M86.9"
+      ],
+      "top10": [
+        "ICD:Y02",
+        "ICD:W16",
+        "ICD:X33",
+        "ICD:Y59.0",
+        "ICD:O21.8",
+        "ICD:X81",
+        "ICD:E50.2",
+        "ICD:A87",
+        "ICD:Z72.6",
+        "ICD:E50.0"
+      ]
+    },
+    {
+      "id": 385,
+      "gold": [
+        "ICD:B16.9"
+      ],
+      "top10": [
+        "ICD:A83.6",
+        "ICD:A92.5",
+        "ICD:A98.4",
+        "ICD:A92.3",
+        "ICD:A98.3",
+        "ICD:P35.4",
+        "ICD:A93.0",
+        "ICD:U07.1",
+        "ICD:A92.0",
+        "ICD:J11"
+      ]
+    },
+    {
+      "id": 386,
+      "gold": [
+        "ICD:N97.9"
+      ],
+      "top10": [
+        "ICD:I49.5",
+        "ICD:Z37.0",
+        "ICD:J01",
+        "ICD:J33.8",
+        "ICD:J32",
+        "ICD:J01.8",
+        "ICD:J32.8",
+        "ICD:F94.2",
+        "ICD:Z37.1",
+        "ICD:J01.9"
+      ]
+    },
+    {
+      "id": 387,
+      "gold": [
+        "ICD:N46"
+      ],
+      "top10": [
+        "ICD:I49.5",
+        "ICD:Z37.0",
+        "ICD:J33.8",
+        "ICD:J01",
+        "ICD:J01.8",
+        "ICD:J32",
+        "ICD:J32.8",
+        "ICD:E05.1",
+        "ICD:Z37.1",
+        "ICD:F94.2"
+      ]
+    },
+    {
+      "id": 388,
+      "gold": [
+        "ICD:J18.9"
+      ],
+      "top10": [
+        "ICD:N84.2",
+        "ICD:N84.3",
+        "ICD:K62.0",
+        "ICD:J33",
+        "ICD:K62.1",
+        "ICD:V53",
+        "ICD:Q36",
+        "ICD:Y59.0",
+        "ICD:V53.9",
+        "ICD:V53.3"
+      ]
+    },
+    {
+      "id": 389,
+      "gold": [
+        "ICD:J85.0"
+      ],
+      "top10": [
+        "ICD:T67",
+        "ICD:P05.0",
+        "ICD:T67.8",
+        "ICD:P07.1",
+        "ICD:A36",
+        "ICD:R63.4",
+        "ICD:N89.6",
+        "ICD:Y58.5",
+        "ICD:H53.6",
+        "ICD:R63.5"
+      ]
+    },
+    {
+      "id": 390,
+      "gold": [
+        "ICD:J98"
+      ],
+      "top10": [
+        "ICD:N84.1",
+        "ICD:N84.0",
+        "ICD:D68.1",
+        "ICD:L90.3",
+        "ICD:Z50.1",
+        "ICD:O87.1",
+        "ICD:B96.2",
+        "ICD:F06",
+        "ICD:E83.3",
+        "ICD:J15.5"
+      ]
+    },
+    {
+      "id": 391,
+      "gold": [
+        "ICD:J98.1"
+      ],
+      "top10": [
+        "ICD:N84.1",
+        "ICD:N84.0",
+        "ICD:D68.1",
+        "ICD:L90.3",
+        "ICD:Z50.1",
+        "ICD:O87.1",
+        "ICD:B96.2",
+        "ICD:F06",
+        "ICD:E83.3",
+        "ICD:J15.5"
+      ]
+    },
+    {
+      "id": 392,
+      "gold": [
+        "ICD:K92.2"
+      ],
+      "top10": [
+        "ICD:E50.6",
+        "ICD:A36",
+        "ICD:A36.8",
+        "ICD:F65.2",
+        "ICD:P07.1",
+        "ICD:Q97.1",
+        "ICD:Q80.1",
+        "ICD:E13.3",
+        "ICD:T67.5",
+        "ICD:T73.2"
+      ]
+    },
+    {
+      "id": 393,
+      "gold": [
+        "ICD:K70"
+      ],
+      "top10": [
+        "ICD:A48.0",
+        "ICD:M67.4",
+        "ICD:A66.5",
+        "ICD:Z52.9",
+        "ICD:E75.1",
+        "ICD:E75.0",
+        "ICD:J85.0",
+        "ICD:G51.1",
+        "ICD:Z00.5",
+        "ICD:S37.9"
+      ]
+    },
+    {
+      "id": 394,
+      "gold": [
+        "ICD:K70.3"
+      ],
+      "top10": [
+        "ICD:A48.0",
+        "ICD:M67.4",
+        "ICD:A66.5",
+        "ICD:Z52.9",
+        "ICD:E75.1",
+        "ICD:E75.0",
+        "ICD:J85.0",
+        "ICD:G51.1",
+        "ICD:Z00.5",
+        "ICD:S37.9"
+      ]
+    },
+    {
+      "id": 395,
+      "gold": [
+        "ICD:K74"
+      ],
+      "top10": [
+        "ICD:A48.0",
+        "ICD:M67.4",
+        "ICD:A66.5",
+        "ICD:J85.0",
+        "ICD:G51.1",
+        "ICD:E75.1",
+        "ICD:S37.9",
+        "ICD:E75.0",
+        "ICD:R02",
+        "ICD:L88"
+      ]
+    },
+    {
+      "id": 396,
+      "gold": [
+        "ICD:I70"
+      ],
+      "top10": [
+        "ICD:T27.1",
+        "ICD:T27.5",
+        "ICD:W16",
+        "ICD:S36.3",
+        "ICD:O83.0",
+        "ICD:Y02",
+        "ICD:A79.0",
+        "ICD:C16.8",
+        "ICD:Z12.0",
+        "ICD:Z72.6"
+      ]
+    },
+    {
+      "id": 397,
+      "gold": [
+        "ICD:I25"
+      ],
+      "top10": [
+        "ICD:S36.3",
+        "ICD:T27.1",
+        "ICD:O83.0",
+        "ICD:T27.5",
+        "ICD:S77.2",
+        "ICD:A79.0",
+        "ICD:R06.5",
+        "ICD:E50.2",
+        "ICD:Z50.5",
+        "ICD:C16.8"
+      ]
+    },
+    {
+      "id": 398,
+      "gold": [
+        "ICD:I60.9"
+      ],
+      "top10": [
+        "ICD:G10",
+        "ICD:T73.0",
+        "ICD:F02.2",
+        "ICD:G54",
+        "ICD:D68.1",
+        "ICD:G54.8",
+        "ICD:S42.3",
+        "ICD:L94.6",
+        "ICD:M72.0",
+        "ICD:F52.1"
+      ]
+    },
+    {
+      "id": 399,
+      "gold": [
+        "ICD:I60.9"
+      ],
+      "top10": [
+        "ICD:V54.4",
+        "ICD:W16",
+        "ICD:V58.4",
+        "ICD:V63.4",
+        "ICD:V68.4",
+        "ICD:D68.1",
+        "ICD:B21",
+        "ICD:L90.3",
+        "ICD:G10",
+        "ICD:V54.6"
+      ]
+    },
+    {
+      "id": 400,
+      "gold": [
+        "ICD:K92.2"
+      ],
+      "top10": [
+        "ICD:T73.0",
+        "ICD:D03",
+        "ICD:B36.1",
+        "ICD:G10",
+        "ICD:F02.2",
+        "ICD:B35.0",
+        "ICD:S42.3",
+        "ICD:D03.0",
+        "ICD:D05",
+        "ICD:D03.5"
+      ]
+    },
+    {
+      "id": 401,
+      "gold": [
+        "ICD:C90"
+      ],
+      "top10": [
+        "ICD:D03",
+        "ICD:D03.0",
+        "ICD:D03.5",
+        "ICD:L60.4",
+        "ICD:D04",
+        "ICD:D06",
+        "ICD:D05",
+        "ICD:D09",
+        "ICD:D05.9",
+        "ICD:Q91.7"
+      ]
+    },
+    {
+      "id": 402,
+      "gold": [
+        "ICD:E11.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:W77",
+        "ICD:W84",
+        "ICD:W83",
+        "ICD:O99.1",
+        "ICD:X43",
+        "ICD:V90.2",
+        "ICD:P13.3",
+        "ICD:Z13.0",
+        "ICD:L85"
+      ]
+    },
+    {
+      "id": 403,
+      "gold": [
+        "ICD:E14.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:W77",
+        "ICD:W84",
+        "ICD:W83",
+        "ICD:O99.1",
+        "ICD:X43",
+        "ICD:V90.2",
+        "ICD:P13.3",
+        "ICD:Z13.0",
+        "ICD:L85"
+      ]
+    },
+    {
+      "id": 404,
+      "gold": [
+        "ICD:E11.9"
+      ],
+      "top10": [
+        "ICD:W16",
+        "ICD:W77",
+        "ICD:W84",
+        "ICD:W83",
+        "ICD:S77.2",
+        "ICD:S77",
+        "ICD:O99.1",
+        "ICD:X43",
+        "ICD:P13.3",
+        "ICD:V90.2"
+      ]
+    },
+    {
+      "id": 405,
+      "gold": [
+        "ICD:E11.9"
+      ],
+      "top10": [
+        "ICD:G90.6",
+        "ICD:E76.1",
+        "ICD:A75.2",
+        "ICD:L89.1",
+        "ICD:C82.1",
+        "ICD:D51.2",
+        "ICD:L89.2",
+        "ICD:A01.0",
+        "ICD:A75",
+        "ICD:K62.0"
+      ]
+    },
+    {
+      "id": 406,
+      "gold": [
+        "ICD:E11"
+      ],
+      "top10": [
+        "ICD:P13.3",
+        "ICD:Q33.9",
+        "ICD:L85.9",
+        "ICD:Z71.9",
+        "ICD:Y31",
+        "ICD:Z70.9",
+        "ICD:Z62.9",
+        "ICD:Q68.5",
+        "ICD:C34.9",
+        "ICD:R26.2"
+      ]
+    },
+    {
+      "id": 407,
+      "gold": [
+        "ICD:K59"
+      ],
+      "top10": [
+        "ICD:K05.0",
+        "ICD:K05.1",
+        "ICD:K06.0",
+        "ICD:K06.1",
+        "ICD:Y63.2",
+        "ICD:K05",
+        "ICD:M31.6",
+        "ICD:K10.1",
+        "ICD:W16",
+        "ICD:E80.4"
+      ]
+    },
+    {
+      "id": 408,
+      "gold": [
+        "ICD:K59.3"
+      ],
+      "top10": [
+        "ICD:K05.0",
+        "ICD:K05.1",
+        "ICD:K06.0",
+        "ICD:K06.1",
+        "ICD:Y63.2",
+        "ICD:K05",
+        "ICD:M31.6",
+        "ICD:K10.1",
+        "ICD:W16",
+        "ICD:E80.4"
+      ]
+    },
+    {
+      "id": 409,
+      "gold": [
+        "ICD:G43"
+      ],
+      "top10": [
+        "ICD:L60.4",
+        "ICD:Q91.7",
+        "ICD:L81.3",
+        "ICD:D03",
+        "ICD:Q91",
+        "ICD:D03.0",
+        "ICD:D04",
+        "ICD:D03.5",
+        "ICD:D05",
+        "ICD:D03.4"
+      ]
+    },
+    {
+      "id": 410,
+      "gold": [
+        "ICD:I20.0"
+      ],
+      "top10": [
+        "ICD:L60.4",
+        "ICD:Q91.7",
+        "ICD:L81.3",
+        "ICD:W16",
+        "ICD:S77.2",
+        "ICD:X43",
+        "ICD:Q91",
+        "ICD:T44",
+        "ICD:V90.2",
+        "ICD:T04.0"
+      ]
+    },
+    {
+      "id": 411,
+      "gold": [
+        "ICD:I20.9"
+      ],
+      "top10": [
+        "ICD:L60.4",
+        "ICD:Q91.7",
+        "ICD:L81.3",
+        "ICD:Q91",
+        "ICD:E05.1",
+        "ICD:S78",
+        "ICD:S77.2",
+        "ICD:D03",
+        "ICD:Q97.1",
+        "ICD:S28"
+      ]
+    },
+    {
+      "id": 412,
+      "gold": [
+        "ICD:J32.9"
+      ],
+      "top10": [
+        "ICD:L60.4",
+        "ICD:Q91.7",
+        "ICD:M31.1",
+        "ICD:L81.3",
+        "ICD:I73.1",
+        "ICD:Q91",
+        "ICD:D03",
+        "ICD:D03.0",
+        "ICD:W76",
+        "ICD:W16"
+      ]
+    },
+    {
+      "id": 413,
+      "gold": [
+        "ICD:L50.1"
+      ],
+      "top10": [
+        "ICD:V81.5",
+        "ICD:V81.6",
+        "ICD:V45",
+        "ICD:V81.9",
+        "ICD:V81.8",
+        "ICD:V05",
+        "ICD:V15",
+        "ICD:V75",
+        "ICD:V55",
+        "ICD:V65"
+      ]
+    },
+    {
+      "id": 414,
+      "gold": [
+        "ICD:J44.1"
+      ],
+      "top10": [
+        "ICD:E61.0",
+        "ICD:T56.4",
+        "ICD:E83.0",
+        "ICD:R55",
+        "ICD:T26.6",
+        "ICD:K63.5",
+        "ICD:F91.0",
+        "ICD:G95.2",
+        "ICD:O69.9",
+        "ICD:O69.8"
+      ]
+    },
+    {
+      "id": 415,
+      "gold": [
+        "ICD:I63.9"
+      ],
+      "top10": [
+        "ICD:U83.2",
+        "ICD:O30.2",
+        "ICD:D69.1",
+        "ICD:S76.1",
+        "ICD:C50.3",
+        "ICD:C50.5",
+        "ICD:G80.0",
+        "ICD:C50.2",
+        "ICD:C50.4",
+        "ICD:A78"
+      ]
+    },
+    {
+      "id": 416,
+      "gold": [
+        "ICD:I64"
+      ],
+      "top10": [
+        "ICD:U83.2",
+        "ICD:O30.2",
+        "ICD:D69.1",
+        "ICD:S76.1",
+        "ICD:C50.3",
+        "ICD:C50.5",
+        "ICD:G80.0",
+        "ICD:C50.2",
+        "ICD:C50.4",
+        "ICD:A78"
+      ]
+    },
+    {
+      "id": 417,
+      "gold": [
+        "ICD:I46.1"
+      ],
+      "top10": [
+        "ICD:R76.1",
+        "ICD:F95.0",
+        "ICD:V87",
+        "ICD:V95",
+        "ICD:V68",
+        "ICD:V62.9",
+        "ICD:R07",
+        "ICD:V68.9",
+        "ICD:V58",
+        "ICD:V63.9"
+      ]
+    },
+    {
+      "id": 418,
+      "gold": [
+        "ICD:I46.9"
+      ],
+      "top10": [
+        "ICD:R76.1",
+        "ICD:F95.0",
+        "ICD:V87",
+        "ICD:V95",
+        "ICD:V68",
+        "ICD:V62.9",
+        "ICD:R07",
+        "ICD:V68.9",
+        "ICD:V58",
+        "ICD:V63.9"
+      ]
+    },
+    {
+      "id": 419,
+      "gold": [
+        "ICD:E11.9"
+      ],
+      "top10": [
+        "ICD:G90.6",
+        "ICD:E76.1",
+        "ICD:A75.2",
+        "ICD:L89.1",
+        "ICD:C82.1",
+        "ICD:D51.2",
+        "ICD:A01.0",
+        "ICD:K62.0",
+        "ICD:A75",
+        "ICD:J33"
+      ]
+    },
+    {
+      "id": 420,
+      "gold": [
+        "RX:3443"
+      ],
+      "top10": [
+        "RX:3443",
+        "RX:1151889",
+        "RX:371856",
+        "RX:1151888",
+        "RX:1791228",
+        "RX:1151887",
+        "RX:203211",
+        "RX:1791240",
+        "RX:833217",
+        "RX:831103"
+      ]
+    },
+    {
+      "id": 421,
+      "gold": [
+        "RX:3423"
+      ],
+      "top10": [
+        "RX:224913",
+        "RX:1168871",
+        "RX:1168870",
+        "RX:1168868",
+        "RX:1168869",
+        "RX:368895",
+        "RX:544565",
+        "RX:1872264",
+        "RX:897698",
+        "RX:897704"
+      ]
+    },
+    {
+      "id": 422,
+      "gold": [
+        "RX:4917"
+      ],
+      "top10": [
+        "RX:1248841",
+        "RX:1801247",
+        "RX:1248844",
+        "RX:219956",
+        "RX:1184216",
+        "RX:1184215",
+        "RX:152364",
+        "RX:262241",
+        "RX:1093099",
+        "RX:1184250"
+      ]
+    },
+    {
+      "id": 423,
+      "gold": [
+        "RX:4603"
+      ],
+      "top10": [
+        "RX:202991",
+        "RX:1175648",
+        "RX:1175647",
+        "RX:1175645",
+        "RX:205732",
+        "RX:200801",
+        "RX:200809",
+        "RX:368487",
+        "RX:2725545",
+        "RX:2725546"
+      ]
+    },
+    {
+      "id": 424,
+      "gold": [
+        "RX:4603"
+      ],
+      "top10": [
+        "RX:202991",
+        "RX:1175648",
+        "RX:1175647",
+        "RX:1175645",
+        "RX:205732",
+        "RX:200801",
+        "RX:200809",
+        "RX:368487",
+        "RX:2725545",
+        "RX:2725546"
+      ]
+    },
+    {
+      "id": 425,
+      "gold": [
+        "RX:7052"
+      ],
+      "top10": [
+        "RX:7052",
+        "RX:1156364",
+        "RX:372959",
+        "RX:1156363",
+        "RX:1728776",
+        "RX:106841",
+        "RX:30236",
+        "RX:1156360",
+        "RX:1156365",
+        "RX:1156362"
+      ]
+    },
+    {
+      "id": 426,
+      "gold": [
+        "RX:198440"
+      ],
+      "top10": [
+        "RX:161",
+        "RX:198440",
+        "RX:1152843",
+        "RX:369097",
+        "RX:198439",
+        "RX:1152842",
+        "RX:1803956",
+        "RX:2374360",
+        "RX:370506",
+        "RX:370511"
+      ]
+    },
+    {
+      "id": 427,
+      "gold": [
+        "RX:435"
+      ],
+      "top10": [
+        "RX:435",
+        "RX:1154606",
+        "RX:370542",
+        "RX:1154605",
+        "RX:197316",
+        "RX:197318",
+        "RX:544499",
+        "RX:142153",
+        "RX:1154604",
+        "RX:755497"
+      ]
+    },
+    {
+      "id": 428,
+      "gold": [
+        "RX:214199"
+      ],
+      "top10": [
+        "RX:214199",
+        "RX:1154598",
+        "RX:2284636",
+        "RX:2108259",
+        "RX:7213",
+        "RX:2284638",
+        "RX:435",
+        "RX:1158615",
+        "RX:203212",
+        "RX:1154606"
+      ]
+    },
+    {
+      "id": 429,
+      "gold": [
+        "RX:1437702"
+      ],
+      "top10": [
+        "RX:214199",
+        "RX:1154598",
+        "RX:2284636",
+        "RX:2108259",
+        "RX:7213",
+        "RX:435",
+        "RX:2284638",
+        "RX:1154606",
+        "RX:1158615",
+        "RX:370542"
+      ]
+    },
+    {
+      "id": 430,
+      "gold": [
+        "RX:7258"
+      ],
+      "top10": [
+        "RX:215101",
+        "RX:1175503",
+        "RX:1175502",
+        "RX:1550958",
+        "RX:1550962",
+        "RX:1550961",
+        "RX:2550736",
+        "RX:2550739",
+        "RX:2603405",
+        "RX:1543309"
+      ]
+    },
+    {
+      "id": 431,
+      "gold": [
+        "RX:519"
+      ],
+      "top10": [
+        "RX:519",
+        "RX:1154942",
+        "RX:370547",
+        "RX:1154941",
+        "RX:1721587",
+        "RX:80566",
+        "RX:197319",
+        "RX:245422",
+        "RX:197320",
+        "RX:252931"
+      ]
+    },
+    {
+      "id": 432,
+      "gold": [
+        "RX:612",
+        "RX:6585"
+      ],
+      "top10": [
+        "RX:1314279",
+        "RX:1009149",
+        "RX:9880",
+        "RX:1155638",
+        "RX:1155637",
+        "RX:6581",
+        "RX:370822",
+        "RX:1910",
+        "RX:466588",
+        "RX:1155632"
+      ]
+    },
+    {
+      "id": 433,
+      "gold": [
+        "RX:1191"
+      ],
+      "top10": [
+        "RX:196493",
+        "RX:196495",
+        "RX:1184586",
+        "RX:1184585",
+        "RX:202834",
+        "RX:1172309",
+        "RX:1182568",
+        "RX:319779",
+        "RX:2569840",
+        "RX:1483620"
+      ]
+    },
+    {
+      "id": 434,
+      "gold": [
+        "RX:1191"
+      ],
+      "top10": [
+        "RX:1191",
+        "RX:1154070",
+        "RX:370611",
+        "RX:1154069",
+        "RX:370940",
+        "RX:198471",
+        "RX:368457",
+        "RX:212033",
+        "RX:211887",
+        "RX:243670"
+      ]
+    },
+    {
+      "id": 435,
+      "gold": [
+        "RX:212033"
+      ],
+      "top10": [
+        "RX:1191",
+        "RX:212033",
+        "RX:198466",
+        "RX:1154070",
+        "RX:370611",
+        "RX:1154069",
+        "RX:211874",
+        "RX:211881",
+        "RX:370940",
+        "RX:198471"
+      ]
+    },
+    {
+      "id": 436,
+      "gold": [
+        "RX:198467"
+      ],
+      "top10": [
+        "RX:1191",
+        "RX:212033",
+        "RX:198466",
+        "RX:1154070",
+        "RX:370611",
+        "RX:1154069",
+        "RX:211874",
+        "RX:211881",
+        "RX:370940",
+        "RX:198471"
+      ]
+    },
+    {
+      "id": 437,
+      "gold": [
+        "RX:1202"
+      ],
+      "top10": [
+        "RX:1202",
+        "RX:1154379",
+        "RX:370619",
+        "RX:1154378",
+        "RX:197381",
+        "RX:197380",
+        "RX:197379",
+        "RX:367659",
+        "RX:152414",
+        "RX:150750"
+      ]
+    },
+    {
+      "id": 438,
+      "gold": [
+        "RX:1202"
+      ],
+      "top10": [
+        "RX:1202",
+        "RX:1154379",
+        "RX:370619",
+        "RX:1154378",
+        "RX:197381",
+        "RX:197380",
+        "RX:197379",
+        "RX:367659",
+        "RX:152414",
+        "RX:150750"
+      ]
+    },
+    {
+      "id": 439,
+      "gold": [
+        "RX:19711"
+      ],
+      "top10": [
+        "RX:151392",
+        "RX:1174308",
+        "RX:1174307",
+        "RX:1174306",
+        "RX:848178",
+        "RX:848176",
+        "RX:848180",
+        "RX:848208",
+        "RX:824185",
+        "RX:617332"
+      ]
+    },
+    {
+      "id": 440,
+      "gold": [
+        "RX:19711"
+      ],
+      "top10": [
+        "RX:824185",
+        "RX:617332",
+        "RX:824190",
+        "RX:618038",
+        "RX:824194",
+        "RX:19711",
+        "RX:617339",
+        "RX:617333",
+        "RX:1152875",
+        "RX:21216"
+      ]
+    },
+    {
+      "id": 441,
+      "gold": [
+        "RX:18631"
+      ],
+      "top10": [
+        "RX:18631",
+        "RX:1155012",
+        "RX:370976",
+        "RX:1155011",
+        "RX:1668237",
+        "RX:248656",
+        "RX:308460",
+        "RX:1668238",
+        "RX:1155008",
+        "RX:204844"
+      ]
+    },
+    {
+      "id": 442,
+      "gold": [
+        "RX:11248"
+      ],
+      "top10": [
+        "RX:11248",
+        "RX:1161159",
+        "RX:371650",
+        "RX:1161158",
+        "RX:309593",
+        "RX:348170",
+        "RX:2171138",
+        "RX:371646",
+        "RX:313896",
+        "RX:245557"
+      ]
+    },
+    {
+      "id": 443,
+      "gold": [
+        "RX:10831"
+      ],
+      "top10": [
+        "RX:151399",
+        "RX:1167959",
+        "RX:1167956",
+        "RX:369244",
+        "RX:208416",
+        "RX:227591",
+        "RX:849580",
+        "RX:1167961",
+        "RX:220091",
+        "RX:215543"
+      ]
+    },
+    {
+      "id": 444,
+      "gold": [
+        "RX:151399"
+      ],
+      "top10": [
+        "RX:151399",
+        "RX:1167959",
+        "RX:1167956",
+        "RX:369244",
+        "RX:208416",
+        "RX:227591",
+        "RX:849580",
+        "RX:1167961",
+        "RX:220091",
+        "RX:215543"
+      ]
+    },
+    {
+      "id": 445,
+      "gold": [
+        "RX:10582"
+      ],
+      "top10": [
+        "RX:217006",
+        "RX:204301",
+        "RX:1171140",
+        "RX:1171139",
+        "RX:1184932",
+        "RX:1652835",
+        "RX:204300",
+        "RX:368903",
+        "RX:966177",
+        "RX:966207"
+      ]
+    },
+    {
+      "id": 446,
+      "gold": [
+        "RX:1808"
+      ],
+      "top10": [
+        "RX:1808",
+        "RX:1151350",
+        "RX:371158",
+        "RX:197419",
+        "RX:197418",
+        "RX:1151349",
+        "RX:1727568",
+        "RX:197417",
+        "RX:1151347",
+        "RX:374368"
+      ]
+    },
+    {
+      "id": 447,
+      "gold": [
+        "RX:20352"
+      ],
+      "top10": [
+        "RX:20352",
+        "RX:1160590",
+        "RX:371296",
+        "RX:1160589",
+        "RX:200033",
+        "RX:200032",
+        "RX:668310",
+        "RX:200031",
+        "RX:686924",
+        "RX:664767"
+      ]
+    },
+    {
+      "id": 448,
+      "gold": [
+        "RX:20481"
+      ],
+      "top10": [
+        "RX:20481",
+        "RX:1665087",
+        "RX:1665097",
+        "RX:1160606",
+        "RX:1665093",
+        "RX:2058952",
+        "RX:236058",
+        "RX:1665088",
+        "RX:2058953",
+        "RX:2744816"
+      ]
+    },
+    {
+      "id": 449,
+      "gold": [
+        "RX:1665021"
+      ],
+      "top10": [
+        "RX:2193",
+        "RX:1664992",
+        "RX:203172",
+        "RX:1665005",
+        "RX:1152108",
+        "RX:309092",
+        "RX:1665021",
+        "RX:376593",
+        "RX:1665046",
+        "RX:309090"
+      ]
+    },
+    {
+      "id": 450,
+      "gold": [
+        "RX:1665021"
+      ],
+      "top10": [
+        "RX:2193",
+        "RX:1664992",
+        "RX:203172",
+        "RX:1665005",
+        "RX:1152108",
+        "RX:309092",
+        "RX:1665021",
+        "RX:376593",
+        "RX:1665046",
+        "RX:309090"
+      ]
+    },
+    {
+      "id": 451,
+      "gold": [
+        "RX:2231"
+      ],
+      "top10": [
+        "RX:2231",
+        "RX:1152431",
+        "RX:371347",
+        "RX:1152430",
+        "RX:371345",
+        "RX:197454",
+        "RX:309115",
+        "RX:309114",
+        "RX:309112",
+        "RX:371346"
+      ]
+    },
+    {
+      "id": 452,
+      "gold": [
+        "RX:2599"
+      ],
+      "top10": [
+        "RX:2599",
+        "RX:1153386",
+        "RX:371583",
+        "RX:1153385",
+        "RX:1732370",
+        "RX:2725552",
+        "RX:1153387",
+        "RX:1153384",
+        "RX:142432",
+        "RX:1295214"
+      ]
+    },
+    {
+      "id": 453,
+      "gold": [
+        "RX:8704"
+      ],
+      "top10": [
+        "RX:203546",
+        "RX:1167413",
+        "RX:1167412",
+        "RX:1167415",
+        "RX:368096",
+        "RX:207680",
+        "RX:207685",
+        "RX:367533",
+        "RX:207639",
+        "RX:1440268"
+      ]
+    },
+    {
+      "id": 454,
+      "gold": [
+        "RX:10831"
+      ],
+      "top10": [
+        "RX:10180",
+        "RX:10831",
+        "RX:1162984",
+        "RX:202554",
+        "RX:374234",
+        "RX:1162983",
+        "RX:1809082",
+        "RX:369244",
+        "RX:2623",
+        "RX:362355"
+      ]
+    },
+    {
+      "id": 455,
+      "gold": [
+        "RX:11289"
+      ],
+      "top10": [
+        "RX:2898",
+        "RX:227249",
+        "RX:1171171",
+        "RX:1171170",
+        "RX:368744",
+        "RX:1485787",
+        "RX:856607",
+        "RX:202953",
+        "RX:326381",
+        "RX:1184715"
+      ]
+    },
+    {
+      "id": 456,
+      "gold": [
+        "RX:855318"
+      ],
+      "top10": [
+        "RX:2898",
+        "RX:227249",
+        "RX:1171171",
+        "RX:1171170",
+        "RX:368744",
+        "RX:1485787",
+        "RX:856607",
+        "RX:202953",
+        "RX:326381",
+        "RX:1184715"
+      ]
+    },
+    {
+      "id": 457,
+      "gold": [
+        "RX:301542"
+      ],
+      "top10": [
+        "RX:320864",
+        "RX:1173053",
+        "RX:1173051",
+        "RX:219641",
+        "RX:1182532",
+        "RX:1182531",
+        "RX:405880",
+        "RX:859426",
+        "RX:859749",
+        "RX:753512"
+      ]
+    },
+    {
+      "id": 458,
+      "gold": [
+        "RX:4850"
+      ],
+      "top10": [
+        "RX:349730",
+        "RX:1299920",
+        "RX:1363053",
+        "RX:1189625",
+        "RX:1189628",
+        "RX:2566844",
+        "RX:214485",
+        "RX:1309371",
+        "RX:3272",
+        "RX:3289"
+      ]
+    },
+    {
+      "id": 459,
+      "gold": [
+        "RX:3640"
+      ],
+      "top10": [
+        "RX:3640",
+        "RX:1160779",
+        "RX:371966",
+        "RX:1160778",
+        "RX:1652652",
+        "RX:371965",
+        "RX:1160776",
+        "RX:371964",
+        "RX:1160777",
+        "RX:23663"
+      ]
+    },
+    {
+      "id": 460,
+      "gold": [
+        "RX:3640"
+      ],
+      "top10": [
+        "RX:3640",
+        "RX:1160779",
+        "RX:371966",
+        "RX:1160778",
+        "RX:1652652",
+        "RX:371965",
+        "RX:1160776",
+        "RX:371964",
+        "RX:1160777",
+        "RX:23663"
+      ]
+    },
+    {
+      "id": 461,
+      "gold": [
+        "RX:1364430"
+      ],
+      "top10": [
+        "RX:1364436",
+        "RX:1364440",
+        "RX:1364439",
+        "RX:1992428",
+        "RX:1364438",
+        "RX:1364447",
+        "RX:1364441",
+        "RX:1163976",
+        "RX:1182944",
+        "RX:1174620"
+      ]
+    },
+    {
+      "id": 462,
+      "gold": [
+        "RX:4603"
+      ],
+      "top10": [
+        "RX:313988",
+        "RX:4603",
+        "RX:1162715",
+        "RX:310429",
+        "RX:372281",
+        "RX:1162714",
+        "RX:1719285",
+        "RX:197732",
+        "RX:372280",
+        "RX:197730"
+      ]
+    },
+    {
+      "id": 463,
+      "gold": [
+        "RX:4603"
+      ],
+      "top10": [
+        "RX:4603",
+        "RX:1162715",
+        "RX:372281",
+        "RX:1162714",
+        "RX:1719285",
+        "RX:310429",
+        "RX:372280",
+        "RX:313988",
+        "RX:197732",
+        "RX:1162712"
+      ]
+    },
+    {
+      "id": 464,
+      "gold": [
+        "RX:274783"
+      ],
+      "top10": [
+        "RX:274783",
+        "RX:1157459",
+        "RX:1653497",
+        "RX:378864",
+        "RX:311041",
+        "RX:847230",
+        "RX:2002419",
+        "RX:1604539",
+        "RX:1736861",
+        "RX:1858994"
+      ]
+    },
+    {
+      "id": 465,
+      "gold": [
+        "RX:282386"
+      ],
+      "top10": [
+        "RX:282386",
+        "RX:1171231",
+        "RX:1171230",
+        "RX:406060",
+        "RX:404588",
+        "RX:404589",
+        "RX:2377130",
+        "RX:2377133",
+        "RX:1545771",
+        "RX:1940635"
+      ]
+    },
+    {
+      "id": 466,
+      "gold": [
+        "RX:282388"
+      ],
+      "top10": [
+        "RX:282386",
+        "RX:1171231",
+        "RX:1171230",
+        "RX:406060",
+        "RX:404588",
+        "RX:404589",
+        "RX:2377130",
+        "RX:2377133",
+        "RX:1545771",
+        "RX:1940635"
+      ]
+    },
+    {
+      "id": 467,
+      "gold": [
+        "RX:6373"
+      ],
+      "top10": [
+        "RX:1182873",
+        "RX:1111008",
+        "RX:1111010",
+        "RX:1111011",
+        "RX:2267304",
+        "RX:2672091",
+        "RX:2267303",
+        "RX:2262253",
+        "RX:1148518",
+        "RX:597332"
+      ]
+    },
+    {
+      "id": 468,
+      "gold": [
+        "RX:274783"
+      ],
+      "top10": [
+        "RX:274783",
+        "RX:1157459",
+        "RX:1653497",
+        "RX:378864",
+        "RX:311041",
+        "RX:847230",
+        "RX:2002419",
+        "RX:1604539",
+        "RX:1653499",
+        "RX:362585"
+      ]
+    },
+    {
+      "id": 469,
+      "gold": [
+        "RX:7213"
+      ],
+      "top10": [
+        "RX:7213",
+        "RX:203212",
+        "RX:1158615",
+        "RX:1158614",
+        "RX:214199",
+        "RX:2108449",
+        "RX:746447",
+        "RX:1797832",
+        "RX:1154598",
+        "RX:836358"
+      ]
+    },
+    {
+      "id": 470,
+      "gold": [
+        "RX:6057"
+      ],
+      "top10": [
+        "RX:6057",
+        "RX:1159760",
+        "RX:631993",
+        "RX:1159759",
+        "RX:1426599",
+        "RX:6058",
+        "RX:1159756",
+        "RX:631894",
+        "RX:378739",
+        "RX:1159755"
+      ]
+    },
+    {
+      "id": 471,
+      "gold": [
+        "RX:4603"
+      ],
+      "top10": [
+        "RX:202991",
+        "RX:1175648",
+        "RX:1175647",
+        "RX:1175645",
+        "RX:200809",
+        "RX:200801",
+        "RX:205732",
+        "RX:2548769",
+        "RX:368487",
+        "RX:2725545"
+      ]
+    },
+    {
+      "id": 472,
+      "gold": [
+        "RX:2598"
+      ],
+      "top10": [
+        "RX:202585",
+        "RX:1172120",
+        "RX:1172119",
+        "RX:93055",
+        "RX:206159",
+        "RX:206160",
+        "RX:206157",
+        "RX:217905",
+        "RX:1172125",
+        "RX:1172124"
+      ]
+    },
+    {
+      "id": 473,
+      "gold": [
+        "RX:2598",
+        "RX:2599"
+      ],
+      "top10": [
+        "RX:202585",
+        "RX:1172120",
+        "RX:1172119",
+        "RX:2599",
+        "RX:1153386",
+        "RX:371583",
+        "RX:1732370",
+        "RX:1153385",
+        "RX:2725552",
+        "RX:1153387"
+      ]
+    },
+    {
+      "id": 474,
+      "gold": [
+        "RX:82122"
+      ],
+      "top10": [
+        "RX:1927663",
+        "RX:1598641",
+        "RX:1927675",
+        "RX:1927676",
+        "RX:7623",
+        "RX:1927674",
+        "RX:1927666",
+        "RX:82122",
+        "RX:1927665",
+        "RX:1160454"
+      ]
+    },
+    {
+      "id": 475,
+      "gold": [
+        "RX:82122"
+      ],
+      "top10": [
+        "RX:82122",
+        "RX:311296",
+        "RX:1163468",
+        "RX:372588",
+        "RX:1163467",
+        "RX:1665494",
+        "RX:477392",
+        "RX:199885",
+        "RX:199884",
+        "RX:1163464"
+      ]
+    },
+    {
+      "id": 476,
+      "gold": [
+        "RX:10582"
+      ],
+      "top10": [
+        "RX:10582",
+        "RX:1602745",
+        "RX:372595",
+        "RX:1602753",
+        "RX:1868004",
+        "RX:40144",
+        "RX:1001569",
+        "RX:687432",
+        "RX:1602750",
+        "RX:1602748"
+      ]
+    },
+    {
+      "id": 477,
+      "gold": [
+        "RX:10582"
+      ],
+      "top10": [
+        "RX:10582",
+        "RX:1602745",
+        "RX:372595",
+        "RX:1602753",
+        "RX:1868004",
+        "RX:40144",
+        "RX:1001569",
+        "RX:687432",
+        "RX:1602750",
+        "RX:1602748"
+      ]
+    },
+    {
+      "id": 478,
+      "gold": [
+        "RX:6470"
+      ],
+      "top10": [
+        "RX:6470",
+        "RX:1165341",
+        "RX:372647",
+        "RX:1165340",
+        "RX:1665187",
+        "RX:197901",
+        "RX:197902",
+        "RX:372644",
+        "RX:197900",
+        "RX:1165338"
+      ]
+    },
+    {
+      "id": 479,
+      "gold": [
+        "RX:6585"
+      ],
+      "top10": [
+        "RX:1314279",
+        "RX:1009149",
+        "RX:1155638",
+        "RX:6581",
+        "RX:9880",
+        "RX:1155637",
+        "RX:370822",
+        "RX:1157490",
+        "RX:1157489",
+        "RX:466588"
+      ]
+    },
+    {
+      "id": 480,
+      "gold": [
+        "RX:6902"
+      ],
+      "top10": [
+        "RX:202702",
+        "RX:1183797",
+        "RX:1183796",
+        "RX:1086412",
+        "RX:1670019",
+        "RX:203856",
+        "RX:22584",
+        "RX:1184840",
+        "RX:1314368",
+        "RX:1183798"
+      ]
+    },
+    {
+      "id": 481,
+      "gold": [
+        "RX:6813"
+      ],
+      "top10": [
+        "RX:6813",
+        "RX:1161622",
+        "RX:372808",
+        "RX:1161621",
+        "RX:372806",
+        "RX:1161619",
+        "RX:372807",
+        "RX:218337",
+        "RX:363965",
+        "RX:1161620"
+      ]
+    },
+    {
+      "id": 482,
+      "gold": [
+        "RX:1743704"
+      ],
+      "top10": [
+        "RX:6902",
+        "RX:1743704",
+        "RX:1163489",
+        "RX:372868",
+        "RX:1163488",
+        "RX:1743703",
+        "RX:197969",
+        "RX:259966",
+        "RX:197973",
+        "RX:311659"
+      ]
+    },
+    {
+      "id": 483,
+      "gold": [
+        "RX:6915"
+      ],
+      "top10": [
+        "RX:6915",
+        "RX:1163514",
+        "RX:372886",
+        "RX:1163513",
+        "RX:1740916",
+        "RX:311668",
+        "RX:311666",
+        "RX:372883",
+        "RX:1163511",
+        "RX:104884"
+      ]
+    },
+    {
+      "id": 484,
+      "gold": [
+        "RX:6915"
+      ],
+      "top10": [
+        "RX:6915",
+        "RX:1163514",
+        "RX:311666",
+        "RX:372886",
+        "RX:1163513",
+        "RX:311668",
+        "RX:1740916",
+        "RX:372883",
+        "RX:104884",
+        "RX:1163511"
+      ]
+    },
+    {
+      "id": 485,
+      "gold": [
+        "RX:6918"
+      ],
+      "top10": [
+        "RX:6918",
+        "RX:1163524",
+        "RX:372891",
+        "RX:1163523",
+        "RX:1740909",
+        "RX:2712144",
+        "RX:1163522",
+        "RX:203191",
+        "RX:2712143",
+        "RX:221124"
+      ]
+    },
+    {
+      "id": 486,
+      "gold": [
+        "RX:866924"
+      ],
+      "top10": [
+        "RX:6918",
+        "RX:1163524",
+        "RX:372891",
+        "RX:1163523",
+        "RX:1740909",
+        "RX:2712144",
+        "RX:1163522",
+        "RX:2712143",
+        "RX:203191",
+        "RX:866924"
+      ]
+    },
+    {
+      "id": 487,
+      "gold": [
+        "RX:7052"
+      ],
+      "top10": [
+        "RX:7052",
+        "RX:1156364",
+        "RX:372959",
+        "RX:1156363",
+        "RX:1728776",
+        "RX:106841",
+        "RX:30236",
+        "RX:1156360",
+        "RX:1156365",
+        "RX:1156362"
+      ]
+    },
+    {
+      "id": 488,
+      "gold": [
+        "RX:1305603"
+      ],
+      "top10": [
+        "RX:352777",
+        "RX:1183336",
+        "RX:1183335",
+        "RX:1183334",
+        "RX:1296174",
+        "RX:669125",
+        "RX:669126",
+        "RX:2058494",
+        "RX:669111",
+        "RX:369921"
+      ]
+    },
+    {
+      "id": 489,
+      "gold": [
+        "RX:197"
+      ],
+      "top10": [
+        "RX:613876",
+        "RX:1053336",
+        "RX:298665",
+        "RX:3355",
+        "RX:1151153",
+        "RX:19737",
+        "RX:371798",
+        "RX:1151152",
+        "RX:203214",
+        "RX:376352"
+      ]
+    },
+    {
+      "id": 490,
+      "gold": [
+        "RX:612"
+      ],
+      "top10": [
+        "RX:1314279",
+        "RX:9880",
+        "RX:1009149",
+        "RX:1910",
+        "RX:1155638",
+        "RX:1155637",
+        "RX:370822",
+        "RX:466588",
+        "RX:34311",
+        "RX:6581"
+      ]
+    },
+    {
+      "id": 491,
+      "gold": [
+        "RX:4917"
+      ],
+      "top10": [
+        "RX:1314360",
+        "RX:1546271",
+        "RX:742",
+        "RX:1117535",
+        "RX:1153479",
+        "RX:1295080",
+        "RX:1007265",
+        "RX:1362890",
+        "RX:1117534",
+        "RX:1153478"
+      ]
+    },
+    {
+      "id": 492,
+      "gold": [
+        "RX:312013"
+      ],
+      "top10": [
+        "RX:4917",
+        "RX:1159830",
+        "RX:1159829",
+        "RX:1868493",
+        "RX:1159832",
+        "RX:237205",
+        "RX:1159826",
+        "RX:1159831",
+        "RX:1799426",
+        "RX:1868562"
+      ]
+    },
+    {
+      "id": 493,
+      "gold": [
+        "RX:4917"
+      ],
+      "top10": [
+        "RX:4917",
+        "RX:1159830",
+        "RX:1159829",
+        "RX:1868493",
+        "RX:1159832",
+        "RX:1159826",
+        "RX:1159831",
+        "RX:237205",
+        "RX:1799426",
+        "RX:374405"
+      ]
+    },
+    {
+      "id": 494,
+      "gold": [
+        "RX:4917"
+      ],
+      "top10": [
+        "RX:1204",
+        "RX:1165939",
+        "RX:2628196",
+        "RX:2628199",
+        "RX:2628198",
+        "RX:218975",
+        "RX:2628204",
+        "RX:2628206",
+        "RX:2628208",
+        "RX:2721468"
+      ]
+    },
+    {
+      "id": 495,
+      "gold": [
+        "RX:7646"
+      ],
+      "top10": [
+        "RX:7646",
+        "RX:1161029",
+        "RX:1161028",
+        "RX:1792108",
+        "RX:1811630",
+        "RX:236486",
+        "RX:1855327",
+        "RX:1811628",
+        "RX:283742",
+        "RX:1811627"
+      ]
+    },
+    {
+      "id": 496,
+      "gold": [
+        "RX:7646"
+      ],
+      "top10": [
+        "RX:2667643",
+        "RX:2667645",
+        "RX:2667646",
+        "RX:543813",
+        "RX:1173307",
+        "RX:2003656",
+        "RX:1296484",
+        "RX:2260702",
+        "RX:4262",
+        "RX:645646"
+      ]
+    },
+    {
+      "id": 497,
+      "gold": [
+        "RX:161"
+      ],
+      "top10": [
+        "RX:1486025",
+        "RX:1739745",
+        "RX:1739760",
+        "RX:1739759",
+        "RX:1739758",
+        "RX:1739784",
+        "RX:1739748",
+        "RX:1739761",
+        "RX:1739776",
+        "RX:1739772"
+      ]
+    },
+    {
+      "id": 498,
+      "gold": [
+        "RX:6915"
+      ],
+      "top10": [
+        "RX:6915",
+        "RX:1163514",
+        "RX:311666",
+        "RX:372886",
+        "RX:1163513",
+        "RX:311668",
+        "RX:1740916",
+        "RX:372883",
+        "RX:1163511",
+        "RX:104884"
+      ]
+    },
+    {
+      "id": 499,
+      "gold": [
+        "RX:6915"
+      ],
+      "top10": [
+        "RX:1309433",
+        "RX:1185667",
+        "RX:203010",
+        "RX:1176191",
+        "RX:151325",
+        "RX:1166067",
+        "RX:1185666",
+        "RX:202994",
+        "RX:1176190",
+        "RX:1166066"
+      ]
+    },
+    {
+      "id": 500,
+      "gold": [
+        "RX:6918"
+      ],
+      "top10": [
+        "RX:6918",
+        "RX:1163524",
+        "RX:372891",
+        "RX:1163523",
+        "RX:1740909",
+        "RX:2712144",
+        "RX:1163522",
+        "RX:203191",
+        "RX:2712143",
+        "RX:221124"
+      ]
+    },
+    {
+      "id": 501,
+      "gold": [
+        "RX:301542"
+      ],
+      "top10": [
+        "RX:301542",
+        "RX:405880",
+        "RX:1157992",
+        "RX:402354",
+        "RX:1157991",
+        "RX:859426",
+        "RX:2167556",
+        "RX:859749",
+        "RX:859753",
+        "RX:859421"
+      ]
+    },
+    {
+      "id": 502,
+      "gold": [
+        "RX:51272"
+      ],
+      "top10": [
+        "RX:83553",
+        "RX:1180763",
+        "RX:1180762",
+        "RX:368152",
+        "RX:1648647",
+        "RX:616489",
+        "RX:153638",
+        "RX:153639",
+        "RX:153640",
+        "RX:284509"
+      ]
+    },
+    {
+      "id": 503,
+      "gold": [
+        "RX:9796"
+      ],
+      "top10": [
+        "RX:9796",
+        "RX:1158752",
+        "RX:373885",
+        "RX:1158751",
+        "RX:373880",
+        "RX:198853",
+        "RX:2477951",
+        "RX:2269676",
+        "RX:412111",
+        "RX:198852"
+      ]
+    },
+    {
+      "id": 504,
+      "gold": [
+        "RX:9796"
+      ],
+      "top10": [
+        "RX:9796",
+        "RX:1158752",
+        "RX:373885",
+        "RX:1158751",
+        "RX:373880",
+        "RX:198853",
+        "RX:2269676",
+        "RX:2477951",
+        "RX:412111",
+        "RX:198852"
+      ]
+    },
+    {
+      "id": 505,
+      "gold": [
+        "RX:352364"
+      ],
+      "top10": [
+        "RX:352990",
+        "RX:1180238",
+        "RX:2269596",
+        "RX:1297024",
+        "RX:2269595",
+        "RX:1307058",
+        "RX:1010606",
+        "RX:1307063",
+        "RX:1010603",
+        "RX:7242"
+      ]
+    },
+    {
+      "id": 506,
+      "gold": [
+        "RX:38413"
+      ],
+      "top10": [
+        "RX:38413",
+        "RX:1162753",
+        "RX:374168",
+        "RX:1162752",
+        "RX:198372",
+        "RX:198369",
+        "RX:198371",
+        "RX:2589881",
+        "RX:198370",
+        "RX:2589885"
+      ]
+    },
+    {
+      "id": 507,
+      "gold": [
+        "RX:10737"
+      ],
+      "top10": [
+        "RX:10753",
+        "RX:1158219",
+        "RX:1157684",
+        "RX:374187",
+        "RX:1158220",
+        "RX:377962",
+        "RX:199159",
+        "RX:377828",
+        "RX:379379",
+        "RX:198300"
+      ]
+    },
+    {
+      "id": 508,
+      "gold": [
+        "RX:161"
+      ],
+      "top10": [
+        "RX:202433",
+        "RX:1187315",
+        "RX:1187311",
+        "RX:220581",
+        "RX:1187314",
+        "RX:1187313",
+        "RX:2178757",
+        "RX:1187310",
+        "RX:1296526",
+        "RX:220586"
+      ]
+    },
+    {
+      "id": 509,
+      "gold": [
+        "RX:161"
+      ],
+      "top10": [
+        "RX:202433",
+        "RX:1187315",
+        "RX:1187311",
+        "RX:220581",
+        "RX:1187314",
+        "RX:1187313",
+        "RX:2178757",
+        "RX:1187310",
+        "RX:1296526",
+        "RX:220586"
+      ]
+    },
+    {
+      "id": 510,
+      "gold": [
+        "RX:11124"
+      ],
+      "top10": [
+        "RX:11124",
+        "RX:1160502",
+        "RX:1160501",
+        "RX:1807507",
+        "RX:374282",
+        "RX:374281",
+        "RX:1807516",
+        "RX:1160499",
+        "RX:2049891",
+        "RX:1807513"
+      ]
+    },
+    {
+      "id": 511,
+      "gold": [
+        "RX:11124"
+      ],
+      "top10": [
+        "RX:11124",
+        "RX:1160502",
+        "RX:1160501",
+        "RX:1807507",
+        "RX:374282",
+        "RX:374281",
+        "RX:1807516",
+        "RX:1160499",
+        "RX:2049891",
+        "RX:1807513"
+      ]
+    },
+    {
+      "id": 512,
+      "gold": [
+        "RX:11124",
+        "RX:74169"
+      ],
+      "top10": [
+        "RX:74170",
+        "RX:1186325",
+        "RX:202368",
+        "RX:11124",
+        "RX:1187337",
+        "RX:402421",
+        "RX:1160502",
+        "RX:1187389",
+        "RX:1160501",
+        "RX:1807507"
+      ]
+    },
+    {
+      "id": 513,
+      "gold": [
+        "RX:10831",
+        "RX:11124",
+        "RX:74169"
+      ],
+      "top10": [
+        "RX:151399",
+        "RX:1167959",
+        "RX:1167956",
+        "RX:74170",
+        "RX:202368",
+        "RX:11124",
+        "RX:369244",
+        "RX:208416",
+        "RX:1187337",
+        "RX:402421"
+      ]
+    },
+    {
+      "id": 514,
+      "gold": [
+        "RX:11248"
+      ],
+      "top10": [
+        "RX:11248",
+        "RX:1161159",
+        "RX:371650",
+        "RX:1161158",
+        "RX:309593",
+        "RX:348170",
+        "RX:371646",
+        "RX:1008064",
+        "RX:313896",
+        "RX:2171138"
+      ]
+    },
+    {
+      "id": 515,
+      "gold": [
+        "RX:11258"
+      ],
+      "top10": [
+        "RX:11258",
+        "RX:1161780",
+        "RX:374318",
+        "RX:1161779",
+        "RX:11246",
+        "RX:11256",
+        "RX:11253",
+        "RX:198899",
+        "RX:1161148",
+        "RX:1161179"
+      ]
+    },
+    {
+      "id": 516,
+      "gold": [
+        "RX:29046"
+      ],
+      "top10": [
+        "RX:196472",
+        "RX:1187284",
+        "RX:1187283",
+        "RX:104377",
+        "RX:104376",
+        "RX:104378",
+        "RX:206771",
+        "RX:213482",
+        "RX:368248",
+        "RX:104375"
+      ]
+    },
+    {
+      "id": 517,
+      "gold": [
+        "RX:74169"
+      ],
+      "top10": [
+        "RX:74170",
+        "RX:1186325",
+        "RX:203012",
+        "RX:203437",
+        "RX:1179305",
+        "RX:1179621",
+        "RX:1179304",
+        "RX:800238",
+        "RX:261672",
+        "RX:1179620"
+      ]
+    }
+  ]
+}

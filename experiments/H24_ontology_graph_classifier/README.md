@@ -135,3 +135,16 @@ recommended. The competition is never submitted automatically.
 5. Train the contextual classifier/reranker.
 6. Run frozen ablations and only then decide whether to package a challenger.
 
+## Stage-1 implementation result
+
+- Added a deterministic typed graph builder for WHO ICD-10 and RxNorm CPC.
+- Built 69,991 nodes and 294,548 edges with stable node/edge checksums.
+- Built 518 unique provenance-marked weak mention/concept rows with alias-group
+  426/36/56 train/dev/test splits.
+- Established a complete-ontology character TF-IDF baseline: overall R@1
+  10.81%, diagnosis R@1 2.62%, and drug R@1 45.92%.
+- Implemented the customized neural core: separate mention/concept projections,
+  relation-aware graph adapter, graph hard-negative loss, contextual pair
+  classifier and four-task loss.
+- All 72 repository tests pass. No neural fitting, challenger ZIP or
+  competition submission has occurred.

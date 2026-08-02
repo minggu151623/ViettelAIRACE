@@ -1,0 +1,24 @@
+{
+  "nodes": 69991,
+  "edges": 294548,
+  "nodes_by_ontology": {
+    "RXNORM_CPC_2026_07": 57770,
+    "WHO_ICD10_2019": 12221
+  },
+  "edges_by_relation": {
+    "icd_child": 10171,
+    "icd_parent": 10171,
+    "rx_has_ingredient": 37624,
+    "rx_has_part": 3053,
+    "rx_has_precise_ingredient": 2212,
+    "rx_has_tradename": 26587,
+    "rx_ingredient_of": 37624,
+    "rx_inverse_isa": 67627,
+    "rx_isa": 67627,
+    "rx_part_of": 3053,
+    "rx_precise_ingredient_of": 2212,
+    "rx_tradename_of": 26587
+  },
+  "node_sha256": "40c3dd800ee9897f8a41b13f1e277d89bf310471f7279004fd8f8b3a74ee5e08",
+  "edge_sha256": "87d474000d8a0db53a67aa92c6fc550fef6a852989675a02647b7893c7c52208"
+}

@@ -865,3 +865,20 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   challenger can be packaged.
 - No H24 data generation, model fitting, artifact packaging or competition
   submission occurred before this protocol was frozen.
+
+## 2026-08-02 — H24 stage-1 graph and source-core implementation
+
+- Built the exact local ontology graph: 69,991 concept nodes and 294,548 typed
+  edges from WHO ICD-10 2019 and RxNorm CPC 2026-07. Stable node and edge
+  checksums are recorded in the experiment manifest.
+- Built 518 unique H23 weak mention/concept rows. Hash grouping prevents an
+  identical normalized alias from crossing train/dev/test; all labels remain
+  explicitly marked as pseudo, not organizer gold.
+- Character n-gram retrieval over the complete type-restricted ontology gives
+  overall R@1/R@5/R@10 of 10.81/14.09/16.80%. Diagnosis R@1 is only 2.62%,
+  whereas drug R@1 is 45.92%, exposing the cross-lingual semantic bottleneck.
+- Implemented separate mention/concept projections, a relation-aware graph
+  adapter without torch-geometric, contrastive and graph hard-negative losses,
+  and a contextual four-head classifier for keep/type/concept/assertions.
+- All 72 tests pass. No neural model was fitted and no H24 submission artifact
+  was generated.

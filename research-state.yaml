@@ -131,7 +131,7 @@ hypotheses:
       candidates will hedge organizer ontology differences and improve
       candidate Jaccard without changing text or assertion metrics.
   H24_ontology_graph_classifier:
-    status: preregistered_before_data_generation
+    status: stage1_graph_dataset_and_lexical_baseline_complete
     prediction: >
       A customized sparse+dense concept retriever with ontology-graph losses,
       graph-mined hard negatives and a contextual classifier/reranker will
@@ -238,11 +238,14 @@ experiments:
     - "H23 anti-overfit diagnostic: H22-defined proxy falls 87.0650 -> 84.5409 as expected; not used for selection"
     - "H23 external result: 38.9352; WER/assertion frozen; J_candidates 29.2469 -> 29.5910; +0.1376 entirely candidate-derived"
     - "H24 protocol preregistered: ontology graph, dual encoder, hard negatives, contextual classifier and structured decoder"
+    - "H24 graph: 69,991 nodes and 294,548 typed edges with deterministic checksums"
+    - "H24 weak-link set: 518 unique rows, alias-group split 426/36/56; explicitly not organizer gold"
+    - "H24 lexical baseline: overall R@1 10.81%, diagnosis 2.62%, drug 45.92%; dense semantic headroom confirmed"
+    - "H24 customized source core: dual projection encoder, relation graph adapter, hard-negative and multitask context classifier; 72 tests pass"
   next: >
-    Build the H24 typed WHO/RxNorm graph and provenance-preserving held-out
-    datasets, then establish lexical/current-encoder baselines before any graph
-    training. Preserve H23 as fallback and do not spend another submission on
-    candidate-list threshold variants.
+    Measure the unadapted BamiBERT dense baseline, then train synonym/ontology
+    alignment on the frozen train fold. Only after dense+graph and context
+    ablations clear the preregistered gates may a challenger be packaged.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
