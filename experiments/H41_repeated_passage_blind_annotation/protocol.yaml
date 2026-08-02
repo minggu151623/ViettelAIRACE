@@ -1,5 +1,5 @@
 hypothesis: H41_repeated_passage_blind_annotation
-status: preregistered
+status: queue_passed_waiting_for_independent_labels
 created_at: "2026-08-03T09:15:00+07:00"
 question: >
   Can a small prediction-blind annotation set over unique repeated Turn-2
@@ -42,16 +42,22 @@ queue_selection:
   strata:
     high:
       condition: distinct_record_count_at_least_4
-      count: 15
-      holdout: 4
+      count: 13
+      holdout: 3
     middle:
       condition: distinct_record_count_equals_3
-      count: 15
-      holdout: 4
+      count: 17
+      holdout: 5
     low:
       condition: distinct_record_count_equals_2
       count: 30
       holdout: 7
+  feasibility_amendment_1: >
+    The preregistered implementation check found 15 groups with at least four
+    physical occurrences but only 13 with at least four distinct records (12
+    groups in four records and one in five). Before any queue was generated or
+    label was viewed, high was changed 15 -> 13 and middle 15 -> 17; holdout was
+    changed 4/4/7 -> 3/5/7. Total queue and holdout sizes remain 60 and 15.
   split_assignment: >
     Within each selected stratum, order by sha256(seed || passage_id); assign
     the registered holdout count first and all remaining passages to
@@ -101,7 +107,7 @@ review_design:
 
 registered_gates_before_model_comparison:
   - input_hash_matches
-  - exactly_60_unique_passages_with_registered_stratum_counts
+  - exactly_60_unique_passages_with_amended_registered_stratum_counts
   - exactly_45_development_and_15_holdout_passages
   - queue_and_UI_import_no_prediction_or_output_directory
   - all_selected_occurrence_offsets_round_trip_exactly
@@ -135,3 +141,19 @@ failure_policy: >
 if_passed:
   artifact_name: turn2/output_v11_h41_supervised
   submission: user_only
+
+queue_result:
+  status: passed
+  manifest_sha256: a10b345aea2247cc5843e89894130f43279bd5bfc36c7bfda0c7abd357bd5f08
+  reviewer_2_manifest_sha256: 450cb52ca4da576709405d07e83c3c19325b837208c7353ac456bea6e3987f2d
+  unique_passages: 60
+  development_passages: 45
+  holdout_passages: 15
+  exact_occurrences: 164
+  represented_records: 59
+  directly_reviewed_characters: 20055
+  projected_characters: 55200
+  offset_round_trip_failures: 0
+  repository_tests_passed: 123
+  model_training_started: false
+  submission_artifact_created: false

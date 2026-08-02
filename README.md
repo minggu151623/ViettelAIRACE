@@ -107,6 +107,20 @@ Do not submit a V3 ZIP only because training completed. First compare its strict
 span/type metrics on `labels/manual_validation.jsonl`; the reviewed set is the
 submission gate.
 
+For the Turn-2 prediction-blind repeated-passage study, use the separate H41
+workflow. It never loads a model output and keeps assertions occurrence-specific:
+
+```bash
+python -m airace passage-blind-prepare
+python -m airace passage-queue-audit
+python -m airace passage-annotate --reviewer reviewer_1 \
+  --out experiments/H41_repeated_passage_blind_annotation/labels/reviewer_1.jsonl
+```
+
+See `experiments/H41_repeated_passage_blind_annotation/README.md` for the
+independent two-reviewer protocol. No H41 submission artifact is created before
+the locked holdout gate passes.
+
 ## Legacy V2 baselines
 
 The repository also contains the older rule profiles:

@@ -42,8 +42,11 @@ current_direction: >
   policies rather than one recoverable latent vote. Turn 2 exposes 271 repeated-
   line groups covering 43.07% of characters, but H40 canonical stability is only
   88.37% and its 551 changes exceed the registered ceiling. Repetition cannot
-  invent the missing policy; it will now be used only to multiply independent,
-  prediction-blind passage annotations across exact occurrences.
+  invent the missing policy. H41 now freezes a prediction-blind 60-passage
+  queue spanning 164 exact occurrences and 55,200 projected characters, with
+  a 45/15 development/holdout split and an independent 15-passage reviewer-2
+  queue. The next model experiment is blocked until both reviewers complete and
+  checksum-lock their labels; no model output may be exposed before that lock.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -240,6 +243,19 @@ hypotheses:
       Retained 47/48 controls, but leave-one-occurrence-out stability reached
       only 88.37% and 551 proposed row changes exceeded the 400-row ceiling.
       Integration and ZIP generation were canceled.
+  H41_repeated_passage_blind_annotation:
+    status: queue_passed_waiting_for_independent_labels
+    prediction: >
+      Prediction-blind annotation of unique repeated passages will provide an
+      independent development/holdout signal and multiply each reviewed local
+      policy across exact occurrences without using model agreement as truth.
+    result: >
+      Queue audit passed: 60 unique passages, 45 development and 15 holdout,
+      164 exact occurrences across 59 records, 20,055 directly reviewed and
+      55,200 projected characters. The manifest SHA-256 is
+      a10b345aea2247cc5843e89894130f43279bd5bfc36c7bfda0c7abd357bd5f08.
+      Model training and artifact creation are intentionally blocked pending
+      two independently checksum-locked annotation files.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -374,11 +390,14 @@ experiments:
     - "H39 rejected before stacker: synthetic F1 +0.11667, but only 4/19 real leave-one-family-out cells improve; no ZIP"
     - "H40 exact repeated-passage consistency protocol locked; implementation not yet run"
     - "H40 rejected before integration: 88.37% stability and 551 changes; controls 47/48; no ZIP"
+    - "H41 blind queue audit passed: 60 passages, 164 occurrences, 45/15 split, 55,200 projected characters; no model prefill"
+    - "H41 tooling: two-stage passage/occurrence UI, complete-label validator and reviewer-agreement gate; 123 tests pass"
   next: >
-    Build a prediction-blind annotation queue over unique repeated passages,
-    ranked only by multiplicity and length. Project each reviewed local label to
-    every exact occurrence, then use record-disjoint calibration to train the
-    span/type/assertion stacker. Do not expose H38/model predictions to reviewers.
+    Complete H41 reviewer_1 labels for all 60 passages and independent
+    reviewer_2 labels for the frozen 15-passage double-annotation queue. Lock
+    both checksums, require span/type F1 >= 0.85 and assertion Jaccard >= 0.80,
+    then adjudicate and run a one-shot H38-versus-challenger holdout comparison.
+    Do not expose H38/model predictions to either reviewer before label lock.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

@@ -1261,3 +1261,26 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   early-gate JSON is byte-identical.
 - Pivot: use repeated passages as a multiplier for prediction-blind human labels
   rather than claiming repetition itself identifies the correct annotation.
+
+## 2026-08-03 — H41 prediction-blind annotation queue passes
+
+- Preregistered selection before queue construction: exact physical lines of
+  at least 40 characters, ranked only by length × distinct-record multiplicity
+  and a seeded hash. No model output, proposal, confidence or prior review is a
+  selection or annotation feature.
+- The feasibility check corrected an occurrence-vs-distinct-record ambiguity
+  before any queue or label was viewed. The transparent amendment changes the
+  strata from 15/15/30 to 13/17/30 and holdout allocation from 4/4/7 to 3/5/7,
+  while preserving 60 total and 15 holdout passages.
+- Queue audit passes all frozen gates: 60 unique passages, 45 development and
+  15 holdout, 164 exact occurrences across 59 records, and zero offset
+  round-trip failures. Direct review covers 20,055 characters and exact
+  projection covers 55,200. Main manifest SHA-256 is
+  `a10b345aea2247cc5843e89894130f43279bd5bfc36c7bfda0c7abd357bd5f08`.
+- Added a model-free Streamlit UI with passage-relative span/type/candidate
+  labeling and occurrence-specific assertion review. Added a separate blind
+  reviewer-2 manifest containing only the 15 double-annotation passages, SHA
+  `450cb52ca4da576709405d07e83c3c19325b837208c7353ac456bea6e3987f2d`.
+- Added completeness/offset validation and locked inter-reviewer gates of
+  strict span/type F1 ≥ 0.85 and assertion macro-Jaccard ≥ 0.80. All 123 tests
+  pass. No model was trained, no output was altered and no ZIP was created.

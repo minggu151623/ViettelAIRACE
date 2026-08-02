@@ -777,6 +777,20 @@ The strongest verified direction is conservative structural cleanup:
   consistent, but two-occurrence groups cannot adjudicate conflicting model
   policies. The correct use is prediction-blind annotation of unique passages,
   followed by exact projection—not another automatic modal threshold.
+- **H41 turns repetition into a genuine annotation multiplier.** A frozen,
+  prediction-blind queue selects 60 passages using only exact text, length,
+  distinct-record multiplicity and a deterministic hash. It covers 164
+  occurrences across 59 records: reviewing 20,055 unique characters provides
+  labels for 55,200 projected characters. The 45/15 development/holdout split
+  is fixed before labels, and reviewer 2 receives only a separate 15-passage
+  blind queue. This is independent supervision; model comparison remains
+  forbidden until both reviewers' files are checksum-locked.
+- **Assertion projection must remain occurrence-specific.** Exact passage text
+  licenses reuse of relative span/type and cautiously entered candidates, but
+  not assertion flags. H41 therefore shows ±200 characters of raw context and
+  requires a separate assertion row for every entity occurrence. The validator
+  rejects incomplete occurrence coverage and supports multiple simultaneous
+  assertions.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

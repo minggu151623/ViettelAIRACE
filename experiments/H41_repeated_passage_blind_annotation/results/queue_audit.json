@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "manifest_sha256": "a10b345aea2247cc5843e89894130f43279bd5bfc36c7bfda0c7abd357bd5f08",
+  "passage_count": 60,
+  "occurrence_count": 164,
+  "annotated_character_count_before_projection": 20055,
+  "projected_character_count": 55200,
+  "strata": {
+    "high": 13,
+    "middle": 17,
+    "low": 30
+  },
+  "splits": {
+    "development": 45,
+    "holdout": 15
+  },
+  "gates": {
+    "input_hash_matches": true,
+    "exactly_60_unique_passages": true,
+    "registered_strata_match": true,
+    "registered_splits_match": true,
+    "all_occurrence_offsets_round_trip": true
+  }
+}

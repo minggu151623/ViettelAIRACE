@@ -208,6 +208,56 @@ def build_parser() -> argparse.ArgumentParser:
     ann.add_argument(
         "--split", choices=["development", "holdout", "all"], default="all"
     )
+    passage_prepare = sub.add_parser("passage-blind-prepare")
+    passage_prepare.add_argument("--input", default="turn2/input")
+    passage_prepare.add_argument(
+        "--manifest",
+        default="experiments/H41_repeated_passage_blind_annotation/queue.json",
+    )
+    passage_prepare.add_argument(
+        "--secondary-manifest",
+        default="experiments/H41_repeated_passage_blind_annotation/queue_reviewer_2.json",
+    )
+    passage_annotate = sub.add_parser("passage-annotate")
+    passage_annotate.add_argument("--input", default="turn2/input")
+    passage_annotate.add_argument(
+        "--manifest",
+        default="experiments/H41_repeated_passage_blind_annotation/queue.json",
+    )
+    passage_annotate.add_argument("--out", required=True)
+    passage_annotate.add_argument("--reviewer", required=True)
+    passage_validate = sub.add_parser("passage-label-validate")
+    passage_validate.add_argument(
+        "--manifest",
+        default="experiments/H41_repeated_passage_blind_annotation/queue.json",
+    )
+    passage_validate.add_argument("--labels", required=True)
+    passage_validate.add_argument("--require-complete", action="store_true")
+    passage_audit = sub.add_parser("passage-queue-audit")
+    passage_audit.add_argument("--input", default="turn2/input")
+    passage_audit.add_argument(
+        "--manifest",
+        default="experiments/H41_repeated_passage_blind_annotation/queue.json",
+    )
+    passage_audit.add_argument(
+        "--report",
+        default="experiments/H41_repeated_passage_blind_annotation/results/queue_audit.json",
+    )
+    passage_agreement = sub.add_parser("passage-reviewer-agreement")
+    passage_agreement.add_argument(
+        "--manifest",
+        default="experiments/H41_repeated_passage_blind_annotation/queue.json",
+    )
+    passage_agreement.add_argument(
+        "--secondary-manifest",
+        default="experiments/H41_repeated_passage_blind_annotation/queue_reviewer_2.json",
+    )
+    passage_agreement.add_argument("--primary-labels", required=True)
+    passage_agreement.add_argument("--secondary-labels", required=True)
+    passage_agreement.add_argument(
+        "--report",
+        default="experiments/H41_repeated_passage_blind_annotation/results/reviewer_agreement.json",
+    )
     blind_prepare = sub.add_parser("blind-prepare")
     blind_prepare.add_argument("--input", default="turn2/input")
     blind_prepare.add_argument(
@@ -538,6 +588,48 @@ def main(argv: list[str] | None = None) -> None:
         if args.manifest:
             command.extend(["--manifest", args.manifest, "--split", args.split])
         raise SystemExit(subprocess.call(command))
+    elif args.command == "passage-blind-prepare":
+        from .passage_annotation import build_manifest, build_secondary_manifest
+
+        result = build_manifest(Path(args.input), Path(args.manifest))
+        build_secondary_manifest(Path(args.manifest), Path(args.secondary_manifest))
+    elif args.command == "passage-annotate":
+        command = [
+            sys.executable, "-m", "streamlit", "run",
+            str(Path(__file__).with_name("passage_annotation_app.py")),
+            "--", "--input", args.input, "--manifest", args.manifest,
+            "--out", args.out, "--reviewer", args.reviewer,
+        ]
+        raise SystemExit(subprocess.call(command))
+    elif args.command == "passage-label-validate":
+        from .passage_annotation import validate_annotation_file
+
+        result = validate_annotation_file(
+            Path(args.manifest), Path(args.labels), args.require_complete
+        )
+    elif args.command == "passage-queue-audit":
+        from .passage_annotation import audit_manifest
+
+        result = audit_manifest(Path(args.input), Path(args.manifest))
+        report_path = Path(args.report)
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        report_path.write_text(
+            json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+    elif args.command == "passage-reviewer-agreement":
+        from .passage_annotation import reviewer_agreement
+
+        result = reviewer_agreement(
+            Path(args.manifest), Path(args.secondary_manifest),
+            Path(args.primary_labels), Path(args.secondary_labels),
+        )
+        report_path = Path(args.report)
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        report_path.write_text(
+            json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
     elif args.command == "blind-prepare":
         from .blind_eval import build_calibration_manifest
 
