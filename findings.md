@@ -853,6 +853,15 @@ The strongest verified direction is conservative structural cleanup:
   equivalence test: failure to promote cannot establish absence of a moderate
   gain. The queue remains frozen; expansion would require a new prediction-
   blind protocol.
+- **H41's percentile gate is distribution-sensitive at small n.** H49 holds
+  passage noise at mean zero and variance one but varies its shape. At 15
+  passages, Type-I spans 0.0236 under right skew to 0.1126 under left skew;
+  H42's correlated-Normal calibration therefore does not guarantee error
+  control for asymmetric real deltas. H48's 30-passage recommendation is also
+  optimistic under the envelope: worst-case power at `d=0.5` is 0.7452, while
+  45 passages reach 0.8546. The robust conclusion is qualitative—15 passages
+  cannot support equivalence—and the promotion test itself now requires a
+  preregistered small-sample robustness repair before reviewer labels open.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

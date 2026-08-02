@@ -321,6 +321,17 @@ hypotheses:
       holdout reached 0.8748 at d=0.75; 30 independent passages were required
       to reach 0.8034 at d=0.5. H41 is a high-effect confirmation gate, not an
       equivalence test, and its frozen queue remains unchanged.
+  H49_h41_power_robustness:
+    status: supported_distribution_sensitive
+    prediction: >
+      H48's qualitative power conclusion and larger-queue direction will remain
+      defensible across discrete, skewed and heavy-tailed unit-variance passage
+      deltas, with 15-passage Type-I remaining between 0.02 and 0.08.
+    result: >
+      The qualitative underpower conclusion survived, but universal Type-I
+      control failed: the 15-passage range was 0.0236–0.1126. Worst-family
+      power at d=0.5 was 0.7452 for 30 passages and 0.8546 for 45, moving the
+      robust 80% count from 30 to 45. The percentile gate requires repair.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -466,6 +477,7 @@ experiments:
     - "H46 score-shape calibration rejected before test: dev +0.01786, CI [0, 0.05357], mean k 3.107; 420/420 rankings reproduced, 137 tests, no ZIP"
     - "H47 assertion leverage closed: 36 asserted novel entities across 18 records; H37/H38 observed weighted assertion loss totals 0.04605 below 0.10 gate; 139 tests, no output"
     - "H48 H41 power audit: n=15 Type-I 0.053 and power 0.5882 at d=0.5; n=30 reaches 0.8034; 142 tests, no labels, queue, predictions or ZIP changed"
+    - "H49 distributional power envelope: n=15 Type-I 0.0236–0.1126; robust d=0.5 power reaches 0.8546 only at n=45; 145 tests, no labels, predictions, queue or ZIP changed"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
     candidate Jaccard before constructing another artifact. In parallel,
@@ -476,8 +488,10 @@ experiments:
     with the frozen H42 passage-clustered evaluator. Treat all 164 occurrence-
     level estimates as descriptive, never as independent bootstrap units.
     Treat non-promotion as failure to demonstrate a large effect, not evidence
-    of equivalence: H48 finds only 58.82% power at d=0.5 with 15 passages and
-    requires 30 independent passages for 80% power at that effect size.
+    of equivalence. H49 supersedes H48's Normal-only queue-size estimate: 30
+    passages have only 74.52% worst-family power at d=0.5, while 45 reach
+    85.46%. Repair the percentile gate's left-skew Type-I inflation in a
+    separately preregistered simulation before reviewer labels are opened.
     Do not expose H38/model predictions to either reviewer before label lock.
     Do not build a generic top-k candidate challenger: H45 shows retrieval depth
     without calibrated row-level cardinality sharply reduces Jaccard. Do not

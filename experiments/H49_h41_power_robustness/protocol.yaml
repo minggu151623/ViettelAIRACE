@@ -1,5 +1,5 @@
 hypothesis: H49_h41_power_robustness
-status: preregistered
+status: completed_distribution_sensitive
 registered_at: "2026-08-03T04:40:00+07:00"
 question: >
   Are H48's Type-I and power conclusions robust when passage-level score
@@ -64,3 +64,17 @@ artifact_policy:
   reviewer_label_access: forbidden
   model_prediction_access: forbidden
   deterministic_repeat_required: true
+
+result:
+  decision: DISTRIBUTION_SENSITIVE
+  fifteen_passage_type_i_range: [0.0236, 0.1126]
+  worst_case_power_at_d_0_5:
+    15_passages: 0.5918
+    30_passages: 0.7452
+    45_passages: 0.8546
+    60_passages: 0.9164
+  robust_passage_count_at_80_percent_power:
+    d_0_5: 45
+    d_0_75: 30
+  repeat_sha256: ff40799312aa253bae637494909624b90ec41a801239b7581d22fbf22ee44f2e
+  repository_tests_passed: 145

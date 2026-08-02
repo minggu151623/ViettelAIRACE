@@ -1401,3 +1401,18 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   untouched. Repeat outputs are byte-identical at SHA-256
   `b6f9dbf5056a8b8523d0e7678557f69e8ae62ebf374dabfc7ee0f5e34d85e773`;
   all 142 tests pass.
+
+## 2026-08-03 — H49 finds distribution-sensitive H41 inference
+
+- Preregistered a power envelope over five mean-zero, unit-variance passage
+  noise families before opening reviewer labels or predictions.
+- At 15 passages, percentile-bootstrap Type-I ranges from 0.0236 for right
+  skew to 0.1126 for left skew. The registered universal 0.02–0.08 gate fails;
+  the correlated-Normal audit was not sufficient for asymmetric deltas.
+- At `d=0.5`, worst-family power is 0.5918/0.7452/0.8546/0.9164 for
+  15/30/45/60 passages. The robust 80% count is 45, not H48's Normal-based 30.
+- Reclassified the existing percentile lower bound as distribution-sensitive
+  and made a preregistered small-sample robustness repair the next statistical
+  task. Repeat reports are byte-identical at SHA-256
+  `ff40799312aa253bae637494909624b90ec41a801239b7581d22fbf22ee44f2e`;
+  all 145 tests pass and no labels, queue, predictions or ZIP changed.
