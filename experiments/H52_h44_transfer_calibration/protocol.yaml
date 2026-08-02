@@ -1,0 +1,56 @@
+hypothesis: H52_h44_transfer_calibration
+status: preregistered_after_exploratory_count_discrepancy
+registered_at: "2026-08-03T05:48:00+07:00"
+question: >
+  How much of H23's externally observed per-row candidate yield must H44's
+  disjoint 611-row extension retain to cross the already locked practical and
+  strong external gates?
+
+exploratory_trigger: >
+  The H44 decision tree describes 467 rows beyond H23, but H44's build report
+  says 611 rows changed from H38, which already descends from H23. An
+  exploratory exact identity check suggested zero overlap. H52 is an audit and
+  calibration, not a blind discovery claim.
+
+frozen_evidence:
+  h23:
+    changed_rows: 144
+    external_candidate_delta: 0.3441
+    external_total_score_delta: 0.1376
+    build_report: experiments/H23_candidate_only_semantic/build_report.json
+  h44:
+    changed_rows: 611
+    source: H38
+    external_result_present: false
+    build_report: experiments/H44_full_who_family_hedge/results/build_report.json
+  locked_external_gates:
+    practical_candidate_delta: 0.02
+    strong_candidate_delta: 0.50
+
+identity_key:
+  fields: [record_id, exact_position, preserved_specific_code]
+  rationale: >
+    Entity indices may shift when H37/H38 add or replace spans, so they are not
+    stable lineage identifiers. Record, exact position and preserved specific
+    candidate bind the same occurrence-level intervention.
+
+registered_outputs:
+  - exact_h23_h44_overlap_count
+  - exact_disjoint_h44_count
+  - union_count
+  - h23_candidate_delta_per_changed_row
+  - h44_full_transfer_candidate_and_total_score_forecast
+  - practical_and_strong_gate_equivalent_h23_yield_ratios
+  - corrected_external_decision_tree_wording
+  - deterministic_report_hash
+
+interpretation_limits:
+  - "Per-row yield ratio is an exposure-normalized forecast, not hidden-gold prevalence."
+  - "Rows may carry different unknown candidate weights, so linear scaling is not a score guarantee."
+  - "No H44 outcome branch or numerical gate may be moved after this audit."
+
+artifact_policy:
+  submission_zip: forbidden
+  second_artifact: forbidden
+  h44_zip_change: forbidden
+  external_result_access: forbidden
