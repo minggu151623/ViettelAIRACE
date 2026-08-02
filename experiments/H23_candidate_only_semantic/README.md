@@ -88,6 +88,10 @@ Failure of any condition preserves H22 and consumes no submission slot.
 
 The prohibited optimization proxy decreases from 87.0650 to 84.5409 because
 its real rows define H22's original candidates as truth. This expected
-in-sample penalty is recorded but was not used for selection. H23 clears the
-frozen semantic/technical gate and is eligible for one external candidate-only
-measurement. H22 remains the fallback.
+in-sample penalty is recorded but was not used for selection. H23 cleared the
+frozen semantic/technical gate and received one external candidate-only
+measurement. The score improved from 38.7976 to 38.9352 while WER (57.2161)
+and assertion Jaccard (47.5455) stayed exactly frozen; candidate Jaccard
+improved from 29.2469 to 29.5910. The weighted candidate delta
+`0.4 * (29.5910 - 29.2469) = 0.13764` fully explains the displayed +0.1376.
+H23 is promoted, but its small effect closes the parent-expansion axis.

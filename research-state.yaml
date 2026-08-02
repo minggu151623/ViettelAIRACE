@@ -6,22 +6,21 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Freeze externally confirmed H22 at 38.7976. Its 3,168-entity reconstruction
-  improved text, assertions, and candidates together over H20, validating the
-  architecture-scale annotation replacement. H23 now isolates candidate
-  normalization: 144 ICD-10-CM singleton rows gain a valid same-family WHO
-  parent while every extraction/assertion field remains frozen. It clears the
-  preregistered semantic and technical gate and awaits one external test; H22
-  remains the fallback.
+  Freeze externally confirmed H23 at 38.9352. Its ontology-parent expansion
+  produced only +0.1376, entirely through candidates, proving the transform is
+  valid but closing blind candidate-list micro-tuning as a breakthrough path.
+  Research now pivots to an ontology-aware model core: contextual mention and
+  concept encoders, graph-derived hard negatives and a learned cross-encoder
+  classifier/reranker that can alter extraction and normalization together.
 baseline:
-  best_submitted_artifact: turn2/output_v7_pseudo_reconstruction.zip
-  score: 38.7976
+  best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
+  score: 38.9352
   wer_percent: 57.2161
   j_assertion: 47.5455
-  j_candidates: 29.2469
+  j_candidates: 29.5910
   score_formula: "score% = 0.3*(100-WER%) + 0.3*J_assertion% + 0.4*J_candidates%"
   verified_formula: >
-    0.3*(100-57.2161) + 0.3*47.5455 + 0.4*29.2469 = 38.79758.
+    0.3*(100-57.2161) + 0.3*47.5455 + 0.4*29.5910 = 38.93522.
 constraints:
   - "No organizer ground truth is available."
   - "Inference must remain offline and deterministic."
@@ -126,11 +125,18 @@ hypotheses:
       pseudo-label reconstruction will improve span/type, assertion and
       candidate matching together relative to H20.
   H23_candidate_only_semantic:
-    status: local_gate_passed_external_confirmation_pending
+    status: externally_supported_small_gain_axis_closed
     prediction: >
       Adding a valid same-family WHO parent beside ICD-10-CM-specific singleton
       candidates will hedge organizer ontology differences and improve
       candidate Jaccard without changing text or assertion metrics.
+  H24_ontology_graph_classifier:
+    status: preregistered_before_data_generation
+    prediction: >
+      A customized sparse+dense concept retriever with ontology-graph losses,
+      graph-mined hard negatives and a contextual classifier/reranker will
+      improve both span/type selection and candidate normalization beyond H23;
+      copying an unchanged biomedical checkpoint will not.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -230,11 +236,13 @@ experiments:
     - "H23 audit: 144 singleton CM-specific diagnoses have a valid same-family WHO parent; one multi-family row quarantined"
     - "H23 artifact: candidate-only, 3,168 frozen entities, 65 tests, 100/100 valid, deterministic SHA-256 e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662"
     - "H23 anti-overfit diagnostic: H22-defined proxy falls 87.0650 -> 84.5409 as expected; not used for selection"
+    - "H23 external result: 38.9352; WER/assertion frozen; J_candidates 29.2469 -> 29.5910; +0.1376 entirely candidate-derived"
+    - "H24 protocol preregistered: ontology graph, dual encoder, hard negatives, contextual classifier and structured decoder"
   next: >
-    Submit frozen H23 once as a candidate-only external ablation. If candidate
-    Jaccard rises while WER/assertion remain stable, promote H23. Otherwise
-    restore H22 immediately and pivot to a separately preregistered extraction
-    complement experiment; do not tune parent thresholds from the proxy.
+    Build the H24 typed WHO/RxNorm graph and provenance-preserving held-out
+    datasets, then establish lexical/current-encoder baselines before any graph
+    training. Preserve H23 as fallback and do not spend another submission on
+    candidate-list threshold variants.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

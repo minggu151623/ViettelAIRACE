@@ -838,3 +838,30 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The post-freeze proxy diagnostic falls to 84.5409 because the proxy embeds
   H22 candidates; it was not used as the optimization target. No competition
   submission was performed.
+
+## 2026-08-02 — H23 externally confirmed at 38.9352
+
+- The user submitted the frozen H23 archive; the displayed hash prefix
+  `e1fc83b8e53c...` matches the registered SHA-256.
+- Score improved 38.7976 -> 38.9352 (+0.1376). WER stayed 57.2161 and assertion
+  Jaccard stayed 47.5455, so the frozen-field causal check passed exactly.
+- Candidate Jaccard improved 29.2469 -> 29.5910 (+0.3441). Its weighted
+  contribution is +0.13764 and fully reproduces the displayed score gain.
+- H23 is promoted as the fallback, but the effect is too small to justify more
+  parent-list variants. The next research axis must replace the core with
+  learned contextual retrieval, ontology-graph features and classification.
+
+## 2026-08-02 — H24 ontology-graph classifier preregistration
+
+- Literature synthesis selected mechanisms from SapBERT, BioSyn, KRISSBERT,
+  BERGAMOT, ED-GNN, KEEP and DRAGON; no unchanged paper checkpoint is adopted.
+- Registered a five-stage core: heterogeneous proposal pool, typed WHO/RxNorm
+  graph, sparse+dense dual encoder, contextual classifier/reranker and global
+  structured decoder.
+- Registered provenance tiers so H20/H23/model disagreement remains unlabeled
+  instead of becoming false negative training data.
+- Registered alias-held-out retrieval, same-family hard-negative and
+  record-held-out span/type evaluation plus architecture ablations before any
+  challenger can be packaged.
+- No H24 data generation, model fitting, artifact packaging or competition
+  submission occurred before this protocol was frozen.
