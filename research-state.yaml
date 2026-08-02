@@ -131,7 +131,7 @@ hypotheses:
       candidates will hedge organizer ontology differences and improve
       candidate Jaccard without changing text or assertion metrics.
   H24_ontology_graph_classifier:
-    status: clinical_prototypes_partial_negative_multilingual_retriever_next
+    status: qwen_candidate_pool_positive_type_specialist_fusion_next
     prediction: >
       A customized sparse+dense concept retriever with ontology-graph losses,
       graph-mined hard negatives and a contextual classifier/reranker will
@@ -247,11 +247,12 @@ experiments:
     - "H24 alignment-only negative: train R@1 30.28% but dev 2.78% and test 0%; random projection memorizes weak links"
     - "H24 graph variant canceled under preregistered failure policy because alignment-only does not beat lexical retrieval"
     - "H24 train-only prototypes: no fitted parameters; dev/test R@1 2.78/5.36%, test R@5 8.93%; partial complement but gate failed"
+    - "H24 Qwen3 multilingual dense: dev/test R@10 25.00/37.50% vs lexical 11.11/21.43%; R@1 gate failed but candidate pool is positive"
   next: >
-    Pin and preregister Qwen3-Embedding-0.6B as a dedicated multilingual
-    Vietnamese-to-English ontology retriever. Evaluate it without fitting,
-    retain lexical retrieval as an independent baseline, and add graph or
-    mined-negative reranking only if cross-lingual retrieval generalizes.
+    Preregister a zero-parameter type-specialist fusion: Qwen3 ranking for
+    diagnoses and character TF-IDF ranking for drugs. If it clears the frozen
+    dev/test gates, mine full-ontology hard negatives and train or apply a
+    multilingual reranker only inside the fused top-k candidate pool.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

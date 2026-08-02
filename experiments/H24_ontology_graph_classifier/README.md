@@ -192,3 +192,18 @@ The prototype gate therefore fails. It shows limited complementary diagnosis
 signal but not a general retriever. The next retrieval baseline replaces the
 NER encoder with a dedicated multilingual embedding model; sparse lexical
 retrieval remains the fallback and graph reranking remains conditional.
+
+## Stage-5 Qwen3 multilingual dense retrieval
+
+The pinned `qwen3-embedding:0.6b` indexed all 69,991 canonical titles in
+1,391 seconds and encoded all queries without fitting. Overall
+R@1/R@5/R@10 is 10.23/26.45/35.91%. Dev reaches 8.33/22.22/25.00% and test
+14.29/26.79/37.50%.
+
+The strict R@1 promotion gate does not pass because dev R@1 remains below
+lexical 11.11%. However, the candidate-pool result is materially positive:
+test R@10 rises from lexical 21.43% to 37.50%, and diagnosis test R@1 reaches
+12.77%. Drug R@1 falls relative to lexical. Under the frozen failure policy,
+the next ablation is a parameter-free type specialist: Qwen for diagnoses and
+lexical retrieval for drugs. Graph/reranking is now permitted only above that
+stronger fused baseline.

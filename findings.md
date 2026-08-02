@@ -590,6 +590,14 @@ The strongest verified direction is conservative structural cleanup:
   Embedding is registered next because it is retrieval-specific,
   instruction-aware and multilingual; it will be tested unchanged before any
   graph or classifier contribution is claimed.
+- **Qwen3 Embedding fixes candidate-pool recall, not top-1 calibration.** Its
+  test R@10 is 37.50% versus lexical 21.43%, and diagnosis test R@1 reaches
+  12.77%; dev R@1 still trails lexical. The semantic encoder is now useful as
+  a generator, while top-1 requires specialist fusion and reranking.
+- **Diagnosis and drug retrieval require different specialists.** Qwen bridges
+  Vietnamese-English diagnosis terms; character TF-IDF remains superior for
+  drug ingredients and brand strings. A fixed type switch is better founded
+  than a globally tuned sparse/dense weight on only 36 dev rows.
 - **H24 evaluation remains weak-label evaluation.** The 518 link rows are
   derived from H23 and are not organizer truth. Alias-group splitting prevents
   surface leakage, but a gain only proves the new model can learn the frozen

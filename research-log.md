@@ -941,3 +941,19 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - This isolates the encoder mismatch: the next baseline is a dedicated
   multilingual retrieval encoder, not another Bami projection. No ZIP or
   competition submission was created.
+
+## 2026-08-02 — H24 Qwen multilingual retrieval creates a useful pool
+
+- Pinned Ollama `qwen3-embedding:0.6b` ID `ac6da0dfba84`, blob SHA-256
+  `06507c7b42688469c4e7298b0a1e16deff06caf291cf0a5b278c308249c3e439`.
+- The frozen model encoded all 69,991 ontology titles and 518 instructed
+  Vietnamese queries. The complete run took 1,413.288 seconds; caches are
+  resumable and excluded from Git.
+- Overall R@1/R@5/R@10 reached 10.23/26.45/35.91%. Dev was
+  8.33/22.22/25.00%; test was 14.29/26.79/37.50%.
+- The strict R@1 gate failed on dev, but candidate-pool recall is a clear gain:
+  lexical dev/test R@10 is only 11.11/21.43%. Qwen test diagnosis R@1 is
+  12.77%, while its drug R@1 is only 22.22% and loses to exact lexical lookup.
+- The registered failure policy therefore activates a type-specialist fusion
+  rather than discarding the dense model or tuning a weight. No ZIP or
+  competition submission was created.
