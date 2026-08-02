@@ -558,6 +558,25 @@ The strongest verified direction is conservative structural cleanup:
   Type reconciliation needs its own protocol; it must not be silently folded
   into the three-way recall experiment.
 
+- **H23 closes candidate-list micro-tuning as a breakthrough axis.** Adding
+  144 valid same-family WHO parents improved 38.7976 to 38.9352. WER and
+  assertions remained identical, while candidate Jaccard rose only 0.3441.
+  The transform is externally valid but too small to close the remaining gap.
+- **The local terminology graph is large enough to require learned retrieval.**
+  H24 contains 69,991 WHO/RxNorm nodes and 294,548 typed relations. Character
+  TF-IDF retrieves the weak target at R@1 10.81% overall but only 2.62% for
+  Vietnamese diagnoses, exposing the cross-lingual lexical gap.
+- **Unchanged BamiBERT embeddings are worse than lexical retrieval.** Mean
+  pooling the frozen NER backbone gives R@1 4.05% overall and 0% diagnosis
+  R@1 on dev/test. A Vietnamese NER checkpoint has not learned alignment to
+  English ontology titles; separate mention/concept projections and explicit
+  contrastive training are necessary.
+- **H24 evaluation remains weak-label evaluation.** The 518 link rows are
+  derived from H23 and are not organizer truth. Alias-group splitting prevents
+  surface leakage, but a gain only proves the new model can learn the frozen
+  pseudo mapping; promotion still requires graph/context ablations and
+  conservative external interpretation.
+
 - Keep every experiment deterministic and byte-identical on rerun.
 - Treat each leaderboard submission as a preregistered ablation, not as a
   tuning loop.

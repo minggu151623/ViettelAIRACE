@@ -882,3 +882,16 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   and a contextual four-head classifier for keep/type/concept/assertions.
 - All 72 tests pass. No neural model was fitted and no H24 submission artifact
   was generated.
+
+## 2026-08-02 — H24 unadapted dense baseline is negative
+
+- Loaded the exact Bami-v15 token checkpoint, discarded only its NER head and
+  mean-pooled the untouched backbone for all 69,991 ontology concepts.
+- Overall R@1/R@5/R@10 is 4.05/4.25/4.63%, below lexical
+  10.81/14.09/16.80%. Diagnosis R@1 and R@5 are zero; diagnosis test R@10 is
+  also zero. Drug R@1 is 21.43%, below lexical 45.92%.
+- The run took 212.868 seconds on MPS. Concept embeddings are cached under a
+  checksum of the exact model, graph and token length.
+- This refutes using the pretrained checkpoint directly and supports the
+  preregistered separate projection/alignment stage. No training, ZIP or
+  competition submission occurred. All 73 tests pass.

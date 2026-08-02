@@ -148,3 +148,18 @@ recommended. The competition is never submitted automatically.
   classifier and four-task loss.
 - All 72 repository tests pass. No neural fitting, challenger ZIP or
   competition submission has occurred.
+
+## Stage-2 unadapted dense baseline
+
+The frozen Bami-v15 token checkpoint was loaded exactly, its NER head removed,
+and mean-pooled backbone embeddings were evaluated without fitting. Over all
+518 weak-link queries it achieved R@1/R@5/R@10 of 4.05/4.25/4.63%, below the
+character baseline's 10.81/14.09/16.80%. Diagnosis retrieval was 0% at R@1 and
+R@5; test diagnosis R@10 was also 0%. Drug R@1 was 21.43% overall.
+
+This is a confirmatory negative result: an unchanged Vietnamese NER encoder
+does not align Vietnamese mentions to English ontology titles. It strengthens,
+rather than removes, the need for the preregistered mention/concept projection
+training. The concept embeddings are cached by model+graph checksum; no
+leaderboard submission or challenger artifact was produced. There are now 73
+passing tests.

@@ -131,7 +131,7 @@ hypotheses:
       candidates will hedge organizer ontology differences and improve
       candidate Jaccard without changing text or assertion metrics.
   H24_ontology_graph_classifier:
-    status: stage1_graph_dataset_and_lexical_baseline_complete
+    status: unadapted_dense_refuted_alignment_training_next
     prediction: >
       A customized sparse+dense concept retriever with ontology-graph losses,
       graph-mined hard negatives and a contextual classifier/reranker will
@@ -242,10 +242,11 @@ experiments:
     - "H24 weak-link set: 518 unique rows, alias-group split 426/36/56; explicitly not organizer gold"
     - "H24 lexical baseline: overall R@1 10.81%, diagnosis 2.62%, drug 45.92%; dense semantic headroom confirmed"
     - "H24 customized source core: dual projection encoder, relation graph adapter, hard-negative and multitask context classifier; 72 tests pass"
+    - "H24 unadapted dense baseline: R@1 4.05% vs lexical 10.81%; diagnosis dev/test R@1 0%; unchanged checkpoint refuted"
   next: >
-    Measure the unadapted BamiBERT dense baseline, then train synonym/ontology
-    alignment on the frozen train fold. Only after dense+graph and context
-    ablations clear the preregistered gates may a challenger be packaged.
+    Train the registered mention/concept alignment on the frozen train fold,
+    then add graph-derived hard negatives as a separate ablation. Only after
+    dense+graph and context gates clear may a challenger be packaged.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
