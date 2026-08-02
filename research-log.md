@@ -1209,3 +1209,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The positive direction validates exact multi-view consensus as a precision
   mechanism, but its marginal yield is too low for another consensus threshold
   variant. The outer loop pivots away from same-family span expansion.
+
+## 2026-08-02 — H39 dependency-aware label model preregistered
+
+- Replaced equal-weight voting with a latent label model that estimates
+  type-specific source confusion and explicitly groups the two Bami checkpoints
+  as a correlated family.
+- Registered a cross-fitted contextual stacker, three independent assertion
+  heads and a constrained ontology decoder. H37/H38 may appear only as prior
+  features, never as extra independent votes.
+- Locked synthetic correlated-noise, leave-one-family-out, control-retention,
+  hazard, seed-stability, assertion, candidate-support, schema and determinism
+  gates before implementation. No artifact exists yet.

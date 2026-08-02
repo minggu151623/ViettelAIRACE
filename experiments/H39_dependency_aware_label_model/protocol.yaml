@@ -1,0 +1,91 @@
+hypothesis: H39_dependency_aware_joint_label_model
+status: preregistered
+created_at: "2026-08-02T23:59:00+07:00"
+question: >
+  Can a dependency-aware latent label model learn type-specific reliability and
+  correlation among weak proposal sources, then train a contextual stacker that
+  improves coverage beyond exact voting without repeating H38's low-yield
+  majority-consensus expansion?
+
+motivation:
+  H38_external_score: 39.2813
+  delta_over_H37: 0.3093
+  observation: >
+    H38 changed 183 rows but gained only 0.3093. Exact majority voting treats
+    Bami-v15, Bami-v3 and related weak-label descendants as independent even
+    though they share training ancestry. More threshold tuning is closed.
+
+frozen_inputs:
+  input_tree_sha256: d68702073a5e478df60ab389b71587813ffac08475902f043446346ef0f15bcf
+  baseline_zip:
+    path: turn2/output_v10_multiview_consensus.zip
+    sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  proposal_views:
+    bami_v15: 2dd6b6e6804e80afb3419f32c705851b4ae8055e4aa866492644c444958091cd
+    bami_v3: 71d6a38f7f55aad80857e456172e9c00175d6c47cf9f9cf4cf8498fbd116a75e
+    vietmed: 5bc85a01d47119d29696865d3be0feb51d905c3eecd1780f9d4802bb86c3b69b
+    qwen_guarded: 0f5a53fdd46a82dc2556ae11f3b53615a5ed6448cc156100801aac2c8bc979c4
+    h34_oof: 21823c984a992ce29ac6dc84e529e3056ec4192db0b23137d2bdcc82cce811a4
+  contextual_models:
+    qwen_embedding: "qwen3-embedding:0.6b@ac6da0dfba84"
+    qwen_verifier: "qwen3:8b@500a1f067a9f"
+
+confirmatory_architecture:
+  candidate_universe: >
+    Exact spans from the five frozen base views plus their token-aligned overlap
+    components. H37/H38 membership is a prior feature only and never counts as
+    an additional independent vote.
+  latent_span_type_model:
+    labels: [DROP, CHẨN_ĐOÁN, TRIỆU_CHỨNG, TÊN_XÉT_NGHIỆM, KẾT_QUẢ_XÉT_NGHIỆM, THUỐC, THÔNG_TIN_BỆNH_NHÂN]
+    method: >
+      EM label model with per-type source confusion matrices and pairwise
+      dependency penalties. Bami-v15 and Bami-v3 are one declared correlated
+      family; empirical residual dependencies among other views are estimated
+      only on training record folds.
+    folds: 5_record_disjoint_seed_3901
+  contextual_stacker:
+    method: >
+      Cross-fitted multinomial classifier over frozen Qwen mention/context
+      embeddings, source votes, section, boundary shape, dependency-aware
+      posterior and ontology compatibility. It trains on soft posterior targets,
+      never on H38 hard decisions.
+  assertion_heads:
+    method: >
+      Three independent cross-fitted binary heads for isHistorical, isNegated
+      and isFamily using section/rule/LLM votes. The final assertion is attached
+      only after the final span boundary is selected.
+  ontology_decoder:
+    method: >
+      Type-routed candidate pool from the frozen H24 sparse+dense retriever,
+      constrained by WHO/RxNorm graph compatibility. Abstain when independent
+      candidate sources do not support a nonempty code.
+  overlap_decoder: weighted_interval_scheduling_on_calibrated_posteriors
+
+controls:
+  positive: frozen_H38_positive_controls
+  negative: frozen_H38_registered_hazards_plus_numeric_measurement_controls
+  independence_rule: >
+    Derived artifacts H37 and H38 cannot increase source support. Two Bami
+    checkpoints cannot contribute more than one family vote to a control gate.
+
+gates_before_artifact:
+  - frozen_hashes_match
+  - synthetic_correlated_noise_F1_exceeds_majority_by_at_least_0.05
+  - every_type_with_at_least_20_controls_has_leave_one_family_out_logloss_gain
+  - positive_control_retention_at_least_0.90
+  - registered_and_numeric_hazard_drop_rate_equals_1
+  - posterior_rank_correlation_across_three_seeds_at_least_0.98
+  - assertion_heads_do_not_regress_on_any_record_heldout_proxy_split
+  - ontology_decoder_never_emits_an_unsupported_code
+  - all_100_records_validate
+  - repeated_output_and_zip_are_byte_identical
+
+failure_policy: >
+  Do not turn H38-derived outputs into extra votes, relax a gate, tune a
+  posterior threshold against the leaderboard, or create a submission ZIP from
+  a failed run. A failed label model returns to independent annotation/source
+  acquisition rather than another consensus variant.
+
+if_passed:
+  artifact_name: turn2/output_v11_dependency_aware_label_model.zip
+  submission: user_only

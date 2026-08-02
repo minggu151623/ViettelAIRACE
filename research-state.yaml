@@ -216,6 +216,12 @@ hypotheses:
       ZIP bytes. External score reached 39.2813 (+0.3093), driven by WER and a
       smaller candidate gain while assertions slipped. Do not tune another
       consensus threshold on these correlated sources.
+  H39_dependency_aware_label_model:
+    status: preregistered_not_run
+    prediction: >
+      Modeling type-specific source accuracy and source dependence as latent
+      variables, then cross-fitting a contextual stacker, will outperform exact
+      majority voting under correlated-noise and leave-one-family-out gates.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -346,12 +352,12 @@ experiments:
     - "H37 external result: 38.9720; WER +0.2528 favorable, assertion -0.1301, candidate unchanged, total +0.0368"
     - "H38 five-view consensus: 183 rows across 68 records; all local gates pass; deterministic ZIP a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b"
     - "H38 external result: 39.2813; WER +0.8057 favorable, assertion -0.0234, candidate +0.1866, total +0.3093"
+    - "H39 dependency-aware joint label-model protocol locked; implementation not yet run"
   next: >
-    Run an outer-loop source/supervision pivot. Audit whether the templated
-    records can be aligned to an independently labeled source or whether a
-    prediction-blind human annotation subset can train a boundary/type/assertion
-    stacker. Freeze H38 as baseline and do not spend submissions on consensus
-    threshold, hazard-list, or candidate-inheritance micro-variants.
+    Implement H39's synthetic correlated-noise harness and latent source model
+    first. Continue only if it beats majority voting and passes leave-one-family-
+    out gates; then cross-fit the contextual span/type/assertion stacker and
+    ontology decoder. Freeze H38 and spend no submission on threshold variants.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
