@@ -457,13 +457,26 @@
   proposal views, followed by dual semantic/boundary verification, can scale a
   controlled novel queue beyond 150 rows; agreement does not eliminate errors
   shared through weak-label ancestry.
-- **Status**: supported internally; organizer transfer untested
+- **Status**: supported externally but insufficient as a breakthrough path
 - **Provenance**: ai-suggested
 - **Falsification criteria**: A frozen rerun changes accepted rows or bytes,
-  retains a registered hazard, loses more than 15% of positive controls, or an
-  external evaluation performs below H37.
+  retains a registered hazard, or loses more than 15% of positive controls. The
+  external result was positive but only +0.3093, closing threshold expansion.
 - **Proof**: [`experiments/H38_multiview_consensus/results/report.json`,
   `experiments/H38_multiview_consensus/results/determinism.json`,
   `experiments/H38_multiview_consensus/analysis.md`]
 - **Dependencies**: [C33, C34]
 - **Tags**: ensemble, agreement, controls, correlated-errors, NER
+
+## C36: Source dependence must be modeled before weak-label stacking
+- **Statement**: A latent label model with type-specific source confusion and
+  explicit proposal-family dependence can outperform equal-weight majority
+  voting under correlated noise and leave-one-family-out evaluation.
+- **Status**: hypothesis; preregistered and untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: H39 fails to beat majority F1 by five points on
+  the locked correlated-noise benchmark, or fails a type-specific leave-one-
+  family-out log-loss gate.
+- **Proof**: [`experiments/H39_dependency_aware_label_model/protocol.yaml`]
+- **Dependencies**: [C35]
+- **Tags**: weak-supervision, label-model, dependencies, stacker

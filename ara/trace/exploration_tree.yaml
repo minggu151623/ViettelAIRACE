@@ -222,12 +222,28 @@ tree:
                                               91.67% of positive controls, rejected
                                               all 21 hazards, validated all files,
                                               passed 111 tests and reproduced
-                                              byte-identical ZIPs. Manual review
-                                              still found shared-model errors, so
-                                              external improvement is untested.
+                                              byte-identical ZIPs. User-reported
+                                              external score was 39.2813, only
+                                              +0.3093: text and candidates rose
+                                              while assertions slipped.
                                             evidence: [C35,
                                               "experiments/H38_multiview_consensus/results/report.json",
-                                              "experiments/H38_multiview_consensus/analysis.md"]
+                                              "experiments/H38_multiview_consensus/external_result.json"]
+                                            children:
+                                              - id: N47
+                                                type: pivot
+                                                title: "Replace majority voting with a dependency-aware label model"
+                                                provenance: ai-suggested
+                                                timestamp: "2026-08-02T23:59+07:00"
+                                                from: "Exact thresholded consensus among correlated proposal models"
+                                                to: "Latent source-reliability model plus cross-fitted joint stacker"
+                                                trigger: >
+                                                  H38 needed 183 selected changes
+                                                  for only +0.3093, establishing
+                                                  that same-family consensus has
+                                                  positive but insufficient yield.
+                                                evidence: [C35, C36,
+                                                  "experiments/H39_dependency_aware_label_model/protocol.yaml"]
   - id: N27
     type: decision
     title: "Use the first reset submission as an H22 confirmation"
