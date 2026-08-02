@@ -38,6 +38,9 @@ selection_policy:
     model_id: 500a1f067a9f
     prompts: frozen_H27_semantic_and_boundary
     decision: unanimous_KEEP_and_not_registered_hazard
+  accepted_new_to_new_overlap:
+    policy: keep_one_by_distinct_views_then_longer_span_then_lexicographic_key
+    census_before_inference: one_two_row_same_type_component
   positive_controls:
     pool: H37_exact_rows_supported_by_at_least_3_of_5_views
     selection: sha256_seed_3817_first_12_per_available_type
