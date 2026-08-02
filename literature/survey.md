@@ -58,3 +58,15 @@ domain mismatches. VietBioNER's README explicitly grants CC BY 4.0 and its
 official repository is now pinned locally; ViMedNER, ViMQ, and VietMed-NER
 remain license-blocked. See
 `literature/vietnamese_medical_ner_dataset_audit.md`.
+
+## Set-valued prediction and hierarchical coding
+
+Mortier et al. formulate candidate lists as set-valued decisions that balance
+coverage against a cardinality penalty, while Natarajan et al. show that
+Jaccard is non-decomposable and requires metric-aware probability ranking.
+Perotte et al. separately show why ICD parent/child distance and granularity
+matter in clinical coding. Together these results rule out using recall@k as a
+surrogate for the competition's candidate Jaccard and motivate H45's direct
+prefix-utility audit. See `literature/mortier_2021_set_valued_prediction.md`,
+`literature/natarajan_2015_non_decomposable_metrics.md`, and
+`literature/perotte_2014_hierarchical_icd_evaluation.md`.

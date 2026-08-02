@@ -1342,3 +1342,17 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   mechanism.
 - Created an HTML reset-slot report in `to_human/` so the baseline, trajectory,
   artifact identity and post-result actions can be audited before submission.
+
+## 2026-08-03 — H45 rejects generic ranked-prefix expansion
+
+- Returned to primary literature because H44 and H41 were externally blocked.
+  Set-valued decision theory requires optimizing coverage and cardinality for
+  Jaccard directly; recall@k is not a sufficient surrogate.
+- Preregistered H45 on H24's frozen 426/36/56 alias-group split. Dev selected
+  `k=1` globally and independently for diagnosis and drug.
+- The one-shot test macro-Jaccard remained 0.178571 at selected `k=1`; fixed
+  prefixes dropped to 0.107143 (`k=2`), 0.060119 (`k=5`) and 0.039123 (`k=10`).
+  The paired 10,000-resample delta and interval were exactly zero.
+- A per-row prefix oracle reaches 0.233099, revealing calibration headroom but
+  no deployable selection rule. All 135 tests pass, repeat reports are byte-
+  identical, and no submission ZIP was created.

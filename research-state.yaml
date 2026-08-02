@@ -58,7 +58,11 @@ current_direction: >
   is the next submission candidate; external measurement is pending. Its
   interpretation is now locked before score reveal: metric invariants are
   checked first, then candidate deltas branch at ±0.02 and +0.50 rather than
-  being rationalized after the result.
+  being rationalized after the result. While waiting, H45 directly optimizes
+  ranked-prefix Jaccard on H24's frozen weak-link split. Dev selects k=1 for
+  both types; test falls monotonically from 0.17857 at k=1 to 0.03912 at k=10.
+  Generic candidate-list expansion is closed: ranking depth without calibrated
+  row-level set size is not a submission mechanism.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -439,6 +443,7 @@ experiments:
     - "H43 dual ontology review rejected: 100% within-run agreement but only 1/19 prior hazard uses reproduced; no ZIP"
     - "H44 full WHO hedge: 611 diagnosis rows across 97 records; 100/100 valid, 132 tests, deterministic ZIP 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba"
     - "H44 external decision tree locked before score reveal: candidate delta null band ±0.02, strong-positive gate +0.50, candidate-only metric invariants required"
+    - "H45 Jaccard cardinality rejected: dev selects k=1 for both types; test 0.17857 at k=1 vs 0.10714/0.06012/0.03912 at k=2/5/10; no ZIP"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
     candidate Jaccard before constructing another artifact. In parallel,
@@ -449,6 +454,8 @@ experiments:
     with the frozen H42 passage-clustered evaluator. Treat all 164 occurrence-
     level estimates as descriptive, never as independent bootstrap units.
     Do not expose H38/model predictions to either reviewer before label lock.
+    Do not build a generic top-k candidate challenger: H45 shows retrieval depth
+    without calibrated row-level cardinality sharply reduces Jaccard.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

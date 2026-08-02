@@ -819,6 +819,14 @@ The strongest verified direction is conservative structural cleanup:
   All validation and determinism gates pass. This is a high-upside external
   test of whether the organizer consistently mixes WHO family and specific
   hierarchy levels, not another consensus threshold variant.
+- **H45 closes generic ranked-prefix expansion under the metric that matters.**
+  Jaccard-aware dev selection chooses `k=1` globally and for both entity types
+  on H24's frozen weak-link split. One-shot test Jaccard is 0.17857 at `k=1`,
+  but falls to 0.10714 at `k=2`, 0.06012 at `k=5`, and 0.03912 at `k=10`.
+  The per-row prefix oracle reaches 0.23310, so the missing ingredient is a
+  calibrated row-level cardinality signal—not more retrieval depth. H44 remains
+  a distinct externally grounded family-policy test; H24 recall@k gains cannot
+  justify broad candidate lists or a reset-slot artifact.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
