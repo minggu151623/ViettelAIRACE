@@ -35,3 +35,5 @@
   after its temporal-hazard failure and H44 is the deterministic candidate.
 - H45 Jaccard-aware cardinality audit: `tables/h45_jaccard_cardinality.md`; dev
   selected singleton output and broad ranked prefixes reduced test utility.
+- H46 score-shape calibration: `tables/h46_score_shape_cardinality.md`; a small
+  dev gain failed uncertainty and cardinality gates, so test remained unopened.

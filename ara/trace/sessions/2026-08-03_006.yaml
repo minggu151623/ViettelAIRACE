@@ -1,0 +1,44 @@
+session:
+  id: "2026-08-03_006"
+  timestamp: "2026-08-03T03:48+07:00"
+  summary: "Tested H46 row-level score-shape calibration and rejected it at the development gate without opening test."
+
+events_logged:
+  - type: dead_end
+    id: N58
+    provenance: ai-executed
+    summary: "A small score-shape dev gain failed effect, uncertainty and cardinality gates; test was canceled."
+  - type: claim
+    id: C42
+    provenance: ai-suggested
+    summary: "Current weak aliases are insufficient to calibrate safe row-level candidate cardinality."
+
+ai_actions:
+  - action: "Reproduced 420 diagnosis rankings from frozen Qwen embeddings and implemented train-only ridge utility calibration."
+    provenance: ai-executed
+    files_changed:
+      - "airace/score_shape_cardinality.py"
+      - "experiments/H46_score_shape_cardinality"
+      - "tests/test_score_shape_cardinality.py"
+  - action: "Canceled H46 test after all three development gates failed and verified 137 repository tests."
+    provenance: ai-executed
+    files_changed:
+      - "research-state.yaml"
+      - "research-log.md"
+      - "findings.md"
+  - action: "Created and opened the H46 HTML report."
+    provenance: ai-executed
+    files_changed:
+      - "to_human/h46_score_shape_report.html"
+
+claims_touched:
+  - id: C42
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "H44 external score and component metrics remain pending."
+  - "H41 independent reviewer labels remain pending."
+
+ai_suggestions_pending:
+  - "Do not add weak-link feature families after H46; resume candidate cardinality only with independent labels."

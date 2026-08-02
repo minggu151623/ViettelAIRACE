@@ -770,3 +770,23 @@ tree:
                 evidence: [C41,
                   "experiments/H45_jaccard_cardinality_audit/results/report.json",
                   "ara/evidence/tables/h45_jaccard_cardinality.md"]
+                children:
+                  - id: N58
+                    type: dead_end
+                    title: "H46 Qwen score-shape cardinality calibration"
+                    provenance: ai-executed
+                    timestamp: "2026-08-03T03:48+07:00"
+                    hypothesis: >
+                      Frozen per-row cosine margins can identify when a longer
+                      diagnosis prefix recovers H45's oracle Jaccard headroom.
+                    failure_mode: >
+                      Dev improved by only 0.017857, its paired-bootstrap lower
+                      bound was zero, and mean selected k was 3.107 above the
+                      registered ceiling. All dev gates failed and test was canceled.
+                    lesson: >
+                      Score shape contains weak information but the 28 weak dev
+                      aliases cannot establish safe row-level cardinality;
+                      independent labels are required before extending features.
+                    evidence: [C42,
+                      "experiments/H46_score_shape_cardinality/results/report.json",
+                      "ara/evidence/tables/h46_score_shape_cardinality.md"]

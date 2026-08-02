@@ -1,4 +1,7 @@
 sessions:
+  - id: "2026-08-03_006"
+    file: "2026-08-03_006.yaml"
+    summary: "Tested H46 row-level score-shape calibration and rejected it at the development gate without opening test."
   - id: "2026-08-03_005"
     file: "2026-08-03_005.yaml"
     summary: "Used set-valued decision theory to test and reject H45 broad ranked-prefix candidate expansion."

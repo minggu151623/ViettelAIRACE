@@ -555,3 +555,18 @@
   `airace/candidate_set_utility.py`]
 - **Dependencies**: [C40]
 - **Tags**: Jaccard, set-valued-prediction, cardinality, calibration, candidates
+
+## C42: Weak-link score shape is insufficient for safe row-level cardinality
+- **Statement**: Frozen Qwen cosine score shape may contain diagnosis
+  cardinality information, but the current alias-disjoint weak development set
+  cannot calibrate a stable adaptive candidate-set policy.
+- **Status**: weakened signal; rejected before test
+- **Provenance**: ai-suggested
+- **Falsification criteria**: On independently labeled diagnosis mentions, a
+  protocol-frozen score-shape model improves dev Jaccard by at least 0.02 with
+  a positive paired-bootstrap lower bound and mean selected k at most 3.
+- **Proof**: [`experiments/H46_score_shape_cardinality/protocol.yaml`,
+  `experiments/H46_score_shape_cardinality/results/report.json`,
+  `airace/score_shape_cardinality.py`]
+- **Dependencies**: [C41]
+- **Tags**: score-margin, Jaccard, calibration, weak-labels, early-gate
