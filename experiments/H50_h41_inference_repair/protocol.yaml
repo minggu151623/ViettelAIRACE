@@ -1,0 +1,67 @@
+hypothesis: H50_h41_inference_repair
+status: preregistered
+registered_at: "2026-08-03T05:05:00+07:00"
+question: >
+  Can studentization repair H41's left-skew Type-I inflation without making
+  the already-small holdout unusably insensitive?
+
+motivation: >
+  H49 showed that the frozen stratified percentile lower bound promotes 11.26%
+  of left-skew null simulations at 15 passages. Small-sample bootstrap
+  literature recommends studentization but warns about discrete-sample
+  degeneracy. The repair must be selected before labels or predictions open.
+
+frozen_design:
+  labels_present_at_registration: false
+  predictions_opened: false
+  strata_at_multiplier_1: {high: 3, middle: 5, low: 7}
+  passage_counts: [15, 30, 45]
+  noise_families: [normal, student_t3, right_skew, left_skew, rademacher]
+  standardized_effects: [0.0, 0.5, 0.75]
+  replications: 5000
+  bootstrap_iterations: 1000
+  seed: 5001
+
+candidate_methods:
+  percentile:
+    definition: >
+      Existing stratified bootstrap lower 2.5th percentile of the mean.
+  stratified_welch_t:
+    definition: >
+      Weighted stratum mean minus the 97.5th Student-t quantile times the
+      stratified standard error; degrees of freedom use Welch-Satterthwaite.
+  bootstrap_t:
+    definition: >
+      Studentize every stratified bootstrap mean around the observed mean,
+      take the 97.5th bootstrap-t quantile, and subtract it times the observed
+      stratified standard error. Infinite bootstrap statistics are retained,
+      never clipped or silently dropped.
+
+registered_outputs:
+  - type_i_by_method_family_and_passage_count
+  - power_by_method_family_effect_and_passage_count
+  - worst_family_type_i_and_power_envelopes
+  - bootstrap_t_nonfinite_replication_rate
+  - deterministic_repeat_hash
+
+eligibility_at_15_passages:
+  - type_i_at_most_0_08_in_every_noise_family
+  - type_i_at_least_0_01_in_every_noise_family
+  - bootstrap_t_nonfinite_replication_rate_at_most_0_01_if_applicable
+
+selection_rule: >
+  Among eligible methods, select the method with highest worst-family power at
+  d=0.5 for 15 passages. Ties within 0.005 prefer stratified_welch_t over
+  bootstrap_t over percentile for lower operational complexity. If no method
+  is eligible, H41 remains blocked and no repair is installed.
+
+installation_gate: >
+  The selected method must improve maximum 15-passage Type-I by at least 0.02
+  absolute versus percentile and retain at least 0.50 worst-family power at
+  d=0.5. Otherwise record the comparison but do not change the H41 evaluator.
+
+artifact_policy:
+  submission_zip: forbidden
+  annotation_queue_change: forbidden
+  label_or_prediction_access: forbidden
+  deterministic_repeat_required: true

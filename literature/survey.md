@@ -70,3 +70,14 @@ surrogate for the competition's candidate Jaccard and motivate H45's direct
 prefix-utility audit. See `literature/mortier_2021_set_valued_prediction.md`,
 `literature/natarajan_2015_non_decomposable_metrics.md`, and
 `literature/perotte_2014_hierarchical_icd_evaluation.md`.
+
+## Small-sample inference under skewness
+
+Primary and recent methodological sources agree that ordinary percentile
+bootstrap intervals can miss nominal coverage at fixed small n. Studentized
+bootstrap intervals can improve coverage but may become extremely long or
+infinite for discrete samples; bounded empirical-Bernstein methods trade power
+for non-asymptotic guarantees. H50 therefore compares percentile,
+stratified-Welch and bootstrap-t gates on the exact H49 distributional envelope
+and fails closed on studentization degeneracy. See
+`literature/small_sample_mean_inference.md`.
