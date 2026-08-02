@@ -1,0 +1,71 @@
+hypothesis: H30_record_heldout_weak_label_bami_adaptation
+status: preregistered
+created_at: "2026-08-03T00:45:00+07:00"
+question: >
+  Can full fine-tuning of a small medical token classifier distill H23's
+  repeated BIO boundary/type policy across unseen records more reliably than
+  prompt-based boundary selection?
+
+skill_decision:
+  source: peft-fine-tuning
+  choice: full_fine_tuning
+  rationale: encoder_is_below_1B_and_maximum_token_classification_quality_is_needed
+
+data:
+  input: turn2/input
+  weak_labels: turn2/output_v8_candidate_semantic
+  weak_label_zip_sha256: e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662
+  split_source: airace.proposal_pu
+  train_records: 70
+  dev_records: 15
+  test_records: 15
+  train_entities: 2211
+  dev_entities: 501
+  test_entities: 456
+  overlap_between_splits: forbidden_by_record_id
+  warning: H23_is_not_organizer_ground_truth
+
+model:
+  base: models/bami-airace-v15-weighted
+  model_sha256: 1037051cdd398a5466370c895ac0bfe69c28beb308e7131741c9f06053372f3d
+  tokenizer_sha256: cc428a91ea5e8f55caa93541ca6cd74585da4e5b19f9a77ea434070b354b48ac
+  architecture: AutoModelForTokenClassification
+  labels: BIO_for_all_six_BTC_types
+  pretrained_only_decisions_allowed: false
+
+training:
+  seed: 4331
+  max_length: 256
+  stride: 64
+  epochs_max: 8
+  early_stopping_patience: 2
+  learning_rate: 0.00002
+  batch_size: 4
+  gradient_accumulation: 4
+  class_weighting: true
+  device_priority: CUDA_then_MPS_then_CPU
+  selection_metric: dev_strict_exact_span_type_F1
+
+evaluation:
+  dev_gate_before_test:
+    - dev_strict_exact_span_type_F1_at_least_0_82
+    - dev_precision_at_least_0_82
+    - dev_offset_error_count_equals_0
+  final_test_gate:
+    - test_strict_exact_span_type_F1_at_least_0_78
+    - test_precision_at_least_0_78
+    - no_supported_type_F1_below_0_60_when_gold_support_at_least_20
+    - deterministic_inference
+
+post_gate_only:
+  cross_fit: five_record_folds_so_every_record_is_inferred_out_of_fold
+  novel_proposal_rule: >
+    H30-only proposals are not merged directly. They must agree exactly with
+    an independent H26 phrase or H15 proposal source and pass a separately
+    registered end-to-end gate.
+  baseline_replacement: forbidden
+  submission_artifact: forbidden_without_separate_merge_protocol
+
+failure_policy: >
+  Do not evaluate test if dev fails. Do not tune learning rate, class weights,
+  epochs or thresholds after dev. Record failure and retain H23 unchanged.
