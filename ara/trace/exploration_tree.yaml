@@ -80,6 +80,134 @@ tree:
                   metrics, 57.2161 and 47.5455, retain larger score headroom.
                 evidence: [C30,
                   "experiments/H24_ontology_graph_classifier/README.md"]
+                children:
+                  - id: N37
+                    type: dead_end
+                    title: "H25 contextual positive-unlabeled calibration"
+                    provenance: ai-executed
+                    timestamp: "2026-08-03T00:30+07:00"
+                    hypothesis: >
+                      Record-held-out proposal features can recover H23-like
+                      additions without treating every missing label as false.
+                    failure_mode: >
+                      Dev/test strict-F1 gains were only 0.39/0.40 points and
+                      addition precision was 41.67/36.84%; assertion transfer
+                      also changed direction across splits.
+                    lesson: >
+                      Correlated proposal confidence cannot serve as the only
+                      independent evidence for novel spans.
+                    evidence: ["experiments/H25_positive_unlabeled_span_assertion/results/report.json"]
+                  - id: N38
+                    type: experiment
+                    title: "H26 train-only phrase-policy transfer"
+                    provenance: ai-executed
+                    timestamp: "2026-08-03T01:00+07:00"
+                    result: >
+                      A 235-phrase train-only lexicon improved dev/test strict
+                      F1 by 4.08/1.32 points, but addition precision remained
+                      50.59/36.11%. It was retained only as an independent
+                      proposal source.
+                    evidence: ["experiments/H26_phrase_policy_distillation/results/report.json"]
+                    children:
+                      - id: N39
+                        type: dead_end
+                        title: "Prompt-only phrase and boundary verification"
+                        provenance: ai-executed
+                        timestamp: "2026-08-03T01:40+07:00"
+                        hypothesis: >
+                          Frozen KEEP/DROP and token-choice prompts can repair
+                          noisy phrase boundaries without supervised labels.
+                        failure_mode: >
+                          H27 missed its precision-improvement gate; H28 lacked
+                          choice coverage; H29 recovered only 37.07% of damaged
+                          spans and retained 70.13% of correct controls.
+                        lesson: >
+                          Generic semantic completeness is not BTC boundary
+                          policy; train a token classifier and use prompts only
+                          after independent agreement.
+                        evidence: ["experiments/H27_phrase_verifier/results/report.json",
+                          "experiments/H29_boundary_selector_v2/results/report.json"]
+                      - id: N40
+                        type: experiment
+                        title: "H30/H31 weak-label token adaptation and calibration"
+                        provenance: ai-executed
+                        timestamp: "2026-08-03T02:20+07:00"
+                        result: >
+                          H30 reached 57.44/72.46/64.08% dev P/R/F1. Freezing
+                          the checkpoint and selecting threshold 0.90 on dev
+                          raised precision to 81.60% dev and 84.53% test, so
+                          H31 was promoted only as a high-confidence voter.
+                        evidence: [C31,
+                          "experiments/H31_confidence_calibration/results/report.json"]
+                        children:
+                          - id: N41
+                            type: dead_end
+                            title: "H32/H33 cross-fold confidence collapse"
+                            provenance: ai-executed
+                            timestamp: "2026-08-03T02:50+07:00"
+                            hypothesis: >
+                              Global or per-fold confidence calibration can
+                              directly yield complete OOF predictions.
+                            failure_mode: >
+                              Aggregate F1 was 50.89/52.02%, and one early-
+                              stopped fold emitted no selected spans.
+                            lesson: >
+                              Calibration cannot repair a checkpoint retained
+                              before its confidence geometry matures.
+                            evidence: [C32,
+                              "experiments/H33_per_fold_calibration/results/report.json"]
+                          - id: N42
+                            type: experiment
+                            title: "H34 minimum-epoch fold recovery"
+                            provenance: ai-executed
+                            timestamp: "2026-08-03T03:10+07:00"
+                            result: >
+                              Enforcing five minimum epochs repaired the empty
+                              fold to 54.35% F1 and the substituted aggregate
+                              to 82.23/46.15/59.12% P/R/F1. A fold recall gate
+                              missed by 0.57 points, so no direct merge followed.
+                            evidence: [C32,
+                              "experiments/H34_minimum_epoch_recovery/results/report.json"]
+                            children:
+                              - id: N43
+                                type: experiment
+                                title: "H35 independent agreement audit"
+                                provenance: ai-executed
+                                timestamp: "2026-08-03T03:30+07:00"
+                                result: >
+                                  Reduced 316 H34-new spans to 51 exact
+                                  independent agreements, while detecting two
+                                  known fused-token hazards in the queue.
+                                evidence: [C33,
+                                  "experiments/H35_independent_agreement_audit/results/report.json"]
+                                children:
+                                  - id: N44
+                                    type: experiment
+                                    title: "H36 controlled dual verification"
+                                    provenance: ai-executed
+                                    timestamp: "2026-08-03T03:50+07:00"
+                                    result: >
+                                      Retained 27/30 positive controls, dropped
+                                      both hazards, reached 92.59% prompt
+                                      agreement, and accepted 42/51 novel rows.
+                                    evidence: [C33,
+                                      "experiments/H36_controlled_novel_verifier/results/report.json"]
+                                    children:
+                                      - id: N45
+                                        type: experiment
+                                        title: "H37 verified symptom-boundary integration"
+                                        provenance: ai-executed
+                                        timestamp: "2026-08-02T11:50+07:00"
+                                        result: >
+                                          Replaced 21 inflated H23 symptom rows
+                                          with 22 verified cores, added four
+                                          disjoint symptoms, skipped three type
+                                          conflicts, and produced a 100-record
+                                          deterministic candidate ZIP. External
+                                          evaluation remains pending.
+                                        evidence: [C34,
+                                          "experiments/H37_verified_symptom_boundary/results/report.json",
+                                          "turn2/output_v9_verified_symptoms.zip"]
   - id: N27
     type: decision
     title: "Use the first reset submission as an H22 confirmation"

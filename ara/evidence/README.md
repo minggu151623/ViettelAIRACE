@@ -1,5 +1,8 @@
 # Evidence Index
 
+- `tables/h25_h37_span_outer_loop.md`: frozen span-model, calibration,
+  agreement, verifier, and H37 integration results.
+
 - External V6 result: `research-log.md` — score 1.7280.
 - Weighted training: `models/bami-airace-v15-weighted/training_report.json`.
 - V16 run report: `reports/v16_teacher_student.json`.

@@ -1,0 +1,107 @@
+session:
+  id: "2026-08-02_007"
+  timestamp: "2026-08-02T11:55+07:00"
+  summary: "Closed the span outer loop from weak-label failures through controlled agreement and built H37 verified symptom boundaries."
+
+events_logged:
+  - type: dead_end
+    id: N37
+    provenance: ai-executed
+    summary: "H25 positive-unlabeled calibration failed held-out precision and stability gates."
+  - type: experiment
+    id: N38
+    provenance: ai-executed
+    summary: "H26 phrase transfer added recall but remained a proposal source only."
+  - type: dead_end
+    id: N39
+    provenance: ai-executed
+    summary: "H27-H29 showed that prompt-only boundary policy is unreliable."
+  - type: experiment
+    id: N40
+    provenance: ai-executed
+    summary: "H30/H31 established a useful high-confidence token-model voter."
+  - type: dead_end
+    id: N41
+    provenance: ai-executed
+    summary: "H32/H33 exposed cross-fold confidence and early-stop collapse."
+  - type: experiment
+    id: N42
+    provenance: ai-executed
+    summary: "H34 minimum epochs repaired the collapsed fold."
+  - type: experiment
+    id: N43
+    provenance: ai-executed
+    summary: "H35 isolated 51 novel exact independent agreements."
+  - type: experiment
+    id: N44
+    provenance: ai-executed
+    summary: "H36 passed controlled dual verification and accepted 42 rows."
+  - type: experiment
+    id: N45
+    provenance: ai-executed
+    summary: "H37 converted verified symptoms into a deterministic candidate artifact."
+  - type: claim
+    id: C31
+    provenance: ai-suggested
+    summary: "Weak-label token confidence requires held-out calibration."
+  - type: claim
+    id: C32
+    provenance: ai-suggested
+    summary: "Minimum training duration is necessary for the current cross-fold confidence regime."
+  - type: claim
+    id: C33
+    provenance: ai-suggested
+    summary: "Independent agreement plus controlled verification isolates a useful novel queue."
+  - type: claim
+    id: C34
+    provenance: ai-suggested
+    summary: "Verified symptom proposals expose boundary inflation in H23."
+  - type: heuristic
+    id: H15
+    provenance: ai-suggested
+    summary: "Prevent early stopping before representation confidence matures."
+  - type: heuristic
+    id: H16
+    provenance: ai-suggested
+    summary: "Use known-positive and hazard controls around independent agreement."
+  - type: heuristic
+    id: H17
+    provenance: ai-suggested
+    summary: "Replace contained verified boundaries instead of unioning duplicates."
+
+ai_actions:
+  - action: "Implemented controlled H36 review and recorded its frozen results."
+    provenance: ai-executed
+    files_changed: ["airace/controlled_novel_verifier.py",
+      "experiments/H36_controlled_novel_verifier/results/report.json"]
+  - action: "Preregistered, implemented, validated, and packaged H37."
+    provenance: ai-executed
+    files_changed: ["airace/verified_symptom_boundary.py",
+      "experiments/H37_verified_symptom_boundary/results/report.json",
+      "turn2/output_v9_verified_symptoms.zip"]
+  - action: "Ran 108 repository tests and verified byte-identical packaging."
+    provenance: ai-executed
+    files_changed: ["tests/test_controlled_novel_verifier.py",
+      "tests/test_verified_symptom_boundary.py"]
+
+claims_touched:
+  - id: C31
+    action: created
+    provenance: ai-suggested
+  - id: C32
+    action: created
+    provenance: ai-suggested
+  - id: C33
+    action: created
+    provenance: ai-suggested
+  - id: C34
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Obtain the organizer result for H37 before integrating diagnosis/drug boundaries."
+  - "Audit eight same-type diagnosis/drug core spans with inherited H23 candidates."
+  - "Do not assign a candidate to the disjoint Stent mạch vành row without independent support."
+
+ai_suggestions_pending:
+  - "Use H37 as the next isolated leaderboard ablation and keep H23 frozen for fallback."

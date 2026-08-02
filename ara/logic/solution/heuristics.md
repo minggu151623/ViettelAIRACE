@@ -115,3 +115,31 @@
 - **Sensitivity**: low
 - **Code ref**: [`airace/ontology_reranker.py`,
   `tests/test_ontology_reranker.py`]
+
+## H15: Prevent confidence calibration before representation maturity
+- **Rationale**: Cross-fold absolute confidence is meaningless when early
+  stopping can retain epoch one. A minimum training duration lets the
+  class-weighted encoder reach the late precision gains observed in H30.
+- **Provenance**: ai-suggested
+- **Sensitivity**: medium
+- **Code ref**: [`airace/train.py`,
+  `experiments/H34_minimum_epoch_recovery/protocol.yaml`]
+
+## H16: Verify independent agreements against positive and hazard controls
+- **Rationale**: Two proposal sources can share fused-boundary errors. Run
+  frozen semantic and boundary decisions beside known-positive controls and
+  registered hazards before promoting their novel intersection.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/independent_agreement.py`,
+  `airace/controlled_novel_verifier.py`]
+
+## H17: Replace a verified contained boundary instead of unioning it
+- **Rationale**: Adding a shorter core span beside its longer baseline span
+  creates duplicate alternatives and likely precision loss. When support and
+  type agree, replace the containing baseline span, inherit its assertions, and
+  leave cross-type conflicts untouched.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/verified_symptom_boundary.py`,
+  `tests/test_verified_symptom_boundary.py`]

@@ -394,3 +394,60 @@
   `experiments/H24_ontology_graph_classifier/feature_classifier_protocol.yaml`]
 - **Dependencies**: [C28, C29]
 - **Tags**: weak-labels, classifier, graph, saturation, pivot
+
+## C31: Weak-label token confidence is useful only after held-out calibration
+- **Statement**: The H30 token model learns transferable clinical spans, but
+  only its record-held-out high-confidence subset reaches useful precision;
+  the uncalibrated model is not safe as a direct H23 replacement.
+- **Status**: supported internally; organizer transfer untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Reproduction fails to obtain at least 80% strict
+  precision on both frozen H31 splits, or unthresholded H30 proves equally
+  precise on independent labels.
+- **Proof**: [`experiments/H30_weak_label_adaptation/results/report.json`,
+  `experiments/H31_confidence_calibration/results/report.json`]
+- **Dependencies**: [C30]
+- **Tags**: weak-labels, token-classifier, confidence, calibration
+
+## C32: Minimum training duration is required for cross-fold confidence
+- **Statement**: Under the current class-weighted token schedule, early
+  stopping before epoch five can retain an immature checkpoint that emits no
+  high-confidence spans; enforcing five minimum epochs repairs the collapse.
+- **Status**: supported internally
+- **Provenance**: ai-suggested
+- **Falsification criteria**: The frozen failed fold remains empty after the
+  registered minimum-epoch rerun, or the reported aggregate repair cannot be
+  reproduced.
+- **Proof**: [`experiments/H33_per_fold_calibration/results/report.json`,
+  `experiments/H34_minimum_epoch_recovery/results/report.json`, `airace/train.py`]
+- **Dependencies**: [C31]
+- **Tags**: early-stopping, crossfit, calibration, training
+
+## C33: Independent agreement plus controlled verification isolates useful novel spans
+- **Statement**: Exact agreement between the cross-fit token model and an
+  independent source, followed by two frozen semantic/boundary prompts, can
+  reject registered fused-token hazards while retaining at least 85% of known
+  positive controls.
+- **Status**: supported internally; organizer transfer untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Frozen H36 reproduction retains either registered
+  hazard, drops more than 15% of controls, or falls below 80% prompt agreement.
+- **Proof**: [`experiments/H35_independent_agreement_audit/results/report.json`,
+  `experiments/H36_controlled_novel_verifier/results/report.json`]
+- **Dependencies**: [C31, C32]
+- **Tags**: agreement, verifier, controls, NER
+
+## C34: Verified symptom proposals expose H23 boundary inflation
+- **Statement**: Most H36-accepted symptoms absent by exact H23 matching are
+  shorter core spans inside longer H23 symptom mentions rather than entirely
+  new mentions; a bounded replacement can isolate this policy difference
+  without changing candidates.
+- **Status**: supported structurally; leaderboard effect untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: H37 changes a candidate or unaffected entity,
+  applies a cross-type conflict, fails deterministic validation, or its external
+  score is lower than H23 due to the registered boundary policy.
+- **Proof**: [`experiments/H37_verified_symptom_boundary/results/report.json`,
+  `turn2/output_v9_verified_symptoms.zip`]
+- **Dependencies**: [C33]
+- **Tags**: boundary, symptoms, replacement, deterministic
