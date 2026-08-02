@@ -184,3 +184,13 @@
 - **Sensitivity**: high
 - **Code ref**: [`airace/candidate_surgery.py`,
   `tests/test_candidate_surgery.py`]
+
+## H22: Audit intervention concentration before claiming corpus breadth
+- **Rationale**: Raw changed-row counts can overstate generalization when the
+  same family or normalized mention repeats. Pair unique counts with inverse-
+  Simpson effective counts and top-k shares, then freeze the semantic scope of
+  an external result before its score is visible.
+- **Provenance**: ai-suggested
+- **Sensitivity**: medium
+- **Code ref**: [`airace/exposure_concentration.py`,
+  `experiments/H53_h44_exposure_concentration/protocol.yaml`]

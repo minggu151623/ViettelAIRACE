@@ -558,6 +558,24 @@
 - **Dependencies**: [C40]
 - **Tags**: exposure-calibration, lineage, WHO-ICD, pre-result-interpretation
 
+## C49: H44 has broad family exposure but limited effective lexical breadth
+- **Statement**: H44's 611 interventions span enough distinct and effectively
+  weighted WHO parent families to support a family-breadth interpretation, but
+  repeated mention-specific units fail the preregistered lexical-breadth gate.
+- **Status**: supported by preregistered pre-result concentration audit
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Reproduction on the frozen H44 change report does
+  not yield 148 families, effective family count 47.478189, 286 strictly
+  normalized lexical units and effective lexical count 89.762202, or the H44
+  artifact hash differs from the registered value.
+- **Proof**: [`experiments/H53_h44_exposure_concentration/protocol.yaml`,
+  `experiments/H53_h44_exposure_concentration/results/concentration.json`,
+  `airace/exposure_concentration.py`,
+  `experiments/H44_full_who_family_hedge/external_decision_tree.yaml`]
+- **Dependencies**: [C40, C48]
+- **Tags**: concentration, inverse-Simpson, WHO-ICD, lexical-diversity,
+  pre-result-interpretation
+
 ## C41: Retrieval depth without cardinality calibration reduces candidate Jaccard
 - **Statement**: H24's ranked ontology candidates cannot be converted into a
   better set prediction by selecting a fixed global or entity-type prefix size

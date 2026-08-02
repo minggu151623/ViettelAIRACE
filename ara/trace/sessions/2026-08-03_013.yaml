@@ -1,0 +1,50 @@
+session:
+  id: "2026-08-03_013"
+  timestamp: "2026-08-03T06:20+07:00"
+  summary: "Audited H44 intervention concentration and narrowed its pre-result interpretation to broad WHO-family, not broad lexical, transfer."
+
+events_logged:
+  - type: experiment
+    id: N66
+    provenance: ai-executed
+    summary: "H53 passed family breadth but failed lexical breadth under frozen concentration gates."
+  - type: claim
+    id: C49
+    provenance: ai-suggested
+    summary: "A positive H44 result may establish broad WHO-family transfer but not broad surface-form transfer."
+  - type: heuristic
+    id: H22
+    provenance: ai-suggested
+    summary: "Use effective counts and top-k shares before interpreting changed-row count as corpus breadth."
+
+ai_actions:
+  - action: "Preregistered H53 before calculating H23/H44 concentration metrics."
+    provenance: ai-executed
+    files_changed:
+      - "experiments/H53_h44_exposure_concentration/protocol.yaml"
+  - action: "Implemented deterministic concentration metrics, validated the frozen H44 hash and reproduced two byte-identical reports."
+    provenance: ai-executed
+    files_changed:
+      - "airace/exposure_concentration.py"
+      - "tests/test_exposure_concentration.py"
+      - "experiments/H53_h44_exposure_concentration/results/concentration.json"
+  - action: "Narrowed H44's pre-result decision semantics without changing the artifact or numerical gates; validated 158 tests."
+    provenance: ai-executed
+    files_changed:
+      - "experiments/H44_full_who_family_hedge/external_decision_tree.yaml"
+      - "findings.md"
+      - "research-log.md"
+      - "research-state.yaml"
+      - "to_human/h53_h44_concentration_report.html"
+
+claims_touched:
+  - id: C49
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Submit the unchanged H44 ZIP once and record all four external metrics against the corrected locked tree."
+  - "H41 prediction-blind reviewer labels remain pending."
+
+ai_suggestions_pending:
+  - "Interpret H44 external movement as family-policy evidence, not broad lexical generalization."

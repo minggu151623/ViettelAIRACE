@@ -53,3 +53,6 @@
 - H52 H44 transfer calibration: `tables/h52_h44_transfer.md`; H44's 611 rows
   are disjoint from H23's 144, and the frozen strong gate equals 34.25% of
   H23-equivalent per-row yield rather than universal policy prevalence.
+- H53 H44 exposure concentration: `tables/h53_h44_exposure_concentration.md`;
+  family breadth passes (effective count 47.48), while lexical breadth fails
+  (effective count 89.76 below 100), narrowing pre-result semantics.

@@ -858,6 +858,23 @@ tree:
                 evidence: [C48,
                   "experiments/H52_h44_transfer_calibration/results/transfer.json",
                   "ara/evidence/tables/h52_h44_transfer.md"]
+                children:
+                  - id: N66
+                    type: experiment
+                    title: "H53 pre-result H44 exposure concentration audit"
+                    provenance: ai-executed
+                    timestamp: "2026-08-03T06:20+07:00"
+                    result: >
+                      H44 passes family breadth with 148 unique families,
+                      inverse-Simpson effective count 47.4782 and top-five row
+                      share 0.2471. It fails lexical breadth because 286 strict
+                      mention-specific units have effective count 89.7622 below
+                      the frozen threshold of 100, despite top-ten share 0.2406.
+                      Interpretation was narrowed to family-only breadth before
+                      score reveal; ZIP and numerical gates did not change.
+                    evidence: [C49,
+                      "experiments/H53_h44_exposure_concentration/results/concentration.json",
+                      "ara/evidence/tables/h53_h44_exposure_concentration.md"]
               - id: N57
                 type: dead_end
                 title: "H45 Jaccard-aware ranked-prefix expansion"
