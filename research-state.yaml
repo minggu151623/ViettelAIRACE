@@ -8,10 +8,11 @@ started_at: "2026-07-26"
 current_direction: >
   Freeze externally confirmed H22 at 38.7976. Its 3,168-entity reconstruction
   improved text, assertions, and candidates together over H20, validating the
-  architecture-scale annotation replacement. The proxy was directionally
-  useful but overestimated the absolute score by 48.2674 points. The next
-  experiment should isolate candidate normalization on H22's frozen spans and
-  assertions rather than perturb the now-confirmed extraction core.
+  architecture-scale annotation replacement. H23 now isolates candidate
+  normalization: 144 ICD-10-CM singleton rows gain a valid same-family WHO
+  parent while every extraction/assertion field remains frozen. It clears the
+  preregistered semantic and technical gate and awaits one external test; H22
+  remains the fallback.
 baseline:
   best_submitted_artifact: turn2/output_v7_pseudo_reconstruction.zip
   score: 38.7976
@@ -124,6 +125,12 @@ hypotheses:
       Removing synthetic calibration rows from an independent higher-recall
       pseudo-label reconstruction will improve span/type, assertion and
       candidate matching together relative to H20.
+  H23_candidate_only_semantic:
+    status: local_gate_passed_external_confirmation_pending
+    prediction: >
+      Adding a valid same-family WHO parent beside ICD-10-CM-specific singleton
+      candidates will hedge organizer ontology differences and improve
+      candidate Jaccard without changing text or assertion metrics.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -220,11 +227,14 @@ experiments:
     - "H22 artifact: 3,168 real rows, 100/100 valid, 63 tests, deterministic SHA-256 03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade"
     - "H22 local gate: proxy 87.0650; all three components improve; external confirmation pending"
     - "H22 external result: 38.7976; WER 57.2161, J_assertion 47.5455, J_candidates 29.2469; +8.9567 over H20"
+    - "H23 audit: 144 singleton CM-specific diagnoses have a valid same-family WHO parent; one multi-family row quarantined"
+    - "H23 artifact: candidate-only, 3,168 frozen entities, 65 tests, 100/100 valid, deterministic SHA-256 e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662"
+    - "H23 anti-overfit diagnostic: H22-defined proxy falls 87.0650 -> 84.5409 as expected; not used for selection"
   next: >
-    Preregister a candidate-only H23 ablation that freezes all 3,168 H22
-    text/type/position/assertion fields. Use semantic ontology evidence and
-    cross-model agreement, not the in-sample proxy score, to change candidates.
-    Preserve H22 as fallback unless a bounded local audit clears the gate.
+    Submit frozen H23 once as a candidate-only external ablation. If candidate
+    Jaccard rises while WER/assertion remain stable, promote H23. Otherwise
+    restore H22 immediately and pivot to a separately preregistered extraction
+    complement experiment; do not tune parent thresholds from the proxy.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

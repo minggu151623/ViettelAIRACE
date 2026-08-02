@@ -1,0 +1,3225 @@
+{
+  "hypothesis": "H23_candidate_only_semantic",
+  "source": "turn2/output_v7_pseudo_reconstruction",
+  "output": "turn2/output_v8_candidate_semantic",
+  "records": 100,
+  "changed_rows": 144,
+  "quarantined_rows": 1,
+  "changes": [
+    {
+      "record": "2",
+      "entity_index": 6,
+      "text": "phình giãn động mạch vành",
+      "position": [
+        565,
+        590
+      ],
+      "old_candidates": [
+        "I25.41"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.41"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.41"
+      }
+    },
+    {
+      "record": "4",
+      "entity_index": 5,
+      "text": "hội chứng ruột kích thích",
+      "position": [
+        226,
+        251
+      ],
+      "old_candidates": [
+        "K58.9"
+      ],
+      "new_candidates": [
+        "K58",
+        "K58.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K58",
+        "who_2019_title": "Irritable bowel syndrome",
+        "specific_preserved": "K58.9"
+      }
+    },
+    {
+      "record": "4",
+      "entity_index": 6,
+      "text": "hội chứng ruột kích thích",
+      "position": [
+        268,
+        293
+      ],
+      "old_candidates": [
+        "K58.9"
+      ],
+      "new_candidates": [
+        "K58",
+        "K58.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K58",
+        "who_2019_title": "Irritable bowel syndrome",
+        "specific_preserved": "K58.9"
+      }
+    },
+    {
+      "record": "4",
+      "entity_index": 12,
+      "text": "Viêm thực quản độ C",
+      "position": [
+        478,
+        497
+      ],
+      "old_candidates": [
+        "K20.9"
+      ],
+      "new_candidates": [
+        "K20",
+        "K20.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K20",
+        "who_2019_title": "Oesophagitis",
+        "specific_preserved": "K20.9"
+      }
+    },
+    {
+      "record": "4",
+      "entity_index": 33,
+      "text": "hội chứng ruột kích thích",
+      "position": [
+        1277,
+        1302
+      ],
+      "old_candidates": [
+        "K58.9"
+      ],
+      "new_candidates": [
+        "K58",
+        "K58.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K58",
+        "who_2019_title": "Irritable bowel syndrome",
+        "specific_preserved": "K58.9"
+      }
+    },
+    {
+      "record": "4",
+      "entity_index": 80,
+      "text": "Viêm thực quản độ C ở thực quản dưới",
+      "position": [
+        3509,
+        3545
+      ],
+      "old_candidates": [
+        "K20.9"
+      ],
+      "new_candidates": [
+        "K20",
+        "K20.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K20",
+        "who_2019_title": "Oesophagitis",
+        "specific_preserved": "K20.9"
+      }
+    },
+    {
+      "record": "5",
+      "entity_index": 25,
+      "text": "ung thư biểu mô tuyến",
+      "position": [
+        1605,
+        1626
+      ],
+      "old_candidates": [
+        "C80.1"
+      ],
+      "new_candidates": [
+        "C80",
+        "C80.1"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C80",
+        "who_2019_title": "Malignant neoplasm, without specification of site",
+        "specific_preserved": "C80.1"
+      }
+    },
+    {
+      "record": "5",
+      "entity_index": 41,
+      "text": "ung thư biểu mô tuyến",
+      "position": [
+        2798,
+        2819
+      ],
+      "old_candidates": [
+        "C80.1"
+      ],
+      "new_candidates": [
+        "C80",
+        "C80.1"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C80",
+        "who_2019_title": "Malignant neoplasm, without specification of site",
+        "specific_preserved": "C80.1"
+      }
+    },
+    {
+      "record": "7",
+      "entity_index": 12,
+      "text": "ứ nước",
+      "position": [
+        1439,
+        1445
+      ],
+      "old_candidates": [
+        "N13.30"
+      ],
+      "new_candidates": [
+        "N13",
+        "N13.30"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "N13",
+        "who_2019_title": "Obstructive and reflux uropathy",
+        "specific_preserved": "N13.30"
+      }
+    },
+    {
+      "record": "7",
+      "entity_index": 14,
+      "text": "viêm bao tử",
+      "position": [
+        1517,
+        1528
+      ],
+      "old_candidates": [
+        "K29.70"
+      ],
+      "new_candidates": [
+        "K29",
+        "K29.70"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K29",
+        "who_2019_title": "Gastritis and duodenitis",
+        "specific_preserved": "K29.70"
+      }
+    },
+    {
+      "record": "7",
+      "entity_index": 38,
+      "text": "viêm dạ dày",
+      "position": [
+        3167,
+        3178
+      ],
+      "old_candidates": [
+        "K29.70"
+      ],
+      "new_candidates": [
+        "K29",
+        "K29.70"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K29",
+        "who_2019_title": "Gastritis and duodenitis",
+        "specific_preserved": "K29.70"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 3,
+      "text": "hội chứng nghiện rượu",
+      "position": [
+        129,
+        150
+      ],
+      "old_candidates": [
+        "F10.20"
+      ],
+      "new_candidates": [
+        "F10",
+        "F10.20"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "F10",
+        "who_2019_title": "Mental and behavioural disorders due to use of alcohol",
+        "specific_preserved": "F10.20"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 8,
+      "text": "hội chứng nghiện rượu",
+      "position": [
+        323,
+        344
+      ],
+      "old_candidates": [
+        "F10.20"
+      ],
+      "new_candidates": [
+        "F10",
+        "F10.20"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "F10",
+        "who_2019_title": "Mental and behavioural disorders due to use of alcohol",
+        "specific_preserved": "F10.20"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 29,
+      "text": "bệnh lý chất trắng",
+      "position": [
+        1335,
+        1353
+      ],
+      "old_candidates": [
+        "R90.82"
+      ],
+      "new_candidates": [
+        "R90",
+        "R90.82"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "R90",
+        "who_2019_title": "Abnormal findings on diagnostic imaging of central nervous system",
+        "specific_preserved": "R90.82"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 33,
+      "text": "bệnh lý chất trắng",
+      "position": [
+        1443,
+        1461
+      ],
+      "old_candidates": [
+        "R90.82"
+      ],
+      "new_candidates": [
+        "R90",
+        "R90.82"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "R90",
+        "who_2019_title": "Abnormal findings on diagnostic imaging of central nervous system",
+        "specific_preserved": "R90.82"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 40,
+      "text": "bệnh lý chất trắng",
+      "position": [
+        1840,
+        1858
+      ],
+      "old_candidates": [
+        "R90.82"
+      ],
+      "new_candidates": [
+        "R90",
+        "R90.82"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "R90",
+        "who_2019_title": "Abnormal findings on diagnostic imaging of central nervous system",
+        "specific_preserved": "R90.82"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 43,
+      "text": "bệnh lý chất trắng",
+      "position": [
+        2023,
+        2041
+      ],
+      "old_candidates": [
+        "R90.82"
+      ],
+      "new_candidates": [
+        "R90",
+        "R90.82"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "R90",
+        "who_2019_title": "Abnormal findings on diagnostic imaging of central nervous system",
+        "specific_preserved": "R90.82"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 51,
+      "text": "nhiễm trùng",
+      "position": [
+        2308,
+        2319
+      ],
+      "old_candidates": [
+        "B99.9"
+      ],
+      "new_candidates": [
+        "B99",
+        "B99.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "B99",
+        "who_2019_title": "Other and unspecified infectious diseases",
+        "specific_preserved": "B99.9"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 58,
+      "text": "Phình giãn động mạch vành",
+      "position": [
+        2565,
+        2590
+      ],
+      "old_candidates": [
+        "I25.41"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.41"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.41"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 59,
+      "text": "Hẹp – tắc động mạch vành",
+      "position": [
+        2594,
+        2618
+      ],
+      "old_candidates": [
+        "I25.10"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.10"
+      }
+    },
+    {
+      "record": "8",
+      "entity_index": 64,
+      "text": "Tràn dịch màng tim",
+      "position": [
+        2779,
+        2797
+      ],
+      "old_candidates": [
+        "I31.39"
+      ],
+      "new_candidates": [
+        "I31",
+        "I31.39"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I31",
+        "who_2019_title": "Other diseases of pericardium",
+        "specific_preserved": "I31.39"
+      }
+    },
+    {
+      "record": "9",
+      "entity_index": 0,
+      "text": "mang thai lần 2 được 20 tuần",
+      "position": [
+        48,
+        76
+      ],
+      "old_candidates": [
+        "Z34.82"
+      ],
+      "new_candidates": [
+        "Z34",
+        "Z34.82"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "Z34",
+        "who_2019_title": "Supervision of normal pregnancy",
+        "specific_preserved": "Z34.82"
+      }
+    },
+    {
+      "record": "9",
+      "entity_index": 10,
+      "text": "ứ nước",
+      "position": [
+        1439,
+        1445
+      ],
+      "old_candidates": [
+        "N13.30"
+      ],
+      "new_candidates": [
+        "N13",
+        "N13.30"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "N13",
+        "who_2019_title": "Obstructive and reflux uropathy",
+        "specific_preserved": "N13.30"
+      }
+    },
+    {
+      "record": "9",
+      "entity_index": 23,
+      "text": "đại tràng giãn",
+      "position": [
+        2703,
+        2717
+      ],
+      "old_candidates": [
+        "K59.39"
+      ],
+      "new_candidates": [
+        "K59",
+        "K59.39"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K59",
+        "who_2019_title": "Other functional intestinal disorders",
+        "specific_preserved": "K59.39"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 0,
+      "text": "Bệnh tim mạch do xơ vữa động mạch",
+      "position": [
+        21,
+        54
+      ],
+      "old_candidates": [
+        "I25.10"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.10"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 10,
+      "text": "bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+      "position": [
+        354,
+        409
+      ],
+      "old_candidates": [
+        "S06.319A"
+      ],
+      "new_candidates": [
+        "S06",
+        "S06.319A"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "S06",
+        "who_2019_title": "Intracranial injury",
+        "specific_preserved": "S06.319A"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 11,
+      "text": "lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+      "position": [
+        419,
+        467
+      ],
+      "old_candidates": [
+        "I62.03"
+      ],
+      "new_candidates": [
+        "I62",
+        "I62.03"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I62",
+        "who_2019_title": "Other nontraumatic intracranial haemorrhage",
+        "specific_preserved": "I62.03"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 13,
+      "text": "tụ dịch/tụ máu dưới màng cứng mạn tính",
+      "position": [
+        504,
+        542
+      ],
+      "old_candidates": [
+        "I62.03"
+      ],
+      "new_candidates": [
+        "I62",
+        "I62.03"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I62",
+        "who_2019_title": "Other nontraumatic intracranial haemorrhage",
+        "specific_preserved": "I62.03"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 17,
+      "text": "tụ máu ngoài màng cứng phải cấp tính",
+      "position": [
+        752,
+        788
+      ],
+      "old_candidates": [
+        "S06.4XAA"
+      ],
+      "new_candidates": [
+        "S06",
+        "S06.4XAA"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "S06",
+        "who_2019_title": "Intracranial injury",
+        "specific_preserved": "S06.4XAA"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 27,
+      "text": "bàn chân bẹt",
+      "position": [
+        1903,
+        1915
+      ],
+      "old_candidates": [
+        "M21.40"
+      ],
+      "new_candidates": [
+        "M21",
+        "M21.40"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M21",
+        "who_2019_title": "Other acquired deformities of limbs",
+        "specific_preserved": "M21.40"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 38,
+      "text": "Bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+      "position": [
+        2628,
+        2683
+      ],
+      "old_candidates": [
+        "S06.319A"
+      ],
+      "new_candidates": [
+        "S06",
+        "S06.319A"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "S06",
+        "who_2019_title": "Intracranial injury",
+        "specific_preserved": "S06.319A"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 39,
+      "text": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+      "position": [
+        2684,
+        2732
+      ],
+      "old_candidates": [
+        "I62.03"
+      ],
+      "new_candidates": [
+        "I62",
+        "I62.03"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I62",
+        "who_2019_title": "Other nontraumatic intracranial haemorrhage",
+        "specific_preserved": "I62.03"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 41,
+      "text": "tụ máu dưới màng cứng mạn tính",
+      "position": [
+        2763,
+        2793
+      ],
+      "old_candidates": [
+        "I62.03"
+      ],
+      "new_candidates": [
+        "I62",
+        "I62.03"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I62",
+        "who_2019_title": "Other nontraumatic intracranial haemorrhage",
+        "specific_preserved": "I62.03"
+      }
+    },
+    {
+      "record": "11",
+      "entity_index": 42,
+      "text": "Tụ máu ngoài màng cứng phải cấp tính",
+      "position": [
+        2794,
+        2830
+      ],
+      "old_candidates": [
+        "S06.4XAA"
+      ],
+      "new_candidates": [
+        "S06",
+        "S06.4XAA"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "S06",
+        "who_2019_title": "Intracranial injury",
+        "specific_preserved": "S06.4XAA"
+      }
+    },
+    {
+      "record": "12",
+      "entity_index": 2,
+      "text": "Hội chứng kháng enzym tổng hợp protein",
+      "position": [
+        124,
+        162
+      ],
+      "old_candidates": [
+        "D89.89"
+      ],
+      "new_candidates": [
+        "D89",
+        "D89.89"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "D89",
+        "who_2019_title": "Other disorders involving the immune mechanism, not elsewhere classified",
+        "specific_preserved": "D89.89"
+      }
+    },
+    {
+      "record": "12",
+      "entity_index": 9,
+      "text": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+      "position": [
+        478,
+        525
+      ],
+      "old_candidates": [
+        "D84.821"
+      ],
+      "new_candidates": [
+        "D84",
+        "D84.821"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "D84",
+        "who_2019_title": "Other immunodeficiencies",
+        "specific_preserved": "D84.821"
+      }
+    },
+    {
+      "record": "12",
+      "entity_index": 16,
+      "text": "viêm mô tế bào",
+      "position": [
+        976,
+        990
+      ],
+      "old_candidates": [
+        "L03.90"
+      ],
+      "new_candidates": [
+        "L03",
+        "L03.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "L03",
+        "who_2019_title": "Cellulitis",
+        "specific_preserved": "L03.90"
+      }
+    },
+    {
+      "record": "12",
+      "entity_index": 31,
+      "text": "Viêm mô tế bào",
+      "position": [
+        2539,
+        2553
+      ],
+      "old_candidates": [
+        "L03.90"
+      ],
+      "new_candidates": [
+        "L03",
+        "L03.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "L03",
+        "who_2019_title": "Cellulitis",
+        "specific_preserved": "L03.90"
+      }
+    },
+    {
+      "record": "15",
+      "entity_index": 11,
+      "text": "viêm mô tế bào",
+      "position": [
+        976,
+        990
+      ],
+      "old_candidates": [
+        "L03.90"
+      ],
+      "new_candidates": [
+        "L03",
+        "L03.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "L03",
+        "who_2019_title": "Cellulitis",
+        "specific_preserved": "L03.90"
+      }
+    },
+    {
+      "record": "15",
+      "entity_index": 23,
+      "text": "Viêm mô tế bào",
+      "position": [
+        2029,
+        2043
+      ],
+      "old_candidates": [
+        "L03.90"
+      ],
+      "new_candidates": [
+        "L03",
+        "L03.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "L03",
+        "who_2019_title": "Cellulitis",
+        "specific_preserved": "L03.90"
+      }
+    },
+    {
+      "record": "15",
+      "entity_index": 28,
+      "text": "Viêm mô tế bào",
+      "position": [
+        2364,
+        2378
+      ],
+      "old_candidates": [
+        "L03.90"
+      ],
+      "new_candidates": [
+        "L03",
+        "L03.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "L03",
+        "who_2019_title": "Cellulitis",
+        "specific_preserved": "L03.90"
+      }
+    },
+    {
+      "record": "18",
+      "entity_index": 15,
+      "text": "bệnh mạch vành",
+      "position": [
+        791,
+        805
+      ],
+      "old_candidates": [
+        "I25.10"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.10"
+      }
+    },
+    {
+      "record": "18",
+      "entity_index": 45,
+      "text": "sỏi mật",
+      "position": [
+        2324,
+        2331
+      ],
+      "old_candidates": [
+        "K80.20"
+      ],
+      "new_candidates": [
+        "K80",
+        "K80.20"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K80",
+        "who_2019_title": "Cholelithiasis",
+        "specific_preserved": "K80.20"
+      }
+    },
+    {
+      "record": "18",
+      "entity_index": 47,
+      "text": "sỏi ống mật",
+      "position": [
+        2365,
+        2376
+      ],
+      "old_candidates": [
+        "K80.50"
+      ],
+      "new_candidates": [
+        "K80",
+        "K80.50"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K80",
+        "who_2019_title": "Cholelithiasis",
+        "specific_preserved": "K80.50"
+      }
+    },
+    {
+      "record": "19",
+      "entity_index": 4,
+      "text": "dị ứng",
+      "position": [
+        357,
+        363
+      ],
+      "old_candidates": [
+        "T78.40"
+      ],
+      "new_candidates": [
+        "T78",
+        "T78.40"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "T78",
+        "who_2019_title": "Adverse effects, not elsewhere classified",
+        "specific_preserved": "T78.40"
+      }
+    },
+    {
+      "record": "19",
+      "entity_index": 8,
+      "text": "táo bón",
+      "position": [
+        824,
+        831
+      ],
+      "old_candidates": [
+        "K59.00"
+      ],
+      "new_candidates": [
+        "K59",
+        "K59.00"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K59",
+        "who_2019_title": "Other functional intestinal disorders",
+        "specific_preserved": "K59.00"
+      }
+    },
+    {
+      "record": "21",
+      "entity_index": 4,
+      "text": "đa u tủy",
+      "position": [
+        1110,
+        1118
+      ],
+      "old_candidates": [
+        "C90.00"
+      ],
+      "new_candidates": [
+        "C90",
+        "C90.00"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C90",
+        "who_2019_title": "Multiple myeloma and malignant plasma cell neoplasms",
+        "specific_preserved": "C90.00"
+      }
+    },
+    {
+      "record": "21",
+      "entity_index": 6,
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "position": [
+        1190,
+        1216
+      ],
+      "old_candidates": [
+        "E85.81"
+      ],
+      "new_candidates": [
+        "E85",
+        "E85.81"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "E85",
+        "who_2019_title": "Amyloidosis",
+        "specific_preserved": "E85.81"
+      }
+    },
+    {
+      "record": "21",
+      "entity_index": 25,
+      "text": "viêm dạ dày",
+      "position": [
+        2159,
+        2170
+      ],
+      "old_candidates": [
+        "K29.70"
+      ],
+      "new_candidates": [
+        "K29",
+        "K29.70"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K29",
+        "who_2019_title": "Gastritis and duodenitis",
+        "specific_preserved": "K29.70"
+      }
+    },
+    {
+      "record": "21",
+      "entity_index": 29,
+      "text": "sỏi đoạn cuối ống mật chủ",
+      "position": [
+        2271,
+        2296
+      ],
+      "old_candidates": [
+        "K80.50"
+      ],
+      "new_candidates": [
+        "K80",
+        "K80.50"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K80",
+        "who_2019_title": "Cholelithiasis",
+        "specific_preserved": "K80.50"
+      }
+    },
+    {
+      "record": "25",
+      "entity_index": 8,
+      "text": "mang thai ngoài tử cung",
+      "position": [
+        1014,
+        1037
+      ],
+      "old_candidates": [
+        "O00.90"
+      ],
+      "new_candidates": [
+        "O00",
+        "O00.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "O00",
+        "who_2019_title": "Ectopic pregnancy",
+        "specific_preserved": "O00.90"
+      }
+    },
+    {
+      "record": "26",
+      "entity_index": 0,
+      "text": "BỆNH MẠCH VÀNH (Coronary Artery Disease – CAD)",
+      "position": [
+        1,
+        47
+      ],
+      "old_candidates": [
+        "I25.10"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.10"
+      }
+    },
+    {
+      "record": "26",
+      "entity_index": 1,
+      "text": "Bệnh mạch vành",
+      "position": [
+        52,
+        66
+      ],
+      "old_candidates": [
+        "I25.10"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.10"
+      }
+    },
+    {
+      "record": "26",
+      "entity_index": 2,
+      "text": "Bệnh mạch vành",
+      "position": [
+        76,
+        90
+      ],
+      "old_candidates": [
+        "I25.10"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.10"
+      }
+    },
+    {
+      "record": "26",
+      "entity_index": 3,
+      "text": "xơ vữa động mạch",
+      "position": [
+        208,
+        224
+      ],
+      "old_candidates": [
+        "I70.90"
+      ],
+      "new_candidates": [
+        "I70",
+        "I70.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I70",
+        "who_2019_title": "Atherosclerosis",
+        "specific_preserved": "I70.90"
+      }
+    },
+    {
+      "record": "26",
+      "entity_index": 9,
+      "text": "Xơ vữa động mạch vành",
+      "position": [
+        399,
+        420
+      ],
+      "old_candidates": [
+        "I25.10"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.10"
+      }
+    },
+    {
+      "record": "26",
+      "entity_index": 36,
+      "text": "rung nhĩ",
+      "position": [
+        1561,
+        1569
+      ],
+      "old_candidates": [
+        "I48.91"
+      ],
+      "new_candidates": [
+        "I48",
+        "I48.91"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I48",
+        "who_2019_title": "Atrial fibrillation and flutter",
+        "specific_preserved": "I48.91"
+      }
+    },
+    {
+      "record": "26",
+      "entity_index": 38,
+      "text": "rối loạn cảm xúc lưỡng cực khác",
+      "position": [
+        1643,
+        1674
+      ],
+      "old_candidates": [
+        "F31.89"
+      ],
+      "new_candidates": [
+        "F31",
+        "F31.89"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "F31",
+        "who_2019_title": "Bipolar affective disorder",
+        "specific_preserved": "F31.89"
+      }
+    },
+    {
+      "record": "26",
+      "entity_index": 41,
+      "text": "rung nhĩ",
+      "position": [
+        1826,
+        1834
+      ],
+      "old_candidates": [
+        "I48.91"
+      ],
+      "new_candidates": [
+        "I48",
+        "I48.91"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I48",
+        "who_2019_title": "Atrial fibrillation and flutter",
+        "specific_preserved": "I48.91"
+      }
+    },
+    {
+      "record": "27",
+      "entity_index": 25,
+      "text": "phù gai thị",
+      "position": [
+        1909,
+        1920
+      ],
+      "old_candidates": [
+        "H47.10"
+      ],
+      "new_candidates": [
+        "H47",
+        "H47.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "H47",
+        "who_2019_title": "Other disorders of optic [2nd] nerve and visual pathways",
+        "specific_preserved": "H47.10"
+      }
+    },
+    {
+      "record": "27",
+      "entity_index": 26,
+      "text": "Phù gai thị",
+      "position": [
+        1999,
+        2010
+      ],
+      "old_candidates": [
+        "H47.10"
+      ],
+      "new_candidates": [
+        "H47",
+        "H47.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "H47",
+        "who_2019_title": "Other disorders of optic [2nd] nerve and visual pathways",
+        "specific_preserved": "H47.10"
+      }
+    },
+    {
+      "record": "28",
+      "entity_index": 4,
+      "text": "dị ứng do thời tiết hay thức ăn",
+      "position": [
+        357,
+        388
+      ],
+      "old_candidates": [
+        "T78.40"
+      ],
+      "new_candidates": [
+        "T78",
+        "T78.40"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "T78",
+        "who_2019_title": "Adverse effects, not elsewhere classified",
+        "specific_preserved": "T78.40"
+      }
+    },
+    {
+      "record": "28",
+      "entity_index": 11,
+      "text": "hẹp ống sống C4-5, C5-6, C6-7",
+      "position": [
+        2281,
+        2310
+      ],
+      "old_candidates": [
+        "M48.02"
+      ],
+      "new_candidates": [
+        "M48",
+        "M48.02"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M48",
+        "who_2019_title": "Other spondylopathies",
+        "specific_preserved": "M48.02"
+      }
+    },
+    {
+      "record": "28",
+      "entity_index": 12,
+      "text": "hẹp lỗ liên hợp",
+      "position": [
+        2314,
+        2329
+      ],
+      "old_candidates": [
+        "M99.71"
+      ],
+      "new_candidates": [
+        "M99",
+        "M99.71"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M99",
+        "who_2019_title": "Biomechanical lesions, not elsewhere classified",
+        "specific_preserved": "M99.71"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 1,
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "position": [
+        46,
+        77
+      ],
+      "old_candidates": [
+        "C92.10"
+      ],
+      "new_candidates": [
+        "C92",
+        "C92.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C92",
+        "who_2019_title": "Myeloid leukaemia",
+        "specific_preserved": "C92.10"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 5,
+      "text": "Rung nhĩ kèm đáp ứng thất nhanh",
+      "position": [
+        122,
+        153
+      ],
+      "old_candidates": [
+        "I48.91"
+      ],
+      "new_candidates": [
+        "I48",
+        "I48.91"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I48",
+        "who_2019_title": "Atrial fibrillation and flutter",
+        "specific_preserved": "I48.91"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 18,
+      "text": "suy hô hấp",
+      "position": [
+        700,
+        710
+      ],
+      "old_candidates": [
+        "J96.90"
+      ],
+      "new_candidates": [
+        "J96",
+        "J96.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "J96",
+        "who_2019_title": "Respiratory failure, not elsewhere classified",
+        "specific_preserved": "J96.90"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 20,
+      "text": "nhiễm khuẩn huyết do tụ cầu vàng nhạy cảm methicillin",
+      "position": [
+        991,
+        1044
+      ],
+      "old_candidates": [
+        "A41.01"
+      ],
+      "new_candidates": [
+        "A41",
+        "A41.01"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "A41",
+        "who_2019_title": "Other sepsis",
+        "specific_preserved": "A41.01"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 23,
+      "text": "huyết khối",
+      "position": [
+        1157,
+        1167
+      ],
+      "old_candidates": [
+        "I82.90"
+      ],
+      "new_candidates": [
+        "I82",
+        "I82.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I82",
+        "who_2019_title": "Other venous embolism and thrombosis",
+        "specific_preserved": "I82.90"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 26,
+      "text": "thuyên tắc phổi",
+      "position": [
+        1226,
+        1241
+      ],
+      "old_candidates": [
+        "I26.99"
+      ],
+      "new_candidates": [
+        "I26",
+        "I26.99"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I26",
+        "who_2019_title": "Pulmonary embolism",
+        "specific_preserved": "I26.99"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 27,
+      "text": "hội chứng bàn chân bẹt bẩm sinh",
+      "position": [
+        1309,
+        1340
+      ],
+      "old_candidates": [
+        "Q66.50"
+      ],
+      "new_candidates": [
+        "Q66",
+        "Q66.50"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "Q66",
+        "who_2019_title": "Congenital deformities of feet",
+        "specific_preserved": "Q66.50"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 30,
+      "text": "chân có hơi vòng kiềng",
+      "position": [
+        1456,
+        1478
+      ],
+      "old_candidates": [
+        "M21.169"
+      ],
+      "new_candidates": [
+        "M21",
+        "M21.169"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M21",
+        "who_2019_title": "Other acquired deformities of limbs",
+        "specific_preserved": "M21.169"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 31,
+      "text": "bệnh bàn chân bẹt",
+      "position": [
+        1700,
+        1717
+      ],
+      "old_candidates": [
+        "Q66.50"
+      ],
+      "new_candidates": [
+        "Q66",
+        "Q66.50"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "Q66",
+        "who_2019_title": "Congenital deformities of feet",
+        "specific_preserved": "Q66.50"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 35,
+      "text": "huyết khối",
+      "position": [
+        2149,
+        2159
+      ],
+      "old_candidates": [
+        "I82.90"
+      ],
+      "new_candidates": [
+        "I82",
+        "I82.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I82",
+        "who_2019_title": "Other venous embolism and thrombosis",
+        "specific_preserved": "I82.90"
+      }
+    },
+    {
+      "record": "29",
+      "entity_index": 38,
+      "text": "thuyên tắc phổi",
+      "position": [
+        2218,
+        2233
+      ],
+      "old_candidates": [
+        "I26.99"
+      ],
+      "new_candidates": [
+        "I26",
+        "I26.99"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I26",
+        "who_2019_title": "Pulmonary embolism",
+        "specific_preserved": "I26.99"
+      }
+    },
+    {
+      "record": "31",
+      "entity_index": 8,
+      "text": "vô sinh thứ phát",
+      "position": [
+        643,
+        659
+      ],
+      "old_candidates": [
+        "N46.9"
+      ],
+      "new_candidates": [
+        "N46",
+        "N46.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "N46",
+        "who_2019_title": "Male infertility",
+        "specific_preserved": "N46.9"
+      }
+    },
+    {
+      "record": "32",
+      "entity_index": 11,
+      "text": "tăng sản tuyến tiền liệt",
+      "position": [
+        987,
+        1011
+      ],
+      "old_candidates": [
+        "N40.0"
+      ],
+      "new_candidates": [
+        "N40",
+        "N40.0"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "N40",
+        "who_2019_title": "Hyperplasia of prostate",
+        "specific_preserved": "N40.0"
+      }
+    },
+    {
+      "record": "33",
+      "entity_index": 0,
+      "text": "rung nhĩ",
+      "position": [
+        39,
+        47
+      ],
+      "old_candidates": [
+        "I48.91"
+      ],
+      "new_candidates": [
+        "I48",
+        "I48.91"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I48",
+        "who_2019_title": "Atrial fibrillation and flutter",
+        "specific_preserved": "I48.91"
+      }
+    },
+    {
+      "record": "34",
+      "entity_index": 4,
+      "text": "Bệnh lý đau nửa đầu",
+      "position": [
+        336,
+        355
+      ],
+      "old_candidates": [
+        "G43.909"
+      ],
+      "new_candidates": [
+        "G43",
+        "G43.909"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "G43",
+        "who_2019_title": "Migraine",
+        "specific_preserved": "G43.909"
+      }
+    },
+    {
+      "record": "34",
+      "entity_index": 5,
+      "text": "bệnh đau nửa đầu Migraine",
+      "position": [
+        371,
+        396
+      ],
+      "old_candidates": [
+        "G43.909"
+      ],
+      "new_candidates": [
+        "G43",
+        "G43.909"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "G43",
+        "who_2019_title": "Migraine",
+        "specific_preserved": "G43.909"
+      }
+    },
+    {
+      "record": "34",
+      "entity_index": 19,
+      "text": "đau nửa đầu",
+      "position": [
+        839,
+        850
+      ],
+      "old_candidates": [
+        "G43.909"
+      ],
+      "new_candidates": [
+        "G43",
+        "G43.909"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "G43",
+        "who_2019_title": "Migraine",
+        "specific_preserved": "G43.909"
+      }
+    },
+    {
+      "record": "36",
+      "entity_index": 64,
+      "text": "sỏi mật",
+      "position": [
+        1989,
+        1996
+      ],
+      "old_candidates": [
+        "K80.20"
+      ],
+      "new_candidates": [
+        "K80",
+        "K80.20"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K80",
+        "who_2019_title": "Cholelithiasis",
+        "specific_preserved": "K80.20"
+      }
+    },
+    {
+      "record": "38",
+      "entity_index": 0,
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "position": [
+        57,
+        88
+      ],
+      "old_candidates": [
+        "C92.10"
+      ],
+      "new_candidates": [
+        "C92",
+        "C92.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C92",
+        "who_2019_title": "Myeloid leukaemia",
+        "specific_preserved": "C92.10"
+      }
+    },
+    {
+      "record": "38",
+      "entity_index": 5,
+      "text": "hẹp ống sống",
+      "position": [
+        197,
+        209
+      ],
+      "old_candidates": [
+        "M48.00"
+      ],
+      "new_candidates": [
+        "M48",
+        "M48.00"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M48",
+        "who_2019_title": "Other spondylopathies",
+        "specific_preserved": "M48.00"
+      }
+    },
+    {
+      "record": "38",
+      "entity_index": 6,
+      "text": "Giả gout",
+      "position": [
+        216,
+        224
+      ],
+      "old_candidates": [
+        "M11.20"
+      ],
+      "new_candidates": [
+        "M11",
+        "M11.20"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M11",
+        "who_2019_title": "Other crystal arthropathies",
+        "specific_preserved": "M11.20"
+      }
+    },
+    {
+      "record": "38",
+      "entity_index": 8,
+      "text": "tăng sản tuyến tiền liệt",
+      "position": [
+        279,
+        303
+      ],
+      "old_candidates": [
+        "N40.0"
+      ],
+      "new_candidates": [
+        "N40",
+        "N40.0"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "N40",
+        "who_2019_title": "Hyperplasia of prostate",
+        "specific_preserved": "N40.0"
+      }
+    },
+    {
+      "record": "38",
+      "entity_index": 51,
+      "text": "cml",
+      "position": [
+        1968,
+        1971
+      ],
+      "old_candidates": [
+        "C92.10"
+      ],
+      "new_candidates": [
+        "C92",
+        "C92.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C92",
+        "who_2019_title": "Myeloid leukaemia",
+        "specific_preserved": "C92.10"
+      }
+    },
+    {
+      "record": "42",
+      "entity_index": 4,
+      "text": "ngưng thở khi ngủ do tắc nghẽn",
+      "position": [
+        109,
+        139
+      ],
+      "old_candidates": [
+        "G47.33"
+      ],
+      "new_candidates": [
+        "G47",
+        "G47.33"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "G47",
+        "who_2019_title": "Sleep disorders",
+        "specific_preserved": "G47.33"
+      }
+    },
+    {
+      "record": "42",
+      "entity_index": 33,
+      "text": "giãn phế quản",
+      "position": [
+        1381,
+        1394
+      ],
+      "old_candidates": [
+        "J47.9"
+      ],
+      "new_candidates": [
+        "J47",
+        "J47.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "J47",
+        "who_2019_title": "Bronchiectasis",
+        "specific_preserved": "J47.9"
+      }
+    },
+    {
+      "record": "43",
+      "entity_index": 0,
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "position": [
+        57,
+        88
+      ],
+      "old_candidates": [
+        "C92.10"
+      ],
+      "new_candidates": [
+        "C92",
+        "C92.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C92",
+        "who_2019_title": "Myeloid leukaemia",
+        "specific_preserved": "C92.10"
+      }
+    },
+    {
+      "record": "43",
+      "entity_index": 1,
+      "text": "tăng cholesterol máu đơn thuần",
+      "position": [
+        95,
+        125
+      ],
+      "old_candidates": [
+        "E78.00"
+      ],
+      "new_candidates": [
+        "E78",
+        "E78.00"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "E78",
+        "who_2019_title": "Disorders of lipoprotein metabolism and other lipidaemias",
+        "specific_preserved": "E78.00"
+      }
+    },
+    {
+      "record": "43",
+      "entity_index": 22,
+      "text": "không hấp thu được một số protein",
+      "position": [
+        1424,
+        1457
+      ],
+      "old_candidates": [
+        "K90.49"
+      ],
+      "new_candidates": [
+        "K90",
+        "K90.49"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K90",
+        "who_2019_title": "Intestinal malabsorption",
+        "specific_preserved": "K90.49"
+      }
+    },
+    {
+      "record": "44",
+      "entity_index": 19,
+      "text": "sỏi",
+      "position": [
+        329,
+        332
+      ],
+      "old_candidates": [
+        "K80.20"
+      ],
+      "new_candidates": [
+        "K80",
+        "K80.20"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K80",
+        "who_2019_title": "Cholelithiasis",
+        "specific_preserved": "K80.20"
+      }
+    },
+    {
+      "record": "44",
+      "entity_index": 20,
+      "text": "sỏi mật",
+      "position": [
+        413,
+        420
+      ],
+      "old_candidates": [
+        "K80.20"
+      ],
+      "new_candidates": [
+        "K80",
+        "K80.20"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K80",
+        "who_2019_title": "Cholelithiasis",
+        "specific_preserved": "K80.20"
+      }
+    },
+    {
+      "record": "46",
+      "entity_index": 8,
+      "text": "phù phổi cấp",
+      "position": [
+        303,
+        315
+      ],
+      "old_candidates": [
+        "J81.0"
+      ],
+      "new_candidates": [
+        "J81",
+        "J81.0"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "J81",
+        "who_2019_title": "Pulmonary oedema",
+        "specific_preserved": "J81.0"
+      }
+    },
+    {
+      "record": "46",
+      "entity_index": 55,
+      "text": "Phù phổi cấp",
+      "position": [
+        1192,
+        1204
+      ],
+      "old_candidates": [
+        "J81.0"
+      ],
+      "new_candidates": [
+        "J81",
+        "J81.0"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "J81",
+        "who_2019_title": "Pulmonary oedema",
+        "specific_preserved": "J81.0"
+      }
+    },
+    {
+      "record": "47",
+      "entity_index": 3,
+      "text": "xơ gan do rượu",
+      "position": [
+        137,
+        151
+      ],
+      "old_candidates": [
+        "K70.30"
+      ],
+      "new_candidates": [
+        "K70",
+        "K70.30"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K70",
+        "who_2019_title": "Alcoholic liver disease",
+        "specific_preserved": "K70.30"
+      }
+    },
+    {
+      "record": "47",
+      "entity_index": 5,
+      "text": "xơ gan do rượu",
+      "position": [
+        337,
+        351
+      ],
+      "old_candidates": [
+        "K70.30"
+      ],
+      "new_candidates": [
+        "K70",
+        "K70.30"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K70",
+        "who_2019_title": "Alcoholic liver disease",
+        "specific_preserved": "K70.30"
+      }
+    },
+    {
+      "record": "47",
+      "entity_index": 10,
+      "text": "rung nhĩ",
+      "position": [
+        580,
+        588
+      ],
+      "old_candidates": [
+        "I48.91"
+      ],
+      "new_candidates": [
+        "I48",
+        "I48.91"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I48",
+        "who_2019_title": "Atrial fibrillation and flutter",
+        "specific_preserved": "I48.91"
+      }
+    },
+    {
+      "record": "47",
+      "entity_index": 42,
+      "text": "xẹp phổi thùy dưới phải do chèn ép",
+      "position": [
+        1678,
+        1712
+      ],
+      "old_candidates": [
+        "J98.11"
+      ],
+      "new_candidates": [
+        "J98",
+        "J98.11"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "J98",
+        "who_2019_title": "Other respiratory disorders",
+        "specific_preserved": "J98.11"
+      }
+    },
+    {
+      "record": "47",
+      "entity_index": 45,
+      "text": "Rung nhĩ",
+      "position": [
+        1864,
+        1872
+      ],
+      "old_candidates": [
+        "I48.91"
+      ],
+      "new_candidates": [
+        "I48",
+        "I48.91"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I48",
+        "who_2019_title": "Atrial fibrillation and flutter",
+        "specific_preserved": "I48.91"
+      }
+    },
+    {
+      "record": "51",
+      "entity_index": 2,
+      "text": "ngừng thở khi ngủ",
+      "position": [
+        113,
+        130
+      ],
+      "old_candidates": [
+        "G47.30"
+      ],
+      "new_candidates": [
+        "G47",
+        "G47.30"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "G47",
+        "who_2019_title": "Sleep disorders",
+        "specific_preserved": "G47.30"
+      }
+    },
+    {
+      "record": "51",
+      "entity_index": 23,
+      "text": "tổn thương sụn chêm",
+      "position": [
+        1378,
+        1397
+      ],
+      "old_candidates": [
+        "S83.209A"
+      ],
+      "new_candidates": [
+        "S83",
+        "S83.209A"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "S83",
+        "who_2019_title": "Dislocation, sprain and strain of joints and ligaments of knee",
+        "specific_preserved": "S83.209A"
+      }
+    },
+    {
+      "record": "52",
+      "entity_index": 4,
+      "text": "dị ứng",
+      "position": [
+        357,
+        363
+      ],
+      "old_candidates": [
+        "T78.40"
+      ],
+      "new_candidates": [
+        "T78",
+        "T78.40"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "T78",
+        "who_2019_title": "Adverse effects, not elsewhere classified",
+        "specific_preserved": "T78.40"
+      }
+    },
+    {
+      "record": "54",
+      "entity_index": 0,
+      "text": "mang thai",
+      "position": [
+        58,
+        67
+      ],
+      "old_candidates": [
+        "Z34.90"
+      ],
+      "new_candidates": [
+        "Z34",
+        "Z34.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "Z34",
+        "who_2019_title": "Supervision of normal pregnancy",
+        "specific_preserved": "Z34.90"
+      }
+    },
+    {
+      "record": "54",
+      "entity_index": 1,
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "position": [
+        301,
+        332
+      ],
+      "old_candidates": [
+        "C92.10"
+      ],
+      "new_candidates": [
+        "C92",
+        "C92.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C92",
+        "who_2019_title": "Myeloid leukaemia",
+        "specific_preserved": "C92.10"
+      }
+    },
+    {
+      "record": "54",
+      "entity_index": 6,
+      "text": "hẹp ống sống",
+      "position": [
+        441,
+        453
+      ],
+      "old_candidates": [
+        "M48.00"
+      ],
+      "new_candidates": [
+        "M48",
+        "M48.00"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M48",
+        "who_2019_title": "Other spondylopathies",
+        "specific_preserved": "M48.00"
+      }
+    },
+    {
+      "record": "54",
+      "entity_index": 7,
+      "text": "Giả gout",
+      "position": [
+        460,
+        468
+      ],
+      "old_candidates": [
+        "M11.20"
+      ],
+      "new_candidates": [
+        "M11",
+        "M11.20"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M11",
+        "who_2019_title": "Other crystal arthropathies",
+        "specific_preserved": "M11.20"
+      }
+    },
+    {
+      "record": "54",
+      "entity_index": 9,
+      "text": "tăng sản tuyến tiền liệt",
+      "position": [
+        523,
+        547
+      ],
+      "old_candidates": [
+        "N40.0"
+      ],
+      "new_candidates": [
+        "N40",
+        "N40.0"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "N40",
+        "who_2019_title": "Hyperplasia of prostate",
+        "specific_preserved": "N40.0"
+      }
+    },
+    {
+      "record": "57",
+      "entity_index": 1,
+      "text": "Đái tháo đường, có biến chứng bệnh lý thần kinh ngoại biên",
+      "position": [
+        54,
+        112
+      ],
+      "old_candidates": [
+        "E11.42"
+      ],
+      "new_candidates": [
+        "E11",
+        "E11.42"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "E11",
+        "who_2019_title": "Type 2 diabetes mellitus",
+        "specific_preserved": "E11.42"
+      }
+    },
+    {
+      "record": "62",
+      "entity_index": 22,
+      "text": "giãn phế quản",
+      "position": [
+        1121,
+        1134
+      ],
+      "old_candidates": [
+        "J47.9"
+      ],
+      "new_candidates": [
+        "J47",
+        "J47.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "J47",
+        "who_2019_title": "Bronchiectasis",
+        "specific_preserved": "J47.9"
+      }
+    },
+    {
+      "record": "63",
+      "entity_index": 0,
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "position": [
+        57,
+        88
+      ],
+      "old_candidates": [
+        "C92.10"
+      ],
+      "new_candidates": [
+        "C92",
+        "C92.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C92",
+        "who_2019_title": "Myeloid leukaemia",
+        "specific_preserved": "C92.10"
+      }
+    },
+    {
+      "record": "63",
+      "entity_index": 1,
+      "text": "tăng cholesterol máu đơn thuần",
+      "position": [
+        95,
+        125
+      ],
+      "old_candidates": [
+        "E78.00"
+      ],
+      "new_candidates": [
+        "E78",
+        "E78.00"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "E78",
+        "who_2019_title": "Disorders of lipoprotein metabolism and other lipidaemias",
+        "specific_preserved": "E78.00"
+      }
+    },
+    {
+      "record": "66",
+      "entity_index": 0,
+      "text": "u lành về tuyến vú",
+      "position": [
+        70,
+        88
+      ],
+      "old_candidates": [
+        "D24.9"
+      ],
+      "new_candidates": [
+        "D24",
+        "D24.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "D24",
+        "who_2019_title": "Benign neoplasm of breast",
+        "specific_preserved": "D24.9"
+      }
+    },
+    {
+      "record": "66",
+      "entity_index": 1,
+      "text": "u xơ tuyến vú",
+      "position": [
+        93,
+        106
+      ],
+      "old_candidates": [
+        "D24.9"
+      ],
+      "new_candidates": [
+        "D24",
+        "D24.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "D24",
+        "who_2019_title": "Benign neoplasm of breast",
+        "specific_preserved": "D24.9"
+      }
+    },
+    {
+      "record": "66",
+      "entity_index": 4,
+      "text": "ung thư",
+      "position": [
+        271,
+        278
+      ],
+      "old_candidates": [
+        "C80.1"
+      ],
+      "new_candidates": [
+        "C80",
+        "C80.1"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C80",
+        "who_2019_title": "Malignant neoplasm, without specification of site",
+        "specific_preserved": "C80.1"
+      }
+    },
+    {
+      "record": "66",
+      "entity_index": 13,
+      "text": "ung thư",
+      "position": [
+        958,
+        965
+      ],
+      "old_candidates": [
+        "C80.1"
+      ],
+      "new_candidates": [
+        "C80",
+        "C80.1"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C80",
+        "who_2019_title": "Malignant neoplasm, without specification of site",
+        "specific_preserved": "C80.1"
+      }
+    },
+    {
+      "record": "66",
+      "entity_index": 16,
+      "text": "u xơ tuyến vú",
+      "position": [
+        1039,
+        1052
+      ],
+      "old_candidates": [
+        "D24.9"
+      ],
+      "new_candidates": [
+        "D24",
+        "D24.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "D24",
+        "who_2019_title": "Benign neoplasm of breast",
+        "specific_preserved": "D24.9"
+      }
+    },
+    {
+      "record": "66",
+      "entity_index": 18,
+      "text": "ung thư",
+      "position": [
+        1118,
+        1125
+      ],
+      "old_candidates": [
+        "C80.1"
+      ],
+      "new_candidates": [
+        "C80",
+        "C80.1"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C80",
+        "who_2019_title": "Malignant neoplasm, without specification of site",
+        "specific_preserved": "C80.1"
+      }
+    },
+    {
+      "record": "66",
+      "entity_index": 20,
+      "text": "u xơ tuyến vú",
+      "position": [
+        1168,
+        1181
+      ],
+      "old_candidates": [
+        "D24.9"
+      ],
+      "new_candidates": [
+        "D24",
+        "D24.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "D24",
+        "who_2019_title": "Benign neoplasm of breast",
+        "specific_preserved": "D24.9"
+      }
+    },
+    {
+      "record": "66",
+      "entity_index": 23,
+      "text": "u xơ tuyến vú",
+      "position": [
+        1269,
+        1282
+      ],
+      "old_candidates": [
+        "D24.9"
+      ],
+      "new_candidates": [
+        "D24",
+        "D24.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "D24",
+        "who_2019_title": "Benign neoplasm of breast",
+        "specific_preserved": "D24.9"
+      }
+    },
+    {
+      "record": "66",
+      "entity_index": 29,
+      "text": "u xơ tuyến vú",
+      "position": [
+        1531,
+        1544
+      ],
+      "old_candidates": [
+        "D24.9"
+      ],
+      "new_candidates": [
+        "D24",
+        "D24.9"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "D24",
+        "who_2019_title": "Benign neoplasm of breast",
+        "specific_preserved": "D24.9"
+      }
+    },
+    {
+      "record": "68",
+      "entity_index": 0,
+      "text": "bệnh động mạch vành",
+      "position": [
+        34,
+        53
+      ],
+      "old_candidates": [
+        "I25.10"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.10"
+      }
+    },
+    {
+      "record": "68",
+      "entity_index": 14,
+      "text": "bệnh ba thân động mạch vành nghiêm trọng",
+      "position": [
+        650,
+        690
+      ],
+      "old_candidates": [
+        "I25.10"
+      ],
+      "new_candidates": [
+        "I25",
+        "I25.10"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I25",
+        "who_2019_title": "Chronic ischaemic heart disease",
+        "specific_preserved": "I25.10"
+      }
+    },
+    {
+      "record": "69",
+      "entity_index": 1,
+      "text": "trầm cảm",
+      "position": [
+        108,
+        116
+      ],
+      "old_candidates": [
+        "F32.A"
+      ],
+      "new_candidates": [
+        "F32",
+        "F32.A"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "F32",
+        "who_2019_title": "Depressive episode",
+        "specific_preserved": "F32.A"
+      }
+    },
+    {
+      "record": "69",
+      "entity_index": 7,
+      "text": "trầm cảm",
+      "position": [
+        555,
+        563
+      ],
+      "old_candidates": [
+        "F32.A"
+      ],
+      "new_candidates": [
+        "F32",
+        "F32.A"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "F32",
+        "who_2019_title": "Depressive episode",
+        "specific_preserved": "F32.A"
+      }
+    },
+    {
+      "record": "69",
+      "entity_index": 10,
+      "text": "thuyên tắc phổi hai bên",
+      "position": [
+        768,
+        791
+      ],
+      "old_candidates": [
+        "I26.99"
+      ],
+      "new_candidates": [
+        "I26",
+        "I26.99"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I26",
+        "who_2019_title": "Pulmonary embolism",
+        "specific_preserved": "I26.99"
+      }
+    },
+    {
+      "record": "70",
+      "entity_index": 2,
+      "text": "ngừng thở khi ngủ",
+      "position": [
+        113,
+        130
+      ],
+      "old_candidates": [
+        "G47.30"
+      ],
+      "new_candidates": [
+        "G47",
+        "G47.30"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "G47",
+        "who_2019_title": "Sleep disorders",
+        "specific_preserved": "G47.30"
+      }
+    },
+    {
+      "record": "74",
+      "entity_index": 0,
+      "text": "Viêm loét đại tràng",
+      "position": [
+        57,
+        76
+      ],
+      "old_candidates": [
+        "K51.90"
+      ],
+      "new_candidates": [
+        "K51",
+        "K51.90"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K51",
+        "who_2019_title": "Ulcerative colitis",
+        "specific_preserved": "K51.90"
+      }
+    },
+    {
+      "record": "79",
+      "entity_index": 7,
+      "text": "đa u tủy",
+      "position": [
+        1110,
+        1118
+      ],
+      "old_candidates": [
+        "C90.00"
+      ],
+      "new_candidates": [
+        "C90",
+        "C90.00"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "C90",
+        "who_2019_title": "Multiple myeloma and malignant plasma cell neoplasms",
+        "specific_preserved": "C90.00"
+      }
+    },
+    {
+      "record": "79",
+      "entity_index": 8,
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "position": [
+        1190,
+        1216
+      ],
+      "old_candidates": [
+        "E85.81"
+      ],
+      "new_candidates": [
+        "E85",
+        "E85.81"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "E85",
+        "who_2019_title": "Amyloidosis",
+        "specific_preserved": "E85.81"
+      }
+    },
+    {
+      "record": "80",
+      "entity_index": 15,
+      "text": "xơ gan mất bù",
+      "position": [
+        1019,
+        1032
+      ],
+      "old_candidates": [
+        "K74.60"
+      ],
+      "new_candidates": [
+        "K74",
+        "K74.60"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K74",
+        "who_2019_title": "Fibrosis and cirrhosis of liver",
+        "specific_preserved": "K74.60"
+      }
+    },
+    {
+      "record": "80",
+      "entity_index": 17,
+      "text": "cổ trướng",
+      "position": [
+        1063,
+        1072
+      ],
+      "old_candidates": [
+        "R18.8"
+      ],
+      "new_candidates": [
+        "R18",
+        "R18.8"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "R18",
+        "who_2019_title": "Ascites",
+        "specific_preserved": "R18.8"
+      }
+    },
+    {
+      "record": "85",
+      "entity_index": 32,
+      "text": "huyết khối tĩnh mạch sâu (DVT)",
+      "position": [
+        1447,
+        1477
+      ],
+      "old_candidates": [
+        "I82.409"
+      ],
+      "new_candidates": [
+        "I82",
+        "I82.409"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "I82",
+        "who_2019_title": "Other venous embolism and thrombosis",
+        "specific_preserved": "I82.409"
+      }
+    },
+    {
+      "record": "88",
+      "entity_index": 5,
+      "text": "áp xe",
+      "position": [
+        536,
+        541
+      ],
+      "old_candidates": [
+        "K65.1"
+      ],
+      "new_candidates": [
+        "K65",
+        "K65.1"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K65",
+        "who_2019_title": "Peritonitis",
+        "specific_preserved": "K65.1"
+      }
+    },
+    {
+      "record": "92",
+      "entity_index": 0,
+      "text": "viêm tủy xương mãn tính",
+      "position": [
+        18,
+        41
+      ],
+      "old_candidates": [
+        "M86.60"
+      ],
+      "new_candidates": [
+        "M86",
+        "M86.60"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M86",
+        "who_2019_title": "Osteomyelitis",
+        "specific_preserved": "M86.60"
+      }
+    },
+    {
+      "record": "92",
+      "entity_index": 2,
+      "text": "liệt hai chi dưới",
+      "position": [
+        81,
+        98
+      ],
+      "old_candidates": [
+        "G82.20"
+      ],
+      "new_candidates": [
+        "G82",
+        "G82.20"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "G82",
+        "who_2019_title": "Paraplegia and tetraplegia",
+        "specific_preserved": "G82.20"
+      }
+    },
+    {
+      "record": "92",
+      "entity_index": 3,
+      "text": "loét tì đè giai đoạn IV mãn tính",
+      "position": [
+        102,
+        134
+      ],
+      "old_candidates": [
+        "L89.94"
+      ],
+      "new_candidates": [
+        "L89",
+        "L89.94"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "L89",
+        "who_2019_title": "Decubitus ulcer and pressure area",
+        "specific_preserved": "L89.94"
+      }
+    },
+    {
+      "record": "92",
+      "entity_index": 14,
+      "text": "viêm tủy xương mãn tính",
+      "position": [
+        655,
+        678
+      ],
+      "old_candidates": [
+        "M86.60"
+      ],
+      "new_candidates": [
+        "M86",
+        "M86.60"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M86",
+        "who_2019_title": "Osteomyelitis",
+        "specific_preserved": "M86.60"
+      }
+    },
+    {
+      "record": "92",
+      "entity_index": 34,
+      "text": "viêm tủy xương mãn tính",
+      "position": [
+        1271,
+        1294
+      ],
+      "old_candidates": [
+        "M86.60"
+      ],
+      "new_candidates": [
+        "M86",
+        "M86.60"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "M86",
+        "who_2019_title": "Osteomyelitis",
+        "specific_preserved": "M86.60"
+      }
+    },
+    {
+      "record": "94",
+      "entity_index": 2,
+      "text": "Viêm hang vị sung huyết",
+      "position": [
+        43,
+        66
+      ],
+      "old_candidates": [
+        "K29.70"
+      ],
+      "new_candidates": [
+        "K29",
+        "K29.70"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K29",
+        "who_2019_title": "Gastritis and duodenitis",
+        "specific_preserved": "K29.70"
+      }
+    },
+    {
+      "record": "94",
+      "entity_index": 7,
+      "text": "viêm sung huyết hang vị dạ dày",
+      "position": [
+        433,
+        463
+      ],
+      "old_candidates": [
+        "K29.70"
+      ],
+      "new_candidates": [
+        "K29",
+        "K29.70"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K29",
+        "who_2019_title": "Gastritis and duodenitis",
+        "specific_preserved": "K29.70"
+      }
+    },
+    {
+      "record": "94",
+      "entity_index": 9,
+      "text": "viêm sung huyết hang vị dạ dày",
+      "position": [
+        913,
+        943
+      ],
+      "old_candidates": [
+        "K29.70"
+      ],
+      "new_candidates": [
+        "K29",
+        "K29.70"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "K29",
+        "who_2019_title": "Gastritis and duodenitis",
+        "specific_preserved": "K29.70"
+      }
+    },
+    {
+      "record": "95",
+      "entity_index": 22,
+      "text": "ngưng thở khi ngủ do tắc nghẽn",
+      "position": [
+        1220,
+        1250
+      ],
+      "old_candidates": [
+        "G47.33"
+      ],
+      "new_candidates": [
+        "G47",
+        "G47.33"
+      ],
+      "reason": "same-family WHO parent hedge for ICD-10-CM-specific code",
+      "evidence": {
+        "parent": "G47",
+        "who_2019_title": "Sleep disorders",
+        "specific_preserved": "G47.33"
+      }
+    }
+  ],
+  "quarantine": [
+    {
+      "record": "98",
+      "entity_index": 8,
+      "text": "Lạm dụng chất kích thích, chất gây nghiện opioid",
+      "position": [
+        649,
+        697
+      ],
+      "candidates": [
+        "F19.10",
+        "F11.10"
+      ],
+      "eligible_parents": [
+        "F11",
+        "F19"
+      ],
+      "reason": "multi-code row would exceed the two-candidate limit"
+    }
+  ],
+  "entity_counts": {
+    "CHẨN_ĐOÁN": 863,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 322,
+    "THUỐC": 275,
+    "TRIỆU_CHỨNG": 1260,
+    "TÊN_XÉT_NGHIỆM": 448
+  },
+  "frozen_fields": [
+    "text",
+    "type",
+    "position",
+    "assertions"
+  ],
+  "drug_candidates_frozen": true,
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 863,
+      "TÊN_XÉT_NGHIỆM": 448,
+      "TRIỆU_CHỨNG": 1260,
+      "THUỐC": 275,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  }
+}

@@ -819,3 +819,22 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   directionally useful but not an absolute leaderboard forecast.
 - No further submission was performed. The next proposed axis is a
   preregistered candidate-only ablation with all H22 extraction fields frozen.
+
+## 2026-08-02 — H23 WHO-parent candidate-only artifact
+
+- Preregistered H23 before enumerating eligible rows. Diagnosis changes require
+  an absent CM-specific code, an existing WHO parent with the same first three
+  characters, and a singleton current candidate set.
+- Audited 863 H22 diagnoses: 700 candidate uses already exist exactly in WHO,
+  146 CM-specific uses have a valid parent, 12 uses have no WHO family, and 22
+  diagnosis rows are empty. No empty row qualifies for the frozen H19 exact
+  fill table.
+- Selected 144 singleton rows across 68 unique code/parent pairs. Quarantined
+  the single two-family substance-use row; made no drug change.
+- Built `turn2/output_v8_candidate_semantic.zip`. It preserves all 3,168
+  entities and all non-candidate fields, passes 65 tests and 100/100 validation,
+  and is byte-deterministic with SHA-256
+  `e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662`.
+- The post-freeze proxy diagnostic falls to 84.5409 because the proxy embeds
+  H22 candidates; it was not used as the optimization target. No competition
+  submission was performed.

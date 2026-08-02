@@ -46,5 +46,8 @@ turn2/*.zip
 # Preregistered H22 confirmatory submission artifact.
 !turn2/output_v7_pseudo_reconstruction.zip
 
+# Preregistered H23 candidate-only confirmatory artifact.
+!turn2/output_v8_candidate_semantic.zip
+
 # Research evidence may contain deterministic intermediate archives.
 experiments/**/output_repeat.zip

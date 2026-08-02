@@ -242,6 +242,18 @@ def build_parser() -> argparse.ArgumentParser:
         "--report",
         default="experiments/H22_calibrated_pseudo_reconstruction/build_report.json",
     )
+    candidate_semantic = sub.add_parser("candidate-semantic")
+    candidate_semantic.add_argument("--input", default="turn2/input")
+    candidate_semantic.add_argument(
+        "--source", default="turn2/output_v7_pseudo_reconstruction"
+    )
+    candidate_semantic.add_argument(
+        "--output", default="turn2/output_v8_candidate_semantic"
+    )
+    candidate_semantic.add_argument(
+        "--report",
+        default="experiments/H23_candidate_only_semantic/build_report.json",
+    )
     train = sub.add_parser("train")
     train.add_argument("--labels", default="labels/annotations.jsonl")
     train.add_argument("--output", default="models/phobert-medical")
@@ -552,6 +564,15 @@ def main(argv: list[str] | None = None) -> None:
         from .pseudo_reconstruct import reconstruct_pseudo_labels
 
         result = reconstruct_pseudo_labels(
+            args.input,
+            args.source,
+            args.output,
+            args.report,
+        )
+    elif args.command == "candidate-semantic":
+        from .candidate_semantic import build_candidate_semantic_ablation
+
+        result = build_candidate_semantic_ablation(
             args.input,
             args.source,
             args.output,

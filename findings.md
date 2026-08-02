@@ -1,5 +1,20 @@
 # Findings
 
+## 2026-08-02 — H23 isolates the WHO parent hedge
+
+- H22 contains 146 ICD-10-CM candidate uses whose exact code is absent from
+  WHO ICD-10 2019 while the same three-character family exists. Of these, 144
+  are singleton rows suitable for a two-candidate `[parent, specific]` hedge;
+  one row contains two different families and is quarantined.
+- H23 changes exactly those 144 diagnosis candidate fields and freezes all
+  3,168 entity boundaries, types, assertions, and every drug candidate. All 68
+  unique code/parent pairs remain within the same disease family.
+- The H22-derived proxy necessarily penalizes these additions, reducing its
+  in-sample candidate score 96.4943 -> 90.1840. This is not negative transfer
+  evidence because H22's original candidate is encoded as proxy truth.
+- H23 is a genuine candidate-only black-box ablation: external WER and
+  assertion metrics should remain stable up to evaluator matching effects.
+
 ## 2026-08-02 — H22 external jump to 38.7976
 
 - The submitted hash prefix `03651cfea61d` matches the registered H22 archive.

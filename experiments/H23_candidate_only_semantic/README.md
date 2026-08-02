@@ -72,3 +72,22 @@ H23 becomes eligible for one external submission only if:
 - manual spot review finds zero ingredient/family contradictions.
 
 Failure of any condition preserves H22 and consumes no submission slot.
+
+## Frozen build result
+
+- Added a same-family WHO parent to 144 singleton ICD-10-CM-specific diagnosis
+  rows covering 68 unique code/parent pairs.
+- Quarantined one two-family row (`F19.10`, `F11.10`) because adding both
+  parents would violate the two-candidate maximum.
+- Left 745 already-valid WHO-specific candidate uses, 12 codes without a valid
+  same-family WHO parent, and every drug candidate unchanged.
+- Preserved all 3,168 entities and every frozen field exactly.
+- Passed 65 tests and raw-offset validation on 100/100 records.
+- Repeated ZIP SHA-256:
+  `e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662`.
+
+The prohibited optimization proxy decreases from 87.0650 to 84.5409 because
+its real rows define H22's original candidates as truth. This expected
+in-sample penalty is recorded but was not used for selection. H23 clears the
+frozen semantic/technical gate and is eligible for one external candidate-only
+measurement. H22 remains the fallback.
