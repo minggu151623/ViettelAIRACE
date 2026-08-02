@@ -1,0 +1,88 @@
+hypothesis: H45_jaccard_cardinality_audit
+status: preregistered
+registered_at: "2026-08-03T03:27:00+07:00"
+question: >
+  Does selecting the number of ranked ontology candidates for the actual
+  set-valued Jaccard utility transfer better than emitting one code or a fixed
+  broad list on H24's frozen alias-group split?
+
+motivation:
+  literature:
+    - title: Efficient Set-Valued Prediction in Multi-Class Classification
+      url: https://arxiv.org/abs/1906.08129
+      implication: >
+        Candidate-set size must trade coverage against a size penalty; fixed
+        top-k and arbitrary probability thresholds are generally suboptimal.
+    - title: Optimal Decision-Theoretic Classification Using Non-Decomposable Performance Metrics
+      url: https://arxiv.org/abs/1505.01802
+      implication: >
+        Jaccard is non-decomposable, so independently maximizing code recall is
+        not equivalent to maximizing the evaluation utility.
+  project_trigger: >
+    H23 supports one parent/specific hedge, while H44 tests broad hierarchy
+    closure. Before designing another candidate artifact, quantify whether the
+    existing H24 ranking contains enough calibrated depth for any list-size
+    rule to improve Jaccard on held-out weak links.
+
+inputs:
+  ranking_report: experiments/H24_ontology_graph_classifier/type_specialist/report.json
+  ranking_report_sha256: 87dbc1391dd1ab58693efec6933b34c73f53ca6f6f9d13730925125b9cf2e41b
+  dataset: experiments/H24_ontology_graph_classifier/link_dataset.json
+  dataset_sha256: c4237bb90e2e46563f4887907271a512b21b5c2b81cc182865215068d76ed7b6
+  label_status: weak_pseudo_labels_not_organizer_ground_truth
+  frozen_split: alias_group_train_426_dev_36_test_56
+  feasibility_census:
+    rows: 518
+    diagnosis: 420
+    drug: 98
+    gold_cardinality_1: 503
+    gold_cardinality_2: 14
+    gold_cardinality_3: 1
+    ranking_depth: 10
+
+metric:
+  per_row: "Jaccard(predicted_prefix, weak_gold)"
+  aggregate: macro_mean_over_rows
+  candidate_prefix_sizes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+policies:
+  baseline:
+    name: singleton_top1
+    k: 1
+  global_dev_selected:
+    selection: maximize_dev_macro_jaccard
+    tie_break: smaller_k
+    test_use: selected_k_once
+  type_specific_dev_selected:
+    types: ["CHẨN_ĐOÁN", "THUỐC"]
+    selection: maximize_within_type_dev_macro_jaccard
+    tie_break: smaller_k
+    test_use: frozen_selected_k_per_type_once
+  oracle_diagnostic:
+    selection: best_prefix_per_row
+    role: headroom_only_not_deployable
+
+inference:
+  paired_bootstrap:
+    test_resamples: 10000
+    seed: 4501
+    unit: weak_link_row
+    interval: percentile_95
+  primary_comparison: type_specific_dev_selected_minus_singleton_top1_on_test
+
+promotion_gate:
+  - primary_test_delta_at_least_0.02
+  - primary_95_percent_bootstrap_lower_bound_above_0
+  - neither_entity_type_test_delta_below_minus_0.01
+  - input_hashes_match
+  - deterministic_repeat_is_byte_identical
+
+failure_policy: >
+  If the gate fails, retain H24 only as a proposal retriever and close ranked
+  prefix cardinality as a reset-slot mechanism. Do not inspect the test fold to
+  invent a new k rule, and do not create a submission ZIP under any outcome.
+
+artifact_policy:
+  submission_zip: forbidden
+  organizer_claim: forbidden
+  allowed_conclusion: internal_weak_link_ranking_calibration_only
