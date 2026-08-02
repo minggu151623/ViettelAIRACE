@@ -1036,3 +1036,17 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - H26 is retained as an independent proposal generator but fails promotion.
   No ZIP or competition submission was created. A fixed semantic verifier is
   the next registered mechanism.
+
+## 2026-08-02 — H27 dual-prompt verifier fails the precision gate
+
+- Froze H26's 85 development candidates and reviewed each with independent
+  semantic/type and boundary/homonym prompts using local `qwen3:8b` at
+  temperature zero. Acceptance required unanimous KEEP.
+- The verifier accepted 57 candidates, retained 35/43 H23-present additions
+  (81.40%) and improved simulated strict F1 52.14 -> 56.19% (+4.06 points).
+- Pseudo precision improved 50.59 -> 61.40%, only +10.82 points versus the
+  preregistered +15-point gate. The development gate failed, so test evaluation
+  was canceled exactly as registered.
+- The fused-token hazard `klonopinclonidine` was removed, but incomplete spans
+  such as `Phù` within `Phù gai thị` remain impossible to repair with a binary
+  decision. H27 is rejected; no ZIP or competition submission was created.

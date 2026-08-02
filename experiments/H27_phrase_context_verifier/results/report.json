@@ -1,0 +1,163 @@
+{
+  "label_warning": "H23 absence remains unlabeled; pseudo precision is only a diagnostic.",
+  "dev": {
+    "eligible": 85,
+    "accepted": 57,
+    "raw_true_additions": 43,
+    "accepted_true_additions": 35,
+    "true_addition_retention": 0.813953488372093,
+    "raw_pseudo_precision": 0.5058823529411764,
+    "accepted_additions": {
+      "tp": 35,
+      "fp": 22,
+      "fn": 222,
+      "precision": 0.6140350877192983,
+      "recall": 0.13618677042801555,
+      "f1": 0.2229299363057325
+    },
+    "pseudo_precision_gain": 0.10815273477812182,
+    "baseline": {
+      "tp": 244,
+      "fp": 191,
+      "fn": 257,
+      "precision": 0.5609195402298851,
+      "recall": 0.4870259481037924,
+      "f1": 0.5213675213675214
+    },
+    "with_additions": {
+      "tp": 279,
+      "fp": 213,
+      "fn": 222,
+      "precision": 0.5670731707317073,
+      "recall": 0.5568862275449101,
+      "f1": 0.5619335347432024
+    },
+    "per_type": {
+      "CHẨN_ĐOÁN": {
+        "baseline": {
+          "tp": 75,
+          "fp": 28,
+          "fn": 57,
+          "precision": 0.7281553398058253,
+          "recall": 0.5681818181818182,
+          "f1": 0.6382978723404256
+        },
+        "with_additions": {
+          "tp": 86,
+          "fp": 31,
+          "fn": 46,
+          "precision": 0.7350427350427351,
+          "recall": 0.6515151515151515,
+          "f1": 0.6907630522088354
+        }
+      },
+      "KẾT_QUẢ_XÉT_NGHIỆM": {
+        "baseline": {
+          "tp": 0,
+          "fp": 12,
+          "fn": 51,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "with_additions": {
+          "tp": 6,
+          "fp": 14,
+          "fn": 45,
+          "precision": 0.3,
+          "recall": 0.11764705882352941,
+          "f1": 0.16901408450704228
+        }
+      },
+      "THUỐC": {
+        "baseline": {
+          "tp": 16,
+          "fp": 10,
+          "fn": 12,
+          "precision": 0.6153846153846154,
+          "recall": 0.5714285714285714,
+          "f1": 0.5925925925925927
+        },
+        "with_additions": {
+          "tp": 17,
+          "fp": 11,
+          "fn": 11,
+          "precision": 0.6071428571428571,
+          "recall": 0.6071428571428571,
+          "f1": 0.6071428571428571
+        }
+      },
+      "THÔNG_TIN_BỆNH_NHÂN": {
+        "baseline": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "with_additions": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "TRIỆU_CHỨNG": {
+        "baseline": {
+          "tp": 134,
+          "fp": 119,
+          "fn": 103,
+          "precision": 0.5296442687747036,
+          "recall": 0.5654008438818565,
+          "f1": 0.5469387755102041
+        },
+        "with_additions": {
+          "tp": 144,
+          "fp": 132,
+          "fn": 93,
+          "precision": 0.5217391304347826,
+          "recall": 0.6075949367088608,
+          "f1": 0.5614035087719298
+        }
+      },
+      "TÊN_XÉT_NGHIỆM": {
+        "baseline": {
+          "tp": 19,
+          "fp": 22,
+          "fn": 34,
+          "precision": 0.4634146341463415,
+          "recall": 0.3584905660377358,
+          "f1": 0.4042553191489362
+        },
+        "with_additions": {
+          "tp": 26,
+          "fp": 25,
+          "fn": 27,
+          "precision": 0.5098039215686274,
+          "recall": 0.49056603773584906,
+          "f1": 0.5
+        }
+      }
+    },
+    "known_hazards": [
+      {
+        "record": 72,
+        "text": "klonopinclonidine",
+        "accepted": false
+      }
+    ],
+    "all_known_hazards_dropped": true,
+    "responses_complete": true
+  },
+  "dev_gates": {
+    "true_retention_at_least_0_80": true,
+    "precision_gain_at_least_0_15": false,
+    "strict_f1_gain_at_least_3": true
+  },
+  "test": null,
+  "test_gates": null,
+  "status": "dev_failed_test_canceled"
+}

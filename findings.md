@@ -656,6 +656,16 @@ The strongest verified direction is conservative structural cleanup:
   H23-absent matches are legitimate clinical concepts in context (for example
   a patient actually falling). A contextual verifier should therefore enforce
   semantic boundary/type policy, not merely learn to reproduce H23 inclusion.
+- **A KEEP/DROP verifier cannot fix a wrong candidate boundary.** H27 retains
+  81.40% of H23-present additions and raises dev strict F1 by 4.06 points, but
+  improves pseudo precision by only 10.82 points versus the registered 15-point
+  gate. Its residual errors include incomplete `Phù`/`Đau`/`Dị ứng` spans that
+  require choosing a complete local span, not another acceptance threshold.
+- **H27's apparent false positives are partly unlabeled, not necessarily
+  wrong.** Explicit falls, seizures, pneumonia, CT imaging, hypoxia and bleeding
+  were absent from H23 yet accepted in clinically coherent contexts. H23-based
+  precision remains a conservative diagnostic and cannot authorize a ZIP by
+  itself.
 
 - Keep every experiment deterministic and byte-identical on rerun.
 - Treat each leaderboard submission as a preregistered ablation, not as a

@@ -1,0 +1,1879 @@
+{
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "candidate_digest": "0feeb1fa48c63c4608c6c64d4e133319da4374b9310a3772b1fe5ab7323a8daa",
+  "complete": 85,
+  "eligible": 85,
+  "rows": [
+    {
+      "id": 0,
+      "record": 3,
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1336,
+        1339
+      ],
+      "record_support": 2,
+      "context": "ến bệnh\n    - Được con trai phát hiện tại nhà lúc khoảng 11:00 sáng, nằm sải trên sàn.\n    - Than phiền về không thể tự đứng dậy do yếu sức chân phải.\n    - Không nhớ cách mình bị ⟦ngã⟧ xuống sàn hay lý do tại sao mình bị ngã.\n    - không thể chịu lực ở chân phải, liên tục khuỵu chân khi được giúp đỡ đứng dậy.\n    - Đã được chụp chụp ct sọ não kết quả âm tính.\n  ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "homonym_nonclinical"
+      },
+      "accepted": true
+    },
+    {
+      "id": 1,
+      "record": 3,
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1376,
+        1379
+      ],
+      "record_support": 2,
+      "context": "i nhà lúc khoảng 11:00 sáng, nằm sải trên sàn.\n    - Than phiền về không thể tự đứng dậy do yếu sức chân phải.\n    - Không nhớ cách mình bị ngã xuống sàn hay lý do tại sao mình bị ⟦ngã⟧.\n    - không thể chịu lực ở chân phải, liên tục khuỵu chân khi được giúp đỡ đứng dậy.\n    - Đã được chụp chụp ct sọ não kết quả âm tính.\n    - Đội ngũ y tế tiến hành chọc dò dịch ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "homonym_nonclinical"
+      },
+      "accepted": true
+    },
+    {
+      "id": 2,
+      "record": 3,
+      "text": "âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1508,
+        1515
+      ],
+      "record_support": 5,
+      "context": "mình bị ngã xuống sàn hay lý do tại sao mình bị ngã.\n    - không thể chịu lực ở chân phải, liên tục khuỵu chân khi được giúp đỡ đứng dậy.\n    - Đã được chụp chụp ct sọ não kết quả ⟦âm tính⟧.\n    - Đội ngũ y tế tiến hành chọc dò dịch não tủy.\n    - Bị một cơn nhịp tim chậm nặng và hạ huyết áp ngay sau khi study.\n    - Cơn bệnh tự khỏi sau khi dùng intravenous fluids.\n",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 3,
+      "record": 3,
+      "text": "âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1734,
+        1741
+      ],
+      "record_support": 5,
+      "context": "dịch não tủy.\n    - Bị một cơn nhịp tim chậm nặng và hạ huyết áp ngay sau khi study.\n    - Cơn bệnh tự khỏi sau khi dùng intravenous fluids.\n    - Chụp lại chụp ct sọ não, kết quả ⟦âm tính⟧.\n    - Chuyển đến bệnh viện để tiếp tục điều trị.\n    - Được gọi là Code tai biến mạch máu não.\n    - Ban đầu tỉnh chậm phản xạ kém.\n    - Dần dần tỉnh táo hơn tỉnh táo và tỉnh kh",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 4,
+      "record": 3,
+      "text": "âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2729,
+        2736
+      ],
+      "record_support": 5,
+      "context": "hứng liên quan: mệt mỏi\n    Các sự kiện trước khi nhập viện\n    - Được con trai phát hiện tại nhà.\n    - Than phiền về yếu sức chân phải.\n    - Đã được chụp chụp ct sọ não kết quả ⟦âm tính⟧.\n    - Tiến hành chọc dò dịch não tủy.\n    - Bị nhịp tim chậm nặng và hạ huyết áp, không đặc hiệu.\n    - Cơn bệnh tự khỏi sau khi dùng intravenous fluids.\n    - Chụp lại chụp ct s",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 5,
+      "record": 3,
+      "text": "âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2931,
+        2938
+      ],
+      "record_support": 5,
+      "context": "nh chọc dò dịch não tủy.\n    - Bị nhịp tim chậm nặng và hạ huyết áp, không đặc hiệu.\n    - Cơn bệnh tự khỏi sau khi dùng intravenous fluids.\n    - Chụp lại chụp ct sọ não, kết quả ⟦âm tính⟧.\n    - Đã dùng kháng sinh cho nhiễm trùng nhiễm trùng răng miệng gần đây.\n    Tình trạng ngay trước khi nhập viện\n    - Nằm sải trên sàn.\n    - không thể tự đứng dậy do yếu sức ch",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 6,
+      "record": 3,
+      "text": "âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        3610,
+        3617
+      ],
+      "record_support": 5,
+      "context": "iường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: ⟦âm tính⟧\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 7,
+      "record": 3,
+      "text": "mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        3720,
+        3724
+      ],
+      "record_support": 2,
+      "context": "hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh ⟦mạch⟧",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "wrong_type"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "homonym_nonclinical"
+      },
+      "accepted": false
+    },
+    {
+      "id": 8,
+      "record": 6,
+      "text": "co giật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        177,
+        184
+      ],
+      "record_support": 2,
+      "context": "1.  Tiền sử bệnh lý\n\nBệnh tim mạch do xơ vữa động mạch.\năng huyết áp.Rối loạn lipid máu.\nĐái tháo đường.2. \nBệnh sử\nLý do vào viện: Cơn rối loạn ý thức thoáng qua, nghi ngờ cơn ⟦co giật⟧.\nKhoảng 1 tháng trước nhập viện, bệnh nhân bị ngã và được chẩn đoán xuất huyết dưới nhện. Chụp cắt lớp vi tính sọ não cho hình ảnh  xuất huyết dưới nhện vùng trán phải, bầm dập nh",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 9,
+      "record": 6,
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        231,
+        234
+      ],
+      "record_support": 2,
+      "context": "ạch.\năng huyết áp.Rối loạn lipid máu.\nĐái tháo đường.2. \nBệnh sử\nLý do vào viện: Cơn rối loạn ý thức thoáng qua, nghi ngờ cơn co giật.\nKhoảng 1 tháng trước nhập viện, bệnh nhân bị ⟦ngã⟧ và được chẩn đoán xuất huyết dưới nhện. Chụp cắt lớp vi tính sọ não cho hình ảnh  xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 10,
+      "record": 6,
+      "text": "chụp CT",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        862,
+        869
+      ],
+      "record_support": 3,
+      "context": "ừng quay lại khoa Cấp cứu vì đau đầu kéo dài. \nChụp kiểm tra ghi nhận tụ máu ngoài màng cứng phải cấp tính trên nền tổn thương mạn tính. \nBệnh nhân tiếp tục được theo dõi, các lần ⟦chụp CT⟧ kiểm tra không ghi nhận diễn tiến xấu nên được xuất viện về nhà.\nTrong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh đầu, kèm cả",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 11,
+      "record": 6,
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1126,
+        1129
+      ],
+      "record_support": 2,
+      "context": "gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ⟦ngã⟧.\nNgày vào viện, buổi sáng bệnh nhân thức dậy tỉnh táo, sinh hoạt bình thường, ăn sáng, đọc báo và sử dụng máy tính. Đến cuối buổi sáng, khi đang đi trong nhà, bệnh nhân nói muốn đ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 12,
+      "record": 6,
+      "text": "bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1195,
+        1206
+      ],
+      "record_support": 4,
+      "context": "hái dương phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.\nNgày vào viện, buổi sáng bệnh nhân thức dậy tỉnh táo, sinh hoạt ⟦bình thường⟧, ăn sáng, đọc báo và sử dụng máy tính. Đến cuối buổi sáng, khi đang đi trong nhà, bệnh nhân nói muốn đi vệ sinh. \nNgười nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định h",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "wrong_type"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 13,
+      "record": 6,
+      "text": "cắn lưỡi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1929,
+        1937
+      ],
+      "record_support": 2,
+      "context": "n. \nKhi nhân viên cấp cứu đến nơi, bệnh nhân bắt đầu tỉnh táo trở lại và hồi phục hoàn toàn về trạng thái ban đầu.\nBệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không ⟦cắn lưỡi⟧ và không tiểu tiện không tự chủ trong cơn.\nTriệu chứng khi nhập viện:\nĐau đầu vùng thái dương phải, đỉnh đầu, đôi khi lan ra sau mắt phải.\nTê bì vùng trán phải, da đầu phải và nửa",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 14,
+      "record": 6,
+      "text": "tiểu tiện không tự chủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1947,
+        1969
+      ],
+      "record_support": 2,
+      "context": "cấp cứu đến nơi, bệnh nhân bắt đầu tỉnh táo trở lại và hồi phục hoàn toàn về trạng thái ban đầu.\nBệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không cắn lưỡi và không ⟦tiểu tiện không tự chủ⟧ trong cơn.\nTriệu chứng khi nhập viện:\nĐau đầu vùng thái dương phải, đỉnh đầu, đôi khi lan ra sau mắt phải.\nTê bì vùng trán phải, da đầu phải và nửa mặt phải.\nCơn rối loạn ý thức t",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 15,
+      "record": 20,
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        327,
+        335
+      ],
+      "record_support": 2,
+      "context": "ơi với 1 con chó con nhà em (chó chưa tiêm dại) tuổi có có dính nước dãi của chó con vào tay. \nHôm qua em vô tình đọc được thông tin là nếu dính nước dãi chó vẫn có nguy cơ lây ⟦bệnh dại⟧. Vậy bác sỹ cho em hỏi trong trường hợp của em có bị sao không ạ?\nMong nhận được sự tư vấn của bác sỹ\n\nBác sĩ trả lời \nChào bạn,\nĐể giải đáp thắc mắc của bạn, tôi xin chi",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 16,
+      "record": 20,
+      "text": "Bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        549,
+        557
+      ],
+      "record_support": 2,
+      "context": "ng hợp của em có bị sao không ạ?\nMong nhận được sự tư vấn của bác sỹ\n\nBác sĩ trả lời \nChào bạn,\nĐể giải đáp thắc mắc của bạn, tôi xin chia sẻ một số thông tin như sau:\n⟦Bệnh dại⟧ chỉ không chỉ lây qua vết cắn của động vật. Đường lây bệnh dại phổ biến nhất là do bị động vật dại cắn. Bệnh dại còn có thể lây truyền từ nước bọt của chó, mèo dại\n hoặc động vật ",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 17,
+      "record": 20,
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        612,
+        620
+      ],
+      "record_support": 2,
+      "context": "ác sỹ\n\nBác sĩ trả lời \nChào bạn,\nĐể giải đáp thắc mắc của bạn, tôi xin chia sẻ một số thông tin như sau:\nBệnh dại chỉ không chỉ lây qua vết cắn của động vật. Đường lây ⟦bệnh dại⟧ phổ biến nhất là do bị động vật dại cắn. Bệnh dại còn có thể lây truyền từ nước bọt của chó, mèo dại\n hoặc động vật khác mắc bệnh dại do cào hoặc liếm vào vết thương, những vùng d",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 18,
+      "record": 20,
+      "text": "Bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        662,
+        670
+      ],
+      "record_support": 2,
+      "context": "thắc mắc của bạn, tôi xin chia sẻ một số thông tin như sau:\nBệnh dại chỉ không chỉ lây qua vết cắn của động vật. Đường lây bệnh dại phổ biến nhất là do bị động vật dại cắn. ⟦Bệnh dại⟧ còn có thể lây truyền từ nước bọt của chó, mèo dại\n hoặc động vật khác mắc bệnh dại do cào hoặc liếm vào vết thương, những vùng da bị trầy xước của cơ thể.\n1. Bệnh dại có lây khôn",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "homonym_nonclinical"
+      },
+      "accepted": true
+    },
+    {
+      "id": 19,
+      "record": 20,
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        746,
+        754
+      ],
+      "record_support": 2,
+      "context": "g chỉ lây qua vết cắn của động vật. Đường lây bệnh dại phổ biến nhất là do bị động vật dại cắn. Bệnh dại còn có thể lây truyền từ nước bọt của chó, mèo dại\n hoặc động vật khác mắc ⟦bệnh dại⟧ do cào hoặc liếm vào vết thương, những vùng da bị trầy xước của cơ thể.\n1. Bệnh dại có lây không?\nBệnh dại do Lyssavirus, thuộc họ Lyssaviridae gây ra. Sau khi xâm nhập vào cơ thể",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "homonym_nonclinical"
+      },
+      "accepted": true
+    },
+    {
+      "id": 20,
+      "record": 20,
+      "text": "Bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        830,
+        838
+      ],
+      "record_support": 2,
+      "context": "ật dại cắn. Bệnh dại còn có thể lây truyền từ nước bọt của chó, mèo dại\n hoặc động vật khác mắc bệnh dại do cào hoặc liếm vào vết thương, những vùng da bị trầy xước của cơ thể.\n1. ⟦Bệnh dại⟧ có lây không?\nBệnh dại do Lyssavirus, thuộc họ Lyssaviridae gây ra. Sau khi xâm nhập vào cơ thể người và động vật có vú, virus di chuyển theo hệ thần kinh vào tủy sống và não, phá",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "homonym_nonclinical"
+      },
+      "accepted": true
+    },
+    {
+      "id": 21,
+      "record": 20,
+      "text": "Bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        853,
+        861
+      ],
+      "record_support": 2,
+      "context": "n có thể lây truyền từ nước bọt của chó, mèo dại\n hoặc động vật khác mắc bệnh dại do cào hoặc liếm vào vết thương, những vùng da bị trầy xước của cơ thể.\n1. Bệnh dại có lây không?\n⟦Bệnh dại⟧ do Lyssavirus, thuộc họ Lyssaviridae gây ra. Sau khi xâm nhập vào cơ thể người và động vật có vú, virus di chuyển theo hệ thần kinh vào tủy sống và não, phá hủy các trung khu thần",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "homonym_nonclinical"
+      },
+      "accepted": true
+    },
+    {
+      "id": 22,
+      "record": 20,
+      "text": "Huyết áp",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1170,
+        1178
+      ],
+      "record_support": 3,
+      "context": "inh vào tủy sống và não, phá hủy các trung khu thần kinh trong đại não, \nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\n⟦Huyết áp⟧:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : 36.3 độ C\nNhịp thở: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  loraze",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 23,
+      "record": 20,
+      "text": "Mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1191,
+        1195
+      ],
+      "record_support": 2,
+      "context": "ão, phá hủy các trung khu thần kinh trong đại não, \nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\n⟦Mạch⟧: 93 l/p\nNhiệt độ : 36.3 độ C\nNhịp thở: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có t",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 24,
+      "record": 20,
+      "text": "Nhiệt độ",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1204,
+        1212
+      ],
+      "record_support": 2,
+      "context": "ác trung khu thần kinh trong đại não, \nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\n⟦Nhiệt độ⟧ : 36.3 độ C\nNhịp thở: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.  Đánh ",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 25,
+      "record": 20,
+      "text": "Nhịp thở",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1225,
+        1233
+      ],
+      "record_support": 2,
+      "context": "h trong đại não, \nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : 36.3 độ C\n⟦Nhịp thở⟧: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.  Đánh giá tại bệnh viện\n2. ",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 26,
+      "record": 20,
+      "text": "SPO2",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1243,
+        1247
+      ],
+      "record_support": 2,
+      "context": "Da niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : 36.3 độ C\nNhịp thở: 14 l/p \n⟦SPO2⟧: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.  Đánh giá tại bệnh viện\n2. Bệnh dại lây t",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 27,
+      "record": 20,
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1319,
+        1322
+      ],
+      "record_support": 4,
+      "context": "ạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : 36.3 độ C\nNhịp thở: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn ⟦đau⟧\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.  Đánh giá tại bệnh viện\n2. Bệnh dại lây truyền qua đường nào?\nVi-rút dại chủ yếu được lây truyền từ nước bọt của các",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 28,
+      "record": 20,
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1365,
+        1368
+      ],
+      "record_support": 4,
+      "context": " mmHg\nMạch: 93 l/p\nNhiệt độ : 36.3 độ C\nNhịp thở: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ ⟦đau⟧  (có thể ngủ\n\n3.  Đánh giá tại bệnh viện\n2. Bệnh dại lây truyền qua đường nào?\nVi-rút dại chủ yếu được lây truyền từ nước bọt của các loài động vật bị dại sang người qua vết cắn h",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 29,
+      "record": 20,
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1618,
+        1626
+      ],
+      "record_support": 2,
+      "context": "ường nào?\nVi-rút dại chủ yếu được lây truyền từ nước bọt của các loài động vật bị dại sang người qua vết cắn hoặc qua vết trầy xước trên cơ thể con người.\n- 96% các trường hợp gây ⟦bệnh dại⟧ ở người tại Đông Nam Á là do chó cắn. Nơi bị chó cắn càng gần thần kinh trung ương thì nạn nhân càng phát bệnh nhanh.\n- Thế giới ghi nhận việc lây bệnh qua không khí có thể xảy ra",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 30,
+      "record": 20,
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1938,
+        1946
+      ],
+      "record_support": 2,
+      "context": "i nhận việc lây bệnh qua không khí có thể xảy ra khi ở trong hang dơi hay tiếp xúc với chất thải của dơi,\n việc lây bệnh qua không khí này đã được ghi nhận tại 4 báo cáo về ca mắc ⟦bệnh dại⟧ ở người và liên quan tới công việc thí nghiệm với động vật. Tuy nhiên các ca mắc dạng này chưa ghi nhận tại Việt Nam.\n- Các yếu tố có thể ảnh hưởng đến sự phát triển lây nhiễm bện",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 31,
+      "record": 26,
+      "text": "mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        127,
+        131
+      ],
+      "record_support": 2,
+      "context": "\nBỆNH MẠCH VÀNH (Coronary Artery Disease – CAD)\n\n1. Bệnh mạch vành là gì? \n\nBệnh mạch vành là tình trạng hẹp hoặc tắc các động ⟦mạch⟧ vành – những mạch máu có nhiệm vụ nuôi dưỡng cơ tim. Nguyên nhân chủ yếu là xơ vữa động mạch, làm giảm tưới máu cơ tim, gây thiếu oxy cơ tim, từ đó dẫn đến đau thắt ngực, nhồi máu",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 32,
+      "record": 26,
+      "text": "mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        145,
+        149
+      ],
+      "record_support": 2,
+      "context": "\nBỆNH MẠCH VÀNH (Coronary Artery Disease – CAD)\n\n1. Bệnh mạch vành là gì? \n\nBệnh mạch vành là tình trạng hẹp hoặc tắc các động mạch vành – những ⟦mạch⟧ máu có nhiệm vụ nuôi dưỡng cơ tim. Nguyên nhân chủ yếu là xơ vữa động mạch, làm giảm tưới máu cơ tim, gây thiếu oxy cơ tim, từ đó dẫn đến đau thắt ngực, nhồi máu cơ tim, suy tim h",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 33,
+      "record": 26,
+      "text": "mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        220,
+        224
+      ],
+      "record_support": 2,
+      "context": " – CAD)\n\n1. Bệnh mạch vành là gì? \n\nBệnh mạch vành là tình trạng hẹp hoặc tắc các động mạch vành – những mạch máu có nhiệm vụ nuôi dưỡng cơ tim. Nguyên nhân chủ yếu là xơ vữa động ⟦mạch⟧, làm giảm tưới máu cơ tim, gây thiếu oxy cơ tim, từ đó dẫn đến đau thắt ngực, nhồi máu cơ tim, suy tim hoặc đột tử .\n\n2. Nguyên nhân và cơ chế bệnh sinh \n\nNguyên nhân chính\n\nXơ vữ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 34,
+      "record": 26,
+      "text": "thiếu oxy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        256,
+        265
+      ],
+      "record_support": 3,
+      "context": "Bệnh mạch vành là tình trạng hẹp hoặc tắc các động mạch vành – những mạch máu có nhiệm vụ nuôi dưỡng cơ tim. Nguyên nhân chủ yếu là xơ vữa động mạch, làm giảm tưới máu cơ tim, gây ⟦thiếu oxy⟧ cơ tim, từ đó dẫn đến đau thắt ngực, nhồi máu cơ tim, suy tim hoặc đột tử .\n\n2. Nguyên nhân và cơ chế bệnh sinh \n\nNguyên nhân chính\n\nXơ vữa động mạch vành:\n • LDL-cholesterol tăng",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 35,
+      "record": 26,
+      "text": "Đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1061,
+        1064
+      ],
+      "record_support": 4,
+      "context": "rí: sau xương ức\nTính chất: đè nặng, bóp nghẹt, thắt chặt\nLan: vai trái – cánh tay trái – cổ – hàm dưới\nThời gian: vài phút\nGiảm khi nghỉ hoặc dùng nitroglycerin\nCác thể lâm sàng\n\n⟦Đau⟧ thắt ngực ổn định\n • Xảy ra khi gắng sức\n • Giảm khi nghỉ\n\nHội chứng vành cấp\n • Đau dữ dội, kéo dài\n • Không đỡ khi nghỉ\n • Gồm:\n • Nhồi máu cơ tim ST chênh\n • Nhồi máu không ST ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 36,
+      "record": 26,
+      "text": "Đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1146,
+        1149
+      ],
+      "record_support": 4,
+      "context": "ái – cổ – hàm dưới\nThời gian: vài phút\nGiảm khi nghỉ hoặc dùng nitroglycerin\nCác thể lâm sàng\n\nĐau thắt ngực ổn định\n • Xảy ra khi gắng sức\n • Giảm khi nghỉ\n\nHội chứng vành cấp\n • ⟦Đau⟧ dữ dội, kéo dài\n • Không đỡ khi nghỉ\n • Gồm:\n • Nhồi máu cơ tim ST chênh\n • Nhồi máu không ST chênh\n • Đau thắt ngực không ổn định\n\nTriệu chứng không điển hình (hay gặp ở nữ, ngườ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "homonym_nonclinical"
+      },
+      "accepted": true
+    },
+    {
+      "id": 37,
+      "record": 32,
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1028,
+        1031
+      ],
+      "record_support": 2,
+      "context": "pid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ⟦ngã⟧ gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "incomplete_boundary"
+      },
+      "accepted": false
+    },
+    {
+      "id": 38,
+      "record": 32,
+      "text": "Ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1040,
+        1043
+      ],
+      "record_support": 2,
+      "context": "ng đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây ⟦Ngã⟧\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất việ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "incomplete_boundary"
+      },
+      "accepted": false
+    },
+    {
+      "id": 39,
+      "record": 32,
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1462,
+        1465
+      ],
+      "record_support": 2,
+      "context": "ời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ⟦ngã⟧ hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.\n    - Nôn không ra máu, không ra dịch mật\n•        Bệnh amy",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 40,
+      "record": 32,
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1581,
+        1584
+      ],
+      "record_support": 15,
+      "context": "Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ ⟦nôn⟧.\n    - Nôn không ra máu, không ra dịch mật\n•        Bệnh amyloidosis chuỗi nhẹ\n•        Bệnh amyloidosis tự miễn dịch\n•        Bệnh amyloidosis di truyền hoặc gia đình\nBệnh thoái ",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 41,
+      "record": 32,
+      "text": "Nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1592,
+        1595
+      ],
+      "record_support": 15,
+      "context": " càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.\n    - ⟦Nôn⟧ không ra máu, không ra dịch mật\n•        Bệnh amyloidosis chuỗi nhẹ\n•        Bệnh amyloidosis tự miễn dịch\n•        Bệnh amyloidosis di truyền hoặc gia đình\nBệnh thoái hóa tinh bộ",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 42,
+      "record": 32,
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2191,
+        2194
+      ],
+      "record_support": 5,
+      "context": "ương \nthêm. Tùy vào loại amyloidosis mà sẽ có phương pháp điều trị khác nhau như:  Uống thuốc, hóa trị, ghép gan,…\nDo đó bạn nên tới gặp bác sĩ khám lại để có phương pháp điều trị ⟦phù⟧ hợp.\n",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "incomplete_boundary"
+      },
+      "accepted": false
+    },
+    {
+      "id": 43,
+      "record": 38,
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        320,
+        323
+      ],
+      "record_support": 2,
+      "context": "pid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ⟦ngã⟧ gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "incomplete_boundary"
+      },
+      "accepted": false
+    },
+    {
+      "id": 44,
+      "record": 38,
+      "text": "Ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        332,
+        335
+      ],
+      "record_support": 2,
+      "context": "ng đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây ⟦Ngã⟧\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất việ",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "incomplete_boundary"
+      },
+      "accepted": false
+    },
+    {
+      "id": 45,
+      "record": 38,
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        754,
+        757
+      ],
+      "record_support": 2,
+      "context": "ời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ⟦ngã⟧ hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.\n    - Nôn không ra máu, không ra dịch mật\n    Các sự kiện t",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 46,
+      "record": 38,
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        873,
+        876
+      ],
+      "record_support": 15,
+      "context": "Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ ⟦nôn⟧.\n    - Nôn không ra máu, không ra dịch mật\n    Các sự kiện trước khi nhập viện\n    - Vừa được xuất viện sau  chẩn đoán cho ảo giác bình thường\n    - Được hướng dẫn ngừng gleevec\n ",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 47,
+      "record": 38,
+      "text": "bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1008,
+        1019
+      ],
+      "record_support": 4,
+      "context": "ác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.\n    - Nôn không ra máu, không ra dịch mật\n    Các sự kiện trước khi nhập viện\n    - Vừa được xuất viện sau  chẩn đoán cho ảo giác ⟦bình thường⟧\n    - Được hướng dẫn ngừng gleevec\n    Tình trạng ngay trước khi nhập viện\n    - Toàn trạng suy kiệt\n    - trượt ngã xuống sàn do yếu cơ\n    - Ăn uống kém, ăn vào dễ nôn.\n    - Nô",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 48,
+      "record": 38,
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        1047,
+        1054
+      ],
+      "record_support": 3,
+      "context": "ào dễ nôn.\n    - Nôn không ra máu, không ra dịch mật\n    Các sự kiện trước khi nhập viện\n    - Vừa được xuất viện sau  chẩn đoán cho ảo giác bình thường\n    - Được hướng dẫn ngừng ⟦gleevec⟧\n    Tình trạng ngay trước khi nhập viện\n    - Toàn trạng suy kiệt\n    - trượt ngã xuống sàn do yếu cơ\n    - Ăn uống kém, ăn vào dễ nôn.\n    - Nôn không ra máu, không ra dịch mật\n\n",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 49,
+      "record": 38,
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1186,
+        1189
+      ],
+      "record_support": 15,
+      "context": "c bình thường\n    - Được hướng dẫn ngừng gleevec\n    Tình trạng ngay trước khi nhập viện\n    - Toàn trạng suy kiệt\n    - trượt ngã xuống sàn do yếu cơ\n    - Ăn uống kém, ăn vào dễ ⟦nôn⟧.\n    - Nôn không ra máu, không ra dịch mật\n\nCâu trả lời của bác sĩ:\n\nChào em,\nPhụ nữ đang cho con bú có thể dùng que cấy tránh thai. Que tránh thai được cấy  trong khoảng 5 ngày đ",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 50,
+      "record": 38,
+      "text": "bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1815,
+        1826
+      ],
+      "record_support": 4,
+      "context": "  - inr là 1.4\n    - Tăng men gan. với alt là 176 và ast là 287\n    - tổng phân tích nước tiểu có đái tháo đườngđái tháo đường\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là ⟦bình thường⟧\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 51,
+      "record": 39,
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1191,
+        1194
+      ],
+      "record_support": 4,
+      "context": "ặc hiệu\n- mệt mỏi\n- mệt mỏi\nTheo như mô tả của Bạn cháu bé bị bệnh bàn chân bẹt, đây là tật bẩm sinh không ảnh hưởng nhiều đến sức khỏe. Hiện tại cháu chạy nhảy bình thường, không ⟦đau⟧, chưa có chỉ định phẫu thuật, Tuy nhiên bạn nên cho cháu đến bệnh viện để kiểm tra đánh giá bất thường về xương, khám lâm sàng để đánh giá các thiếu hụt về phần mềm, trên cơ sở đó",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "incomplete_boundary"
+      },
+      "accepted": false
+    },
+    {
+      "id": 52,
+      "record": 39,
+      "text": "Viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1932,
+        1941
+      ],
+      "record_support": 2,
+      "context": "x-quang ngực có xẹp phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi.\nCác thủ thuật đã thực hiện\n- Truyền dịch tĩnh mạch 750cc\n- Xông khí dung\nCác phát hiện chẩn đoán khác\n- ⟦Viêm phổi⟧ bệnh viện\n- Rung nhĩ kèm nhịp nhanh trên thất",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 53,
+      "record": 50,
+      "text": "chụp cắt lớp vi tính (ct) đầu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        110,
+        139
+      ],
+      "record_support": 3,
+      "context": "1.  Tiền sử bệnh\n    Các tập tương tự trước đây\n    - Nhập viện khoa Thần kinh từ [Date] với thông não so với ⟦chụp cắt lớp vi tính (ct) đầu⟧ từ [Date].\n    - Bị tăng đau đầu cải thiện khi nằm ngửa.\n    - Nhập viện khoa Thần kinh vào thời điểm đó để điều trị chứng đau đầu.\n    - Được bác sĩ nhãn khoa khám trong quá trìn",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 54,
+      "record": 50,
+      "text": "tăng nhãn áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        504,
+        516
+      ],
+      "record_support": 3,
+      "context": "p viện đó và không phát hiện phù gai thị.\n    Bệnh lý mãn tính: não úng thuỷ khác từ thời kỳ sơ sinh\n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật đặt cảng để điều trị chứng ⟦tăng nhãn áp⟧ ở thời kỳ sơ sinh\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế khi 3 tháng tuổi\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế lại khi [Số] tuổi\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 55,
+      "record": 50,
+      "text": "bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1726,
+        1737
+      ],
+      "record_support": 4,
+      "context": "t các nghiên cứu đều chẩn đoán xác định VPHT bằng CT ngực. Các hình ảnh chính trong VPHT như sau:\n- Có vùng đông đặc phổi nhưng không giảm thể tích.\n- Phá hủy cấu trúc nhu mô phổi ⟦bình thường⟧ với sự hiện diện của vùng giảm bắt thuốc cản quang. \n    - Phù gai thị (theo báo cáo của bác sĩ nhãn khoa)\n",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "wrong_type"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "accepted": false
+    },
+    {
+      "id": 56,
+      "record": 50,
+      "text": "Phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1797,
+        1800
+      ],
+      "record_support": 5,
+      "context": " chính trong VPHT như sau:\n- Có vùng đông đặc phổi nhưng không giảm thể tích.\n- Phá hủy cấu trúc nhu mô phổi bình thường với sự hiện diện của vùng giảm bắt thuốc cản quang. \n    - ⟦Phù⟧ gai thị (theo báo cáo của bác sĩ nhãn khoa)\n",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 57,
+      "record": 56,
+      "text": "mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        488,
+        492
+      ],
+      "record_support": 2,
+      "context": "ành nghiêm trọng \nCác thủ thuật đã thực hiện\n- Chụp động mạch vành can thiệp\nCâu trả lời của bác sĩ: \n\nViêm hang vị sung huyết là tình trạng niêm mạc vùng hang vị dạ dày viêm, các ⟦mạch⟧ máu vùng viêm giãn nở do ứ máu nhiều. Biểu hiện chủ yếu là đau bụng cồn cào kèm theo ợ hơi, ợ chua, có thể có cảm giác buồn nôn hoặc nôn. Trước kia bệnh dạ dày được coi là bệnh na",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "wrong_type"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "accepted": false
+    },
+    {
+      "id": 58,
+      "record": 56,
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1747,
+        1750
+      ],
+      "record_support": 5,
+      "context": "hút thuốc lá, thuốc lào. Hạn chế uống cà phê... Khi ăn nên ăn chậm, nhai kỹ, ăn uống điều độ đúng giờ, đủ bữa, không ăn quá no hoặc để quá đói. Và cần có chế độ tập luyện ⟦phù⟧ hợp.",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "wrong_type"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "accepted": false
+    },
+    {
+      "id": 59,
+      "record": 62,
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        562,
+        565
+      ],
+      "record_support": 4,
+      "context": " thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có ⟦đau⟧ buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 60,
+      "record": 62,
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        885,
+        888
+      ],
+      "record_support": 15,
+      "context": "eo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/⟦nôn⟧\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 61,
+      "record": 62,
+      "text": "đổ mồ hôi đêm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        904,
+        917
+      ],
+      "record_support": 2,
+      "context": "ưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận ⟦đổ mồ hôi đêm⟧\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần t",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 62,
+      "record": 62,
+      "text": "spo2",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1307,
+        1311
+      ],
+      "record_support": 2,
+      "context": "hế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận ⟦spo2⟧ là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.  Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - số lượng bạch",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 63,
+      "record": 62,
+      "text": "spo2",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1322,
+        1326
+      ],
+      "record_support": 2,
+      "context": "ng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% ⟦spo2⟧ khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.  Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - số lượng bạch cầu là 12.5\n  ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 64,
+      "record": 62,
+      "text": "tổng phân tích nước tiểu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1510,
+        1534
+      ],
+      "record_support": 3,
+      "context": " thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.  Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - số lượng bạch cầu là 12.5\n    - ⟦tổng phân tích nước tiểu⟧ đáng chú ý chỉ có vếtvết protein niệu.  \n    - troponin âm tính x1\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực được cho là viêm phổi thùy dưới phải (RLL PNA)",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 65,
+      "record": 62,
+      "text": "troponin",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1582,
+        1590
+      ],
+      "record_support": 2,
+      "context": " đến phòng cấp cứu\n\n3.  Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - số lượng bạch cầu là 12.5\n    - tổng phân tích nước tiểu đáng chú ý chỉ có vếtvết protein niệu.  \n    - ⟦troponin⟧ âm tính x1\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực được cho là viêm phổi thùy dưới phải (RLL PNA)",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 66,
+      "record": 62,
+      "text": "âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1591,
+        1598
+      ],
+      "record_support": 5,
+      "context": "g cấp cứu\n\n3.  Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - số lượng bạch cầu là 12.5\n    - tổng phân tích nước tiểu đáng chú ý chỉ có vếtvết protein niệu.  \n    - troponin ⟦âm tính⟧ x1\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực được cho là viêm phổi thùy dưới phải (RLL PNA)",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 67,
+      "record": 69,
+      "text": "ý định tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        34,
+        46
+      ],
+      "record_support": 2,
+      "context": "1.  Tiền sử bệnh\n    Nhiều lần có ⟦ý định tự tử⟧ trước đây do chia tay bạn trai cũ\n    Bệnh lý mãn tính\n    - trầm cảm và  rối loạn lo âu\n2.  Bệnh sử hiện tại\n    Lý do nhập viện:  tổn thương chi dưới do tự tử không thành\n    Th",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 68,
+      "record": 69,
+      "text": "tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        202,
+        207
+      ],
+      "record_support": 2,
+      "context": "hiều lần có ý định tự tử trước đây do chia tay bạn trai cũ\n    Bệnh lý mãn tính\n    - trầm cảm và  rối loạn lo âu\n2.  Bệnh sử hiện tại\n    Lý do nhập viện:  tổn thương chi dưới do ⟦tự tử⟧ không thành\n    Theo lời người nhà kể lại bệnh nhân bị sốc khi chia tay bạn trai cũ, bị bạn bè trêu chọc, buồn chán, uống nhiều rượu,hút cần sa. Sau đó lái xe đến một cây cầu, nhả",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "accepted": false
+    },
+    {
+      "id": 69,
+      "record": 69,
+      "text": "ý định tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        595,
+        607
+      ],
+      "record_support": 2,
+      "context": "ân nhảy cầu tự tử, sau đó tổn thương chi dưới , vào viện\nTình trạng khi đến khoa Cấp cứu:\nBệnh nhân tỉnh, tiếp xúc tốt\nKhông xác nhận đã bị trầm cảm trước đó, và không xác nhận có ⟦ý định tự tử⟧\n Khám thấy bị tổn thương tổn thương chi dưới nghiêm trọng.\nChẩn đoán: Phẫu thuật cắt cụt chân trái bên trên gối  và cắt cụt chân phải bên dưới gối / biến chứng thuyên tắc phổi hai",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "accepted": false
+    },
+    {
+      "id": 70,
+      "record": 69,
+      "text": "thuốc giảm đau",
+      "type": "THUỐC",
+      "position": [
+        1116,
+        1130
+      ],
+      "record_support": 4,
+      "context": ".\nDùng kháng sinh tĩnh mạch.\n\nCâu hỏi từ người dùng : Dạ em có một người, hiện tại bạn ấy đang nổi những nét nhẹ nhàng nhẹ nhàng rất đến và khắp nơi, bạn em nổi quanh năm ạ. Những ⟦thuốc giảm đau⟧ nổi bật rất khó chịu và tư vấn, được biết bạn đã từng đi chữa trị và sử dụng rất nhiều thuốc nhưng không đỡ ạ. Mẹ của bạn cũng là người nên Yên tĩnh chắc chắn là dây truyền tải. C",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 71,
+      "record": 69,
+      "text": "dị ứng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1337,
+        1343
+      ],
+      "record_support": 2,
+      "context": " vấn, được biết bạn đã từng đi chữa trị và sử dụng rất nhiều thuốc nhưng không đỡ ạ. Mẹ của bạn cũng là người nên Yên tĩnh chắc chắn là dây truyền tải. Cả hai người đều không phải ⟦dị ứng⟧ thời tiết hay thức ăn, nó có thể nổi lên mọi lúc. Mọi người cho em hỏi là bệnh này là bệnh gì ạ và để lâu có bệnh nặng hay ảnh hưởng nghiêm trọng gì không ạ. Mọi người cho em xin ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 72,
+      "record": 70,
+      "text": "Dị ứng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        182,
+        188
+      ],
+      "record_support": 2,
+      "context": "  Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - béo phì\n    - đái tháo đường được kiểm soát bằng chế độ ăn\n    - ngừng thở khi ngủ\n    - tiền sử lâm sàng suy tim, không đặc hiệu\n    ⟦Dị ứng⟧: Dị ứng furosemide\n\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó th",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "homonym_nonclinical"
+      },
+      "accepted": true
+    },
+    {
+      "id": 73,
+      "record": 72,
+      "text": "corticoid liều thấp",
+      "type": "THUỐC",
+      "position": [
+        332,
+        353
+      ],
+      "record_support": 2,
+      "context": " và những tác dụng gây độc của liệu pháp điều trị. **************** thể hệ sau không gây buồn ngủ là lựa chọn hàng đầu sau đó đến **************** thể hệ 1, ⟦corticoid liều thấp⟧ cách ngày hoặc hàng ngày và giảm liều chậm 2,5 – 5mg mỗi 2-3 tuần. Nếu không đỡ hoặc có chống chỉ định, xin bạn hãy đến với bác sĩ chuyên khoa da liễu để có phương pháp",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 74,
+      "record": 72,
+      "text": "klonopinclonidine",
+      "type": "THUỐC",
+      "position": [
+        746,
+        763
+      ],
+      "record_support": 2,
+      "context": "mãn tính\n    - Rối loạn cảm xúc \n    - Rối loạn lưỡng cực\n    - rối loạn lo âu\n    Thuốc đã điều trị trước khi nhập viện lần này\n    - Thuốc kê đơn (tên không được chỉ định)\n    - ⟦klonopinclonidine⟧ (được kê đơn)\n    - clonidine (mua trên đường phố)\n    - suboxone (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày, dừng thuốc trước nhập viện 01 ngày\n    Các yếu tố nguy cơ liên q",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 75,
+      "record": 72,
+      "text": "ý định tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1046,
+        1058
+      ],
+      "record_support": 2,
+      "context": "ều 5-6 ngày, dừng thuốc trước nhập viện 01 ngày\n    Các yếu tố nguy cơ liên quan\n    - Lạm dụng chất kích thích, chất gây nghiện opioid\n2.   Bệnh sử hiện tại\n    Lý do nhập viện:i ⟦ý định tự tử⟧ và ý nghĩ tự bắn vào đầu\n   Theo lời kể bệnh nhân bị trầm cảm ngày càng nặng , vài tháng trước có các giai đoạn giống hưng cảm  biểu hiện bằng tăng hoạt động và giảm nhu cầu ngủ 3",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 76,
+      "record": 72,
+      "text": "ý định tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1272,
+        1284
+      ],
+      "record_support": 2,
+      "context": "lời kể bệnh nhân bị trầm cảm ngày càng nặng , vài tháng trước có các giai đoạn giống hưng cảm  biểu hiện bằng tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày, trong vài tuần nay và có ⟦ý định tự tử⟧.  Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng suboxone 3 tuần trước vì rẻ hơn, dừng dùng suboxone ngày hôm qua\n    Triệu chứng khi vào viện\n    - ý nghĩ tự tử, có nghĩ",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 77,
+      "record": 75,
+      "text": "béo phì",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        412,
+        419
+      ],
+      "record_support": 5,
+      "context": "ột dạng nhiễm nấm  thường là do Trichophyton rubrum hoặc là T. mentagrophytes. Các yếu tố nguy cơ chính liên quan đến môi trường ẩm ướt (thời tiết nóng, quần áo ướt và chật, chứng ⟦béo phì⟧ do có nhiều nếp gấp da). Bệnh do nhiễm nấm da mà thành nên để điều trị nấm bẹn bạn phải được sử dụng thuốc kháng nấm dạng bôi hoặc dạng uống theo chỉ định của bác sĩ da liễu với l",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    },
+    {
+      "id": 78,
+      "record": 78,
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        759,
+        762
+      ],
+      "record_support": 12,
+      "context": "hám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không ⟦sốt⟧\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.  khám tại bệnh viện\n    Dấu hiệu lâm sàng\n    - ban đỏ ở vị trí phẫu thuật\n    - đau ấn vùng mổ\n    - không sốt\nVùn",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 79,
+      "record": 78,
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        935,
+        938
+      ],
+      "record_support": 12,
+      "context": "ông sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.  khám tại bệnh viện\n    Dấu hiệu lâm sàng\n    - ban đỏ ở vị trí phẫu thuật\n    - đau ấn vùng mổ\n    - không ⟦sốt⟧\nVùng mũi luôn có các cấu trúc mạch máu phong phú đặc biệt có các điểm hội tụ mạch máu gọi là các điểm mạch. Khi có thay đổi huyết áp, hắt hơi mạnh, viêm nhiễm hoặc tác động như ng",
+      "pseudo_positive": true,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 80,
+      "record": 78,
+      "text": "mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        969,
+        973
+      ],
+      "record_support": 2,
+      "context": "iện các triệu chứng toàn thân khác\n3.  khám tại bệnh viện\n    Dấu hiệu lâm sàng\n    - ban đỏ ở vị trí phẫu thuật\n    - đau ấn vùng mổ\n    - không sốt\nVùng mũi luôn có các cấu trúc ⟦mạch⟧ máu phong phú đặc biệt có các điểm hội tụ mạch máu gọi là các điểm mạch. Khi có thay đổi huyết áp, hắt hơi mạnh, viêm nhiễm hoặc tác động như ngoáy mũi có thể gây tổn thương điểm ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 81,
+      "record": 78,
+      "text": "mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1016,
+        1020
+      ],
+      "record_support": 2,
+      "context": " bệnh viện\n    Dấu hiệu lâm sàng\n    - ban đỏ ở vị trí phẫu thuật\n    - đau ấn vùng mổ\n    - không sốt\nVùng mũi luôn có các cấu trúc mạch máu phong phú đặc biệt có các điểm hội tụ ⟦mạch⟧ máu gọi là các điểm mạch. Khi có thay đổi huyết áp, hắt hơi mạnh, viêm nhiễm hoặc tác động như ngoáy mũi có thể gây tổn thương điểm mạch và gây chảy máu mũi. Đa số là chảy máu ít ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 82,
+      "record": 78,
+      "text": "mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1041,
+        1045
+      ],
+      "record_support": 2,
+      "context": "âm sàng\n    - ban đỏ ở vị trí phẫu thuật\n    - đau ấn vùng mổ\n    - không sốt\nVùng mũi luôn có các cấu trúc mạch máu phong phú đặc biệt có các điểm hội tụ mạch máu gọi là các điểm ⟦mạch⟧. Khi có thay đổi huyết áp, hắt hơi mạnh, viêm nhiễm hoặc tác động như ngoáy mũi có thể gây tổn thương điểm mạch và gây chảy máu mũi. Đa số là chảy máu ít và tự cầm. Tuy nhiên, nếu",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 83,
+      "record": 78,
+      "text": "mạch",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1153,
+        1157
+      ],
+      "record_support": 2,
+      "context": " máu phong phú đặc biệt có các điểm hội tụ mạch máu gọi là các điểm mạch. Khi có thay đổi huyết áp, hắt hơi mạnh, viêm nhiễm hoặc tác động như ngoáy mũi có thể gây tổn thương điểm ⟦mạch⟧ và gây chảy máu mũi. Đa số là chảy máu ít và tự cầm. Tuy nhiên, nếu chảy máu tái phát nhiều, số lượng chảy nhiều dẫn đến choáng thì bạn phải đến khoa Tai mũi họng để được nội soi ",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "DROP",
+        "reason": "generic_word"
+      },
+      "boundary": {
+        "action": "DROP",
+        "reason": "clinical_exact"
+      },
+      "accepted": false
+    },
+    {
+      "id": 84,
+      "record": 78,
+      "text": "chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1416,
+        1424
+      ],
+      "record_support": 6,
+      "context": "ái phát nhiều, số lượng chảy nhiều dẫn đến choáng thì bạn phải đến khoa Tai mũi họng để được nội soi mũi họng kiểm tra, cần thiết sẽ đốt điểm mạch ngăn ngừa chảy máu tái phát. Khi ⟦chảy máu⟧ bạn đừng quá hốt hoảng, cố gắng hít sâu thở đều, cúi đầu nhẹ, hai tay bóp cánh mũi khoảng 5 - 10 phút.",
+      "pseudo_positive": false,
+      "semantic": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "boundary": {
+        "action": "KEEP",
+        "reason": "clinical_exact"
+      },
+      "accepted": true
+    }
+  ]
+}

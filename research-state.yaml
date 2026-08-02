@@ -7,14 +7,14 @@ status: active
 started_at: "2026-07-26"
 current_direction: >
   Freeze externally confirmed H23 at 38.9352. H24 retains a type-specialist
-  candidate retriever, but H25 shows that source votes plus Qwen context cannot
-  adjudicate correlated proposal errors: held-out F1 gains are only 0.39/0.40
-  points and addition precision is below 42%. The next independent experiment
-  distilled 235 high-purity span/type phrases from train records only. This
-  improves held-out F1 but remains context-blind and low precision. The next
-  controlled component is a local-LLM semantic verifier over only the fixed
-  phrase candidates, with known homonym and boundary hazards registered before
-  test evaluation. No new submission artifact is authorized yet.
+  candidate retriever. H25 PU calibration failed, while H26's train-only phrase
+  source transferred with useful recall. H27's dual-prompt verifier retained
+  81.40% of H23-present additions and gained 4.06 dev F1 points, but missed its
+  precision-improvement gate and therefore never touched test. Residual errors
+  are dominated by incomplete local boundaries that binary KEEP/DROP cannot
+  repair. The next controlled experiment will choose among enumerated local
+  span expansions on synthetic corruptions plus unchanged controls before any
+  hidden proposal is modified. No new submission artifact is authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -274,12 +274,15 @@ experiments:
     - "H24 fixed type router passes: dev/test R@1 16.67/17.86%, R@5 25.00/30.36%; all four sparse-dense gates clear"
     - "H24 context/graph reranker rejected: graph wins dev R@5 ablation but selected test metrics exactly equal the fixed router"
     - "H24 mined feature classifier rejected: dev/test R@1 unchanged at 16.67/17.86%; graph ablation identical, test R@5 only +1.79"
+    - "H25 contextual PU rejected: dev/test strict F1 gains only +0.39/+0.40; assertion transfer inconsistent"
+    - "H26 train-only phrase source: dev/test F1 gains +4.08/+1.32, but addition precision 50.59/36.11%"
+    - "H27 dual-prompt verifier rejected on dev: retention 81.40%, F1 gain +4.06, pseudo-precision gain +10.82 below +15 gate; test canceled"
   next: >
-    Close the weak-link reranking inner loop and retain the fixed type router as
-    a candidate generator. Start a record-held-out positive-unlabeled
-    span/type/assertion classifier over the heterogeneous proposal banks,
-    because external WER 57.2161 and assertion 47.5455 dominate remaining
-    headroom. Do not alter H23 until that architecture passes frozen gates.
+    Preregister a constrained local boundary selector. Generate explicit
+    candidate expansions around synthetic train/dev corruptions, require exact
+    recovery and unchanged-control retention, and cancel hidden proposal repair
+    unless both gates pass. Do not alter H23 until that architecture passes
+    frozen gates.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
