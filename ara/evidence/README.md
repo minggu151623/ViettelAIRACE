@@ -56,3 +56,6 @@
 - H53 H44 exposure concentration: `tables/h53_h44_exposure_concentration.md`;
   family breadth passes (effective count 47.48), while lexical breadth fails
   (effective count 89.76 below 100), narrowing pre-result semantics.
+- H54 H44 family novelty: `tables/h54_h44_family_novelty.md`; 75.45% of rows
+  and 81.08% of families are H23-novel, so H44 mainly tests cross-family
+  extrapolation while retaining a frozen material seen-family stratum.

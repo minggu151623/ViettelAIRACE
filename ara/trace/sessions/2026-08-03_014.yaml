@@ -1,0 +1,51 @@
+session:
+  id: "2026-08-03_014"
+  timestamp: "2026-08-03T06:25+07:00"
+  summary: "Decomposed H44 into H23-seen and H23-novel families, showing the pending submission mainly tests cross-family extrapolation."
+
+events_logged:
+  - type: experiment
+    id: N67
+    provenance: ai-executed
+    summary: "H54 found that 75.45% of H44 rows and 81.08% of families are H23-novel."
+  - type: claim
+    id: C50
+    provenance: ai-suggested
+    summary: "H44's aggregate result primarily evaluates cross-family extrapolation beyond H23."
+  - type: heuristic
+    id: H23
+    provenance: ai-suggested
+    summary: "Freeze prior-support strata before aggregate evaluation to separate interpolation from extrapolation."
+
+ai_actions:
+  - action: "Preregistered H54 family-novelty strata and dominance gates before calculating them."
+    provenance: ai-executed
+    files_changed:
+      - "experiments/H54_h44_family_novelty_decomposition/protocol.yaml"
+  - action: "Implemented and reproduced the deterministic H23-seen versus H23-novel decomposition."
+    provenance: ai-executed
+    files_changed:
+      - "airace/family_novelty.py"
+      - "tests/test_family_novelty.py"
+      - "experiments/H54_h44_family_novelty_decomposition/results/decomposition.json"
+  - action: "Narrowed H44's pre-result semantics without changing its artifact or numerical gates; validated 160 tests."
+    provenance: ai-executed
+    files_changed:
+      - "experiments/H44_full_who_family_hedge/external_decision_tree.yaml"
+      - "findings.md"
+      - "research-log.md"
+      - "research-state.yaml"
+      - "to_human/h54_h44_family_novelty_report.html"
+
+claims_touched:
+  - id: C50
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Submit unchanged H44 and record all four external metrics against the novelty-aware decision tree."
+  - "Build no H44 subgroup artifact until the revealed branch warrants separate preregistration."
+  - "H41 prediction-blind reviewer labels remain pending."
+
+ai_suggestions_pending:
+  - "Treat negative H44 as rejection of broad cross-family extrapolation, not refutation of H23."

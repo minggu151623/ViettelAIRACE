@@ -875,6 +875,22 @@ tree:
                     evidence: [C49,
                       "experiments/H53_h44_exposure_concentration/results/concentration.json",
                       "ara/evidence/tables/h53_h44_exposure_concentration.md"]
+                    children:
+                      - id: N67
+                        type: experiment
+                        title: "H54 H44 family novelty decomposition"
+                        provenance: ai-executed
+                        timestamp: "2026-08-03T06:25+07:00"
+                        result: >
+                          H23-novel families contain 461/611 H44 rows (75.45%)
+                          and 120/148 families (81.08%), passing both dominance
+                          thresholds. The H23-seen stratum is still material at
+                          150 rows across 28 families. H44 is therefore mainly
+                          a cross-family extrapolation test; negative movement
+                          cannot erase H23's observed CM-exclusive gain.
+                        evidence: [C50,
+                          "experiments/H54_h44_family_novelty_decomposition/results/decomposition.json",
+                          "ara/evidence/tables/h54_h44_family_novelty.md"]
               - id: N57
                 type: dead_end
                 title: "H45 Jaccard-aware ranked-prefix expansion"

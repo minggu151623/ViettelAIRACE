@@ -194,3 +194,13 @@
 - **Sensitivity**: medium
 - **Code ref**: [`airace/exposure_concentration.py`,
   `experiments/H53_h44_exposure_concentration/protocol.yaml`]
+
+## H23: Separate interpolation from extrapolation before aggregate evaluation
+- **Rationale**: A broad intervention can mix cases near prior external
+  evidence with cases in untouched groups. Freeze the prior-support group and
+  decompose exposure before seeing aggregate metrics, so a loss does not
+  over-refute the supported mechanism and a win receives the correct scope.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/family_novelty.py`,
+  `experiments/H54_h44_family_novelty_decomposition/protocol.yaml`]

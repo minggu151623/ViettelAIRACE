@@ -576,6 +576,23 @@
 - **Tags**: concentration, inverse-Simpson, WHO-ICD, lexical-diversity,
   pre-result-interpretation
 
+## C50: H44 primarily tests cross-family extrapolation beyond H23
+- **Statement**: Most H44 interventions belong to WHO parent families absent
+  from H23, so H44's aggregate external result primarily measures cross-family
+  extrapolation rather than within-family extension of H23.
+- **Status**: supported by preregistered pre-result decomposition
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Frozen reports fail to reproduce 461/611 rows and
+  120/148 families in the H23-novel stratum, the strata fail to cover all H44
+  rows, or the H44 artifact hash differs from its registered value.
+- **Proof**: [`experiments/H54_h44_family_novelty_decomposition/protocol.yaml`,
+  `experiments/H54_h44_family_novelty_decomposition/results/decomposition.json`,
+  `airace/family_novelty.py`,
+  `experiments/H44_full_who_family_hedge/external_decision_tree.yaml`]
+- **Dependencies**: [C48, C49]
+- **Tags**: extrapolation, family-novelty, WHO-ICD,
+  pre-result-interpretation
+
 ## C41: Retrieval depth without cardinality calibration reduces candidate Jaccard
 - **Statement**: H24's ranked ontology candidates cannot be converted into a
   better set prediction by selecting a fixed global or entity-type prefix size
