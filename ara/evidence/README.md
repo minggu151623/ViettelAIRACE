@@ -50,3 +50,6 @@
 - H51 bounded H41 gates: `tables/h51_h41_bounded_gate.md`; Hoeffding and
   empirical Bernstein control false promotion but have zero worst-family power
   through `d=1` and n=60, closing synthetic repair of the frozen gate.
+- H52 H44 transfer calibration: `tables/h52_h44_transfer.md`; H44's 611 rows
+  are disjoint from H23's 144, and the frozen strong gate equals 34.25% of
+  H23-equivalent per-row yield rather than universal policy prevalence.

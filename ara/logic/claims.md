@@ -541,6 +541,23 @@
 - **Dependencies**: [C24, C25, C39]
 - **Tags**: WHO-ICD, hierarchy, parent-specific, submission-candidate
 
+## C48: H44's locked strong gate represents material, not universal, transfer
+- **Statement**: H44's 611 interventions are disjoint from H23's 144, and a
+  +0.50 candidate-Jaccard result would retain about 34.25% of H23's
+  exposure-normalized per-row yield rather than prove universal mixed-hierarchy
+  prevalence.
+- **Status**: lineage and arithmetic supported; external transfer pending
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Stable record/position/specific-code identity
+  reveals overlap between H23 and H44, or the frozen row counts and H23 external
+  candidate delta do not reproduce the registered transfer ratios.
+- **Proof**: [`experiments/H52_h44_transfer_calibration/protocol.yaml`,
+  `experiments/H52_h44_transfer_calibration/results/transfer.json`,
+  `airace/h44_transfer.py`,
+  `experiments/H44_full_who_family_hedge/external_decision_tree.yaml`]
+- **Dependencies**: [C40]
+- **Tags**: exposure-calibration, lineage, WHO-ICD, pre-result-interpretation
+
 ## C41: Retrieval depth without cardinality calibration reduces candidate Jaccard
 - **Statement**: H24's ranked ontology candidates cannot be converted into a
   better set prediction by selecting a fixed global or entity-type prefix size

@@ -843,6 +843,21 @@ tree:
               Jaccard movement. The null band and strong gate were registered
               before the leaderboard values were known.
             children:
+              - id: N65
+                type: experiment
+                title: "H52 pre-result H44 lineage and transfer calibration"
+                provenance: ai-executed
+                timestamp: "2026-08-03T05:55+07:00"
+                result: >
+                  Stable occurrence identities showed zero overlap between
+                  H23's 144 and H44's 611 rows, correcting the additional
+                  exposure from 467 to 611 and union to 755. Full H23-equivalent
+                  per-row yield forecasts +1.4600 candidate Jaccard; the frozen
+                  practical and strong gates equal 1.37% and 34.25% of that
+                  yield. Numerical gates and H44 ZIP remained unchanged.
+                evidence: [C48,
+                  "experiments/H52_h44_transfer_calibration/results/transfer.json",
+                  "ara/evidence/tables/h52_h44_transfer.md"]
               - id: N57
                 type: dead_end
                 title: "H45 Jaccard-aware ranked-prefix expansion"

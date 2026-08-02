@@ -1,0 +1,45 @@
+session:
+  id: "2026-08-03_012"
+  timestamp: "2026-08-03T05:55+07:00"
+  summary: "Corrected H44's pre-result lineage to 611 disjoint rows and calibrated its frozen gates as H23-equivalent exposure yields."
+
+events_logged:
+  - type: experiment
+    id: N65
+    provenance: ai-executed
+    summary: "H52 confirmed zero H23/H44 overlap and mapped practical/strong gates to 1.37%/34.25% H23-equivalent yield."
+  - type: claim
+    id: C48
+    provenance: ai-suggested
+    summary: "H44 strong positive would show material broad transfer, not universal mixed-hierarchy prevalence."
+
+ai_actions:
+  - action: "Registered an audit after an exploratory row-count inconsistency and matched interventions using stable occurrence identities."
+    provenance: ai-executed
+    files_changed:
+      - "experiments/H52_h44_transfer_calibration/protocol.yaml"
+      - "airace/h44_transfer.py"
+      - "tests/test_h44_transfer.py"
+  - action: "Corrected H44's external decision-tree counts and interpretive wording before score reveal without moving numerical gates."
+    provenance: ai-executed
+    files_changed:
+      - "experiments/H44_full_who_family_hedge/external_decision_tree.yaml"
+  - action: "Validated 154 tests and created the H52 transfer report."
+    provenance: ai-executed
+    files_changed:
+      - "findings.md"
+      - "research-log.md"
+      - "research-state.yaml"
+      - "to_human/h52_h44_transfer_report.html"
+
+claims_touched:
+  - id: C48
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Submit H44 once and record all four external metrics against the corrected locked tree."
+  - "H41 independent reviewer labels remain pending."
+
+ai_suggestions_pending:
+  - "Interpret H44's external candidate delta as exposure-normalized transfer, not hidden policy prevalence."
