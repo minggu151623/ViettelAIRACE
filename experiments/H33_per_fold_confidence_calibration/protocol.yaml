@@ -1,0 +1,55 @@
+hypothesis: H33_per_fold_validation_calibration
+status: preregistered
+created_at: "2026-08-03T02:05:00+07:00"
+question: >
+  Can validation-calibrated thresholds remove H32's cross-checkpoint confidence
+  drift while preserving out-of-fold precision and useful recall?
+
+frozen_checkpoints:
+  fold_0: fdf591eb995781e30ee928e67ecabc0939424a92ea6c6300429aa8b9c99e6c82
+  fold_1: 8327a5f2879865d481a30d9c2a51198f2dcc429878f8cc122599dbaafb74377e
+  fold_2: 585d3c23455962ba148e835cb1ab1537cd54141905fcff2f468c73e18372188f
+  fold_3: d5178f10dc55c4170c350b633e73b876f905af8b7fb00476735331922124bd17
+  fold_4: a34c7be1b628d9e59ee40f1eaf92cc3ba582168a8a3f9fef6137fe436e705615
+  retraining_allowed: false
+
+folds:
+  source: airace.crossfit_voter.make_folds_seed_9191
+  calibration_records: next_fold_cyclic_20_records
+  inference_records: current_fold_20_records
+  invariant: calibration_and_inference_disjoint
+
+calibration:
+  thresholds:
+    - 0.50
+    - 0.60
+    - 0.70
+    - 0.80
+    - 0.85
+    - 0.90
+    - 0.95
+  selection_per_fold: highest_validation_F1_subject_to_precision_at_least_0.80
+  tie_break: higher_precision_then_higher_threshold
+  no_eligible_threshold: experiment_fails
+  inference_threshold_retuning: forbidden
+
+aggregate_gate:
+  - exact_span_type_precision_at_least_0.78
+  - exact_span_type_F1_at_least_0.55
+  - exact_span_type_recall_at_least_0.40
+  - every_nonempty_fold_precision_at_least_0.70
+  - every_fold_emits_at_least_one_prediction
+  - offset_errors_equal_0
+  - deterministic_second_inference
+
+agreement_if_passed:
+  function: airace.crossfit_voter.agreement_queue
+  independent_sources:
+    - H26_train_only_phrase_policy
+    - H15_VietMed
+  same_family_Bami_sources_excluded: true
+  output: context_rich_manual_audit_queue
+
+promotion_policy: >
+  Passing promotes a calibrated OOF voter and audit queue, not a submission.
+  Any merge into H23 requires a new protocol with explicit conservative rules.
