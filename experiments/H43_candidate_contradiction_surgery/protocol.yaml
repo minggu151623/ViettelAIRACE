@@ -17,7 +17,8 @@ motivation:
   frozen_inventory:
     entities: 3226
     candidate_uses: 1219
-    unique_type_mention_code_tuples: 408
+    unique_candidate_codes: 408
+    unique_type_mention_code_tuples: 621
     diagnosis_entities_without_candidate: 22
     drug_entities_without_candidate: 75
   rationale: >
@@ -63,7 +64,7 @@ registered_controls:
 
 registered_gates:
   - source_zip_hash_matches
-  - all_408_unique_tuples_receive_two_valid_decisions
+  - all_621_unique_tuples_receive_two_valid_decisions
   - exact_KEEP_DROP_agreement_between_passes_at_least_0_90
   - all_curated_safe_alias_positive_controls_retained
   - at_least_0_80_of_19_registered_hazard_uses_removed
@@ -83,3 +84,12 @@ if_passed:
   artifact: turn2/output_v11_candidate_surgery.zip
   submission_priority: first_of_five_reset_slots
   expected_external_invariants: [wer_unchanged, assertion_jaccard_unchanged]
+
+feasibility_amendment_1: >
+  The preregistered inventory accidentally recorded 408 unique candidate codes
+  as the number of review units. The implementation census reported 621 unique
+  type + normalized mention + code tuples. The first run was interrupted after
+  its 32/621 progress line, before the review artifact was written or any model
+  decision was inspected. The inventory and completeness gate are corrected to
+  621; prompts, seeds, thresholds, controls, change window and failure policy
+  remain unchanged, and the review restarts from tuple zero.
