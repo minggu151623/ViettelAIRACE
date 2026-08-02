@@ -1097,3 +1097,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   cross-fit is required so all 100 records receive out-of-fold predictions,
   followed by exact agreement with an independent proposal source.
 - No ZIP or competition submission was created.
+
+## 2026-08-03 — H32 cross-fit exposes confidence drift
+
+- Trained five models with 60 training, 20 validation and 20 unseen inference
+  records each. Every record was inferred out of fold at frozen confidence 0.90.
+- Aggregate precision/recall/F1 was 83.06/36.68/50.89%. Precision and offsets
+  passed, but recall and F1 failed their 40/55% gates.
+- Fold precision ranged 79.34–86.27% for non-empty folds. Fold 4 stopped after
+  three epochs and emitted no span above 0.90, proving cross-checkpoint
+  confidence drift.
+- The independent agreement queue was not generated. No ZIP was created. The
+  five frozen models may only proceed through per-fold validation calibration.

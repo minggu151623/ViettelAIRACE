@@ -20,9 +20,11 @@ current_direction: >
   records. H30 learned 72.46% dev recall but precision/F1 were only 57.44/64.08%,
   so direct use is rejected. H31 calibrated its frozen confidence and passed:
   threshold 0.90 gives dev/test precision 81.60/84.53% and F1 65.63/62.14%.
-  This is promoted only as a voter. The next experiment will create out-of-fold
-  predictions for all records and require exact agreement with another source.
-  No new submission artifact is authorized yet.
+  H32 created out-of-fold predictions, retaining 83.06% precision but failing
+  recall/F1 at 36.68/50.89% because one fold produced no spans above 0.90.
+  Confidence is checkpoint-specific. The next experiment will calibrate each
+  frozen fold on its disjoint validation set before recomputing aggregate OOF
+  metrics. No new submission artifact is authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -289,11 +291,12 @@ experiments:
     - "H29 token-aligned selector rejected: coverage 100%, corrupted recovery 37.07%, control retention 70.13%, malformed 1.33%; test canceled"
     - "H30 weak-label Bami rejected on dev: precision 57.44%, recall 72.46%, F1 64.08%, zero offset errors; test canceled"
     - "H31 confidence calibration passed: threshold 0.90 dev/test precision 81.60/84.53%, F1 65.63/62.14%, deterministic and offset-valid"
+    - "H32 cross-fit failed aggregate: precision 83.06%, recall 36.68%, F1 50.89%; one fold emitted zero spans at global 0.90"
   next: >
-    Preregister five-fold weak-label cross-fitting so every record is predicted
-    by an H31-style model that never trained on it. Keep confidence 0.90 frozen,
-    then evaluate only exact novel agreements with H26/H15 sources before any
-    merge or ZIP. Keep externally confirmed H23 frozen until that gate passes.
+    Preregister per-fold validation calibration over the already frozen H32
+    checkpoints. Select one threshold per checkpoint from the fixed H31 grid,
+    recompute OOF metrics, and create an independent agreement queue only if all
+    aggregate gates pass. Keep H23 frozen until that gate passes.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

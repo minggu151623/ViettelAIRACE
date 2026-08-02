@@ -706,6 +706,11 @@ The strongest verified direction is conservative structural cleanup:
   one-shot test, with F1 65.63/62.14% and deterministic offsets. This promotes
   H30 only as a high-confidence voter; cross-fitting is required before using it
   on records included in its original training set.
+- **Absolute confidence is not portable across cross-fit checkpoints.** H32
+  retains 83.06% aggregate precision but falls to 36.68% recall and 50.89% F1;
+  one early-stopped fold emits zero spans above 0.90. Each checkpoint requires
+  calibration on its own disjoint validation fold before its confidence can be
+  compared or thresholded.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
