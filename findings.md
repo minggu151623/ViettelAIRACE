@@ -862,6 +862,17 @@ The strongest verified direction is conservative structural cleanup:
   45 passages reach 0.8546. The robust conclusion is qualitative—15 passages
   cannot support equivalence—and the promotion test itself now requires a
   preregistered small-sample robustness repair before reviewer labels open.
+- **Studentization cannot rescue the frozen 15-passage gate.** H50 compares
+  percentile, stratified Welch-t and bootstrap-t on the same five-family
+  envelope. Percentile has the best worst-family `d=0.5` power (0.5680) but
+  0.1132 maximum Type-I. Welch-t reduces the maximum to 0.0724 but becomes
+  extremely conservative under right skew (0.0030 Type-I) and retains only
+  0.3448 worst power. Bootstrap-t caps Type-I at 0.0454, yet its worst power is
+  0.2880 and 4.62% of discrete Rademacher replications yield nonfinite bounds.
+  No method passes the locked eligibility rule, so the evaluator is unchanged.
+  H41 remains valuable for development and error discovery, but robust
+  confirmatory promotion needs more independent holdout passages or a
+  separately justified bounded-data procedure.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

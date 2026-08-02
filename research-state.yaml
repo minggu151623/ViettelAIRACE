@@ -332,6 +332,17 @@ hypotheses:
       control failed: the 15-passage range was 0.0236–0.1126. Worst-family
       power at d=0.5 was 0.7452 for 30 passages and 0.8546 for 45, moving the
       robust 80% count from 30 to 45. The percentile gate requires repair.
+  H50_h41_inference_repair:
+    status: rejected_no_eligible_small_n_method
+    prediction: >
+      Studentization can reduce H49's left-skew Type-I inflation while
+      retaining at least 0.50 worst-family power at d=0.5 and avoiding
+      discrete-sample numerical failure on the frozen 15-passage holdout.
+    result: >
+      Percentile retained 0.5680 power but reached 0.1132 Type-I. Welch-t
+      reduced maximum Type-I to 0.0724 but worst power fell to 0.3448 and
+      minimum Type-I to 0.0030. Bootstrap-t power was 0.2880 and 4.62% of
+      Rademacher replications were nonfinite. No method was eligible or installed.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -478,6 +489,7 @@ experiments:
     - "H47 assertion leverage closed: 36 asserted novel entities across 18 records; H37/H38 observed weighted assertion loss totals 0.04605 below 0.10 gate; 139 tests, no output"
     - "H48 H41 power audit: n=15 Type-I 0.053 and power 0.5882 at d=0.5; n=30 reaches 0.8034; 142 tests, no labels, queue, predictions or ZIP changed"
     - "H49 distributional power envelope: n=15 Type-I 0.0236–0.1126; robust d=0.5 power reaches 0.8546 only at n=45; 145 tests, no labels, predictions, queue or ZIP changed"
+    - "H50 inference repair rejected: percentile max Type-I 0.1132; Welch-t worst d=0.5 power 0.3448; bootstrap-t power 0.2880 with 4.62% nonfinite; 148 tests, evaluator unchanged"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
     candidate Jaccard before constructing another artifact. In parallel,
@@ -490,8 +502,11 @@ experiments:
     Treat non-promotion as failure to demonstrate a large effect, not evidence
     of equivalence. H49 supersedes H48's Normal-only queue-size estimate: 30
     passages have only 74.52% worst-family power at d=0.5, while 45 reach
-    85.46%. Repair the percentile gate's left-skew Type-I inflation in a
-    separately preregistered simulation before reviewer labels are opened.
+    85.46%. H50 finds no eligible repair at n=15, so use H41 labels for
+    independent development and error analysis but not as a distribution-
+    robust promotion test. Any confirmatory successor needs more independently
+    selected holdout passages or a separately justified bounded-data method,
+    registered before predictions are opened.
     Do not expose H38/model predictions to either reviewer before label lock.
     Do not build a generic top-k candidate challenger: H45 shows retrieval depth
     without calibrated row-level cardinality sharply reduces Jaccard. Do not

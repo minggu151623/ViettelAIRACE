@@ -1,0 +1,600 @@
+{
+  "artifact_policy": "NO_LABEL_PREDICTION_QUEUE_OR_ZIP_CHANGE",
+  "bootstrap_iterations_per_replication": 1000,
+  "content_sha256_before_hash_field": "0c3611152e030e8524a68cb15245b466f8c0f6c4f95d030d209cdf5d4c60d6d0",
+  "decision": "NO_ELIGIBLE_REPAIR",
+  "eligibility_at_15_passages": {
+    "bootstrap_t": false,
+    "percentile": false,
+    "stratified_welch_t": false
+  },
+  "envelopes": {
+    "15": {
+      "bootstrap_t": {
+        "maximum_nonfinite_replication_rate": 0.0462,
+        "maximum_type_i": 0.0454,
+        "minimum_power_d_0_5": 0.288,
+        "minimum_power_d_0_75": 0.5142,
+        "minimum_type_i": 0.0084
+      },
+      "percentile": {
+        "maximum_nonfinite_replication_rate": 0.0,
+        "maximum_type_i": 0.1132,
+        "minimum_power_d_0_5": 0.568,
+        "minimum_power_d_0_75": 0.801,
+        "minimum_type_i": 0.022
+      },
+      "stratified_welch_t": {
+        "maximum_nonfinite_replication_rate": 0.0,
+        "maximum_type_i": 0.0724,
+        "minimum_power_d_0_5": 0.3448,
+        "minimum_power_d_0_75": 0.7042,
+        "minimum_type_i": 0.003
+      }
+    },
+    "30": {
+      "bootstrap_t": {
+        "maximum_nonfinite_replication_rate": 0.0,
+        "maximum_type_i": 0.036,
+        "minimum_power_d_0_5": 0.5514,
+        "minimum_power_d_0_75": 0.809,
+        "minimum_type_i": 0.0134
+      },
+      "percentile": {
+        "maximum_nonfinite_replication_rate": 0.0,
+        "maximum_type_i": 0.072,
+        "minimum_power_d_0_5": 0.7446,
+        "minimum_power_d_0_75": 0.9334,
+        "minimum_type_i": 0.0158
+      },
+      "stratified_welch_t": {
+        "maximum_nonfinite_replication_rate": 0.0,
+        "maximum_type_i": 0.0608,
+        "minimum_power_d_0_5": 0.7204,
+        "minimum_power_d_0_75": 0.9216,
+        "minimum_type_i": 0.0074
+      }
+    },
+    "45": {
+      "bootstrap_t": {
+        "maximum_nonfinite_replication_rate": 0.0,
+        "maximum_type_i": 0.0312,
+        "minimum_power_d_0_5": 0.727,
+        "minimum_power_d_0_75": 0.9366,
+        "minimum_type_i": 0.018
+      },
+      "percentile": {
+        "maximum_nonfinite_replication_rate": 0.0,
+        "maximum_type_i": 0.0622,
+        "minimum_power_d_0_5": 0.8504,
+        "minimum_power_d_0_75": 0.9804,
+        "minimum_type_i": 0.019
+      },
+      "stratified_welch_t": {
+        "maximum_nonfinite_replication_rate": 0.0,
+        "maximum_type_i": 0.0576,
+        "minimum_power_d_0_5": 0.8432,
+        "minimum_power_d_0_75": 0.9806,
+        "minimum_type_i": 0.0074
+      }
+    }
+  },
+  "hypothesis": "H50_h41_inference_repair",
+  "installation_gate_passed": false,
+  "noise_families": [
+    "normal",
+    "student_t3",
+    "right_skew",
+    "left_skew",
+    "rademacher"
+  ],
+  "replications": 5000,
+  "results": [
+    {
+      "method": "percentile",
+      "noise_family": "normal",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0496,
+        "0.5": 0.568,
+        "0.75": 0.86
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "normal",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0204,
+        "0.5": 0.3808,
+        "0.75": 0.727
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "normal",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0216,
+        "0.5": 0.3664,
+        "0.75": 0.694
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "normal",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0396,
+        "0.5": 0.8082,
+        "0.75": 0.9848
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "normal",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0272,
+        "0.5": 0.7452,
+        "0.75": 0.978
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "normal",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0288,
+        "0.5": 0.7468,
+        "0.75": 0.9724
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "normal",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0322,
+        "0.5": 0.9214,
+        "0.75": 0.9992
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "normal",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0248,
+        "0.5": 0.907,
+        "0.75": 0.9992
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "normal",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0256,
+        "0.5": 0.902,
+        "0.75": 0.9992
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "student_t3",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0562,
+        "0.5": 0.6988,
+        "0.75": 0.889
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "student_t3",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0152,
+        "0.5": 0.5202,
+        "0.75": 0.7968
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "student_t3",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0276,
+        "0.5": 0.5248,
+        "0.75": 0.7616
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "student_t3",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0376,
+        "0.5": 0.8458,
+        "0.75": 0.9654
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "student_t3",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0192,
+        "0.5": 0.8068,
+        "0.75": 0.9572
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "student_t3",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0316,
+        "0.5": 0.7844,
+        "0.75": 0.93
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "student_t3",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0334,
+        "0.5": 0.9142,
+        "0.75": 0.9846
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "student_t3",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0186,
+        "0.5": 0.8996,
+        "0.75": 0.985
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "student_t3",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0312,
+        "0.5": 0.8762,
+        "0.75": 0.9678
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "right_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.022,
+        "0.5": 0.7062,
+        "0.75": 0.9952
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "right_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.003,
+        "0.5": 0.3448,
+        "0.75": 0.8566
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "right_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0084,
+        "0.5": 0.526,
+        "0.75": 0.9376
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "right_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0158,
+        "0.5": 0.937,
+        "0.75": 1.0
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "right_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0074,
+        "0.5": 0.8356,
+        "0.75": 0.9992
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "right_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0134,
+        "0.5": 0.9358,
+        "0.75": 1.0
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "right_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.019,
+        "0.5": 0.9862,
+        "0.75": 1.0
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "right_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0074,
+        "0.5": 0.9714,
+        "0.75": 1.0
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "right_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0202,
+        "0.5": 0.9888,
+        "0.75": 1.0
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "left_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.1132,
+        "0.5": 0.5982,
+        "0.75": 0.801
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "left_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0724,
+        "0.5": 0.4756,
+        "0.75": 0.7042
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "left_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0454,
+        "0.5": 0.323,
+        "0.75": 0.5142
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "left_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.072,
+        "0.5": 0.7446,
+        "0.75": 0.9334
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "left_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0608,
+        "0.5": 0.7204,
+        "0.75": 0.9216
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "left_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.036,
+        "0.5": 0.5514,
+        "0.75": 0.809
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "left_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0622,
+        "0.5": 0.8504,
+        "0.75": 0.9804
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "left_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0576,
+        "0.5": 0.8432,
+        "0.75": 0.9806
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "left_skew",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0298,
+        "0.5": 0.727,
+        "0.75": 0.9366
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "rademacher",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0584,
+        "0.5": 0.5948,
+        "0.75": 0.9384
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "rademacher",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0218,
+        "0.5": 0.3684,
+        "0.75": 0.7102
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "rademacher",
+      "nonfinite_replication_rate": 0.0462,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.0096,
+        "0.5": 0.288,
+        "0.75": 0.716
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "rademacher",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0274,
+        "0.5": 0.8268,
+        "0.75": 0.9968
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "rademacher",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0242,
+        "0.5": 0.7302,
+        "0.75": 0.9852
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "rademacher",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.0144,
+        "0.5": 0.7844,
+        "0.75": 0.9938
+      }
+    },
+    {
+      "method": "percentile",
+      "noise_family": "rademacher",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0332,
+        "0.5": 0.923,
+        "0.75": 0.9998
+      }
+    },
+    {
+      "method": "stratified_welch_t",
+      "noise_family": "rademacher",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0212,
+        "0.5": 0.9038,
+        "0.75": 0.9998
+      }
+    },
+    {
+      "method": "bootstrap_t",
+      "noise_family": "rademacher",
+      "nonfinite_replication_rate": 0.0,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.018,
+        "0.5": 0.916,
+        "0.75": 0.9998
+      }
+    }
+  ],
+  "runtime": {
+    "numpy": "2.1.3",
+    "python": "3.13.5"
+  },
+  "seed": 5001,
+  "selected_method": null,
+  "standardized_effects": [
+    0.0,
+    0.5,
+    0.75
+  ]
+}

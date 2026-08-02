@@ -1,5 +1,5 @@
 hypothesis: H50_h41_inference_repair
-status: preregistered
+status: completed_no_eligible_repair
 registered_at: "2026-08-03T05:05:00+07:00"
 question: >
   Can studentization repair H41's left-skew Type-I inflation without making
@@ -65,3 +65,21 @@ artifact_policy:
   annotation_queue_change: forbidden
   label_or_prediction_access: forbidden
   deterministic_repeat_required: true
+
+result:
+  decision: NO_ELIGIBLE_REPAIR
+  selected_method: null
+  installation_gate_passed: false
+  fifteen_passage_envelope:
+    percentile:
+      type_i_range: [0.0220, 0.1132]
+      worst_power_d_0_5: 0.5680
+    stratified_welch_t:
+      type_i_range: [0.0030, 0.0724]
+      worst_power_d_0_5: 0.3448
+    bootstrap_t:
+      type_i_range: [0.0084, 0.0454]
+      worst_power_d_0_5: 0.2880
+      maximum_nonfinite_replication_rate: 0.0462
+  repeat_sha256: d245368a99e5112888e636c18cdbd070f9863e56e2172e9312fd8fe621487582
+  repository_tests_passed: 148

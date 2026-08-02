@@ -1416,3 +1416,20 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   task. Repeat reports are byte-identical at SHA-256
   `ff40799312aa253bae637494909624b90ec41a801239b7581d22fbf22ee44f2e`;
   all 145 tests pass and no labels, queue, predictions or ZIP changed.
+
+## 2026-08-03 — H50 rejects all small-n studentization repairs
+
+- Reviewed primary and recent work on bootstrap-t, fixed-n bootstrap coverage
+  and empirical Bernstein bounds, then preregistered a three-method comparison
+  on H49's exact five-family envelope.
+- At 15 passages, percentile Type-I is 0.0220–0.1132 with 0.5680 worst power at
+  `d=0.5`. Stratified Welch-t narrows Type-I to 0.0030–0.0724 but power falls
+  to 0.3448. Bootstrap-t narrows it to 0.0084–0.0454 but power falls to 0.2880.
+- Bootstrap-t also produces nonfinite bounds in 4.62% of Rademacher
+  replications, failing the registered 1% numerical-stability ceiling. No
+  candidate satisfies every eligibility gate and none was installed.
+- Reframed H41 as an independent development/error-analysis resource whose
+  current holdout is not a distribution-robust promotion test. Repeat reports
+  are byte-identical at SHA-256
+  `d245368a99e5112888e636c18cdbd070f9863e56e2172e9312fd8fe621487582`;
+  all 148 tests pass and H44 remains untouched.
