@@ -1,0 +1,85 @@
+hypothesis: H43_candidate_contradiction_surgery
+status: preregistered
+created_at: "2026-08-03T11:10:00+07:00"
+question: >
+  Can a full-head, high-precision contradiction audit of every H38 ICD/RxNorm
+  use improve candidate Jaccard materially while freezing extraction and
+  assertions exactly?
+
+motivation:
+  baseline:
+    artifact: turn2/output_v10_multiview_consensus.zip
+    sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+    external_score: 39.2813
+    wer: 56.1576
+    assertion_jaccard: 47.3920
+    candidate_jaccard: 29.7776
+  frozen_inventory:
+    entities: 3226
+    candidate_uses: 1219
+    unique_type_mention_code_tuples: 408
+    diagnosis_entities_without_candidate: 22
+    drug_entities_without_candidate: 75
+  rationale: >
+    Candidate Jaccard remains the largest weighted headroom. Earlier external
+    evidence showed unsupported codes can be worse than abstention, while H23
+    proved that a candidate-only change can move the leaderboard without
+    disturbing WER or assertions. H43 audits the complete candidate head
+    instead of editing another small span queue.
+
+frozen_inputs:
+  input_dir: turn2/input
+  source_dir: turn2/output_v10_multiview_consensus
+  source_zip_sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  prior_review_for_hazard_controls: experiments/H_turn2_llm_guarded_rebuild/candidate_review.json
+  prior_review_sha256: ead9269954882395b5d841e2cf40a605e704767cebd2b8f0474989e34c19232b
+  model: qwen3:8b
+  ollama_id: 500a1f067a9f
+
+review_design:
+  unit: unique_type_normalized_mention_candidate_tuple
+  ontology_context:
+    - bundled_ICD_10_CM_2026_title
+    - bundled_WHO_ICD_10_2019_title
+    - bundled_RxNorm_title
+    - local_raw_context_plus_minus_100_characters
+  allowed_actions: [KEEP, DROP]
+  forbidden_actions: [ADD_CODE, REPLACE_CODE, CHANGE_SPAN, CHANGE_TYPE, CHANGE_ASSERTION]
+  passes:
+    - {seed: 42, temperature: 0}
+    - {seed: 137, temperature: 0}
+  drop_rule: both_passes_DROP_and_minimum_confidence_at_least_0_80
+  unknown_title_policy: keep_unless_obvious_non_drug_false_positive
+  valid_parent_policy: keep_same_family_parent_codes
+
+registered_controls:
+  positive: >
+    Every current mapping matching the frozen manually curated safe-alias table
+    in airace.turn2_llm_rebuild._SAFE_REPLACEMENTS must remain present.
+  hazards: >
+    The 19 H38 candidate uses belonging to the three known-title tuples that
+    were dual-DROP in the frozen prior review are registered contradiction
+    controls; H43 should remove at least 80% of their uses.
+
+registered_gates:
+  - source_zip_hash_matches
+  - all_408_unique_tuples_receive_two_valid_decisions
+  - exact_KEEP_DROP_agreement_between_passes_at_least_0_90
+  - all_curated_safe_alias_positive_controls_retained
+  - at_least_0_80_of_19_registered_hazard_uses_removed
+  - candidate_use_removals_between_50_and_350
+  - zero_candidate_additions
+  - all_3226_entities_dictionary_identical_except_candidate_subsets
+  - all_100_records_validate_against_raw_LF_text
+  - two_complete_builds_produce_identical_JSON_and_ZIP_bytes
+
+failure_policy: >
+  If any gate fails, do not package or submit H43. Do not relax confidence,
+  agreement, hazard, change-window, or positive-control gates after reviewing
+  outputs. H38 remains the submission baseline.
+
+if_passed:
+  output_dir: turn2/output_v11_candidate_surgery
+  artifact: turn2/output_v11_candidate_surgery.zip
+  submission_priority: first_of_five_reset_slots
+  expected_external_invariants: [wer_unchanged, assertion_jaccard_unchanged]
