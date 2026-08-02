@@ -83,3 +83,6 @@ sessions:
   - id: "2026-07-29_003"
     file: "2026-07-29_003.yaml"
     summary: "V18 semantic bundle regressed against H7; local CRLF ablations were generated without submission."
+  - id: "2026-08-03_001"
+    file: "2026-08-03_001.yaml"
+    summary: "Rejected H39/H40 automatic policy recovery and built H41's prediction-blind repeated-passage annotation gate."

@@ -621,3 +621,56 @@ tree:
                   combines lab and assertion changes.
                 evidence: [C17, "research-log.md",
                   "experiments/H18_semantic_isolation"]
+
+  - id: N48
+    type: pivot
+    title: "Pivot from correlated weak votes to prediction-blind labels"
+    provenance: ai-suggested
+    timestamp: "2026-08-03T09:00+07:00"
+    from: "Unsupervised recovery of one latent policy from five proposal views"
+    to: "Independent annotation of unique repeated passages"
+    trigger: >
+      H39 passed its synthetic correlated-noise benchmark but improved only
+      4/19 real leave-one-family-out cells. H40 then reached only 88.37%
+      canonical stability and proposed 551 changes.
+    children:
+      - id: N49
+        type: dead_end
+        title: "H39 dependency-aware label model"
+        provenance: ai-executed
+        timestamp: "2026-08-03T00:20+07:00"
+        hypothesis: >
+          Type-specific source confusion and dependence can recover a common
+          latent annotation policy from correlated proposal views.
+        failure_mode: >
+          Synthetic F1 improved by 0.11667, but only 4/19 real held-out
+          source/type cells improved log-loss.
+        lesson: >
+          The views encode incompatible boundary/type policies, not only
+          correlated noise.
+      - id: N50
+        type: dead_end
+        title: "H40 automatic repeated-passage canonicalization"
+        provenance: ai-executed
+        timestamp: "2026-08-03T01:00+07:00"
+        hypothesis: >
+          Repeated exact text can identify a stable canonical local annotation
+          through occurrence and source-family agreement.
+        failure_mode: >
+          Leave-one-occurrence-out stability was 88.37%, below 95%, and 551
+          proposed changes exceeded the registered ceiling.
+        lesson: >
+          Repetition exposes inconsistency and multiplies labels, but does not
+          independently identify which model policy is correct.
+      - id: N51
+        type: experiment
+        title: "H41 prediction-blind repeated-passage queue"
+        provenance: ai-executed
+        timestamp: "2026-08-03T10:00+07:00"
+        result: >
+          Frozen 60 passages without prediction features: 45 development and
+          15 holdout, covering 164 occurrences, 59 records and 55,200 projected
+          characters. All offsets round-trip, 123 tests pass, and no model or
+          ZIP was created pending two independent annotation files.
+        evidence: [C37,
+          "experiments/H41_repeated_passage_blind_annotation/results/queue_audit.json"]

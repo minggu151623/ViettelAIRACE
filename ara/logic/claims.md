@@ -472,11 +472,26 @@
 - **Statement**: A latent label model with type-specific source confusion and
   explicit proposal-family dependence can outperform equal-weight majority
   voting under correlated noise and leave-one-family-out evaluation.
-- **Status**: hypothesis; preregistered and untested
+- **Status**: refuted on real leave-one-family-out cells; synthetic mechanism supported
 - **Provenance**: ai-suggested
 - **Falsification criteria**: H39 fails to beat majority F1 by five points on
   the locked correlated-noise benchmark, or fails a type-specific leave-one-
   family-out log-loss gate.
-- **Proof**: [`experiments/H39_dependency_aware_label_model/protocol.yaml`]
+- **Proof**: [`experiments/H39_dependency_aware_label_model/protocol.yaml`,
+  `experiments/H39_dependency_aware_label_model/results/early_gates.json`]
 - **Dependencies**: [C35]
 - **Tags**: weak-supervision, label-model, dependencies, stacker
+
+## C37: Exact repetition is a label multiplier, not a label source
+- **Statement**: Exact repeated Turn-2 passages can multiply independently
+  reviewed span/type labels across records, but automatic modal model evidence
+  is not stable enough to determine the annotation policy by itself.
+- **Status**: first clause operationalized; automatic-policy clause supported internally
+- **Provenance**: ai-suggested
+- **Falsification criteria**: H40 reproduces at least 95% leave-one-occurrence-
+  out stability under the frozen gates, or H41 projection fails exact offset
+  round-trip on any selected occurrence.
+- **Proof**: [`experiments/H40_repeated_passage_consistency/results/early_gates.json`,
+  `experiments/H41_repeated_passage_blind_annotation/results/queue_audit.json`]
+- **Dependencies**: [C35, C36]
+- **Tags**: repeated-passages, annotation, independence, projection

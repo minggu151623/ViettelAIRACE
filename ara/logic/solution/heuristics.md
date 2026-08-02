@@ -153,3 +153,14 @@
 - **Sensitivity**: low
 - **Code ref**: [`airace/multiview_consensus.py`,
   `tests/test_multiview_consensus.py`]
+
+## H19: Reuse spans across exact passages but relabel assertions per occurrence
+- **Rationale**: Literal passage equality guarantees character-offset
+  projection for a reviewed span/type, while historical, negated and family
+  status can change with surrounding record context. Review the unique passage
+  once, then show ±200 raw characters and collect assertions for every entity
+  occurrence separately.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/passage_annotation.py`,
+  `airace/passage_annotation_app.py`, `tests/test_passage_annotation.py`]

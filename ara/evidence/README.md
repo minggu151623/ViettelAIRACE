@@ -21,3 +21,11 @@
 - H23 candidate audit: `experiments/H23_candidate_only_semantic/build_report.json`.
 - Deterministic H23 SHA-256:
   `e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662`.
+- H39 dependency-aware early gates:
+  `experiments/H39_dependency_aware_label_model/results/early_gates.json`.
+- H40 repeated-passage stability gates:
+  `experiments/H40_repeated_passage_consistency/results/early_gates.json`.
+- H41 prediction-blind queue audit:
+  `experiments/H41_repeated_passage_blind_annotation/results/queue_audit.json`;
+  main queue SHA-256
+  `a10b345aea2247cc5843e89894130f43279bd5bfc36c7bfda0c7abd357bd5f08`.

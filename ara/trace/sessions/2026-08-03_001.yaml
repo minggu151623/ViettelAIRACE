@@ -1,0 +1,57 @@
+session:
+  id: "2026-08-03_001"
+  timestamp: "2026-08-03T10:20+07:00"
+  summary: "Rejected H39/H40 automatic policy recovery and built H41's prediction-blind repeated-passage annotation gate."
+
+events_logged:
+  - type: dead_end
+    id: N49
+    provenance: ai-executed
+    summary: "H39 passed synthetic correlated-noise recovery but failed 15/19 real leave-one-family-out cells."
+  - type: dead_end
+    id: N50
+    provenance: ai-executed
+    summary: "H40 retained controls but failed stability and change-count gates before integration."
+  - type: pivot
+    id: N48
+    provenance: ai-suggested
+    summary: "Moved from unsupervised source voting to prediction-blind human labels over exact repeated passages."
+  - type: experiment
+    id: N51
+    provenance: ai-executed
+    summary: "H41 queue passed with 60 passages, 164 occurrences, 55,200 projected characters and zero offset failures."
+  - type: claim
+    id: C37
+    provenance: ai-suggested
+    summary: "Exact repetition multiplies independent labels but does not create an annotation policy."
+  - type: heuristic
+    id: H19
+    provenance: ai-suggested
+    summary: "Project exact span/type labels but review assertions separately for every occurrence."
+
+ai_actions:
+  - action: "Preregistered H41 and recorded a transparent distinct-record feasibility amendment before queue construction."
+    provenance: ai-executed
+    files_changed: ["experiments/H41_repeated_passage_blind_annotation/protocol.yaml"]
+  - action: "Built deterministic blind manifests, two-stage Streamlit annotation UI, validators and reviewer-agreement gates."
+    provenance: ai-executed
+    files_changed: ["airace/passage_annotation.py", "airace/passage_annotation_app.py", "airace/cli.py"]
+  - action: "Ran queue audit, UI smoke test and 123 repository tests; created no model output or ZIP."
+    provenance: ai-executed
+    files_changed: ["experiments/H41_repeated_passage_blind_annotation/results/queue_audit.json"]
+
+claims_touched:
+  - id: C36
+    action: weakened
+    provenance: ai-suggested
+  - id: C37
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Reviewer 1 must label all 60 H41 passages without model prefill."
+  - "Reviewer 2 must independently label the frozen 15-passage queue."
+  - "After checksum lock, enforce agreement gates, adjudicate and run one-shot holdout evaluation."
+
+ai_suggestions_pending:
+  - "Do not train another stacker or create a submission until H41 labels are independently locked."
