@@ -1,0 +1,43 @@
+hypothesis: H37_verified_symptom_boundary_integration
+status: preregistered
+created_at: "2026-08-02T11:48:16+07:00"
+question: >
+  Does integrating only H36-verified symptom spans repair over-extended H23
+  boundaries and recover disjoint symptoms without exposing candidate scoring?
+
+frozen_inputs:
+  baseline_zip:
+    path: turn2/output_v8_candidate_semantic.zip
+    sha256: e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662
+  accepted_queue:
+    path: experiments/H36_controlled_novel_verifier/results/accepted_novel.json
+    sha256: 09ad01b03d1267014ca8bbd1f983ca471778114be766506454eb5cee090963cc
+  accepted_symptoms: 29
+  source_commit: e26fc12a2114206e999afaa5f49df3da465659a9
+
+deterministic_policy:
+  - Keep only H36 accepted rows with type TRIỆU_CHỨNG.
+  - If a row has no overlap with H23, add it and infer assertions with the unchanged rule engine.
+  - If every overlapping H23 row is TRIỆU_CHỨNG and the accepted row is fully contained, remove the overlapping H23 row and add the accepted row.
+  - When multiple accepted rows are contained in one H23 symptom, replace it by all accepted rows.
+  - Replacement rows inherit the union of assertions from their overlapped H23 symptom rows.
+  - Skip every cross-type overlap, partial crossing, or duplicate key.
+  - Never alter candidates or any unaffected H23 entity.
+
+gates:
+  - frozen_input_hashes_match
+  - every_applied_row_is_H36_accepted_and_has_independent_support
+  - zero_cross_type_or_partial_overlap_changes
+  - all_unaffected_H23_entities_are_identical
+  - all_offsets_and_schema_valid_for_100_records
+  - rerun_output_and_zip_are_byte_identical
+  - no_candidates_present_on_symptoms
+
+if_passed:
+  output_dir: turn2/output_v9_verified_symptoms
+  zip: turn2/output_v9_verified_symptoms.zip
+  status: candidate_artifact_not_submitted
+
+failure_policy: >
+  Do not relax overlap rules after observing results. If a gate fails, create no
+  ZIP and keep H23 as the submission baseline.
