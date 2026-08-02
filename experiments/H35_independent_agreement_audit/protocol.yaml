@@ -1,0 +1,47 @@
+hypothesis: H35_independent_agreement_audit
+status: preregistered
+created_at: "2026-08-03T03:00:00+07:00"
+question: >
+  Among H34's frozen high-confidence out-of-fold predictions absent from H23,
+  how many receive exact independent support from VietMed or a record-unseen
+  phrase policy?
+
+frozen_source:
+  predictions: experiments/H34_minimum_epoch_recovery/results/combined_oof_predictions.json
+  sha256: af65f7a0a7511042f2857ba747bc2b944a8fad9df50e7b8462710bb0e1a4fb96
+  metrics: precision_0.8223_recall_0.4615_F1_0.5912_against_H23
+  prediction_changes_allowed: false
+
+novel_definition: exact_position_and_type_absent_from_H23
+
+independent_sources:
+  tier_A:
+    source: Turn2_VietMed_proposal_bank
+    eligible_records: all_100
+    relation_to_H34: different_model_family
+  tier_B:
+    source: H26_phrase_policy_built_from_DEFAULT_TRAIN
+    eligible_records: only_DEFAULT_DEV_plus_DEFAULT_TEST
+    reason: exclude_70_records_used_to_build_phrase_lexicon
+  excluded:
+    - Bami_v15
+    - Bami_v3
+    - H26_matches_on_DEFAULT_TRAIN_records
+
+outputs:
+  - count_all_H34_novel
+  - count_tier_A_exact
+  - count_tier_B_exact
+  - count_both_sources_exact
+  - context_rich_queue_with_confidence_and_source_flags
+  - boundary_hazard_summary
+
+interpretation:
+  H23_absence_is_unlabeled: true
+  passing_or_failing_score: none_read_only_audit
+  merge_authorized: false
+  zip_authorized: false
+
+next_gate: >
+  If a nontrivial queue exists, register a fixed semantic/boundary review and
+  compare accepted additions on the original dev/test pseudo-target diagnostic.
