@@ -66,7 +66,11 @@ current_direction: >
   row-level score-shape mechanism: diagnosis dev Jaccard rises by 0.01786, but
   the confidence interval includes zero and mean k exceeds its ceiling. Test is
   canceled by protocol. Candidate cardinality now requires independent labels,
-  not another weak-link feature family.
+  not another weak-link feature family. H47 then isolates the repeated negative
+  assertion movement on H37/H38 novel spans. Only 36 novel entities are
+  asserted, and their two observed component losses sum to 0.04605 weighted
+  score points, below the 0.10 leverage gate. Blanket assertion abstention is
+  closed as another reset-slot mechanism.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -449,6 +453,7 @@ experiments:
     - "H44 external decision tree locked before score reveal: candidate delta null band ±0.02, strong-positive gate +0.50, candidate-only metric invariants required"
     - "H45 Jaccard cardinality rejected: dev selects k=1 for both types; test 0.17857 at k=1 vs 0.10714/0.06012/0.03912 at k=2/5/10; no ZIP"
     - "H46 score-shape calibration rejected before test: dev +0.01786, CI [0, 0.05357], mean k 3.107; 420/420 rankings reproduced, 137 tests, no ZIP"
+    - "H47 assertion leverage closed: 36 asserted novel entities across 18 records; H37/H38 observed weighted assertion loss totals 0.04605 below 0.10 gate; 139 tests, no output"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
     candidate Jaccard before constructing another artifact. In parallel,
@@ -463,7 +468,8 @@ experiments:
     without calibrated row-level cardinality sharply reduces Jaccard. Do not
     extend H46 with new weak-link features: its dev signal is uncertain and its
     test fold remains unopened; resume cardinality only with H41 independent
-    labels.
+    labels. Do not spend a slot on blanket novel-entity assertion abstention;
+    H47 finds repeated harm but only 0.04605 points of observed weighted leverage.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

@@ -1369,3 +1369,19 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - Repeat reports are byte-identical at SHA-256
   `58573af96d2f6a3589ede0939be8bfd650335e2d6db7bdd9aaa8711c5745c8f5`;
   all 137 tests pass.
+
+## 2026-08-03 — H47 closes novel-span assertion abstention
+
+- Preregistered an ancestry audit after observing assertion Jaccard decline in
+  both externally positive proposal stages H37 and H38. No altered output was
+  permitted.
+- H37 contains 26 novel exact entity keys and seven asserted novel entities;
+  H38 contains 183 and 29. Together, 36 asserted entities span 18 records and
+  mostly carry `isHistorical` (27), with seven `isNegated` and two `isFamily`.
+- The combined externally observed assertion loss contributes only 0.04605
+  weighted score points, below the registered 0.10 evidence-leverage gate. The
+  result does not claim a mathematical counterfactual bound.
+- Closed blanket novel-assertion abstention as a reset-slot mechanism. Reports
+  are byte-identical at SHA-256
+  `e1d511bf507170e4cc698a8dfbe7e8ee7b1a64b96d882cca061aedf746e7c349`;
+  all 139 tests pass and no directory or ZIP was created.

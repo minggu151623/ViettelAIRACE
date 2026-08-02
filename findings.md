@@ -835,6 +835,15 @@ The strongest verified direction is conservative structural cleanup:
   showing unstable extrapolation. The test fold remains unopened under H46.
   Score margins are not worthless, but 28 weak dev aliases cannot calibrate a
   safe set policy; this branch now requires H41 independent labels.
+- **H47 separates repeated assertion harm from meaningful score leverage.**
+  H37 and H38 both improve WER while assertion Jaccard declines, but only 7/26
+  and 29/183 novel exact entity keys carry assertions. Across both stages, 36
+  asserted novel entities cover 18 records; 27 are `isHistorical`, seven
+  `isNegated`, and two `isFamily`. Their observed external assertion losses
+  correspond to only 0.04605 weighted score points combined, below the frozen
+  0.10 evidence threshold. This is not a counterfactual upper bound, but it is
+  insufficient evidence for spending a reset slot on blanket novel-assertion
+  abstention. The assertion branch now also waits for independent H41 labels.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
