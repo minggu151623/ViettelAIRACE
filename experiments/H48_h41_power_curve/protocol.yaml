@@ -1,0 +1,70 @@
+hypothesis: H48_h41_power_curve
+status: preregistered
+registered_at: "2026-08-03T04:20:58+07:00"
+question: >
+  What standardized passage-level effect can H41's frozen 15-passage holdout
+  detect with 80% power under its stratified percentile-bootstrap gate?
+
+motivation: >
+  H42 establishes near-nominal Type-I error when unique passages are resampled,
+  but error control alone does not establish useful sensitivity. H41 must know
+  whether a negative holdout result means no effect or simply low power before
+  reviewer labels and model comparisons are opened.
+
+frozen_h41_design:
+  labels_present_at_registration: false
+  model_predictions_opened_to_reviewers: false
+  holdout_passages: 15
+  strata_counts: {high: 3, middle: 5, low: 7}
+  descriptive_occurrences: 41
+  primary_unit: unique_passage
+  test: stratified_percentile_bootstrap_lower_95_above_zero
+
+simulation:
+  data_generation: >
+    Passage deltas are independent Normal(d, 1), where d is the standardized
+    mean effect in passage-level standard-deviation units. Occurrences are not
+    simulated because the registered primary estimand first aggregates within
+    each passage.
+  standardized_effects: [0.0, 0.25, 0.5, 0.75, 1.0]
+  passage_multipliers: [1, 2, 3, 4]
+  strata_per_multiplier:
+    high: "3*m"
+    middle: "5*m"
+    low: "7*m"
+  resulting_total_passages: [15, 30, 45, 60]
+  replications: 5000
+  bootstrap_iterations_per_replication: 1000
+  seed: 4801
+  percentile_rule: order_statistic_index_floor_0_025_times_B_minus_1
+  no_clipping_or_post_selection: true
+
+registered_outputs:
+  - promotion_rate_by_effect_and_passage_count
+  - type_i_rate_at_d_0
+  - power_at_d_0_5
+  - smallest_passage_count_reaching_80_percent_power_at_each_positive_effect
+  - deterministic_repeat_hash
+
+adequacy_gate:
+  - frozen_15_passage_type_i_between_0_03_and_0_07
+  - frozen_15_passage_power_at_d_0_5_at_least_0_80
+
+interpretation:
+  if_pass: >
+    H41 can treat absence of promotion as informative against a moderate
+    passage-level effect, subject to label quality and model assumptions.
+  if_fail: >
+    H41 remains valid for Type-I control but is confirmatory only for larger
+    effects. Report its minimum detectable effect and do not interpret a null
+    holdout result as evidence of equivalence.
+
+amendment_policy: >
+  H48 may recommend a future larger independently selected queue, but may not
+  reassign the frozen 45/15 split, inspect predictions, or fabricate reviewer
+  labels. Any queue expansion requires a separate preregistration.
+
+artifact_policy:
+  submission_zip: forbidden
+  annotation_queue_change: forbidden
+  deterministic_repeat_required: true
