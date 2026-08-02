@@ -1,0 +1,67 @@
+session:
+  id: "2026-08-02_005"
+  timestamp: "2026-08-02T08:00+07:00"
+  summary: "Closed candidate-list micro-tuning and implemented the H24 ontology-graph contextual model core."
+
+events_logged:
+  - type: pivot
+    id: N31
+    provenance: ai-suggested
+    summary: "Pivoted from parent-list variants to graph-aligned retrieval and contextual classification."
+  - type: experiment
+    id: N32
+    provenance: ai-executed
+    summary: "Built the typed graph and measured a frozen lexical retrieval baseline."
+  - type: claim
+    id: C25
+    provenance: ai-suggested
+    summary: "Parent-list expansion is valid but not a breakthrough path."
+  - type: claim
+    id: C26
+    provenance: ai-suggested
+    summary: "Vietnamese diagnosis normalization has large semantic headroom over lexical retrieval."
+  - type: heuristic
+    id: H11
+    provenance: ai-suggested
+    summary: "Treat baseline/model disagreement as positive-unlabeled, not clean negative, data."
+  - type: heuristic
+    id: H12
+    provenance: ai-suggested
+    summary: "Use graph neighbours as hard alternatives rather than automatic candidate answers."
+
+ai_actions:
+  - action: "Recorded the H23 external result and promoted baseline 38.9352."
+    provenance: ai-executed
+    files_changed: ["experiments/H23_candidate_only_semantic/external_result.json",
+      "research-state.yaml", "research-log.md"]
+  - action: "Preregistered H24 before dataset generation or model fitting."
+    provenance: ai-executed
+    files_changed: ["experiments/H24_ontology_graph_classifier/README.md"]
+  - action: "Implemented typed graph, retrieval dataset/baseline and customized neural core."
+    provenance: ai-executed
+    files_changed: ["airace/ontology_graph.py", "airace/ontology_retrieval.py",
+      "airace/ontology_model.py"]
+  - action: "Ran 72 tests and pushed the verified implementation."
+    provenance: ai-executed
+    files_changed: ["tests/test_ontology_graph.py", "tests/test_ontology_retrieval.py",
+      "tests/test_ontology_model.py"]
+
+claims_touched:
+  - id: C24
+    action: advanced
+    provenance: ai-suggested
+  - id: C25
+    action: created
+    provenance: ai-suggested
+  - id: C26
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Measure unadapted BamiBERT dense retrieval on the frozen split."
+  - "Train synonym/graph objectives and run registered ablations."
+  - "Train the positive-unlabeled context classifier before any challenger ZIP."
+
+ai_suggestions_pending:
+  - "Do not consume another submission until dense+graph/context ablations clear the H24 gate."
+

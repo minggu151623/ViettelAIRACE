@@ -76,3 +76,22 @@
 - **Sensitivity**: high
 - **Code ref**: [`airace/candidate_semantic.py`,
   `tests/test_candidate_semantic.py`]
+
+## H11: Treat proposal disagreement as positive-unlabeled data
+- **Rationale**: Organizer ground truth is absent, so a proposal missing from
+  H23 may be a hidden true entity. Training every absent proposal as a clean
+  negative would teach the new classifier to reproduce the current baseline
+  and suppress exactly the recall needed for improvement.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`experiments/H24_ontology_graph_classifier/README.md`,
+  `airace/ontology_retrieval.py`]
+
+## H12: Use graph neighbours as hard alternatives, not automatic answers
+- **Rationale**: Same-family ICD siblings and related RxNorm products are
+  semantically close but often mutually incorrect. They are strong contrastive
+  negatives for context learning; graph distance alone must not select the
+  final candidate.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/ontology_graph.py`, `airace/ontology_model.py`]

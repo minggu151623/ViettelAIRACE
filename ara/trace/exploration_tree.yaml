@@ -1,4 +1,28 @@
 tree:
+  - id: N31
+    type: pivot
+    title: "Pivot from candidate lists to ontology-aware model core"
+    provenance: ai-suggested
+    timestamp: "2026-08-02T07:35+07:00"
+    from: "Post-hoc parent/specific candidate-list expansion"
+    to: "Graph-aligned retrieval plus contextual classification"
+    trigger: >
+      H23 improved 38.7976 to only 38.9352; WER and assertions were frozen and
+      the full gain came from a 0.3441 candidate-Jaccard increase.
+    children:
+      - id: N32
+        type: experiment
+        title: "H24 graph construction and lexical retrieval baseline"
+        provenance: ai-executed
+        timestamp: "2026-08-02T07:50+07:00"
+        result: >
+          Built 69,991 concept nodes and 294,548 typed edges, then evaluated
+          518 provenance-marked weak links. Character TF-IDF reached 10.81%
+          R@1 overall and 2.62% on diagnoses, leaving a frozen target for the
+          adapted dense+graph model. All 72 repository tests passed.
+        evidence: [C25, C26,
+          "experiments/H24_ontology_graph_classifier/graph_manifest.json",
+          "experiments/H24_ontology_graph_classifier/lexical_baseline.json"]
   - id: N27
     type: decision
     title: "Use the first reset submission as an H22 confirmation"

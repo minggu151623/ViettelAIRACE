@@ -303,13 +303,40 @@
   WHO 2019, adding—without replacing—the valid three-character WHO parent
   hedges ontology-version uncertainty while preserving the externally useful
   specific code and all extraction fields.
-- **Status**: supported structurally; external effect untested
+- **Status**: supported externally with small effect; axis closed
 - **Provenance**: ai-suggested
 - **Falsification criteria**: A changed row crosses disease families, exceeds
   two candidates, changes a frozen field, or the candidate-only external test
   lowers candidate Jaccard relative to H22.
 - **Proof**: [`airace/candidate_semantic.py`,
   `experiments/H23_candidate_only_semantic/build_report.json`,
+  `experiments/H23_candidate_only_semantic/external_result.json`,
   `turn2/output_v8_candidate_semantic.zip`]
 - **Dependencies**: [C06, C18, C22]
 - **Tags**: ICD-10, ICD-10-CM, parent, candidates, external-pending
+
+## C25: Parent-list expansion is not a breakthrough path
+- **Statement**: Candidate-only same-family WHO parent expansion is valid but
+  too small to bridge the remaining leaderboard gap; model-core changes must
+  affect contextual extraction and normalization together.
+- **Status**: supported by one controlled external ablation
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A separately preregistered parent-list policy
+  produces a multi-point gain while preserving WER and assertion metrics.
+- **Proof**: [`experiments/H23_candidate_only_semantic/external_result.json`]
+- **Dependencies**: [C24]
+- **Tags**: candidates, saturation, pivot, black-box
+
+## C26: Vietnamese diagnosis normalization has large semantic headroom
+- **Statement**: Character-only retrieval over the exact WHO/RxNorm graph is
+  inadequate for Vietnamese diagnosis mentions, so a cross-lingual contextual
+  encoder with ontology structure has measurable headroom over lexical lookup.
+- **Status**: testing; lexical baseline supported, dense/graph gain pending
+- **Provenance**: ai-suggested
+- **Falsification criteria**: An alias-held-out dense+graph model fails to beat
+  lexical Recall@1 by 5 points and Recall@5 by 8 points under the frozen H24
+  protocol, or the pseudo-link labels prove unusably inconsistent.
+- **Proof**: [`experiments/H24_ontology_graph_classifier/lexical_baseline.json`,
+  `experiments/H24_ontology_graph_classifier/graph_manifest.json`]
+- **Dependencies**: [C23, C25]
+- **Tags**: ontology, graph, retrieval, Vietnamese, diagnosis
