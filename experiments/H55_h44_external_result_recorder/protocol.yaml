@@ -1,0 +1,71 @@
+hypothesis: H55_h44_external_result_recorder
+status: preregistered_readiness_tool
+created_at: "2026-08-03T06:40:41+07:00"
+question: >
+  Can the future H44 leaderboard result be recorded fail-closed, reconciled
+  against the candidate-only score formula, and mapped mechanically to the
+  already frozen H44 decision tree without manual branch selection?
+
+motivation: >
+  H52-H54 have fully calibrated H44's exposure and interpretive scope. Further
+  pre-result audits would add little understanding. The remaining avoidable
+  risk is operational: wrong ZIP identity, metric transcription error, formula
+  inconsistency, or post-result branch reinterpretation.
+
+frozen_inputs:
+  decision_tree: experiments/H44_full_who_family_hedge/external_decision_tree.yaml
+  h44_zip: turn2/output_v12_full_who_family_hedge.zip
+  h44_zip_sha256: 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba
+  baseline_h38:
+    score: 39.2813
+    wer_percent: 56.1576
+    j_assertion: 47.3920
+    j_candidates: 29.7776
+
+registered_behavior:
+  - load baseline, tolerances and branch thresholds from the frozen YAML tree
+  - verify both the supplied submission hash and current local H44 ZIP hash
+  - require finite score, WER, assertion Jaccard and candidate Jaccard values
+  - compute four displayed deltas without changing their precision
+  - check WER and assertion invariance at 0.0001 tolerance
+  - reconcile score delta with 0.4 times candidate-Jaccard delta at 0.0002
+  - select the first matching frozen branch in its registered order
+  - copy that branch's interpretation and action verbatim into the result
+  - bind the result to the SHA-256 of the decision-tree file
+  - never write an external-result file when any identity or validation check fails
+
+registered_test_matrix:
+  validation_anomaly:
+    cases: [wrong_zip_hash, WER_movement, assertion_movement, score_reconciliation_failure]
+    expected_decision: STOP_ATTRIBUTION
+  strong_positive:
+    candidate_delta: 0.50
+    score_delta: 0.20
+    expected_decision: PROMOTE_H44
+  small_positive:
+    candidate_delta: 0.10
+    score_delta: 0.04
+    expected_decision: PROMOTE_H44_WEAK
+  practical_null:
+    candidate_delta: 0.02
+    score_delta: 0.008
+    expected_decision: RETAIN_H38
+  negative:
+    candidate_delta: -0.10
+    score_delta: -0.04
+    expected_decision: RETAIN_H38
+
+registered_gates:
+  - every synthetic branch maps exactly as registered
+  - every anomaly fails attribution
+  - result serialization is deterministic
+  - all repository tests pass
+
+scope: >
+  H55 is a readiness and integrity tool, not a new model hypothesis, external
+  result, or submission artifact. Synthetic branch fixtures provide software
+  verification only and must never be reported as leaderboard evidence.
+
+failure_policy: >
+  If any branch, hash, reconciliation, serialization or repository gate fails,
+  do not use the recorder for the H44 result and do not modify the decision tree.
