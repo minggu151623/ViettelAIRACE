@@ -759,6 +759,18 @@ The strongest verified direction is conservative structural cleanup:
   This is a real improvement, but 183 selected rows buy only 0.31 points. Adding
   more rows from the same correlated proposal family cannot plausibly close the
   roughly 11-point gap to 50; threshold tuning on H38 is now a closed axis.
+- **H39 separates correlation from policy incompatibility.** The dependency-
+  aware EM model beats majority F1 by 11.67 points on the locked correlated-
+  noise simulation, proving the implementation can discount duplicated Bami
+  errors. Yet it improves only 4/19 real leave-one-family-out cells. The five
+  sources are not merely noisy views of one label function: they use different
+  boundary/type inventories. No unsupervised source-weighting method can recover
+  the missing common policy from these votes alone.
+- **Turn 2 contains a latent repeated-passage library.** Exact lines of at least
+  40 characters form 271 cross-record groups and cover 43.07% of all input
+  characters. H38 is inconsistent on 104 groups. Unlike model agreement, exact
+  repeated text is corpus-internal evidence that can support occurrence-level
+  transfer, provided assertions remain context-specific.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

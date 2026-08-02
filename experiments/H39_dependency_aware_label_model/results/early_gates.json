@@ -1,0 +1,229 @@
+{
+  "status": "failed_before_stacker",
+  "frozen_hashes": {
+    "bami_v15": "2dd6b6e6804e80afb3419f32c705851b4ae8055e4aa866492644c444958091cd",
+    "bami_v3": "71d6a38f7f55aad80857e456172e9c00175d6c47cf9f9cf4cf8498fbd116a75e",
+    "vietmed": "5bc85a01d47119d29696865d3be0feb51d905c3eecd1780f9d4802bb86c3b69b",
+    "qwen_guarded": "0f5a53fdd46a82dc2556ae11f3b53615a5ed6448cc156100801aac2c8bc979c4",
+    "h34_oof": "21823c984a992ce29ac6dc84e529e3056ec4192db0b23137d2bdcc82cce811a4",
+    "baseline_zip": "a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b",
+    "input_tree": "d68702073a5e478df60ab389b71587813ffac08475902f043446346ef0f15bcf"
+  },
+  "synthetic": {
+    "seed": 3901,
+    "examples": 20000,
+    "anchored_controls": 500,
+    "majority_f1": 0.6935020876826722,
+    "label_model_f1": 0.8101726929303832,
+    "f1_gain": 0.116670605247711,
+    "gate_gain_at_least_0_05": true,
+    "source_weights": [
+      0.1851022023927985,
+      0.1851022023927985,
+      0.7474875085997439,
+      0.7474875085997439,
+      0.8127316296960827
+    ],
+    "class_prior": [
+      0.6029914065871583,
+      0.39700859341284167
+    ],
+    "iterations": 422,
+    "converged": true
+  },
+  "real_candidate_rows": 8335,
+  "vote_coverage": {
+    "bami_v15": 6823,
+    "bami_v3": 5729,
+    "vietmed": 6158,
+    "qwen_guarded": 3543,
+    "h34_oof": 3598
+  },
+  "anchor_counts": {
+    "positive": 48,
+    "registered_hazard": 21,
+    "numeric_measurement": 8
+  },
+  "leave_one_family_out": {
+    "cells": [
+      {
+        "heldout_family": "bami",
+        "type": "CHẨN_ĐOÁN",
+        "observations": 661,
+        "label_model_logloss": 1.616036503262318,
+        "majority_logloss": 1.5971649311445273,
+        "gain": -0.01887157211779078,
+        "passed": false
+      },
+      {
+        "heldout_family": "bami",
+        "type": "TRIỆU_CHỨNG",
+        "observations": 1341,
+        "label_model_logloss": 1.790690806708977,
+        "majority_logloss": 1.5214182991816925,
+        "gain": -0.2692725075272846,
+        "passed": false
+      },
+      {
+        "heldout_family": "bami",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "observations": 648,
+        "label_model_logloss": 2.0713969435891935,
+        "majority_logloss": 1.9343306486224983,
+        "gain": -0.1370662949666952,
+        "passed": false
+      },
+      {
+        "heldout_family": "bami",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "observations": 28,
+        "label_model_logloss": 7.654489601486374,
+        "majority_logloss": 1.996896104214752,
+        "gain": -5.657593497271622,
+        "passed": false
+      },
+      {
+        "heldout_family": "bami",
+        "type": "THUỐC",
+        "observations": 288,
+        "label_model_logloss": 1.9540887774679905,
+        "majority_logloss": 1.4475147566005109,
+        "gain": -0.5065740208674796,
+        "passed": false
+      },
+      {
+        "heldout_family": "vietmed",
+        "type": "CHẨN_ĐOÁN",
+        "observations": 627,
+        "label_model_logloss": 1.8128547828835868,
+        "majority_logloss": 1.8771795148180301,
+        "gain": 0.06432473193444332,
+        "passed": true
+      },
+      {
+        "heldout_family": "vietmed",
+        "type": "TRIỆU_CHỨNG",
+        "observations": 1911,
+        "label_model_logloss": 1.9198609142627638,
+        "majority_logloss": 1.8619919887983365,
+        "gain": -0.057868925464427345,
+        "passed": false
+      },
+      {
+        "heldout_family": "vietmed",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "observations": 478,
+        "label_model_logloss": 1.9268890164472876,
+        "majority_logloss": 1.9337011698587967,
+        "gain": 0.006812153411509092,
+        "passed": true
+      },
+      {
+        "heldout_family": "vietmed",
+        "type": "THUỐC",
+        "observations": 991,
+        "label_model_logloss": 2.254776173398528,
+        "majority_logloss": 1.8575868221591083,
+        "gain": -0.3971893512394198,
+        "passed": false
+      },
+      {
+        "heldout_family": "vietmed",
+        "type": "THÔNG_TIN_BỆNH_NHÂN",
+        "observations": 33,
+        "label_model_logloss": 7.405073581243204,
+        "majority_logloss": 1.9459101490553132,
+        "gain": -5.45916343218789,
+        "passed": false
+      },
+      {
+        "heldout_family": "qwen_guarded",
+        "type": "CHẨN_ĐOÁN",
+        "observations": 492,
+        "label_model_logloss": 1.637312364157521,
+        "majority_logloss": 1.61058706615699,
+        "gain": -0.026725298000530806,
+        "passed": false
+      },
+      {
+        "heldout_family": "qwen_guarded",
+        "type": "TRIỆU_CHỨNG",
+        "observations": 669,
+        "label_model_logloss": 1.6640333810019794,
+        "majority_logloss": 1.522139979079506,
+        "gain": -0.14189340192247335,
+        "passed": false
+      },
+      {
+        "heldout_family": "qwen_guarded",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "observations": 228,
+        "label_model_logloss": 1.7696064130917362,
+        "majority_logloss": 1.7978297870790991,
+        "gain": 0.028223373987362965,
+        "passed": true
+      },
+      {
+        "heldout_family": "qwen_guarded",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "observations": 170,
+        "label_model_logloss": 8.06178252804447,
+        "majority_logloss": 2.124287122515306,
+        "gain": -5.937495405529163,
+        "passed": false
+      },
+      {
+        "heldout_family": "qwen_guarded",
+        "type": "THUỐC",
+        "observations": 192,
+        "label_model_logloss": 2.5741699864099314,
+        "majority_logloss": 1.5188640073372375,
+        "gain": -1.055305979072694,
+        "passed": false
+      },
+      {
+        "heldout_family": "h34_oof",
+        "type": "CHẨN_ĐOÁN",
+        "observations": 711,
+        "label_model_logloss": 1.5708470470924136,
+        "majority_logloss": 1.57482010235429,
+        "gain": 0.0039730552618764126,
+        "passed": true
+      },
+      {
+        "heldout_family": "h34_oof",
+        "type": "TRIỆU_CHỨNG",
+        "observations": 963,
+        "label_model_logloss": 1.6306678609694225,
+        "majority_logloss": 1.4125289641820034,
+        "gain": -0.21813889678741916,
+        "passed": false
+      },
+      {
+        "heldout_family": "h34_oof",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "observations": 20,
+        "label_model_logloss": 1.8234016467944678,
+        "majority_logloss": 1.5414618519184615,
+        "gain": -0.2819397948760063,
+        "passed": false
+      },
+      {
+        "heldout_family": "h34_oof",
+        "type": "THUỐC",
+        "observations": 228,
+        "label_model_logloss": 2.7103263862299865,
+        "majority_logloss": 1.3165844715660464,
+        "gain": -1.39374191466394,
+        "passed": false
+      }
+    ],
+    "evaluated_cells": 19,
+    "all_cells_passed": false
+  },
+  "gates": {
+    "frozen_hashes_match": true,
+    "synthetic_gain_at_least_0_05": true,
+    "leave_one_family_out_all_cells_gain": false
+  }
+}

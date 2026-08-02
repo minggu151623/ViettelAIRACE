@@ -37,9 +37,11 @@ current_direction: >
   agreement across five frozen views and changes 183 rows over 68 records. It
   scores 39.2813, only +0.3093: text and candidates improve, assertions slip.
   This validates consensus directionally but closes same-family expansion as a
-  breakthrough path. The next outer loop must create genuinely independent
-  supervision or recover the organizer/source annotation policy; it must not
-  tune another H38 threshold.
+  breakthrough path. H39 then passes its correlated-noise simulation but fails
+  15/19 real leave-one-family-out cells, proving the sources encode incompatible
+  policies rather than one recoverable latent vote. Turn 2 instead exposes 271
+  exact repeated-line groups covering 43.07% of characters; the next outer loop
+  will exploit cross-occurrence consistency rather than reweight model votes.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -217,11 +219,15 @@ hypotheses:
       smaller candidate gain while assertions slipped. Do not tune another
       consensus threshold on these correlated sources.
   H39_dependency_aware_label_model:
-    status: preregistered_not_run
+    status: rejected_real_leave_one_family_out_gate_failed
     prediction: >
       Modeling type-specific source accuracy and source dependence as latent
       variables, then cross-fitting a contextual stacker, will outperform exact
       majority voting under correlated-noise and leave-one-family-out gates.
+    result: >
+      Synthetic F1 improved 0.69350 to 0.81017, but only 4/19 real held-out
+      source/type cells improved log-loss. Sources encode incompatible policies;
+      stacker and artifact generation were canceled.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -353,11 +359,12 @@ experiments:
     - "H38 five-view consensus: 183 rows across 68 records; all local gates pass; deterministic ZIP a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b"
     - "H38 external result: 39.2813; WER +0.8057 favorable, assertion -0.0234, candidate +0.1866, total +0.3093"
     - "H39 dependency-aware joint label-model protocol locked; implementation not yet run"
+    - "H39 rejected before stacker: synthetic F1 +0.11667, but only 4/19 real leave-one-family-out cells improve; no ZIP"
   next: >
-    Implement H39's synthetic correlated-noise harness and latent source model
-    first. Continue only if it beats majority voting and passes leave-one-family-
-    out gates; then cross-fit the contextual span/type/assertion stacker and
-    ontology decoder. Freeze H38 and spend no submission on threshold variants.
+    Preregister a repeated-passage consistency graph for Turn 2. Treat exact
+    passage occurrences as corpus-internal evidence, aggregate independent
+    family support across occurrences, keep assertions context-specific, and
+    require leave-one-occurrence-out and hazard gates before any artifact.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

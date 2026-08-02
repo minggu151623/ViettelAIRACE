@@ -1221,3 +1221,19 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - Locked synthetic correlated-noise, leave-one-family-out, control-retention,
   hazard, seed-stability, assertion, candidate-support, schema and determinism
   gates before implementation. No artifact exists yet.
+
+## 2026-08-03 — H39 fails before stacker
+
+- Implemented deterministic multiclass Dawid-Skene EM with declared family
+  weights and residual-agreement penalties.
+- Passed the locked synthetic gate: majority F1 0.69350 versus label-model F1
+  0.81017, a gain of 0.11667.
+- Failed the frozen real-data gate: only 4/19 type-by-held-out-family cells
+  improved log-loss. Failures were large for drugs, symptoms, test results and
+  patient information, showing policy incompatibility rather than only source
+  correlation.
+- Stopped before embedding, stacker, assertions, ontology decoding and ZIP
+  creation. All 116 tests pass and the early-gate report is byte-identical.
+- Exploratory Turn-2 audit found 271 exact repeated-line groups covering 43.07%
+  of input characters; 104 have inconsistent H38 local annotations. This opens
+  a corpus-structure direction independent of another source-weight sweep.
