@@ -1,0 +1,74 @@
+hypothesis: H54_h44_family_novelty_decomposition
+status: preregistered
+created_at: "2026-08-03T06:20:42+07:00"
+question: >
+  Is H44 mainly a within-family extension of the externally positive H23
+  mechanism, or does it primarily extrapolate that mechanism to WHO parent
+  families never touched by H23?
+
+motivation: >
+  H53 establishes broad family exposure, but breadth alone does not distinguish
+  interpolation from extrapolation. H23 and H44 share 28 parent families while
+  having zero exact specific-code and lexical-unit overlap. Before the H44
+  score is revealed, decompose H44 by H23 family membership so an aggregate
+  negative result cannot silently be interpreted as disproving H23 itself.
+
+frozen_inputs:
+  h23_report: experiments/H23_candidate_only_semantic/build_report.json
+  h44_report: experiments/H44_full_who_family_hedge/results/build_report.json
+  h53_report: experiments/H53_h44_exposure_concentration/results/concentration.json
+  h44_zip: turn2/output_v12_full_who_family_hedge.zip
+  h44_zip_sha256: 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba
+
+strata:
+  h23_seen_family: H44 parent family occurs in at least one H23 change
+  h23_novel_family: H44 parent family never occurs in any H23 change
+
+registered_metrics:
+  for_each_stratum:
+    - changed_rows
+    - row_share_of_h44
+    - affected_records
+    - unique_parent_families
+    - family_share_of_h44
+    - unique_specific_codes
+    - unique_normalized_mention_specific_pairs
+    - effective_parent_families_inverse_simpson
+    - effective_lexical_units_inverse_simpson
+    - top_5_parent_row_share
+  cross_checks:
+    - strata_are_disjoint_and_cover_all_611_h44_rows
+    - seen_parent_count_equals_h53_parent_overlap_28
+    - zero_specific_code_overlap_between_h23_and_h44
+    - zero_normalized_lexical_unit_overlap_between_h23_and_h44
+  transfer_arithmetic:
+    - full_h23_per_row_yield_candidate_delta_by_stratum
+    - full_h23_per_row_yield_total_score_delta_by_stratum
+
+registered_gates:
+  novel_family_dominant: >
+    H23-novel families contain at least 70% of H44 rows and at least 70% of
+    H44's unique parent families.
+  seen_family_subgroup_material: >
+    H23-seen families contain at least 100 H44 rows across at least 20 parent
+    families. This licenses only a future preregistered subgroup analysis after
+    H44 result reveal; it does not license a new artifact now.
+  reproducibility: two complete calculations produce byte-identical JSON.
+
+interpretation_policy:
+  if_novel_family_dominant: >
+    H44 is primarily a cross-family extrapolation test. A negative aggregate
+    result rejects indiscriminate corpus-wide expansion but does not refute the
+    already observed H23 CM-exclusive effect. A positive result supports
+    transfer into previously untouched families.
+  otherwise: >
+    H44 contains substantial within-family extension, so its aggregate result
+    bears more directly on whether the H23 family mechanism generalizes to new
+    codes and mentions inside previously touched families.
+  invariant: >
+    This audit changes interpretation only. It must not change H44's ZIP,
+    numerical external gates, submission priority, or create a second artifact.
+
+failure_policy: >
+  If counts, overlap cross-checks, H44 ZIP hash or reproducibility fail, stop
+  and do not amend the external decision tree using this decomposition.
