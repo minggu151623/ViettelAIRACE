@@ -12,9 +12,11 @@ current_direction: >
   81.40% of H23-present additions and gained 4.06 dev F1 points, but missed its
   precision-improvement gate and therefore never touched test. Residual errors
   are dominated by incomplete local boundaries that binary KEEP/DROP cannot
-  repair. The next controlled experiment will choose among enumerated local
-  span expansions on synthetic corruptions plus unchanged controls before any
-  hidden proposal is modified. No new submission artifact is authorized yet.
+  repair. H28 correctly stopped before inference because its ±4-token choice
+  set covered only 82.91% of dev targets. The successor will restrict the
+  benchmark to token-aligned targets and prove complete enumeration before a
+  frozen local boundary selector is invoked. No new submission artifact is
+  authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -277,12 +279,12 @@ experiments:
     - "H25 contextual PU rejected: dev/test strict F1 gains only +0.39/+0.40; assertion transfer inconsistent"
     - "H26 train-only phrase source: dev/test F1 gains +4.08/+1.32, but addition precision 50.59/36.11%"
     - "H27 dual-prompt verifier rejected on dev: retention 81.40%, F1 gain +4.06, pseudo-precision gain +10.82 below +15 gate; test canceled"
+    - "H28 boundary selector stopped pre-inference: enumerator coverage 82.91% below 95%; model and test canceled"
   next: >
-    Preregister a constrained local boundary selector. Generate explicit
-    candidate expansions around synthetic train/dev corruptions, require exact
-    recovery and unchanged-control retention, and cancel hidden proposal repair
-    unless both gates pass. Do not alter H23 until that architecture passes
-    frozen gates.
+    Register a token-aligned boundary benchmark with a seven-token expansion
+    radius and prove choice coverage before inference. Evaluate corrupted exact
+    recovery and unchanged controls on dev, then test once only if all gates
+    pass. Do not alter H23 until that architecture passes frozen gates.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

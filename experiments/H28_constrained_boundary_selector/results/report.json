@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "enumeration": {
+      "eligible_entities": 392,
+      "covered_entities": 325,
+      "coverage": 0.8290816326530612
+    }
+  },
+  "dev_gates": {
+    "enumerator_coverage_at_least_0_95": false,
+    "corrupted_exact_recovery_at_least_0_70": null,
+    "unchanged_control_retention_at_least_0_93": null,
+    "malformed_response_rate_equals_0": null
+  },
+  "test": null,
+  "test_gates": null,
+  "status": "structural_dev_failed_model_and_test_canceled"
+}

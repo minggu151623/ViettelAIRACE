@@ -666,6 +666,11 @@ The strongest verified direction is conservative structural cleanup:
   were absent from H23 yet accepted in clinically coherent contexts. H23-based
   precision remains a conservative diagnostic and cannot authorize a ZIP by
   itself.
+- **Boundary choice requires a coverage proof before model evaluation.** H28's
+  preregistered ±4-token choice set covered only 325/392 eligible dev targets
+  (82.91%), mainly because long mentions need seven-token expansion. The run was
+  stopped before LLM inference. Pseudo-target spans with mid-token endpoints or
+  outer punctuation must also be excluded from a token-boundary benchmark.
 
 - Keep every experiment deterministic and byte-identical on rerun.
 - Treat each leaderboard submission as a preregistered ablation, not as a

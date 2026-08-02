@@ -1050,3 +1050,14 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The fused-token hazard `klonopinclonidine` was removed, but incomplete spans
   such as `Phù` within `Phù gai thị` remain impossible to repair with a binary
   decision. H27 is rejected; no ZIP or competition submission was created.
+
+## 2026-08-02 — H28 boundary selector stopped at enumeration coverage
+
+- Preregistered exact-substring choices around deterministic first/last-token
+  corruptions and unchanged controls before model evaluation.
+- The ±4-token enumerator covered only 325/392 eligible H23 dev spans (82.91%),
+  failing the 95% structural gate. Six-to-eight-token entities dominate the
+  misses; a smaller group has pseudo-target endpoints inside tokens or around
+  punctuation.
+- The model and test phases were canceled before any decisions were generated.
+  No ZIP or competition submission was created.
