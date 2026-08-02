@@ -1,0 +1,56 @@
+hypothesis: H31_frozen_H30_confidence_calibration
+status: preregistered
+created_at: "2026-08-03T01:10:00+07:00"
+question: >
+  Does the frozen H30 model contain a record-held-out high-confidence proposal
+  subset with enough precision to serve as one independent ensemble voter?
+
+frozen_model:
+  checkpoint: models/h30-bami-weak-label
+  model_sha256: bd1bc5587d3e312b8858a52573a465325ced802718189f2d547fbfd5a8e94cf1
+  tokenizer_sha256: cc428a91ea5e8f55caa93541ca6cd74585da4e5b19f9a77ea434070b354b48ac
+  training_changes_allowed: false
+  decoding_changes_allowed: false
+
+data:
+  input: turn2/input
+  pseudo_target: turn2/output_v8_candidate_semantic
+  dev_records: airace.proposal_pu.DEFAULT_DEV
+  test_records: airace.proposal_pu.DEFAULT_TEST
+  warning: H23_is_not_organizer_ground_truth
+
+calibration:
+  entity_score: mean_softmax_probability_of_decoded_BIO_tokens
+  thresholds:
+    - 0.50
+    - 0.60
+    - 0.70
+    - 0.80
+    - 0.85
+    - 0.90
+    - 0.95
+  selection: highest_dev_F1_subject_to_precision_at_least_0.80
+  tie_break: higher_precision_then_higher_threshold
+  no_eligible_threshold: fail_and_cancel_test
+
+dev_gate_before_test:
+  - precision_at_least_0.80
+  - strict_F1_at_least_0.60
+  - recall_at_least_0.45
+  - offset_errors_equal_0
+
+final_test_gate:
+  - precision_at_least_0.78
+  - strict_F1_at_least_0.55
+  - recall_at_least_0.40
+  - deterministic_predictions
+
+use_if_passed:
+  role: independent_high_confidence_voter_only
+  direct_merge: forbidden
+  next_step: separately_preregister_exact_agreement_with_H26_or_H15_sources
+  submission_artifact: forbidden
+
+failure_policy: >
+  Evaluate test once only if an eligible dev threshold clears every dev gate.
+  Do not introduce another threshold after results. Retire H30 if this fails.
