@@ -50,10 +50,11 @@ measurements:
   - exact_non_assertion_isolation_surface_size_without_writing_output
 
 registered_leverage_gate:
-  - both_stage_assertion_deltas_are_negative
-  - at_least_20_asserted_novel_entities_total
-  - asserted_novel_entities_cover_at_least_15_records
-  - combined_observed_weighted_assertion_loss_magnitude_at_least_0.10_score_points
+  criteria:
+    - both_stage_assertion_deltas_are_negative
+    - at_least_20_asserted_novel_entities_total
+    - asserted_novel_entities_cover_at_least_15_records
+    - combined_observed_weighted_assertion_loss_magnitude_at_least_0.10_score_points
   interpretation: >
     The weighted-loss threshold is an evidence threshold, not a mathematical
     upper bound on a counterfactual abstention artifact. Passing only licenses
