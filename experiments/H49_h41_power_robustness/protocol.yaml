@@ -1,0 +1,66 @@
+hypothesis: H49_h41_power_robustness
+status: preregistered
+registered_at: "2026-08-03T04:40:00+07:00"
+question: >
+  Are H48's Type-I and power conclusions robust when passage-level score
+  deltas are discrete, skewed, or heavy-tailed rather than Normal?
+
+motivation: >
+  H48 establishes sensitivity only under independent Normal(d, 1) passage
+  deltas. Actual passage scores are bounded composites and may have many ties,
+  asymmetric errors, or rare large misses. A queue-size recommendation should
+  use a distributional envelope before reviewer labels or predictions open.
+
+frozen_h41_design:
+  labels_present_at_registration: false
+  model_predictions_opened_to_reviewers: false
+  primary_unit: unique_passage
+  strata_counts_at_multiplier_1: {high: 3, middle: 5, low: 7}
+  test: stratified_percentile_bootstrap_lower_95_above_zero
+
+simulation:
+  model: "delta = d + epsilon, with epsilon independently sampled per passage"
+  noise_families:
+    normal: "standard Normal"
+    student_t3: "Student t with 3 df, divided by sqrt(3) for unit variance"
+    right_skew: "Exponential(1) minus 1"
+    left_skew: "1 minus Exponential(1)"
+    rademacher: "equiprobable -1 or +1"
+  all_noise_families_have_mean_0_and_variance_1: true
+  standardized_effects: [0.0, 0.5, 0.75]
+  passage_multipliers: [1, 2, 3, 4]
+  resulting_total_passages: [15, 30, 45, 60]
+  replications: 5000
+  bootstrap_iterations_per_replication: 1000
+  seed: 4901
+  percentile_rule: order_statistic_index_floor_0_025_times_B_minus_1
+  no_clipping_or_post_selection: true
+
+registered_outputs:
+  - promotion_rate_by_noise_family_effect_and_passage_count
+  - type_i_range_across_noise_families
+  - minimum_power_across_noise_families
+  - smallest_passage_count_reaching_80_percent_power_in_every_family
+  - deterministic_repeat_hash
+
+robustness_gates:
+  - every_15_passage_type_i_between_0_02_and_0_08
+  - minimum_30_passage_power_at_d_0_5_at_least_0_70
+  - at_least_one_tested_n_reaches_0_80_power_at_d_0_5_in_every_family
+
+interpretation:
+  if_all_pass: >
+    H48's qualitative conclusion is robust: 15 passages are underpowered and
+    the larger-queue direction remains defensible, with the envelope rather
+    than Normal point estimate reported.
+  if_any_fail: >
+    Treat H48's Normal power curve as optimistic or distribution-specific.
+    H41 remains a high-effect confirmation gate, but do not recommend a queue
+    size from the Normal simulation alone.
+
+artifact_policy:
+  submission_zip: forbidden
+  annotation_queue_change: forbidden
+  reviewer_label_access: forbidden
+  model_prediction_access: forbidden
+  deterministic_repeat_required: true
