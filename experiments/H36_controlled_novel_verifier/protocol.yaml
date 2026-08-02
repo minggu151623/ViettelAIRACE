@@ -1,0 +1,49 @@
+hypothesis: H36_controlled_dual_verifier_for_novel_agreements
+status: preregistered
+created_at: "2026-08-03T03:20:00+07:00"
+question: >
+  Can two frozen semantic/boundary prompts retain known-correct independent
+  agreements while rejecting registered fused hazards in H35's novel queue?
+
+frozen_queue:
+  report: experiments/H35_independent_agreement_audit/results/report.json
+  sha256: 0d2cf9f09ff6024555ebc5605482956018d3acc32d324d5653d9a5b44a1eb6f3
+  novel_rows: 51
+
+controls:
+  positive_pool: exact_H34_intersection_H23_intersection_VietMed
+  types: [CHẨN_ĐOÁN, TRIỆU_CHỨNG, THUỐC]
+  selection: sha256_seed_6007_first_10_per_type
+  expected_positive_controls: 30
+  negative_controls:
+    - doxycyclinebactrim
+    - klonopinclonidine
+  target_labels_hidden_from_prompts: true
+
+review:
+  model: qwen3:8b
+  ollama_id: 500a1f067a9f
+  temperature: 0
+  semantic_prompt_seed: 3109
+  boundary_prompt_seed: 7823
+  prompts: frozen_from_H27
+  output: KEEP_or_DROP_plus_categorical_reason
+  accepted: unanimous_KEEP_and_not_registered_hazard
+  invented_or_edited_spans: forbidden
+
+gate:
+  - responses_complete
+  - positive_control_retention_at_least_0.85
+  - negative_control_drop_rate_equals_1
+  - prompt_action_agreement_at_least_0.80
+  - all_offsets_valid
+
+if_passed:
+  output: accepted_novel_queue_only
+  direct_merge: forbidden
+  next_step: preregister_assertion_candidate_enrichment_and_end_to_end_proxy
+  zip_creation: forbidden
+
+failure_policy: >
+  Do not edit prompts or controls after decisions. If any gate fails, do not
+  promote the novel queue and do not create a merge artifact.
