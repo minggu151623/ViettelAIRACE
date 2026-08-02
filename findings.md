@@ -615,6 +615,16 @@ The strongest verified direction is conservative structural cleanup:
   context similarity, code depth and graph-family features on train-only hard
   candidates. This changes the source core in the way the peer report implied,
   while retaining a measurable router fallback.
+- **Even a project-trained linear linker does not improve top-1.** Context
+  cosine receives the largest positive coefficient, but dev/test R@1 remains
+  16.67/17.86%; graph features change neither dev R@1 nor R@5. With only 518
+  H23-derived weak rows, deeper linker fitting is more likely to overfit than
+  to create leaderboard gain.
+- **H24's durable result is a candidate generator, not a submission.** Qwen
+  diagnosis plus lexical drug retrieval expands held-out candidate pools and
+  can support future normalization, but it has not passed an end-to-end gate.
+  Research should now target proposal span/type and assertion selection, which
+  control the much larger external text and assertion deficits.
 - **H24 evaluation remains weak-label evaluation.** The 518 link rows are
   derived from H23 and are not organizer truth. Alias-group splitting prevents
   surface leakage, but a gain only proves the new model can learn the frozen

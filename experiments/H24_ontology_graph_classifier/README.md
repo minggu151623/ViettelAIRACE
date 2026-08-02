@@ -234,3 +234,18 @@ variant beats the fixed router and the promotion gate fails. The result
 supports a project-trained classifier over mined sparse+dense negatives rather
 than another unchanged relevance model. The router remains the H24 baseline;
 no ZIP was created.
+
+## Stage-8 mined feature classifier rejected
+
+A train-only regularized logistic classifier ranked the stable union of Qwen
+and lexical top-10 candidates. Semantic features include source ranks, frozen
+mention/context cosine, alias similarity, exact match and code specificity;
+the graph ablation adds degree, in-pool neighbors and ICD parent/child flags.
+
+Semantic-only and semantic+graph both score dev R@1/R@5 16.67/25.00%, exactly
+the router. Dev selects semantic-only by the conservative tie rule. Test R@1
+also remains 17.86%; R@5 rises only from 30.36% to 32.14%. The gate fails and
+graph contributes no independent gain. The candidate-linking inner loop is
+closed: its useful output is the fixed type router and its Qwen candidate pool,
+not a challenger submission. The outer loop now shifts to proposal span/type
+and assertion classification, where leaderboard headroom is much larger.

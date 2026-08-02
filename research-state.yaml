@@ -131,7 +131,7 @@ hypotheses:
       candidates will hedge organizer ontology differences and improve
       candidate Jaccard without changing text or assertion metrics.
   H24_ontology_graph_classifier:
-    status: off_the_shelf_reranker_rejected_mined_feature_classifier_next
+    status: linker_inner_loop_closed_router_retained_span_assertion_outer_loop_next
     prediction: >
       A customized sparse+dense concept retriever with ontology-graph losses,
       graph-mined hard negatives and a contextual classifier/reranker will
@@ -250,11 +250,13 @@ experiments:
     - "H24 Qwen3 multilingual dense: dev/test R@10 25.00/37.50% vs lexical 11.11/21.43%; R@1 gate failed but candidate pool is positive"
     - "H24 fixed type router passes: dev/test R@1 16.67/17.86%, R@5 25.00/30.36%; all four sparse-dense gates clear"
     - "H24 context/graph reranker rejected: graph wins dev R@5 ablation but selected test metrics exactly equal the fixed router"
+    - "H24 mined feature classifier rejected: dev/test R@1 unchanged at 16.67/17.86%; graph ablation identical, test R@5 only +1.79"
   next: >
-    Preregister a project-trained pairwise feature classifier over the union of
-    sparse and dense mined candidates. Include raw lexical/dense ranks,
-    context similarity and graph-family features; fit train only, select on
-    dev and compare against router R@1 16.67/17.86 before touching H23.
+    Close the weak-link reranking inner loop and retain the fixed type router as
+    a candidate generator. Start a record-held-out positive-unlabeled
+    span/type/assertion classifier over the heterogeneous proposal banks,
+    because external WER 57.2161 and assertion 47.5455 dominate remaining
+    headroom. Do not alter H23 until that architecture passes frozen gates.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

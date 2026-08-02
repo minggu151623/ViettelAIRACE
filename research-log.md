@@ -985,3 +985,19 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The generic reranker gate failed. Graph evidence is not claimed effective
   because it did not improve the promoted baseline. A train-only project
   classifier over mined sparse+dense negatives is the next mechanism.
+
+## 2026-08-02 — H24 mined feature classifier closes the linker inner loop
+
+- Built the stable union of Qwen and lexical top-10 candidates. Its oracle
+  recall is 30.56% dev and 41.07% test. Rows whose weak gold was absent from
+  the train pool were excluded rather than mislabeled as all-negative.
+- A fixed L2 logistic classifier used source ranks, frozen mention/context
+  cosine, alias similarity, exact match, specificity and type. The graph
+  ablation added degree, candidate-neighbor and ICD parent/child features.
+- Both variants scored dev R@1/R@5 16.67/25.00%; semantic-only won the
+  conservative tie. Its test R@1 stayed 17.86% and R@5 rose only
+  30.36 -> 32.14%.
+- The promotion gate failed and graph supplied zero independent dev gain. The
+  fixed type router remains the only promoted H24 retrieval component.
+- The outer loop now pivots to record-held-out span/type/assertion proposal
+  classification. No H24 ZIP or competition submission was created.
