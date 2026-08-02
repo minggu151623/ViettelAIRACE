@@ -442,12 +442,28 @@
   shorter core spans inside longer H23 symptom mentions rather than entirely
   new mentions; a bounded replacement can isolate this policy difference
   without changing candidates.
-- **Status**: supported structurally; leaderboard effect untested
+- **Status**: supported externally but effect is negligible
 - **Provenance**: ai-suggested
 - **Falsification criteria**: H37 changes a candidate or unaffected entity,
-  applies a cross-type conflict, fails deterministic validation, or its external
-  score is lower than H23 due to the registered boundary policy.
+  applies a cross-type conflict, or fails deterministic validation. The external
+  effect was positive but too small to justify further micro-queues.
 - **Proof**: [`experiments/H37_verified_symptom_boundary/results/report.json`,
   `turn2/output_v9_verified_symptoms.zip`]
 - **Dependencies**: [C33]
 - **Tags**: boundary, symptoms, replacement, deterministic
+
+## C35: Multi-view exact consensus scales proposal coverage but not independence
+- **Statement**: Requiring exact agreement among at least three of five frozen
+  proposal views, followed by dual semantic/boundary verification, can scale a
+  controlled novel queue beyond 150 rows; agreement does not eliminate errors
+  shared through weak-label ancestry.
+- **Status**: supported internally; organizer transfer untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A frozen rerun changes accepted rows or bytes,
+  retains a registered hazard, loses more than 15% of positive controls, or an
+  external evaluation performs below H37.
+- **Proof**: [`experiments/H38_multiview_consensus/results/report.json`,
+  `experiments/H38_multiview_consensus/results/determinism.json`,
+  `experiments/H38_multiview_consensus/analysis.md`]
+- **Dependencies**: [C33, C34]
+- **Tags**: ensemble, agreement, controls, correlated-errors, NER

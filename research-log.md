@@ -1179,3 +1179,22 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The shorter symptom-boundary direction is weakly supported, but a 26-row
   controlled queue is not a breakthrough path. The outer loop pivots to a
   large-scale multi-view extraction/assertion/normalization ensemble.
+
+## 2026-08-02 — H38 five-view consensus passes local gates
+
+- Froze H37 and five heterogeneous proposal views by checksum before inference.
+  Selected only exact 3-of-5 agreements that were disjoint from H37 or contained
+  inside a same-type H37 span.
+- Reviewed 209 structurally eligible novel rows alongside 48 positive and 21
+  negative controls with the frozen H27 semantic and boundary prompts.
+- Retained 44/48 positive controls, rejected 21/21 registered hazards, reached
+  90.29% prompt-action agreement, and selected 183 rows after candidate and
+  overlap safeguards.
+- Replaced 130 rows and added 183 rows across 68 records. All unaffected rows
+  remain dictionary-identical; all 100 records validate; 110 tests pass.
+- Two reruns are byte-identical at ZIP SHA-256
+  `a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b`.
+- Manual anomaly review identifies correlated residual errors, particularly a
+  numeric temperature typed as a symptom and potentially over-specific ICD
+  inheritance for shortened diagnoses. These are recorded rather than removed
+  post hoc. The artifact is a submission candidate, not an external result.

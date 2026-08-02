@@ -33,11 +33,12 @@ current_direction: >
   H36's controlled dual verifier passes every frozen gate: 90% positive-control
   retention, 100% registered-hazard rejection, 92.59% prompt agreement and 42
   accepted novel rows. H37 integrates 22 symptom-boundary replacements and four
-  additions. Its external score is only 38.9720 (+0.0368): WER improves 0.2528,
-  assertions regress 0.1301, and candidates are unchanged. This closes the
-  small verified-queue path. The next outer loop must build a large-scale
-  multi-view ensemble that jointly changes span/type, assertion and candidate
-  normalization; the eight-row diagnosis/drug follow-up is canceled.
+  additions, but gains only 0.0368 externally. H38 therefore scales to exact
+  3-of-5 agreement across five frozen views and passes every registered local
+  gate, selecting 183 rows over 68 records. The artifact is deterministic and
+  valid, but shared model ancestry leaves correlated semantic and candidate-
+  inheritance risks. H38 is a controlled submission candidate, not yet
+  external evidence.
 baseline:
   best_submitted_artifact: turn2/output_v9_verified_symptoms.zip
   score: 38.9720
@@ -202,6 +203,17 @@ hypotheses:
       Applied 22 boundary rows and four disjoint additions. External WER
       improved 0.2528 but assertion Jaccard fell 0.1301; candidates were fixed,
       yielding only +0.0368 total. Do not extend this with another micro-queue.
+  H38_multiview_consensus:
+    status: local_gates_passed_external_effect_pending
+    prediction: >
+      Exact agreement among at least three of five heterogeneous frozen views,
+      followed by dual verification and conservative candidate handling, can
+      scale the positive H37 boundary signal to architecture-level coverage.
+    result: >
+      Selected 183 rows across 68 records; retained 91.67% of controls, rejected
+      all registered hazards, validated 100/100 files and reproduced identical
+      ZIP bytes. Manual audit still finds correlated semantic errors, so the
+      leaderboard effect is unknown until the user submits the frozen artifact.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -330,12 +342,12 @@ experiments:
     - "H36 controlled verifier passed: 27/30 controls retained, both hazards rejected, 42/51 novel rows accepted"
     - "H37 verified symptoms: 22 boundary rows plus four disjoint additions; 100/100 valid; deterministic ZIP 032041a8f92bc97ca6a92d4cb4809d6aa39122471056df97bfe1fd1fe4585abc"
     - "H37 external result: 38.9720; WER +0.2528 favorable, assertion -0.1301, candidate unchanged, total +0.0368"
+    - "H38 five-view consensus: 183 rows across 68 records; all local gates pass; deterministic ZIP a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b"
   next: >
-    Audit all available proposal banks as heterogeneous views and preregister a
-    large-scale consensus/stacking architecture. Require hundreds of changed
-    rows, separate type-specific routers, an assertion classifier aligned to
-    the final boundary, and ontology candidate generation after span selection.
-    Do not spend a submission on the eight-row H37 diagnosis/drug extension.
+    Preserve H38 unchanged as the next black-box candidate. In parallel,
+    preregister a semantic-compatibility safeguard for numeric measurements,
+    generic short spans and candidate inheritance after boundary shortening;
+    do not post-hoc tune H38 after inspecting its accepted examples.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

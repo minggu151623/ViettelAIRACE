@@ -143,3 +143,13 @@
 - **Sensitivity**: high
 - **Code ref**: [`airace/verified_symptom_boundary.py`,
   `tests/test_verified_symptom_boundary.py`]
+
+## H18: Freeze and hash every view before multi-view adjudication
+- **Rationale**: A consensus experiment is not reproducible if a proposal bank
+  silently changes between registration and inference. Hash file names and
+  contents with explicit delimiters, fail before LLM review on any mismatch,
+  and verify the final output and ZIP across two complete runs.
+- **Provenance**: ai-suggested
+- **Sensitivity**: low
+- **Code ref**: [`airace/multiview_consensus.py`,
+  `tests/test_multiview_consensus.py`]

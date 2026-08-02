@@ -204,10 +204,30 @@ tree:
                                           disjoint symptoms, skipped three type
                                           conflicts, and produced a 100-record
                                           deterministic candidate ZIP. External
-                                          evaluation remains pending.
+                                          score rose only 0.0368 to 38.9720;
+                                          WER improved while assertions fell.
                                         evidence: [C34,
                                           "experiments/H37_verified_symptom_boundary/results/report.json",
                                           "turn2/output_v9_verified_symptoms.zip"]
+                                        children:
+                                          - id: N46
+                                            type: experiment
+                                            title: "H38 five-view exact consensus"
+                                            provenance: ai-executed
+                                            timestamp: "2026-08-02T14:30+07:00"
+                                            result: >
+                                              Exact 3-of-5 agreement plus frozen
+                                              dual verification selected 183
+                                              rows across 68 records. It retained
+                                              91.67% of positive controls, rejected
+                                              all 21 hazards, validated all files,
+                                              passed 111 tests and reproduced
+                                              byte-identical ZIPs. Manual review
+                                              still found shared-model errors, so
+                                              external improvement is untested.
+                                            evidence: [C35,
+                                              "experiments/H38_multiview_consensus/results/report.json",
+                                              "experiments/H38_multiview_consensus/analysis.md"]
   - id: N27
     type: decision
     title: "Use the first reset submission as an H22 confirmation"

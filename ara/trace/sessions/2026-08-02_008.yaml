@@ -1,0 +1,41 @@
+session:
+  id: "2026-08-02_008"
+  timestamp: "2026-08-02T14:30+07:00"
+  summary: "Recorded H37's negligible external gain and built H38's deterministic five-view consensus candidate."
+
+events_logged:
+  - type: experiment
+    id: N46
+    provenance: ai-executed
+    summary: "H38 selected 183 exact multi-view rows across 68 records and passed every preregistered local gate."
+  - type: claim
+    id: C35
+    provenance: ai-suggested
+    summary: "Exact multi-view agreement scales coverage but does not remove correlated weak-label errors."
+  - type: heuristic
+    id: H18
+    provenance: ai-suggested
+    summary: "Hash frozen proposal views and verify final bytes across complete reruns."
+
+ai_actions:
+  - action: "Implemented exact five-view consensus, dual verification, candidate safeguards and frozen-source checksum enforcement."
+    provenance: ai-executed
+    files_changed: ["airace/multiview_consensus.py", "tests/test_multiview_consensus.py"]
+  - action: "Generated H38 review evidence, accepted queue, analysis and reproducibility record."
+    provenance: ai-executed
+    files_changed: ["experiments/H38_multiview_consensus/results/report.json", "experiments/H38_multiview_consensus/results/determinism.json", "experiments/H38_multiview_consensus/analysis.md"]
+
+claims_touched:
+  - id: C34
+    action: advanced
+    provenance: ai-suggested
+  - id: C35
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Measure the frozen H38 artifact externally without modifying it post hoc."
+  - "Preregister a semantic-compatibility safeguard for numeric measurements and candidate inheritance."
+
+ai_suggestions_pending:
+  - "Use H38 as the next black-box candidate, while treating its leaderboard direction as uncertain until measured."

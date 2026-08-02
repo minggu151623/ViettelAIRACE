@@ -744,6 +744,15 @@ The strongest verified direction is conservative structural cleanup:
   The net score gain is only 0.0368. Twenty-six edits cannot close the gap;
   subsequent work must change extraction, assertion, and normalization at
   architecture scale rather than extend H37 with another handful of rows.
+- **H38 scales consensus, but correlated model errors remain.** Exact 3-of-5
+  agreement plus frozen semantic/boundary verification yields 183 accepted
+  changes across 68 records, versus only 26 changes in H37. All registered
+  local gates pass, including 91.67% positive-control retention, 100% hazard
+  rejection, 90.29% prompt agreement, 100/100 validation and byte-identical
+  reruns. Manual anomaly review nevertheless finds a shared error (`38.3°C`
+  typed as a symptom) and possible over-specific candidate inheritance after
+  diagnosis shortening. Multi-view agreement is therefore a scalable proposal
+  mechanism, not a substitute for independent labels.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
