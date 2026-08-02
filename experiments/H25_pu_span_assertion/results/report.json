@@ -1,0 +1,1789 @@
+{
+  "label_warning": "H23 is an externally useful pseudo target, not organizer ground truth.",
+  "rows": 7412,
+  "positive_rows": 1999,
+  "unlabeled_rows": 5413,
+  "variants": {
+    "structured": {
+      "diagnostics": {
+        "types": {
+          "CHẨN_ĐOÁN": {
+            "positive": 88,
+            "unlabeled": 341
+          },
+          "KẾT_QUẢ_XÉT_NGHIỆM": {
+            "positive": 4,
+            "unlabeled": 48
+          },
+          "THUỐC": {
+            "positive": 48,
+            "unlabeled": 389
+          },
+          "THÔNG_TIN_BỆNH_NHÂN": {
+            "positive": 0,
+            "unlabeled": 23
+          },
+          "TRIỆU_CHỨNG": {
+            "positive": 102,
+            "unlabeled": 723
+          },
+          "TÊN_XÉT_NGHIỆM": {
+            "positive": 98,
+            "unlabeled": 587
+          }
+        },
+        "train_rows": 2451,
+        "candidate_rows": 3408
+      },
+      "dev_grid": [
+        {
+          "threshold": 0.8,
+          "baseline": {
+            "tp": 244,
+            "fp": 191,
+            "fn": 257,
+            "precision": 0.5609195402298851,
+            "recall": 0.4870259481037924,
+            "f1": 0.5213675213675214
+          },
+          "with_additions": {
+            "tp": 256,
+            "fp": 229,
+            "fn": 245,
+            "precision": 0.5278350515463918,
+            "recall": 0.5109780439121756,
+            "f1": 0.5192697768762677
+          },
+          "additions": {
+            "tp": 12,
+            "fp": 38,
+            "fn": 245,
+            "precision": 0.24,
+            "recall": 0.04669260700389105,
+            "f1": 0.0781758957654723
+          },
+          "selected_additions": 50,
+          "per_type": {
+            "CHẨN_ĐOÁN": {
+              "baseline": {
+                "tp": 75,
+                "fp": 28,
+                "fn": 57,
+                "precision": 0.7281553398058253,
+                "recall": 0.5681818181818182,
+                "f1": 0.6382978723404256
+              },
+              "with_additions": {
+                "tp": 78,
+                "fp": 36,
+                "fn": 54,
+                "precision": 0.6842105263157895,
+                "recall": 0.5909090909090909,
+                "f1": 0.6341463414634148
+              }
+            },
+            "KẾT_QUẢ_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              }
+            },
+            "THUỐC": {
+              "baseline": {
+                "tp": 16,
+                "fp": 10,
+                "fn": 12,
+                "precision": 0.6153846153846154,
+                "recall": 0.5714285714285714,
+                "f1": 0.5925925925925927
+              },
+              "with_additions": {
+                "tp": 20,
+                "fp": 20,
+                "fn": 8,
+                "precision": 0.5,
+                "recall": 0.7142857142857143,
+                "f1": 0.588235294117647
+              }
+            },
+            "THÔNG_TIN_BỆNH_NHÂN": {
+              "baseline": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "TRIỆU_CHỨNG": {
+              "baseline": {
+                "tp": 134,
+                "fp": 119,
+                "fn": 103,
+                "precision": 0.5296442687747036,
+                "recall": 0.5654008438818565,
+                "f1": 0.5469387755102041
+              },
+              "with_additions": {
+                "tp": 138,
+                "fp": 128,
+                "fn": 99,
+                "precision": 0.518796992481203,
+                "recall": 0.5822784810126582,
+                "f1": 0.5487077534791253
+              }
+            },
+            "TÊN_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 19,
+                "fp": 22,
+                "fn": 34,
+                "precision": 0.4634146341463415,
+                "recall": 0.3584905660377358,
+                "f1": 0.4042553191489362
+              },
+              "with_additions": {
+                "tp": 20,
+                "fp": 33,
+                "fn": 33,
+                "precision": 0.37735849056603776,
+                "recall": 0.37735849056603776,
+                "f1": 0.3773584905660377
+              }
+            }
+          }
+        },
+        {
+          "threshold": 0.9,
+          "baseline": {
+            "tp": 244,
+            "fp": 191,
+            "fn": 257,
+            "precision": 0.5609195402298851,
+            "recall": 0.4870259481037924,
+            "f1": 0.5213675213675214
+          },
+          "with_additions": {
+            "tp": 251,
+            "fp": 208,
+            "fn": 250,
+            "precision": 0.5468409586056645,
+            "recall": 0.500998003992016,
+            "f1": 0.5229166666666667
+          },
+          "additions": {
+            "tp": 7,
+            "fp": 17,
+            "fn": 250,
+            "precision": 0.2916666666666667,
+            "recall": 0.027237354085603113,
+            "f1": 0.04982206405693951
+          },
+          "selected_additions": 24,
+          "per_type": {
+            "CHẨN_ĐOÁN": {
+              "baseline": {
+                "tp": 75,
+                "fp": 28,
+                "fn": 57,
+                "precision": 0.7281553398058253,
+                "recall": 0.5681818181818182,
+                "f1": 0.6382978723404256
+              },
+              "with_additions": {
+                "tp": 77,
+                "fp": 32,
+                "fn": 55,
+                "precision": 0.7064220183486238,
+                "recall": 0.5833333333333334,
+                "f1": 0.6390041493775933
+              }
+            },
+            "KẾT_QUẢ_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              }
+            },
+            "THUỐC": {
+              "baseline": {
+                "tp": 16,
+                "fp": 10,
+                "fn": 12,
+                "precision": 0.6153846153846154,
+                "recall": 0.5714285714285714,
+                "f1": 0.5925925925925927
+              },
+              "with_additions": {
+                "tp": 19,
+                "fp": 16,
+                "fn": 9,
+                "precision": 0.5428571428571428,
+                "recall": 0.6785714285714286,
+                "f1": 0.603174603174603
+              }
+            },
+            "THÔNG_TIN_BỆNH_NHÂN": {
+              "baseline": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "TRIỆU_CHỨNG": {
+              "baseline": {
+                "tp": 134,
+                "fp": 119,
+                "fn": 103,
+                "precision": 0.5296442687747036,
+                "recall": 0.5654008438818565,
+                "f1": 0.5469387755102041
+              },
+              "with_additions": {
+                "tp": 135,
+                "fp": 122,
+                "fn": 102,
+                "precision": 0.5252918287937743,
+                "recall": 0.569620253164557,
+                "f1": 0.5465587044534413
+              }
+            },
+            "TÊN_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 19,
+                "fp": 22,
+                "fn": 34,
+                "precision": 0.4634146341463415,
+                "recall": 0.3584905660377358,
+                "f1": 0.4042553191489362
+              },
+              "with_additions": {
+                "tp": 20,
+                "fp": 26,
+                "fn": 33,
+                "precision": 0.43478260869565216,
+                "recall": 0.37735849056603776,
+                "f1": 0.40404040404040403
+              }
+            }
+          }
+        },
+        {
+          "threshold": 0.95,
+          "baseline": {
+            "tp": 244,
+            "fp": 191,
+            "fn": 257,
+            "precision": 0.5609195402298851,
+            "recall": 0.4870259481037924,
+            "f1": 0.5213675213675214
+          },
+          "with_additions": {
+            "tp": 248,
+            "fp": 197,
+            "fn": 253,
+            "precision": 0.5573033707865168,
+            "recall": 0.49500998003992014,
+            "f1": 0.5243128964059196
+          },
+          "additions": {
+            "tp": 4,
+            "fp": 6,
+            "fn": 253,
+            "precision": 0.4,
+            "recall": 0.01556420233463035,
+            "f1": 0.0299625468164794
+          },
+          "selected_additions": 10,
+          "per_type": {
+            "CHẨN_ĐOÁN": {
+              "baseline": {
+                "tp": 75,
+                "fp": 28,
+                "fn": 57,
+                "precision": 0.7281553398058253,
+                "recall": 0.5681818181818182,
+                "f1": 0.6382978723404256
+              },
+              "with_additions": {
+                "tp": 75,
+                "fp": 29,
+                "fn": 57,
+                "precision": 0.7211538461538461,
+                "recall": 0.5681818181818182,
+                "f1": 0.6355932203389831
+              }
+            },
+            "KẾT_QUẢ_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              }
+            },
+            "THUỐC": {
+              "baseline": {
+                "tp": 16,
+                "fp": 10,
+                "fn": 12,
+                "precision": 0.6153846153846154,
+                "recall": 0.5714285714285714,
+                "f1": 0.5925925925925927
+              },
+              "with_additions": {
+                "tp": 19,
+                "fp": 14,
+                "fn": 9,
+                "precision": 0.5757575757575758,
+                "recall": 0.6785714285714286,
+                "f1": 0.6229508196721312
+              }
+            },
+            "THÔNG_TIN_BỆNH_NHÂN": {
+              "baseline": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "TRIỆU_CHỨNG": {
+              "baseline": {
+                "tp": 134,
+                "fp": 119,
+                "fn": 103,
+                "precision": 0.5296442687747036,
+                "recall": 0.5654008438818565,
+                "f1": 0.5469387755102041
+              },
+              "with_additions": {
+                "tp": 134,
+                "fp": 120,
+                "fn": 103,
+                "precision": 0.5275590551181102,
+                "recall": 0.5654008438818565,
+                "f1": 0.5458248472505092
+              }
+            },
+            "TÊN_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 19,
+                "fp": 22,
+                "fn": 34,
+                "precision": 0.4634146341463415,
+                "recall": 0.3584905660377358,
+                "f1": 0.4042553191489362
+              },
+              "with_additions": {
+                "tp": 20,
+                "fp": 22,
+                "fn": 33,
+                "precision": 0.47619047619047616,
+                "recall": 0.37735849056603776,
+                "f1": 0.42105263157894735
+              }
+            }
+          }
+        }
+      ],
+      "dev_ece_against_pseudo_labels": 0.28055499665280603
+    },
+    "contextual": {
+      "diagnostics": {
+        "types": {
+          "CHẨN_ĐOÁN": {
+            "positive": 88,
+            "unlabeled": 341
+          },
+          "KẾT_QUẢ_XÉT_NGHIỆM": {
+            "positive": 4,
+            "unlabeled": 48
+          },
+          "THUỐC": {
+            "positive": 48,
+            "unlabeled": 389
+          },
+          "THÔNG_TIN_BỆNH_NHÂN": {
+            "positive": 0,
+            "unlabeled": 23
+          },
+          "TRIỆU_CHỨNG": {
+            "positive": 102,
+            "unlabeled": 723
+          },
+          "TÊN_XÉT_NGHIỆM": {
+            "positive": 98,
+            "unlabeled": 587
+          }
+        },
+        "train_rows": 2451,
+        "candidate_rows": 3408
+      },
+      "dev_grid": [
+        {
+          "threshold": 0.8,
+          "baseline": {
+            "tp": 244,
+            "fp": 191,
+            "fn": 257,
+            "precision": 0.5609195402298851,
+            "recall": 0.4870259481037924,
+            "f1": 0.5213675213675214
+          },
+          "with_additions": {
+            "tp": 255,
+            "fp": 221,
+            "fn": 246,
+            "precision": 0.5357142857142857,
+            "recall": 0.5089820359281437,
+            "f1": 0.5220061412487206
+          },
+          "additions": {
+            "tp": 11,
+            "fp": 30,
+            "fn": 246,
+            "precision": 0.2682926829268293,
+            "recall": 0.042801556420233464,
+            "f1": 0.07382550335570469
+          },
+          "selected_additions": 41,
+          "per_type": {
+            "CHẨN_ĐOÁN": {
+              "baseline": {
+                "tp": 75,
+                "fp": 28,
+                "fn": 57,
+                "precision": 0.7281553398058253,
+                "recall": 0.5681818181818182,
+                "f1": 0.6382978723404256
+              },
+              "with_additions": {
+                "tp": 79,
+                "fp": 34,
+                "fn": 53,
+                "precision": 0.6991150442477876,
+                "recall": 0.5984848484848485,
+                "f1": 0.6448979591836734
+              }
+            },
+            "KẾT_QUẢ_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              }
+            },
+            "THUỐC": {
+              "baseline": {
+                "tp": 16,
+                "fp": 10,
+                "fn": 12,
+                "precision": 0.6153846153846154,
+                "recall": 0.5714285714285714,
+                "f1": 0.5925925925925927
+              },
+              "with_additions": {
+                "tp": 17,
+                "fp": 17,
+                "fn": 11,
+                "precision": 0.5,
+                "recall": 0.6071428571428571,
+                "f1": 0.5483870967741935
+              }
+            },
+            "THÔNG_TIN_BỆNH_NHÂN": {
+              "baseline": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "TRIỆU_CHỨNG": {
+              "baseline": {
+                "tp": 134,
+                "fp": 119,
+                "fn": 103,
+                "precision": 0.5296442687747036,
+                "recall": 0.5654008438818565,
+                "f1": 0.5469387755102041
+              },
+              "with_additions": {
+                "tp": 138,
+                "fp": 129,
+                "fn": 99,
+                "precision": 0.5168539325842697,
+                "recall": 0.5822784810126582,
+                "f1": 0.5476190476190478
+              }
+            },
+            "TÊN_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 19,
+                "fp": 22,
+                "fn": 34,
+                "precision": 0.4634146341463415,
+                "recall": 0.3584905660377358,
+                "f1": 0.4042553191489362
+              },
+              "with_additions": {
+                "tp": 21,
+                "fp": 29,
+                "fn": 32,
+                "precision": 0.42,
+                "recall": 0.39622641509433965,
+                "f1": 0.4077669902912621
+              }
+            }
+          }
+        },
+        {
+          "threshold": 0.9,
+          "baseline": {
+            "tp": 244,
+            "fp": 191,
+            "fn": 257,
+            "precision": 0.5609195402298851,
+            "recall": 0.4870259481037924,
+            "f1": 0.5213675213675214
+          },
+          "with_additions": {
+            "tp": 250,
+            "fp": 206,
+            "fn": 251,
+            "precision": 0.5482456140350878,
+            "recall": 0.499001996007984,
+            "f1": 0.5224660397074191
+          },
+          "additions": {
+            "tp": 6,
+            "fp": 15,
+            "fn": 251,
+            "precision": 0.2857142857142857,
+            "recall": 0.023346303501945526,
+            "f1": 0.043165467625899276
+          },
+          "selected_additions": 21,
+          "per_type": {
+            "CHẨN_ĐOÁN": {
+              "baseline": {
+                "tp": 75,
+                "fp": 28,
+                "fn": 57,
+                "precision": 0.7281553398058253,
+                "recall": 0.5681818181818182,
+                "f1": 0.6382978723404256
+              },
+              "with_additions": {
+                "tp": 78,
+                "fp": 33,
+                "fn": 54,
+                "precision": 0.7027027027027027,
+                "recall": 0.5909090909090909,
+                "f1": 0.6419753086419754
+              }
+            },
+            "KẾT_QUẢ_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              }
+            },
+            "THUỐC": {
+              "baseline": {
+                "tp": 16,
+                "fp": 10,
+                "fn": 12,
+                "precision": 0.6153846153846154,
+                "recall": 0.5714285714285714,
+                "f1": 0.5925925925925927
+              },
+              "with_additions": {
+                "tp": 16,
+                "fp": 13,
+                "fn": 12,
+                "precision": 0.5517241379310345,
+                "recall": 0.5714285714285714,
+                "f1": 0.5614035087719299
+              }
+            },
+            "THÔNG_TIN_BỆNH_NHÂN": {
+              "baseline": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "TRIỆU_CHỨNG": {
+              "baseline": {
+                "tp": 134,
+                "fp": 119,
+                "fn": 103,
+                "precision": 0.5296442687747036,
+                "recall": 0.5654008438818565,
+                "f1": 0.5469387755102041
+              },
+              "with_additions": {
+                "tp": 135,
+                "fp": 122,
+                "fn": 102,
+                "precision": 0.5252918287937743,
+                "recall": 0.569620253164557,
+                "f1": 0.5465587044534413
+              }
+            },
+            "TÊN_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 19,
+                "fp": 22,
+                "fn": 34,
+                "precision": 0.4634146341463415,
+                "recall": 0.3584905660377358,
+                "f1": 0.4042553191489362
+              },
+              "with_additions": {
+                "tp": 21,
+                "fp": 26,
+                "fn": 32,
+                "precision": 0.44680851063829785,
+                "recall": 0.39622641509433965,
+                "f1": 0.42000000000000004
+              }
+            }
+          }
+        },
+        {
+          "threshold": 0.95,
+          "baseline": {
+            "tp": 244,
+            "fp": 191,
+            "fn": 257,
+            "precision": 0.5609195402298851,
+            "recall": 0.4870259481037924,
+            "f1": 0.5213675213675214
+          },
+          "with_additions": {
+            "tp": 249,
+            "fp": 198,
+            "fn": 252,
+            "precision": 0.5570469798657718,
+            "recall": 0.49700598802395207,
+            "f1": 0.5253164556962024
+          },
+          "additions": {
+            "tp": 5,
+            "fp": 7,
+            "fn": 252,
+            "precision": 0.4166666666666667,
+            "recall": 0.019455252918287938,
+            "f1": 0.03717472118959108
+          },
+          "selected_additions": 12,
+          "per_type": {
+            "CHẨN_ĐOÁN": {
+              "baseline": {
+                "tp": 75,
+                "fp": 28,
+                "fn": 57,
+                "precision": 0.7281553398058253,
+                "recall": 0.5681818181818182,
+                "f1": 0.6382978723404256
+              },
+              "with_additions": {
+                "tp": 78,
+                "fp": 30,
+                "fn": 54,
+                "precision": 0.7222222222222222,
+                "recall": 0.5909090909090909,
+                "f1": 0.65
+              }
+            },
+            "KẾT_QUẢ_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 12,
+                "fn": 51,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              }
+            },
+            "THUỐC": {
+              "baseline": {
+                "tp": 16,
+                "fp": 10,
+                "fn": 12,
+                "precision": 0.6153846153846154,
+                "recall": 0.5714285714285714,
+                "f1": 0.5925925925925927
+              },
+              "with_additions": {
+                "tp": 16,
+                "fp": 13,
+                "fn": 12,
+                "precision": 0.5517241379310345,
+                "recall": 0.5714285714285714,
+                "f1": 0.5614035087719299
+              }
+            },
+            "THÔNG_TIN_BỆNH_NHÂN": {
+              "baseline": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "with_additions": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "TRIỆU_CHỨNG": {
+              "baseline": {
+                "tp": 134,
+                "fp": 119,
+                "fn": 103,
+                "precision": 0.5296442687747036,
+                "recall": 0.5654008438818565,
+                "f1": 0.5469387755102041
+              },
+              "with_additions": {
+                "tp": 135,
+                "fp": 119,
+                "fn": 102,
+                "precision": 0.531496062992126,
+                "recall": 0.569620253164557,
+                "f1": 0.54989816700611
+              }
+            },
+            "TÊN_XÉT_NGHIỆM": {
+              "baseline": {
+                "tp": 19,
+                "fp": 22,
+                "fn": 34,
+                "precision": 0.4634146341463415,
+                "recall": 0.3584905660377358,
+                "f1": 0.4042553191489362
+              },
+              "with_additions": {
+                "tp": 20,
+                "fp": 24,
+                "fn": 33,
+                "precision": 0.45454545454545453,
+                "recall": 0.37735849056603776,
+                "f1": 0.41237113402061865
+              }
+            }
+          }
+        }
+      ],
+      "dev_ece_against_pseudo_labels": 0.23139701374667754
+    }
+  },
+  "selected": {
+    "variant": "contextual",
+    "threshold": 0.95,
+    "dev": {
+      "threshold": 0.95,
+      "baseline": {
+        "tp": 244,
+        "fp": 191,
+        "fn": 257,
+        "precision": 0.5609195402298851,
+        "recall": 0.4870259481037924,
+        "f1": 0.5213675213675214
+      },
+      "with_additions": {
+        "tp": 249,
+        "fp": 198,
+        "fn": 252,
+        "precision": 0.5570469798657718,
+        "recall": 0.49700598802395207,
+        "f1": 0.5253164556962024
+      },
+      "additions": {
+        "tp": 5,
+        "fp": 7,
+        "fn": 252,
+        "precision": 0.4166666666666667,
+        "recall": 0.019455252918287938,
+        "f1": 0.03717472118959108
+      },
+      "selected_additions": 12,
+      "per_type": {
+        "CHẨN_ĐOÁN": {
+          "baseline": {
+            "tp": 75,
+            "fp": 28,
+            "fn": 57,
+            "precision": 0.7281553398058253,
+            "recall": 0.5681818181818182,
+            "f1": 0.6382978723404256
+          },
+          "with_additions": {
+            "tp": 78,
+            "fp": 30,
+            "fn": 54,
+            "precision": 0.7222222222222222,
+            "recall": 0.5909090909090909,
+            "f1": 0.65
+          }
+        },
+        "KẾT_QUẢ_XÉT_NGHIỆM": {
+          "baseline": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 51,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "with_additions": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 51,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "THUỐC": {
+          "baseline": {
+            "tp": 16,
+            "fp": 10,
+            "fn": 12,
+            "precision": 0.6153846153846154,
+            "recall": 0.5714285714285714,
+            "f1": 0.5925925925925927
+          },
+          "with_additions": {
+            "tp": 16,
+            "fp": 13,
+            "fn": 12,
+            "precision": 0.5517241379310345,
+            "recall": 0.5714285714285714,
+            "f1": 0.5614035087719299
+          }
+        },
+        "THÔNG_TIN_BỆNH_NHÂN": {
+          "baseline": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "with_additions": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "TRIỆU_CHỨNG": {
+          "baseline": {
+            "tp": 134,
+            "fp": 119,
+            "fn": 103,
+            "precision": 0.5296442687747036,
+            "recall": 0.5654008438818565,
+            "f1": 0.5469387755102041
+          },
+          "with_additions": {
+            "tp": 135,
+            "fp": 119,
+            "fn": 102,
+            "precision": 0.531496062992126,
+            "recall": 0.569620253164557,
+            "f1": 0.54989816700611
+          }
+        },
+        "TÊN_XÉT_NGHIỆM": {
+          "baseline": {
+            "tp": 19,
+            "fp": 22,
+            "fn": 34,
+            "precision": 0.4634146341463415,
+            "recall": 0.3584905660377358,
+            "f1": 0.4042553191489362
+          },
+          "with_additions": {
+            "tp": 20,
+            "fp": 24,
+            "fn": 33,
+            "precision": 0.45454545454545453,
+            "recall": 0.37735849056603776,
+            "f1": 0.41237113402061865
+          }
+        }
+      }
+    },
+    "test": {
+      "threshold": 0.95,
+      "baseline": {
+        "tp": 228,
+        "fp": 131,
+        "fn": 228,
+        "precision": 0.6350974930362117,
+        "recall": 0.5,
+        "f1": 0.5595092024539877
+      },
+      "with_additions": {
+        "tp": 235,
+        "fp": 143,
+        "fn": 221,
+        "precision": 0.6216931216931217,
+        "recall": 0.5153508771929824,
+        "f1": 0.5635491606714628
+      },
+      "additions": {
+        "tp": 7,
+        "fp": 12,
+        "fn": 221,
+        "precision": 0.3684210526315789,
+        "recall": 0.03070175438596491,
+        "f1": 0.05668016194331984
+      },
+      "selected_additions": 19,
+      "per_type": {
+        "CHẨN_ĐOÁN": {
+          "baseline": {
+            "tp": 86,
+            "fp": 23,
+            "fn": 50,
+            "precision": 0.7889908256880734,
+            "recall": 0.6323529411764706,
+            "f1": 0.7020408163265306
+          },
+          "with_additions": {
+            "tp": 90,
+            "fp": 27,
+            "fn": 46,
+            "precision": 0.7692307692307693,
+            "recall": 0.6617647058823529,
+            "f1": 0.7114624505928853
+          }
+        },
+        "KẾT_QUẢ_XÉT_NGHIỆM": {
+          "baseline": {
+            "tp": 2,
+            "fp": 20,
+            "fn": 42,
+            "precision": 0.09090909090909091,
+            "recall": 0.045454545454545456,
+            "f1": 0.060606060606060615
+          },
+          "with_additions": {
+            "tp": 2,
+            "fp": 20,
+            "fn": 42,
+            "precision": 0.09090909090909091,
+            "recall": 0.045454545454545456,
+            "f1": 0.060606060606060615
+          }
+        },
+        "THUỐC": {
+          "baseline": {
+            "tp": 38,
+            "fp": 17,
+            "fn": 21,
+            "precision": 0.6909090909090909,
+            "recall": 0.6440677966101694,
+            "f1": 0.6666666666666665
+          },
+          "with_additions": {
+            "tp": 39,
+            "fp": 20,
+            "fn": 20,
+            "precision": 0.6610169491525424,
+            "recall": 0.6610169491525424,
+            "f1": 0.6610169491525424
+          }
+        },
+        "THÔNG_TIN_BỆNH_NHÂN": {
+          "baseline": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "with_additions": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "TRIỆU_CHỨNG": {
+          "baseline": {
+            "tp": 80,
+            "fp": 53,
+            "fn": 70,
+            "precision": 0.6015037593984962,
+            "recall": 0.5333333333333333,
+            "f1": 0.5653710247349824
+          },
+          "with_additions": {
+            "tp": 82,
+            "fp": 58,
+            "fn": 68,
+            "precision": 0.5857142857142857,
+            "recall": 0.5466666666666666,
+            "f1": 0.5655172413793104
+          }
+        },
+        "TÊN_XÉT_NGHIỆM": {
+          "baseline": {
+            "tp": 22,
+            "fp": 18,
+            "fn": 45,
+            "precision": 0.55,
+            "recall": 0.3283582089552239,
+            "f1": 0.411214953271028
+          },
+          "with_additions": {
+            "tp": 22,
+            "fp": 18,
+            "fn": 45,
+            "precision": 0.55,
+            "recall": 0.3283582089552239,
+            "f1": 0.411214953271028
+          }
+        }
+      }
+    }
+  },
+  "assertions": {
+    "dev": {
+      "rows": 330,
+      "labels": {
+        "isHistorical": {
+          "positive": 277,
+          "negative": 1109
+        },
+        "isNegated": {
+          "positive": 100,
+          "negative": 1286
+        },
+        "isFamily": {
+          "positive": 30,
+          "negative": 1356
+        }
+      },
+      "learned_macro_jaccard": 0.7924242424242425,
+      "rule_macro_jaccard": 0.8227272727272728,
+      "learned_exact_set_accuracy": 0.7787878787878788,
+      "rule_exact_set_accuracy": 0.8090909090909091
+    },
+    "test": {
+      "rows": 283,
+      "labels": {
+        "isHistorical": {
+          "positive": 277,
+          "negative": 1109
+        },
+        "isNegated": {
+          "positive": 100,
+          "negative": 1286
+        },
+        "isFamily": {
+          "positive": 30,
+          "negative": 1356
+        }
+      },
+      "learned_macro_jaccard": 0.8056537102473498,
+      "rule_macro_jaccard": 0.7667844522968198,
+      "learned_exact_set_accuracy": 0.8021201413427562,
+      "rule_exact_set_accuracy": 0.7632508833922261
+    }
+  },
+  "proposal_pool_oracle": {
+    "dev": {
+      "threshold": 0.5,
+      "baseline": {
+        "tp": 244,
+        "fp": 191,
+        "fn": 257,
+        "precision": 0.5609195402298851,
+        "recall": 0.4870259481037924,
+        "f1": 0.5213675213675214
+      },
+      "with_additions": {
+        "tp": 295,
+        "fp": 191,
+        "fn": 206,
+        "precision": 0.6069958847736625,
+        "recall": 0.5888223552894212,
+        "f1": 0.5977710233029382
+      },
+      "additions": {
+        "tp": 51,
+        "fp": 0,
+        "fn": 206,
+        "precision": 1.0,
+        "recall": 0.19844357976653695,
+        "f1": 0.33116883116883117
+      },
+      "selected_additions": 51,
+      "per_type": {
+        "CHẨN_ĐOÁN": {
+          "baseline": {
+            "tp": 75,
+            "fp": 28,
+            "fn": 57,
+            "precision": 0.7281553398058253,
+            "recall": 0.5681818181818182,
+            "f1": 0.6382978723404256
+          },
+          "with_additions": {
+            "tp": 94,
+            "fp": 28,
+            "fn": 38,
+            "precision": 0.7704918032786885,
+            "recall": 0.7121212121212122,
+            "f1": 0.7401574803149605
+          }
+        },
+        "KẾT_QUẢ_XÉT_NGHIỆM": {
+          "baseline": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 51,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "with_additions": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 51,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "THUỐC": {
+          "baseline": {
+            "tp": 16,
+            "fp": 10,
+            "fn": 12,
+            "precision": 0.6153846153846154,
+            "recall": 0.5714285714285714,
+            "f1": 0.5925925925925927
+          },
+          "with_additions": {
+            "tp": 20,
+            "fp": 10,
+            "fn": 8,
+            "precision": 0.6666666666666666,
+            "recall": 0.7142857142857143,
+            "f1": 0.689655172413793
+          }
+        },
+        "THÔNG_TIN_BỆNH_NHÂN": {
+          "baseline": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "with_additions": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "TRIỆU_CHỨNG": {
+          "baseline": {
+            "tp": 134,
+            "fp": 119,
+            "fn": 103,
+            "precision": 0.5296442687747036,
+            "recall": 0.5654008438818565,
+            "f1": 0.5469387755102041
+          },
+          "with_additions": {
+            "tp": 153,
+            "fp": 119,
+            "fn": 84,
+            "precision": 0.5625,
+            "recall": 0.6455696202531646,
+            "f1": 0.6011787819253439
+          }
+        },
+        "TÊN_XÉT_NGHIỆM": {
+          "baseline": {
+            "tp": 19,
+            "fp": 22,
+            "fn": 34,
+            "precision": 0.4634146341463415,
+            "recall": 0.3584905660377358,
+            "f1": 0.4042553191489362
+          },
+          "with_additions": {
+            "tp": 28,
+            "fp": 22,
+            "fn": 25,
+            "precision": 0.56,
+            "recall": 0.5283018867924528,
+            "f1": 0.5436893203883495
+          }
+        }
+      }
+    },
+    "test": {
+      "threshold": 0.5,
+      "baseline": {
+        "tp": 228,
+        "fp": 131,
+        "fn": 228,
+        "precision": 0.6350974930362117,
+        "recall": 0.5,
+        "f1": 0.5595092024539877
+      },
+      "with_additions": {
+        "tp": 270,
+        "fp": 131,
+        "fn": 186,
+        "precision": 0.6733167082294265,
+        "recall": 0.5921052631578947,
+        "f1": 0.6301050175029171
+      },
+      "additions": {
+        "tp": 42,
+        "fp": 0,
+        "fn": 186,
+        "precision": 1.0,
+        "recall": 0.18421052631578946,
+        "f1": 0.3111111111111111
+      },
+      "selected_additions": 42,
+      "per_type": {
+        "CHẨN_ĐOÁN": {
+          "baseline": {
+            "tp": 86,
+            "fp": 23,
+            "fn": 50,
+            "precision": 0.7889908256880734,
+            "recall": 0.6323529411764706,
+            "f1": 0.7020408163265306
+          },
+          "with_additions": {
+            "tp": 100,
+            "fp": 23,
+            "fn": 36,
+            "precision": 0.8130081300813008,
+            "recall": 0.7352941176470589,
+            "f1": 0.7722007722007722
+          }
+        },
+        "KẾT_QUẢ_XÉT_NGHIỆM": {
+          "baseline": {
+            "tp": 2,
+            "fp": 20,
+            "fn": 42,
+            "precision": 0.09090909090909091,
+            "recall": 0.045454545454545456,
+            "f1": 0.060606060606060615
+          },
+          "with_additions": {
+            "tp": 2,
+            "fp": 20,
+            "fn": 42,
+            "precision": 0.09090909090909091,
+            "recall": 0.045454545454545456,
+            "f1": 0.060606060606060615
+          }
+        },
+        "THUỐC": {
+          "baseline": {
+            "tp": 38,
+            "fp": 17,
+            "fn": 21,
+            "precision": 0.6909090909090909,
+            "recall": 0.6440677966101694,
+            "f1": 0.6666666666666665
+          },
+          "with_additions": {
+            "tp": 44,
+            "fp": 17,
+            "fn": 15,
+            "precision": 0.7213114754098361,
+            "recall": 0.7457627118644068,
+            "f1": 0.7333333333333334
+          }
+        },
+        "THÔNG_TIN_BỆNH_NHÂN": {
+          "baseline": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "with_additions": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "TRIỆU_CHỨNG": {
+          "baseline": {
+            "tp": 80,
+            "fp": 53,
+            "fn": 70,
+            "precision": 0.6015037593984962,
+            "recall": 0.5333333333333333,
+            "f1": 0.5653710247349824
+          },
+          "with_additions": {
+            "tp": 94,
+            "fp": 53,
+            "fn": 56,
+            "precision": 0.6394557823129252,
+            "recall": 0.6266666666666667,
+            "f1": 0.632996632996633
+          }
+        },
+        "TÊN_XÉT_NGHIỆM": {
+          "baseline": {
+            "tp": 22,
+            "fp": 18,
+            "fn": 45,
+            "precision": 0.55,
+            "recall": 0.3283582089552239,
+            "f1": 0.411214953271028
+          },
+          "with_additions": {
+            "tp": 30,
+            "fp": 18,
+            "fn": 37,
+            "precision": 0.625,
+            "recall": 0.44776119402985076,
+            "f1": 0.5217391304347827
+          }
+        }
+      }
+    }
+  },
+  "contextual_dev_f1_gain": 0.0010035592902828405,
+  "gates": {
+    "f1_gain_dev_at_least_3": false,
+    "f1_gain_test_at_least_3": false,
+    "addition_precision_dev_at_least_0_75": false,
+    "addition_precision_test_at_least_0_75": false,
+    "no_type_loses_more_than_2": false,
+    "assertion_dev_gain_at_least_0_03": false,
+    "assertion_test_gain_at_least_0_03": true,
+    "contextual_gain_at_least_0_01_or_rejected": false
+  },
+  "all_gates_pass": false,
+  "beyond_h23_high_stability": [
+    {
+      "record": 1,
+      "text": "Thuốc giảm đau",
+      "type": "THUỐC",
+      "position": [
+        3427,
+        3441
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "score": 0.9820147752761841,
+      "std": 0.03729688376188278
+    },
+    {
+      "record": 4,
+      "text": "buồn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        809,
+        813
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9917649626731873,
+      "std": 0.02259640395641327
+    },
+    {
+      "record": 15,
+      "text": "doxycyclinebactrim",
+      "type": "THUỐC",
+      "position": [
+        2332,
+        2350
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "score": 0.9811186790466309,
+      "std": 0.018550947308540344
+    },
+    {
+      "record": 33,
+      "text": "nhiều dầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        129,
+        138
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9711297154426575,
+      "std": 0.07973839342594147
+    },
+    {
+      "record": 33,
+      "text": "nhói",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        980,
+        984
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9595820903778076,
+      "std": 0.05870113521814346
+    },
+    {
+      "record": 36,
+      "text": "micromol/l",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        849,
+        859
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9538301229476929,
+      "std": 0.07925821095705032
+    },
+    {
+      "record": 40,
+      "text": "đau thành bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        724,
+        738
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9637603759765625,
+      "std": 0.0569833479821682
+    },
+    {
+      "record": 41,
+      "text": "nhiều dầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        64,
+        73
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9786633253097534,
+      "std": 0.06428010016679764
+    },
+    {
+      "record": 59,
+      "text": "nước tiểu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        703,
+        712
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9756444096565247,
+      "std": 0.0566830113530159
+    },
+    {
+      "record": 62,
+      "text": "spo2",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1322,
+        1326
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9744262099266052,
+      "std": 0.029094761237502098
+    },
+    {
+      "record": 63,
+      "text": "ảo giácxuất",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        629,
+        640
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9804060459136963,
+      "std": 0.04249648004770279
+    },
+    {
+      "record": 72,
+      "text": "klonopinclonidine",
+      "type": "THUỐC",
+      "position": [
+        746,
+        763
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3",
+        "vietmed_ner"
+      ],
+      "score": 0.9985978007316589,
+      "std": 0.004083416424691677
+    },
+    {
+      "record": 75,
+      "text": "thuốc kháng nấm",
+      "type": "THUỐC",
+      "position": [
+        521,
+        536
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "score": 0.9859746098518372,
+      "std": 0.04080525040626526
+    },
+    {
+      "record": 82,
+      "text": "ERCP",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1316,
+        1320
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9639735817909241,
+      "std": 0.07369960099458694
+    },
+    {
+      "record": 84,
+      "text": "thuốc kháng nấm",
+      "type": "THUỐC",
+      "position": [
+        415,
+        430
+      ],
+      "sources": [
+        "bami_v15",
+        "vietmed_ner"
+      ],
+      "score": 0.9857041835784912,
+      "std": 0.04354073479771614
+    },
+    {
+      "record": 87,
+      "text": "Tim nhịp đều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        333,
+        345
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9644509553909302,
+      "std": 0.060867007821798325
+    },
+    {
+      "record": 89,
+      "text": "đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        318,
+        322
+      ],
+      "sources": [
+        "bami_v15",
+        "bami_v3"
+      ],
+      "score": 0.9525492787361145,
+      "std": 0.07369043678045273
+    }
+  ],
+  "embedding": {
+    "model": "qwen3-embedding:0.6b",
+    "rows": 7412,
+    "first_text": "Loại đề xuất: CHẨN_ĐOÁN. Ngữ cảnh:  ⟦THIẾU⟧  MEN G6PD là gì? \n\n1. Thiếu men G6PD là bệnh gì?\n\nThiếu men G6PD (Glucose-6-Phosphate Dehydrogenase) là một bệnh di truyền lặn liên kết với nhiễm sắc thể X. Trẻ mắc bệnh là do nhận",
+    "last_text": "Loại đề xuất: TRIỆU_CHỨNG. Ngữ cảnh: nh nguy cơ, lợi ích của việc tiếp tục sử dụng aspirin và cho bạn chỉ định tiếp tục hay ngưng dùng thuốc. \n\n2. Bệnh sử hiện tại\nLý do nhập viện: 3 ngày đại tiện ra máu đỏ tươi gián  ⟦đoạn⟧ \nThời điểm khởi phát triệu chứng: 3 ngày\n",
+    "dimension": 1024,
+    "completed": 7412,
+    "cache_hit": true,
+    "svd_components": 64,
+    "svd_explained_variance": 0.762810468673706
+  }
+}

@@ -1001,3 +1001,21 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   fixed type router remains the only promoted H24 retrieval component.
 - The outer loop now pivots to record-held-out span/type/assertion proposal
   classification. No H24 ZIP or competition submission was created.
+
+## 2026-08-02 — H25 contextual positive-unlabeled classifier rejected
+
+- Preregistered exact input hashes, a 70/15/15 record split, structured and
+  Qwen-context PU variants, fixed thresholds and two-split promotion gates.
+- A dry-run sanity check caught proposal banks from the previous input. The run
+  was discarded, paths and hashes were corrected in a protocol-only commit,
+  and the valid experiment then used 7,412 Turn-2 proposals.
+- Dev selected contextual PU at 0.95. Relative to the H20-to-H23 simulation,
+  strict F1 improved only 52.14 -> 52.53% on dev and 55.95 -> 56.35% on test;
+  selected-addition precision was 41.67/36.84%.
+- The proposal-pool oracle can add 7.64/7.06 F1 points, but high-stability
+  predictions still contain fused-token noise shared by the Bami teachers.
+- Learned assertion Jaccard regressed dev 82.27 -> 79.24% while improving test
+  76.68 -> 80.57%; the registered consistency gate failed.
+- H25 is rejected. No ZIP or competition submission was created. The next
+  preregistered mechanism will test train-only phrase-policy distillation as an
+  independent proposal source rather than tune PU thresholds.

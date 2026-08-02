@@ -630,6 +630,22 @@ The strongest verified direction is conservative structural cleanup:
   surface leakage, but a gain only proves the new model can learn the frozen
   pseudo mapping; promotion still requires graph/context ablations and
   conservative external interpretation.
+- **Positive-unlabeled calibration cannot rescue correlated proposal errors.**
+  H25's Qwen-context PU model improves strict F1 by only 0.39/0.40 points on
+  dev/test, with addition precision 41.67/36.84%. Its nominally stable rows
+  still contain fused boundaries such as `doxycyclinebactrim` and
+  `klonopinclonidine`, showing that Bami agreement is not independent evidence.
+- **The existing proposal pool has useful but inaccessible oracle headroom.**
+  Perfectly selecting the same disjoint bank candidates would improve held-out
+  F1 by 7.64/7.06 points. The bottleneck is proposal adjudication and source
+  diversity, not total absence of recoverable spans.
+- **Contextual assertion learning is unstable across records.** It improves
+  test macro Jaccard by 3.89 points but regresses dev by 3.03 points. The rule
+  engine remains safer until a record-held-out method improves both splits.
+- **The next independent source should distill repeated annotation policy.**
+  High-purity phrases learned only from H23 train records can test whether the
+  templated corpus transfers boundaries and types without relying on correlated
+  model confidence. This must precede another direct-LLM or PU fusion layer.
 
 - Keep every experiment deterministic and byte-identical on rerun.
 - Treat each leaderboard submission as a preregistered ablation, not as a

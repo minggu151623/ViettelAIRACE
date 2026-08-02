@@ -6,12 +6,12 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Freeze externally confirmed H23 at 38.9352. Its ontology-parent expansion
-  produced only +0.1376, entirely through candidates, proving the transform is
-  valid but closing blind candidate-list micro-tuning as a breakthrough path.
-  Research now pivots to an ontology-aware model core: contextual mention and
-  concept encoders, graph-derived hard negatives and a learned cross-encoder
-  classifier/reranker that can alter extraction and normalization together.
+  Freeze externally confirmed H23 at 38.9352. H24 retains a type-specialist
+  candidate retriever, but H25 shows that source votes plus Qwen context cannot
+  adjudicate correlated proposal errors: held-out F1 gains are only 0.39/0.40
+  points and addition precision is below 42%. The next independent experiment
+  distills high-purity span/type phrases from train records only, before any
+  direct-LLM expansion or new submission artifact is considered.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -137,6 +137,16 @@ hypotheses:
       graph-mined hard negatives and a contextual classifier/reranker will
       improve both span/type selection and candidate normalization beyond H23;
       copying an unchanged biomedical checkpoint will not.
+  H25_positive_unlabeled_span_assertion:
+    status: rejected_heldout_precision_and_assertion_stability_gates_failed
+    prediction: >
+      Record-held-out PU calibration over three proposal banks could recover
+      H23-like additions without treating missing weak labels as negatives.
+    result: >
+      Contextual PU added only 0.39/0.40 strict-F1 points on dev/test with
+      41.67/36.84% addition precision. Assertion learning regressed dev despite
+      improving test. Correlated fused-boundary errors survived high-stability
+      filtering, so H23 remains unchanged.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
