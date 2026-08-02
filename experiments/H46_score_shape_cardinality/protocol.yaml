@@ -1,0 +1,78 @@
+hypothesis: H46_score_shape_cardinality
+status: preregistered
+registered_at: "2026-08-03T03:43:01+07:00"
+question: >
+  Can frozen Qwen cosine score shape predict, per diagnosis mention, when a
+  longer ranked prefix improves weak-label Jaccard over singleton top-1?
+
+motivation: >
+  H45 shows test prefix-oracle headroom of 0.05453 but fixed global and
+  type-specific cardinality both select k=1. The missing mechanism may be
+  row-level confidence: flat score profiles could justify a larger set while
+  sharp profiles should remain singleton.
+
+inputs:
+  dataset: experiments/H24_ontology_graph_classifier/link_dataset.json
+  dataset_sha256: c4237bb90e2e46563f4887907271a512b21b5c2b81cc182865215068d76ed7b6
+  fused_ranking: experiments/H24_ontology_graph_classifier/type_specialist/report.json
+  fused_ranking_sha256: 87dbc1391dd1ab58693efec6933b34c73f53ca6f6f9d13730925125b9cf2e41b
+  qwen_concepts: experiments/H24_ontology_graph_classifier/cache/qwen3_concepts.npy
+  qwen_concepts_sha256: 4b08669bbdfaca23ab987aa29c924bd7ce1e66b92f1303d5a91e35bb6c6f22d7
+  qwen_queries: experiments/H24_ontology_graph_classifier/cache/qwen3_queries.npy
+  qwen_queries_sha256: 29d8cc6a36ca1f0fe4e097153c1eb9e517c35887b637bfeab69e52867aa4bba5
+  ontology_node_sha256: 40c3dd800ee9897f8a41b13f1e277d89bf310471f7279004fd8f8b3a74ee5e08
+  label_status: weak_pseudo_labels_not_organizer_ground_truth
+
+feasibility_lock:
+  diagnosis_rows: 420
+  ranking_reproduction: 420_of_420_exact_top10
+  split_unit: normalized_alias_group
+  split_counts: {train: 345, dev: 28, test: 47}
+  drug_policy: frozen_top1_not_modeled
+
+features:
+  source: frozen_qwen_cosine_only
+  values:
+    - top10_cosine_scores
+    - nine_consecutive_score_margins
+    - score_mean_and_standard_deviation
+    - softmax_entropy_at_temperature_1
+    - top1_is_specific_ICD
+    - top10_same_family_indicators_relative_to_top1
+  preprocessing: train_mean_and_scale_only
+
+actions:
+  candidate_prefix_k: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  utility: per_row_jaccard_against_weak_gold
+  tie_break: smaller_k
+
+learner:
+  family: independent_ridge_utility_regression_per_action
+  alpha_grid: [0.1, 1.0, 10.0, 100.0]
+  fit_rows: diagnosis_train_only
+  alpha_selection: maximize_diagnosis_dev_macro_jaccard_then_smaller_alpha
+  random_parameters: none
+
+sequential_gate:
+  dev_baseline: diagnosis_singleton_top1
+  dev_requirements:
+    - macro_jaccard_delta_at_least_0.02
+    - paired_bootstrap_95_percent_lower_bound_above_0
+    - mean_predicted_k_at_most_3
+  bootstrap: {resamples: 10000, seed: 4601, unit: diagnosis_weak_link_row}
+  test_policy: >
+    Open the frozen diagnosis test fold exactly once only if every dev gate
+    passes. Otherwise cancel test evaluation and report a dev rejection.
+  test_requirements_if_opened:
+    - macro_jaccard_delta_at_least_0.02
+    - paired_bootstrap_95_percent_lower_bound_above_0
+
+failure_policy: >
+  If dev fails, close score-shape cardinality without inspecting H46 test
+  utility. Do not add another feature family or threshold after dev. H24 remains
+  a proposal retriever and H44 remains the sole pending submission artifact.
+
+artifact_policy:
+  submission_zip: forbidden
+  organizer_claim: forbidden
+  deterministic_repeat_required: true
