@@ -1086,3 +1086,14 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   70.47%, while test-result F1 was 46.30%.
 - Both 82% dev gates failed, so test was canceled. No ZIP was created. H30 may
   only be reused under a separately registered confidence calibration.
+
+## 2026-08-03 — H31 high-confidence H30 subset passes
+
+- Froze the H30 checkpoint and registered thresholds 0.50–0.95 before
+  calibration. Dev selected 0.90 under the precision-constrained F1 rule.
+- Dev precision/recall/F1 was 81.60/54.89/65.63%; one-shot test reached
+  84.53/49.12/62.14%. All offset and deterministic-inference gates passed.
+- H31 is promoted as an independent voter, not a direct output source. A
+  cross-fit is required so all 100 records receive out-of-fold predictions,
+  followed by exact agreement with an independent proposal source.
+- No ZIP or competition submission was created.

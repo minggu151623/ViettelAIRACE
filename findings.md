@@ -701,6 +701,11 @@ The strongest verified direction is conservative structural cleanup:
   record-held-out dev. The model has learned reusable clinical spans, but class
   weighting creates 269 false positives. It is not a direct replacement for
   H23; only a preregistered confidence subset may be investigated next.
+- **H30 confidence is well ordered across unseen records.** The preregistered
+  0.90 threshold selected on dev yields 81.60% precision there and 84.53% on
+  one-shot test, with F1 65.63/62.14% and deterministic offsets. This promotes
+  H30 only as a high-confidence voter; cross-fitting is required before using it
+  on records included in its original training set.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

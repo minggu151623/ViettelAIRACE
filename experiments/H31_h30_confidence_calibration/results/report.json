@@ -1,0 +1,110 @@
+{
+  "dev_grid": [
+    {
+      "threshold": 0.5,
+      "tp": 361,
+      "fp": 233,
+      "fn": 140,
+      "precision": 0.6077441077441077,
+      "recall": 0.720558882235529,
+      "f1": 0.6593607305936072,
+      "predicted": 594
+    },
+    {
+      "threshold": 0.6,
+      "tp": 352,
+      "fp": 197,
+      "fn": 149,
+      "precision": 0.6411657559198543,
+      "recall": 0.7025948103792415,
+      "f1": 0.6704761904761906,
+      "predicted": 549
+    },
+    {
+      "threshold": 0.7,
+      "tp": 350,
+      "fp": 158,
+      "fn": 151,
+      "precision": 0.6889763779527559,
+      "recall": 0.6986027944111777,
+      "f1": 0.6937561942517344,
+      "predicted": 508
+    },
+    {
+      "threshold": 0.8,
+      "tp": 332,
+      "fp": 121,
+      "fn": 169,
+      "precision": 0.7328918322295805,
+      "recall": 0.6626746506986028,
+      "f1": 0.6960167714884695,
+      "predicted": 453
+    },
+    {
+      "threshold": 0.85,
+      "tp": 310,
+      "fp": 97,
+      "fn": 191,
+      "precision": 0.7616707616707616,
+      "recall": 0.6187624750499002,
+      "f1": 0.682819383259912,
+      "predicted": 407
+    },
+    {
+      "threshold": 0.9,
+      "tp": 275,
+      "fp": 62,
+      "fn": 226,
+      "precision": 0.8160237388724035,
+      "recall": 0.5489021956087824,
+      "f1": 0.6563245823389021,
+      "predicted": 337
+    },
+    {
+      "threshold": 0.95,
+      "tp": 54,
+      "fp": 3,
+      "fn": 447,
+      "precision": 0.9473684210526315,
+      "recall": 0.10778443113772455,
+      "f1": 0.1935483870967742,
+      "predicted": 57
+    }
+  ],
+  "selected": {
+    "threshold": 0.9,
+    "tp": 275,
+    "fp": 62,
+    "fn": 226,
+    "precision": 0.8160237388724035,
+    "recall": 0.5489021956087824,
+    "f1": 0.6563245823389021,
+    "predicted": 337
+  },
+  "dev_offset_errors": 0,
+  "dev_gates": {
+    "eligible_threshold_exists": true,
+    "precision_at_least_0_80": true,
+    "strict_f1_at_least_0_60": true,
+    "recall_at_least_0_45": true,
+    "offset_errors_equal_0": true
+  },
+  "test": {
+    "threshold": 0.9,
+    "tp": 224,
+    "fp": 41,
+    "fn": 232,
+    "precision": 0.8452830188679246,
+    "recall": 0.49122807017543857,
+    "f1": 0.6213592233009709,
+    "predicted": 265
+  },
+  "test_gates": {
+    "precision_at_least_0_78": true,
+    "strict_f1_at_least_0_55": true,
+    "recall_at_least_0_40": true,
+    "deterministic_predictions": true,
+    "offset_errors_equal_0": true
+  },
+  "status": "passed"
+}
