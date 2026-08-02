@@ -1,0 +1,44 @@
+session:
+  id: "2026-08-03_005"
+  timestamp: "2026-08-03T03:30+07:00"
+  summary: "Used set-valued decision theory to test and reject H45 broad ranked-prefix candidate expansion."
+
+events_logged:
+  - type: dead_end
+    id: N57
+    provenance: ai-executed
+    summary: "Dev selected k=1 and longer H24 prefixes sharply reduced held-out weak-label Jaccard."
+  - type: claim
+    id: C41
+    provenance: ai-suggested
+    summary: "Retrieval depth is not candidate-set utility without row-level cardinality calibration."
+
+ai_actions:
+  - action: "Reviewed primary set-valued prediction, non-decomposable metric and hierarchical ICD evaluation literature."
+    provenance: ai-executed
+    files_changed:
+      - "literature/mortier_2021_set_valued_prediction.md"
+      - "literature/natarajan_2015_non_decomposable_metrics.md"
+      - "literature/perotte_2014_hierarchical_icd_evaluation.md"
+  - action: "Preregistered and ran H45 with dev-only cardinality selection, one-shot test and 10,000 paired bootstraps."
+    provenance: ai-executed
+    files_changed:
+      - "airace/candidate_set_utility.py"
+      - "experiments/H45_jaccard_cardinality_audit"
+      - "tests/test_candidate_set_utility.py"
+  - action: "Created and opened the H45 HTML research report."
+    provenance: ai-executed
+    files_changed:
+      - "to_human/h45_jaccard_audit_report.html"
+
+claims_touched:
+  - id: C41
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "H44 external score and three component metrics remain pending."
+  - "H41 prediction-blind reviewer labels remain pending."
+
+ai_suggestions_pending:
+  - "Do not spend a reset slot on generic top-k expansion; require calibrated row-level set size or independent hierarchy evidence."

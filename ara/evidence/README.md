@@ -33,3 +33,5 @@
   at `experiments/H42_h41_cluster_gate/results/null_simulation.json`.
 - Reset-slot H43/H44 selection: `tables/h43_h44_reset_slot.md`; H43 was deleted
   after its temporal-hazard failure and H44 is the deterministic candidate.
+- H45 Jaccard-aware cardinality audit: `tables/h45_jaccard_cardinality.md`; dev
+  selected singleton output and broad ranked prefixes reduced test utility.

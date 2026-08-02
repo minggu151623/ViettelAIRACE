@@ -750,3 +750,23 @@ tree:
               total-score movement must reconcile with 0.4 times candidate
               Jaccard movement. The null band and strong gate were registered
               before the leaderboard values were known.
+            children:
+              - id: N57
+                type: dead_end
+                title: "H45 Jaccard-aware ranked-prefix expansion"
+                provenance: ai-executed
+                timestamp: "2026-08-03T03:30+07:00"
+                hypothesis: >
+                  Dev-selected global or type-specific prefix cardinality can
+                  convert H24 retrieval depth into higher held-out Jaccard.
+                failure_mode: >
+                  Dev selected k=1 globally and for both types. Test Jaccard
+                  was 0.178571 at k=1 but only 0.107143/0.060119/0.039123 at
+                  k=2/5/10; the registered primary delta was exactly zero.
+                lesson: >
+                  Retrieval recall is not set utility. The remaining oracle
+                  headroom requires calibrated row-level cardinality, so broad
+                  top-k cannot authorize a submission artifact.
+                evidence: [C41,
+                  "experiments/H45_jaccard_cardinality_audit/results/report.json",
+                  "ara/evidence/tables/h45_jaccard_cardinality.md"]

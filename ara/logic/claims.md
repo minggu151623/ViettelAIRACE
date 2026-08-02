@@ -540,3 +540,18 @@
   `turn2/output_v12_full_who_family_hedge.zip`]
 - **Dependencies**: [C24, C25, C39]
 - **Tags**: WHO-ICD, hierarchy, parent-specific, submission-candidate
+
+## C41: Retrieval depth without cardinality calibration reduces candidate Jaccard
+- **Statement**: H24's ranked ontology candidates cannot be converted into a
+  better set prediction by selecting a fixed global or entity-type prefix size
+  on the frozen weak-link development split.
+- **Status**: supported internally; organizer transfer untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A separately frozen, alias-disjoint evaluation
+  selects a prefix above one on development and improves test macro-Jaccard by
+  at least 0.02 with a positive paired-bootstrap lower bound.
+- **Proof**: [`experiments/H45_jaccard_cardinality_audit/protocol.yaml`,
+  `experiments/H45_jaccard_cardinality_audit/results/report.json`,
+  `airace/candidate_set_utility.py`]
+- **Dependencies**: [C40]
+- **Tags**: Jaccard, set-valued-prediction, cardinality, calibration, candidates
