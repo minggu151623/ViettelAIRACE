@@ -1,0 +1,47 @@
+session:
+  id: "2026-08-03_010"
+  timestamp: "2026-08-03T05:18+07:00"
+  summary: "Compared percentile, stratified Welch-t and bootstrap-t gates; rejected every small-sample repair and left H41's evaluator unchanged."
+
+events_logged:
+  - type: dead_end
+    id: N62
+    provenance: ai-executed
+    summary: "No H50 method met Type-I, power and stability requirements at 15 passages."
+  - type: claim
+    id: C46
+    provenance: ai-suggested
+    summary: "Studentization cannot provide an eligible distribution-robust H41 promotion gate at n=15."
+
+ai_actions:
+  - action: "Reviewed small-sample bootstrap literature and preregistered a three-method repair comparison."
+    provenance: ai-executed
+    files_changed:
+      - "literature/small_sample_mean_inference.md"
+      - "experiments/H50_h41_inference_repair/protocol.yaml"
+  - action: "Implemented and deterministically repeated percentile, stratified Welch-t and bootstrap-t simulations."
+    provenance: ai-executed
+    files_changed:
+      - "airace/h41_inference_repair.py"
+      - "experiments/H50_h41_inference_repair/results"
+      - "tests/test_h41_inference_repair.py"
+  - action: "Validated 148 tests and created the H50 inference-repair report."
+    provenance: ai-executed
+    files_changed:
+      - "findings.md"
+      - "research-log.md"
+      - "research-state.yaml"
+      - "to_human/h50_inference_repair_report.html"
+
+claims_touched:
+  - id: C46
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Confirmatory H41 promotion needs more independent holdout passages or a separately justified bounded-data method."
+  - "H44 external score and component metrics remain pending."
+  - "H41 independent reviewer labels remain pending for development and error analysis."
+
+ai_suggestions_pending:
+  - "Do not install Welch-t or bootstrap-t as a silent repair of the frozen 15-passage gate."

@@ -721,6 +721,30 @@ tree:
                     evidence: [C45,
                       "experiments/H49_h41_power_robustness/results/power_envelope.json",
                       "ara/evidence/tables/h49_h41_power_robustness.md"]
+                    children:
+                      - id: N62
+                        type: dead_end
+                        title: "H50 studentized repair of the 15-passage gate"
+                        provenance: ai-executed
+                        timestamp: "2026-08-03T05:18+07:00"
+                        hypothesis: >
+                          Stratified Welch-t or bootstrap-t can repair
+                          left-skew Type-I inflation while retaining useful
+                          moderate-effect power and numerical stability.
+                        failure_mode: >
+                          Welch-t reduced maximum Type-I to 0.0724 but worst
+                          d=0.5 power fell to 0.3448. Bootstrap-t reduced it to
+                          0.0454 but power fell to 0.2880 and 4.62% of discrete
+                          replications produced nonfinite bounds. No method
+                          passed every frozen eligibility gate.
+                        lesson: >
+                          Studentization cannot manufacture independent
+                          information at n=15. H41 remains useful for
+                          development, but robust confirmatory promotion needs
+                          more passages or a separately justified bounded test.
+                        evidence: [C46,
+                          "experiments/H50_h41_inference_repair/results/method_comparison.json",
+                          "ara/evidence/tables/h50_h41_inference_repair.md"]
 
   - id: N53
     type: pivot

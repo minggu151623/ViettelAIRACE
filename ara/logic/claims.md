@@ -618,3 +618,18 @@
   `airace/h41_power_robustness.py`]
 - **Dependencies**: [C38, C44]
 - **Tags**: percentile-bootstrap, skewness, Type-I, statistical-power
+
+## C46: Studentization does not yield an eligible H41 gate at n=15
+- **Statement**: On the frozen five-family envelope, neither stratified
+  Welch-t nor bootstrap-t simultaneously meets H41's small-sample Type-I,
+  moderate-effect power, and numerical-stability requirements.
+- **Status**: supported by preregistered method comparison
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A preregistered repair on the same envelope keeps
+  every 15-passage Type-I rate in 0.01–0.08, has at least 0.50 worst-family
+  power at `d=0.5`, and has at most 1% nonfinite replications.
+- **Proof**: [`experiments/H50_h41_inference_repair/protocol.yaml`,
+  `experiments/H50_h41_inference_repair/results/method_comparison.json`,
+  `airace/h41_inference_repair.py`]
+- **Dependencies**: [C45]
+- **Tags**: bootstrap-t, Welch-t, small-sample, numerical-stability, power

@@ -44,3 +44,6 @@
 - H49 H41 distributional stress test: `tables/h49_h41_power_robustness.md`;
   15-passage Type-I spans 0.0236–0.1126 and robust 80% power at `d=0.5`
   requires 45 passages across the frozen families.
+- H50 H41 inference repair: `tables/h50_h41_inference_repair.md`; Welch-t and
+  bootstrap-t reduce maximum Type-I but fail power, lower-rate, or numerical-
+  stability gates at 15 passages, so no repair was installed.

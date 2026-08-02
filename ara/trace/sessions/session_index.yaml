@@ -1,4 +1,7 @@
 sessions:
+  - id: "2026-08-03_010"
+    file: "2026-08-03_010.yaml"
+    summary: "Compared percentile, stratified Welch-t and bootstrap-t gates; rejected every small-sample repair and left H41's evaluator unchanged."
   - id: "2026-08-03_009"
     file: "2026-08-03_009.yaml"
     summary: "Stress-tested H41 inference across five distribution shapes and found small-sample Type-I inflation plus a 45-passage robust power requirement."
