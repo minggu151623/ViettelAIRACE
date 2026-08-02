@@ -1,4 +1,7 @@
 sessions:
+  - id: "2026-08-03_015"
+    file: "2026-08-03_015.yaml"
+    summary: "Closed H44 pre-result work with a fail-closed, hash-bound recorder that executes the frozen decision tree mechanically."
   - id: "2026-08-03_014"
     file: "2026-08-03_014.yaml"
     summary: "Decomposed H44 into H23-seen and H23-novel families, showing the pending submission mainly tests cross-family extrapolation."

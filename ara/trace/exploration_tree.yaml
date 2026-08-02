@@ -891,6 +891,22 @@ tree:
                         evidence: [C50,
                           "experiments/H54_h44_family_novelty_decomposition/results/decomposition.json",
                           "ara/evidence/tables/h54_h44_family_novelty.md"]
+                        children:
+                          - id: N68
+                            type: experiment
+                            title: "H55 fail-closed H44 result recorder"
+                            provenance: ai-executed
+                            timestamp: "2026-08-03T06:45+07:00"
+                            result: >
+                              Four identity/formula anomaly fixtures all stop
+                              attribution and create no real result, while the
+                              strong, small, null and negative fixtures map to
+                              the exact frozen decisions. Repeat readiness
+                              reports are byte-identical; 164 tests pass. This
+                              is software validation, not leaderboard evidence.
+                            evidence: [C51,
+                              "experiments/H55_h44_external_result_recorder/results/readiness.json",
+                              "ara/evidence/tables/h55_h44_result_recorder.md"]
               - id: N57
                 type: dead_end
                 title: "H45 Jaccard-aware ranked-prefix expansion"

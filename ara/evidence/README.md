@@ -59,3 +59,6 @@
 - H54 H44 family novelty: `tables/h54_h44_family_novelty.md`; 75.45% of rows
   and 81.08% of families are H23-novel, so H44 mainly tests cross-family
   extrapolation while retaining a frozen material seen-family stratum.
+- H55 H44 result recorder: `tables/h55_h44_result_recorder.md`; all four
+  anomaly fixtures stop attribution and all four valid fixtures map to their
+  frozen decisions. This is software readiness evidence only.

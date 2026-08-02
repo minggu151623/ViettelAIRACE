@@ -204,3 +204,13 @@
 - **Sensitivity**: high
 - **Code ref**: [`airace/family_novelty.py`,
   `experiments/H54_h44_family_novelty_decomposition/protocol.yaml`]
+
+## H24: Execute external decision trees instead of reinterpreting them manually
+- **Rationale**: Load thresholds and prose from the frozen tree, bind accepted
+  output to tree and artifact hashes, and refuse to write on identity, metric
+  or formula anomalies. This prevents transcription error and post-result
+  branch drift without inventing new evidence.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/h44_result_recorder.py`,
+  `tests/test_h44_result_recorder.py`]

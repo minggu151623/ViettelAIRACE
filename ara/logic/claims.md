@@ -593,6 +593,22 @@
 - **Tags**: extrapolation, family-novelty, WHO-ICD,
   pre-result-interpretation
 
+## C51: H44 result ingestion is deterministic and fail-closed
+- **Statement**: Given the frozen H44 tree, artifact and four finite metrics,
+  the H55 recorder verifies identity and candidate-only invariants, selects one
+  frozen branch deterministically, and writes no result on validation failure.
+- **Status**: supported by synthetic software tests; real result pending
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Any registered anomaly creates an output file or
+  receives an attributable branch, any registered valid fixture maps to the
+  wrong decision, repeat readiness reports differ, or a real accepted result
+  is not bound to the submitted ZIP and decision-tree hashes.
+- **Proof**: [`experiments/H55_h44_external_result_recorder/protocol.yaml`,
+  `experiments/H55_h44_external_result_recorder/results/readiness.json`,
+  `airace/h44_result_recorder.py`, `tests/test_h44_result_recorder.py`]
+- **Dependencies**: [C48, C49, C50]
+- **Tags**: result-integrity, fail-closed, preregistration, software-validation
+
 ## C41: Retrieval depth without cardinality calibration reduces candidate Jaccard
 - **Statement**: H24's ranked ontology candidates cannot be converted into a
   better set prediction by selecting a fixed global or entity-type prefix size
