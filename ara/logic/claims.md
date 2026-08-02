@@ -297,3 +297,19 @@
   `experiments/H22_calibrated_pseudo_reconstruction/external_result.json`]
 - **Dependencies**: [C22]
 - **Tags**: proxy, calibration, leaderboard, scope
+
+## C24: Same-family parent addition is a bounded ontology hedge
+- **Statement**: For an ICD-10-CM-specific singleton diagnosis code absent from
+  WHO 2019, adding—without replacing—the valid three-character WHO parent
+  hedges ontology-version uncertainty while preserving the externally useful
+  specific code and all extraction fields.
+- **Status**: supported structurally; external effect untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A changed row crosses disease families, exceeds
+  two candidates, changes a frozen field, or the candidate-only external test
+  lowers candidate Jaccard relative to H22.
+- **Proof**: [`airace/candidate_semantic.py`,
+  `experiments/H23_candidate_only_semantic/build_report.json`,
+  `turn2/output_v8_candidate_semantic.zip`]
+- **Dependencies**: [C06, C18, C22]
+- **Tags**: ICD-10, ICD-10-CM, parent, candidates, external-pending

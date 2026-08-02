@@ -15,3 +15,6 @@
   `03651cfea61d989cb3fd5574828d912a04752aca6eb7a0ff2f04f37f4c283ade`.
 - External H22 result: `experiments/H22_calibrated_pseudo_reconstruction/external_result.json`
   — score 38.7976, WER 57.2161, assertion 47.5455, candidates 29.2469.
+- H23 candidate audit: `experiments/H23_candidate_only_semantic/build_report.json`.
+- Deterministic H23 SHA-256:
+  `e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662`.

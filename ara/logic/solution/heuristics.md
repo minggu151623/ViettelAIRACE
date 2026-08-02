@@ -66,3 +66,13 @@
 - **Sensitivity**: low
 - **Code ref**: [`airace/pseudo_reconstruct.py`,
   `tests/test_pseudo_reconstruct.py`]
+
+## H10: Hedge ontology versions without replacing the known specific code
+- **Rationale**: Blanket CM-to-WHO conversion discards information already
+  supported by H22. For singleton same-family cases, `[parent, specific]`
+  preserves that evidence while adding the organizer-supported WHO category;
+  multi-family rows remain quarantined.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/candidate_semantic.py`,
+  `tests/test_candidate_semantic.py`]

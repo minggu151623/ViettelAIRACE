@@ -1,0 +1,42 @@
+session:
+  id: "2026-08-02_004"
+  timestamp: "2026-08-02T07:30+07:00"
+  summary: "Preregistered and built H23, a 144-row candidate-only WHO parent hedge on frozen H22 extraction."
+
+events_logged:
+  - type: experiment
+    id: N30
+    provenance: ai-executed
+    summary: "H23 changed 144 diagnosis candidate sets and no extraction field."
+  - type: claim
+    id: C24
+    provenance: ai-suggested
+    summary: "Same-family parent addition is a bounded ontology-version hedge."
+  - type: heuristic
+    id: H10
+    provenance: ai-suggested
+    summary: "Preserve the specific CM code while adding only its valid WHO parent."
+
+ai_actions:
+  - action: "Audited all H22 ICD and RxNorm candidate coverage against frozen resources."
+    provenance: ai-executed
+    files_changed: ["experiments/H23_candidate_only_semantic/build_report.json"]
+  - action: "Implemented and tested the H23 candidate-only transform."
+    provenance: ai-executed
+    files_changed: ["airace/candidate_semantic.py", "airace/cli.py",
+      "tests/test_candidate_semantic.py"]
+  - action: "Built, validated, and pushed the deterministic H23 archive."
+    provenance: ai-executed
+    files_changed: ["turn2/output_v8_candidate_semantic.zip"]
+
+claims_touched:
+  - id: C24
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "User may submit H23 once and report all four leaderboard metrics."
+  - "H22 remains the frozen fallback until H23 improves candidate Jaccard externally."
+
+ai_suggestions_pending:
+  - "Do not infer H23's external direction from the H22-defined proxy decline."

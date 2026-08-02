@@ -44,6 +44,24 @@ tree:
               direction but overestimated the absolute result by 48.2674.
             evidence: [C22, C23,
               "experiments/H22_calibrated_pseudo_reconstruction/external_result.json"]
+            children:
+              - id: N30
+                type: experiment
+                title: "H23 same-family WHO parent hedge"
+                provenance: ai-executed
+                timestamp: "2026-08-02T07:30+07:00"
+                result: >
+                  Preregistered candidate-only invariants, audited 863 H22
+                  diagnoses, and added a valid same-family WHO parent beside
+                  144 singleton ICD-10-CM-specific codes. One two-family row
+                  was quarantined. All 3,168 entities and every non-candidate
+                  field remain unchanged; 65 tests and 100-record validation
+                  pass. Repeated SHA-256 is
+                  e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662.
+                  External effect is pending and no submission was performed.
+                evidence: [C24,
+                  "experiments/H23_candidate_only_semantic/build_report.json",
+                  "turn2/output_v8_candidate_semantic.zip"]
   - id: N25
     type: decision
     title: "Adopt an isolated blind-evaluation track"
