@@ -1,0 +1,52 @@
+experiment: H24_multilingual_context_graph_reranker
+status: preregistered_before_model_download_or_scoring
+registered_at: "2026-08-02T09:47:00+07:00"
+fallback_artifact: turn2/output_v8_candidate_semantic.zip
+retrieval_baseline:
+  report: experiments/H24_ontology_graph_classifier/type_specialist/report.json
+  router: diagnosis_qwen_dense_drug_char_tfidf
+  candidate_depth: 10
+  dev_recall_at_1: 0.16666666666666666
+  test_recall_at_1: 0.17857142857142858
+model:
+  identifier: Qwen/Qwen3-Reranker-0.6B
+  huggingface_revision: e61197ed45024b0ed8a2d74b80b4d909f1255473
+  parameters: 595776512
+  model_type: multilingual_cross_encoder_reranker
+  policy: frozen_official_yes_no_logits_no_fine_tuning
+data:
+  dataset: experiments/H24_ontology_graph_classifier/link_dataset.json
+  dataset_sha256: c78f3c57afe038a0f9ff06e20b39475e2ad5e83d67fb2c6e46c161e0489b9aaf
+  label_status: weak_pseudo_labels_not_organizer_ground_truth
+instruction: >-
+  Given a Vietnamese clinical mention in context, determine whether the English
+  ontology concept is the correct normalization. A diagnosis must match ICD-10
+  meaning and specificity; a drug must match the RxNorm ingredient or product.
+query:
+  fields: [entity_type, mention, first_frozen_context]
+  context_policy: first_context_only_truncated_by_tokenizer
+document_variants:
+  text_only:
+    fields: [ontology, code, canonical_title]
+  text_plus_graph:
+    fields: [ontology, code, canonical_title, up_to_8_sorted_direct_relations]
+    relation_policy: exact_local_WHO_RxNorm_graph
+scoring:
+  score: softmax_probability_of_yes_over_yes_no_logits
+  max_length: 512
+  batch_size: 32
+  candidate_order_tie_break: preserve_router_order_then_identifier
+selection:
+  criterion: highest_dev_recall_at_1_then_recall_at_5
+  test_policy: score_test_once_after_dev_variant_selection
+  graph_ablation_policy: both_variants_report_dev_but_only_selected_variant_reports_test
+promotion_gate:
+  selected_dev_and_test_recall_at_1_over_router_absolute: 0.05
+  selected_dev_and_test_recall_at_5_no_regression: true
+  graph_independent_gain_required_to_claim_graph: 0.03
+  leaderboard_is_not_used_for_selection: true
+failure_policy:
+  - Preserve the fixed router if reranking fails either held-out gate.
+  - Do not tune prompt, batch, graph-neighbor count or score threshold on test.
+  - Do not call graph effective unless its dev gain exceeds three points.
+  - Retrieval/reranking weak-link metrics alone cannot authorize a ZIP.

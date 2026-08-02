@@ -104,3 +104,12 @@ H24 pins the local Ollama blob, uses one English task instruction for every
 Vietnamese query and leaves ontology titles unprompted. It is first evaluated
 without training, graph features or score fusion so any gain is attributable
 to the retrieval-specific multilingual source model.
+
+The next classifier stage pins the official
+`Qwen/Qwen3-Reranker-0.6B` revision
+`e61197ed45024b0ed8a2d74b80b4d909f1255473`. Its model card defines relevance
+as the normalized `yes` versus `no` next-token logits and documents support for
+100+ languages and custom English instructions. H24 compares ontology text
+alone against the same text plus exact direct graph relations, selecting on
+dev before reading test. This supplies the graph ablation missing from a plain
+embedding ensemble.
