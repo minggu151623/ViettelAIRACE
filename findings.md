@@ -571,6 +571,15 @@ The strongest verified direction is conservative structural cleanup:
   R@1 on dev/test. A Vietnamese NER checkpoint has not learned alignment to
   English ontology titles; separate mention/concept projections and explicit
   contrastive training are necessary.
+- **Random projection alignment memorizes weak links instead of learning the
+  ontology.** Alignment-only raises train R@1 to 30.28% but reaches 2.78% on
+  dev and 0% on test, including 0% for concepts observed in training. The next
+  design must preserve the clinical encoder's geometry and expose learning to
+  false candidates mined from the complete ontology, not just mini-batches.
+- **Clinical mention prototypes are now the bounded next mechanism.** A
+  train-only mean embedding per linked concept can test whether Vietnamese
+  paraphrases cluster without fitting random heads. BioSyn-style full-ontology
+  mining and lexical fusion are conditional follow-ups, not bundled changes.
 - **H24 evaluation remains weak-label evaluation.** The 518 link rows are
   derived from H23 and are not organizer truth. Alias-group splitting prevents
   surface leakage, but a gain only proves the new model can learn the frozen

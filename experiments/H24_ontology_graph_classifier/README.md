@@ -163,3 +163,19 @@ rather than removes, the need for the preregistered mention/concept projection
 training. The concept embeddings are cached by model+graph checksum; no
 leaderboard submission or challenger artifact was produced. There are now 73
 passing tests.
+
+## Stage-3 alignment-only ablation
+
+The frozen alignment-only variant selected epoch 20 and stopped at epoch 35.
+It reached train R@1/R@5/R@10 of 30.28/52.82/61.03%, but collapsed to
+2.78/5.56/8.33% on dev and 0.00/1.79/1.79% on test. Even the 28 test queries
+whose concepts occurred in training achieved 0% R@1. The large train-to-dev
+gap shows memorization of 426 pseudo links rather than ontology retrieval.
+
+This variant fails both the lexical gate and the generalization requirement.
+Under the registered failure policy, the graph-hard-negative variant is not
+run on the same failed random-projection representation. H23 remains the
+fallback; no ZIP or competition submission was created. There are now 75
+passing tests. The next experiment must preserve pretrained geometry, create
+clinical mention prototypes, and mine false candidates over the complete
+ontology instead of relying only on in-batch negatives.

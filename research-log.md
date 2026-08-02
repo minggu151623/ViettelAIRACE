@@ -907,3 +907,20 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   spans all 69,991 type-restricted concepts.
 - The graph variant must improve hard-negative accuracy by at least five
   absolute points over alignment-only. Retrieval alone cannot authorize a ZIP.
+
+## 2026-08-02 — H24 alignment-only refuted by held-out retrieval
+
+- The selected epoch 20 alignment-only checkpoint reached train
+  R@1/R@5/R@10 30.28/52.82/61.03%, but dev fell to 2.78/5.56/8.33% and test
+  to 0.00/1.79/1.79% over the complete type-restricted ontology.
+- Test R@1 remained zero for both 28 seen-concept and 28 unseen-concept
+  queries. Dev/test graph-hard-negative accuracy was 42.86/38.46%, compared
+  with 78.93% in train.
+- This is strong overfit from random projection heads, a small 426-row weak
+  set and in-batch negatives that omit nearly all 69,991 ontology concepts.
+- The preregistered lexical gate failed, so the graph variant was canceled
+  rather than fitted to the same broken representation. H23 remains frozen;
+  no challenger ZIP or competition submission was created.
+- The next mechanistic test will preserve the pretrained embedding geometry,
+  replace seen concept titles with train-only clinical mention prototypes and,
+  only after a positive result, mine hard negatives across the full ontology.

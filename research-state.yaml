@@ -131,7 +131,7 @@ hypotheses:
       candidates will hedge organizer ontology differences and improve
       candidate Jaccard without changing text or assertion metrics.
   H24_ontology_graph_classifier:
-    status: unadapted_dense_refuted_alignment_training_next
+    status: alignment_only_refuted_overfit_pivot_to_clinical_prototypes
     prediction: >
       A customized sparse+dense concept retriever with ontology-graph losses,
       graph-mined hard negatives and a contextual classifier/reranker will
@@ -244,10 +244,13 @@ experiments:
     - "H24 customized source core: dual projection encoder, relation graph adapter, hard-negative and multitask context classifier; 72 tests pass"
     - "H24 unadapted dense baseline: R@1 4.05% vs lexical 10.81%; diagnosis dev/test R@1 0%; unchanged checkpoint refuted"
     - "H24 alignment protocol frozen: exact data/model hashes, two registered variants, dev-only selection and one-shot test"
+    - "H24 alignment-only negative: train R@1 30.28% but dev 2.78% and test 0%; random projection memorizes weak links"
+    - "H24 graph variant canceled under preregistered failure policy because alignment-only does not beat lexical retrieval"
   next: >
-    Train alignment-only under the frozen configuration, select on dev, and
-    read test once. Then train the separately registered graph-hard-negative
-    variant and compare hard-negative accuracy before any context model.
+    Preregister and evaluate a KRISSBERT-style clinical mention prototype
+    retriever that preserves the frozen backbone geometry. If it generalizes,
+    add BioSyn-style hard negatives mined from the complete ontology through a
+    zero-initialized residual adapter; do not reuse the failed random heads.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
