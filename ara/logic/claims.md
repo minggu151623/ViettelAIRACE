@@ -570,3 +570,18 @@
   `airace/score_shape_cardinality.py`]
 - **Dependencies**: [C41]
 - **Tags**: score-margin, Jaccard, calibration, weak-labels, early-gate
+
+## C43: Proposal-derived assertion harm recurs but has low observed leverage
+- **Statement**: Assertions on H37/H38 novel entities are associated with
+  repeated external assertion regression, but the observed weighted component
+  loss is too small to justify blanket abstention as a reset-slot mechanism.
+- **Status**: supported as a low-leverage internal/external ancestry audit
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A preregistered isolated assertion-only external
+  test recovers at least 0.10 total score points, or independent H41 labels show
+  a high-precision subgroup with equivalent expected leverage.
+- **Proof**: [`experiments/H47_novel_span_assertion_leverage/protocol.yaml`,
+  `experiments/H47_novel_span_assertion_leverage/results/report.json`,
+  `airace/assertion_leverage.py`]
+- **Dependencies**: [C34, C35]
+- **Tags**: assertions, negative-transfer, ancestry, leverage, abstention

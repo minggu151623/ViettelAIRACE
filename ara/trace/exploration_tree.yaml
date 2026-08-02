@@ -790,3 +790,24 @@ tree:
                     evidence: [C42,
                       "experiments/H46_score_shape_cardinality/results/report.json",
                       "ara/evidence/tables/h46_score_shape_cardinality.md"]
+
+  - id: N59
+    type: dead_end
+    title: "H47 novel-span assertion abstention leverage"
+    also_depends_on: [N55]
+    provenance: ai-executed
+    timestamp: "2026-08-03T04:06+07:00"
+    hypothesis: >
+      Repeated assertion regression on H37 and H38 novel spans has enough
+      observed component leverage to justify a later isolated reset-slot test.
+    failure_mode: >
+      Thirty-six asserted novel entities covered 18 records, but the two
+      observed assertion losses sum to only 0.04605 weighted score points,
+      below the registered 0.10 evidence threshold.
+    lesson: >
+      Proposal-derived assertion harm recurs but is too small to motivate
+      blanket abstention. This is an evidence-leverage conclusion, not a
+      mathematical upper bound on a counterfactual artifact.
+    evidence: [C43,
+      "experiments/H47_novel_span_assertion_leverage/results/report.json",
+      "ara/evidence/tables/h47_assertion_leverage.md"]

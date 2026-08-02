@@ -37,3 +37,5 @@
   selected singleton output and broad ranked prefixes reduced test utility.
 - H46 score-shape calibration: `tables/h46_score_shape_cardinality.md`; a small
   dev gain failed uncertainty and cardinality gates, so test remained unopened.
+- H47 assertion leverage: `tables/h47_assertion_leverage.md`; repeated external
+  assertion loss covered 36 novel entities but only 0.04605 weighted points.

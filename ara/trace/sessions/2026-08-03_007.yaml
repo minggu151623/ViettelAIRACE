@@ -1,0 +1,44 @@
+session:
+  id: "2026-08-03_007"
+  timestamp: "2026-08-03T04:06+07:00"
+  summary: "Audited H37/H38 assertion ancestry and closed blanket novel-assertion abstention as a low-leverage reset-slot mechanism."
+
+events_logged:
+  - type: dead_end
+    id: N59
+    provenance: ai-executed
+    summary: "Repeated assertion regression had only 0.04605 observed weighted score leverage, below the 0.10 gate."
+  - type: claim
+    id: C43
+    provenance: ai-suggested
+    summary: "Proposal-derived assertion harm recurs but does not justify blanket reset-slot abstention."
+
+ai_actions:
+  - action: "Preregistered and ran exact entity-ancestry assertion census across H23, H37 and H38."
+    provenance: ai-executed
+    files_changed:
+      - "airace/assertion_leverage.py"
+      - "experiments/H47_novel_span_assertion_leverage"
+      - "tests/test_assertion_leverage.py"
+  - action: "Verified 139 tests and byte-identical reports without creating altered outputs."
+    provenance: ai-executed
+    files_changed:
+      - "research-state.yaml"
+      - "research-log.md"
+      - "findings.md"
+  - action: "Created and opened the H47 HTML report."
+    provenance: ai-executed
+    files_changed:
+      - "to_human/h47_assertion_leverage_report.html"
+
+claims_touched:
+  - id: C43
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "H44 external score and component metrics remain pending."
+  - "H41 independent reviewer labels remain pending."
+
+ai_suggestions_pending:
+  - "Do not spend a reset slot on blanket assertion abstention; reopen only for an independently labeled high-precision subgroup."
