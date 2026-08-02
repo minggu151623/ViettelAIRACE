@@ -1,0 +1,99 @@
+hypothesis: H25_positive_unlabeled_span_assertion
+status: preregistered
+created_at: "2026-08-02T19:30:00+07:00"
+question: >
+  Can a record-held-out positive-unlabeled classifier recover H23-like
+  span/type additions from the three frozen proposal banks, while learning
+  assertion labels without treating missing H23 mentions as clean negatives?
+
+frozen_inputs:
+  input:
+    path: turn2/input
+    files: 100
+    digest: 6fc2a65811ffd8f5012dc292895f4e62cfd658133ad484a66e921a8e3458888a
+  h23_target:
+    path: turn2/output_v8_candidate_semantic
+    files: 100
+    digest: 6c1be08ea2cc6a61a96d04123761782b8a78cd23ece82bcc4f5a745b97f4169f
+    provenance: externally_useful_pseudo_target_not_organizer_gold
+  simulated_baseline:
+    path: turn2/output_v6_expanded_pair
+    external_score: 29.8409
+  proposal_banks:
+    vietmed_ner:
+      path: experiments/H15_core_ensemble/vietmed_proposals
+      digest: 2a009d5975458927fe3070eab06851e46869b02c44865fbd6ebf13ad3f51fac9
+    bami_v15:
+      path: experiments/H15_core_ensemble/bami_proposals
+      digest: e46893c9994988d0aa42c6ca5d9d45bd77bcb72b131721b355479fd2fa58fb8b
+    bami_v3:
+      path: experiments/H15_core_ensemble/bami_v3_proposals_rerun
+      digest: 148de249988dbe185ba75f4ee2da712a63bbcfd36a85f0d8b74cf738004b13a9
+
+record_split:
+  method: sha256_order
+  salt: H25-record-v1
+  train: [2, 4, 5, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 21, 22, 23, 24, 25, 27, 28, 30, 31, 34, 35, 36, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 51, 52, 53, 55, 58, 60, 61, 63, 64, 65, 66, 67, 71, 73, 74, 76, 77, 79, 80, 81, 82, 83, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 100]
+  dev: [3, 6, 20, 26, 32, 38, 39, 50, 56, 62, 69, 70, 72, 75, 78]
+  test: [1, 7, 14, 15, 29, 33, 37, 54, 57, 59, 68, 84, 85, 89, 99]
+
+candidate_universe:
+  grouping: exact_start_end_type_text
+  labels:
+    positive: exact_match_in_h23
+    unlabeled: absent_from_h23_never_assumed_negative
+  exclusions:
+    - invalid_raw_offset
+    - newline_inside_span
+    - no_alphabetic_character
+    - exact_overlap_with_simulated_baseline
+
+registered_models:
+  structured_pu:
+    estimator: 31_seed_bagged_logistic
+    features:
+      - per_source_presence_and_confidence
+      - source_count_and_agreement
+      - mention_length_shape_and_digit_features
+      - section_and_boundary_context
+    unlabeled_sampling: balanced_per_type_with_replacement
+  contextual_pu:
+    estimator: 31_seed_bagged_logistic
+    representation: pinned_qwen3_embedding_0_6b_marked_context
+    structured_features: same_as_structured_pu
+    embedding_reduction: train_only_truncated_svd_64
+  assertions:
+    estimator: independent_balanced_logistic_per_assertion
+    training_rows: exact_h23_positive_proposals_on_train_records_only
+    labels: [isHistorical, isNegated, isFamily]
+    fallback: deterministic_infer_assertions_when_class_has_fewer_than_8_positives
+
+threshold_selection:
+  allowed_keep_thresholds: [0.80, 0.90, 0.95]
+  rule: >
+    Select on dev by strict span/type F1 after adding predictions to the frozen
+    H20 simulated baseline; ties choose higher threshold, then structured-only.
+  test_access: once_after_selection
+
+metrics:
+  - proposal_positive_precision_recall_f1
+  - end_to_end_strict_span_type_micro_f1_against_h23_pseudo_target
+  - per_type_strict_f1
+  - exact_assertion_set_accuracy_on_matched_positive_proposals
+  - assertion_macro_jaccard_on_matched_positive_proposals
+  - expected_calibration_error
+  - selected_unlabeled_count_and_source_stability
+
+promotion_gate:
+  - dev_and_test_end_to_end_f1_gain_at_least_3_absolute_points_over_h20
+  - dev_and_test_selected_addition_precision_at_least_0_75
+  - no_entity_type_loses_more_than_2_f1_points
+  - assertion_macro_jaccard_beats_deterministic_rules_by_3_points_on_dev_and_test
+  - contextual_representation_adds_at_least_1_f1_point_or_is_rejected
+  - selected_beyond_h23_rows_require_two_sources_probability_at_least_0_95_and_bag_std_at_most_0_08
+  - full_output_offsets_schema_and_determinism_pass
+
+failure_policy: >
+  If either held-out split fails a gate, keep H23 unchanged and do not create a
+  challenger ZIP. Do not tune against leaderboard scores and never submit
+  automatically.

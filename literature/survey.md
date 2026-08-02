@@ -37,6 +37,17 @@ branch. They become appropriate only after creating a trustworthy annotation
 set and a non-leaky validation split. Until then, they are documented as
 future work rather than used to manufacture pseudo-ground truth.
 
+## Positive-unlabeled entity recognition
+
+Peng et al. (ACL 2019) show that incomplete dictionary supervision for NER is
+better formulated as positive-unlabeled learning than by treating every
+unmatched token as a negative. Kiryo et al. (NeurIPS 2017) show why flexible PU
+estimators can overfit limited positive data and introduce a non-negative risk
+correction. H25 applies the shared conservative principle at proposal level:
+H23 matches are positive, absent proposals remain unlabeled, records are held
+out, and selection requires stability across bagged regularized models. See
+`literature/peng_2019_pu_ner.md` and `literature/kiryo_2017_nnpu.md`.
+
 ## Public Vietnamese medical NER supervision
 
 Four primary dataset sources were audited: ViMedNER, VietBioNER, ViMQ, and
