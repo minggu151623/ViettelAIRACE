@@ -1144,3 +1144,14 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   known fused-token hazards (`doxycyclinebactrim`, `klonopinclonidine`).
 - Agreement is promoted as a proposal filter only. A dual verifier with frozen
   positive controls is required before any merge. No ZIP was created.
+
+## 2026-08-03 — H36 controlled dual verifier passes
+
+- Reviewed the frozen 51-row H35 queue alongside 30 H34/H23/VietMed exact
+  positive controls using the two prompts frozen in H27.
+- Retained 27/30 controls (90%), rejected both registered fused-token hazards,
+  obtained 92.59% prompt-action agreement, and preserved every raw-text offset.
+- Accepted 42 novel rows: 29 symptoms, eight diagnoses and five drugs. The
+  rejected set contains incomplete, generic, unsupported, and fused mentions.
+- H36 produced a verified queue only, as preregistered. No merge ZIP or
+  competition submission was created.

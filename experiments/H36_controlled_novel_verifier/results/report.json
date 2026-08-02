@@ -1,0 +1,17 @@
+{
+  "novel_rows": 51,
+  "positive_controls": 30,
+  "negative_controls": 2,
+  "positive_retention": 0.9,
+  "negative_drop_rate": 1.0,
+  "prompt_action_agreement": 0.9259259259259259,
+  "accepted_novel": 42,
+  "gates": {
+    "responses_complete": true,
+    "positive_control_retention_at_least_0_85": true,
+    "negative_control_drop_rate_equals_1": true,
+    "prompt_action_agreement_at_least_0_80": true,
+    "all_offsets_valid": true
+  },
+  "status": "passed"
+}

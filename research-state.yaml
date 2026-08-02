@@ -30,8 +30,12 @@ current_direction: >
   formally failed. The next step is a read-only independent-agreement audit of
   these frozen OOF predictions. H35 finds 51 novel exact agreements (45
   VietMed, eight held-out phrase, two both), but two known fused hazards remain.
-  The next step is a controlled dual semantic/boundary verifier with H23-present
-  positive controls. No new submission artifact is authorized yet.
+  H36's controlled dual verifier passes every frozen gate: 90% positive-control
+  retention, 100% registered-hazard rejection, 92.59% prompt agreement and 42
+  accepted novel rows. Twenty-nine are symptoms and therefore require no
+  candidate code. The next experiment will freeze these rows and isolate a
+  symptom-only merge with rule-derived assertions before any diagnosis/drug
+  candidate enrichment. No new submission artifact is authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -177,6 +181,16 @@ hypotheses:
       A 235-phrase lexicon improved strict F1 by 4.08 points on dev and 1.32 on
       test, but addition precision was only 50.59/36.11%. Contextual homonyms
       and substrings require semantic verification before merging.
+  H36_controlled_dual_verifier:
+    status: passed_queue_only
+    prediction: >
+      Independent exact agreement followed by two frozen semantic/boundary
+      prompts can isolate novel spans while retaining known-correct controls
+      and rejecting registered fused-token hazards.
+    result: >
+      Retained 27/30 positive controls, rejected both hazards, achieved 92.59%
+      prompt agreement and accepted 42/51 novel rows. Direct merge remains
+      forbidden; symptom-only integration is the registered successor.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -302,11 +316,12 @@ experiments:
     - "H33 per-fold calibration failed: precision 81.23%, recall 38.26%, F1 52.02%; collapsed fold remains empty"
     - "H34 minimum-epoch recovery: fold F1 0 -> 54.35; aggregate precision/recall/F1 82.23/46.15/59.12, but fold recall misses gate by 0.57 points"
     - "H35 agreement audit: 316 H34-new spans -> 51 exact independent agreements; two known fused hazards remain"
+    - "H36 controlled verifier passed: 27/30 controls retained, both hazards rejected, 42/51 novel rows accepted"
   next: >
-    Preregister dual semantic/type and boundary review of H35's frozen queue,
-    together with deterministic H23-present positive controls and structural
-    hazard negatives. Only a complete, high-agreement review may create a
-    candidate merge protocol; no direct ZIP is authorized.
+    Preregister a symptom-only merge from H36's frozen accepted queue. Infer
+    assertions with the unchanged rule engine, keep every H23 row byte-stable,
+    validate offsets/schema/determinism, and keep diagnosis/drug additions out
+    until candidate enrichment has an independent gate.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

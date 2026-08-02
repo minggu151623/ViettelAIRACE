@@ -726,6 +726,12 @@ The strongest verified direction is conservative structural cleanup:
   phrase policy, and two with both. Many are plausible missed concepts, but two
   known fused-token hazards survive, so source agreement must still be followed
   by semantic and boundary verification.
+- **Controlled dual verification passes on the frozen novel queue.** H36 keeps
+  27/30 deterministic positive controls, drops both registered fused-token
+  hazards, and obtains 92.59% agreement between its semantic and boundary
+  prompts. It accepts 42/51 novel rows, including 29 symptoms that can be tested
+  without introducing an ICD/RxNorm candidate decision. This authorizes a
+  symptom-only integration experiment, not an automatic submission.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
