@@ -24,9 +24,11 @@ current_direction: >
   recall/F1 at 36.68/50.89% because one fold produced no spans above 0.90.
   H33 per-fold calibration reaches 81.23/38.26/52.02% but the same fold remains
   empty. Its trainer stopped after epoch three and retained epoch one, before
-  the late precision gains seen elsewhere. The next falsification adds a
-  minimum-epoch safeguard only to that failed fold. No new submission artifact
-  is authorized yet.
+  the late precision gains seen elsewhere. H34's minimum-five-epoch safeguard
+  repairs it: substituted aggregate precision/recall/F1 is
+  82.23/46.15/59.12%. One fold recall gate misses by 0.57 points, so H34 remains
+  formally failed. The next step is a read-only independent-agreement audit of
+  these frozen OOF predictions. No new submission artifact is authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -295,11 +297,12 @@ experiments:
     - "H31 confidence calibration passed: threshold 0.90 dev/test precision 81.60/84.53%, F1 65.63/62.14%, deterministic and offset-valid"
     - "H32 cross-fit failed aggregate: precision 83.06%, recall 36.68%, F1 50.89%; one fold emitted zero spans at global 0.90"
     - "H33 per-fold calibration failed: precision 81.23%, recall 38.26%, F1 52.02%; collapsed fold remains empty"
+    - "H34 minimum-epoch recovery: fold F1 0 -> 54.35; aggregate precision/recall/F1 82.23/46.15/59.12, but fold recall misses gate by 0.57 points"
   next: >
-    Preregister a minimum-five-epoch early-stopping safeguard and rerun only the
-    collapsed H32 fold with otherwise identical data, seed and hyperparameters.
-    If it passes fold-level calibration, substitute it into the frozen H33 OOF
-    set and recompute aggregate gates before any agreement queue or ZIP.
+    Preregister a read-only independent-agreement audit over H34's frozen
+    combined OOF predictions. Count exact novel agreement with VietMed and H26,
+    inspect contexts, and do not merge or package unless a later protocol
+    establishes a conservative promotion rule.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

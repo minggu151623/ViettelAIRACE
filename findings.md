@@ -716,6 +716,11 @@ The strongest verified direction is conservative structural cleanup:
   and retained epoch one, while H30's useful precision emerged after epochs
   four through eight. A minimum-epoch safeguard must be tested on the failed
   fold before scaling any seed ensemble.
+- **A minimum-epoch safeguard repairs the collapsed fold.** H34 raises that
+  fold from zero F1 to 54.35% and yields aggregate OOF precision/recall/F1 of
+  82.23/46.15/59.12%. It formally misses the fold recall gate by 0.57 points,
+  so no merge is authorized, but future token trainers must not early-stop
+  before epoch five under this class-weighted schedule.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

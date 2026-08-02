@@ -1122,3 +1122,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   stopping as a concrete trainer defect.
 - No agreement queue or ZIP was created. A minimum-epoch falsification run is
   the only authorized successor.
+
+## 2026-08-03 — H34 minimum epochs recover the model but miss one gate
+
+- Added a backwards-compatible `minimum_epochs` trainer safeguard and reran
+  only the failed fold with identical data, seed and hyperparameters.
+- Training continued to epoch eight. Fold precision/recall/F1 became
+  87.41/39.43/54.35%, versus an empty prediction set previously.
+- Substituted aggregate OOF precision/recall/F1 reached
+  82.23/46.15/59.12%, passing every aggregate gate. Fold recall missed its 40%
+  gate by 0.57 points, so H34 is formally failed and generated no queue.
+- The trainer fix is retained. No ZIP was created. A frozen read-only agreement
+  audit may be registered next without retroactively relaxing H34.

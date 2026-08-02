@@ -220,6 +220,7 @@ def train_model(
     gradient_accumulation: int = 4,
     seed: int = 42,
     patience: int = 2,
+    minimum_epochs: int = 0,
     validation_path: str | Path | None = None,
     class_weighting: bool = False,
 ) -> dict[str, Any]:
@@ -375,7 +376,7 @@ def train_model(
             tokenizer.save_pretrained(target)
         else:
             early.stale_epochs += 1
-            if early.stale_epochs >= patience:
+            if early.stale_epochs >= patience and epoch >= minimum_epochs:
                 break
 
     type_counts = Counter(
@@ -389,6 +390,7 @@ def train_model(
         "windows": len(train_features),
         "epochs_requested": epochs,
         "epochs_completed": len(history),
+        "minimum_epochs": minimum_epochs,
         "device": str(device),
         "mean_loss": round(sum(losses) / max(1, len(losses)), 6),
         "best_validation_f1": round(max((h.get("f1", 0.0) for h in history), default=0.0), 6),
