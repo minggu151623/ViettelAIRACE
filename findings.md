@@ -844,6 +844,15 @@ The strongest verified direction is conservative structural cleanup:
   0.10 evidence threshold. This is not a counterfactual upper bound, but it is
   insufficient evidence for spending a reset slot on blanket novel-assertion
   abstention. The assertion branch now also waits for independent H41 labels.
+- **H41 controls false promotion but is not powered for moderate effects.** H48
+  retains H42's near-nominal Type-I behavior at 15 passages (0.053), but power
+  is only 0.5882 for a standardized passage-level effect of 0.5. The frozen
+  holdout exceeds 80% power only at `d=0.75`; 30 independent passages are
+  needed to reach 0.8034 at `d=0.5`. Even 60 passages give only 0.505 power at
+  `d=0.25`. H41 is therefore a valid high-effect confirmation gate, not an
+  equivalence test: failure to promote cannot establish absence of a moderate
+  gain. The queue remains frozen; expansion would require a new prediction-
+  blind protocol.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

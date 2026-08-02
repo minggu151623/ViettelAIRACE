@@ -1,0 +1,102 @@
+{
+  "adequacy_gates": {
+    "frozen_15_passage_power_at_d_0_5_at_least_0_80": false,
+    "frozen_15_passage_type_i_between_0_03_and_0_07": true
+  },
+  "artifact_policy": "NO_LABEL_OR_QUEUE_OR_ZIP_CHANGE",
+  "bootstrap_iterations_per_replication": 1000,
+  "content_sha256_before_hash_field": "371f2d3b07cb6104ba4fd14ab7c208658ec2946979696959a3bd66a0cf3155f8",
+  "decision": "VALID_BUT_UNDERPOWERED_FOR_MODERATE_EFFECT",
+  "grid_minimum_detectable_effect_at_80_percent_power": {
+    "15": 0.75,
+    "30": 0.5,
+    "45": 0.5,
+    "60": 0.5
+  },
+  "hypothesis": "H48_h41_power_curve",
+  "replications": 5000,
+  "results": [
+    {
+      "multiplier": 1,
+      "passages": 15,
+      "promotion_rates": {
+        "0.0": 0.053,
+        "0.25": 0.246,
+        "0.5": 0.5882,
+        "0.75": 0.8748,
+        "1.0": 0.978
+      },
+      "strata_counts": {
+        "high": 3,
+        "low": 7,
+        "middle": 5
+      }
+    },
+    {
+      "multiplier": 2,
+      "passages": 30,
+      "promotion_rates": {
+        "0.0": 0.035,
+        "0.25": 0.3028,
+        "0.5": 0.8034,
+        "0.75": 0.9866,
+        "1.0": 0.9998
+      },
+      "strata_counts": {
+        "high": 6,
+        "low": 14,
+        "middle": 10
+      }
+    },
+    {
+      "multiplier": 3,
+      "passages": 45,
+      "promotion_rates": {
+        "0.0": 0.0322,
+        "0.25": 0.4112,
+        "0.5": 0.921,
+        "0.75": 0.9986,
+        "1.0": 1.0
+      },
+      "strata_counts": {
+        "high": 9,
+        "low": 21,
+        "middle": 15
+      }
+    },
+    {
+      "multiplier": 4,
+      "passages": 60,
+      "promotion_rates": {
+        "0.0": 0.0338,
+        "0.25": 0.505,
+        "0.5": 0.9736,
+        "0.75": 1.0,
+        "1.0": 1.0
+      },
+      "strata_counts": {
+        "high": 12,
+        "low": 28,
+        "middle": 20
+      }
+    }
+  ],
+  "runtime": {
+    "numpy": "2.4.6",
+    "python": "3.14.5"
+  },
+  "seed": 4801,
+  "smallest_passage_count_at_80_percent_power": {
+    "0.25": null,
+    "0.5": 30,
+    "0.75": 15,
+    "1.0": 15
+  },
+  "standardized_effects": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ]
+}

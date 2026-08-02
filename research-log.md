@@ -1385,3 +1385,19 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   are byte-identical at SHA-256
   `e1d511bf507170e4cc698a8dfbe7e8ee7b1a64b96d882cca061aedf746e7c349`;
   all 139 tests pass and no directory or ZIP was created.
+
+## 2026-08-03 — H48 quantifies the H41 holdout power limit
+
+- Preregistered a prediction-blind power simulation before either reviewer
+  label file or any model comparison was available. Passage deltas follow the
+  frozen Normal(`d`, 1) model and preserve H41's 3/5/7 stratum proportions.
+- The 15-passage Type-I rate is 0.053, but power at `d=0.5` is only 0.5882,
+  failing the registered 0.80 sensitivity gate. The grid minimum detectable
+  effect at 80% power is `d=0.75`.
+- Thirty independent passages reach 0.8034 power at `d=0.5`; small effects
+  remain weakly identified (0.505 power for `d=0.25` even at 60 passages).
+- Reclassified H41 as a high-effect confirmation gate rather than an
+  equivalence test. The frozen queue, labels, predictions and H44 artifact were
+  untouched. Repeat outputs are byte-identical at SHA-256
+  `b6f9dbf5056a8b8523d0e7678557f69e8ae62ebf374dabfc7ee0f5e34d85e773`;
+  all 142 tests pass.
