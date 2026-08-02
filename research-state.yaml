@@ -378,6 +378,18 @@ hypotheses:
       mention-specific units have effective count 89.7622 below the gate of
       100, despite top-ten share 0.2406. H44 can support broad family transfer,
       not broad lexical transfer; artifact and numerical gates stayed fixed.
+  H54_h44_family_novelty_decomposition:
+    status: supported_cross_family_extrapolation_correction
+    prediction: >
+      H44's broad family census may be dominated by parent families never
+      touched by H23, making the aggregate submission primarily a test of
+      cross-family extrapolation rather than within-family interpolation.
+    result: >
+      H23-novel families contain 461/611 H44 rows (75.45%) and 120/148
+      families (81.08%), passing the dominance gate. The H23-seen stratum is
+      still material at 150 rows across 28 families. Negative H44 would reject
+      broad extrapolation, not erase H23; strong positive would establish
+      transfer into untouched families. ZIP and numerical gates stayed fixed.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -528,11 +540,16 @@ experiments:
     - "H51 bounded gates rejected as vacuous: Hoeffding penalty 0.7013 at n=15; empirical Bernstein zero-variance penalty 6.6783; zero worst-family power through d=1 and n=60; 151 tests"
     - "H52 H44 transfer calibration: H23/H44 overlap 0, H44 adds 611 rows, union 755; full H23-equivalent yield +1.4600 candidate; practical/strong gates equal 1.37%/34.25% yield"
     - "H53 H44 concentration: 148 families/effective 47.48 passes family breadth; 286 lexical units/effective 89.76 fails lexical breadth; decision semantics corrected, ZIP unchanged"
+    - "H54 H44 novelty: 461/611 rows and 120/148 families are H23-novel; H44 primarily tests cross-family extrapolation, while a frozen 150-row/28-family seen stratum remains material"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
     candidate Jaccard before constructing another artifact. Interpret a
     positive result as broad WHO-family transfer, not broad lexical transfer,
-    per H53's frozen concentration audit. In parallel,
+    per H53's frozen concentration audit. H54 further fixes the causal scope:
+    75.45% of rows are in H23-untouched families, so negative movement rejects
+    broad cross-family extrapolation rather than H23 itself. Do not build the
+    frozen 150-row seen-family subgroup unless the revealed branch explicitly
+    warrants a separately preregistered post-result ablation. In parallel,
     complete H41 reviewer_1 labels for all 60 passages and independent
     reviewer_2 labels for the frozen 15-passage double-annotation queue. Lock
     both checksums, require span/type F1 >= 0.85 and assertion Jaccard >= 0.80,

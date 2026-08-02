@@ -28,3 +28,13 @@ merges one canonically equivalent Unicode pair and one embedded-newline pair.
 Accordingly, a positive external H44 result can establish broad WHO-family
 transfer but not broad surface-form transfer. This semantic correction leaves
 the artifact, submission priority and numerical decision gates unchanged.
+
+H54 further separates interpolation from extrapolation. Only 150 H44 rows
+(24.55%) across 28 parent families occur in families previously touched by
+H23. The other 461 rows (75.45%) span 120 previously untouched families, or
+81.08% of H44's family set. Both frozen dominance thresholds pass. H44 is thus
+primarily a cross-family extrapolation test, while its 150-row seen-family
+stratum is independently large enough for a separately preregistered
+post-result ablation if aggregate evidence warrants one. A negative H44 result
+would reject indiscriminate expansion into new families, not erase H23's
+observed CM-exclusive gain. No subgroup artifact has been built.

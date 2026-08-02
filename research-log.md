@@ -1484,3 +1484,21 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   H44's ZIP, numerical gates and submission priority remain unchanged; no
   second artifact was created. Repeat reports are byte-identical at SHA-256
   `c633a4aee6956e03688b555b9a59de3d99bd42b098807902ff602129f2d17bc1`.
+
+## 2026-08-03 — H54 shows H44 is mostly cross-family extrapolation
+
+- Preregistered H23-seen versus H23-novel WHO-family strata before opening any
+  external H44 metrics. The decomposition uses only frozen build reports.
+- The H23-seen stratum contains 150 H44 rows (24.55%) across 28 families; the
+  H23-novel stratum contains 461 rows (75.45%) across 120 families (81.08% of
+  H44's family set). Both the novel-dominance and seen-subgroup materiality
+  gates pass.
+- Full H23-equivalent per-row scaling partitions the prior +1.4600 candidate
+  forecast into +0.3584 for seen families and +1.1016 for novel families. This
+  remains arithmetic exposure calibration, not hidden-gold prediction.
+- Corrected the locked result semantics: negative H44 rejects indiscriminate
+  cross-family expansion, not H23's observed CM-exclusive effect; strong
+  positive specifically supports transfer into untouched families.
+- Reports are byte-identical at SHA-256
+  `78581a8156fc2816e14e7d5c8a2b67c7bcd86b6bfb4bbf3960b49e7b586d9592`;
+  160 tests pass, H44 ZIP is unchanged and no subgroup artifact was created.

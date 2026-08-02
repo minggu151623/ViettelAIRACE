@@ -839,6 +839,17 @@ The strongest verified direction is conservative structural cleanup:
   broad surface-form generalization. The prior 288-unit census used casefold
   only; NFKC plus whitespace collapse merges one Unicode-equivalent spelling
   pair and one newline variant. The ZIP and numerical gates remain unchanged.
+- **H44 primarily tests cross-family extrapolation, not simple H23
+  interpolation.** H54 freezes H23's parent-family set before decomposing H44.
+  Only 150/611 rows (24.55%) and 28/148 families (18.92%) are in families H23
+  previously touched; 461 rows (75.45%) across 120 families (81.08%) are new.
+  The novel-family dominance gate passes. The seen-family stratum also passes
+  its materiality gate at 150 rows/28 families, so it is a valid target for a
+  separately preregistered post-result ablation if needed. Consequently, a
+  negative H44 result rejects indiscriminate expansion into new families but
+  cannot overturn H23's observed CM-exclusive gain; a positive result is much
+  stronger evidence because it demonstrates transfer into untouched families.
+  No subgroup artifact exists, and H44's ZIP and numerical gates are unchanged.
 - **H45 closes generic ranked-prefix expansion under the metric that matters.**
   Jaccard-aware dev selection chooses `k=1` globally and for both entity types
   on H24's frozen weak-link split. One-shot test Jaccard is 0.17857 at `k=1`,

@@ -55,6 +55,25 @@ pre_result_concentration_calibration:
     288-pair census used casefold only; NFKC plus whitespace collapse merges
     one canonically equivalent spelling pair and one embedded-newline pair.
 
+pre_result_family_novelty_decomposition:
+  audit: H54_h44_family_novelty_decomposition
+  h23_seen_family_rows: 150
+  h23_seen_parent_families: 28
+  h23_seen_row_share: 0.245499
+  h23_novel_family_rows: 461
+  h23_novel_parent_families: 120
+  h23_novel_row_share: 0.754501
+  h23_novel_family_share: 0.810811
+  novel_family_dominant: true
+  seen_family_subgroup_material: true
+  interpretation: >
+    H44 is primarily a cross-family extrapolation test, not merely new codes
+    and mentions inside H23-touched families. A negative aggregate result
+    rejects indiscriminate expansion into new families but cannot erase H23's
+    observed CM-exclusive gain. The frozen 150-row/28-family seen stratum is
+    large enough for a separately preregistered post-result ablation if the
+    aggregate branch warrants one; no such artifact exists now.
+
 branch_order:
   - id: validation_anomaly
     when: >
@@ -74,7 +93,9 @@ branch_order:
       The hierarchy mechanism generalizes materially beyond CM-exclusive rows,
       retaining at least 34.25% of H23's exposure-normalized per-row yield.
       This supports transfer across broad WHO-family exposure, but does not
-      prove broad lexical transfer or universal row prevalence.
+      prove broad lexical transfer or universal row prevalence. Because 75.45%
+      of H44 rows are in H23-untouched families, it specifically supports
+      cross-family extrapolation.
     action: >
       Promote H44 to best baseline. Do not sweep thresholds; use the remaining
       slots only for a distinct, preregistered mechanism or the H41 blind-label
@@ -90,8 +111,9 @@ branch_order:
       lexical-breadth failure forbids claiming broad surface-form transfer.
     action: >
       Keep H44 only if its total score is higher than H38. Freeze broad family
-      expansion and require an independently motivated subgroup ablation before
-      spending another slot.
+      expansion. If another slot is later justified, preregister the already
+      frozen 150-row H23-seen-family stratum before building it; do not select
+      a subgroup after inspecting row-level behavior.
 
   - id: practical_null
     when: >
@@ -110,10 +132,14 @@ branch_order:
       delta_J_candidates < -0.02 and all derived checks pass.
     interpretation: >
       H23 was specific to ontology-version mismatch; broad parent insertion
-      reduces candidate precision.
+      reduces candidate precision. More precisely, H54 shows the aggregate is
+      dominated by extrapolation to H23-untouched families, so this does not
+      negate H23's observed CM-exclusive effect.
     action: >
       Reject H44, retain H38, forbid further broad parent expansion, and pivot
-      all research effort to independently labeled span/assertion policy.
+      primary effort to independently labeled span/assertion policy. The frozen
+      H23-seen-family subgroup may be considered only as a separately
+      preregistered post-result ablation, never by retrospective row selection.
 
 result_fields_to_record:
   - submitted_zip_sha256
