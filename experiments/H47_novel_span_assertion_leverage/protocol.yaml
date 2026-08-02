@@ -1,0 +1,72 @@
+hypothesis: H47_novel_span_assertion_leverage
+status: preregistered
+registered_at: "2026-08-03T04:01:24+07:00"
+question: >
+  Do assertions attached to the H37/H38 novel-span cohorts form a repeated,
+  high-leverage negative-transfer mechanism worth a future isolated submission?
+
+motivation:
+  h37_external:
+    score_delta: 0.0368
+    wer_delta_favorable: 0.2528
+    assertion_jaccard_delta: -0.1301
+    candidate_jaccard_delta: 0.0
+  h38_external:
+    score_delta: 0.3093
+    wer_delta_favorable: 0.8057
+    assertion_jaccard_delta: -0.0234
+    candidate_jaccard_delta: 0.1866
+  rationale: >
+    Both proposal-expansion stages improve text while assertion Jaccard moves
+    down. Before spending a reset slot on assertion abstention, quantify the
+    exact novel cohorts and require evidence that the repeated component loss
+    has meaningful weighted leverage.
+
+inputs:
+  h23_dir: turn2/output_v8_candidate_semantic
+  h23_zip_sha256: e1fc83b8e53cd9d4ac3f5d7f072a4f34eb46ee7841243a52f690ae8645514662
+  h37_dir: turn2/output_v9_verified_symptoms
+  h37_zip_sha256: 032041a8f92bc97ca6a92d4cb4809d6aa39122471056df97bfe1fd1fe4585abc
+  h38_dir: turn2/output_v10_multiview_consensus
+  h38_zip_sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  records_each: 100
+
+cohort_definition:
+  entity_key: [record_id, text, type, start, end]
+  h37_novel: exact_keys_in_h37_not_h23
+  h38_novel: exact_keys_in_h38_not_h37
+  replacement_policy: >
+    A shortened/retyped replacement is novel under its new exact key; the
+    removed predecessor is reported separately and is not counted as novel.
+
+measurements:
+  - novel_and_removed_entity_counts_by_stage
+  - novel_entities_with_nonempty_assertions
+  - asserted_fraction_and_record_coverage
+  - assertion_label_distribution
+  - mean_assertion_cardinality
+  - weighted_observed_assertion_loss_per_stage
+  - assertion_loss_per_asserted_novel_entity_diagnostic
+  - exact_non_assertion_isolation_surface_size_without_writing_output
+
+registered_leverage_gate:
+  - both_stage_assertion_deltas_are_negative
+  - at_least_20_asserted_novel_entities_total
+  - asserted_novel_entities_cover_at_least_15_records
+  - combined_observed_weighted_assertion_loss_magnitude_at_least_0.10_score_points
+  interpretation: >
+    The weighted-loss threshold is an evidence threshold, not a mathematical
+    upper bound on a counterfactual abstention artifact. Passing only licenses
+    a later preregistered isolation after H44 attribution; it does not license
+    an artifact now.
+
+failure_policy: >
+  If any leverage gate fails, close proposal-derived assertion abstention as a
+  reset-slot mechanism. Do not inspect individual texts to invent subgroups and
+  do not write an altered output directory or ZIP.
+
+artifact_policy:
+  altered_output: forbidden
+  submission_zip: forbidden
+  h44_remains_only_pending_artifact: true
+  deterministic_repeat_required: true
