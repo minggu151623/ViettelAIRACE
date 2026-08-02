@@ -1074,3 +1074,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   and 37 shifted. Another 106 already-correct controls were over-expanded.
 - Test was canceled and no ZIP was created. The next architecture must learn
   token inclusion/BIO policy from held-out weak labels.
+
+## 2026-08-03 — H30 weak-label Bami adaptation rejected on dev
+
+- Following the PEFT skill's guidance for sub-1B encoders, used full fine-tuning
+  rather than LoRA. Frozen H23 records were split 70/15/15 with no record
+  overlap; the base model and tokenizer hashes were preregistered.
+- Eight MPS epochs took 131.976 seconds. Dev strict precision/recall/F1 was
+  57.44/72.46/64.08% with zero offset errors.
+- The class-weighted model produced 363 TP, 269 FP and 138 FN. Diagnosis F1 was
+  70.47%, while test-result F1 was 46.30%.
+- Both 82% dev gates failed, so test was canceled. No ZIP was created. H30 may
+  only be reused under a separately registered confidence calibration.

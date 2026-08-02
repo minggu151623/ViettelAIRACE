@@ -696,6 +696,11 @@ The strongest verified direction is conservative structural cleanup:
   grammatical clause or a semantically plausible shorter phrase. A boundary
   model must learn BIO-style inclusion decisions from the project's repeated
   records; prompt wording is not a reliable substitute.
+- **Weak-label token adaptation learns recall but not sufficient precision.**
+  H30 reaches 72.46% recall but only 57.44% precision and 64.08% exact F1 on
+  record-held-out dev. The model has learned reusable clinical spans, but class
+  weighting creates 269 false positives. It is not a direct replacement for
+  H23; only a preregistered confidence subset may be investigated next.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

@@ -17,8 +17,10 @@ current_direction: >
   coverage, but Qwen recovered only 37.07% of corrupted spans and damaged
   29.87% of unchanged controls. Prompt-level boundary repair is rejected. The
   next architecture will fine-tune a medical token classifier on H23 train
-  records and evaluate untouched dev/test records. No new submission artifact
-  is authorized yet.
+  records. H30 learned 72.46% dev recall but precision/F1 were only 57.44/64.08%,
+  so direct use is rejected and test stayed closed. The next bounded experiment
+  will test a frozen confidence grid on H30 dev predictions before any test
+  evaluation. No new submission artifact is authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -283,11 +285,12 @@ experiments:
     - "H27 dual-prompt verifier rejected on dev: retention 81.40%, F1 gain +4.06, pseudo-precision gain +10.82 below +15 gate; test canceled"
     - "H28 boundary selector stopped pre-inference: enumerator coverage 82.91% below 95%; model and test canceled"
     - "H29 token-aligned selector rejected: coverage 100%, corrupted recovery 37.07%, control retention 70.13%, malformed 1.33%; test canceled"
+    - "H30 weak-label Bami rejected on dev: precision 57.44%, recall 72.46%, F1 64.08%, zero offset errors; test canceled"
   next: >
-    Preregister supervised weak-label adaptation of a medical token classifier
-    on H23 train records. Tune only on dev, evaluate test once, and compare its
-    independent exact proposals against H20/H23 before any merge or ZIP. Keep
-    externally confirmed H23 frozen until all gates pass.
+    Preregister confidence calibration of the frozen H30 checkpoint on a fixed
+    dev threshold grid. Open test once only if a threshold reaches both strict
+    F1 and precision gates; otherwise retire H30 entirely. Keep externally
+    confirmed H23 frozen until all gates pass.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout
