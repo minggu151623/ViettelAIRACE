@@ -1,0 +1,10421 @@
+{
+  "hypothesis": "H44_full_who_family_hedge",
+  "source_zip_sha256": "a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b",
+  "changed_rows": 611,
+  "affected_records": 97,
+  "entities": 3226,
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 873,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1299,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "gates": {
+    "exactly_611_rows": true,
+    "exactly_97_records": true,
+    "all_3226_entities": true,
+    "all_100_records_validate": true,
+    "all_changes_parent_specific": true,
+    "repeat_build_equal": true,
+    "repeat_zip_equal": true
+  },
+  "decision": "PASS",
+  "changes": [
+    {
+      "record_id": "1",
+      "entity_index": 0,
+      "text": "THIẾU MEN G6PD",
+      "position": [
+        0,
+        14
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 1,
+      "text": "Thiếu men G6PD",
+      "position": [
+        27,
+        41
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 2,
+      "text": "Thiếu men G6PD",
+      "position": [
+        55,
+        69
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 3,
+      "text": "thiếu hụt men G6PD",
+      "position": [
+        548,
+        566
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 4,
+      "text": "thiếu men G6PD",
+      "position": [
+        1019,
+        1033
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 6,
+      "text": "thiếu men G6PD",
+      "position": [
+        1229,
+        1243
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 7,
+      "text": "thiếu men G6PD",
+      "position": [
+        1371,
+        1385
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 8,
+      "text": "thiếu men G6PD",
+      "position": [
+        1497,
+        1511
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 15,
+      "text": "thiếu máu do tan huyết",
+      "position": [
+        1758,
+        1780
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 16,
+      "text": "thiếu máu",
+      "position": [
+        1821,
+        1830
+      ],
+      "before": [
+        "D64.9"
+      ],
+      "after": [
+        "D64",
+        "D64.9"
+      ],
+      "parent_title": "Other anaemias"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 19,
+      "text": "suy thận cấp",
+      "position": [
+        1861,
+        1873
+      ],
+      "before": [
+        "N17.9"
+      ],
+      "after": [
+        "N17",
+        "N17.9"
+      ],
+      "parent_title": "Acute renal failure"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 21,
+      "text": "bại não",
+      "position": [
+        1995,
+        2002
+      ],
+      "before": [
+        "G80.9"
+      ],
+      "after": [
+        "G80",
+        "G80.9"
+      ],
+      "parent_title": "Cerebral palsy"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 23,
+      "text": "thiếu máu",
+      "position": [
+        2150,
+        2159
+      ],
+      "before": [
+        "D64.9"
+      ],
+      "after": [
+        "D64",
+        "D64.9"
+      ],
+      "parent_title": "Other anaemias"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 24,
+      "text": "Thiếu men G6PD",
+      "position": [
+        2276,
+        2290
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 25,
+      "text": "thiếu máu tan huyết",
+      "position": [
+        2464,
+        2483
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 27,
+      "text": "thiếu men G6PD",
+      "position": [
+        2517,
+        2531
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 28,
+      "text": "Bại não",
+      "position": [
+        2581,
+        2588
+      ],
+      "before": [
+        "G80.9"
+      ],
+      "after": [
+        "G80",
+        "G80.9"
+      ],
+      "parent_title": "Cerebral palsy"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 30,
+      "text": "Rối loạn vận động",
+      "position": [
+        2619,
+        2636
+      ],
+      "before": [
+        "G25.9"
+      ],
+      "after": [
+        "G25",
+        "G25.9"
+      ],
+      "parent_title": "Other extrapyramidal and movement disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 31,
+      "text": "thiếu máu tan huyết kéo dài",
+      "position": [
+        2696,
+        2723
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 33,
+      "text": "thiếu men G6PD",
+      "position": [
+        2864,
+        2878
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 34,
+      "text": "thiếu men G6PD",
+      "position": [
+        3079,
+        3093
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 35,
+      "text": "thiếu men G6PD",
+      "position": [
+        3268,
+        3282
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 36,
+      "text": "thiếu men G6PD",
+      "position": [
+        3317,
+        3331
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 37,
+      "text": "Nhiễm khuẩn",
+      "position": [
+        3399,
+        3410
+      ],
+      "before": [
+        "A49.9"
+      ],
+      "after": [
+        "A49",
+        "A49.9"
+      ],
+      "parent_title": "Bacterial infection of unspecified site"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 38,
+      "text": "nhiễm virus",
+      "position": [
+        3412,
+        3423
+      ],
+      "before": [
+        "B34.9"
+      ],
+      "after": [
+        "B34",
+        "B34.9"
+      ],
+      "parent_title": "Viral infection of unspecified site"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 40,
+      "text": "nhiễm khuẩn tiết niệu",
+      "position": [
+        3613,
+        3634
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 41,
+      "text": "thiếu men G6PD",
+      "position": [
+        3880,
+        3894
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 42,
+      "text": "thiếu men G6PD",
+      "position": [
+        4186,
+        4200
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "1",
+      "entity_index": 43,
+      "text": "thiếu men G6PD",
+      "position": [
+        4229,
+        4243
+      ],
+      "before": [
+        "D55.0"
+      ],
+      "after": [
+        "D55",
+        "D55.0"
+      ],
+      "parent_title": "Anaemia due to enzyme disorders"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 0,
+      "text": "Bệnh Kawasaki",
+      "position": [
+        3,
+        16
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 1,
+      "text": "Bệnh Kawasaki",
+      "position": [
+        25,
+        38
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 4,
+      "text": "viêm lan tỏa hệ mạch máu nhỏ và vừa",
+      "position": [
+        126,
+        161
+      ],
+      "before": [
+        "I77.6"
+      ],
+      "after": [
+        "I77",
+        "I77.6"
+      ],
+      "parent_title": "Other disorders of arteries and arterioles"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 5,
+      "text": "viêm tim",
+      "position": [
+        555,
+        563
+      ],
+      "before": [
+        "I51.4"
+      ],
+      "after": [
+        "I51",
+        "I51.4"
+      ],
+      "parent_title": "Complications and ill-defined descriptions of heart disease"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 7,
+      "text": "đột tử",
+      "position": [
+        592,
+        598
+      ],
+      "before": [
+        "I46.1"
+      ],
+      "after": [
+        "I46",
+        "I46.1"
+      ],
+      "parent_title": "Cardiac arrest"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 11,
+      "text": "Kawasaki",
+      "position": [
+        670,
+        678
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 12,
+      "text": "viêm mạch máu",
+      "position": [
+        687,
+        700
+      ],
+      "before": [
+        "I77.6"
+      ],
+      "after": [
+        "I77",
+        "I77.6"
+      ],
+      "parent_title": "Other disorders of arteries and arterioles"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 13,
+      "text": "bệnh Kawasaki",
+      "position": [
+        775,
+        788
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 14,
+      "text": "Nhiễm khuẩn",
+      "position": [
+        945,
+        956
+      ],
+      "before": [
+        "A49.9"
+      ],
+      "after": [
+        "A49",
+        "A49.9"
+      ],
+      "parent_title": "Bacterial infection of unspecified site"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 15,
+      "text": "nhiễm virus",
+      "position": [
+        959,
+        970
+      ],
+      "before": [
+        "B34.9"
+      ],
+      "after": [
+        "B34",
+        "B34.9"
+      ],
+      "parent_title": "Viral infection of unspecified site"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 16,
+      "text": "bệnh Kawasaki",
+      "position": [
+        1336,
+        1349
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 46,
+      "text": "bệnh Kawasaki",
+      "position": [
+        2233,
+        2246
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 48,
+      "text": "huyết khối",
+      "position": [
+        2634,
+        2644
+      ],
+      "before": [
+        "I82.9"
+      ],
+      "after": [
+        "I82",
+        "I82.9"
+      ],
+      "parent_title": "Other venous embolism and thrombosis"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 51,
+      "text": "Kawasaki",
+      "position": [
+        3036,
+        3044
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 52,
+      "text": "tổn thương vành mạch",
+      "position": [
+        3289,
+        3309
+      ],
+      "before": [
+        "I25.9"
+      ],
+      "after": [
+        "I25",
+        "I25.9"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "2",
+      "entity_index": 53,
+      "text": "Bệnh Kawasaki",
+      "position": [
+        3407,
+        3420
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "3",
+      "entity_index": 8,
+      "text": "đau thắt ngực ổn định",
+      "position": [
+        660,
+        681
+      ],
+      "before": [
+        "I20.9"
+      ],
+      "after": [
+        "I20",
+        "I20.9"
+      ],
+      "parent_title": "Angina pectoris"
+    },
+    {
+      "record_id": "3",
+      "entity_index": 32,
+      "text": "nhiễm trùng răng miệng",
+      "position": [
+        2021,
+        2043
+      ],
+      "before": [
+        "K12.2"
+      ],
+      "after": [
+        "K12",
+        "K12.2"
+      ],
+      "parent_title": "Stomatitis and related lesions"
+    },
+    {
+      "record_id": "3",
+      "entity_index": 49,
+      "text": "nhiễm trùng răng miệng",
+      "position": [
+        2981,
+        3003
+      ],
+      "before": [
+        "K12.2"
+      ],
+      "after": [
+        "K12",
+        "K12.2"
+      ],
+      "parent_title": "Stomatitis and related lesions"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 3,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        144,
+        169
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 8,
+      "text": "loét tá tràng",
+      "position": [
+        390,
+        403
+      ],
+      "before": [
+        "K26.9"
+      ],
+      "after": [
+        "K26",
+        "K26.9"
+      ],
+      "parent_title": "Duodenal ulcer"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 13,
+      "text": "loét thực quản dưới 6 mm có điểm sắc tố",
+      "position": [
+        499,
+        538
+      ],
+      "before": [
+        "K22.1"
+      ],
+      "after": [
+        "K22",
+        "K22.1"
+      ],
+      "parent_title": "Other diseases of oesophagus"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 20,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        842,
+        867
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 24,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        975,
+        1000
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 26,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        1035,
+        1060
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 34,
+      "text": "loét tá tràng",
+      "position": [
+        1314,
+        1327
+      ],
+      "before": [
+        "K26.9"
+      ],
+      "after": [
+        "K26",
+        "K26.9"
+      ],
+      "parent_title": "Duodenal ulcer"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 35,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        1406,
+        1431
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 36,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        1460,
+        1485
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 45,
+      "text": "cryptosporidium",
+      "position": [
+        1649,
+        1664
+      ],
+      "before": [
+        "A07.2"
+      ],
+      "after": [
+        "A07",
+        "A07.2"
+      ],
+      "parent_title": "Other protozoal intestinal diseases"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 57,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        2025,
+        2050
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 61,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        2158,
+        2183
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 63,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        2231,
+        2256
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 66,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        2330,
+        2355
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 69,
+      "text": "cryptosporidium",
+      "position": [
+        2394,
+        2409
+      ],
+      "before": [
+        "A07.2"
+      ],
+      "after": [
+        "A07",
+        "A07.2"
+      ],
+      "parent_title": "Other protozoal intestinal diseases"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 70,
+      "text": "viêm dạ dày ruột do virus",
+      "position": [
+        2426,
+        2451
+      ],
+      "before": [
+        "A08.4"
+      ],
+      "after": [
+        "A08",
+        "A08.4"
+      ],
+      "parent_title": "Viral and other specified intestinal infections"
+    },
+    {
+      "record_id": "4",
+      "entity_index": 81,
+      "text": "Loét loét thực quản 6 mm có điểm sắc tố",
+      "position": [
+        3552,
+        3591
+      ],
+      "before": [
+        "K22.1"
+      ],
+      "after": [
+        "K22",
+        "K22.1"
+      ],
+      "parent_title": "Other diseases of oesophagus"
+    },
+    {
+      "record_id": "5",
+      "entity_index": 0,
+      "text": "ung thư biểu mô tế bào mật",
+      "position": [
+        238,
+        264
+      ],
+      "before": [
+        "C22.1"
+      ],
+      "after": [
+        "C22",
+        "C22.1"
+      ],
+      "parent_title": "Malignant neoplasm of liver and intrahepatic bile ducts"
+    },
+    {
+      "record_id": "5",
+      "entity_index": 1,
+      "text": "vô sinh",
+      "position": [
+        356,
+        363
+      ],
+      "before": [
+        "N97.9"
+      ],
+      "after": [
+        "N97",
+        "N97.9"
+      ],
+      "parent_title": "Female infertility"
+    },
+    {
+      "record_id": "5",
+      "entity_index": 8,
+      "text": "Hội chứng buồng trứng đa nang",
+      "position": [
+        982,
+        1011
+      ],
+      "before": [
+        "E28.2"
+      ],
+      "after": [
+        "E28",
+        "E28.2"
+      ],
+      "parent_title": "Ovarian dysfunction"
+    },
+    {
+      "record_id": "5",
+      "entity_index": 10,
+      "text": "béo phì",
+      "position": [
+        1031,
+        1038
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "5",
+      "entity_index": 13,
+      "text": "vô sinh",
+      "position": [
+        1108,
+        1115
+      ],
+      "before": [
+        "N97.9"
+      ],
+      "after": [
+        "N97",
+        "N97.9"
+      ],
+      "parent_title": "Female infertility"
+    },
+    {
+      "record_id": "6",
+      "entity_index": 0,
+      "text": "Bệnh tim mạch",
+      "position": [
+        21,
+        34
+      ],
+      "before": [
+        "I25.1"
+      ],
+      "after": [
+        "I25",
+        "I25.1"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "6",
+      "entity_index": 2,
+      "text": "Rối loạn lipid máu",
+      "position": [
+        69,
+        87
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "6",
+      "entity_index": 3,
+      "text": "Đái tháo đường",
+      "position": [
+        89,
+        103
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "6",
+      "entity_index": 7,
+      "text": "xuất huyết dưới nhện",
+      "position": [
+        253,
+        273
+      ],
+      "before": [
+        "I60.9"
+      ],
+      "after": [
+        "I60",
+        "I60.9"
+      ],
+      "parent_title": "Subarachnoid haemorrhage"
+    },
+    {
+      "record_id": "7",
+      "entity_index": 2,
+      "text": "ổ loét trong bao tử",
+      "position": [
+        327,
+        346
+      ],
+      "before": [
+        "K25.9"
+      ],
+      "after": [
+        "K25",
+        "K25.9"
+      ],
+      "parent_title": "Gastric ulcer"
+    },
+    {
+      "record_id": "7",
+      "entity_index": 11,
+      "text": "sỏi 4mm",
+      "position": [
+        1419,
+        1426
+      ],
+      "before": [
+        "N20.0"
+      ],
+      "after": [
+        "N20",
+        "N20.0"
+      ],
+      "parent_title": "Calculus of kidney and ureter"
+    },
+    {
+      "record_id": "7",
+      "entity_index": 13,
+      "text": "sỏi thận",
+      "position": [
+        1455,
+        1463
+      ],
+      "before": [
+        "N20.0"
+      ],
+      "after": [
+        "N20",
+        "N20.0"
+      ],
+      "parent_title": "Calculus of kidney and ureter"
+    },
+    {
+      "record_id": "7",
+      "entity_index": 29,
+      "text": "trào ngược dạ dày thực quản",
+      "position": [
+        2358,
+        2385
+      ],
+      "before": [
+        "K21.9"
+      ],
+      "after": [
+        "K21",
+        "K21.9"
+      ],
+      "parent_title": "Gastro-oesophageal reflux disease"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 1,
+      "text": "Rối loạn cảm xúc (trầm cảm)",
+      "position": [
+        51,
+        78
+      ],
+      "before": [
+        "F32.9"
+      ],
+      "after": [
+        "F32",
+        "F32.9"
+      ],
+      "parent_title": "Depressive episode"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 2,
+      "text": "giai đoạn trầm cảm không đặc hiệu",
+      "position": [
+        88,
+        121
+      ],
+      "before": [
+        "F32.9"
+      ],
+      "after": [
+        "F32",
+        "F32.9"
+      ],
+      "parent_title": "Depressive episode"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 51,
+      "text": "Kawasaki",
+      "position": [
+        2260,
+        2268
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 52,
+      "text": "sốt siêu vi",
+      "position": [
+        2281,
+        2292
+      ],
+      "before": [
+        "B34.9"
+      ],
+      "after": [
+        "B34",
+        "B34.9"
+      ],
+      "parent_title": "Viral infection of unspecified site"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 60,
+      "text": "Kawasaki",
+      "position": [
+        2403,
+        2411
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 61,
+      "text": "bệnh Kawasaki",
+      "position": [
+        2464,
+        2477
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 64,
+      "text": "Thiếu máu cơ tim",
+      "position": [
+        2622,
+        2638
+      ],
+      "before": [
+        "I25.9"
+      ],
+      "after": [
+        "I25",
+        "I25.9"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 65,
+      "text": "Nhồi máu cơ tim",
+      "position": [
+        2642,
+        2657
+      ],
+      "before": [
+        "I21.9"
+      ],
+      "after": [
+        "I21",
+        "I21.9"
+      ],
+      "parent_title": "Acute myocardial infarction"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 66,
+      "text": "Suy vành mạn tính",
+      "position": [
+        2661,
+        2678
+      ],
+      "before": [
+        "I25.9"
+      ],
+      "after": [
+        "I25",
+        "I25.9"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 67,
+      "text": "Viêm cơ tim",
+      "position": [
+        2764,
+        2775
+      ],
+      "before": [
+        "I51.4"
+      ],
+      "after": [
+        "I51",
+        "I51.4"
+      ],
+      "parent_title": "Complications and ill-defined descriptions of heart disease"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 71,
+      "text": "bệnh Kawasaki",
+      "position": [
+        2848,
+        2861
+      ],
+      "before": [
+        "M30.3"
+      ],
+      "after": [
+        "M30",
+        "M30.3"
+      ],
+      "parent_title": "Polyarteritis nodosa and related conditions"
+    },
+    {
+      "record_id": "8",
+      "entity_index": 73,
+      "text": "Viêm kết mạc 2 bên không ghèn",
+      "position": [
+        2921,
+        2950
+      ],
+      "before": [
+        "H10.9"
+      ],
+      "after": [
+        "H10",
+        "H10.9"
+      ],
+      "parent_title": "Conjunctivitis"
+    },
+    {
+      "record_id": "9",
+      "entity_index": 3,
+      "text": "ổ loét trong bao tử",
+      "position": [
+        327,
+        346
+      ],
+      "before": [
+        "K25.9"
+      ],
+      "after": [
+        "K25",
+        "K25.9"
+      ],
+      "parent_title": "Gastric ulcer"
+    },
+    {
+      "record_id": "9",
+      "entity_index": 9,
+      "text": "sỏi 4mm",
+      "position": [
+        1419,
+        1426
+      ],
+      "before": [
+        "N20.0"
+      ],
+      "after": [
+        "N20",
+        "N20.0"
+      ],
+      "parent_title": "Calculus of kidney and ureter"
+    },
+    {
+      "record_id": "9",
+      "entity_index": 11,
+      "text": "sỏi thận",
+      "position": [
+        1455,
+        1463
+      ],
+      "before": [
+        "N20.0"
+      ],
+      "after": [
+        "N20",
+        "N20.0"
+      ],
+      "parent_title": "Calculus of kidney and ureter"
+    },
+    {
+      "record_id": "9",
+      "entity_index": 12,
+      "text": "viêm bao tử",
+      "position": [
+        1517,
+        1528
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "9",
+      "entity_index": 23,
+      "text": "trào ngược dạ dày thực quản",
+      "position": [
+        2358,
+        2385
+      ],
+      "before": [
+        "K21.9"
+      ],
+      "after": [
+        "K21",
+        "K21.9"
+      ],
+      "parent_title": "Gastro-oesophageal reflux disease"
+    },
+    {
+      "record_id": "10",
+      "entity_index": 2,
+      "text": "viêm tuyến mồ hôi",
+      "position": [
+        98,
+        115
+      ],
+      "before": [
+        "L73.2"
+      ],
+      "after": [
+        "L73",
+        "L73.2"
+      ],
+      "parent_title": "Other follicular disorders"
+    },
+    {
+      "record_id": "10",
+      "entity_index": 30,
+      "text": "ngoại tâm thu nhĩ",
+      "position": [
+        1689,
+        1706
+      ],
+      "before": [
+        "I49.1"
+      ],
+      "after": [
+        "I49",
+        "I49.1"
+      ],
+      "parent_title": "Other cardiac arrhythmias"
+    },
+    {
+      "record_id": "10",
+      "entity_index": 31,
+      "text": "ngoại tâm thu thất",
+      "position": [
+        1710,
+        1728
+      ],
+      "before": [
+        "I49.3"
+      ],
+      "after": [
+        "I49",
+        "I49.3"
+      ],
+      "parent_title": "Other cardiac arrhythmias"
+    },
+    {
+      "record_id": "10",
+      "entity_index": 46,
+      "text": "Viêm gan cấp tính do virus B thể thông thường điển hình mức độ nặng giai đoạn toàn phát",
+      "position": [
+        2506,
+        2593
+      ],
+      "before": [
+        "B16.9"
+      ],
+      "after": [
+        "B16",
+        "B16.9"
+      ],
+      "parent_title": "Acute hepatitis B"
+    },
+    {
+      "record_id": "10",
+      "entity_index": 55,
+      "text": "ngoại tâm thu nhĩ",
+      "position": [
+        2894,
+        2911
+      ],
+      "before": [
+        "I49.1"
+      ],
+      "after": [
+        "I49",
+        "I49.1"
+      ],
+      "parent_title": "Other cardiac arrhythmias"
+    },
+    {
+      "record_id": "10",
+      "entity_index": 56,
+      "text": "ngoại tâm thu thất",
+      "position": [
+        2915,
+        2933
+      ],
+      "before": [
+        "I49.3"
+      ],
+      "after": [
+        "I49",
+        "I49.3"
+      ],
+      "parent_title": "Other cardiac arrhythmias"
+    },
+    {
+      "record_id": "11",
+      "entity_index": 2,
+      "text": "Rối loạn lipid máu",
+      "position": [
+        69,
+        87
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "11",
+      "entity_index": 3,
+      "text": "Đái tháo đường",
+      "position": [
+        89,
+        103
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "11",
+      "entity_index": 7,
+      "text": "xuất huyết dưới nhện",
+      "position": [
+        253,
+        273
+      ],
+      "before": [
+        "I60.9"
+      ],
+      "after": [
+        "I60",
+        "I60.9"
+      ],
+      "parent_title": "Subarachnoid haemorrhage"
+    },
+    {
+      "record_id": "11",
+      "entity_index": 9,
+      "text": "xuất huyết dưới nhện vùng trán phải",
+      "position": [
+        317,
+        352
+      ],
+      "before": [
+        "I60.9"
+      ],
+      "after": [
+        "I60",
+        "I60.9"
+      ],
+      "parent_title": "Subarachnoid haemorrhage"
+    },
+    {
+      "record_id": "11",
+      "entity_index": 12,
+      "text": "nang màng nhện",
+      "position": [
+        484,
+        498
+      ],
+      "before": [
+        "G93.0"
+      ],
+      "after": [
+        "G93",
+        "G93.0"
+      ],
+      "parent_title": "Other disorders of brain"
+    },
+    {
+      "record_id": "11",
+      "entity_index": 37,
+      "text": "xuất huyết dưới nhện vùng trán phải",
+      "position": [
+        2592,
+        2627
+      ],
+      "before": [
+        "I60.9"
+      ],
+      "after": [
+        "I60",
+        "I60.9"
+      ],
+      "parent_title": "Subarachnoid haemorrhage"
+    },
+    {
+      "record_id": "11",
+      "entity_index": 40,
+      "text": "nang màng nhện",
+      "position": [
+        2743,
+        2757
+      ],
+      "before": [
+        "G93.0"
+      ],
+      "after": [
+        "G93",
+        "G93.0"
+      ],
+      "parent_title": "Other disorders of brain"
+    },
+    {
+      "record_id": "12",
+      "entity_index": 0,
+      "text": "Bệnh phổi kẽ",
+      "position": [
+        44,
+        56
+      ],
+      "before": [
+        "J84.9"
+      ],
+      "after": [
+        "J84",
+        "J84.9"
+      ],
+      "parent_title": "Other interstitial pulmonary diseases"
+    },
+    {
+      "record_id": "12",
+      "entity_index": 3,
+      "text": "béo phì",
+      "position": [
+        170,
+        177
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "12",
+      "entity_index": 28,
+      "text": "dị tật thiểu sản vành tai",
+      "position": [
+        1718,
+        1743
+      ],
+      "before": [
+        "Q17.2"
+      ],
+      "after": [
+        "Q17",
+        "Q17.2"
+      ],
+      "parent_title": "Other congenital malformations of ear"
+    },
+    {
+      "record_id": "12",
+      "entity_index": 29,
+      "text": "tịt ống tai ngoài bẩm sinh",
+      "position": [
+        1747,
+        1773
+      ],
+      "before": [
+        "Q16.1"
+      ],
+      "after": [
+        "Q16",
+        "Q16.1"
+      ],
+      "parent_title": "Congenital malformations of ear causing impairment of hearing"
+    },
+    {
+      "record_id": "12",
+      "entity_index": 33,
+      "text": "Nhiễm virus Herpes simplex (HSV)",
+      "position": [
+        2760,
+        2792
+      ],
+      "before": [
+        "B00.9"
+      ],
+      "after": [
+        "B00",
+        "B00.9"
+      ],
+      "parent_title": "Herpesviral [herpes simplex] infections"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 2,
+      "text": "bệnh dại",
+      "position": [
+        310,
+        318
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 3,
+      "text": "Bệnh dại",
+      "position": [
+        540,
+        548
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 4,
+      "text": "bệnh dại",
+      "position": [
+        603,
+        611
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 5,
+      "text": "Bệnh dại",
+      "position": [
+        653,
+        661
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 6,
+      "text": "bệnh dại",
+      "position": [
+        736,
+        744
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 7,
+      "text": "Bệnh dại",
+      "position": [
+        820,
+        828
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 8,
+      "text": "Bệnh dại",
+      "position": [
+        843,
+        851
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 9,
+      "text": "Bệnh dại",
+      "position": [
+        1099,
+        1107
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 11,
+      "text": "Bệnh dại",
+      "position": [
+        1331,
+        1339
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 12,
+      "text": "Bệnh dại",
+      "position": [
+        1367,
+        1375
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 13,
+      "text": "bệnh dại",
+      "position": [
+        1436,
+        1444
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 14,
+      "text": "Bệnh dại",
+      "position": [
+        1470,
+        1478
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 15,
+      "text": "bệnh dại",
+      "position": [
+        1675,
+        1683
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 16,
+      "text": "bệnh dại",
+      "position": [
+        1994,
+        2002
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "13",
+      "entity_index": 17,
+      "text": "bệnh dại",
+      "position": [
+        2179,
+        2187
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "14",
+      "entity_index": 5,
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "position": [
+        642,
+        673
+      ],
+      "before": [
+        "C92.1"
+      ],
+      "after": [
+        "C92",
+        "C92.1"
+      ],
+      "parent_title": "Myeloid leukaemia"
+    },
+    {
+      "record_id": "14",
+      "entity_index": 8,
+      "text": "tăng lipid máu, không đặc hiệu",
+      "position": [
+        718,
+        748
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "14",
+      "entity_index": 9,
+      "text": "Đái tháo đường típ 2",
+      "position": [
+        755,
+        775
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "14",
+      "entity_index": 10,
+      "text": "hẹp ống sống",
+      "position": [
+        782,
+        794
+      ],
+      "before": [
+        "M48.0"
+      ],
+      "after": [
+        "M48",
+        "M48.0"
+      ],
+      "parent_title": "Other spondylopathies"
+    },
+    {
+      "record_id": "14",
+      "entity_index": 11,
+      "text": "Giả gout",
+      "position": [
+        801,
+        809
+      ],
+      "before": [
+        "M11.2"
+      ],
+      "after": [
+        "M11",
+        "M11.2"
+      ],
+      "parent_title": "Other crystal arthropathies"
+    },
+    {
+      "record_id": "14",
+      "entity_index": 12,
+      "text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+      "position": [
+        816,
+        857
+      ],
+      "before": [
+        "N18.4"
+      ],
+      "after": [
+        "N18",
+        "N18.4"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "14",
+      "entity_index": 28,
+      "text": "bệnh lý mày đay vô căn",
+      "position": [
+        1849,
+        1871
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "14",
+      "entity_index": 29,
+      "text": "Mày đay vô căn",
+      "position": [
+        1969,
+        1983
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "15",
+      "entity_index": 0,
+      "text": "Bệnh phổi kẽ",
+      "position": [
+        44,
+        56
+      ],
+      "before": [
+        "J84.9"
+      ],
+      "after": [
+        "J84",
+        "J84.9"
+      ],
+      "parent_title": "Other interstitial pulmonary diseases"
+    },
+    {
+      "record_id": "15",
+      "entity_index": 2,
+      "text": "béo phì",
+      "position": [
+        170,
+        177
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "15",
+      "entity_index": 8,
+      "text": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+      "position": [
+        478,
+        525
+      ],
+      "before": [
+        "D84.9"
+      ],
+      "after": [
+        "D84",
+        "D84.9"
+      ],
+      "parent_title": "Other immunodeficiencies"
+    },
+    {
+      "record_id": "15",
+      "entity_index": 30,
+      "text": "Nhiễm virus Herpes simplex (HSV)",
+      "position": [
+        2585,
+        2617
+      ],
+      "before": [
+        "B00.9"
+      ],
+      "after": [
+        "B00",
+        "B00.9"
+      ],
+      "parent_title": "Herpesviral [herpes simplex] infections"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 2,
+      "text": "bệnh dại",
+      "position": [
+        327,
+        335
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 3,
+      "text": "Bệnh dại",
+      "position": [
+        549,
+        557
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 4,
+      "text": "bệnh dại",
+      "position": [
+        612,
+        620
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 5,
+      "text": "Bệnh dại",
+      "position": [
+        662,
+        670
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 6,
+      "text": "bệnh dại",
+      "position": [
+        746,
+        754
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 7,
+      "text": "Bệnh dại",
+      "position": [
+        830,
+        838
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 8,
+      "text": "Bệnh dại",
+      "position": [
+        853,
+        861
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 9,
+      "text": "Bệnh dại",
+      "position": [
+        1111,
+        1119
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 10,
+      "text": "Bệnh dại",
+      "position": [
+        1344,
+        1352
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 11,
+      "text": "Bệnh dại",
+      "position": [
+        1381,
+        1389
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 12,
+      "text": "bệnh dại",
+      "position": [
+        1450,
+        1458
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 13,
+      "text": "Bệnh dại",
+      "position": [
+        1484,
+        1492
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 14,
+      "text": "bệnh dại",
+      "position": [
+        1689,
+        1697
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "16",
+      "entity_index": 15,
+      "text": "bệnh dại",
+      "position": [
+        2009,
+        2017
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 7,
+      "text": "Viêm quanh răng",
+      "position": [
+        613,
+        628
+      ],
+      "before": [
+        "K05.3"
+      ],
+      "after": [
+        "K05",
+        "K05.3"
+      ],
+      "parent_title": "Gingivitis and periodontal diseases"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 8,
+      "text": "nhiễm vi khuẩn",
+      "position": [
+        677,
+        691
+      ],
+      "before": [
+        "B96.8"
+      ],
+      "after": [
+        "B96",
+        "B96.8"
+      ],
+      "parent_title": "Other specified bacterial agents as the cause of diseases classified to other chapters"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 9,
+      "text": "sang chấn răng",
+      "position": [
+        693,
+        707
+      ],
+      "before": [
+        "S09.9"
+      ],
+      "after": [
+        "S09",
+        "S09.9"
+      ],
+      "parent_title": "Other and unspecified injuries of head"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 10,
+      "text": "Viêm nha chu",
+      "position": [
+        712,
+        724
+      ],
+      "before": [
+        "K05.3"
+      ],
+      "after": [
+        "K05",
+        "K05.3"
+      ],
+      "parent_title": "Gingivitis and periodontal diseases"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 11,
+      "text": "nhiễm trùng lợi nặng",
+      "position": [
+        738,
+        758
+      ],
+      "before": [
+        "K05.3"
+      ],
+      "after": [
+        "K05",
+        "K05.3"
+      ],
+      "parent_title": "Gingivitis and periodontal diseases"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 18,
+      "text": "Viêm nha chu",
+      "position": [
+        856,
+        868
+      ],
+      "before": [
+        "K05.3"
+      ],
+      "after": [
+        "K05",
+        "K05.3"
+      ],
+      "parent_title": "Gingivitis and periodontal diseases"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 20,
+      "text": "viêm khớp dạng thấp",
+      "position": [
+        945,
+        964
+      ],
+      "before": [
+        "M06.9"
+      ],
+      "after": [
+        "M06",
+        "M06.9"
+      ],
+      "parent_title": "Other rheumatoid arthritis"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 21,
+      "text": "các bệnh hô hấp",
+      "position": [
+        966,
+        981
+      ],
+      "before": [
+        "J98.9"
+      ],
+      "after": [
+        "J98",
+        "J98.9"
+      ],
+      "parent_title": "Other respiratory disorders"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 25,
+      "text": "loãng xương",
+      "position": [
+        1044,
+        1055
+      ],
+      "before": [
+        "M81.9"
+      ],
+      "after": [
+        "M81",
+        "M81.9"
+      ],
+      "parent_title": "Osteoporosis without pathological fracture"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 26,
+      "text": "sâu răng",
+      "position": [
+        1057,
+        1065
+      ],
+      "before": [
+        "K02.9"
+      ],
+      "after": [
+        "K02",
+        "K02.9"
+      ],
+      "parent_title": "Dental caries"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 27,
+      "text": "viêm nha chu",
+      "position": [
+        1083,
+        1095
+      ],
+      "before": [
+        "K05.3"
+      ],
+      "after": [
+        "K05",
+        "K05.3"
+      ],
+      "parent_title": "Gingivitis and periodontal diseases"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 30,
+      "text": "thiếu hụt vitamin K",
+      "position": [
+        1150,
+        1169
+      ],
+      "before": [
+        "E56.1"
+      ],
+      "after": [
+        "E56",
+        "E56.1"
+      ],
+      "parent_title": "Other vitamin deficiencies"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 31,
+      "text": "Tiểu đường",
+      "position": [
+        1173,
+        1183
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 34,
+      "text": "bệnh tiểu đường",
+      "position": [
+        1233,
+        1248
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 35,
+      "text": "tiểu đường",
+      "position": [
+        1313,
+        1323
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 52,
+      "text": "bệnh mạch máu ngoại biên",
+      "position": [
+        1850,
+        1874
+      ],
+      "before": [
+        "I73.9"
+      ],
+      "after": [
+        "I73",
+        "I73.9"
+      ],
+      "parent_title": "Other peripheral vascular diseases"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 53,
+      "text": "bệnh phổi tắc nghẽn mạn tính",
+      "position": [
+        1881,
+        1909
+      ],
+      "before": [
+        "J44.9"
+      ],
+      "after": [
+        "J44",
+        "J44.9"
+      ],
+      "parent_title": "Other chronic obstructive pulmonary disease"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 54,
+      "text": "Ngưng thở khi ngủ do tắc nghẽn",
+      "position": [
+        1916,
+        1946
+      ],
+      "before": [
+        "G47.3"
+      ],
+      "after": [
+        "G47",
+        "G47.3"
+      ],
+      "parent_title": "Sleep disorders"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 55,
+      "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém",
+      "position": [
+        1969,
+        2030
+      ],
+      "before": [
+        "C60.9"
+      ],
+      "after": [
+        "C60",
+        "C60.9"
+      ],
+      "parent_title": "Malignant neoplasm of penis"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 63,
+      "text": "cao răng",
+      "position": [
+        2414,
+        2422
+      ],
+      "before": [
+        "K03.6"
+      ],
+      "after": [
+        "K03",
+        "K03.6"
+      ],
+      "parent_title": "Other diseases of hard tissues of teeth"
+    },
+    {
+      "record_id": "17",
+      "entity_index": 64,
+      "text": "vi khuẩn gây viêm",
+      "position": [
+        2441,
+        2458
+      ],
+      "before": [
+        "B96.8"
+      ],
+      "after": [
+        "B96",
+        "B96.8"
+      ],
+      "parent_title": "Other specified bacterial agents as the cause of diseases classified to other chapters"
+    },
+    {
+      "record_id": "18",
+      "entity_index": 6,
+      "text": "nhồi máu",
+      "position": [
+        127,
+        135
+      ],
+      "before": [
+        "I21.9"
+      ],
+      "after": [
+        "I21",
+        "I21.9"
+      ],
+      "parent_title": "Acute myocardial infarction"
+    },
+    {
+      "record_id": "18",
+      "entity_index": 12,
+      "text": "thiếu máu cơ tim khi gắng sức",
+      "position": [
+        254,
+        283
+      ],
+      "before": [
+        "I25.9"
+      ],
+      "after": [
+        "I25",
+        "I25.9"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "18",
+      "entity_index": 14,
+      "text": "nhồi máu",
+      "position": [
+        416,
+        424
+      ],
+      "before": [
+        "I21.9"
+      ],
+      "after": [
+        "I21",
+        "I21.9"
+      ],
+      "parent_title": "Acute myocardial infarction"
+    },
+    {
+      "record_id": "18",
+      "entity_index": 35,
+      "text": "viêm túi mật cấp",
+      "position": [
+        1911,
+        1927
+      ],
+      "before": [
+        "K81.0"
+      ],
+      "after": [
+        "K81",
+        "K81.0"
+      ],
+      "parent_title": "Cholecystitis"
+    },
+    {
+      "record_id": "18",
+      "entity_index": 46,
+      "text": "viêm túi mật",
+      "position": [
+        2347,
+        2359
+      ],
+      "before": [
+        "K81.9"
+      ],
+      "after": [
+        "K81",
+        "K81.9"
+      ],
+      "parent_title": "Cholecystitis"
+    },
+    {
+      "record_id": "18",
+      "entity_index": 52,
+      "text": "viêm túi mật cấp",
+      "position": [
+        2564,
+        2580
+      ],
+      "before": [
+        "K81.0"
+      ],
+      "after": [
+        "K81",
+        "K81.0"
+      ],
+      "parent_title": "Cholecystitis"
+    },
+    {
+      "record_id": "18",
+      "entity_index": 53,
+      "text": "viêm túi mật cấp",
+      "position": [
+        2623,
+        2639
+      ],
+      "before": [
+        "K81.0"
+      ],
+      "after": [
+        "K81",
+        "K81.0"
+      ],
+      "parent_title": "Cholecystitis"
+    },
+    {
+      "record_id": "19",
+      "entity_index": 0,
+      "text": "mề đay",
+      "position": [
+        85,
+        91
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "19",
+      "entity_index": 2,
+      "text": "mề đay",
+      "position": [
+        161,
+        167
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "19",
+      "entity_index": 15,
+      "text": "MÀY ĐAY VÔ CĂN",
+      "position": [
+        1161,
+        1175
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "19",
+      "entity_index": 16,
+      "text": "MÀY ĐAY MẠN TÍNH",
+      "position": [
+        1267,
+        1283
+      ],
+      "before": [
+        "L50.8"
+      ],
+      "after": [
+        "L50",
+        "L50.8"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "19",
+      "entity_index": 17,
+      "text": "mày đay vô căn",
+      "position": [
+        1824,
+        1838
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "19",
+      "entity_index": 18,
+      "text": "Mày đay vô căn",
+      "position": [
+        1936,
+        1950
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 2,
+      "text": "bệnh dại",
+      "position": [
+        327,
+        335
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 3,
+      "text": "Bệnh dại",
+      "position": [
+        549,
+        557
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 4,
+      "text": "bệnh dại",
+      "position": [
+        612,
+        620
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 5,
+      "text": "Bệnh dại",
+      "position": [
+        662,
+        670
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 6,
+      "text": "bệnh dại",
+      "position": [
+        746,
+        754
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 7,
+      "text": "Bệnh dại",
+      "position": [
+        830,
+        838
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 8,
+      "text": "Bệnh dại",
+      "position": [
+        853,
+        861
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 27,
+      "text": "Bệnh dại",
+      "position": [
+        1413,
+        1421
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 28,
+      "text": "bệnh dại",
+      "position": [
+        1618,
+        1626
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 29,
+      "text": "bệnh dại",
+      "position": [
+        1938,
+        1946
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "20",
+      "entity_index": 30,
+      "text": "bệnh dại",
+      "position": [
+        2123,
+        2131
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "21",
+      "entity_index": 0,
+      "text": "amyloidosis",
+      "position": [
+        59,
+        70
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "21",
+      "entity_index": 1,
+      "text": "Bệnh thoái hóa tinh bột (hay bệnh amyloidosis)",
+      "position": [
+        308,
+        354
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "21",
+      "entity_index": 2,
+      "text": "bệnh thoái hóa tinh bột",
+      "position": [
+        806,
+        829
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "21",
+      "entity_index": 3,
+      "text": "bệnh thoái hóa tinh bột",
+      "position": [
+        989,
+        1012
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "21",
+      "entity_index": 5,
+      "text": "amyloidosis",
+      "position": [
+        1134,
+        1145
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "21",
+      "entity_index": 7,
+      "text": "Bệnh amyloidosis tự miễn dịch",
+      "position": [
+        1226,
+        1255
+      ],
+      "before": [
+        "E85.3"
+      ],
+      "after": [
+        "E85",
+        "E85.3"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "21",
+      "entity_index": 8,
+      "text": "Bệnh amyloidosis di truyền hoặc gia đình",
+      "position": [
+        1265,
+        1305
+      ],
+      "before": [
+        "E85.2"
+      ],
+      "after": [
+        "E85",
+        "E85.2"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "21",
+      "entity_index": 9,
+      "text": "Bệnh thoái hóa tinh bột",
+      "position": [
+        1306,
+        1329
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "21",
+      "entity_index": 10,
+      "text": "amyloidosis",
+      "position": [
+        1444,
+        1455
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "22",
+      "entity_index": 24,
+      "text": "dị ứng thời tiết hay thức ăn",
+      "position": [
+        1652,
+        1680
+      ],
+      "before": [
+        "T78.4"
+      ],
+      "after": [
+        "T78",
+        "T78.4"
+      ],
+      "parent_title": "Adverse effects, not elsewhere classified"
+    },
+    {
+      "record_id": "22",
+      "entity_index": 48,
+      "text": "tăng men gan",
+      "position": [
+        2464,
+        2476
+      ],
+      "before": [
+        "R74.8"
+      ],
+      "after": [
+        "R74",
+        "R74.8"
+      ],
+      "parent_title": "Abnormal serum enzyme levels"
+    },
+    {
+      "record_id": "22",
+      "entity_index": 49,
+      "text": "tăng bilirubin máu",
+      "position": [
+        2479,
+        2497
+      ],
+      "before": [
+        "E80.6"
+      ],
+      "after": [
+        "E80",
+        "E80.6"
+      ],
+      "parent_title": "Disorders of porphyrin and bilirubin metabolism"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 3,
+      "text": "Mất ngủ",
+      "position": [
+        303,
+        310
+      ],
+      "before": [
+        "G47.0"
+      ],
+      "after": [
+        "G47",
+        "G47.0"
+      ],
+      "parent_title": "Sleep disorders"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 4,
+      "text": "rối loạn lo âu",
+      "position": [
+        438,
+        452
+      ],
+      "before": [
+        "F41.9"
+      ],
+      "after": [
+        "F41",
+        "F41.9"
+      ],
+      "parent_title": "Other anxiety disorders"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 5,
+      "text": "trầm cảm",
+      "position": [
+        453,
+        461
+      ],
+      "before": [
+        "F32.9"
+      ],
+      "after": [
+        "F32",
+        "F32.9"
+      ],
+      "parent_title": "Depressive episode"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 6,
+      "text": "stress",
+      "position": [
+        463,
+        469
+      ],
+      "before": [
+        "F43.9"
+      ],
+      "after": [
+        "F43",
+        "F43.9"
+      ],
+      "parent_title": "Reaction to severe stress, and adjustment disorders"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 7,
+      "text": "tăng nhãn áp",
+      "position": [
+        848,
+        860
+      ],
+      "before": [
+        "H40.9"
+      ],
+      "after": [
+        "H40",
+        "H40.9"
+      ],
+      "parent_title": "Glaucoma"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 11,
+      "text": "não úng tuỷ",
+      "position": [
+        1190,
+        1201
+      ],
+      "before": [
+        "G91.9"
+      ],
+      "after": [
+        "G91",
+        "G91.9"
+      ],
+      "parent_title": "Hydrocephalus"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 12,
+      "text": "não úng thủy",
+      "position": [
+        1312,
+        1324
+      ],
+      "before": [
+        "G91.9"
+      ],
+      "after": [
+        "G91",
+        "G91.9"
+      ],
+      "parent_title": "Hydrocephalus"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 16,
+      "text": "phù gai thị",
+      "position": [
+        1536,
+        1547
+      ],
+      "before": [
+        "H47.1"
+      ],
+      "after": [
+        "H47",
+        "H47.1"
+      ],
+      "parent_title": "Other disorders of optic [2nd] nerve and visual pathways"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 24,
+      "text": "phù gai thị, bên trái nặng hơn bên phải",
+      "position": [
+        2126,
+        2165
+      ],
+      "before": [
+        "H47.1"
+      ],
+      "after": [
+        "H47",
+        "H47.1"
+      ],
+      "parent_title": "Other disorders of optic [2nd] nerve and visual pathways"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 25,
+      "text": "Phù gai thị, bên trái nặng hơn bên phải",
+      "position": [
+        2216,
+        2255
+      ],
+      "before": [
+        "H47.1"
+      ],
+      "after": [
+        "H47",
+        "H47.1"
+      ],
+      "parent_title": "Other disorders of optic [2nd] nerve and visual pathways"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 26,
+      "text": "Tăng nhãn áp",
+      "position": [
+        2331,
+        2343
+      ],
+      "before": [
+        "H40.9"
+      ],
+      "after": [
+        "H40",
+        "H40.9"
+      ],
+      "parent_title": "Glaucoma"
+    },
+    {
+      "record_id": "23",
+      "entity_index": 28,
+      "text": "Phù gai thị",
+      "position": [
+        2422,
+        2433
+      ],
+      "before": [
+        "H47.1"
+      ],
+      "after": [
+        "H47",
+        "H47.1"
+      ],
+      "parent_title": "Other disorders of optic [2nd] nerve and visual pathways"
+    },
+    {
+      "record_id": "24",
+      "entity_index": 28,
+      "text": "viêm gan vàng da ứ mật",
+      "position": [
+        658,
+        680
+      ],
+      "before": [
+        "B16.9"
+      ],
+      "after": [
+        "B16",
+        "B16.9"
+      ],
+      "parent_title": "Acute hepatitis B"
+    },
+    {
+      "record_id": "24",
+      "entity_index": 59,
+      "text": "nhiễm virus viêm gan B, C",
+      "position": [
+        1566,
+        1591
+      ],
+      "before": [
+        "B19.9"
+      ],
+      "after": [
+        "B19",
+        "B19.9"
+      ],
+      "parent_title": "Unspecified viral hepatitis"
+    },
+    {
+      "record_id": "24",
+      "entity_index": 60,
+      "text": "virus viêm gan B",
+      "position": [
+        1647,
+        1663
+      ],
+      "before": [
+        "B16.9"
+      ],
+      "after": [
+        "B16",
+        "B16.9"
+      ],
+      "parent_title": "Acute hepatitis B"
+    },
+    {
+      "record_id": "24",
+      "entity_index": 75,
+      "text": "cấp tính do virus B thể thông thường điển hình mức độ nặng giai đoạn toàn phát",
+      "position": [
+        2386,
+        2464
+      ],
+      "before": [
+        "B16.9"
+      ],
+      "after": [
+        "B16",
+        "B16.9"
+      ],
+      "parent_title": "Acute hepatitis B"
+    },
+    {
+      "record_id": "25",
+      "entity_index": 5,
+      "text": "tắc ống dẫn trứng",
+      "position": [
+        757,
+        774
+      ],
+      "before": [
+        "N97.1"
+      ],
+      "after": [
+        "N97",
+        "N97.1"
+      ],
+      "parent_title": "Female infertility"
+    },
+    {
+      "record_id": "25",
+      "entity_index": 6,
+      "text": "teo niêm mạc tử cung",
+      "position": [
+        801,
+        821
+      ],
+      "before": [
+        "N85.8"
+      ],
+      "after": [
+        "N85",
+        "N85.8"
+      ],
+      "parent_title": "Other noninflammatory disorders of uterus, except cervix"
+    },
+    {
+      "record_id": "25",
+      "entity_index": 7,
+      "text": "không rụng trứng",
+      "position": [
+        823,
+        839
+      ],
+      "before": [
+        "N97.0"
+      ],
+      "after": [
+        "N97",
+        "N97.0"
+      ],
+      "parent_title": "Female infertility"
+    },
+    {
+      "record_id": "25",
+      "entity_index": 8,
+      "text": "vô sinh",
+      "position": [
+        848,
+        855
+      ],
+      "before": [
+        "N97.9"
+      ],
+      "after": [
+        "N97",
+        "N97.9"
+      ],
+      "parent_title": "Female infertility"
+    },
+    {
+      "record_id": "25",
+      "entity_index": 9,
+      "text": "ung thư cổ tử cung",
+      "position": [
+        895,
+        913
+      ],
+      "before": [
+        "C53.9"
+      ],
+      "after": [
+        "C53",
+        "C53.9"
+      ],
+      "parent_title": "Malignant neoplasm of cervix uteri"
+    },
+    {
+      "record_id": "25",
+      "entity_index": 11,
+      "text": "mụn trứng cá",
+      "position": [
+        1227,
+        1239
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 4,
+      "text": "thiếu oxy cơ tim",
+      "position": [
+        256,
+        272
+      ],
+      "before": [
+        "I25.9"
+      ],
+      "after": [
+        "I25",
+        "I25.9"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 6,
+      "text": "nhồi máu cơ tim",
+      "position": [
+        303,
+        318
+      ],
+      "before": [
+        "I21.9"
+      ],
+      "after": [
+        "I21",
+        "I21.9"
+      ],
+      "parent_title": "Acute myocardial infarction"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 7,
+      "text": "suy tim",
+      "position": [
+        320,
+        327
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 8,
+      "text": "đột tử",
+      "position": [
+        333,
+        339
+      ],
+      "before": [
+        "I46.9"
+      ],
+      "after": [
+        "I46",
+        "I46.9"
+      ],
+      "parent_title": "Cardiac arrest"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 14,
+      "text": "Đái tháo đường",
+      "position": [
+        733,
+        747
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 15,
+      "text": "Rối loạn lipid máu",
+      "position": [
+        752,
+        770
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 16,
+      "text": "Béo phì",
+      "position": [
+        774,
+        781
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 24,
+      "text": "Đau thắt ngực ổn định",
+      "position": [
+        1061,
+        1082
+      ],
+      "before": [
+        "I20.9"
+      ],
+      "after": [
+        "I20",
+        "I20.9"
+      ],
+      "parent_title": "Angina pectoris"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 25,
+      "text": "Hội chứng vành cấp",
+      "position": [
+        1124,
+        1142
+      ],
+      "before": [
+        "I24.9"
+      ],
+      "after": [
+        "I24",
+        "I24.9"
+      ],
+      "parent_title": "Other acute ischaemic heart diseases"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 27,
+      "text": "Nhồi máu cơ tim ST chênh",
+      "position": [
+        1198,
+        1222
+      ],
+      "before": [
+        "I21.3"
+      ],
+      "after": [
+        "I21",
+        "I21.3"
+      ],
+      "parent_title": "Acute myocardial infarction"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 28,
+      "text": "Nhồi máu không ST chênh",
+      "position": [
+        1226,
+        1249
+      ],
+      "before": [
+        "I21.4"
+      ],
+      "after": [
+        "I21",
+        "I21.4"
+      ],
+      "parent_title": "Acute myocardial infarction"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 29,
+      "text": "Đau thắt ngực không ổn định",
+      "position": [
+        1253,
+        1280
+      ],
+      "before": [
+        "I20.0"
+      ],
+      "after": [
+        "I20",
+        "I20.0"
+      ],
+      "parent_title": "Angina pectoris"
+    },
+    {
+      "record_id": "26",
+      "entity_index": 35,
+      "text": "viêm tụy",
+      "position": [
+        1517,
+        1525
+      ],
+      "before": [
+        "K85.9"
+      ],
+      "after": [
+        "K85",
+        "K85.9"
+      ],
+      "parent_title": "Acute pancreatitis"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 0,
+      "text": "viêm phổi hoại tử",
+      "position": [
+        20,
+        37
+      ],
+      "before": [
+        "J85.0"
+      ],
+      "after": [
+        "J85",
+        "J85.0"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 1,
+      "text": "viêm phổi",
+      "position": [
+        68,
+        77
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 2,
+      "text": "áp xe phổi",
+      "position": [
+        116,
+        126
+      ],
+      "before": [
+        "J85.2"
+      ],
+      "after": [
+        "J85",
+        "J85.2"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 3,
+      "text": "VP",
+      "position": [
+        135,
+        137
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 4,
+      "text": "VPHT",
+      "position": [
+        141,
+        145
+      ],
+      "before": [
+        "J85.0"
+      ],
+      "after": [
+        "J85",
+        "J85.0"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 5,
+      "text": "Viêm phổi",
+      "position": [
+        211,
+        220
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 7,
+      "text": "Viêm phổi tiến triển nặng",
+      "position": [
+        391,
+        416
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 9,
+      "text": "suy giảm miễn dịch",
+      "position": [
+        529,
+        547
+      ],
+      "before": [
+        "D84.9"
+      ],
+      "after": [
+        "D84",
+        "D84.9"
+      ],
+      "parent_title": "Other immunodeficiencies"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 10,
+      "text": "hoại tử nhu mô phổi",
+      "position": [
+        551,
+        570
+      ],
+      "before": [
+        "J85.0"
+      ],
+      "after": [
+        "J85",
+        "J85.0"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 11,
+      "text": "Viêm phổi hoại tử",
+      "position": [
+        572,
+        589
+      ],
+      "before": [
+        "J85.0"
+      ],
+      "after": [
+        "J85",
+        "J85.0"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 12,
+      "text": "áp-xe nhỏ",
+      "position": [
+        660,
+        669
+      ],
+      "before": [
+        "J85.2"
+      ],
+      "after": [
+        "J85",
+        "J85.2"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 14,
+      "text": "Áp xe phổi",
+      "position": [
+        748,
+        758
+      ],
+      "before": [
+        "J85.2"
+      ],
+      "after": [
+        "J85",
+        "J85.2"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 16,
+      "text": "áp xe phổi",
+      "position": [
+        1143,
+        1153
+      ],
+      "before": [
+        "J85.2"
+      ],
+      "after": [
+        "J85",
+        "J85.2"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "27",
+      "entity_index": 30,
+      "text": "áp-xe phổi",
+      "position": [
+        2255,
+        2265
+      ],
+      "before": [
+        "J85.2"
+      ],
+      "after": [
+        "J85",
+        "J85.2"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "28",
+      "entity_index": 0,
+      "text": "mề đay",
+      "position": [
+        85,
+        91
+      ],
+      "before": [
+        "L50.9"
+      ],
+      "after": [
+        "L50",
+        "L50.9"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "28",
+      "entity_index": 2,
+      "text": "mề đay",
+      "position": [
+        161,
+        167
+      ],
+      "before": [
+        "L50.9"
+      ],
+      "after": [
+        "L50",
+        "L50.9"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "28",
+      "entity_index": 5,
+      "text": "MÀY ĐAY VÔ CĂN",
+      "position": [
+        733,
+        747
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "28",
+      "entity_index": 6,
+      "text": "MÀY ĐAY MẠN TÍNH",
+      "position": [
+        839,
+        855
+      ],
+      "before": [
+        "L50.8"
+      ],
+      "after": [
+        "L50",
+        "L50.8"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "28",
+      "entity_index": 7,
+      "text": "mày đay vô căn",
+      "position": [
+        1396,
+        1410
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "28",
+      "entity_index": 8,
+      "text": "Mày đay vô căn",
+      "position": [
+        1508,
+        1522
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "29",
+      "entity_index": 3,
+      "text": "Đái tháo đường típ 2",
+      "position": [
+        96,
+        116
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "29",
+      "entity_index": 6,
+      "text": "bệnh thận mạn, không đặc hiệu",
+      "position": [
+        156,
+        185
+      ],
+      "before": [
+        "N18.9"
+      ],
+      "after": [
+        "N18",
+        "N18.9"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "30",
+      "entity_index": 20,
+      "text": "MÀY đay VÔ CĂN",
+      "position": [
+        918,
+        932
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "30",
+      "entity_index": 21,
+      "text": "MÀY đay MẠN",
+      "position": [
+        1016,
+        1027
+      ],
+      "before": [
+        "L50.8"
+      ],
+      "after": [
+        "L50",
+        "L50.8"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "30",
+      "entity_index": 22,
+      "text": "mày đay vô căn",
+      "position": [
+        1495,
+        1509
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "30",
+      "entity_index": 23,
+      "text": "đay vô căn",
+      "position": [
+        1611,
+        1621
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "31",
+      "entity_index": 3,
+      "text": "giãn thừng tinh",
+      "position": [
+        240,
+        255
+      ],
+      "before": [
+        "I86.1"
+      ],
+      "after": [
+        "I86",
+        "I86.1"
+      ],
+      "parent_title": "Varicose veins of other sites"
+    },
+    {
+      "record_id": "31",
+      "entity_index": 7,
+      "text": "Giãn thừng tinh",
+      "position": [
+        592,
+        607
+      ],
+      "before": [
+        "I86.1"
+      ],
+      "after": [
+        "I86",
+        "I86.1"
+      ],
+      "parent_title": "Varicose veins of other sites"
+    },
+    {
+      "record_id": "31",
+      "entity_index": 9,
+      "text": "giãn thừng tinh",
+      "position": [
+        873,
+        888
+      ],
+      "before": [
+        "I86.1"
+      ],
+      "after": [
+        "I86",
+        "I86.1"
+      ],
+      "parent_title": "Varicose veins of other sites"
+    },
+    {
+      "record_id": "31",
+      "entity_index": 24,
+      "text": "viêm dạ dày",
+      "position": [
+        1512,
+        1523
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "31",
+      "entity_index": 28,
+      "text": "sỏi đoạn cuối ống mật chủ",
+      "position": [
+        1624,
+        1649
+      ],
+      "before": [
+        "K80.5"
+      ],
+      "after": [
+        "K80",
+        "K80.5"
+      ],
+      "parent_title": "Cholelithiasis"
+    },
+    {
+      "record_id": "31",
+      "entity_index": 34,
+      "text": "viêm dạ dày",
+      "position": [
+        1919,
+        1930
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "31",
+      "entity_index": 36,
+      "text": "sỏi đoạn cuối ống mật chủ",
+      "position": [
+        1956,
+        1981
+      ],
+      "before": [
+        "K80.5"
+      ],
+      "after": [
+        "K80",
+        "K80.5"
+      ],
+      "parent_title": "Cholelithiasis"
+    },
+    {
+      "record_id": "31",
+      "entity_index": 39,
+      "text": "sỏi tại đoạn cuối ống mật chủ (CBD)",
+      "position": [
+        2091,
+        2126
+      ],
+      "before": [
+        "K80.5"
+      ],
+      "after": [
+        "K80",
+        "K80.5"
+      ],
+      "parent_title": "Cholelithiasis"
+    },
+    {
+      "record_id": "31",
+      "entity_index": 41,
+      "text": "sỏi ống dẫn mật chung đoạn cuối",
+      "position": [
+        2193,
+        2224
+      ],
+      "before": [
+        "K80.5"
+      ],
+      "after": [
+        "K80",
+        "K80.5"
+      ],
+      "parent_title": "Cholelithiasis"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 0,
+      "text": "Rối loạn chuyển hóa tinh bột (amyloidosis)",
+      "position": [
+        29,
+        71
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 1,
+      "text": "Bệnh thoái hóa tinh bột",
+      "position": [
+        308,
+        331
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 2,
+      "text": "bệnh amyloidosis",
+      "position": [
+        337,
+        353
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 3,
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "position": [
+        765,
+        796
+      ],
+      "before": [
+        "C92.1"
+      ],
+      "after": [
+        "C92",
+        "C92.1"
+      ],
+      "parent_title": "Myeloid leukaemia"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 6,
+      "text": "tăng lipid máu, không đặc hiệu",
+      "position": [
+        841,
+        871
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 7,
+      "text": "Đái tháo đường típ 2",
+      "position": [
+        878,
+        898
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 8,
+      "text": "hẹp ống sống",
+      "position": [
+        905,
+        917
+      ],
+      "before": [
+        "M48.0"
+      ],
+      "after": [
+        "M48",
+        "M48.0"
+      ],
+      "parent_title": "Other spondylopathies"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 9,
+      "text": "Giả gout",
+      "position": [
+        924,
+        932
+      ],
+      "before": [
+        "M11.2"
+      ],
+      "after": [
+        "M11",
+        "M11.2"
+      ],
+      "parent_title": "Other crystal arthropathies"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 10,
+      "text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+      "position": [
+        939,
+        980
+      ],
+      "before": [
+        "N18.4"
+      ],
+      "after": [
+        "N18",
+        "N18.4"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 31,
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "position": [
+        1637,
+        1663
+      ],
+      "before": [
+        "E85.8"
+      ],
+      "after": [
+        "E85",
+        "E85.8"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 32,
+      "text": "Bệnh amyloidosis tự miễn dịch",
+      "position": [
+        1673,
+        1702
+      ],
+      "before": [
+        "E85.3"
+      ],
+      "after": [
+        "E85",
+        "E85.3"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 33,
+      "text": "Bệnh amyloidosis di truyền hoặc gia đình",
+      "position": [
+        1712,
+        1752
+      ],
+      "before": [
+        "E85.2"
+      ],
+      "after": [
+        "E85",
+        "E85.2"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 34,
+      "text": "Bệnh thoái hóa tinh bột",
+      "position": [
+        1753,
+        1776
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 35,
+      "text": "amyloidosis",
+      "position": [
+        1891,
+        1902
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "32",
+      "entity_index": 36,
+      "text": "amyloidosis",
+      "position": [
+        2036,
+        2047
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "33",
+      "entity_index": 2,
+      "text": "suy tim",
+      "position": [
+        66,
+        73
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "33",
+      "entity_index": 3,
+      "text": "béo phì",
+      "position": [
+        92,
+        99
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "33",
+      "entity_index": 5,
+      "text": "mụn trứng cá",
+      "position": [
+        145,
+        157
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "33",
+      "entity_index": 7,
+      "text": "mụn cám",
+      "position": [
+        392,
+        399
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "33",
+      "entity_index": 8,
+      "text": "mụn đầu trắng",
+      "position": [
+        403,
+        416
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "34",
+      "entity_index": 22,
+      "text": "viêm xoang",
+      "position": [
+        974,
+        984
+      ],
+      "before": [
+        "J32.9"
+      ],
+      "after": [
+        "J32",
+        "J32.9"
+      ],
+      "parent_title": "Chronic sinusitis"
+    },
+    {
+      "record_id": "34",
+      "entity_index": 26,
+      "text": "trầm cảm",
+      "position": [
+        1156,
+        1164
+      ],
+      "before": [
+        "F32.9"
+      ],
+      "after": [
+        "F32",
+        "F32.9"
+      ],
+      "parent_title": "Depressive episode"
+    },
+    {
+      "record_id": "34",
+      "entity_index": 27,
+      "text": "đột quỵ",
+      "position": [
+        1177,
+        1184
+      ],
+      "before": [
+        "I63.9"
+      ],
+      "after": [
+        "I63",
+        "I63.9"
+      ],
+      "parent_title": "Cerebral infarction"
+    },
+    {
+      "record_id": "34",
+      "entity_index": 28,
+      "text": "suy thoái võng mạc",
+      "position": [
+        1222,
+        1240
+      ],
+      "before": [
+        "H35.9"
+      ],
+      "after": [
+        "H35",
+        "H35.9"
+      ],
+      "parent_title": "Other retinal disorders"
+    },
+    {
+      "record_id": "34",
+      "entity_index": 36,
+      "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "position": [
+        1714,
+        1764
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "34",
+      "entity_index": 38,
+      "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "position": [
+        1863,
+        1913
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "35",
+      "entity_index": 13,
+      "text": "Viêm hang vị sung huyết",
+      "position": [
+        743,
+        766
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "35",
+      "entity_index": 19,
+      "text": "bệnh dạ dày",
+      "position": [
+        973,
+        984
+      ],
+      "before": [
+        "K31.9"
+      ],
+      "after": [
+        "K31",
+        "K31.9"
+      ],
+      "parent_title": "Other diseases of stomach and duodenum"
+    },
+    {
+      "record_id": "35",
+      "entity_index": 21,
+      "text": "bệnh viêm sung huyết hang vị dạ dày",
+      "position": [
+        1128,
+        1163
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "35",
+      "entity_index": 23,
+      "text": "viêm sung huyết hang vị dạ dày",
+      "position": [
+        1613,
+        1643
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 3,
+      "text": "Hội chứng thận hư",
+      "position": [
+        187,
+        204
+      ],
+      "before": [
+        "N04.9"
+      ],
+      "after": [
+        "N04",
+        "N04.9"
+      ],
+      "parent_title": "Nephrotic syndrome"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 16,
+      "text": "Tổn thương cầu thận mạn tính",
+      "position": [
+        557,
+        585
+      ],
+      "before": [
+        "N03.9"
+      ],
+      "after": [
+        "N03",
+        "N03.9"
+      ],
+      "parent_title": "Chronic nephritic syndrome"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 25,
+      "text": "sỏi đài bể thận, niệu quản",
+      "position": [
+        740,
+        766
+      ],
+      "before": [
+        "N20.0"
+      ],
+      "after": [
+        "N20",
+        "N20.0"
+      ],
+      "parent_title": "Calculus of kidney and ureter"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 26,
+      "text": "viêm cầu thận",
+      "position": [
+        777,
+        790
+      ],
+      "before": [
+        "N03.9"
+      ],
+      "after": [
+        "N03",
+        "N03.9"
+      ],
+      "parent_title": "Chronic nephritic syndrome"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 32,
+      "text": "thiếu máu",
+      "position": [
+        874,
+        883
+      ],
+      "before": [
+        "D64.9"
+      ],
+      "after": [
+        "D64",
+        "D64.9"
+      ],
+      "parent_title": "Other anaemias"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 46,
+      "text": "viêm họng cấp",
+      "position": [
+        1020,
+        1033
+      ],
+      "before": [
+        "J02.9"
+      ],
+      "after": [
+        "J02",
+        "J02.9"
+      ],
+      "parent_title": "Acute pharyngitis"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 47,
+      "text": "viêm nhiễm ngoài da",
+      "position": [
+        1035,
+        1054
+      ],
+      "before": [
+        "L08.9"
+      ],
+      "after": [
+        "L08",
+        "L08.9"
+      ],
+      "parent_title": "Other local infections of skin and subcutaneous tissue"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 48,
+      "text": "Viêm cầu thận mạn",
+      "position": [
+        1102,
+        1119
+      ],
+      "before": [
+        "N03.9"
+      ],
+      "after": [
+        "N03",
+        "N03.9"
+      ],
+      "parent_title": "Chronic nephritic syndrome"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 49,
+      "text": "Hội chứng thận hư",
+      "position": [
+        1122,
+        1139
+      ],
+      "before": [
+        "N04.9"
+      ],
+      "after": [
+        "N04",
+        "N04.9"
+      ],
+      "parent_title": "Nephrotic syndrome"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 54,
+      "text": "VCTM",
+      "position": [
+        1504,
+        1508
+      ],
+      "before": [
+        "N03.9"
+      ],
+      "after": [
+        "N03",
+        "N03.9"
+      ],
+      "parent_title": "Chronic nephritic syndrome"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 56,
+      "text": "tăng lipid máu",
+      "position": [
+        1566,
+        1580
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "36",
+      "entity_index": 61,
+      "text": "nốt sần tuyến giáp phải có cấu trúc vi nang",
+      "position": [
+        1838,
+        1881
+      ],
+      "before": [
+        "E04.1"
+      ],
+      "after": [
+        "E04",
+        "E04.1"
+      ],
+      "parent_title": "Other nontoxic goitre"
+    },
+    {
+      "record_id": "37",
+      "entity_index": 9,
+      "text": "Viêm mô tế bào",
+      "position": [
+        1256,
+        1270
+      ],
+      "before": [
+        "L03.9"
+      ],
+      "after": [
+        "L03",
+        "L03.9"
+      ],
+      "parent_title": "Cellulitis"
+    },
+    {
+      "record_id": "38",
+      "entity_index": 3,
+      "text": "tăng lipid máu, không đặc hiệu",
+      "position": [
+        133,
+        163
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "38",
+      "entity_index": 4,
+      "text": "Đái tháo đường típ 2",
+      "position": [
+        170,
+        190
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "38",
+      "entity_index": 7,
+      "text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+      "position": [
+        231,
+        272
+      ],
+      "before": [
+        "N18.4"
+      ],
+      "after": [
+        "N18",
+        "N18.4"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 0,
+      "text": "Ung thư biểu mô tuyến đại tràng",
+      "position": [
+        39,
+        70
+      ],
+      "before": [
+        "C18.9"
+      ],
+      "after": [
+        "C18",
+        "C18.9"
+      ],
+      "parent_title": "Malignant neoplasm of colon"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 1,
+      "text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+      "position": [
+        73,
+        117
+      ],
+      "before": [
+        "J44.9"
+      ],
+      "after": [
+        "J44",
+        "J44.9"
+      ],
+      "parent_title": "Other chronic obstructive pulmonary disease"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 2,
+      "text": "Đái tháo đường",
+      "position": [
+        120,
+        134
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 3,
+      "text": "xơ gan do rượu",
+      "position": [
+        137,
+        151
+      ],
+      "before": [
+        "K70.3"
+      ],
+      "after": [
+        "K70",
+        "K70.3"
+      ],
+      "parent_title": "Alcoholic liver disease"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 4,
+      "text": "ung thư tuyến đại tràng",
+      "position": [
+        283,
+        306
+      ],
+      "before": [
+        "C18.9"
+      ],
+      "after": [
+        "C18",
+        "C18.9"
+      ],
+      "parent_title": "Malignant neoplasm of colon"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 5,
+      "text": "xơ gan do rượu",
+      "position": [
+        337,
+        351
+      ],
+      "before": [
+        "K70.3"
+      ],
+      "after": [
+        "K70",
+        "K70.3"
+      ],
+      "parent_title": "Alcoholic liver disease"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 9,
+      "text": "Viêm phổi bệnh viện",
+      "position": [
+        557,
+        576
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 10,
+      "text": "rung nhĩ",
+      "position": [
+        580,
+        588
+      ],
+      "before": [
+        "I48.9"
+      ],
+      "after": [
+        "I48",
+        "I48.9"
+      ],
+      "parent_title": "Atrial fibrillation and flutter"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 11,
+      "text": "nhịp nhanh trên thất",
+      "position": [
+        592,
+        612
+      ],
+      "before": [
+        "I47.1"
+      ],
+      "after": [
+        "I47",
+        "I47.1"
+      ],
+      "parent_title": "Paroxysmal tachycardia"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 17,
+      "text": "bệnh bàn chân bẹt",
+      "position": [
+        1073,
+        1090
+      ],
+      "before": [
+        "Q66.5"
+      ],
+      "after": [
+        "Q66",
+        "Q66.5"
+      ],
+      "parent_title": "Congenital deformities of feet"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 33,
+      "text": "xẹp phổi thùy dưới phải do chèn ép",
+      "position": [
+        1768,
+        1802
+      ],
+      "before": [
+        "J98.1"
+      ],
+      "after": [
+        "J98",
+        "J98.1"
+      ],
+      "parent_title": "Other respiratory disorders"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 35,
+      "text": "Viêm phổi bệnh viện",
+      "position": [
+        1932,
+        1951
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 36,
+      "text": "Rung nhĩ",
+      "position": [
+        1954,
+        1962
+      ],
+      "before": [
+        "I48.9"
+      ],
+      "after": [
+        "I48",
+        "I48.9"
+      ],
+      "parent_title": "Atrial fibrillation and flutter"
+    },
+    {
+      "record_id": "39",
+      "entity_index": 37,
+      "text": "nhịp nhanh trên thất",
+      "position": [
+        1967,
+        1987
+      ],
+      "before": [
+        "I47.1"
+      ],
+      "after": [
+        "I47",
+        "I47.1"
+      ],
+      "parent_title": "Paroxysmal tachycardia"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 8,
+      "text": "XHTH",
+      "position": [
+        251,
+        255
+      ],
+      "before": [
+        "K92.2"
+      ],
+      "after": [
+        "K92",
+        "K92.2"
+      ],
+      "parent_title": "Other diseases of digestive system"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 9,
+      "text": "quá liều thuốc kháng vitamin K",
+      "position": [
+        256,
+        286
+      ],
+      "before": [
+        "T45.5"
+      ],
+      "after": [
+        "T45",
+        "T45.5"
+      ],
+      "parent_title": "Poisoning by primarily systemic and haematological agents, not elsewhere classified"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 12,
+      "text": "Van động mạch chủ cơ học",
+      "position": [
+        370,
+        394
+      ],
+      "before": [
+        "Z95.2"
+      ],
+      "after": [
+        "Z95",
+        "Z95.2"
+      ],
+      "parent_title": "Presence of cardiac and vascular implants and grafts"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 13,
+      "text": "thay khớp háng",
+      "position": [
+        421,
+        435
+      ],
+      "before": [
+        "Z96.6"
+      ],
+      "after": [
+        "Z96",
+        "Z96.6"
+      ],
+      "parent_title": "Presence of other functional implants"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 32,
+      "text": "Xuất huyết tiêu hóa",
+      "position": [
+        812,
+        831
+      ],
+      "before": [
+        "K92.2"
+      ],
+      "after": [
+        "K92",
+        "K92.2"
+      ],
+      "parent_title": "Other diseases of digestive system"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 33,
+      "text": "quá liều kháng vitamin K",
+      "position": [
+        841,
+        865
+      ],
+      "before": [
+        "T45.5"
+      ],
+      "after": [
+        "T45",
+        "T45.5"
+      ],
+      "parent_title": "Poisoning by primarily systemic and haematological agents, not elsewhere classified"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 34,
+      "text": "Viêm phổi",
+      "position": [
+        868,
+        877
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 35,
+      "text": "Van động mạch chủ cơ \nhọc",
+      "position": [
+        881,
+        906
+      ],
+      "before": [
+        "Z95.2"
+      ],
+      "after": [
+        "Z95",
+        "Z95.2"
+      ],
+      "parent_title": "Presence of cardiac and vascular implants and grafts"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 36,
+      "text": "Đái tháo đường",
+      "position": [
+        909,
+        923
+      ],
+      "before": [
+        "E14.9"
+      ],
+      "after": [
+        "E14",
+        "E14.9"
+      ],
+      "parent_title": "Unspecified diabetes mellitus"
+    },
+    {
+      "record_id": "40",
+      "entity_index": 37,
+      "text": "thay khớp háng",
+      "position": [
+        929,
+        943
+      ],
+      "before": [
+        "Z96.6"
+      ],
+      "after": [
+        "Z96",
+        "Z96.6"
+      ],
+      "parent_title": "Presence of other functional implants"
+    },
+    {
+      "record_id": "41",
+      "entity_index": 1,
+      "text": "mụn trứng cá",
+      "position": [
+        80,
+        92
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "41",
+      "entity_index": 7,
+      "text": "Trứng cá",
+      "position": [
+        681,
+        689
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "41",
+      "entity_index": 13,
+      "text": "Trứng cá",
+      "position": [
+        808,
+        816
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "41",
+      "entity_index": 14,
+      "text": "Tăng sản tuyến bã nhờn",
+      "position": [
+        850,
+        872
+      ],
+      "before": [
+        "L73.8"
+      ],
+      "after": [
+        "L73",
+        "L73.8"
+      ],
+      "parent_title": "Other follicular disorders"
+    },
+    {
+      "record_id": "41",
+      "entity_index": 17,
+      "text": "Trứng cá viêm nhẹ",
+      "position": [
+        982,
+        999
+      ],
+      "before": [
+        "L70.0"
+      ],
+      "after": [
+        "L70",
+        "L70.0"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "41",
+      "entity_index": 21,
+      "text": "trứng cá",
+      "position": [
+        1250,
+        1258
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "41",
+      "entity_index": 23,
+      "text": "mụn trứng cá",
+      "position": [
+        1333,
+        1345
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "42",
+      "entity_index": 1,
+      "text": "đái tháo đường",
+      "position": [
+        54,
+        68
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "42",
+      "entity_index": 3,
+      "text": "béo phì",
+      "position": [
+        95,
+        102
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "42",
+      "entity_index": 49,
+      "text": "viêm phổi thùy dưới phải",
+      "position": [
+        1924,
+        1948
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "42",
+      "entity_index": 50,
+      "text": "RLL PNA",
+      "position": [
+        1950,
+        1957
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "43",
+      "entity_index": 8,
+      "text": "nhiễm khuẩn đường tiết niệu",
+      "position": [
+        515,
+        542
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "43",
+      "entity_index": 10,
+      "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "position": [
+        664,
+        714
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "44",
+      "entity_index": 18,
+      "text": "túi mật giãn nở rõ rệt",
+      "position": [
+        291,
+        313
+      ],
+      "before": [
+        "K82.8"
+      ],
+      "after": [
+        "K82",
+        "K82.8"
+      ],
+      "parent_title": "Other diseases of gallbladder"
+    },
+    {
+      "record_id": "44",
+      "entity_index": 23,
+      "text": "MÀY đay VÔ CĂN",
+      "position": [
+        618,
+        632
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "44",
+      "entity_index": 24,
+      "text": "MÀY đay MẠN",
+      "position": [
+        716,
+        727
+      ],
+      "before": [
+        "L50.8"
+      ],
+      "after": [
+        "L50",
+        "L50.8"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "44",
+      "entity_index": 25,
+      "text": "mày đay vô căn",
+      "position": [
+        1195,
+        1209
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "44",
+      "entity_index": 26,
+      "text": "Bạn đay vô căn hộ",
+      "position": [
+        1307,
+        1324
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "45",
+      "entity_index": 4,
+      "text": "não úng thuỷ khác từ thời kỳ sơ sinh",
+      "position": [
+        388,
+        424
+      ],
+      "before": [
+        "G91.8"
+      ],
+      "after": [
+        "G91",
+        "G91.8"
+      ],
+      "parent_title": "Hydrocephalus"
+    },
+    {
+      "record_id": "45",
+      "entity_index": 5,
+      "text": "tăng nhãn áp",
+      "position": [
+        504,
+        516
+      ],
+      "before": [
+        "H40.9"
+      ],
+      "after": [
+        "H40",
+        "H40.9"
+      ],
+      "parent_title": "Glaucoma"
+    },
+    {
+      "record_id": "45",
+      "entity_index": 9,
+      "text": "não úng tuỷ",
+      "position": [
+        846,
+        857
+      ],
+      "before": [
+        "G91.9"
+      ],
+      "after": [
+        "G91",
+        "G91.9"
+      ],
+      "parent_title": "Hydrocephalus"
+    },
+    {
+      "record_id": "45",
+      "entity_index": 10,
+      "text": "não úng thủy",
+      "position": [
+        968,
+        980
+      ],
+      "before": [
+        "G91.9"
+      ],
+      "after": [
+        "G91",
+        "G91.9"
+      ],
+      "parent_title": "Hydrocephalus"
+    },
+    {
+      "record_id": "45",
+      "entity_index": 23,
+      "text": "Dị tật còn ống động mạch",
+      "position": [
+        1670,
+        1694
+      ],
+      "before": [
+        "Q25.0"
+      ],
+      "after": [
+        "Q25",
+        "Q25.0"
+      ],
+      "parent_title": "Congenital malformations of great arteries"
+    },
+    {
+      "record_id": "45",
+      "entity_index": 24,
+      "text": "Tăng nhãn áp",
+      "position": [
+        1772,
+        1784
+      ],
+      "before": [
+        "H40.9"
+      ],
+      "after": [
+        "H40",
+        "H40.9"
+      ],
+      "parent_title": "Glaucoma"
+    },
+    {
+      "record_id": "46",
+      "entity_index": 1,
+      "text": "suy tim",
+      "position": [
+        71,
+        78
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "46",
+      "entity_index": 3,
+      "text": "HoHL",
+      "position": [
+        98,
+        102
+      ],
+      "before": [
+        "I34.0"
+      ],
+      "after": [
+        "I34",
+        "I34.0"
+      ],
+      "parent_title": "Nonrheumatic mitral valve disorders"
+    },
+    {
+      "record_id": "46",
+      "entity_index": 9,
+      "text": "suy tim",
+      "position": [
+        318,
+        325
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "46",
+      "entity_index": 11,
+      "text": "HoHL",
+      "position": [
+        363,
+        367
+      ],
+      "before": [
+        "I34.0"
+      ],
+      "after": [
+        "I34",
+        "I34.0"
+      ],
+      "parent_title": "Nonrheumatic mitral valve disorders"
+    },
+    {
+      "record_id": "46",
+      "entity_index": 56,
+      "text": "Suy tim",
+      "position": [
+        1207,
+        1214
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "46",
+      "entity_index": 58,
+      "text": "u dây thần kinh số VIII",
+      "position": [
+        1285,
+        1308
+      ],
+      "before": [
+        "D33.3"
+      ],
+      "after": [
+        "D33",
+        "D33.3"
+      ],
+      "parent_title": "Benign neoplasm of brain and other parts of central nervous system"
+    },
+    {
+      "record_id": "47",
+      "entity_index": 0,
+      "text": "Ung thư biểu mô tuyến đại tràng",
+      "position": [
+        39,
+        70
+      ],
+      "before": [
+        "C18.9"
+      ],
+      "after": [
+        "C18",
+        "C18.9"
+      ],
+      "parent_title": "Malignant neoplasm of colon"
+    },
+    {
+      "record_id": "47",
+      "entity_index": 1,
+      "text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+      "position": [
+        73,
+        117
+      ],
+      "before": [
+        "J44.9"
+      ],
+      "after": [
+        "J44",
+        "J44.9"
+      ],
+      "parent_title": "Other chronic obstructive pulmonary disease"
+    },
+    {
+      "record_id": "47",
+      "entity_index": 2,
+      "text": "Đái tháo đường",
+      "position": [
+        120,
+        134
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "47",
+      "entity_index": 4,
+      "text": "ung thư tuyến đại tràng",
+      "position": [
+        283,
+        306
+      ],
+      "before": [
+        "C18.9"
+      ],
+      "after": [
+        "C18",
+        "C18.9"
+      ],
+      "parent_title": "Malignant neoplasm of colon"
+    },
+    {
+      "record_id": "47",
+      "entity_index": 9,
+      "text": "Viêm phổi bệnh viện",
+      "position": [
+        557,
+        576
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "47",
+      "entity_index": 11,
+      "text": "nhịp nhanh trên thất",
+      "position": [
+        592,
+        612
+      ],
+      "before": [
+        "I47.1"
+      ],
+      "after": [
+        "I47",
+        "I47.1"
+      ],
+      "parent_title": "Paroxysmal tachycardia"
+    },
+    {
+      "record_id": "47",
+      "entity_index": 29,
+      "text": "hạ huyết áp, không đặc hiệu",
+      "position": [
+        1343,
+        1370
+      ],
+      "before": [
+        "I95.9"
+      ],
+      "after": [
+        "I95",
+        "I95.9"
+      ],
+      "parent_title": "Hypotension"
+    },
+    {
+      "record_id": "47",
+      "entity_index": 44,
+      "text": "Viêm phổi bệnh viện",
+      "position": [
+        1842,
+        1861
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "47",
+      "entity_index": 46,
+      "text": "nhịp nhanh trên thất",
+      "position": [
+        1877,
+        1897
+      ],
+      "before": [
+        "I47.1"
+      ],
+      "after": [
+        "I47",
+        "I47.1"
+      ],
+      "parent_title": "Paroxysmal tachycardia"
+    },
+    {
+      "record_id": "48",
+      "entity_index": 4,
+      "text": "dị tật thiểu sản vành tai",
+      "position": [
+        1042,
+        1067
+      ],
+      "before": [
+        "Q17.2"
+      ],
+      "after": [
+        "Q17",
+        "Q17.2"
+      ],
+      "parent_title": "Other congenital malformations of ear"
+    },
+    {
+      "record_id": "48",
+      "entity_index": 5,
+      "text": "tịt ống tai ngoài bẩm sinh",
+      "position": [
+        1071,
+        1097
+      ],
+      "before": [
+        "Q16.1"
+      ],
+      "after": [
+        "Q16",
+        "Q16.1"
+      ],
+      "parent_title": "Congenital malformations of ear causing impairment of hearing"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 0,
+      "text": "bệnh rụng tóc từng mảng",
+      "position": [
+        30,
+        53
+      ],
+      "before": [
+        "L63.9"
+      ],
+      "after": [
+        "L63",
+        "L63.9"
+      ],
+      "parent_title": "Alopecia areata"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 1,
+      "text": "Ung thư vú di căn",
+      "position": [
+        195,
+        212
+      ],
+      "before": [
+        "C50.9"
+      ],
+      "after": [
+        "C50",
+        "C50.9"
+      ],
+      "parent_title": "Malignant neoplasm of breast"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 4,
+      "text": "tràn dịch màng ngoài tim mức độ trung bình",
+      "position": [
+        326,
+        368
+      ],
+      "before": [
+        "I31.3"
+      ],
+      "after": [
+        "I31",
+        "I31.3"
+      ],
+      "parent_title": "Other diseases of pericardium"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 5,
+      "text": "ung thư di căn theo đường bạch huyết ở hai phổi",
+      "position": [
+        397,
+        444
+      ],
+      "before": [
+        "C78.0"
+      ],
+      "after": [
+        "C78",
+        "C78.0"
+      ],
+      "parent_title": "Secondary malignant neoplasm of respiratory and digestive organs"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 6,
+      "text": "rụng tóc từng vùng",
+      "position": [
+        639,
+        657
+      ],
+      "before": [
+        "L63.9"
+      ],
+      "after": [
+        "L63",
+        "L63.9"
+      ],
+      "parent_title": "Alopecia areata"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 9,
+      "text": "rụng tóc toàn bộ",
+      "position": [
+        948,
+        964
+      ],
+      "before": [
+        "L63.0"
+      ],
+      "after": [
+        "L63",
+        "L63.0"
+      ],
+      "parent_title": "Alopecia areata"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 10,
+      "text": "rụng tóc toàn thể",
+      "position": [
+        970,
+        987
+      ],
+      "before": [
+        "L63.1"
+      ],
+      "after": [
+        "L63",
+        "L63.1"
+      ],
+      "parent_title": "Alopecia areata"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 14,
+      "text": "viêm da tiếp xúc dị ứng",
+      "position": [
+        1389,
+        1412
+      ],
+      "before": [
+        "L23.9"
+      ],
+      "after": [
+        "L23",
+        "L23.9"
+      ],
+      "parent_title": "Allergic contact dermatitis"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 16,
+      "text": "viêm da tiếp xúc",
+      "position": [
+        1517,
+        1533
+      ],
+      "before": [
+        "L25.9"
+      ],
+      "after": [
+        "L25",
+        "L25.9"
+      ],
+      "parent_title": "Unspecified contact dermatitis"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 17,
+      "text": "mày đay",
+      "position": [
+        1535,
+        1542
+      ],
+      "before": [
+        "L50.9"
+      ],
+      "after": [
+        "L50",
+        "L50.9"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "49",
+      "entity_index": 18,
+      "text": "bất thường sắc tố",
+      "position": [
+        1544,
+        1561
+      ],
+      "before": [
+        "L81.9"
+      ],
+      "after": [
+        "L81",
+        "L81.9"
+      ],
+      "parent_title": "Other disorders of pigmentation"
+    },
+    {
+      "record_id": "50",
+      "entity_index": 3,
+      "text": "não úng thuỷ khác từ thời kỳ sơ sinh",
+      "position": [
+        388,
+        424
+      ],
+      "before": [
+        "G91.8"
+      ],
+      "after": [
+        "G91",
+        "G91.8"
+      ],
+      "parent_title": "Hydrocephalus"
+    },
+    {
+      "record_id": "50",
+      "entity_index": 4,
+      "text": "tăng nhãn áp",
+      "position": [
+        504,
+        516
+      ],
+      "before": [
+        "Q15.0"
+      ],
+      "after": [
+        "Q15",
+        "Q15.0"
+      ],
+      "parent_title": "Other congenital malformations of eye"
+    },
+    {
+      "record_id": "50",
+      "entity_index": 8,
+      "text": "não úng tuỷ",
+      "position": [
+        846,
+        857
+      ],
+      "before": [
+        "G91.9"
+      ],
+      "after": [
+        "G91",
+        "G91.9"
+      ],
+      "parent_title": "Hydrocephalus"
+    },
+    {
+      "record_id": "50",
+      "entity_index": 9,
+      "text": "não úng thủy",
+      "position": [
+        968,
+        980
+      ],
+      "before": [
+        "G91.9"
+      ],
+      "after": [
+        "G91",
+        "G91.9"
+      ],
+      "parent_title": "Hydrocephalus"
+    },
+    {
+      "record_id": "50",
+      "entity_index": 15,
+      "text": "VPHT",
+      "position": [
+        1405,
+        1409
+      ],
+      "before": [
+        "J85.0"
+      ],
+      "after": [
+        "J85",
+        "J85.0"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "50",
+      "entity_index": 16,
+      "text": "bất thường bẩm sinh",
+      "position": [
+        1464,
+        1483
+      ],
+      "before": [
+        "Q89.9"
+      ],
+      "after": [
+        "Q89",
+        "Q89.9"
+      ],
+      "parent_title": "Other congenital malformations, not elsewhere classified"
+    },
+    {
+      "record_id": "50",
+      "entity_index": 17,
+      "text": "dị vật đường thở",
+      "position": [
+        1497,
+        1513
+      ],
+      "before": [
+        "T17.9"
+      ],
+      "after": [
+        "T17",
+        "T17.9"
+      ],
+      "parent_title": "Foreign body in respiratory tract"
+    },
+    {
+      "record_id": "50",
+      "entity_index": 18,
+      "text": "VPHT",
+      "position": [
+        1586,
+        1590
+      ],
+      "before": [
+        "J85.0"
+      ],
+      "after": [
+        "J85",
+        "J85.0"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "50",
+      "entity_index": 20,
+      "text": "VPHT",
+      "position": [
+        1630,
+        1634
+      ],
+      "before": [
+        "J85.0"
+      ],
+      "after": [
+        "J85",
+        "J85.0"
+      ],
+      "parent_title": "Abscess of lung and mediastinum"
+    },
+    {
+      "record_id": "51",
+      "entity_index": 0,
+      "text": "béo phì",
+      "position": [
+        48,
+        55
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "51",
+      "entity_index": 1,
+      "text": "đái tháo đường",
+      "position": [
+        62,
+        76
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "51",
+      "entity_index": 3,
+      "text": "suy tim",
+      "position": [
+        154,
+        161
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "52",
+      "entity_index": 0,
+      "text": "mề đay",
+      "position": [
+        85,
+        91
+      ],
+      "before": [
+        "L50.9"
+      ],
+      "after": [
+        "L50",
+        "L50.9"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "52",
+      "entity_index": 2,
+      "text": "mề đay",
+      "position": [
+        161,
+        167
+      ],
+      "before": [
+        "L50.9"
+      ],
+      "after": [
+        "L50",
+        "L50.9"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "52",
+      "entity_index": 5,
+      "text": "MÀY ĐAY VÔ CĂN",
+      "position": [
+        733,
+        747
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "52",
+      "entity_index": 6,
+      "text": "MÀY ĐAY MẠN TÍNH",
+      "position": [
+        839,
+        855
+      ],
+      "before": [
+        "L50.8"
+      ],
+      "after": [
+        "L50",
+        "L50.8"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "52",
+      "entity_index": 7,
+      "text": "mày đay vô căn",
+      "position": [
+        1396,
+        1410
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "52",
+      "entity_index": 8,
+      "text": "Mày đay vô căn",
+      "position": [
+        1508,
+        1522
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "53",
+      "entity_index": 13,
+      "text": "ĐTD typ II",
+      "position": [
+        458,
+        468
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "53",
+      "entity_index": 19,
+      "text": "tăng kali máu",
+      "position": [
+        920,
+        933
+      ],
+      "before": [
+        "E87.5"
+      ],
+      "after": [
+        "E87",
+        "E87.5"
+      ],
+      "parent_title": "Other disorders of fluid, electrolyte and acid-base balance"
+    },
+    {
+      "record_id": "53",
+      "entity_index": 30,
+      "text": "rối loạn lipid máu",
+      "position": [
+        1436,
+        1454
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "54",
+      "entity_index": 4,
+      "text": "tăng lipid máu, không đặc hiệu",
+      "position": [
+        377,
+        407
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "54",
+      "entity_index": 5,
+      "text": "Đái tháo đường típ 2",
+      "position": [
+        414,
+        434
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "54",
+      "entity_index": 8,
+      "text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+      "position": [
+        475,
+        516
+      ],
+      "before": [
+        "N18.4"
+      ],
+      "after": [
+        "N18",
+        "N18.4"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "55",
+      "entity_index": 14,
+      "text": "Suy thận mạn giai đoạn V",
+      "position": [
+        910,
+        934
+      ],
+      "before": [
+        "N18.5"
+      ],
+      "after": [
+        "N18",
+        "N18.5"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "55",
+      "entity_index": 15,
+      "text": "đái tháo đường",
+      "position": [
+        938,
+        952
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "55",
+      "entity_index": 18,
+      "text": "u dây thần kinh số VIII",
+      "position": [
+        1090,
+        1113
+      ],
+      "before": [
+        "D33.3"
+      ],
+      "after": [
+        "D33",
+        "D33.3"
+      ],
+      "parent_title": "Benign neoplasm of brain and other parts of central nervous system"
+    },
+    {
+      "record_id": "56",
+      "entity_index": 5,
+      "text": "bệnh ba thân động mạch vành nghiêm trọng",
+      "position": [
+        284,
+        324
+      ],
+      "before": [
+        "I25.0"
+      ],
+      "after": [
+        "I25",
+        "I25.0"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "56",
+      "entity_index": 6,
+      "text": "Viêm hang vị sung huyết",
+      "position": [
+        411,
+        434
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "56",
+      "entity_index": 12,
+      "text": "bệnh dạ dày",
+      "position": [
+        641,
+        652
+      ],
+      "before": [
+        "K31.9"
+      ],
+      "after": [
+        "K31",
+        "K31.9"
+      ],
+      "parent_title": "Other diseases of stomach and duodenum"
+    },
+    {
+      "record_id": "56",
+      "entity_index": 14,
+      "text": "viêm sung huyết hang vị dạ dày",
+      "position": [
+        801,
+        831
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "56",
+      "entity_index": 16,
+      "text": "viêm sung huyết hang vị dạ dày",
+      "position": [
+        1281,
+        1311
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "57",
+      "entity_index": 2,
+      "text": "Suy tim không do thiếu máu cơ tim",
+      "position": [
+        114,
+        147
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "57",
+      "entity_index": 3,
+      "text": "Bệnh thận mạn tính",
+      "position": [
+        176,
+        194
+      ],
+      "before": [
+        "N18.9"
+      ],
+      "after": [
+        "N18",
+        "N18.9"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "57",
+      "entity_index": 9,
+      "text": "tăng kali máu",
+      "position": [
+        590,
+        603
+      ],
+      "before": [
+        "E87.5"
+      ],
+      "after": [
+        "E87",
+        "E87.5"
+      ],
+      "parent_title": "Other disorders of fluid, electrolyte and acid-base balance"
+    },
+    {
+      "record_id": "57",
+      "entity_index": 45,
+      "text": "tăng kali máu",
+      "position": [
+        1699,
+        1712
+      ],
+      "before": [
+        "E87.5"
+      ],
+      "after": [
+        "E87",
+        "E87.5"
+      ],
+      "parent_title": "Other disorders of fluid, electrolyte and acid-base balance"
+    },
+    {
+      "record_id": "58",
+      "entity_index": 1,
+      "text": "Đái tháo đường",
+      "position": [
+        54,
+        68
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "58",
+      "entity_index": 2,
+      "text": "bệnh lý thần kinh ngoại biên",
+      "position": [
+        84,
+        112
+      ],
+      "before": [
+        "G62.9"
+      ],
+      "after": [
+        "G62",
+        "G62.9"
+      ],
+      "parent_title": "Other polyneuropathies"
+    },
+    {
+      "record_id": "58",
+      "entity_index": 4,
+      "text": "Bệnh thận mạn tính",
+      "position": [
+        176,
+        194
+      ],
+      "before": [
+        "N18.9"
+      ],
+      "after": [
+        "N18",
+        "N18.9"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "58",
+      "entity_index": 19,
+      "text": "Đái tháo đường typ II",
+      "position": [
+        825,
+        846
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "58",
+      "entity_index": 51,
+      "text": "tăng kali máu",
+      "position": [
+        1678,
+        1691
+      ],
+      "before": [
+        "E87.5"
+      ],
+      "after": [
+        "E87",
+        "E87.5"
+      ],
+      "parent_title": "Other disorders of fluid, electrolyte and acid-base balance"
+    },
+    {
+      "record_id": "59",
+      "entity_index": 1,
+      "text": "mụn trứng cá",
+      "position": [
+        69,
+        81
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "59",
+      "entity_index": 5,
+      "text": "mụn cám",
+      "position": [
+        316,
+        323
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "59",
+      "entity_index": 6,
+      "text": "mụn đầu trắng",
+      "position": [
+        327,
+        340
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "59",
+      "entity_index": 16,
+      "text": "viêm xương tủy",
+      "position": [
+        948,
+        962
+      ],
+      "before": [
+        "M86.9"
+      ],
+      "after": [
+        "M86",
+        "M86.9"
+      ],
+      "parent_title": "Osteomyelitis"
+    },
+    {
+      "record_id": "59",
+      "entity_index": 20,
+      "text": "mụn trứng cá",
+      "position": [
+        1060,
+        1072
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "60",
+      "entity_index": 1,
+      "text": "mụn trứng cá",
+      "position": [
+        69,
+        81
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "60",
+      "entity_index": 6,
+      "text": "mụn cám",
+      "position": [
+        316,
+        323
+      ],
+      "before": [
+        "L70.0"
+      ],
+      "after": [
+        "L70",
+        "L70.0"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "60",
+      "entity_index": 7,
+      "text": "mụn đầu trắng",
+      "position": [
+        327,
+        340
+      ],
+      "before": [
+        "L70.0"
+      ],
+      "after": [
+        "L70",
+        "L70.0"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "60",
+      "entity_index": 10,
+      "text": "ghép thận thất bại",
+      "position": [
+        755,
+        773
+      ],
+      "before": [
+        "T86.1"
+      ],
+      "after": [
+        "T86",
+        "T86.1"
+      ],
+      "parent_title": "Failure and rejection of transplanted organs and tissues"
+    },
+    {
+      "record_id": "62",
+      "entity_index": 39,
+      "text": "viêm phổi thùy dưới phải (RLL PNA)",
+      "position": [
+        1664,
+        1698
+      ],
+      "before": [
+        "J18.9"
+      ],
+      "after": [
+        "J18",
+        "J18.9"
+      ],
+      "parent_title": "Pneumonia, organism unspecified"
+    },
+    {
+      "record_id": "63",
+      "entity_index": 9,
+      "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "position": [
+        693,
+        743
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "63",
+      "entity_index": 11,
+      "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "position": [
+        842,
+        892
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "63",
+      "entity_index": 18,
+      "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "position": [
+        1410,
+        1460
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "64",
+      "entity_index": 0,
+      "text": "bệnh động mạch vành",
+      "position": [
+        62,
+        81
+      ],
+      "before": [
+        "I25.1"
+      ],
+      "after": [
+        "I25",
+        "I25.1"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "64",
+      "entity_index": 4,
+      "text": "bệnh Graves",
+      "position": [
+        283,
+        294
+      ],
+      "before": [
+        "E05.0"
+      ],
+      "after": [
+        "E05",
+        "E05.0"
+      ],
+      "parent_title": "Thyrotoxicosis [hyperthyroidism]"
+    },
+    {
+      "record_id": "64",
+      "entity_index": 5,
+      "text": "tăng lipid máu, không đặc hiệu",
+      "position": [
+        301,
+        331
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "64",
+      "entity_index": 13,
+      "text": "bệnh mạch vành",
+      "position": [
+        969,
+        983
+      ],
+      "before": [
+        "I25.1"
+      ],
+      "after": [
+        "I25",
+        "I25.1"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "65",
+      "entity_index": 0,
+      "text": "rụng tóc từng mảng",
+      "position": [
+        35,
+        53
+      ],
+      "before": [
+        "L63.9"
+      ],
+      "after": [
+        "L63",
+        "L63.9"
+      ],
+      "parent_title": "Alopecia areata"
+    },
+    {
+      "record_id": "65",
+      "entity_index": 2,
+      "text": "rụng tóc từng vùng",
+      "position": [
+        404,
+        422
+      ],
+      "before": [
+        "L63.9"
+      ],
+      "after": [
+        "L63",
+        "L63.9"
+      ],
+      "parent_title": "Alopecia areata"
+    },
+    {
+      "record_id": "65",
+      "entity_index": 4,
+      "text": "rụng tóc toàn bộ",
+      "position": [
+        713,
+        729
+      ],
+      "before": [
+        "L63.0"
+      ],
+      "after": [
+        "L63",
+        "L63.0"
+      ],
+      "parent_title": "Alopecia areata"
+    },
+    {
+      "record_id": "65",
+      "entity_index": 5,
+      "text": "rụng tóc toàn thể",
+      "position": [
+        735,
+        752
+      ],
+      "before": [
+        "L63.1"
+      ],
+      "after": [
+        "L63",
+        "L63.1"
+      ],
+      "parent_title": "Alopecia areata"
+    },
+    {
+      "record_id": "65",
+      "entity_index": 8,
+      "text": "thiếu máu cơ tim cục bộ",
+      "position": [
+        998,
+        1021
+      ],
+      "before": [
+        "I25.9"
+      ],
+      "after": [
+        "I25",
+        "I25.9"
+      ],
+      "parent_title": "Chronic ischaemic heart disease"
+    },
+    {
+      "record_id": "65",
+      "entity_index": 13,
+      "text": "viêm da tiếp xúc dị ứng",
+      "position": [
+        1221,
+        1244
+      ],
+      "before": [
+        "L23.9"
+      ],
+      "after": [
+        "L23",
+        "L23.9"
+      ],
+      "parent_title": "Allergic contact dermatitis"
+    },
+    {
+      "record_id": "65",
+      "entity_index": 14,
+      "text": "viêm da tiếp xúc",
+      "position": [
+        1349,
+        1365
+      ],
+      "before": [
+        "L25.9"
+      ],
+      "after": [
+        "L25",
+        "L25.9"
+      ],
+      "parent_title": "Unspecified contact dermatitis"
+    },
+    {
+      "record_id": "65",
+      "entity_index": 15,
+      "text": "mày đay",
+      "position": [
+        1367,
+        1374
+      ],
+      "before": [
+        "L50.9"
+      ],
+      "after": [
+        "L50",
+        "L50.9"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "65",
+      "entity_index": 16,
+      "text": "bất thường sắc tố",
+      "position": [
+        1376,
+        1393
+      ],
+      "before": [
+        "L81.9"
+      ],
+      "after": [
+        "L81",
+        "L81.9"
+      ],
+      "parent_title": "Other disorders of pigmentation"
+    },
+    {
+      "record_id": "66",
+      "entity_index": 2,
+      "text": "u nang tuyến vú",
+      "position": [
+        111,
+        126
+      ],
+      "before": [
+        "N60.0"
+      ],
+      "after": [
+        "N60",
+        "N60.0"
+      ],
+      "parent_title": "Benign mammary dysplasia"
+    },
+    {
+      "record_id": "66",
+      "entity_index": 6,
+      "text": "thiếu vitamin B12",
+      "position": [
+        641,
+        658
+      ],
+      "before": [
+        "E53.8"
+      ],
+      "after": [
+        "E53",
+        "E53.8"
+      ],
+      "parent_title": "Deficiency of other B group vitamins"
+    },
+    {
+      "record_id": "66",
+      "entity_index": 7,
+      "text": "viêm teo niêm mạc dạ dày",
+      "position": [
+        700,
+        724
+      ],
+      "before": [
+        "K29.4"
+      ],
+      "after": [
+        "K29",
+        "K29.4"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "66",
+      "entity_index": 8,
+      "text": "thiếu B12",
+      "position": [
+        779,
+        788
+      ],
+      "before": [
+        "E53.8"
+      ],
+      "after": [
+        "E53",
+        "E53.8"
+      ],
+      "parent_title": "Deficiency of other B group vitamins"
+    },
+    {
+      "record_id": "66",
+      "entity_index": 15,
+      "text": "u nang tuyến vú",
+      "position": [
+        1022,
+        1037
+      ],
+      "before": [
+        "N60.0"
+      ],
+      "after": [
+        "N60",
+        "N60.0"
+      ],
+      "parent_title": "Benign mammary dysplasia"
+    },
+    {
+      "record_id": "66",
+      "entity_index": 19,
+      "text": "u nang tuyến vú",
+      "position": [
+        1151,
+        1166
+      ],
+      "before": [
+        "N60.0"
+      ],
+      "after": [
+        "N60",
+        "N60.0"
+      ],
+      "parent_title": "Benign mammary dysplasia"
+    },
+    {
+      "record_id": "66",
+      "entity_index": 22,
+      "text": "thiếu máu",
+      "position": [
+        1254,
+        1263
+      ],
+      "before": [
+        "D64.9"
+      ],
+      "after": [
+        "D64",
+        "D64.9"
+      ],
+      "parent_title": "Other anaemias"
+    },
+    {
+      "record_id": "66",
+      "entity_index": 24,
+      "text": "u nang tuyến vú",
+      "position": [
+        1284,
+        1299
+      ],
+      "before": [
+        "N60.0"
+      ],
+      "after": [
+        "N60",
+        "N60.0"
+      ],
+      "parent_title": "Benign mammary dysplasia"
+    },
+    {
+      "record_id": "66",
+      "entity_index": 30,
+      "text": "u nang tuyến vú",
+      "position": [
+        1546,
+        1561
+      ],
+      "before": [
+        "N60.0"
+      ],
+      "after": [
+        "N60",
+        "N60.0"
+      ],
+      "parent_title": "Benign mammary dysplasia"
+    },
+    {
+      "record_id": "67",
+      "entity_index": 0,
+      "text": "suy tim",
+      "position": [
+        30,
+        37
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "67",
+      "entity_index": 1,
+      "text": "bệnh mạch máu ngoại biên",
+      "position": [
+        44,
+        68
+      ],
+      "before": [
+        "I73.9"
+      ],
+      "after": [
+        "I73",
+        "I73.9"
+      ],
+      "parent_title": "Other peripheral vascular diseases"
+    },
+    {
+      "record_id": "67",
+      "entity_index": 2,
+      "text": "bệnh phổi tắc nghẽn mạn tính",
+      "position": [
+        75,
+        103
+      ],
+      "before": [
+        "J44.9"
+      ],
+      "after": [
+        "J44",
+        "J44.9"
+      ],
+      "parent_title": "Other chronic obstructive pulmonary disease"
+    },
+    {
+      "record_id": "67",
+      "entity_index": 3,
+      "text": "Ngưng thở khi ngủ do tắc nghẽn",
+      "position": [
+        110,
+        140
+      ],
+      "before": [
+        "G47.3"
+      ],
+      "after": [
+        "G47",
+        "G47.3"
+      ],
+      "parent_title": "Sleep disorders"
+    },
+    {
+      "record_id": "67",
+      "entity_index": 4,
+      "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém",
+      "position": [
+        163,
+        224
+      ],
+      "before": [
+        "C60.9"
+      ],
+      "after": [
+        "C60",
+        "C60.9"
+      ],
+      "parent_title": "Malignant neoplasm of penis"
+    },
+    {
+      "record_id": "67",
+      "entity_index": 6,
+      "text": "Viêm hang vị sung huyết",
+      "position": [
+        336,
+        359
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "67",
+      "entity_index": 12,
+      "text": "bệnh dạ dày",
+      "position": [
+        566,
+        577
+      ],
+      "before": [
+        "K31.9"
+      ],
+      "after": [
+        "K31",
+        "K31.9"
+      ],
+      "parent_title": "Other diseases of stomach and duodenum"
+    },
+    {
+      "record_id": "67",
+      "entity_index": 14,
+      "text": "bệnh viêm sung huyết hang vị dạ dày",
+      "position": [
+        721,
+        756
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "67",
+      "entity_index": 16,
+      "text": "viêm sung huyết hang vị dạ dày",
+      "position": [
+        1206,
+        1236
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "68",
+      "entity_index": 1,
+      "text": "bệnh lý thần kinh ngoại biên",
+      "position": [
+        55,
+        83
+      ],
+      "before": [
+        "G62.9"
+      ],
+      "after": [
+        "G62",
+        "G62.9"
+      ],
+      "parent_title": "Other polyneuropathies"
+    },
+    {
+      "record_id": "68",
+      "entity_index": 8,
+      "text": "bệnh lý thần kinh ngoại biên",
+      "position": [
+        361,
+        389
+      ],
+      "before": [
+        "G62.9"
+      ],
+      "after": [
+        "G62",
+        "G62.9"
+      ],
+      "parent_title": "Other polyneuropathies"
+    },
+    {
+      "record_id": "69",
+      "entity_index": 2,
+      "text": "rối loạn lo âu",
+      "position": [
+        121,
+        135
+      ],
+      "before": [
+        "F41.9"
+      ],
+      "after": [
+        "F41",
+        "F41.9"
+      ],
+      "parent_title": "Other anxiety disorders"
+    },
+    {
+      "record_id": "70",
+      "entity_index": 0,
+      "text": "béo phì",
+      "position": [
+        48,
+        55
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "70",
+      "entity_index": 1,
+      "text": "đái tháo đường",
+      "position": [
+        62,
+        76
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "70",
+      "entity_index": 3,
+      "text": "suy tim",
+      "position": [
+        154,
+        161
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "70",
+      "entity_index": 26,
+      "text": "bệnh dại",
+      "position": [
+        1417,
+        1425
+      ],
+      "before": [
+        "A82.9"
+      ],
+      "after": [
+        "A82",
+        "A82.9"
+      ],
+      "parent_title": "Rabies"
+    },
+    {
+      "record_id": "71",
+      "entity_index": 0,
+      "text": "trầm cảm",
+      "position": [
+        106,
+        114
+      ],
+      "before": [
+        "F32.9"
+      ],
+      "after": [
+        "F32",
+        "F32.9"
+      ],
+      "parent_title": "Depressive episode"
+    },
+    {
+      "record_id": "71",
+      "entity_index": 3,
+      "text": "thuyên tắc phổi hai bên",
+      "position": [
+        319,
+        342
+      ],
+      "before": [
+        "I26.9"
+      ],
+      "after": [
+        "I26",
+        "I26.9"
+      ],
+      "parent_title": "Pulmonary embolism"
+    },
+    {
+      "record_id": "71",
+      "entity_index": 9,
+      "text": "viêm nang lông",
+      "position": [
+        914,
+        928
+      ],
+      "before": [
+        "L73.9"
+      ],
+      "after": [
+        "L73",
+        "L73.9"
+      ],
+      "parent_title": "Other follicular disorders"
+    },
+    {
+      "record_id": "71",
+      "entity_index": 12,
+      "text": "suy giảm chức năng gan",
+      "position": [
+        1387,
+        1409
+      ],
+      "before": [
+        "K76.9"
+      ],
+      "after": [
+        "K76",
+        "K76.9"
+      ],
+      "parent_title": "Other diseases of liver"
+    },
+    {
+      "record_id": "71",
+      "entity_index": 13,
+      "text": "nổi mề đay",
+      "position": [
+        1411,
+        1421
+      ],
+      "before": [
+        "L50.9"
+      ],
+      "after": [
+        "L50",
+        "L50.9"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "71",
+      "entity_index": 14,
+      "text": "bệnh vảy nến",
+      "position": [
+        1423,
+        1435
+      ],
+      "before": [
+        "L40.9"
+      ],
+      "after": [
+        "L40",
+        "L40.9"
+      ],
+      "parent_title": "Psoriasis"
+    },
+    {
+      "record_id": "72",
+      "entity_index": 2,
+      "text": "Rối loạn lưỡng cực",
+      "position": [
+        605,
+        623
+      ],
+      "before": [
+        "F31.9"
+      ],
+      "after": [
+        "F31",
+        "F31.9"
+      ],
+      "parent_title": "Bipolar affective disorder"
+    },
+    {
+      "record_id": "72",
+      "entity_index": 3,
+      "text": "rối loạn lo âu",
+      "position": [
+        630,
+        644
+      ],
+      "before": [
+        "F41.9"
+      ],
+      "after": [
+        "F41",
+        "F41.9"
+      ],
+      "parent_title": "Other anxiety disorders"
+    },
+    {
+      "record_id": "72",
+      "entity_index": 11,
+      "text": "trầm cảm",
+      "position": [
+        1112,
+        1120
+      ],
+      "before": [
+        "F32.9"
+      ],
+      "after": [
+        "F32",
+        "F32.9"
+      ],
+      "parent_title": "Depressive episode"
+    },
+    {
+      "record_id": "73",
+      "entity_index": 0,
+      "text": "Viêm loét đại tràng",
+      "position": [
+        57,
+        76
+      ],
+      "before": [
+        "K51.9"
+      ],
+      "after": [
+        "K51",
+        "K51.9"
+      ],
+      "parent_title": "Ulcerative colitis"
+    },
+    {
+      "record_id": "73",
+      "entity_index": 1,
+      "text": "Bệnh gan do rượu",
+      "position": [
+        114,
+        130
+      ],
+      "before": [
+        "K70.9"
+      ],
+      "after": [
+        "K70",
+        "K70.9"
+      ],
+      "parent_title": "Alcoholic liver disease"
+    },
+    {
+      "record_id": "73",
+      "entity_index": 15,
+      "text": "Bệnh amyloidosis di truyền hoặc gia đình",
+      "position": [
+        862,
+        902
+      ],
+      "before": [
+        "E85.2"
+      ],
+      "after": [
+        "E85",
+        "E85.2"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "73",
+      "entity_index": 16,
+      "text": "Bệnh thoái hóa tinh bột",
+      "position": [
+        903,
+        926
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "73",
+      "entity_index": 17,
+      "text": "amyloidosis",
+      "position": [
+        1041,
+        1052
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "74",
+      "entity_index": 1,
+      "text": "Bệnh gan do rượu",
+      "position": [
+        114,
+        130
+      ],
+      "before": [
+        "K70.9"
+      ],
+      "after": [
+        "K70",
+        "K70.9"
+      ],
+      "parent_title": "Alcoholic liver disease"
+    },
+    {
+      "record_id": "74",
+      "entity_index": 2,
+      "text": "bệnh nấm bẹn",
+      "position": [
+        280,
+        292
+      ],
+      "before": [
+        "B35.6"
+      ],
+      "after": [
+        "B35",
+        "B35.6"
+      ],
+      "parent_title": "Dermatophytosis"
+    },
+    {
+      "record_id": "75",
+      "entity_index": 3,
+      "text": "u tuyến",
+      "position": [
+        118,
+        125
+      ],
+      "before": [
+        "D12.8"
+      ],
+      "after": [
+        "D12",
+        "D12.8"
+      ],
+      "parent_title": "Benign neoplasm of colon, rectum, anus and anal canal"
+    },
+    {
+      "record_id": "75",
+      "entity_index": 4,
+      "text": "Nấm bẹn",
+      "position": [
+        220,
+        227
+      ],
+      "before": [
+        "B35.6"
+      ],
+      "after": [
+        "B35",
+        "B35.6"
+      ],
+      "parent_title": "Dermatophytosis"
+    },
+    {
+      "record_id": "75",
+      "entity_index": 6,
+      "text": "béo phì",
+      "position": [
+        412,
+        419
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "75",
+      "entity_index": 7,
+      "text": "nhiễm nấm da",
+      "position": [
+        453,
+        465
+      ],
+      "before": [
+        "B35.9"
+      ],
+      "after": [
+        "B35",
+        "B35.9"
+      ],
+      "parent_title": "Dermatophytosis"
+    },
+    {
+      "record_id": "75",
+      "entity_index": 8,
+      "text": "nấm bẹn",
+      "position": [
+        491,
+        498
+      ],
+      "before": [
+        "B35.6"
+      ],
+      "after": [
+        "B35",
+        "B35.6"
+      ],
+      "parent_title": "Dermatophytosis"
+    },
+    {
+      "record_id": "75",
+      "entity_index": 9,
+      "text": "nấm bẹn",
+      "position": [
+        691,
+        698
+      ],
+      "before": [
+        "B35.6"
+      ],
+      "after": [
+        "B35",
+        "B35.6"
+      ],
+      "parent_title": "Dermatophytosis"
+    },
+    {
+      "record_id": "76",
+      "entity_index": 0,
+      "text": "MÀY đay VÔ CĂN",
+      "position": [
+        267,
+        281
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "76",
+      "entity_index": 1,
+      "text": "MÀY đay MẠN",
+      "position": [
+        365,
+        376
+      ],
+      "before": [
+        "L50.8"
+      ],
+      "after": [
+        "L50",
+        "L50.8"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "76",
+      "entity_index": 2,
+      "text": "mày đay vô căn",
+      "position": [
+        844,
+        858
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "77",
+      "entity_index": 20,
+      "text": "suy tim",
+      "position": [
+        1029,
+        1036
+      ],
+      "before": [
+        "I50.9"
+      ],
+      "after": [
+        "I50",
+        "I50.9"
+      ],
+      "parent_title": "Heart failure"
+    },
+    {
+      "record_id": "77",
+      "entity_index": 21,
+      "text": "suy thận mạn giai đoạn 5",
+      "position": [
+        1039,
+        1063
+      ],
+      "before": [
+        "N18.5"
+      ],
+      "after": [
+        "N18",
+        "N18.5"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "79",
+      "entity_index": 0,
+      "text": "amyloidosis",
+      "position": [
+        59,
+        70
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "79",
+      "entity_index": 1,
+      "text": "Bệnh thoái hóa tinh bột",
+      "position": [
+        308,
+        331
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "79",
+      "entity_index": 4,
+      "text": "bệnh thoái hóa tinh bột",
+      "position": [
+        806,
+        829
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "79",
+      "entity_index": 5,
+      "text": "bệnh thoái hóa tinh bột",
+      "position": [
+        989,
+        1012
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "79",
+      "entity_index": 9,
+      "text": "amyloidosis",
+      "position": [
+        1134,
+        1145
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "79",
+      "entity_index": 11,
+      "text": "Bệnh amyloidosis tự miễn dịch",
+      "position": [
+        1226,
+        1255
+      ],
+      "before": [
+        "E85.3"
+      ],
+      "after": [
+        "E85",
+        "E85.3"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "79",
+      "entity_index": 14,
+      "text": "amyloidosis",
+      "position": [
+        1357,
+        1368
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "80",
+      "entity_index": 0,
+      "text": "bệnh gút",
+      "position": [
+        64,
+        72
+      ],
+      "before": [
+        "M10.9"
+      ],
+      "after": [
+        "M10",
+        "M10.9"
+      ],
+      "parent_title": "Gout"
+    },
+    {
+      "record_id": "80",
+      "entity_index": 3,
+      "text": "bệnhgout",
+      "position": [
+        396,
+        404
+      ],
+      "before": [
+        "M10.9"
+      ],
+      "after": [
+        "M10",
+        "M10.9"
+      ],
+      "parent_title": "Gout"
+    },
+    {
+      "record_id": "80",
+      "entity_index": 14,
+      "text": "nhiễm trùng máu",
+      "position": [
+        973,
+        988
+      ],
+      "before": [
+        "A41.9"
+      ],
+      "after": [
+        "A41",
+        "A41.9"
+      ],
+      "parent_title": "Other sepsis"
+    },
+    {
+      "record_id": "80",
+      "entity_index": 16,
+      "text": "tăng áp lực tĩnh mạch cửa",
+      "position": [
+        1036,
+        1061
+      ],
+      "before": [
+        "K76.6"
+      ],
+      "after": [
+        "K76",
+        "K76.6"
+      ],
+      "parent_title": "Other diseases of liver"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 2,
+      "text": "hội chứng tăng đông",
+      "position": [
+        140,
+        160
+      ],
+      "before": [
+        "D68.5"
+      ],
+      "after": [
+        "D68",
+        "D68.5"
+      ],
+      "parent_title": "Other coagulation defects"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 3,
+      "text": "gen đông máu",
+      "position": [
+        179,
+        192
+      ],
+      "before": [
+        "D68.5"
+      ],
+      "after": [
+        "D68",
+        "D68.5"
+      ],
+      "parent_title": "Other coagulation defects"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 4,
+      "text": "thrombophilia",
+      "position": [
+        208,
+        221
+      ],
+      "before": [
+        "D68.5"
+      ],
+      "after": [
+        "D68",
+        "D68.5"
+      ],
+      "parent_title": "Other coagulation defects"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 8,
+      "text": "bệnh thrombophilia",
+      "position": [
+        358,
+        377
+      ],
+      "before": [
+        "D68.5"
+      ],
+      "after": [
+        "D68",
+        "D68.5"
+      ],
+      "parent_title": "Other coagulation defects"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 10,
+      "text": "Thrombophilia",
+      "position": [
+        784,
+        797
+      ],
+      "before": [
+        "D68.5"
+      ],
+      "after": [
+        "D68",
+        "D68.5"
+      ],
+      "parent_title": "Other coagulation defects"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 11,
+      "text": "bệnh tăng đông máu",
+      "position": [
+        876,
+        894
+      ],
+      "before": [
+        "D68.5"
+      ],
+      "after": [
+        "D68",
+        "D68.5"
+      ],
+      "parent_title": "Other coagulation defects"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 12,
+      "text": "sẩy thai",
+      "position": [
+        978,
+        986
+      ],
+      "before": [
+        "O03.9"
+      ],
+      "after": [
+        "O03",
+        "O03.9"
+      ],
+      "parent_title": "Spontaneous abortion"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 13,
+      "text": "sinh non",
+      "position": [
+        988,
+        996
+      ],
+      "before": [
+        "O60.1"
+      ],
+      "after": [
+        "O60",
+        "O60.1"
+      ],
+      "parent_title": "Preterm labour and delivery"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 14,
+      "text": "tiền sản giật",
+      "position": [
+        998,
+        1011
+      ],
+      "before": [
+        "O14.9"
+      ],
+      "after": [
+        "O14",
+        "O14.9"
+      ],
+      "parent_title": "Pre-eclampsia"
+    },
+    {
+      "record_id": "81",
+      "entity_index": 19,
+      "text": "tắc mạch do cục máu đông",
+      "position": [
+        1420,
+        1444
+      ],
+      "before": [
+        "I74.9"
+      ],
+      "after": [
+        "I74",
+        "I74.9"
+      ],
+      "parent_title": "Arterial embolism and thrombosis"
+    },
+    {
+      "record_id": "82",
+      "entity_index": 15,
+      "text": "amyloidosis",
+      "position": [
+        963,
+        974
+      ],
+      "before": [
+        "E85.9"
+      ],
+      "after": [
+        "E85",
+        "E85.9"
+      ],
+      "parent_title": "Amyloidosis"
+    },
+    {
+      "record_id": "82",
+      "entity_index": 17,
+      "text": "viêm dạ dày",
+      "position": [
+        1196,
+        1207
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "82",
+      "entity_index": 19,
+      "text": "sỏi đoạn cuối ống mật chủ",
+      "position": [
+        1233,
+        1258
+      ],
+      "before": [
+        "K80.5"
+      ],
+      "after": [
+        "K80",
+        "K80.5"
+      ],
+      "parent_title": "Cholelithiasis"
+    },
+    {
+      "record_id": "82",
+      "entity_index": 22,
+      "text": "sỏi tại đoạn cuối ống mật chủ (CBD)",
+      "position": [
+        1368,
+        1403
+      ],
+      "before": [
+        "K80.5"
+      ],
+      "after": [
+        "K80",
+        "K80.5"
+      ],
+      "parent_title": "Cholelithiasis"
+    },
+    {
+      "record_id": "82",
+      "entity_index": 24,
+      "text": "sỏi ống dẫn mật chung đoạn cuối",
+      "position": [
+        1470,
+        1501
+      ],
+      "before": [
+        "K80.5"
+      ],
+      "after": [
+        "K80",
+        "K80.5"
+      ],
+      "parent_title": "Cholelithiasis"
+    },
+    {
+      "record_id": "83",
+      "entity_index": 2,
+      "text": "MÀY đay VÔ CĂN",
+      "position": [
+        170,
+        184
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "83",
+      "entity_index": 3,
+      "text": "MÀY đay MẠN",
+      "position": [
+        268,
+        279
+      ],
+      "before": [
+        "L50.8"
+      ],
+      "after": [
+        "L50",
+        "L50.8"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "83",
+      "entity_index": 4,
+      "text": "mày đay vô căn",
+      "position": [
+        747,
+        761
+      ],
+      "before": [
+        "L50.1"
+      ],
+      "after": [
+        "L50",
+        "L50.1"
+      ],
+      "parent_title": "Urticaria"
+    },
+    {
+      "record_id": "84",
+      "entity_index": 1,
+      "text": "Nấm bẹn",
+      "position": [
+        114,
+        121
+      ],
+      "before": [
+        "B35.6"
+      ],
+      "after": [
+        "B35",
+        "B35.6"
+      ],
+      "parent_title": "Dermatophytosis"
+    },
+    {
+      "record_id": "84",
+      "entity_index": 2,
+      "text": "nấm bẹn",
+      "position": [
+        385,
+        392
+      ],
+      "before": [
+        "B35.6"
+      ],
+      "after": [
+        "B35",
+        "B35.6"
+      ],
+      "parent_title": "Dermatophytosis"
+    },
+    {
+      "record_id": "84",
+      "entity_index": 3,
+      "text": "nấm bẹn",
+      "position": [
+        585,
+        592
+      ],
+      "before": [
+        "B35.6"
+      ],
+      "after": [
+        "B35",
+        "B35.6"
+      ],
+      "parent_title": "Dermatophytosis"
+    },
+    {
+      "record_id": "85",
+      "entity_index": 0,
+      "text": "Tiểu đường loại 1 đái tháo đường",
+      "position": [
+        54,
+        86
+      ],
+      "before": [
+        "E10.9"
+      ],
+      "after": [
+        "E10",
+        "E10.9"
+      ],
+      "parent_title": "Type 1 diabetes mellitus"
+    },
+    {
+      "record_id": "85",
+      "entity_index": 2,
+      "text": "tăng lipid máu, không đặc hiệu",
+      "position": [
+        113,
+        143
+      ],
+      "before": [
+        "E78.5"
+      ],
+      "after": [
+        "E78",
+        "E78.5"
+      ],
+      "parent_title": "Disorders of lipoprotein metabolism and other lipidaemias"
+    },
+    {
+      "record_id": "85",
+      "entity_index": 3,
+      "text": "béo phì",
+      "position": [
+        150,
+        157
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "85",
+      "entity_index": 4,
+      "text": "Nhiễm trùng đường tiết niệu (UTIs) tái phát",
+      "position": [
+        164,
+        207
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "85",
+      "entity_index": 5,
+      "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "position": [
+        208,
+        258
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "85",
+      "entity_index": 30,
+      "text": "gãy xương",
+      "position": [
+        1390,
+        1399
+      ],
+      "before": [
+        "T14.2"
+      ],
+      "after": [
+        "T14",
+        "T14.2"
+      ],
+      "parent_title": "Injury of unspecified body region"
+    },
+    {
+      "record_id": "85",
+      "entity_index": 31,
+      "text": "viêm xương tủy",
+      "position": [
+        1405,
+        1419
+      ],
+      "before": [
+        "M86.9"
+      ],
+      "after": [
+        "M86",
+        "M86.9"
+      ],
+      "parent_title": "Osteomyelitis"
+    },
+    {
+      "record_id": "86",
+      "entity_index": 5,
+      "text": "Viêm hang vị sung huyết",
+      "position": [
+        132,
+        155
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "86",
+      "entity_index": 11,
+      "text": "bệnh dạ dày",
+      "position": [
+        362,
+        373
+      ],
+      "before": [
+        "K31.9"
+      ],
+      "after": [
+        "K31",
+        "K31.9"
+      ],
+      "parent_title": "Other diseases of stomach and duodenum"
+    },
+    {
+      "record_id": "86",
+      "entity_index": 12,
+      "text": "bệnh viêm sung huyết hang vị dạ dày",
+      "position": [
+        517,
+        552
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "86",
+      "entity_index": 14,
+      "text": "viêm sung huyết hang vị dạ dày",
+      "position": [
+        1002,
+        1032
+      ],
+      "before": [
+        "K29.7"
+      ],
+      "after": [
+        "K29",
+        "K29.7"
+      ],
+      "parent_title": "Gastritis and duodenitis"
+    },
+    {
+      "record_id": "87",
+      "entity_index": 28,
+      "text": "Cơn đau thắt ngực không ổn định",
+      "position": [
+        900,
+        931
+      ],
+      "before": [
+        "I20.0"
+      ],
+      "after": [
+        "I20",
+        "I20.0"
+      ],
+      "parent_title": "Angina pectoris"
+    },
+    {
+      "record_id": "88",
+      "entity_index": 0,
+      "text": "ung thư đường mật",
+      "position": [
+        183,
+        200
+      ],
+      "before": [
+        "C22.1"
+      ],
+      "after": [
+        "C22",
+        "C22.1"
+      ],
+      "parent_title": "Malignant neoplasm of liver and intrahepatic bile ducts"
+    },
+    {
+      "record_id": "89",
+      "entity_index": 0,
+      "text": "Đái tháo đường",
+      "position": [
+        31,
+        45
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "89",
+      "entity_index": 1,
+      "text": "Đái tháo đường",
+      "position": [
+        55,
+        69
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "90",
+      "entity_index": 0,
+      "text": "rối loạn lo âu",
+      "position": [
+        81,
+        95
+      ],
+      "before": [
+        "F41.9"
+      ],
+      "after": [
+        "F41",
+        "F41.9"
+      ],
+      "parent_title": "Other anxiety disorders"
+    },
+    {
+      "record_id": "90",
+      "entity_index": 3,
+      "text": "Táo bón mãn tính",
+      "position": [
+        138,
+        154
+      ],
+      "before": [
+        "K59.0"
+      ],
+      "after": [
+        "K59",
+        "K59.0"
+      ],
+      "parent_title": "Other functional intestinal disorders"
+    },
+    {
+      "record_id": "90",
+      "entity_index": 4,
+      "text": "ngưng thở khi ngủ",
+      "position": [
+        162,
+        179
+      ],
+      "before": [
+        "G47.3"
+      ],
+      "after": [
+        "G47",
+        "G47.3"
+      ],
+      "parent_title": "Sleep disorders"
+    },
+    {
+      "record_id": "90",
+      "entity_index": 10,
+      "text": "nhiễm trùng đường hô hấp trên",
+      "position": [
+        470,
+        499
+      ],
+      "before": [
+        "J06.9"
+      ],
+      "after": [
+        "J06",
+        "J06.9"
+      ],
+      "parent_title": "Acute upper respiratory infections of multiple and unspecified sites"
+    },
+    {
+      "record_id": "90",
+      "entity_index": 35,
+      "text": "viêm phổi kẽ",
+      "position": [
+        1198,
+        1210
+      ],
+      "before": [
+        "J84.9"
+      ],
+      "after": [
+        "J84",
+        "J84.9"
+      ],
+      "parent_title": "Other interstitial pulmonary diseases"
+    },
+    {
+      "record_id": "91",
+      "entity_index": 0,
+      "text": "hội chứng turner, không đặc hiệu",
+      "position": [
+        48,
+        80
+      ],
+      "before": [
+        "Q96.9"
+      ],
+      "after": [
+        "Q96",
+        "Q96.9"
+      ],
+      "parent_title": "Turner syndrome"
+    },
+    {
+      "record_id": "91",
+      "entity_index": 2,
+      "text": "Ung thư đại tràng",
+      "position": [
+        146,
+        163
+      ],
+      "before": [
+        "C18.9"
+      ],
+      "after": [
+        "C18",
+        "C18.9"
+      ],
+      "parent_title": "Malignant neoplasm of colon"
+    },
+    {
+      "record_id": "91",
+      "entity_index": 3,
+      "text": "Thuyên tắc phổi",
+      "position": [
+        178,
+        193
+      ],
+      "before": [
+        "I26.9"
+      ],
+      "after": [
+        "I26",
+        "I26.9"
+      ],
+      "parent_title": "Pulmonary embolism"
+    },
+    {
+      "record_id": "91",
+      "entity_index": 5,
+      "text": "Thuyên tắc phổi",
+      "position": [
+        222,
+        237
+      ],
+      "before": [
+        "I26.9"
+      ],
+      "after": [
+        "I26",
+        "I26.9"
+      ],
+      "parent_title": "Pulmonary embolism"
+    },
+    {
+      "record_id": "91",
+      "entity_index": 24,
+      "text": "Sỏi niệu quản",
+      "position": [
+        1047,
+        1060
+      ],
+      "before": [
+        "N20.1"
+      ],
+      "after": [
+        "N20",
+        "N20.1"
+      ],
+      "parent_title": "Calculus of kidney and ureter"
+    },
+    {
+      "record_id": "92",
+      "entity_index": 1,
+      "text": "bàng quang thần kinh",
+      "position": [
+        45,
+        65
+      ],
+      "before": [
+        "N31.9"
+      ],
+      "after": [
+        "N31",
+        "N31.9"
+      ],
+      "parent_title": "Neuromuscular dysfunction of bladder, not elsewhere classified"
+    },
+    {
+      "record_id": "92",
+      "entity_index": 4,
+      "text": "nhiễm khuẩn đường tiết niệu tái phát",
+      "position": [
+        163,
+        199
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "92",
+      "entity_index": 7,
+      "text": "nhiễm khuẩn đường tiết niệu",
+      "position": [
+        341,
+        368
+      ],
+      "before": [
+        "N39.0"
+      ],
+      "after": [
+        "N39",
+        "N39.0"
+      ],
+      "parent_title": "Other disorders of urinary system"
+    },
+    {
+      "record_id": "92",
+      "entity_index": 10,
+      "text": "nhiễm trùng huyết",
+      "position": [
+        497,
+        514
+      ],
+      "before": [
+        "A41.9"
+      ],
+      "after": [
+        "A41",
+        "A41.9"
+      ],
+      "parent_title": "Other sepsis"
+    },
+    {
+      "record_id": "92",
+      "entity_index": 12,
+      "text": "bệnh viêm tuỷ xương",
+      "position": [
+        570,
+        589
+      ],
+      "before": [
+        "M86.9"
+      ],
+      "after": [
+        "M86",
+        "M86.9"
+      ],
+      "parent_title": "Osteomyelitis"
+    },
+    {
+      "record_id": "92",
+      "entity_index": 25,
+      "text": "Trứng cá",
+      "position": [
+        1042,
+        1050
+      ],
+      "before": [
+        "L70.9"
+      ],
+      "after": [
+        "L70",
+        "L70.9"
+      ],
+      "parent_title": "Acne"
+    },
+    {
+      "record_id": "92",
+      "entity_index": 26,
+      "text": "Tăng sản tuyến bã nhờn",
+      "position": [
+        1083,
+        1105
+      ],
+      "before": [
+        "L73.8"
+      ],
+      "after": [
+        "L73",
+        "L73.8"
+      ],
+      "parent_title": "Other follicular disorders"
+    },
+    {
+      "record_id": "92",
+      "entity_index": 33,
+      "text": "nhiễm trùng huyết đường vào tiết niệu",
+      "position": [
+        1232,
+        1269
+      ],
+      "before": [
+        "A41.9"
+      ],
+      "after": [
+        "A41",
+        "A41.9"
+      ],
+      "parent_title": "Other sepsis"
+    },
+    {
+      "record_id": "93",
+      "entity_index": 30,
+      "text": "đại tràng giãn",
+      "position": [
+        1382,
+        1396
+      ],
+      "before": [
+        "K59.3"
+      ],
+      "after": [
+        "K59",
+        "K59.3"
+      ],
+      "parent_title": "Other functional intestinal disorders"
+    },
+    {
+      "record_id": "94",
+      "entity_index": 8,
+      "text": "bệnh dạ dày",
+      "position": [
+        273,
+        284
+      ],
+      "before": [
+        "K31.9"
+      ],
+      "after": [
+        "K31",
+        "K31.9"
+      ],
+      "parent_title": "Other diseases of stomach and duodenum"
+    },
+    {
+      "record_id": "95",
+      "entity_index": 0,
+      "text": "bệnh gút",
+      "position": [
+        64,
+        72
+      ],
+      "before": [
+        "M10.9"
+      ],
+      "after": [
+        "M10",
+        "M10.9"
+      ],
+      "parent_title": "Gout"
+    },
+    {
+      "record_id": "95",
+      "entity_index": 2,
+      "text": "bệnhgout",
+      "position": [
+        396,
+        404
+      ],
+      "before": [
+        "M10.9"
+      ],
+      "after": [
+        "M10",
+        "M10.9"
+      ],
+      "parent_title": "Gout"
+    },
+    {
+      "record_id": "95",
+      "entity_index": 17,
+      "text": "cơn gout cấp",
+      "position": [
+        1072,
+        1084
+      ],
+      "before": [
+        "M10.9"
+      ],
+      "after": [
+        "M10",
+        "M10.9"
+      ],
+      "parent_title": "Gout"
+    },
+    {
+      "record_id": "95",
+      "entity_index": 19,
+      "text": "đái tháo đường",
+      "position": [
+        1165,
+        1179
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "95",
+      "entity_index": 21,
+      "text": "béo phì",
+      "position": [
+        1206,
+        1213
+      ],
+      "before": [
+        "E66.9"
+      ],
+      "after": [
+        "E66",
+        "E66.9"
+      ],
+      "parent_title": "Obesity"
+    },
+    {
+      "record_id": "97",
+      "entity_index": 0,
+      "text": "Suy thận mạn giai đoạn V",
+      "position": [
+        48,
+        72
+      ],
+      "before": [
+        "N18.5"
+      ],
+      "after": [
+        "N18",
+        "N18.5"
+      ],
+      "parent_title": "Chronic kidney disease"
+    },
+    {
+      "record_id": "97",
+      "entity_index": 1,
+      "text": "đái tháo đường",
+      "position": [
+        76,
+        90
+      ],
+      "before": [
+        "E11.9"
+      ],
+      "after": [
+        "E11",
+        "E11.9"
+      ],
+      "parent_title": "Type 2 diabetes mellitus"
+    },
+    {
+      "record_id": "97",
+      "entity_index": 4,
+      "text": "u dây thần kinh số VIII",
+      "position": [
+        228,
+        251
+      ],
+      "before": [
+        "D33.3"
+      ],
+      "after": [
+        "D33",
+        "D33.3"
+      ],
+      "parent_title": "Benign neoplasm of brain and other parts of central nervous system"
+    },
+    {
+      "record_id": "97",
+      "entity_index": 19,
+      "text": "bệnh trĩ",
+      "position": [
+        835,
+        843
+      ],
+      "before": [
+        "K64.9"
+      ],
+      "after": [
+        "K64",
+        "K64.9"
+      ],
+      "parent_title": "Haemorrhoids and perianal venous thrombosis"
+    },
+    {
+      "record_id": "98",
+      "entity_index": 3,
+      "text": "Rối loạn lưỡng cực",
+      "position": [
+        301,
+        319
+      ],
+      "before": [
+        "F31.9"
+      ],
+      "after": [
+        "F31",
+        "F31.9"
+      ],
+      "parent_title": "Bipolar affective disorder"
+    },
+    {
+      "record_id": "98",
+      "entity_index": 4,
+      "text": "rối loạn lo âu",
+      "position": [
+        326,
+        340
+      ],
+      "before": [
+        "F41.9"
+      ],
+      "after": [
+        "F41",
+        "F41.9"
+      ],
+      "parent_title": "Other anxiety disorders"
+    },
+    {
+      "record_id": "98",
+      "entity_index": 11,
+      "text": "trầm cảm",
+      "position": [
+        808,
+        816
+      ],
+      "before": [
+        "F32.9"
+      ],
+      "after": [
+        "F32",
+        "F32.9"
+      ],
+      "parent_title": "Depressive episode"
+    },
+    {
+      "record_id": "99",
+      "entity_index": 0,
+      "text": "viêm tủy xương",
+      "position": [
+        52,
+        66
+      ],
+      "before": [
+        "M86.9"
+      ],
+      "after": [
+        "M86",
+        "M86.9"
+      ],
+      "parent_title": "Osteomyelitis"
+    },
+    {
+      "record_id": "99",
+      "entity_index": 1,
+      "text": "bàng quang thần kinh",
+      "position": [
+        70,
+        90
+      ],
+      "before": [
+        "N31.9"
+      ],
+      "after": [
+        "N31",
+        "N31.9"
+      ],
+      "parent_title": "Neuromuscular dysfunction of bladder, not elsewhere classified"
+    },
+    {
+      "record_id": "99",
+      "entity_index": 2,
+      "text": "liệt hai chi dưới",
+      "position": [
+        105,
+        122
+      ],
+      "before": [
+        "G82.2"
+      ],
+      "after": [
+        "G82",
+        "G82.2"
+      ],
+      "parent_title": "Paraplegia and tetraplegia"
+    },
+    {
+      "record_id": "99",
+      "entity_index": 28,
+      "text": "Đợt cấp COPD",
+      "position": [
+        853,
+        865
+      ],
+      "before": [
+        "J44.1"
+      ],
+      "after": [
+        "J44",
+        "J44.1"
+      ],
+      "parent_title": "Other chronic obstructive pulmonary disease"
+    },
+    {
+      "record_id": "99",
+      "entity_index": 29,
+      "text": "Tâm phế mạn",
+      "position": [
+        868,
+        879
+      ],
+      "before": [
+        "I27.9"
+      ],
+      "after": [
+        "I27",
+        "I27.9"
+      ],
+      "parent_title": "Other pulmonary heart diseases"
+    },
+    {
+      "record_id": "99",
+      "entity_index": 30,
+      "text": "Cơn tim nhanh nhĩ",
+      "position": [
+        882,
+        899
+      ],
+      "before": [
+        "I47.1"
+      ],
+      "after": [
+        "I47",
+        "I47.1"
+      ],
+      "parent_title": "Paroxysmal tachycardia"
+    },
+    {
+      "record_id": "100",
+      "entity_index": 0,
+      "text": "tiền sản giật",
+      "position": [
+        157,
+        173
+      ],
+      "before": [
+        "O14.9"
+      ],
+      "after": [
+        "O14",
+        "O14.9"
+      ],
+      "parent_title": "Pre-eclampsia"
+    },
+    {
+      "record_id": "100",
+      "entity_index": 4,
+      "text": "tiền sản giật",
+      "position": [
+        584,
+        597
+      ],
+      "before": [
+        "O14.9"
+      ],
+      "after": [
+        "O14",
+        "O14.9"
+      ],
+      "parent_title": "Pre-eclampsia"
+    },
+    {
+      "record_id": "100",
+      "entity_index": 5,
+      "text": "tiền sản giật",
+      "position": [
+        616,
+        629
+      ],
+      "before": [
+        "O14.9"
+      ],
+      "after": [
+        "O14",
+        "O14.9"
+      ],
+      "parent_title": "Pre-eclampsia"
+    },
+    {
+      "record_id": "100",
+      "entity_index": 6,
+      "text": "tiền sản giật",
+      "position": [
+        664,
+        677
+      ],
+      "before": [
+        "O14.9"
+      ],
+      "after": [
+        "O14",
+        "O14.9"
+      ],
+      "parent_title": "Pre-eclampsia"
+    }
+  ],
+  "repeat_build_equal": true,
+  "zip_sha256": "5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba"
+}

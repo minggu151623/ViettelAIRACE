@@ -1302,3 +1302,28 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   `2e62fc1e3ae59b173653030007803d451d2a7ab7252bd56e2bc84a2942a94efa`.
   All 127 tests pass. No reviewer labels, model outputs or submission artifact
   were opened or created.
+
+## 2026-08-03 — H43 full-head LLM candidate surgery rejected
+
+- Preregistered a candidate-only review of all H38 diagnosis/drug mappings.
+  Corrected the feasibility census from 408 unique codes to 621 unique
+  type/mention/code tuples before any review artifact was written or inspected.
+- Qwen completed both frozen seeds for every tuple with 100% action agreement,
+  proposing 79 dual-DROP tuples and 118 eligible candidate-use removals after
+  safe controls. All 102 curated positive-control uses were retained.
+- The independent stability gate failed decisively: only 1/19 prior known-title
+  hazard uses was removed, versus the registered 80% minimum. Same-run seed
+  agreement is not longitudinal calibration. The ZIP was deleted.
+
+## 2026-08-03 — H44 full WHO family hedge passes local gates
+
+- Pivoted from unstable semantic review to the externally supported H23
+  mechanism. Extended `[WHO parent, specific]` from CM-exclusive rows to all
+  H38 singleton diagnosis-specific candidates with a valid bundled WHO family.
+- Changed exactly 611 candidate rows across 97 records while freezing all 3,226
+  entity spans, types, assertions, drug candidates and noneligible diagnosis
+  candidates. All 100 files validate and all 132 repository tests pass.
+- Two complete builds and ZIP packages are byte-identical. Submission SHA-256:
+  `5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba`.
+  External WER/assertions should remain fixed; H44 is the first reset-slot
+  candidate and measures whether H23 generalizes to a corpus-wide hierarchy policy.

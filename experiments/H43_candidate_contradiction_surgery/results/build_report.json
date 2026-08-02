@@ -1,0 +1,848 @@
+{
+  "hypothesis": "H43_candidate_contradiction_surgery",
+  "source_zip_sha256": "a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b",
+  "review_sha256": "61a0eeb5345f9b7b7a00aa5b22bbc484a863d92f2989444a6c62414c5aaa982e",
+  "review": {
+    "review_units": 621,
+    "exact_action_agreement": 1.0,
+    "dual_drop_units_before_controls": 79,
+    "eligible_drop_units_after_controls": 76
+  },
+  "stats": {
+    "candidate_uses_removed": 118,
+    "records": 100,
+    "entities": 3226
+  },
+  "positive_control_uses": 102,
+  "registered_hazard_uses": 19,
+  "registered_hazard_uses_removed": 1,
+  "registered_hazard_removal_rate": 0.05263157894736842,
+  "gates": {
+    "all_review_units_complete": true,
+    "review_agreement_at_least_0_90": true,
+    "safe_alias_controls_retained": true,
+    "hazard_removal_rate_at_least_0_80": false,
+    "candidate_removals_between_50_and_350": true,
+    "zero_candidate_additions": true,
+    "all_entities_candidate_only": true,
+    "all_records_validate": true
+  },
+  "decision": "FAIL",
+  "zip": {
+    "zip": "turn2/output_v11_candidate_surgery.zip",
+    "files": 100,
+    "members": [
+      "output/1.json",
+      "output/2.json",
+      "output/3.json",
+      "output/4.json",
+      "output/5.json",
+      "output/6.json",
+      "output/7.json",
+      "output/8.json",
+      "output/9.json",
+      "output/10.json",
+      "output/11.json",
+      "output/12.json",
+      "output/13.json",
+      "output/14.json",
+      "output/15.json",
+      "output/16.json",
+      "output/17.json",
+      "output/18.json",
+      "output/19.json",
+      "output/20.json",
+      "output/21.json",
+      "output/22.json",
+      "output/23.json",
+      "output/24.json",
+      "output/25.json",
+      "output/26.json",
+      "output/27.json",
+      "output/28.json",
+      "output/29.json",
+      "output/30.json",
+      "output/31.json",
+      "output/32.json",
+      "output/33.json",
+      "output/34.json",
+      "output/35.json",
+      "output/36.json",
+      "output/37.json",
+      "output/38.json",
+      "output/39.json",
+      "output/40.json",
+      "output/41.json",
+      "output/42.json",
+      "output/43.json",
+      "output/44.json",
+      "output/45.json",
+      "output/46.json",
+      "output/47.json",
+      "output/48.json",
+      "output/49.json",
+      "output/50.json",
+      "output/51.json",
+      "output/52.json",
+      "output/53.json",
+      "output/54.json",
+      "output/55.json",
+      "output/56.json",
+      "output/57.json",
+      "output/58.json",
+      "output/59.json",
+      "output/60.json",
+      "output/61.json",
+      "output/62.json",
+      "output/63.json",
+      "output/64.json",
+      "output/65.json",
+      "output/66.json",
+      "output/67.json",
+      "output/68.json",
+      "output/69.json",
+      "output/70.json",
+      "output/71.json",
+      "output/72.json",
+      "output/73.json",
+      "output/74.json",
+      "output/75.json",
+      "output/76.json",
+      "output/77.json",
+      "output/78.json",
+      "output/79.json",
+      "output/80.json",
+      "output/81.json",
+      "output/82.json",
+      "output/83.json",
+      "output/84.json",
+      "output/85.json",
+      "output/86.json",
+      "output/87.json",
+      "output/88.json",
+      "output/89.json",
+      "output/90.json",
+      "output/91.json",
+      "output/92.json",
+      "output/93.json",
+      "output/94.json",
+      "output/95.json",
+      "output/96.json",
+      "output/97.json",
+      "output/98.json",
+      "output/99.json",
+      "output/100.json"
+    ]
+  },
+  "zip_sha256": "0e16fae611f4e6796583b5e30b25046a8982b7592d18f36fb6446efa391bed88",
+  "removed": [
+    {
+      "record_id": "1",
+      "text": "thiếu máu do tan huyết",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "D55.0"
+    },
+    {
+      "record_id": "1",
+      "text": "chậm phát triển trí tuệ và vận động",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "F82"
+    },
+    {
+      "record_id": "1",
+      "text": "thiếu máu tan huyết",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "D55.0"
+    },
+    {
+      "record_id": "1",
+      "text": "Nhiễm khuẩn",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "A49.9"
+    },
+    {
+      "record_id": "1",
+      "text": "nhiễm khuẩn tiết niệu",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N39.0"
+    },
+    {
+      "record_id": "2",
+      "text": "Nhiễm khuẩn",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "A49.9"
+    },
+    {
+      "record_id": "7",
+      "text": "sỏi 4mm",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N20.0"
+    },
+    {
+      "record_id": "7",
+      "text": "ứ nước",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N13"
+    },
+    {
+      "record_id": "7",
+      "text": "ứ nước",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N13.30"
+    },
+    {
+      "record_id": "7",
+      "text": "magie hydroxid",
+      "type": "THUỐC",
+      "candidate": "6585"
+    },
+    {
+      "record_id": "7",
+      "text": "magie hydroxid",
+      "type": "THUỐC",
+      "candidate": "6585"
+    },
+    {
+      "record_id": "8",
+      "text": "bệnh lý chất trắng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "R90"
+    },
+    {
+      "record_id": "8",
+      "text": "bệnh lý chất trắng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "R90"
+    },
+    {
+      "record_id": "8",
+      "text": "bệnh lý chất trắng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "R90"
+    },
+    {
+      "record_id": "8",
+      "text": "bệnh lý chất trắng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "R90"
+    },
+    {
+      "record_id": "8",
+      "text": "sốt siêu vi",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "B34.9"
+    },
+    {
+      "record_id": "8",
+      "text": "sốt phát ban",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "R21"
+    },
+    {
+      "record_id": "8",
+      "text": "nhiễm trùng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "B99"
+    },
+    {
+      "record_id": "8",
+      "text": "nhiễm trùng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "B99.9"
+    },
+    {
+      "record_id": "8",
+      "text": "Thiếu máu cơ tim",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "I25.9"
+    },
+    {
+      "record_id": "9",
+      "text": "sỏi 4mm",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N20.0"
+    },
+    {
+      "record_id": "9",
+      "text": "ứ nước",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N13"
+    },
+    {
+      "record_id": "9",
+      "text": "ứ nước",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N13.30"
+    },
+    {
+      "record_id": "9",
+      "text": "magie hydroxid",
+      "type": "THUỐC",
+      "candidate": "6585"
+    },
+    {
+      "record_id": "9",
+      "text": "đại tràng giãn",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "K59"
+    },
+    {
+      "record_id": "11",
+      "text": "bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "S06"
+    },
+    {
+      "record_id": "11",
+      "text": "lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "I62"
+    },
+    {
+      "record_id": "11",
+      "text": "nang màng nhện",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G93.0"
+    },
+    {
+      "record_id": "11",
+      "text": "tụ máu ngoài màng cứng phải cấp tính",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "S06"
+    },
+    {
+      "record_id": "11",
+      "text": "bàn chân bẹt",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "M21"
+    },
+    {
+      "record_id": "11",
+      "text": "Bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "S06"
+    },
+    {
+      "record_id": "11",
+      "text": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "I62"
+    },
+    {
+      "record_id": "11",
+      "text": "nang màng nhện",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G93.0"
+    },
+    {
+      "record_id": "11",
+      "text": "Tụ máu ngoài màng cứng phải cấp tính",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "S06"
+    },
+    {
+      "record_id": "12",
+      "text": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "D84"
+    },
+    {
+      "record_id": "15",
+      "text": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "D84.9"
+    },
+    {
+      "record_id": "17",
+      "text": "Viêm quanh răng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "K05.3"
+    },
+    {
+      "record_id": "17",
+      "text": "sang chấn răng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "S09.9"
+    },
+    {
+      "record_id": "17",
+      "text": "nhiễm trùng lợi nặng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "K05.3"
+    },
+    {
+      "record_id": "17",
+      "text": "Thiếu canxi và vitamin",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "E58"
+    },
+    {
+      "record_id": "17",
+      "text": "Thiếu canxi và vitamin",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "E56.9"
+    },
+    {
+      "record_id": "17",
+      "text": "Ngưng thở khi ngủ do tắc nghẽn",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G47.3"
+    },
+    {
+      "record_id": "18",
+      "text": "thiếu máu cơ tim khi gắng sức",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "I25.9"
+    },
+    {
+      "record_id": "21",
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "E85"
+    },
+    {
+      "record_id": "22",
+      "text": "tăng men gan",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "R74.8"
+    },
+    {
+      "record_id": "22",
+      "text": "tăng bilirubin máu",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "E80.6"
+    },
+    {
+      "record_id": "27",
+      "text": "viêm phổi hoại tử",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J85.0"
+    },
+    {
+      "record_id": "27",
+      "text": "viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J18.9"
+    },
+    {
+      "record_id": "27",
+      "text": "Viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J18.9"
+    },
+    {
+      "record_id": "27",
+      "text": "viêm phế quản",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J40"
+    },
+    {
+      "record_id": "27",
+      "text": "Viêm phổi tiến triển nặng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J18.9"
+    },
+    {
+      "record_id": "27",
+      "text": "Viêm phổi hoại tử",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J85.0"
+    },
+    {
+      "record_id": "31",
+      "text": "vô sinh thứ phát",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N46"
+    },
+    {
+      "record_id": "32",
+      "text": "tăng sản tuyến tiền liệt",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N40.0"
+    },
+    {
+      "record_id": "33",
+      "text": "mụn cám",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L70.9"
+    },
+    {
+      "record_id": "33",
+      "text": "mụn đầu trắng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L70.9"
+    },
+    {
+      "record_id": "34",
+      "text": "suy thoái võng mạc",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "H35.9"
+    },
+    {
+      "record_id": "36",
+      "text": "sỏi đài bể thận, niệu quản",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N20.0"
+    },
+    {
+      "record_id": "38",
+      "text": "tăng sản tuyến tiền liệt",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N40.0"
+    },
+    {
+      "record_id": "39",
+      "text": "Viêm phổi bệnh viện",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J18.9"
+    },
+    {
+      "record_id": "39",
+      "text": "Viêm phổi bệnh viện",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J18.9"
+    },
+    {
+      "record_id": "40",
+      "text": "XHTH",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "K92.2"
+    },
+    {
+      "record_id": "40",
+      "text": "Viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J18.9"
+    },
+    {
+      "record_id": "41",
+      "text": "Trứng cá",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L70.9"
+    },
+    {
+      "record_id": "41",
+      "text": "Trứng cá",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L70.9"
+    },
+    {
+      "record_id": "41",
+      "text": "Tăng sản tuyến bã nhờn",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L73.8"
+    },
+    {
+      "record_id": "41",
+      "text": "Tretinoin tại chỗ",
+      "type": "THUỐC",
+      "candidate": "10737"
+    },
+    {
+      "record_id": "41",
+      "text": "trứng cá",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L70.9"
+    },
+    {
+      "record_id": "42",
+      "text": "ngưng thở khi ngủ do tắc nghẽn",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G47"
+    },
+    {
+      "record_id": "43",
+      "text": "tăng cholesterol máu đơn thuần",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "E78"
+    },
+    {
+      "record_id": "44",
+      "text": "túi mật giãn nở rõ rệt",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "K82.8"
+    },
+    {
+      "record_id": "46",
+      "text": "u dây thần kinh số VIII",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "D33.3"
+    },
+    {
+      "record_id": "47",
+      "text": "Viêm phổi bệnh viện",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J18.9"
+    },
+    {
+      "record_id": "47",
+      "text": "xẹp phổi thùy dưới phải do chèn ép",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J98"
+    },
+    {
+      "record_id": "47",
+      "text": "xẹp phổi thùy dưới phải do chèn ép",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J98.11"
+    },
+    {
+      "record_id": "47",
+      "text": "Viêm phổi bệnh viện",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J18.9"
+    },
+    {
+      "record_id": "50",
+      "text": "tăng nhãn áp",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "Q15.0"
+    },
+    {
+      "record_id": "51",
+      "text": "ngừng thở khi ngủ",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G47"
+    },
+    {
+      "record_id": "51",
+      "text": "ngừng thở khi ngủ",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G47.30"
+    },
+    {
+      "record_id": "51",
+      "text": "tổn thương sụn chêm",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "S83"
+    },
+    {
+      "record_id": "54",
+      "text": "tăng sản tuyến tiền liệt",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N40.0"
+    },
+    {
+      "record_id": "55",
+      "text": "u dây thần kinh số VIII",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "D33.3"
+    },
+    {
+      "record_id": "58",
+      "text": "Suy tim không do thiếu máu cơ tim",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "I42.8"
+    },
+    {
+      "record_id": "59",
+      "text": "mụn cám",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L70.9"
+    },
+    {
+      "record_id": "59",
+      "text": "mụn đầu trắng",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L70.9"
+    },
+    {
+      "record_id": "63",
+      "text": "tăng cholesterol máu đơn thuần",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "E78"
+    },
+    {
+      "record_id": "65",
+      "text": "thiếu máu cơ tim cục bộ",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "I25.9"
+    },
+    {
+      "record_id": "66",
+      "text": "u nang tuyến vú",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N60.0"
+    },
+    {
+      "record_id": "66",
+      "text": "u nang tuyến vú",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N60.0"
+    },
+    {
+      "record_id": "66",
+      "text": "u nang tuyến vú",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N60.0"
+    },
+    {
+      "record_id": "66",
+      "text": "u nang tuyến vú",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N60.0"
+    },
+    {
+      "record_id": "66",
+      "text": "u nang tuyến vú",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N60.0"
+    },
+    {
+      "record_id": "67",
+      "text": "Ngưng thở khi ngủ do tắc nghẽn",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G47.3"
+    },
+    {
+      "record_id": "69",
+      "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L08.9"
+    },
+    {
+      "record_id": "69",
+      "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "B95.2"
+    },
+    {
+      "record_id": "69",
+      "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "Z16.21"
+    },
+    {
+      "record_id": "70",
+      "text": "ngừng thở khi ngủ",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G47"
+    },
+    {
+      "record_id": "70",
+      "text": "ngừng thở khi ngủ",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G47.30"
+    },
+    {
+      "record_id": "71",
+      "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L08.9"
+    },
+    {
+      "record_id": "71",
+      "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "B95.2"
+    },
+    {
+      "record_id": "71",
+      "text": "suy giảm chức năng gan",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "K76.9"
+    },
+    {
+      "record_id": "75",
+      "text": "u tuyến",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "D12.8"
+    },
+    {
+      "record_id": "75",
+      "text": "nhiễm nấm",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "B49"
+    },
+    {
+      "record_id": "79",
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "E85"
+    },
+    {
+      "record_id": "81",
+      "text": "tắc mạch do cục máu đông",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "I74.9"
+    },
+    {
+      "record_id": "85",
+      "text": "viêm phế quản",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "J40"
+    },
+    {
+      "record_id": "88",
+      "text": "áp xe",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "K65"
+    },
+    {
+      "record_id": "90",
+      "text": "ngưng thở khi ngủ",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G47.3"
+    },
+    {
+      "record_id": "92",
+      "text": "nhiễm khuẩn đường tiết niệu tái phát",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "N39.0"
+    },
+    {
+      "record_id": "92",
+      "text": "vancozosyn",
+      "type": "THUỐC",
+      "candidate": "11124"
+    },
+    {
+      "record_id": "92",
+      "text": "vancozosyn",
+      "type": "THUỐC",
+      "candidate": "74169"
+    },
+    {
+      "record_id": "92",
+      "text": "vancozosynbactrim",
+      "type": "THUỐC",
+      "candidate": "11124"
+    },
+    {
+      "record_id": "92",
+      "text": "vancozosynbactrim",
+      "type": "THUỐC",
+      "candidate": "74169"
+    },
+    {
+      "record_id": "92",
+      "text": "vancozosynbactrim",
+      "type": "THUỐC",
+      "candidate": "10831"
+    },
+    {
+      "record_id": "92",
+      "text": "Trứng cá",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L70.9"
+    },
+    {
+      "record_id": "92",
+      "text": "Tăng sản tuyến bã nhờn",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "L73.8"
+    },
+    {
+      "record_id": "95",
+      "text": "ngưng thở khi ngủ do tắc nghẽn",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "G47"
+    },
+    {
+      "record_id": "97",
+      "text": "u dây thần kinh số VIII",
+      "type": "CHẨN_ĐOÁN",
+      "candidate": "D33.3"
+    }
+  ]
+}

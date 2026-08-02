@@ -50,7 +50,12 @@ current_direction: >
   H42 repaired the preregistered statistical gate before labels: occurrence-
   level bootstrap is anti-conservative under repeated-passage correlation, so
   the frozen evaluator now scores passage-local windows and resamples the 15
-  unique holdout passages within multiplicity strata.
+  unique holdout passages within multiplicity strata. With five leaderboard
+  slots reset, H43's full-head LLM pruning was rejected because it reproduced
+  only 1/19 frozen hazards despite 100% same-run seed agreement. H44 pivots to
+  the externally supported H23 mechanism and expands the same-family WHO hedge
+  to 611 singleton diagnoses across 97 records. It passes all local gates and
+  is the next submission candidate; external measurement is pending.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -271,6 +276,25 @@ hypotheses:
       at 0.9 it fell 13.28% -> 5.10%. Both locked reduction gates passed. The
       H41 evaluator now scores only labeled passage windows, rejects boundary-
       crossing predictions and resamples 15 unique passages within strata.
+  H43_candidate_contradiction_surgery:
+    status: rejected_prompt_instability_gate
+    prediction: >
+      Two-pass full-head ontology review can remove contradictory H38 ICD/RxNorm
+      codes while freezing extraction and assertions.
+    result: >
+      Current seeds agreed 100% and proposed 118 controlled removals, but only
+      1/19 prior known-title hazard uses was reproduced versus the locked 80%
+      gate. The ZIP was deleted; same-prompt agreement is temporally unstable.
+  H44_full_who_family_hedge:
+    status: passed_submission_candidate_external_pending
+    prediction: >
+      Extending H23's externally positive same-family WHO parent hedge to every
+      singleton diagnosis-specific code will recover a corpus-wide mixed-
+      hierarchy target policy while freezing WER and assertions.
+    result: >
+      Added a WHO three-character parent beside 611 frozen specific codes over
+      97 records. All 3,226 entities and 100 files validate; two builds and ZIPs
+      are byte-identical at SHA-256 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -409,8 +433,12 @@ experiments:
     - "H41 tooling: two-stage passage/occurrence UI, complete-label validator and reviewer-agreement gate; 123 tests pass"
     - "H42 correlated-null audit: occurrence bootstrap false promotion 10.55/13.28% at rho 0.6/0.9 versus 5.43/5.10% passage-clustered"
     - "H42 H41 evaluator: passage-local scoring, boundary-crossing rejection, stratified unique-passage bootstrap; 127 tests pass"
+    - "H43 dual ontology review rejected: 100% within-run agreement but only 1/19 prior hazard uses reproduced; no ZIP"
+    - "H44 full WHO hedge: 611 diagnosis rows across 97 records; 100/100 valid, 132 tests, deterministic ZIP 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba"
   next: >
-    Complete H41 reviewer_1 labels for all 60 passages and independent
+    Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
+    candidate Jaccard before constructing another artifact. In parallel,
+    complete H41 reviewer_1 labels for all 60 passages and independent
     reviewer_2 labels for the frozen 15-passage double-annotation queue. Lock
     both checksums, require span/type F1 >= 0.85 and assertion Jaccard >= 0.80,
     then adjudicate and run a one-shot H38-versus-challenger holdout comparison

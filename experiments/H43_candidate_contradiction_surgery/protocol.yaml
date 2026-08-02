@@ -1,5 +1,5 @@
 hypothesis: H43_candidate_contradiction_surgery
-status: preregistered
+status: rejected_before_submission
 created_at: "2026-08-03T11:10:00+07:00"
 question: >
   Can a full-head, high-precision contradiction audit of every H38 ICD/RxNorm
@@ -93,3 +93,17 @@ feasibility_amendment_1: >
   decision was inspected. The inventory and completeness gate are corrected to
   621; prompts, seeds, thresholds, controls, change window and failure policy
   remain unchanged, and the review restarts from tuple zero.
+
+result:
+  review_units: 621
+  exact_action_agreement: 1.0
+  dual_drop_units: 79
+  eligible_candidate_uses_removed: 118
+  safe_alias_positive_control_uses_retained: 102
+  registered_hazard_uses_removed: 1
+  registered_hazard_uses_total: 19
+  registered_hazard_removal_rate: 0.05263157894736842
+  decision: >
+    Rejected because the locked hazard gate required at least 80% removal but
+    the new review reproduced only 1/19 prior known-title contradiction uses.
+    The candidate ZIP was deleted and must not be submitted.

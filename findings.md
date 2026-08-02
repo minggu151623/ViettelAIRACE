@@ -806,6 +806,19 @@ The strongest verified direction is conservative structural cleanup:
   boundaries, aggregates occurrence-specific assertions within passage, and
   resamples passages inside the frozen multiplicity strata. This repair was
   completed before either reviewer label file existed.
+- **Dual-seed LLM agreement is not longitudinal candidate calibration.** H43's
+  two frozen seeds agree on all 621 tuple actions and identify 118 controlled
+  removals, yet reproduce only 1/19 known-title contradiction uses from the
+  earlier frozen review. The 5.26% hazard rate fails the registered 80% gate.
+  Batch-local unanimity cannot justify full-head candidate pruning; the ZIP was
+  deleted rather than spending a leaderboard slot.
+- **H44 converts H23's positive micro-policy into a corpus-wide hierarchy
+  test.** H38 still contains 611 singleton diagnosis-specific codes across 97
+  records whose WHO three-character family is absent. H44 adds that parent
+  while preserving every specific code and freezing all non-candidate fields.
+  All validation and determinism gates pass. This is a high-upside external
+  test of whether the organizer consistently mixes WHO family and specific
+  hierarchy levels, not another consensus threshold variant.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

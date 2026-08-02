@@ -1,5 +1,5 @@
 hypothesis: H44_full_who_family_hedge
-status: preregistered
+status: passed_submission_candidate
 created_at: "2026-08-03T12:20:00+07:00"
 question: >
   Does extending the externally positive H23 parent/specific hedge from only
@@ -69,3 +69,14 @@ if_passed:
   interpretation: >
     A positive result supports a corpus-wide mixed-hierarchy candidate policy;
     a negative result bounds H23 to CM-exclusive ontology-version mismatch.
+
+result:
+  changed_rows: 611
+  affected_records: 97
+  entities: 3226
+  validated_records: 100
+  repository_tests_passed: 132
+  repeat_build_equal: true
+  repeat_zip_equal: true
+  zip_sha256: 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba
+  decision: PASS
