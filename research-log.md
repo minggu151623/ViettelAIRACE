@@ -1109,3 +1109,16 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   confidence drift.
 - The independent agreement queue was not generated. No ZIP was created. The
   five frozen models may only proceed through per-fold validation calibration.
+
+## 2026-08-03 — H33 per-fold calibration cannot rescue early-stop collapse
+
+- Applied the frozen H31 grid independently to each H32 checkpoint using its
+  disjoint 20-record validation fold. Selected thresholds were
+  0.90/0.90/0.90/0.95/0.85.
+- Aggregate precision/recall/F1 became 81.23/38.26/52.02%. Recall, F1 and the
+  every-fold-nonempty gate failed; fold 4 remained empty.
+- Fold 4 had stopped after three epochs and retained epoch one. H30's curve
+  shows precision gains primarily after epoch four, identifying premature early
+  stopping as a concrete trainer defect.
+- No agreement queue or ZIP was created. A minimum-epoch falsification run is
+  the only authorized successor.

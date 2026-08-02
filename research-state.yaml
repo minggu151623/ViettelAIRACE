@@ -22,9 +22,11 @@ current_direction: >
   threshold 0.90 gives dev/test precision 81.60/84.53% and F1 65.63/62.14%.
   H32 created out-of-fold predictions, retaining 83.06% precision but failing
   recall/F1 at 36.68/50.89% because one fold produced no spans above 0.90.
-  Confidence is checkpoint-specific. The next experiment will calibrate each
-  frozen fold on its disjoint validation set before recomputing aggregate OOF
-  metrics. No new submission artifact is authorized yet.
+  H33 per-fold calibration reaches 81.23/38.26/52.02% but the same fold remains
+  empty. Its trainer stopped after epoch three and retained epoch one, before
+  the late precision gains seen elsewhere. The next falsification adds a
+  minimum-epoch safeguard only to that failed fold. No new submission artifact
+  is authorized yet.
 baseline:
   best_submitted_artifact: turn2/output_v8_candidate_semantic.zip
   score: 38.9352
@@ -292,11 +294,12 @@ experiments:
     - "H30 weak-label Bami rejected on dev: precision 57.44%, recall 72.46%, F1 64.08%, zero offset errors; test canceled"
     - "H31 confidence calibration passed: threshold 0.90 dev/test precision 81.60/84.53%, F1 65.63/62.14%, deterministic and offset-valid"
     - "H32 cross-fit failed aggregate: precision 83.06%, recall 36.68%, F1 50.89%; one fold emitted zero spans at global 0.90"
+    - "H33 per-fold calibration failed: precision 81.23%, recall 38.26%, F1 52.02%; collapsed fold remains empty"
   next: >
-    Preregister per-fold validation calibration over the already frozen H32
-    checkpoints. Select one threshold per checkpoint from the fixed H31 grid,
-    recompute OOF metrics, and create an independent agreement queue only if all
-    aggregate gates pass. Keep H23 frozen until that gate passes.
+    Preregister a minimum-five-epoch early-stopping safeguard and rerun only the
+    collapsed H32 fold with otherwise identical data, seed and hyperparameters.
+    If it passes fold-level calibration, substitute it into the frozen H33 OOF
+    set and recompute aggregate gates before any agreement queue or ZIP.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout
   - strict_span_type_recall_on_manual_holdout

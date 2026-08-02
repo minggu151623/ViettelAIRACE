@@ -711,6 +711,11 @@ The strongest verified direction is conservative structural cleanup:
   one early-stopped fold emits zero spans above 0.90. Each checkpoint requires
   calibration on its own disjoint validation fold before its confidence can be
   compared or thresholded.
+- **Early stopping can fire before confidence matures.** H33's per-fold
+  calibration still leaves one fold empty. That model stopped at epoch three
+  and retained epoch one, while H30's useful precision emerged after epochs
+  four through eight. A minimum-epoch safeguard must be tested on the failed
+  fold before scaling any seed ensemble.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
