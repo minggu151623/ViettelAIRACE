@@ -21,3 +21,11 @@ produce the same ZIP SHA-256:
 `032041a8f92bc97ca6a92d4cb4809d6aa39122471056df97bfe1fd1fe4585abc`
 
 Artifact: `turn2/output_v9_verified_symptoms.zip`.
+
+## External result
+
+The user submitted the exact artifact and reported 38.9720 versus H23's
+38.9352. WER improved from 57.2161 to 56.9633, assertion Jaccard declined from
+47.5455 to 47.4154, and candidate Jaccard remained 29.5910. The net gain is
+only 0.0368. H37 supports shorter symptom cores weakly, but closes micro-queue
+integration as a path to a leaderboard-scale improvement.

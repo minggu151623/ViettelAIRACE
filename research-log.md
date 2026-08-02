@@ -1167,3 +1167,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - All 100 records validate; 108 tests pass; repeated packaging is byte-identical
   at SHA-256 `032041a8f92bc97ca6a92d4cb4809d6aa39122471056df97bfe1fd1fe4585abc`.
 - Created `turn2/output_v9_verified_symptoms.zip`. It has not been submitted.
+
+## 2026-08-02 — H37 external result: 38.9720
+
+- The user submitted the exact H37 artifact and reported score 38.9720, only
+  +0.0368 over H23's 38.9352.
+- WER improved 57.2161 → 56.9633 (+0.2528 favorable), assertion Jaccard fell
+  47.5455 → 47.4154 (-0.1301), and candidate Jaccard stayed 29.5910.
+- The score decomposition exactly explains the gain:
+  `0.3*0.2528 - 0.3*0.1301 = 0.03681`.
+- The shorter symptom-boundary direction is weakly supported, but a 26-row
+  controlled queue is not a breakthrough path. The outer loop pivots to a
+  large-scale multi-view extraction/assertion/normalization ensemble.

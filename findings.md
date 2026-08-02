@@ -738,6 +738,12 @@ The strongest verified direction is conservative structural cleanup:
   H37 applies only the first two groups. It removes 314 net boundary characters
   while freezing candidates and all unaffected entities; structural and
   determinism gates pass. External effect is not yet known.
+- **H37 confirms the boundary direction but rejects small verified queues as a
+  breakthrough strategy.** External WER improves 57.2161 → 56.9633, while
+  assertion Jaccard falls 47.5455 → 47.4154 and candidates remain 29.5910.
+  The net score gain is only 0.0368. Twenty-six edits cannot close the gap;
+  subsequent work must change extraction, assertion, and normalization at
+  architecture scale rather than extend H37 with another handful of rows.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
