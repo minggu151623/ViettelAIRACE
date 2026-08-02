@@ -1,0 +1,77 @@
+hypothesis: H28_constrained_local_boundary_selector
+status: preregistered
+created_at: "2026-08-02T23:10:00+07:00"
+question: >
+  Can a local LLM recover complete organizer-like span boundaries by selecting
+  only among exact substrings around a truncated seed, while preserving spans
+  that are already complete?
+
+data:
+  input: turn2/input
+  pseudo_target: turn2/output_v8_candidate_semantic
+  target_warning: H23_is_not_organizer_ground_truth
+  split_source: airace.proposal_pu.DEFAULT_TRAIN_DEFAULT_DEV_DEFAULT_TEST
+  selection:
+    types:
+      - CHẨN_ĐOÁN
+      - TRIỆU_CHỨNG
+      - TÊN_XÉT_NGHIỆM
+      - KẾT_QUẢ_XÉT_NGHIỆM
+      - THUỐC
+    minimum_whitespace_tokens: 2
+    maximum_whitespace_tokens: 8
+    require_gold_present_in_enumerated_choices: true
+
+synthetic_corruption:
+  one_per_entity: true
+  seed_choice: sha256_record_start_end_type_parity_selects_first_or_last_token
+  unchanged_control: original_full_span
+  note: corruption_is_for_boundary_evaluation_not_training
+
+candidate_enumeration:
+  source: exact_raw_text_substrings_only
+  local_scope: same_line
+  seed_must_be_contained: true
+  maximum_tokens: 10
+  maximum_left_tokens: 4
+  maximum_right_tokens: 4
+  trim_outer_punctuation: true
+  include_seed: true
+  include_DROP: true
+  sort: shorter_distance_then_length_then_offsets
+
+selector:
+  model: qwen3:8b
+  ollama_id: 500a1f067a9f
+  temperature: 0
+  seed: 4817
+  prompt: boundary_completeness_and_clinical_type
+  output: one_enumerated_choice_id_or_DROP
+  may_invent_or_edit_span: false
+  type_is_frozen: true
+
+evaluation:
+  dev_gate_before_test:
+    - enumerator_coverage_at_least_0_95
+    - corrupted_exact_recovery_at_least_0_70
+    - unchanged_control_retention_at_least_0_93
+    - malformed_response_rate_equals_0
+  final_test_gate:
+    - corrupted_exact_recovery_at_least_0_65
+    - unchanged_control_retention_at_least_0_90
+    - no_type_has_corrupted_recovery_below_0_45_when_support_at_least_10
+    - byte_identical_cached_rebuild
+
+application_gate:
+  prerequisite: all_dev_and_test_gates_pass
+  eligible_real_candidates: H27_unanimous_KEEP_only
+  replacement_rule: >
+    Replace only when selected span strictly contains the seed, does not
+    overlap an H20 entity, and is accepted by the same frozen selector.
+  evaluation_after_application: compare_H20_plus_repaired_H27_against_H23_on_dev_and_test
+  submission_rule: no_ZIP_without_separate_end_to_end_promotion_gate
+
+failure_policy: >
+  Cancel test and real-candidate application if any dev gate fails. Do not tune
+  enumeration or prompt after seeing dev decisions; register a new hypothesis
+  instead. Never treat synthetic recovery as proof of organizer-score gain.
