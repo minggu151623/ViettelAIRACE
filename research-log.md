@@ -1327,3 +1327,18 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   `5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba`.
   External WER/assertions should remain fixed; H44 is the first reset-slot
   candidate and measures whether H23 generalizes to a corpus-wide hierarchy policy.
+
+## 2026-08-03 — H44 external interpretation locked before score reveal
+
+- Reverified the packaged artifact hash and kept H44 as the only pending
+  leaderboard experiment; no second ZIP was constructed while attribution is
+  unresolved.
+- Froze a fail-first validation branch: any WER/assertion movement above
+  displayed precision, or failure of score delta to reconcile with
+  `0.4 × candidate delta`, invalidates mechanistic interpretation.
+- Registered a candidate-Jaccard practical-null band of ±0.02 and a strong
+  generalization gate of +0.50 (equivalent to +0.20 total score). Outcomes now
+  map deterministically to promote, constrain, close, or reject the hierarchy
+  mechanism.
+- Created an HTML reset-slot report in `to_human/` so the baseline, trajectory,
+  artifact identity and post-result actions can be audited before submission.

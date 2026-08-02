@@ -1,0 +1,89 @@
+hypothesis: H44_full_who_family_hedge
+locked_at: "2026-08-03T03:03:48+07:00"
+status: awaiting_external_result
+purpose: >
+  Freeze the interpretation and next action before the H44 leaderboard metrics
+  are known, so the reset submission cannot silently redefine success.
+
+artifact:
+  path: turn2/output_v12_full_who_family_hedge.zip
+  sha256: 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba
+
+baseline_h38:
+  score: 39.2813
+  wer_percent: 56.1576
+  j_assertion: 47.3920
+  j_candidates: 29.7776
+
+derived_checks:
+  score_formula: "score = 0.3*(100-WER) + 0.3*J_assertion + 0.4*J_candidates"
+  expected_wer_delta: 0.0
+  expected_assertion_delta: 0.0
+  invariant_display_tolerance: 0.0001
+  score_reconciliation_tolerance: 0.0002
+  strong_candidate_delta: 0.5
+  equivalent_strong_score_delta: 0.2
+  practical_null_band: 0.02
+
+branch_order:
+  - id: validation_anomaly
+    when: >
+      abs(delta_WER) > 0.0001 OR abs(delta_J_assertion) > 0.0001 OR
+      abs(delta_score - 0.4*delta_J_candidates) > 0.0002.
+    interpretation: >
+      The returned metrics are not attributable to the candidate-only H44
+      transform, or the wrong artifact/result was recorded.
+    action: >
+      Stop interpretation, verify the submitted ZIP SHA-256 and transcribed
+      metrics, and do not construct a follow-up artifact.
+
+  - id: strong_positive
+    when: >
+      delta_J_candidates >= 0.5, delta_score >= 0.2, and all derived checks pass.
+    interpretation: >
+      Mixed parent/specific hierarchy is a corpus-wide target policy rather
+      than a CM-exclusive exception.
+    action: >
+      Promote H44 to best baseline. Do not sweep thresholds; use the remaining
+      slots only for a distinct, preregistered mechanism or the H41 blind-label
+      challenger.
+
+  - id: small_positive
+    when: >
+      delta_J_candidates > 0.02 but < 0.5 and all derived checks pass.
+    interpretation: >
+      The hierarchy hedge transfers, but most of the 467 rows beyond H23 are
+      neutral or harmful; the effect is too diluted for indiscriminate scaling.
+    action: >
+      Keep H44 only if its total score is higher than H38. Freeze broad family
+      expansion and require an independently motivated subgroup ablation before
+      spending another slot.
+
+  - id: practical_null
+    when: >
+      abs(delta_J_candidates) <= 0.02 and all derived checks pass.
+    interpretation: >
+      The evaluator is effectively insensitive to the additional broad hedge,
+      or matched gains and penalties cancel at displayed precision.
+    action: >
+      Retain H38, close generalized hierarchy expansion, and move effort to H41
+      prediction-blind labels rather than another ontology sweep.
+
+  - id: negative
+    when: >
+      delta_J_candidates < -0.02 and all derived checks pass.
+    interpretation: >
+      H23 was specific to ontology-version mismatch; broad parent insertion
+      reduces candidate precision.
+    action: >
+      Reject H44, retain H38, forbid further broad parent expansion, and pivot
+      all research effort to independently labeled span/assertion policy.
+
+result_fields_to_record:
+  - submitted_zip_sha256
+  - score
+  - wer_percent
+  - j_assertion
+  - j_candidates
+  - branch_id
+  - decision

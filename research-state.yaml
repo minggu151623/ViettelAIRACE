@@ -55,7 +55,10 @@ current_direction: >
   only 1/19 frozen hazards despite 100% same-run seed agreement. H44 pivots to
   the externally supported H23 mechanism and expands the same-family WHO hedge
   to 611 singleton diagnoses across 97 records. It passes all local gates and
-  is the next submission candidate; external measurement is pending.
+  is the next submission candidate; external measurement is pending. Its
+  interpretation is now locked before score reveal: metric invariants are
+  checked first, then candidate deltas branch at ±0.02 and +0.50 rather than
+  being rationalized after the result.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -435,6 +438,7 @@ experiments:
     - "H42 H41 evaluator: passage-local scoring, boundary-crossing rejection, stratified unique-passage bootstrap; 127 tests pass"
     - "H43 dual ontology review rejected: 100% within-run agreement but only 1/19 prior hazard uses reproduced; no ZIP"
     - "H44 full WHO hedge: 611 diagnosis rows across 97 records; 100/100 valid, 132 tests, deterministic ZIP 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba"
+    - "H44 external decision tree locked before score reveal: candidate delta null band ±0.02, strong-positive gate +0.50, candidate-only metric invariants required"
   next: >
     Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
     candidate Jaccard before constructing another artifact. In parallel,
