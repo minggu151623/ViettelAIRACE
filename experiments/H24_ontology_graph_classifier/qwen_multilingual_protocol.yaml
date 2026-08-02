@@ -1,0 +1,54 @@
+experiment: H24_qwen3_multilingual_dense_retrieval
+status: preregistered_before_any_dataset_embedding
+registered_at: "2026-08-02T08:58:00+07:00"
+fallback_artifact: turn2/output_v8_candidate_semantic.zip
+rationale: >
+  Bami is a Vietnamese NER encoder and all frozen, projected and prototype
+  variants failed held-out ontology retrieval. Qwen3 Embedding is designed for
+  multilingual and cross-lingual retrieval, so this is a source-model change
+  rather than another head on the failed representation.
+model:
+  provider: Ollama
+  identifier: qwen3-embedding:0.6b
+  ollama_id: ac6da0dfba84
+  blob_sha256: 06507c7b42688469c4e7298b0a1e16deff06caf291cf0a5b278c308249c3e439
+  parameters: 0.6B
+  embedding_dimensions: 1024
+  policy: frozen_no_fitting_no_prototypes
+data:
+  dataset: experiments/H24_ontology_graph_classifier/link_dataset.json
+  dataset_sha256: c78f3c57afe038a0f9ff06e20b39475e2ad5e83d67fb2c6e46c161e0489b9aaf
+  label_status: weak_pseudo_labels_not_organizer_ground_truth
+  ontology_nodes: 69991
+encoding:
+  query_template: >-
+    Instruct: Retrieve the English ICD-10 or RxNorm concept equivalent to the
+    Vietnamese clinical mention.\nQuery: {mention}
+  document_template: "{canonical_title}"
+  query_instruction_language: English
+  normalize_embeddings: true
+  cache_dtype: float16
+retrieval:
+  metric: cosine_similarity
+  type_restricted: true
+  top_k: [1, 5, 10]
+  tie_break: stable_concept_identifier
+evaluation:
+  folds: [train, dev, test]
+  report_by: [fold, entity_type]
+  test_policy: one_deterministic_pass_without_hyperparameter_selection
+  baselines:
+    lexical_dev_recall_at_1: 0.1111111111111111
+    lexical_test_recall_at_1: 0.10714285714285714
+    bami_dense_dev_recall_at_1: 0.05555555555555555
+    bami_dense_test_recall_at_1: 0.05357142857142857
+promotion_gate:
+  dev_and_test_recall_at_1_over_lexical_absolute: 0.05
+  dev_and_test_recall_at_5_over_lexical_absolute: 0.08
+  require_diagnosis_recall_at_1_above_lexical: true
+  leaderboard_is_not_used_for_selection: true
+failure_policy:
+  - Preserve H23 when multilingual dense retrieval fails the internal gate.
+  - If diagnosis improves but drug regresses, preregister a type-specialist fusion.
+  - Do not add graph reranking unless the dense candidate pool has useful recall.
+  - Do not create a challenger ZIP from weak-link retrieval alone.

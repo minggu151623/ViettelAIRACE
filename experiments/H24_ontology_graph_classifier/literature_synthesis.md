@@ -88,3 +88,19 @@ under preregistered gates.
 - Do not package a challenger before dense, graph and context ablations clear
   the frozen offline gates.
 
+## Dedicated multilingual retrieval correction
+
+The Bami ablations later showed that a Vietnamese token-classification encoder
+does not align mentions to English ontology titles. The replacement baseline is
+the official `Qwen3-Embedding-0.6B`, not the general Qwen chat model. The Qwen
+team documents 100+ supported languages, cross-lingual retrieval, 1024 output
+dimensions, instruction-aware queries and Matryoshka representations:
+
+- https://github.com/QwenLM/Qwen3-Embedding
+- https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
+- https://qwenlm.github.io/blog/qwen3-embedding/
+
+H24 pins the local Ollama blob, uses one English task instruction for every
+Vietnamese query and leaves ontology titles unprompted. It is first evaluated
+without training, graph features or score fusion so any gain is attributable
+to the retrieval-specific multilingual source model.
