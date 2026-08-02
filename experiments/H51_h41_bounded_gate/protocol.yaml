@@ -26,11 +26,12 @@ candidate_bounds:
     assumptions: "independent iid deltas within each frozen stratum"
 
 bounded_stress_families:
-  - symmetric_uniform
-  - rademacher
-  - beta_right_skew
-  - beta_left_skew
-  - rare_two_point
+  names:
+    - symmetric_uniform
+    - rademacher
+    - beta_right_skew
+    - beta_left_skew
+    - rare_two_point
   construction: >
     Every centered noise family is scaled to support inside [-0.5,0.5]. An
     effect d is added as d times that family's theoretical standard deviation,
