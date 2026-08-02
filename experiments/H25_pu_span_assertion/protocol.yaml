@@ -21,14 +21,14 @@ frozen_inputs:
     external_score: 29.8409
   proposal_banks:
     vietmed_ner:
-      path: experiments/H15_core_ensemble/vietmed_proposals
-      digest: 2a009d5975458927fe3070eab06851e46869b02c44865fbd6ebf13ad3f51fac9
+      path: experiments/H_turn2_multimodel_core/proposals_vietmed
+      digest: f114855b66abfee542dd8573cd379b1dd0e0625d2ff9d7d9f8848043de40e16f
     bami_v15:
-      path: experiments/H15_core_ensemble/bami_proposals
-      digest: e46893c9994988d0aa42c6ca5d9d45bd77bcb72b131721b355479fd2fa58fb8b
+      path: experiments/H_turn2_multimodel_core/proposals_bami_v15
+      digest: 1e7ebfd8b5fc05141d730aba807b3679b1d269e9dd34e29dff5bd820dc28b46c
     bami_v3:
-      path: experiments/H15_core_ensemble/bami_v3_proposals_rerun
-      digest: 148de249988dbe185ba75f4ee2da712a63bbcfd36a85f0d8b74cf738004b13a9
+      path: experiments/H_turn2_multimodel_core/proposals_bami_v3
+      digest: 4e36effb1de5871a4311ca41b5a47031c05f03dec9ab1bb2d9f10b7071ae8293
 
 record_split:
   method: sha256_order
