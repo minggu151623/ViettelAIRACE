@@ -47,6 +47,10 @@ current_direction: >
   a 45/15 development/holdout split and an independent 15-passage reviewer-2
   queue. The next model experiment is blocked until both reviewers complete and
   checksum-lock their labels; no model output may be exposed before that lock.
+  H42 repaired the preregistered statistical gate before labels: occurrence-
+  level bootstrap is anti-conservative under repeated-passage correlation, so
+  the frozen evaluator now scores passage-local windows and resamples the 15
+  unique holdout passages within multiplicity strata.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -256,6 +260,17 @@ hypotheses:
       a10b345aea2247cc5843e89894130f43279bd5bfc36c7bfda0c7abd357bd5f08.
       Model training and artifact creation are intentionally blocked pending
       two independently checksum-locked annotation files.
+  H42_h41_cluster_gate:
+    status: supported_by_preregistered_simulation
+    prediction: >
+      Exact repeated occurrences are correlated evidence, so occurrence-level
+      bootstrap will inflate false promotions while passage-stratified cluster
+      bootstrap will retain near-nominal error under correlated nulls.
+    result: >
+      At within-passage correlation 0.6, false promotion fell 10.55% -> 5.43%;
+      at 0.9 it fell 13.28% -> 5.10%. Both locked reduction gates passed. The
+      H41 evaluator now scores only labeled passage windows, rejects boundary-
+      crossing predictions and resamples 15 unique passages within strata.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -392,11 +407,15 @@ experiments:
     - "H40 rejected before integration: 88.37% stability and 551 changes; controls 47/48; no ZIP"
     - "H41 blind queue audit passed: 60 passages, 164 occurrences, 45/15 split, 55,200 projected characters; no model prefill"
     - "H41 tooling: two-stage passage/occurrence UI, complete-label validator and reviewer-agreement gate; 123 tests pass"
+    - "H42 correlated-null audit: occurrence bootstrap false promotion 10.55/13.28% at rho 0.6/0.9 versus 5.43/5.10% passage-clustered"
+    - "H42 H41 evaluator: passage-local scoring, boundary-crossing rejection, stratified unique-passage bootstrap; 127 tests pass"
   next: >
     Complete H41 reviewer_1 labels for all 60 passages and independent
     reviewer_2 labels for the frozen 15-passage double-annotation queue. Lock
     both checksums, require span/type F1 >= 0.85 and assertion Jaccard >= 0.80,
-    then adjudicate and run a one-shot H38-versus-challenger holdout comparison.
+    then adjudicate and run a one-shot H38-versus-challenger holdout comparison
+    with the frozen H42 passage-clustered evaluator. Treat all 164 occurrence-
+    level estimates as descriptive, never as independent bootstrap units.
     Do not expose H38/model predictions to either reviewer before label lock.
 proxy_metrics:
   - strict_span_type_precision_on_manual_holdout

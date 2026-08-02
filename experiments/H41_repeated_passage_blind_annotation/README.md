@@ -76,3 +76,11 @@ python -m airace passage-reviewer-agreement \
 Gate là strict span/type F1 ≥ 0,85 và assertion macro-Jaccard ≥ 0,80. Candidate
 agreement chỉ được báo cáo chẩn đoán vì người gán nhãn được phép để trống mã khi
 không chắc chắn.
+
+## Lưu ý thống kê H42
+
+41 occurrence trong holdout chỉ đến từ 15 passage độc lập. Không bootstrap
+occurrence như 41 mẫu riêng. Sau adjudication, so sánh model phải dùng
+`airace.h41_cluster_gate.evaluate_h41_passage_challenger`: scorer chỉ nhìn vùng
+passage đã gán nhãn, phạt span cắt qua biên passage và bootstrap passage theo ba
+strata high/middle/low. Kết quả occurrence-weighted chỉ mang tính mô tả.

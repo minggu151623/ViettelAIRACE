@@ -1,0 +1,61 @@
+{
+  "hypothesis": "H42_h41_cluster_gate",
+  "seed": 424241,
+  "replications": 10000,
+  "bootstrap_iterations_per_replication": 1000,
+  "cluster_sizes": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "independent_passages": 15,
+  "descriptive_occurrences": 41,
+  "results": [
+    {
+      "rho": 0.0,
+      "naive_false_promotion_rate": 0.0295,
+      "cluster_false_promotion_rate": 0.0518,
+      "absolute_rate_reduction": -0.0223
+    },
+    {
+      "rho": 0.3,
+      "naive_false_promotion_rate": 0.0678,
+      "cluster_false_promotion_rate": 0.0525,
+      "absolute_rate_reduction": 0.0153
+    },
+    {
+      "rho": 0.6,
+      "naive_false_promotion_rate": 0.1055,
+      "cluster_false_promotion_rate": 0.0543,
+      "absolute_rate_reduction": 0.0512
+    },
+    {
+      "rho": 0.9,
+      "naive_false_promotion_rate": 0.1328,
+      "cluster_false_promotion_rate": 0.051,
+      "absolute_rate_reduction": 0.0818
+    }
+  ],
+  "registered_gates": {
+    "rho_0_6_reduction_at_least_0_03": true,
+    "rho_0_9_reduction_at_least_0_08": true
+  },
+  "decision": "PASS",
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.1.3"
+  },
+  "content_sha256_before_hash_field": "41fe66757a7f9fa7cce65538a357d81e19de13955e9a76b4b8406367cb0b63fe"
+}

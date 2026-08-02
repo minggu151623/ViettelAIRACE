@@ -1284,3 +1284,21 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - Added completeness/offset validation and locked inter-reviewer gates of
   strict span/type F1 ≥ 0.85 and assertion macro-Jaccard ≥ 0.80. All 123 tests
   pass. No model was trained, no output was altered and no ZIP was created.
+
+## 2026-08-03 — H42 repairs H41's statistical unit before labels
+
+- Preregistered a correlated-null audit after identifying that the existing
+  blind evaluator is record-level while H41 labels exact repeated passages.
+  The frozen holdout has 15 independent passages but 41 occurrences.
+- Ran 10,000 null replications with 1,000 percentile bootstraps each. At
+  within-passage correlation 0.6, occurrence-level false promotion was 10.55%
+  versus 5.43% passage-clustered; at correlation 0.9 it was 13.28% versus
+  5.10%. The locked reductions of at least 3 and 8 percentage points passed.
+- Implemented a passage-local evaluator that never treats unannotated record
+  regions as gold negatives, rejects passage-boundary-crossing predictions,
+  aggregates assertions inside passage clusters and resamples passages within
+  the frozen high/middle/low strata. Occurrence-weighted output is diagnostic.
+- The simulation JSON is byte-identical across reruns with SHA-256
+  `2e62fc1e3ae59b173653030007803d451d2a7ab7252bd56e2bc84a2942a94efa`.
+  All 127 tests pass. No reviewer labels, model outputs or submission artifact
+  were opened or created.

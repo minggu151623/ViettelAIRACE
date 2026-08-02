@@ -791,6 +791,21 @@ The strongest verified direction is conservative structural cleanup:
   requires a separate assertion row for every entity occurrence. The validator
   rejects incomplete occurrence coverage and supports multiple simultaneous
   assertions.
+- **Repeated occurrences are annotation multipliers, not statistical sample
+  multipliers.** H42 simulates the frozen 15-passage/41-occurrence holdout under
+  a zero-effect correlated null. At within-passage correlation 0.6, naive
+  occurrence bootstrap falsely promotes 10.55% of runs versus 5.43% for the
+  stratified passage bootstrap; at correlation 0.9 the rates are 13.28% versus
+  5.10%. Both preregistered reduction gates pass. H41 must therefore make
+  inference over 15 unique passage clusters and label occurrence-weighted
+  results descriptive only.
+- **The old record-level blind evaluator is invalid for passage-local gold.**
+  H41 does not annotate the rest of a record, so a complete-record scorer would
+  turn unknown regions into false negatives or false positives. The H42
+  evaluator scores exact passage windows, penalizes spans crossing their frozen
+  boundaries, aggregates occurrence-specific assertions within passage, and
+  resamples passages inside the frozen multiplicity strata. This repair was
+  completed before either reviewer label file existed.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?
