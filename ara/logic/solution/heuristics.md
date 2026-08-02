@@ -174,3 +174,13 @@
 - **Sensitivity**: high
 - **Code ref**: [`airace/h41_cluster_gate.py`,
   `tests/test_h41_cluster_gate.py`]
+
+## H21: Gate LLM review with longitudinal hazards
+- **Rationale**: Two seeds can agree perfectly because they share the same
+  prompt, context construction and model. Require reproduction of independently
+  frozen prior contradictions before allowing a full-head semantic rewrite;
+  delete the artifact when this temporal gate fails.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/candidate_surgery.py`,
+  `tests/test_candidate_surgery.py`]

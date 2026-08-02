@@ -1,0 +1,57 @@
+session:
+  id: "2026-08-03_003"
+  timestamp: "2026-08-03T12:40+07:00"
+  summary: "Rejected unstable H43 candidate pruning and built H44's deterministic 611-row WHO hierarchy submission candidate."
+
+events_logged:
+  - type: pivot
+    id: N53
+    provenance: user
+    summary: "Five leaderboard slots reset; user requested a breakthrough next submission."
+  - type: dead_end
+    id: N54
+    provenance: ai-executed
+    summary: "H43 failed its independent temporal hazard gate despite perfect same-run seed agreement."
+  - type: experiment
+    id: N55
+    provenance: ai-executed
+    summary: "H44 changed 611 same-family candidate rows, passed all gates and produced a deterministic ZIP."
+  - type: claim
+    id: C39
+    provenance: ai-suggested
+    summary: "Same-run LLM agreement is not longitudinal candidate calibration."
+  - type: claim
+    id: C40
+    provenance: ai-suggested
+    summary: "H23's parent/specific policy may generalize to all singleton diagnosis candidates."
+  - type: heuristic
+    id: H21
+    provenance: ai-suggested
+    summary: "Use frozen temporal hazards to gate full-head LLM semantic rewrites."
+
+ai_actions:
+  - action: "Preregistered and ran 621-tuple dual candidate review, then deleted the failed H43 ZIP."
+    provenance: ai-executed
+    files_changed: ["airace/candidate_surgery.py", "experiments/H43_candidate_contradiction_surgery"]
+  - action: "Preregistered, built, validated and repeated H44's full WHO hierarchy hedge."
+    provenance: ai-executed
+    files_changed: ["airace/full_who_hedge.py", "experiments/H44_full_who_family_hedge"]
+  - action: "Ran 132 tests and verified two H44 ZIP hashes were identical."
+    provenance: ai-executed
+    files_changed: ["tests/test_candidate_surgery.py", "tests/test_full_who_hedge.py"]
+
+claims_touched:
+  - id: C39
+    action: created
+    provenance: ai-suggested
+  - id: C40
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "User should submit H44 exactly once and report score plus all three components."
+  - "Do not build the second reset-slot artifact before attributing H44's candidate-only effect."
+  - "H41 independent reviewer labels remain pending."
+
+ai_suggestions_pending:
+  - "Interpret any H44 movement as candidate-derived because text/type/assertion fields are frozen."

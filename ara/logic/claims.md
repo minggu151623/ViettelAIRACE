@@ -511,3 +511,31 @@
   `airace/h41_cluster_gate.py`]
 - **Dependencies**: [C37]
 - **Tags**: bootstrap, clustered-data, repeated-passages, promotion-gate
+
+## C39: Same-run LLM agreement does not establish candidate-review stability
+- **Statement**: Agreement between deterministic seeds under one prompt batch
+  is insufficient to authorize ontology pruning when decisions fail to
+  reproduce frozen known-title contradictions from an earlier review.
+- **Status**: supported internally by H43
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A preregistered repeat review reproduces at least
+  80% of independent frozen hazard uses while preserving positive controls.
+- **Proof**: [`experiments/H43_candidate_contradiction_surgery/protocol.yaml`,
+  `experiments/H43_candidate_contradiction_surgery/results/build_report.json`]
+- **Dependencies**: [C13]
+- **Tags**: LLM-review, calibration, temporal-stability, candidates
+
+## C40: H23's mixed-hierarchy policy may generalize corpus-wide
+- **Statement**: Preserving each specific diagnosis code while adding its valid
+  WHO three-character family across all eligible H38 singletons may improve
+  candidate Jaccard without changing WER or assertion score.
+- **Status**: locally validated submission candidate; external result pending
+- **Provenance**: ai-suggested
+- **Falsification criteria**: H44 changes any non-candidate field, fails
+  deterministic validation, or externally lowers candidate Jaccard relative to
+  H38 while WER/assertions remain invariant.
+- **Proof**: [`experiments/H44_full_who_family_hedge/protocol.yaml`,
+  `experiments/H44_full_who_family_hedge/results/build_report.json`,
+  `turn2/output_v12_full_who_family_hedge.zip`]
+- **Dependencies**: [C24, C25, C39]
+- **Tags**: WHO-ICD, hierarchy, parent-specific, submission-candidate

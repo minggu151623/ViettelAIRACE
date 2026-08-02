@@ -689,3 +689,46 @@ tree:
             evidence: [C38,
               "experiments/H42_h41_cluster_gate/results/null_simulation.json",
               "ara/evidence/tables/h42_cluster_gate.md"]
+
+  - id: N53
+    type: pivot
+    title: "Use reset leaderboard slots for architecture-scale candidate policies"
+    provenance: user
+    timestamp: "2026-08-03T11:00+07:00"
+    from: "Waiting exclusively for H41 independent annotations"
+    to: "Build one locally gated high-upside submission candidate"
+    trigger: >
+      The user reported that five submission slots had reset and explicitly
+      requested a breakthrough improvement for the next submission.
+    children:
+      - id: N54
+        type: dead_end
+        title: "H43 dual-seed candidate contradiction surgery"
+        provenance: ai-executed
+        timestamp: "2026-08-03T12:00+07:00"
+        hypothesis: >
+          Two constrained ontology-review seeds can stably identify incorrect
+          H38 ICD/RxNorm candidate uses without changing any other field.
+        failure_mode: >
+          The two current seeds agreed 100% and proposed 118 controlled
+          removals, but reproduced only 1/19 prior known-title hazard uses
+          versus the locked 80% stability gate.
+        lesson: >
+          Same-prompt seed agreement is not longitudinal semantic calibration;
+          independent frozen hazard controls must dominate batch unanimity.
+        evidence: [C39,
+          "experiments/H43_candidate_contradiction_surgery/results/build_report.json"]
+      - id: N55
+        type: experiment
+        title: "H44 corpus-wide WHO family hedge"
+        also_depends_on: [N54]
+        provenance: ai-executed
+        timestamp: "2026-08-03T12:30+07:00"
+        result: >
+          Extended H23's externally positive parent/specific mechanism to 611
+          singleton diagnoses across 97 records. All 3,226 entities and 100
+          files validate, 132 tests pass, and repeat ZIPs are byte-identical at
+          SHA-256 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba.
+        evidence: [C40,
+          "experiments/H44_full_who_family_hedge/results/build_report.json",
+          "ara/evidence/tables/h43_h44_reset_slot.md"]
