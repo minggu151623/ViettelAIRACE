@@ -1,0 +1,79 @@
+hypothesis: H38_large_scale_multiview_consensus
+status: preregistered
+created_at: "2026-08-02T13:35:00+07:00"
+question: >
+  Can exact agreement among five heterogeneous proposal views scale the weakly
+  positive H37 boundary signal from 26 edits to at least 150 controlled edits
+  while jointly preserving assertions and candidates?
+
+baseline:
+  artifact: turn2/output_v9_verified_symptoms.zip
+  sha256: 032041a8f92bc97ca6a92d4cb4809d6aa39122471056df97bfe1fd1fe4585abc
+  external_score: 38.9720
+
+frozen_views:
+  bami_v15:
+    sha256: 2dd6b6e6804e80afb3419f32c705851b4ae8055e4aa866492644c444958091cd
+  bami_v3:
+    sha256: 71d6a38f7f55aad80857e456172e9c00175d6c47cf9f9cf4cf8498fbd116a75e
+  vietmed:
+    sha256: 5bc85a01d47119d29696865d3be0feb51d905c3eecd1780f9d4802bb86c3b69b
+  qwen_guarded:
+    sha256: 0f5a53fdd46a82dc2556ae11f3b53615a5ed6448cc156100801aac2c8bc979c4
+  h34_oof:
+    sha256: 21823c984a992ce29ac6dc84e529e3056ec4192db0b23137d2bdcc82cce811a4
+
+exploratory_census_before_lock:
+  exact_novel_vs_H23_with_at_least_3_of_5_views: 320
+  exact_novel_vs_H37_with_at_least_3_of_5_views: 301
+  structurally_actionable_vs_H37: 209
+
+selection_policy:
+  minimum_distinct_exact_views: 3
+  allowed_relations: [disjoint, contained_same_type]
+  forbidden_relations: [cross_type, partial_same_type, contains_same_type]
+  registered_hazards: [doxycyclinebactrim, klonopinclonidine, "ảo giácxuất", buồn, đoạn]
+  verifier:
+    model: qwen3:8b
+    model_id: 500a1f067a9f
+    prompts: frozen_H27_semantic_and_boundary
+    decision: unanimous_KEEP_and_not_registered_hazard
+  positive_controls:
+    pool: H37_exact_rows_supported_by_at_least_3_of_5_views
+    selection: sha256_seed_3817_first_12_per_available_type
+    hidden_from_prompt: true
+
+integration_policy:
+  contained_same_type:
+    action: replace_containing_rows
+    assertions: inherit_union_from_replaced_rows
+    candidates: inherit_union_from_replaced_rows
+  disjoint_non_candidate_type:
+    action: add
+    assertions: unchanged_rule_engine
+  disjoint_diagnosis_or_drug:
+    action: add_only_if_normalized_H37_alias_has_one_unanimous_nonempty_candidate_tuple
+    assertions: unchanged_rule_engine
+    candidates: exact_alias_tuple
+  unaffected_rows: dictionary_identical
+
+gates:
+  - frozen_hashes_match
+  - verifier_responses_complete
+  - positive_control_retention_at_least_0.85
+  - registered_hazard_drop_rate_equals_1
+  - prompt_action_agreement_at_least_0.80
+  - at_least_150_rows_survive_all_filters
+  - zero_cross_type_partial_or_contains_changes
+  - all_100_records_validate
+  - repeated_output_and_zip_are_byte_identical
+
+if_passed:
+  output: turn2/output_v10_multiview_consensus
+  zip: turn2/output_v10_multiview_consensus.zip
+  status: candidate_artifact_not_submitted
+
+failure_policy: >
+  Do not lower the three-view threshold, loosen structural relations, invent a
+  candidate, or edit verifier prompts after observing results. If fewer than
+  150 rows survive, create no ZIP and return to architecture/data work.
