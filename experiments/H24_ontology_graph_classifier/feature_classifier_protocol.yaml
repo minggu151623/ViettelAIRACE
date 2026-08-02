@@ -1,0 +1,54 @@
+experiment: H24_mined_candidate_feature_classifier
+status: preregistered_before_feature_extraction_or_fitting
+registered_at: "2026-08-02T10:16:00+07:00"
+fallback_retriever: fixed_type_specialist_router
+candidate_pool:
+  source: stable_union_of_qwen_top10_then_lexical_top10
+  maximum_candidates: 20
+  dev_oracle_recall: 0.3055555555555556
+  test_oracle_recall: 0.4107142857142857
+data:
+  dataset: experiments/H24_ontology_graph_classifier/link_dataset.json
+  dataset_sha256: c78f3c57afe038a0f9ff06e20b39475e2ad5e83d67fb2c6e46c161e0489b9aaf
+  labels: candidate_identifier_in_weak_gold_set
+  training_fold: train_only
+  group_policy: exclude_train_rows_whose_gold_is_absent_from_candidate_pool
+features:
+  semantic:
+    - reciprocal_qwen_rank
+    - reciprocal_lexical_rank
+    - reciprocal_router_rank
+    - qwen_mention_title_cosine
+    - qwen_context_title_cosine
+    - normalized_alias_sequence_similarity
+    - exact_normalized_alias_match
+    - code_specificity
+    - entity_type
+  graph:
+    - log_direct_degree
+    - direct_neighbors_inside_candidate_pool
+    - has_parent_inside_candidate_pool
+    - has_child_inside_candidate_pool
+model:
+  classifier: sklearn_LogisticRegression
+  regularization: l2
+  C: 1.0
+  class_weight: balanced
+  max_iter: 2000
+  scaler: StandardScaler
+  random_seed: 2402
+  variants: [semantic_only, semantic_plus_graph]
+selection:
+  criterion: highest_dev_recall_at_1_then_recall_at_5
+  test_policy: score_test_once_after_dev_variant_selection
+  tie_break: router_rank_then_identifier
+promotion_gate:
+  selected_dev_and_test_recall_at_1_over_router_absolute: 0.05
+  selected_dev_and_test_recall_at_5_no_regression: true
+  graph_independent_gain_required_to_claim_graph: 0.03
+  leaderboard_is_not_used_for_selection: true
+failure_policy:
+  - Preserve the fixed router when either dev or test gate fails.
+  - Do not tune C, feature thresholds or candidate depth after test.
+  - Do not interpret weak-link classification accuracy as organizer truth.
+  - Do not create a challenger ZIP from linker metrics alone.
