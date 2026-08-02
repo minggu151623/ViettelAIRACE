@@ -39,3 +39,5 @@
   dev gain failed uncertainty and cardinality gates, so test remained unopened.
 - H47 assertion leverage: `tables/h47_assertion_leverage.md`; repeated external
   assertion loss covered 36 novel entities but only 0.04605 weighted points.
+- H48 H41 power curve: `tables/h48_h41_power.md`; 15 passages control Type-I
+  at 0.053 but have only 0.5882 power at `d=0.5`, while 30 reach 0.8034.

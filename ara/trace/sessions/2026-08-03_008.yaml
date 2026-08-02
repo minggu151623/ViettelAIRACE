@@ -1,0 +1,44 @@
+session:
+  id: "2026-08-03_008"
+  timestamp: "2026-08-03T04:25+07:00"
+  summary: "Quantified H41's power limit and reclassified its frozen holdout as a high-effect confirmation gate rather than an equivalence test."
+
+events_logged:
+  - type: experiment
+    id: N60
+    provenance: ai-executed
+    summary: "H48 found 0.053 Type-I error but only 0.5882 power at d=0.5 for 15 passages; 30 passages reached 0.8034."
+  - type: claim
+    id: C44
+    provenance: ai-suggested
+    summary: "A negative H41 holdout result cannot establish equivalence or absence of a moderate effect."
+
+ai_actions:
+  - action: "Preregistered, implemented and deterministically repeated H48's prediction-blind passage-level power simulation."
+    provenance: ai-executed
+    files_changed:
+      - "airace/h41_power.py"
+      - "experiments/H48_h41_power_curve"
+      - "tests/test_h41_power.py"
+  - action: "Validated 142 tests, research YAML/JSON, result hashes and the unchanged H44 ZIP."
+    provenance: ai-executed
+    files_changed:
+      - "research-state.yaml"
+      - "research-log.md"
+      - "findings.md"
+  - action: "Created and opened an H48 power-curve HTML report."
+    provenance: ai-executed
+    files_changed:
+      - "to_human/h48_h41_power_report.html"
+
+claims_touched:
+  - id: C44
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "H44 external score and component metrics remain pending."
+  - "H41 independent reviewer labels remain pending."
+
+ai_suggestions_pending:
+  - "Interpret H41 non-promotion only as failure to demonstrate a large effect; any expansion to 30+ passages requires separate prediction-blind preregistration."

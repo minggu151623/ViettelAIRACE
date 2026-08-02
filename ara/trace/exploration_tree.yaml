@@ -689,6 +689,22 @@ tree:
             evidence: [C38,
               "experiments/H42_h41_cluster_gate/results/null_simulation.json",
               "ara/evidence/tables/h42_cluster_gate.md"]
+            children:
+              - id: N60
+                type: experiment
+                title: "H48 power curve for the frozen H41 holdout"
+                provenance: ai-executed
+                timestamp: "2026-08-03T04:25+07:00"
+                result: >
+                  The 15-passage stratified gate retained near-nominal Type-I
+                  error at 0.053, but achieved only 0.5882 power at d=0.5.
+                  Thirty independent passages reached 0.8034 at d=0.5; the
+                  frozen holdout crossed 80% only at d=0.75. All 142 tests
+                  passed and no labels, predictions, queue entries or ZIPs
+                  changed.
+                evidence: [C44,
+                  "experiments/H48_h41_power_curve/results/power.json",
+                  "ara/evidence/tables/h48_h41_power.md"]
 
   - id: N53
     type: pivot

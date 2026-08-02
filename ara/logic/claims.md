@@ -585,3 +585,18 @@
   `airace/assertion_leverage.py`]
 - **Dependencies**: [C34, C35]
 - **Tags**: assertions, negative-transfer, ancestry, leverage, abstention
+
+## C44: The frozen H41 holdout is a high-effect gate, not an equivalence test
+- **Statement**: H41's 15 independent holdout passages control false promotion
+  near 5%, but lack 80% power for a standardized passage-level effect of 0.5;
+  non-promotion cannot establish equivalence or absence of a moderate gain.
+- **Status**: supported under the preregistered Normal-delta simulation model
+- **Provenance**: ai-suggested
+- **Falsification criteria**: A preregistered reproducible power analysis of
+  the same frozen gate gives at least 80% power at `d=0.5`, or an exact
+  derivation shows the implemented simulation underestimates its sensitivity.
+- **Proof**: [`experiments/H48_h41_power_curve/protocol.yaml`,
+  `experiments/H48_h41_power_curve/results/power.json`,
+  `airace/h41_power.py`]
+- **Dependencies**: [C38]
+- **Tags**: statistical-power, bootstrap, repeated-passages, equivalence
