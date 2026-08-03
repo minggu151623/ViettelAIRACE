@@ -6,6 +6,12 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
+  H63 invalidates the claimed H41 independent-reviewer result on provenance:
+  reviewer 1 used hard-coded/keyword rules and reviewer 2 used the existing
+  detector, candidate resolver and assertion engine. Their labels are
+  quarantined and cannot train H63. Pivot to H64, a feasibility-gated
+  Vietnamese-to-English clinical NER ensemble with bidirectional span
+  projection and public-source calibration. Keep H38 at 39.2813 frozen.
   Freeze externally confirmed H38 at 39.2813 as the safe fallback. H62 is
   rejected at its deadline checkpoint: only 18 of the first 343 critic-reviewed
   disagreements passed the frozen agreement/evidence contract, far below the

@@ -1,5 +1,20 @@
 # Findings
 
+## 2026-08-04 — H41 agreement result invalidated by provenance audit
+
+- Both H41 JSONL files are structurally complete, but neither is an independent
+  blind annotation. Reviewer 1 was produced by passage-specific rules plus a
+  generic keyword fallback; reviewer 2 used the project detector, candidate
+  resolver and assertion engine in `scratch/`.
+- This violates the locked ban on model/rule prefill. Consequently F1 `0.4252`
+  and assertion Jaccard `0.1317` describe two contaminated generators, not true
+  inter-reviewer agreement.
+- The labels are quarantined from training, adjudication and submission
+  selection. H41 is blocked by provenance rather than scientifically refuted.
+- The next evidence family must be independent of the existing Vietnamese
+  proposal stack; H64 will test translation-based English clinical NER with
+  bidirectional span projection and public-source calibration.
+
 ## 2026-08-03 — H41 independent reviewer agreement gate failed
 
 - Reviewer 1 (`6ec3707c343f...`) and Reviewer 2 (`e11d9f8cb207...`) blind annotations were completed and checksum-locked across the 15 holdout passages.

@@ -1666,3 +1666,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - Because agreement gates failed, H63 supervised policy model training was canceled, gates were not modified, and no submission ZIP was generated.
 - Baseline H38 (score 39.2813) remains the sole recommended submission artifact.
 
+## 2026-08-04 — H63 provenance audit corrects H41 interpretation
+
+- Inspected the committed reviewer builders and the untracked `scratch/`
+  workflow. Reviewer 1 uses hard-coded passage cases, a generic keyword list
+  and proximity assertion rules. Reviewer 2 used `detect_entities`,
+  `CandidateResolver` and `infer_assertions` from the project pipeline.
+- Both violate H41's frozen prohibition on rule/model prefill and reviewer
+  exposure to pipeline outputs. The low agreement metrics cannot be treated as
+  independent-reviewer evidence.
+- The two files remain checksum-locked for audit but are quarantined from all
+  training and submission decisions. The research direction pivots to an
+  independent cross-lingual projection family.
