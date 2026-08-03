@@ -1,5 +1,19 @@
 # Research log — Viettel AI Race V1
 
+## 2026-08-04 — H65 Colab runner prepared
+
+- Added a deterministic notebook/runner bridge for the preregistered H65
+  Stage-0 test. It requires a Colab GPU (`torch.cuda.is_available()`), uses
+  the public PhoNER dev split rather than Turn2 for calibration, records model
+  revisions/licenses/bytes, and fails closed before target inference if any
+  gate fails.
+- This terminal cannot attach to a VS Code Colab remote kernel directly. The
+  user must select `Kernel → Colab → Auto Connect`, choose a GPU runtime, mount
+  Drive and run the notebook cells. The only required input is
+  `MyDrive/ViettelAIRACE/turn2/input`; the notebook installs its own Colab
+  dependencies and does not require local model downloads.
+- Static checks pass; H65 has not been executed and no ZIP is produced.
+
 ## 2026-08-01 — External result for Turn 2 guarded LLM artifact
 
 - The user submitted `turn2/output_v2_llm_guarded.zip`; organizer score:

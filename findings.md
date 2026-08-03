@@ -1,5 +1,21 @@
 # Findings
 
+## 2026-08-04 — H65 Colab execution bridge prepared (not yet run)
+
+- Added `H65_Colab_Stage0.ipynb` and the protocol-faithful
+  `run_stage_0_colab.py`. The notebook clones the locked branch, copies only
+  `turn2/input` from Drive, downloads the pinned public PhoNER source and runs
+  the CUDA-gated Stage-0 benchmark.
+- Patched the runner for current `huggingface_hub` (`ModelCardData` license
+  access), removed a vacuous span invariant, and made input copying
+  idempotent. Corrected the H65 resource rationale: `d4data/biomedical-ner-all`
+  is MACCROBAT/DistilBERT while `blaze999/Medical-NER` is PubMED/DeBERTa-v3;
+  they are complementary broad medical models, not a shared MACCROBAT pair.
+- Static Python, JSON, YAML and whitespace checks pass. No Colab kernel has
+  been executed from this terminal, no public report exists yet, and no target
+  inference or challenger ZIP is authorized. H38 at **39.2813** remains the
+  safe fallback.
+
 ## 2026-08-04 — H64 Stage 0 result is invalid; hypothesis remains inconclusive
 
 - The executor correctly stopped before target inference and created no ZIP, but

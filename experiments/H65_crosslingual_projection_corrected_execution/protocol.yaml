@@ -36,12 +36,12 @@ resources:
       model_a: d4data/biomedical-ner-all
       model_b: blaze999/Medical-NER
       rationale: >
-        Both expose the broad MACCROBAT label inventory needed for at least
+        Both expose broad medical label inventories needed for at least
         diagnosis, symptom, test, drug and patient-info mappings, while their
-        encoders are DistilBERT and DeBERTa-v3 respectively. Shared training
-        schema/corpus is disclosed as correlated evidence; architectural
-        distinctness satisfies H64's frozen OR condition but does not justify
-        raw union.
+        encoders are DistilBERT and DeBERTa-v3 and their disclosed source
+        corpora are MACCROBAT and PubMED respectively. The distinct corpora
+        and architectures are complementary evidence; they do not justify
+        taking a raw union without exact same-type consensus.
     requirements:
       - resolved_commit_sha
       - verified_license
