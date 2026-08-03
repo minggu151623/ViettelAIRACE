@@ -1,0 +1,83 @@
+hypothesis: H59_phoner_boundary_teacher
+status: preregistered_before_training
+created_at: "2026-08-03T21:35:00+07:00"
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+motivation: >
+  H58 showed that Qwen-only recall and same-family model agreement do not
+  provide a safe boundary signal. PhoNER_COVID19 supplies an independently
+  human-annotated Vietnamese SYMPTOM_AND_DISEASE class. A model trained only
+  on that source can act as a boundary verifier without pretending that its
+  combined class matches the organizer's diagnosis-versus-symptom policy.
+source:
+  name: PhoNER_COVID19
+  repository: https://github.com/VinAIResearch/PhoNER_COVID19
+  revision: 9af190aa76adcfad0a2d14fab9bcab2b252c9c2e
+  paper: https://aclanthology.org/2021.naacl-main.173/
+  split_policy: official_train_dev_test
+  used_label: SYMPTOM_AND_DISEASE
+  ignored_labels:
+    - PATIENT_ID
+    - PERSON_NAME
+    - AGE
+    - GENDER
+    - OCCUPATION
+    - LOCATION
+    - ORGANIZATION
+    - DATE
+    - TRANSPORTATION
+  redistribution: forbidden_by_source_terms
+model:
+  role: exact_boundary_verifier_only
+  base: cbc-528a/BamiBERT-ViMedNER
+  output_label_during_training: TRIỆU_CHỨNG
+  semantic_interpretation: combined_clinical_mention_not_BTC_type
+  epochs: 8
+  minimum_epochs: 4
+  patience: 3
+  learning_rate: 0.00003
+  max_length: 256
+  stride: 64
+  seed: 42
+calibration:
+  split: official_dev
+  threshold_grid: [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.92, 0.94, 0.96, 0.98]
+  selection: highest_recall_subject_to_precision_then_highest_threshold
+  minimum_precision: 0.90
+  minimum_f1: 0.65
+  one_shot_test_gate:
+    minimum_precision: 0.85
+    minimum_f1: 0.60
+turn2_selection:
+  proposal_source: H58_qwen_only_disjoint
+  exact_support: identical_start_end_from_H59_above_frozen_threshold
+  allowed_qwen_types: [CHẨN_ĐOÁN, TRIỆU_CHỨNG]
+  forbidden_qwen_types:
+    - THÔNG_TIN_BỆNH_NHÂN
+    - THUỐC
+    - TÊN_XÉT_NGHIỆM
+    - KẾT_QUẢ_XÉT_NGHIỆM
+  overlap_policy: disjoint_from_all_H38_entities
+  type_policy: preserve_Qwen_type_H59_may_not_assign_BTC_type
+  assertions: preserve_frozen_H58_rule_output
+  candidates: empty_for_all_new_diagnoses
+gates:
+  - baseline_hash_matches
+  - official_dev_precision_at_least_0.90
+  - official_dev_f1_at_least_0.65
+  - official_test_precision_at_least_0.85
+  - official_test_f1_at_least_0.60
+  - every_added_row_has_exact_H59_boundary_support
+  - at_least_20_and_at_most_100_added_rows
+  - no_baseline_rows_changed_or_removed
+  - no_new_nonempty_candidate_codes
+  - all_100_records_validate
+  - repeated_zip_byte_identical
+failure_policy: no_submission_artifact_if_any_gate_fails
+interpretation_limits:
+  - PhoNER is COVID-news text rather than clinical records.
+  - Its combined disease/symptom class cannot reconstruct BTC type policy.
+  - Passing source-domain gates does not prove target-domain improvement.
+  - The source dataset and any modified copy must not be committed or redistributed.
