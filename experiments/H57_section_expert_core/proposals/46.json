@@ -1,0 +1,521 @@
+{
+  "record": 46,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "64fa944e17f07e73e839db34763cea540eed5ea1bf0adddc7fd929886826a6e6",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        35,
+        42
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "stent mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        53,
+        68
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        71,
+        78
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        82,
+        95
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HoHL",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        98,
+        102
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        190,
+        197
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "NYHA III-IV",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        208,
+        219
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù phổi cấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        303,
+        315
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        318,
+        325
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "stent mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        329,
+        344
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        347,
+        360
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HoHL",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        363,
+        367
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        393,
+        400
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở vừa",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        393,
+        404
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lactat: 0.8",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        633,
+        644
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HCO3: 32.09",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        648,
+        659
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PO2: 97.0",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        664,
+        673
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PCO2: 39",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        677,
+        685
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "pH: 7.517",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        689,
+        698
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HCO3: 32.09",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        833,
+        844
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PO2: 97.0",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        848,
+        857
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PCO2: 39",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        862,
+        870
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "pH: 7.517",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        874,
+        883
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Phình thành sau và thành bên thất trái",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        909,
+        947
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Phình thành sau và thành bên thất trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        909,
+        947
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Giảm vận động 2/3 thành bên và 2/3 thành sau dưới thất trái về phía đáy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        949,
+        1020
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hở hai lá nhiều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1120,
+        1135
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hở chủ vừa",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1137,
+        1147
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng áp lực động mạch phổi nhẹ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1149,
+        1179
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Chẩn đoán: Phù phổi cấp - Suy tim - Stent mạch vành - Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1181,
+        1248
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Phẫu thuật cắt bỏ u dây thần kinh số VIII",
+      "type": "THUỐC",
+      "position": [
+        1267,
+        1308
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đặt shunt động tĩnh mạch (AVF) ở tay phải (RUE AVF)",
+      "type": "THUỐC",
+      "position": [
+        1316,
+        1367
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Sinh thiết tuyến tiền liệt",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1374,
+        1400
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi, mất trí nhớ chi tiết",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1444,
+        1473
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mất trí nhớ chi tiết",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1453,
+        1473
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ăn không ngon miệng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1520,
+        1539
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngứa da toàn thân nhiều",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1541,
+        1564
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mất trí nhớ chi tiết",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1569,
+        1589
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi gắng sức",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1591,
+        1611
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn, và nôn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1625,
+        1641
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mệt mỏi nhiều",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1685,
+        1698
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ăn không ngon miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1705,
+        1724
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ngứa da toàn thân nhiều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1731,
+        1754
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mất trí nhớ chi tiết",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1761,
+        1781
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mất trí nhớ chi tiết",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1761,
+        1781
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi gắng sức",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1788,
+        1808
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi gắng sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1788,
+        1808
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn và nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1816,
+        1831
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Cận lâm sàng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1833,
+        1845
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viên",
+      "type": "THUỐC",
+      "position": [
+        1875,
+        1879
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ngày uống 1 viên buổi tối",
+      "type": "THUỐC",
+      "position": [
+        1880,
+        1905
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

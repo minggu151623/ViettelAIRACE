@@ -1,0 +1,58 @@
+{
+  "record": 27,
+  "chunk": 0,
+  "window": [
+    0,
+    844
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "02549ca9392af1bdd3d4c7cfa78c0576ed79c677f74eebc147b06ee62c9a05ba",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm phổi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "viêm phổi hoại tử",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "áp xe phổi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sức đề kháng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "miễn dịch",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiễm vi khuẩn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hoại tử nhu mô phổi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hang nhỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tổn thương màng phổi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nung mủ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chủ mô phổi",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

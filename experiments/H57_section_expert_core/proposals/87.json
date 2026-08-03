@@ -1,0 +1,291 @@
+{
+  "record": 87,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "5d3f351e7cee4cb131f4b2c2987487ff59e715f08ce1e2be0b246e14a3ca6fb7",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        34,
+        42
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        112,
+        120
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực T âm ỉ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        112,
+        127
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau không lan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        129,
+        142
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        163,
+        171
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực tăng lên",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        163,
+        180
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau không lan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        257,
+        270
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        272,
+        285
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Da niêm mạc hồng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        286,
+        302
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tim nhịp đều",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        333,
+        345
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Phổi RRPN thô",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        347,
+        360
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bụng mềm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        362,
+        370
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tiểu được",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        372,
+        381
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA: 110/ 70 mmHg",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        383,
+        399
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "M: 70 l/p",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        414,
+        423
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thời gian prothrombin (PT: Prothrombin Time)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        455,
+        499
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Định lượng Troponin Ths",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        560,
+        583
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đo hoạt độ ALT (GPT)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        609,
+        629
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Điện giải đồ (Na, K, Cl)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        660,
+        684
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Siêu âm Doppler tim, van tim",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        811,
+        839
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ghi điện tim cấp cứu tại giường",
+      "type": "THUỐC",
+      "position": [
+        853,
+        884
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Cơn đau thắt ngực không ổn định-bệnh tăng HA vô căn(nguyên phát)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        900,
+        964
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng HA vô căn(nguyên phát)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        937,
+        964
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ngày uống 1 viên buổi sáng sau ăn",
+      "type": "THUỐC",
+      "position": [
+        1026,
+        1059
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sau cân sau phẫu thuật",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1120,
+        1142
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiều lần cố gắng giảm cân và tăng cân trở lại",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1185,
+        1231
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ngày uống 1 viên buổi sáng sau ăn",
+      "type": "THUỐC",
+      "position": [
+        1353,
+        1386
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ngày uống 2 viên buổi tối",
+      "type": "THUỐC",
+      "position": [
+        1439,
+        1464
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

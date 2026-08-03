@@ -1,0 +1,54 @@
+{
+  "record": 15,
+  "chunk": 1,
+  "window": [
+    872,
+    1827
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0bc2d9b7a450a2b1d0061110fe8fb988a978ce2b3a96e908ea0619f782f533ef",
+  "response": {
+    "entities": [
+      {
+        "q": "cotrimoxazol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "doxycyclin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "viêm mô tế bào",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ban đỏ quanh tổn thương",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bọng nước",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rỉ dịch vàng đục giống mủ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "âm hộ bên phải",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "mông bên phải",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "cực kỳ đau đớn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "metoclopramide",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

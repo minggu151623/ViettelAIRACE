@@ -1,0 +1,58 @@
+{
+  "record": 7,
+  "chunk": 3,
+  "window": [
+    2389,
+    3208
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "af2e42db84b13c5ff6783b590c7ea42c76903c28bee4665b1b71c9545129f169",
+  "response": {
+    "entities": [
+      {
+        "q": "mang thai",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thuốc có qua nhau thai",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hấp thu của ********** qua ruột bị hạn chế",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "phơi nhiễm đối với thai nhi",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tổn thương vùng âm hộ và mông bên phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tổn thương cực kỳ đau đớn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tình trạng tổn thương dạng bóng nước ngày càng nặng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lan đến mông bên phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "có dịch giống mủ có màu vàng chảy ra từ tổn thương",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "xét nghiệm/siêu âm/nội soi cần thiết",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "viêm dạ dày",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

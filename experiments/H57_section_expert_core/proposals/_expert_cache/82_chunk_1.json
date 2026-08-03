@@ -1,0 +1,46 @@
+{
+  "record": 82,
+  "chunk": 1,
+  "window": [
+    830,
+    1502
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1504418318672c1f2b2d52012498508cfbe7fd53e7a4b7b4ee54788144422f0a",
+  "response": {
+    "entities": [
+      {
+        "q": "đau bụng vùng hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm dạ dày",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "sỏi đoạn cuối ống mật chủ",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nội soi thực quản - dạ dày - tá tràng",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "cộng hưởng từ mật tụy",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nội soi mật tụy ngược dòng (ERCP)",
+        "t": "THUỐC"
+      },
+      {
+        "q": "lấy thành công 02 viên sỏi tại đoạn cuối ống mật chủ (CBD)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "sỏi ống dẫn mật chung đoạn cuối",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

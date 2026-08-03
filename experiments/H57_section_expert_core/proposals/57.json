@@ -1,0 +1,261 @@
+{
+  "record": 57,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "e72396c2571c6d0b4a1b5e3b5b8384b2a98476d15d70c3db8f299a06e22e7251",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        39,
+        52
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        54,
+        68
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Suy tim không do thiếu máu cơ tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        114,
+        147
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh thận mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        176,
+        194
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Torsemide",
+      "type": "THUỐC",
+      "position": [
+        224,
+        233
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Insulin glargine",
+      "type": "THUỐC",
+      "position": [
+        274,
+        290
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Isosorbide",
+      "type": "THUỐC",
+      "position": [
+        349,
+        359
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Rosuvastatin (Crestor)",
+      "type": "THUỐC",
+      "position": [
+        405,
+        427
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Carvedilol",
+      "type": "THUỐC",
+      "position": [
+        473,
+        483
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Creatinine tăng",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        607,
+        622
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Torsemide",
+      "type": "THUỐC",
+      "position": [
+        741,
+        750
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "uyết thường xuyên tại nhà do hết que thử đường máu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        857,
+        907
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "glucose là thấp",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        911,
+        926
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngừng dùng glargine",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        932,
+        951
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Báo cáo bị ngã gần đây",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        954,
+        976
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        979,
+        1021
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Các loại thuốc (isosorbide, crestor, carvedilol) đã hết khi đi khám PCP",
+      "type": "THUỐC",
+      "position": [
+        1024,
+        1095
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kali 6.3, mẫu không tan máu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1356,
+        1383
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kali (k).8",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1386,
+        1396
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ure (bun) 83",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1399,
+        1411
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "creatinine 5.7",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1414,
+        1428
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hemoglobin 7.8",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1431,
+        1445
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hba1c 6.5",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1448,
+        1457
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bnp 21,000",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1460,
+        1470
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "iv lasix 40 mg once",
+      "type": "THUỐC",
+      "position": [
+        1715,
+        1734
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

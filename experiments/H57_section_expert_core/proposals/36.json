@@ -1,0 +1,371 @@
+{
+  "record": 36,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a1be87610643af29de7ebc9b9c6bca957be787114182cc41487bb2ded71f950b",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "nặng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        42,
+        50
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tức nặng 2 chi dưới",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        52,
+        71
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiểu ít",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        73,
+        80
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        308,
+        311
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        324,
+        327
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        381,
+        384
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        408,
+        411
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        421,
+        424
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Protein: 52 g/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        488,
+        503
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Albumin: 20 g/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        505,
+        520
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Triglycerid:6,7 mmol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        529,
+        551
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Xét nghiệm nước tiểu protein (–)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        630,
+        662
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HC (–)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        664,
+        670
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Trụ niệu (–)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        671,
+        683
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "SA: không có sỏi đài bể thận, niệu quản",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        727,
+        766
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ure: 6,4 mmol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        818,
+        833
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Creatinin: 79 micromol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        835,
+        859
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        874,
+        883
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HC: 4,49 T/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        885,
+        897
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HST: 103 g/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        899,
+        911
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Điện giải: Na+: 141 mmol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        919,
+        945
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Điện giải: Na+: 141 mmol/l; K+: 5 mmol/l; Cl-: 106 mmol/l; Ca++: 2 mmol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        919,
+        992
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "K+: 5 mmol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        947,
+        959
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Cl-: 106 mmol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        961,
+        976
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ca++: 2 mmol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        978,
+        992
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tiền sử: Không có viêm họng cấp, viêm nhiễm ngoài da trong 1 tháng trước khi vào viện",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1002,
+        1087
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm cầu thận mạn - Hội chứng thận hư",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1102,
+        1139
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Điều trị nguyên nhân: điều trị VCTM theo cơ chế bệnh sinh",
+      "type": "THUỐC",
+      "position": [
+        1473,
+        1530
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Điều trị triệu chứng: phù, tăng lipid máu, giảm thải protein",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1539,
+        1599
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Medrol 16mg x 3 viên, uống 8h sáng sau ăn no",
+      "type": "THUỐC",
+      "position": [
+        1642,
+        1686
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Omez 20mg x 1 viên, uống 8h sáng",
+      "type": "THUỐC",
+      "position": [
+        1697,
+        1729
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Furosemid 40 mg x 1 viên, uống sáng",
+      "type": "THUỐC",
+      "position": [
+        1741,
+        1776
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1826,
+        1881
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau vùng hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1908,
+        1929
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm cho thấy sỏi mật",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1972,
+        1996
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Zestril 10mg x 1 viên, uống sáng",
+      "type": "THUỐC",
+      "position": [
+        2007,
+        2039
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

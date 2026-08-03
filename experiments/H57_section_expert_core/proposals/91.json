@@ -1,0 +1,291 @@
+{
+  "record": 91,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9c9331a6f9445d1a8797e54eedcd6bafa6b05dbaace934de134257112a5593dc",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "hội chứng turner",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        48,
+        64
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        87,
+        100
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ung thư đại tràng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        146,
+        163
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thuyên tắc phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        178,
+        193
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "coumadin",
+      "type": "THUỐC",
+      "position": [
+        204,
+        212
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thuyên tắc phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        222,
+        237
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "coumadin",
+      "type": "THUỐC",
+      "position": [
+        248,
+        256
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "coumadin",
+      "type": "THUỐC",
+      "position": [
+        355,
+        363
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        412,
+        419
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        455,
+        462
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        532,
+        535
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ớn lạnh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        548,
+        555
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        568,
+        576
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        590,
+        597
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        669,
+        676
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        702,
+        717
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        730,
+        737
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        789,
+        797
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh giá tổng quát về tiêu hóa",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        864,
+        894
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh giá tổng quát về tiêu hóa",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        901,
+        931
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó nuốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        945,
+        953
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "albuterolipratropium nebs x2",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1018,
+        1046
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị nội khoa",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1086,
+        1103
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị nội khoa",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1114,
+        1131
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phẫu thuật",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1174,
+        1184
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phẫu thuật",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1291,
+        1301
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hr cải thiện lên mức 110 sau khi dùng metoprolol",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1308,
+        1356
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm thấy khỏe khi đến phòng khám",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1383,
+        1415
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

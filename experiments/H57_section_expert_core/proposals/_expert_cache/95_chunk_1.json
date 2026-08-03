@@ -1,0 +1,58 @@
+{
+  "record": 95,
+  "chunk": 1,
+  "window": [
+    757,
+    1362
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "e5c36ec53c6f4de64017eda1090b88985a8a48e4c6e3c37e906ee2a6379ba947",
+  "response": {
+    "entities": [
+      {
+        "q": "ng nổi hạt tophi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sưng, tấy đỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạt tophi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "acid uric",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "gout cấp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ho đái tháo đường",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "béo phì",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ngưng thở khi ngủ do tắc nghẽn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tylenol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "mucinex d",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "record": 90,
+  "chunk": 0,
+  "window": [
+    0,
+    940
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "735d075a0d832fc777a954cfb6faab2d17e3ad5373dc17074d8358c05d66bed8",
+  "response": {
+    "entities": [
+      {
+        "q": "rối loạn lo âu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng huyết áp (tăng huyết áp)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Táo bón mãn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ngưng thở khi ngủ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ho",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chảy nước mũi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhịp thở nhanh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thiếu oxy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "độ bão hòa oxy (SPO2) từ 88-92 % khi thở khí trời",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bạch cầu 26.7",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bnp 4227",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "kali 3.2",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "troponin 0.01",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "lactate 1.8",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

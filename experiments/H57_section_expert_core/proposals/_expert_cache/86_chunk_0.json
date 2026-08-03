@@ -1,0 +1,62 @@
+{
+  "record": 86,
+  "chunk": 0,
+  "window": [
+    0,
+    982
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a2e9031f27aa521710818ecfb305a57c38e835a5b5fdb9b00f5b0b7bb8d61983",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm hang vị sung huyết",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau bụng cồn cào",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ợ hơi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ợ chua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nội soi dạ dày",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "thăm khám chuyên khoa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "điều trị hiệu quả",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tuân thủ tuyệt đối sự chỉ dẫn của bác sĩ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không được bỏ thuốc giữa chừng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không được tự ý tăng giảm liều lượng thuốc",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

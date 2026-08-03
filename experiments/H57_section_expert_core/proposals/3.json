@@ -1,0 +1,581 @@
+{
+  "record": 3,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1d5bbc523b8949b40e7a42ddb6221f92a80bd081c2f59d1d80f91b17f630e681",
+  "chunks_expected": 5,
+  "chunks_complete": 5,
+  "errors": {},
+  "entities": [
+    {
+      "text": "run tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        35,
+        42
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "run tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        79,
+        86
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nitralmyl",
+      "type": "THUỐC",
+      "position": [
+        190,
+        199
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "trimetazidin",
+      "type": "THUỐC",
+      "position": [
+        333,
+        345
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hội chứng Parkinson",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        510,
+        529
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Parkinson",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        520,
+        529
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "run tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        535,
+        542
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau thắt ngực ổn định",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        660,
+        681
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chóng mặt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        808,
+        817
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ù tai",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        819,
+        824
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rối loạn thị lực",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        826,
+        842
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Parkinson",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        881,
+        890
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "yếu sức nửa người bên phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        943,
+        969
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tình trạng tri giác giảm sút",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        976,
+        1004
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhìn song thị",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1011,
+        1024
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không thể tự đứng dậy do yếu sức chân phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1263,
+        1305
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không thể chịu lực ở chân phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1387,
+        1417
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct sọ não",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1485,
+        1499
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chọc dò dịch não tủy",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1546,
+        1566
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp tim chậm nặng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1585,
+        1603
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1607,
+        1618
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "intravenous fluids",
+      "type": "THUỐC",
+      "position": [
+        1675,
+        1693
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct sọ não",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1710,
+        1724
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sọ não",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1718,
+        1724
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kết quả âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1726,
+        1741
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Code tai biến mạch máu não",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1810,
+        1836
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tỉnh chậm phản xạ kém",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1852,
+        1873
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tỉnh táo hơn tỉnh táo và tỉnh khi gọi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1889,
+        1926
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "yếu sức nửa người bên phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2171,
+        2197
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tình trạng tri giác giảm sút",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2204,
+        2232
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhìn song thị",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2239,
+        2252
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2259,
+        2266
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Vị trí: yếu chân phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2298,
+        2319
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2565,
+        2572
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Than phiền về yếu sức chân phải",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2654,
+        2685
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "yếu sức chân phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2668,
+        2685
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp tim chậm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2785,
+        2798
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ huyết áp, không đặc hiệu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2807,
+        2834
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dùng intravenous fluids",
+      "type": "THUỐC",
+      "position": [
+        2867,
+        2890
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dùng kháng sinh cho nhiễm trùng nhiễm trùng răng miệng gần đây",
+      "type": "THUỐC",
+      "position": [
+        2949,
+        3011
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không thể tự đứng dậy do yếu sức chân phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3083,
+        3125
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "yếu sức chân phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3108,
+        3125
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không thể chịu lực ở chân phải, liên tục khuỵu chân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3133,
+        3184
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tỉnh chậm, phản xạ kém",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3192,
+        3214
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "yếu nửa người bên phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3272,
+        3294
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp tim chậm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3345,
+        3358
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ huyết áp, không đặc hiệu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3365,
+        3392
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không nhấc chân phải khỏi mặt giường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3399,
+        3435
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chân phải liên tục khuỵ xuống",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3442,
+        3471
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tỉnh chậm, phản xạ kém",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3478,
+        3500
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct sọ não",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        3555,
+        3569
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct sọ não: âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        3555,
+        3578
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct sọ não",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        3594,
+        3608
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct sọ não: âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        3594,
+        3617
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct sọ não",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        3655,
+        3669
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chọc dò dịch não tủy",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        3676,
+        3696
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Truyền dịch tĩnh mạch",
+      "type": "THUỐC",
+      "position": [
+        3703,
+        3724
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

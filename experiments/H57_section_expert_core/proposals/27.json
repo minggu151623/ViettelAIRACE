@@ -1,0 +1,251 @@
+{
+  "record": 27,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "02549ca9392af1bdd3d4c7cfa78c0576ed79c677f74eebc147b06ee62c9a05ba",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        20,
+        29
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm phổi hoại tử",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        20,
+        37
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        68,
+        77
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "áp xe phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        116,
+        126
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sức đề kháng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        365,
+        377
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm vi khuẩn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        445,
+        459
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sức đề kháng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        511,
+        523
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "miễn dịch",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        538,
+        547
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hoại tử nhu mô phổi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        551,
+        570
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hang nhỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        650,
+        658
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổn thương màng phổi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        718,
+        738
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Áp xe phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        748,
+        758
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nung mủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        778,
+        785
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chủ mô phổi",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        795,
+        806
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng tần suất đau đầu gián đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1474,
+        1505
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1538,
+        1553
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhìn mờ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1560,
+        1567
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1560,
+        1608
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1621,
+        1628
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhìn mờ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1670,
+        1677
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1741,
+        1748
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù gai thị",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1909,
+        1920
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nang chứa khí hay dịch nhỏ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2210,
+        2236
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "áp-xe phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2255,
+        2265
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

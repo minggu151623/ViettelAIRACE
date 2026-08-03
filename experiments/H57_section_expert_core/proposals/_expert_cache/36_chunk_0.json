@@ -1,0 +1,110 @@
+{
+  "record": 36,
+  "chunk": 0,
+  "window": [
+    0,
+    994
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a1be87610643af29de7ebc9b9c6bca957be787114182cc41487bb2ded71f950b",
+  "response": {
+    "entities": [
+      {
+        "q": "nặng mặt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tức nặng 2 chi dưới",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tiểu ít",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hội chứng thận hư",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phù",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "protein niệu 24h",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Protein: 52 g/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Albumin: 20 g/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Triglycerid:6,7 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tổn thương cầu thận mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Xét nghiệm nước tiểu protein (–)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "HC (–)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Trụ niệu (–)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "SA: không có sỏi đài bể thận, niệu quản",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "không có suy thận",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Ure: 6,4 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Creatinin: 79 micromol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "không có thiếu máu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "HC: 4,49 T/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "HST: 103 g/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Điện giải: Na+: 141 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "K+: 5 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Cl-: 106 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Ca++: 2 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

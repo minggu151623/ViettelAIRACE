@@ -1,0 +1,261 @@
+{
+  "record": 33,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "575636241f0244b9740349d5d9fb407861966653abc3cd6360955f0a165282d4",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "rung nhĩ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        39,
+        47
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        50,
+        63
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy tim, không đặc hiệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        66,
+        89
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "béo phì",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        92,
+        99
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn trứng cá",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        145,
+        157
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn cám",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        392,
+        399
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn đầu trắng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        403,
+        416
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi và weak",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        720,
+        735
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm khả năng quan hệ tình dục với bạn tình",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        783,
+        826
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chán ăn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        852,
+        859
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn từng đợt sau khi ăn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        862,
+        885
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        909,
+        917
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhói",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        980,
+        984
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bên trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        987,
+        995
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lan xuống cánh tay trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        998,
+        1021
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kèm theo tê bì ở cánh tay trái trên",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1024,
+        1059
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ở cánh tay trái dưới và bàn tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1063,
+        1098
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "shortness of breath",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1200,
+        1219
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau rát khi đi tiểu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1290,
+        1309
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cơn ngất xỉu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1423,
+        1435
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng",
+      "type": "THUỐC",
+      "position": [
+        1628,
+        1691
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1694,
+        1767
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1769,
+        1845
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thủ thuật đã thực hiện",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1877,
+        1899
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp tim cải thiện",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2175,
+        2193
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

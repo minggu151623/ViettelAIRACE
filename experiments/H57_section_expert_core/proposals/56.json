@@ -1,0 +1,201 @@
+{
+  "record": 56,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "5e437f28c9464267a1f00e56c9253c3f36e9e8e9262f894d84c96c60eab6fde0",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Viêm hang vị sung huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        411,
+        434
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        552,
+        568
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        578,
+        583
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        585,
+        591
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        612,
+        620
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        617,
+        620
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        626,
+        629
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị dứt điểm bệnh viêm sung huyết hang vị dạ dày",
+      "type": "THUỐC",
+      "position": [
+        778,
+        831
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        825,
+        831
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nội soi dạ dày",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        887,
+        901
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        895,
+        901
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm sung huyết hang vị dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1281,
+        1311
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1305,
+        1311
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nghệ",
+      "type": "THUỐC",
+      "position": [
+        1355,
+        1359
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mật ong",
+      "type": "THUỐC",
+      "position": [
+        1361,
+        1368
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chế độ ăn uống khoa học, lành mạnh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1412,
+        1446
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kiêng ăn các thức ăn có vị chua, cay, nóng và các loại đồ ăn nhiều dầu mỡ",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1452,
+        1525
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ăn chậm, nhai kỹ, ăn uống điều độ đúng giờ, đủ bữa, không ăn quá no hoặc để quá đói",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1629,
+        1717
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chế độ tập luyện phù hợp",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1730,
+        1754
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

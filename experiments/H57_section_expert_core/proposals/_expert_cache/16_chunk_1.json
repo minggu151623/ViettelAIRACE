@@ -1,0 +1,46 @@
+{
+  "record": 16,
+  "chunk": 1,
+  "window": [
+    787,
+    1736
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1e70d7220bc2fff80de106226a2c41df8e094f96726419bfebe07f4ba26ec012",
+  "response": {
+    "entities": [
+      {
+        "q": "vết trầy xước trên cơ thể",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vết thương",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bệnh dại",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Lyssavirus",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tiêm *****************",
+        "t": "THUỐC"
+      },
+      {
+        "q": "virus dại",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nước bọt",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chó cắn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

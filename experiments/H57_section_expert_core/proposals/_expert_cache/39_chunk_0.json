@@ -1,0 +1,58 @@
+{
+  "record": 39,
+  "chunk": 0,
+  "window": [
+    0,
+    989
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "753060d7c2451d8bf065d152e3d12c4d1d43f5e154f58e246ec0f2f267e093d6",
+  "response": {
+    "entities": [
+      {
+        "q": "Ung thư biểu mô tuyến đại tràng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "xơ gan do rượu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì ung thư tuyến đại tràng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tụt huyết áp không rõ nguyên nhân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Viêm phổi bệnh viện",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "rung nhĩ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nhịp nhanh trên thất",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau bụng gián đoạn",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

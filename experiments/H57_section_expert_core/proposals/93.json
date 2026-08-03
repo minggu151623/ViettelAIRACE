@@ -1,0 +1,291 @@
+{
+  "record": 93,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "85ff8b56a2e1c13894e6ec088bb6633452a1cea03ea654f2553b31d314a7bfc5",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        83,
+        85
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        119,
+        121
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        154,
+        156
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hồi hợp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        197,
+        204
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm giác rợn người",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        206,
+        224
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "máy đo HA điện tử",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        236,
+        253
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        243,
+        245
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tự đo",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        262,
+        267
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        272,
+        274
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        275,
+        286
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "học y",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        312,
+        317
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        391,
+        393
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm giác rợn người",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        427,
+        445
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hồi hộp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        447,
+        454
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tim đập rất mạnh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        470,
+        486
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ĐHYD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        504,
+        508
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "XN",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        523,
+        525
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        543,
+        554
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dịch",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        626,
+        630
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        697,
+        699
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tự đo",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        756,
+        761
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        806,
+        814
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        837,
+        848
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1007,
+        1015
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1111,
+        1119
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1210,
+        1218
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1302,
+        1309
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đại tràng giãn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1382,
+        1396
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

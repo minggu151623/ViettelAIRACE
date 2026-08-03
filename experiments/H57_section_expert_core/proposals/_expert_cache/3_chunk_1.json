@@ -1,0 +1,62 @@
+{
+  "record": 3,
+  "chunk": 1,
+  "window": [
+    850,
+    1838
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1d5bbc523b8949b40e7a42ddb6221f92a80bd081c2f59d1d80f91b17f630e681",
+  "response": {
+    "entities": [
+      {
+        "q": "Parkinson",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "yếu sức nửa người bên phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tình trạng tri giác giảm sút",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhìn song thị",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không thể tự đứng dậy do yếu sức chân phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không thể chịu lực ở chân phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chụp ct sọ não",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chọc dò dịch não tủy",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nhịp tim chậm nặng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạ huyết áp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "intravenous fluids",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Code tai biến mạch máu não",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

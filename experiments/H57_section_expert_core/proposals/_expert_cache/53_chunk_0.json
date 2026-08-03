@@ -1,0 +1,90 @@
+{
+  "record": 53,
+  "chunk": 0,
+  "window": [
+    0,
+    985
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9c602c4dd9e711c498ebf73292cc4dcf3cfbb2210ab08f51cee8e0e67e86edaf",
+  "response": {
+    "entities": [
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "gầy sút cân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Ăn nhiều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khát nước",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "uống nhiều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đi tiểu nhiều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Mạch: 89 lần/phút",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "HA: 180/100 mmHg",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Glucose máu: 13,2 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Quai ĐMC vồng cao",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chỉ số tim/LN < ½",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "rốn phổi đậm",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ĐTD typ II",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Torsemide: uống 1 viên/ngày, đôi khi 2 viên/ngày",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Insulin glargine: theo đơn 100 đơn vị x 2 lần/ngày, hiện đã ngừng sử dụng",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Isosorbide: đã hết thuốc khoảng 3 tuần trước nhập viện",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Rosuvastatin (Crestor): đã hết thuốc khoảng 3 tuần trước nhập viện",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Carvedilol: đã hết thuốc khoảng 3 tuần trước nhập viện",
+        "t": "THUỐC"
+      },
+      {
+        "q": "xét nghiệm bất thường - tăng kali máu và Creatinine tăng",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

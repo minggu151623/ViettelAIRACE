@@ -1,0 +1,70 @@
+{
+  "record": 70,
+  "chunk": 0,
+  "window": [
+    0,
+    966
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "bc69f7581b4ca006d702a52362e1e8eb6ea96399b55b7f474dbdef4eb50c6232",
+  "response": {
+    "entities": [
+      {
+        "q": "béo phì",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đái tháo đường được kiểm soát bằng chế độ ăn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ngừng thở khi ngủ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "suy tim, không đặc hiệu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "dị ứng furosemide",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó nằm vào ban đêm để ngủ vì thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ho có đờm trắng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chủ quan sốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phù chi dưới (ổn định)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "căng cứng vai trái",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó nằm vào ban đêm để ngủ vì khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phù chi dưới",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

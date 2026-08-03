@@ -1,0 +1,34 @@
+{
+  "record": 100,
+  "chunk": 1,
+  "window": [
+    841,
+    1293
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "90af72c6536432a338b0ac5ee8469daff440592816eb921eb8c97f28ccc6ff3a",
+  "response": {
+    "entities": [
+      {
+        "q": "3 ngày đại tiện ra máu đỏ tươi gián đoạn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "3 ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "aspirin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "liệt kê các triệu chứng này",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đi khám sớm nhất có thể",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

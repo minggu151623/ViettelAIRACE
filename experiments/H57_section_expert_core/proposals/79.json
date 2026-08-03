@@ -1,0 +1,281 @@
+{
+  "record": 79,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7cf78e1041688d3291a8c7c5aa2e810efb5681401f04ac463c9bc00a1977669f",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Rối loạn chuyển hóa tinh bột",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        29,
+        57
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        59,
+        70
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "da",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        103,
+        105
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        342,
+        353
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "protein amyloid",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        521,
+        536
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lắng đọng protein amyloid",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        650,
+        675
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "protein amyloid",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        660,
+        675
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy các cơ quan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        713,
+        728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tử vong",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        750,
+        757
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lắng đọng của protein amyloid",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        770,
+        799
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "protein amyloid",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        784,
+        799
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh thoái hóa tinh bột",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        806,
+        829
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phổi",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        894,
+        898
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "da",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        900,
+        902
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bàng quang",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        904,
+        914
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ruột",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        920,
+        924
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "toàn thân",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        939,
+        948
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1134,
+        1145
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1195,
+        1206
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis chuỗi nhẹ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1195,
+        1216
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1231,
+        1242
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis tự miễn dịch",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1231,
+        1255
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "LLQ",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1270,
+        1273
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng/khó chịu vùng bụng tăng dần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1301,
+        1337
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1357,
+        1368
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hóa trị",
+      "type": "THUỐC",
+      "position": [
+        1427,
+        1434
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ghép gan",
+      "type": "THUỐC",
+      "position": [
+        1436,
+        1444
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

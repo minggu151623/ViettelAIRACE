@@ -1,0 +1,50 @@
+{
+  "record": 77,
+  "chunk": 1,
+  "window": [
+    851,
+    1581
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "3a169e0a434cc87f15073ca96feef510255f5458cc8e6d90ae52aec7900768a4",
+  "response": {
+    "entities": [
+      {
+        "q": "hở ba lá nhiều",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "thất phải giãn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chức năng tâm thu thất phải giảm (FAC: 30%)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng áp lực động mạch phổi vừa",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bóng tim to",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "suy tim - suy thận mạn giai đoạn 5",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "thoái hóa nghiêm trọng của khớp bánh chè đùi phải",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "góc tăng lên",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

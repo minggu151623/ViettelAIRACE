@@ -1,0 +1,54 @@
+{
+  "record": 17,
+  "chunk": 2,
+  "window": [
+    1755,
+    2657
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0541dd1ecb10ac809ed2529d51e0ca618eb68842cb5f446fd890bceec9e7ed19",
+  "response": {
+    "entities": [
+      {
+        "q": "át triển quá mức khiến vi khuẩn xâm nhập, gây hôi miệng, chảy máu chân răng và mất răng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bệnh mạch máu ngoại biên",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh phổi tắc nghẽn mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Ngưng thở khi ngủ do tắc nghẽn đang dùng BiPAP",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Ung thư biểu mô tế bào vảy xâm nhập của dương vật biệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tiền sử phẫu thuật / thủ thuật",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hôi miệng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chảy máu chân răng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất răng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "kham răng miêng",
+        "t": "TÊN_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

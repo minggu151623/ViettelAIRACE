@@ -1,0 +1,441 @@
+{
+  "record": 25,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d38c915cc7c961dd07e037e9608b481d43b1cc7b64ad6be8390145a085b13dd7",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "sd nhiều **********",
+      "type": "THUỐC",
+      "position": [
+        49,
+        68
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "********** loại 12h",
+      "type": "THUỐC",
+      "position": [
+        328,
+        347
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        386,
+        394
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "trễ kinh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        416,
+        424
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tắc ống dẫn trứng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        757,
+        774
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "teo niêm mạc tử cung",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        801,
+        821
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không rụng trứng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        823,
+        839
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vô sinh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        848,
+        855
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ung thư cổ tử cung",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        895,
+        913
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mang thai ngoài tử cung",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1014,
+        1037
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảnh hưởng đến tim, mạch, gan, thận",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1082,
+        1116
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thay đổi nội tiết tố",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1145,
+        1165
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn trứng cá",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1227,
+        1239
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nám",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1241,
+        1244
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tàn nhang",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1246,
+        1255
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sạm da",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1257,
+        1263
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bồn chồn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1317,
+        1325
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lo lắng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1327,
+        1334
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bứt rứt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1336,
+        1343
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm ham muốn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1361,
+        1374
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lãnh cảm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1376,
+        1384
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy giảm hưng phấn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1386,
+        1404
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tình cảm gia đình",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1437,
+        1454
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1494,
+        1500
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau khi sờ nắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1504,
+        1518
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết mổ",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1521,
+        1527
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ống dẫn lưu JP",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1582,
+        1596
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sưng nề",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1649,
+        1656
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau khi sờ nắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1657,
+        1671
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1694,
+        1700
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng diện tích đau khi sờ nắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1726,
+        1755
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau khi sờ nắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1741,
+        1755
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1778,
+        1784
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "levafloxacin",
+      "type": "THUỐC",
+      "position": [
+        1914,
+        1926
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cephalexin",
+      "type": "THUỐC",
+      "position": [
+        1930,
+        1940
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1983,
+        1989
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2008,
+        2017
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2154,
+        2160
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2154,
+        2196
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau khi sờ nắn vùng mổ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2203,
+        2225
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2232,
+        2241
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2370,
+        2376
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ ở vị trí phẫu thuật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2370,
+        2396
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

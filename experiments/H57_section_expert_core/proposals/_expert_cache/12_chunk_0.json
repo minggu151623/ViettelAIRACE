@@ -1,0 +1,78 @@
+{
+  "record": 12,
+  "chunk": 0,
+  "window": [
+    0,
+    992
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "27189284c7ddd7b2b52547fa5bd45069636de92d1e637f5fc9f2e705e188e5e0",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh phổi kẽ do sử dụng corticoid liều cao kéo dài",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Thở oxy tại nhà",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Hội chứng kháng enzym tổng hợp protein",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "béo phì",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tăng huyết áp nguyên phát",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Sinh thiết nội mạc tử cung gần đây",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Corticoid liều cao kéo dài",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Thở oxy tại nhà",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Tăng liều bactrim",
+        "t": "THUỐC"
+      },
+      {
+        "q": "doxycycline",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tình trạng tổn thương vùng âm hộ và mông bên phải ngày càng nặng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tổn thương vùng âm hộ phải lan rộng sang mông phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Viêm mô tế bào",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "cotrimoxazol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "doxycyclin",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

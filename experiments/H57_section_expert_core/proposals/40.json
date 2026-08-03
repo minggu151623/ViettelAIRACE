@@ -1,0 +1,341 @@
+{
+  "record": 40,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "89f10b9618e79f21b9e1075e6fe870d83c2b123120f34d77dd8cbcfc8406fe34",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Đi ngoài phân đen",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        34,
+        51
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        53,
+        60
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng quanh rốn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        106,
+        124
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn thức ăn lẫn máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        126,
+        145
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        169,
+        176
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "XHTH quá liều thuốc kháng vitamin K",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        251,
+        286
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Van động mạch chủ cơ học",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        370,
+        394
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thay khớp háng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        421,
+        435
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Xuất huyết tiêu hóa theo dõi quá liều kháng vitamin K",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        812,
+        865
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kháng vitamin K",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        850,
+        865
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        868,
+        877
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        909,
+        923
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "TS thay khớp háng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        926,
+        943
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "TS thay khớp háng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        926,
+        943
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thay khớp háng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        929,
+        943
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Khí máu động mạch (23 thông số)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        993,
+        1024
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tổng phân tích tế bào máu ngoại vi (bằng máy đếm laser)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1048,
+        1103
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thời gian Thromboplastin một phần hoạt hóa (aPTT / TCK) bằng máy tự động",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1105,
+        1177
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thời gian Prothrombin (PT / TQ / Tỷ lệ Prothrombin) bằng máy tự động",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1178,
+        1246
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Định lượng Fibrinogen (Yếu tố I) - Phương pháp Clauss trực tiếp bằng máy tự động",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1247,
+        1327
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Định lượng Glucose, Urê, Creatinin máu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1347,
+        1385
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Điện giải đồ (Na+, K+, cl-)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1386,
+        1413
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đo hoạt độ AST (GOT) và ALT (GPT)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1424,
+        1457
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Định lượng CRP và Troponin T siêu nhạy (hs-Troponin T)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1475,
+        1529
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "CRP",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1647,
+        1650
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "CRP: 227.0 mg/L",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1647,
+        1662
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Creatinin",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1663,
+        1672
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Creatinin : 46 µmol/L",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1663,
+        1684
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Kali +",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1685,
+        1691
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Kali +: 3.6 mmol/L",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1685,
+        1703
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Chụp CT Bụng - Tiểu khung",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1743,
+        1768
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ceftriaxone 1g",
+      "type": "THUỐC",
+      "position": [
+        1886,
+        1900
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Truyền tĩnh mạch",
+      "type": "THUỐC",
+      "position": [
+        1937,
+        1953
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

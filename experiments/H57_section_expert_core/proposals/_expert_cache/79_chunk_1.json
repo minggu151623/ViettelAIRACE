@@ -1,0 +1,42 @@
+{
+  "record": 79,
+  "chunk": 1,
+  "window": [
+    862,
+    1521
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7cf78e1041688d3291a8c7c5aa2e810efb5681401f04ac463c9bc00a1977669f",
+  "response": {
+    "entities": [
+      {
+        "q": "amyloidosis",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "amyloidosis chuỗi nhẹ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "amyloidosis tự miễn dịch",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "LLQ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đau bụng/khó chịu vùng bụng tăng dần",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hóa trị",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ghép gan",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

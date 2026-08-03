@@ -1,0 +1,3692 @@
+{
+  "hypothesis": "H58_section_expert_recall",
+  "proposal_digest": "c96cb5ba2aa95888d71017cd6d5ca6278b7a5a41a71b718afb518e8e6a2fd08e",
+  "selected": 222,
+  "removed_baseline_rows": 55,
+  "added_rows": 167,
+  "semantic_changes": 222,
+  "selected_modes": {
+    "qwen_only_clinical_or_numeric": 137,
+    "supported_shorter_boundary": 55,
+    "supported_disjoint": 30
+  },
+  "selected_types": {
+    "TRIỆU_CHỨNG": 140,
+    "TÊN_XÉT_NGHIỆM": 1,
+    "CHẨN_ĐOÁN": 56,
+    "THUỐC": 19,
+    "KẾT_QUẢ_XÉT_NGHIỆM": 6
+  },
+  "rejected": {
+    "cross_type": 570,
+    "exact_or_unsupported_contained": 1256,
+    "unsupported_type_router": 381,
+    "contains_same_type": 299,
+    "partial_same_type": 6,
+    "ambiguous_qwen_only_overlap": 4
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 914,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1408,
+      "THUỐC": 287,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 328
+    }
+  },
+  "gates": {
+    "baseline_hash_matches": true,
+    "proposal_bank_complete": true,
+    "at_least_150_semantic_changes": true,
+    "qwen_only_changes_at_most_200": true,
+    "no_new_nonempty_candidate_codes": true,
+    "all_records_validate": true
+  },
+  "selected_rows": [
+    {
+      "record": 1,
+      "text": "hồng cầu bị phá hủy hàng loạt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1782,
+        1811
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 1,
+      "text": "tổn thương thần kinh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1945,
+        1965
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 1,
+      "text": "thuốc, thực phẩm hay hóa chất có nguy cơ gây tan huyết",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3774,
+        3828
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 1,
+      "text": "long não, băng phiến",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3917,
+        3937
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 1,
+      "text": "xét nghiệm sàng lọc",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        4245,
+        4264
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        44
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 2,
+      "text": "Phản ứng miễn dịch bất thường ở trẻ có cơ địa nhạy cảm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        996,
+        1050
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 2,
+      "text": "Yếu tố chủng tộc: Trẻ gốc Á, đặc biệt trẻ Nhật Bản và Hàn Quốc, có tỉ lệ mắc cao",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1055,
+        1135
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 2,
+      "text": "Yếu tố môi trường: thay đổi khí hậu, chất độc trong không khí",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1140,
+        1201
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 2,
+      "text": "Bệnh không lây từ trẻ này sang trẻ khác và đến nay chưa có bằng chứng về lây truyền trong cộng đồng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1220,
+        1319
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 2,
+      "text": "Thay đổi niêm mạc miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1592,
+        1615
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 2,
+      "text": "Tổn thương ở đầu chi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1686,
+        1706
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 3,
+      "text": "trimetazidin",
+      "type": "THUỐC",
+      "position": [
+        333,
+        345
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        3
+      ],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 3,
+      "text": "intravenous fluids",
+      "type": "THUỐC",
+      "position": [
+        1675,
+        1693
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 3,
+      "text": "tỉnh táo hơn tỉnh táo và tỉnh khi gọi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1889,
+        1926
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 5,
+      "text": "stent thành vách vĩnh viễn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1730,
+        1756
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 5,
+      "text": "stent thành vách vĩnh viễn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1784,
+        1810
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 5,
+      "text": "ống dẫn mật ngoài-trong tại chỗ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1819,
+        1850
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 5,
+      "text": "ống dẫn mật xuyên gan tại chỗ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2320,
+        2349
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 6,
+      "text": "cải thiện dần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1737,
+        1750
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 7,
+      "text": "tinh bột nghệ tách tinh dầu",
+      "type": "THUỐC",
+      "position": [
+        578,
+        605
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 7,
+      "text": "hàng ngàn sợi chỉ đang thắt ruột gan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1258,
+        1294
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 8,
+      "text": "phát hiện bệnh lý chất trắng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2126,
+        2154
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 8,
+      "text": "Kawasaki",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2469,
+        2477
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        61
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": [
+        "M30.3"
+      ]
+    },
+    {
+      "record": 9,
+      "text": "cơn đau càng dồn đạp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1050,
+        1070
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 9,
+      "text": "đau đến mức chỉ biết ôm bụng mà không thể nhúc nhích được chân tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1087,
+        1153
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 9,
+      "text": "hàng ngàn sợi chỉ đang thắt ruột gan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1258,
+        1294
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 11,
+      "text": "tổn thương mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        798,
+        817
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 11,
+      "text": "cải thiện dần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1737,
+        1750
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 11,
+      "text": "ngửa đầu ra sau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2441,
+        2456
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 11,
+      "text": "nhắm mắt từng lúc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2460,
+        2477
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 12,
+      "text": "tổn thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1066,
+        1076
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 12,
+      "text": "tổn thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1344,
+        1354
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        23
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 12,
+      "text": "tổn thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1432,
+        1442
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        25
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 12,
+      "text": "tổn thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1548,
+        1558
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 13,
+      "text": "vết thương ở đầu và cổ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2416,
+        2438
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 13,
+      "text": "vết thương ở các khu vực đầu mút thần kinh như ngón tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2455,
+        2510
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 13,
+      "text": "thời gian ủ bệnh ngắn hơn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2522,
+        2547
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 14,
+      "text": "dấu mề đay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        81,
+        91
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        0
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 14,
+      "text": "bệnh này là bệnh gì",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        441,
+        460
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 14,
+      "text": "có cách nào để chữa cho bạn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        554,
+        581
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 14,
+      "text": "bệnh thận mạn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        816,
+        829
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        12
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 14,
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1108,
+        1115
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        19
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 14,
+      "text": "mày đay vô căn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1857,
+        1871
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        28
+      ],
+      "independent_sources": [
+        "h34_oof"
+      ],
+      "candidates": [
+        "L50.1"
+      ]
+    },
+    {
+      "record": 14,
+      "text": "điều trị triệu chứng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2072,
+        2092
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "vết thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        776,
+        786
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "da bị trầy xước",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        799,
+        814
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "vết thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1204,
+        1214
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "vết trầy xước trên cơ thể",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1627,
+        1652
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1694,
+        1697
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        14
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "chó cắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1727,
+        1734
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "chó cắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1743,
+        1750
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "dơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1895,
+        1898
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "dơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1930,
+        1933
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2014,
+        2017
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        15
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2282,
+        2285
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "vết thương ở đầu và cổ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2348,
+        2370
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 16,
+      "text": "vết thương ở các khu vực đầu mút thần kinh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2387,
+        2429
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 17,
+      "text": "bệnh hô hấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        970,
+        981
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        21
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 18,
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1113,
+        1116
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 18,
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1331,
+        1334
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        24
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 18,
+      "text": "đau hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1356,
+        1372
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        25
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 18,
+      "text": "đau hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1408,
+        1424
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        26
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 19,
+      "text": "bị nổi quanh năm luôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        126,
+        147
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 19,
+      "text": "điều trị triệu chứng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2039,
+        2059
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 20,
+      "text": "vết thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        776,
+        786
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 20,
+      "text": "da bị trầy xước",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        799,
+        814
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 20,
+      "text": "chó cắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1656,
+        1663
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 20,
+      "text": "chó cắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1672,
+        1679
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 20,
+      "text": "vết cắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2205,
+        2212
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 21,
+      "text": "Rối loạn chuyển hóa tinh bột",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        29,
+        57
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 21,
+      "text": "lắng đọng protein amyloid",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        650,
+        675
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 21,
+      "text": "suy các cơ quan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        713,
+        728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 21,
+      "text": "tử vong",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        750,
+        757
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 21,
+      "text": "lắng đọng của protein amyloid",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        770,
+        799
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 23,
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1344,
+        1351
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        13
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 23,
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1755,
+        1762
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        19
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 23,
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1838,
+        1845
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        21
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 24,
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        860,
+        867
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        33
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 24,
+      "text": "số lượng đã nhiều hơn so với lúc vào viện",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        891,
+        932
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 24,
+      "text": "viêm gan B",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1578,
+        1588
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        59
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 24,
+      "text": "viêm gan B",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1653,
+        1663
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        60
+      ],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 24,
+      "text": "ăn ngủ được",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1743,
+        1754
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 24,
+      "text": "tiểu tiện 1000ml/24h",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1782,
+        1802
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 24,
+      "text": "Glucose 5%",
+      "type": "THUỐC",
+      "position": [
+        1997,
+        2007
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        67
+      ],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 24,
+      "text": "Fortex 25mg",
+      "type": "THUỐC",
+      "position": [
+        2230,
+        2241
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        71
+      ],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 24,
+      "text": "Vitamin 3B",
+      "type": "THUỐC",
+      "position": [
+        2332,
+        2342
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        74
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 25,
+      "text": "ảnh hưởng đến tim, mạch, gan, thận",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1082,
+        1116
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 25,
+      "text": "thay đổi nội tiết tố",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1145,
+        1165
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 25,
+      "text": "tình cảm gia đình",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1437,
+        1454
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 27,
+      "text": "viêm phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        20,
+        29
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        0
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": [
+        "J18.9"
+      ]
+    },
+    {
+      "record": 27,
+      "text": "hang nhỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        650,
+        658
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 27,
+      "text": "nung mủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        778,
+        785
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 27,
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1621,
+        1628
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        22
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 29,
+      "text": "chạy, nhảy bình thường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1432,
+        1454
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 33,
+      "text": "nhói",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        980,
+        984
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami",
+        "h34_oof"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 33,
+      "text": "bên trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        987,
+        995
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 33,
+      "text": "lan xuống cánh tay trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        998,
+        1021
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 34,
+      "text": "đau tăng dần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        725,
+        737
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 34,
+      "text": "đau nửa đầu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1360,
+        1371
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 34,
+      "text": "nhiễm khuẩn đường tiết niệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1714,
+        1741
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        36
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": [
+        "N39.0"
+      ]
+    },
+    {
+      "record": 36,
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        308,
+        311
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        5
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 36,
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        324,
+        327
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        6
+      ],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 36,
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        381,
+        384
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 36,
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        408,
+        411
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        7
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 36,
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        421,
+        424
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        8
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 37,
+      "text": "phát triển đều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        299,
+        313
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 37,
+      "text": "vành tai đẹp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        468,
+        480
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 37,
+      "text": "phản ứng khi mình gọi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        508,
+        529
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 37,
+      "text": "bị trêu chọc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        710,
+        722
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 37,
+      "text": "Tai mũi họng nhi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1864,
+        1880
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 38,
+      "text": "bệnh thận mạn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        231,
+        244
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        7
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 38,
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        523,
+        530
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        14
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 38,
+      "text": "Lú lẫn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        693,
+        699
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        18
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 40,
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        169,
+        176
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        5
+      ],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 41,
+      "text": "da dầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        316,
+        322
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 41,
+      "text": "nang",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        525,
+        529
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 41,
+      "text": "nang",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        572,
+        576
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 41,
+      "text": "Vi khuẩn C. acne",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        907,
+        923
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 41,
+      "text": "Viêm tại chỗ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        926,
+        938
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 41,
+      "text": "Tretinoin",
+      "type": "THUỐC",
+      "position": [
+        962,
+        971
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        16
+      ],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 42,
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        213,
+        215
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 42,
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        739,
+        741
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 42,
+      "text": "đau buốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        822,
+        830
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        19
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 43,
+      "text": "Bacillus clausii",
+      "type": "THUỐC",
+      "position": [
+        1635,
+        1651
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        23
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 44,
+      "text": "xâm nhập của tế bào một nhân kết hợp với bạch huyết T và đại thực bào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        773,
+        842
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 44,
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1332,
+        1345
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 44,
+      "text": "triệu chứng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1530,
+        1541
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 44,
+      "text": "hệ 1",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1690,
+        1694
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 44,
+      "text": "bậc thấp cách ngày hoặc hàng ngày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1706,
+        1739
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 44,
+      "text": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1743,
+        1779
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 46,
+      "text": "stent mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        53,
+        68
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 46,
+      "text": "NYHA III-IV",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        208,
+        219
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 46,
+      "text": "stent mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        329,
+        344
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 47,
+      "text": "đi tiêu mỗi ngày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        903,
+        919
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 48,
+      "text": "phát triển đều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        299,
+        313
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 48,
+      "text": "phản ứng khi mình gọi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        508,
+        529
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 48,
+      "text": "sợ sau này sẽ ảnh hưởng đến sự phát triển của bé",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        655,
+        703
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 48,
+      "text": "bị trêu chọc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        710,
+        722
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 48,
+      "text": "Tai mũi họng nhi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1728,
+        1744
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 49,
+      "text": "tràn dịch màng ngoài tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        326,
+        350
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        4
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 49,
+      "text": "PUVA",
+      "type": "THUỐC",
+      "position": [
+        1592,
+        1596
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 49,
+      "text": "UVA",
+      "type": "THUỐC",
+      "position": [
+        1615,
+        1618
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 49,
+      "text": "điều trị nhiều bệnh nhân tái phát sau khi ngừng điều trị",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1678,
+        1734
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 51,
+      "text": "lợi tiểu 600cc",
+      "type": "THUỐC",
+      "position": [
+        1817,
+        1831
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 53,
+      "text": "điều chỉnh HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1456,
+        1469
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 54,
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        564,
+        567
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        10
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 54,
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        767,
+        774
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        14
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 54,
+      "text": "dị tật bẩm sinh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1208,
+        1223
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 58,
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        825,
+        839
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        19
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 58,
+      "text": "điều trị ổn định từng đợt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        911,
+        936
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 58,
+      "text": "biến chứng tại cơ quan đích",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        948,
+        975
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 59,
+      "text": "da dầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        557,
+        563
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 62,
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        133,
+        135
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 62,
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        479,
+        481
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 62,
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        689,
+        691
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        16
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 63,
+      "text": "B-histamin",
+      "type": "THUỐC",
+      "position": [
+        148,
+        158
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        2
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 63,
+      "text": "nhiễm khuẩn đường tiết niệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        693,
+        720
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        9
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": [
+        "N39.0"
+      ]
+    },
+    {
+      "record": 63,
+      "text": "Bệnh nhân nhìn/nghe thấy có nhiều người (đôi khi tổng cộng khoảng 8 người)",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1131,
+        1205
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 63,
+      "text": "Thấy những người này đang nói chuyện với mình",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1207,
+        1252
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 64,
+      "text": "Nitramyl",
+      "type": "THUỐC",
+      "position": [
+        1508,
+        1516
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami",
+        "h34_oof",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 65,
+      "text": "PUVA",
+      "type": "THUỐC",
+      "position": [
+        1424,
+        1428
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 65,
+      "text": "PUVA",
+      "type": "THUỐC",
+      "position": [
+        1452,
+        1456
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 68,
+      "text": "amoxicillin/acid clavulanic",
+      "type": "THUỐC",
+      "position": [
+        810,
+        837
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        16
+      ],
+      "independent_sources": [
+        "bami",
+        "h34_oof"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 68,
+      "text": "men tiêu hóa",
+      "type": "THUỐC",
+      "position": [
+        1498,
+        1510
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 71,
+      "text": "tỉnh, tiếp xúc tốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        66,
+        84
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 71,
+      "text": "lan ra xung quanh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        721,
+        738
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 71,
+      "text": "lan xuống vùng hông - mông",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        815,
+        841
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 71,
+      "text": "tình trạng bệnh xấu đi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        937,
+        959
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 71,
+      "text": "vẫn như cũ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        973,
+        983
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 71,
+      "text": "nổi mẩn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1064,
+        1071
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        10
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 72,
+      "text": "hưng cảm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1177,
+        1185
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        12
+      ],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 74,
+      "text": "giảm lượng nước tiểu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        885,
+        905
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        12
+      ],
+      "independent_sources": [
+        "h34_oof"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 74,
+      "text": "Vị trí: LLQ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1085,
+        1096
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 74,
+      "text": "Thời gian: 48 giờ qua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1167,
+        1188
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 75,
+      "text": "vi nấm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1234,
+        1240
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 76,
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        981,
+        994
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 77,
+      "text": "đau vùng xương bánh chè – đùi phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        73,
+        107
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        0
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 78,
+      "text": "chảy ở mũi bên phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        88,
+        107
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 79,
+      "text": "Rối loạn chuyển hóa tinh bột",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        29,
+        57
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 79,
+      "text": "amyloidosis",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        342,
+        353
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 79,
+      "text": "lắng đọng protein amyloid",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        650,
+        675
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 79,
+      "text": "tử vong",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        750,
+        757
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 79,
+      "text": "lắng đọng của protein amyloid",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        770,
+        799
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 79,
+      "text": "hóa trị",
+      "type": "THUỐC",
+      "position": [
+        1427,
+        1434
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 79,
+      "text": "ghép gan",
+      "type": "THUỐC",
+      "position": [
+        1436,
+        1444
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 80,
+      "text": "hạt tophi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1356,
+        1365
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami",
+        "h34_oof"
+      ],
+      "candidates": [
+        "M1A.9XX1"
+      ]
+    },
+    {
+      "record": 82,
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        871,
+        879
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        14
+      ],
+      "independent_sources": [
+        "vietmed"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 83,
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        884,
+        897
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 84,
+      "text": "vi nấm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1128,
+        1134
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 85,
+      "text": "Kết quả chẩn đoán hình ảnh chẩn đoán hình ảnh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1199,
+        1244
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 86,
+      "text": "thức ăn có vị chua, cay, nóng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1186,
+        1215
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 86,
+      "text": "đồ ăn nhiều dầu mỡ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1228,
+        1246
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 86,
+      "text": "rượu, bia, nước có ga",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1259,
+        1280
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 86,
+      "text": "cà phê",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1329,
+        1335
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 87,
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        112,
+        120
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        1
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 88,
+      "text": "cắt bỏ ống dẫn mật chủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        67,
+        89
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 88,
+      "text": "cắt bỏ phân đoạn bên trái gan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        96,
+        125
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 88,
+      "text": "phẫu thuật nối ống gan - hỗng tràng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        135,
+        170
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 88,
+      "text": "đặt 3 stent đường mật lưu dài hạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        253,
+        286
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 88,
+      "text": "đăng ký khám bs nhi khoa",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1252,
+        1276
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 89,
+      "text": "Hoạt động gắng sức",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        552,
+        570
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 89,
+      "text": "Nghỉ ngơi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        598,
+        607
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 89,
+      "text": "Nhiệt độ 36.7°c",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        902,
+        917
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 89,
+      "text": "Huyết áp 139/68 mmhg",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        919,
+        939
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 89,
+      "text": "Mạch 67 lần/phút",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        941,
+        957
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 89,
+      "text": "Nhịp thở 16 lần/phút",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        959,
+        979
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 90,
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        61,
+        63
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 90,
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        269,
+        271
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 91,
+      "text": "hội chứng turner",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        48,
+        64
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        0
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 91,
+      "text": "đánh giá tổng quát về tiêu hóa",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        864,
+        894
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 91,
+      "text": "đánh giá tổng quát về tiêu hóa",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        901,
+        931
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 92,
+      "text": "sốt cao",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        822,
+        829
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        15
+      ],
+      "independent_sources": [
+        "bami"
+      ],
+      "candidates": []
+    },
+    {
+      "record": 93,
+      "text": "HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        243,
+        245
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 94,
+      "text": "thức ăn có vị chua, cay, nóng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1097,
+        1126
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 94,
+      "text": "đồ ăn nhiều dầu mỡ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1139,
+        1157
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 94,
+      "text": "rượu, bia, nước có ga",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1170,
+        1191
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 94,
+      "text": "cà phê",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1240,
+        1246
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 96,
+      "text": "lên màu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        785,
+        792
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 96,
+      "text": "lên màu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        853,
+        860
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 96,
+      "text": "lên màu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        907,
+        914
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 96,
+      "text": "lên màu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1049,
+        1056
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "qwen_only_clinical_or_numeric",
+      "baseline_overlap_indices": [],
+      "independent_sources": [],
+      "candidates": []
+    },
+    {
+      "record": 97,
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        448,
+        455
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "mode": "supported_shorter_boundary",
+      "baseline_overlap_indices": [
+        8
+      ],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ],
+      "candidates": []
+    }
+  ],
+  "decision": "PASS",
+  "zip_sha256": "1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51",
+  "repeat_zip_sha256": "1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51",
+  "byte_identical_repeat": true
+}

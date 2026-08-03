@@ -1,0 +1,301 @@
+{
+  "record": 15,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0bc2d9b7a450a2b1d0061110fe8fb988a978ce2b3a96e908ea0619f782f533ef",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Bệnh phổi kẽ do sử dụng corticoid liều cao kéo dài",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        44,
+        94
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thở oxy tại nhà",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        102,
+        117
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hội chứng kháng enzym tổng hợp protein",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        124,
+        162
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "béo phì",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        170,
+        177
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng huyết áp nguyên phát",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        184,
+        209
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Sinh thiết nội mạc tử cung gần đây",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        247,
+        281
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Corticoid liều cao kéo dài",
+      "type": "THUỐC",
+      "position": [
+        317,
+        343
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thở oxy tại nhà",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        350,
+        365
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng liều bactrim",
+      "type": "THUỐC",
+      "position": [
+        372,
+        389
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "doxycyclin",
+      "type": "THUỐC",
+      "position": [
+        430,
+        440
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "doxycycline",
+      "type": "THUỐC",
+      "position": [
+        430,
+        441
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        478,
+        525
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tình trạng tổn thương vùng âm hộ và mông bên phải ngày càng nặng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        573,
+        637
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cotrimoxazol",
+      "type": "THUỐC",
+      "position": [
+        921,
+        933
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "doxycyclin",
+      "type": "THUỐC",
+      "position": [
+        953,
+        963
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm mô tế bào",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        976,
+        990
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ quanh tổn thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1008,
+        1031
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bọng nước",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1114,
+        1123
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rỉ dịch vàng đục giống mủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1175,
+        1200
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "metoclopramide",
+      "type": "THUỐC",
+      "position": [
+        1528,
+        1542
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "âm hộ bên phải",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1699,
+        1713
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "n phải, mông bên phải",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1707,
+        1728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mông bên phải",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1715,
+        1728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cực kỳ đau đớn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1756,
+        1770
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ, chảy mủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1860,
+        1875
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm mô tế bào",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2029,
+        2043
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm mô tế bào",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2364,
+        2378
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhiễm virus Herpes simplex (HSV)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2585,
+        2617
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh thủy đậu/Zona (do Varicella Zoster Virus)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2623,
+        2669
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

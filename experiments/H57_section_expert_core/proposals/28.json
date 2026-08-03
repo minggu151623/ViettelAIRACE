@@ -1,0 +1,91 @@
+{
+  "record": 28,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "142554032ab57bb779d84b4cb7ed5b7b01ce8f5754f7bb821ba82846520349c3",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "MÀY ĐAY VÔ CĂN",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        733,
+        747
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MÀY ĐAY MẠN TÍNH",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        839,
+        855
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mày đay vô căn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1396,
+        1410
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh mạn tính",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1530,
+        1543
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị triệu chứng",
+      "type": "THUỐC",
+      "position": [
+        1611,
+        1631
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cộng hưởng từ (mri) cột sống cổ",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2240,
+        2271
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hẹp ống sống C4-5",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2281,
+        2298
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hẹp lỗ liên hợp",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2314,
+        2329
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

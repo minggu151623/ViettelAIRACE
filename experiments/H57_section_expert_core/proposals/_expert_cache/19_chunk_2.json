@@ -1,0 +1,38 @@
+{
+  "record": 19,
+  "chunk": 2,
+  "window": [
+    1688,
+    2639
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "6b62c491ad772b7bc23bdcbf20b03a815be2e9d8de81289cf9036861b562de77",
+  "response": {
+    "entities": [
+      {
+        "q": "n thương sinh thiết không thấy có hình ảnh của lắng đọng các phức hợp miễn dịch, bổ thể hay sợi fibrin",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "mày đay vô căn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh lý mày đay vô căn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "mày đay vô căn là một bệnh mạn tính",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "điều trị triệu chứng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "corticoid liều thấp cách ngày hoặc hàng ngày và giảm liều chậm 2,5 – 5mg mỗi 2-3 tuần",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

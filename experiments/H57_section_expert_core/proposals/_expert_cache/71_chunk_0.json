@@ -1,0 +1,78 @@
+{
+  "record": 71,
+  "chunk": 0,
+  "window": [
+    0,
+    1000
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4b378f17315724ad888d36646cf611297a42d89bdb316f3f1ac1ec739f5c3a41",
+  "response": {
+    "entities": [
+      {
+        "q": "Phẫu thuật cắt cụt chân trái bên trên gối và cắt cụt chân phải bên dưới gối",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "biến chứng thuyên tắc phổi hai bên",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tổn thương chi dưới nghiêm trọng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tỉnh, tiếp xúc tốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nổi mẩn ở vùng lưng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vết nổi mẩn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lan ra xung quanh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đỏ hơn trước",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nổi sần tạo thành lớp sừng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lan xuống vùng hông - mông",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lan lên vùng cổ vai gáy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "điều trị bằng thuốc viêm nang lông",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tình trạng bệnh xấu đi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vẫn như cũ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ngủ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "record": 47,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9eb23b7c5aea3c614ee1c62c1e8f9a4771581dd05f579b03822aa23833c941a5",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Ung thư biểu mô tuyến đại tràng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        39,
+        70
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        73,
+        117
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        120,
+        134
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xơ gan do rượu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        137,
+        151
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xơ gan do rượu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        137,
+        151
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì ung thư tuyến đại tràng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        231,
+        306
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xơ gan do rượu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        337,
+        351
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xơ gan do rượu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        337,
+        351
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tụt huyết áp không rõ nguyên nhân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        390,
+        423
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        427,
+        434
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        477,
+        484
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm phổi bệnh viện",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        557,
+        576
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rung nhĩ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        580,
+        588
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp nhanh trên thất",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        592,
+        612
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiêu chảy, hoặc táo bón",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        858,
+        881
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đi tiêu mỗi ngày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        903,
+        919
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt, đau ngực, chóng mặt, đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        932,
+        973
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng hoặc dịch từ vết mổ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        986,
+        1014
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đỏ da, hoặc bục chỉ khâu bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1027,
+        1056
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ran",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1118,
+        1121
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ran nổ, phù phù, dịch rỉ huyết thanh từ vết mổ, và phân nâu dương tính guaiac",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1118,
+        1195
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1126,
+        1133
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phân nâu dương tính guaiac",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1169,
+        1195
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dấu hiệu sinh tồn là: 98.8 65 9360 20 95 2LNC (tại khoa Cấp cứu)",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1199,
+        1263
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dấu hiệu sinh tồn 98.6 70 10356 17 962LNC (khi đến MICU)",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1266,
+        1322
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ huyết áp, không đặc hiệu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1343,
+        1370
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1373,
+        1380
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1383,
+        1390
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi gắng sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1393,
+        1413
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho mạn tính có đờm vàng loãng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1416,
+        1445
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ran",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1448,
+        1451
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1454,
+        1461
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dịch thanh dịch lẫn máu từ vết mổ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1464,
+        1497
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phân nâu dương tính guaiac",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1500,
+        1526
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết khối 26.3, giảm so với hôm qua, nhưng ổn định ở mức 28 hậu phẫu tuần trước",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1547,
+        1627
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực có xẹp phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1657,
+        1736
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "n dịch màng phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1720,
+        1736
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Truyền dịch tĩnh mạch 750cc",
+      "type": "THUỐC",
+      "position": [
+        1767,
+        1794
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Xông khí dung",
+      "type": "THUỐC",
+      "position": [
+        1797,
+        1810
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm phổi bệnh viện",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1842,
+        1861
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Rung nhĩ kèm nhịp nhanh trên thất",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1864,
+        1897
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

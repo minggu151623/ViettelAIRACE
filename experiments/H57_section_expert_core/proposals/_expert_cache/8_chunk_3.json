@@ -1,0 +1,78 @@
+{
+  "record": 8,
+  "chunk": 3,
+  "window": [
+    2538,
+    3110
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d6dae34ac1a987e170a44c3f0de23fd1c8a344eca8c89d825a91269dd14b639b",
+  "response": {
+    "entities": [
+      {
+        "q": "Phình giãn động mạch vành",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Hẹp – tắc động mạch vành",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Thiếu máu cơ tim",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Nhồi máu cơ tim",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Suy vành mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Viêm cơ tim",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tràn dịch màng tim",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tăng men gan",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Rối loạn tiêu hóa",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Chẩn đoán bệnh Kawasaki",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Sốt ≥5 ngày",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Viêm kết mạc 2 bên không ghèn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Môi – miệng thay đổi (nứt, đỏ, lưỡi dâu tây)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tổn thương đầu chi (phù, đỏ, bong da)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Ban đỏ toàn thân",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Hạch cổ to ≥1,5 cm",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

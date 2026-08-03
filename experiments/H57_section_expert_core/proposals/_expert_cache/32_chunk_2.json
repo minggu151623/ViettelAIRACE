@@ -1,0 +1,38 @@
+{
+  "record": 32,
+  "chunk": 2,
+  "window": [
+    1633,
+    2200
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "dc6fdc99d4c8d8e4980197e51e779db415a6379962ff26245db8594824ae67a4",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh amyloidosis chuỗi nhẹ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh amyloidosis tự miễn dịch",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh amyloidosis di truyền hoặc gia đình",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "amyloidosis",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "điều trị tận gốc amyloidosis",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "điều trị amyloidosis",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

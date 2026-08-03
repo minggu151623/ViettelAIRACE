@@ -1,0 +1,34 @@
+{
+  "record": 27,
+  "chunk": 1,
+  "window": [
+    724,
+    1664
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "02549ca9392af1bdd3d4c7cfa78c0576ed79c677f74eebc147b06ee62c9a05ba",
+  "response": {
+    "entities": [
+      {
+        "q": "Áp xe phổi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng tần suất đau đầu gián đoạn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau đầu kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cơn đau đầu nhiều hơn",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

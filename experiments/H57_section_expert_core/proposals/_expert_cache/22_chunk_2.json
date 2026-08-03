@@ -1,0 +1,66 @@
+{
+  "record": 22,
+  "chunk": 2,
+  "window": [
+    1697,
+    2497
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "3ed9032c5d18646fd03c12706bb70a4afaa040751f686f106b637ff73242dbe4",
+  "response": {
+    "entities": [
+      {
+        "q": "ast 421",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "alt 336",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "alp 185",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bilirubin toàn phần 0.9",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "total bili bắt đầu tăng lên đạt đỉnh 6.7",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bảng xét nghiệm viêm gan virus là âm tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ferritin là bình thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ceruloplasmin vẫn đang chờ kết quả",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "siêu âm bụng có doppler âm tính âm tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "âm tính chụp hida",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ercp cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng men gan",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tăng bilirubin máu",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

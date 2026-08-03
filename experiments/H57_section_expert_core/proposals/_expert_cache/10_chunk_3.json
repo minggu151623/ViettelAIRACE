@@ -1,0 +1,30 @@
+{
+  "record": 10,
+  "chunk": 3,
+  "window": [
+    2556,
+    2957
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "2b6125a71e606d37f95f030f1fc7647917a7ca5275fd6a8d12f0d3ef2de6ca12",
+  "response": {
+    "entities": [
+      {
+        "q": "phân tích nước tiểu không có gì đáng chú ý",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp x-quang ngực không có gì đáng chú ý",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "điện tâm đồ là không ghi nhận gì bất thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "monitor holter cho thấy Nhịp xoang chiếm ưu thế. Ghi nhận ngoại tâm thu nhĩ và ngoại tâm thu thất xuất hiện thường xuyên",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "record": 34,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4f105c977e7244ebc0e614a605dccdef333e2a028917e7d76a5234103885f407",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "đau nửa đầu dữ dội",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        65,
+        87
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        129,
+        138
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        147,
+        151
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh lý đau nửa đầu hay còn gọi là bệnh đau nửa đầu Migraine",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        336,
+        396
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau nửa đầu không cố định",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        438,
+        463
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau cả hai bên",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        477,
+        491
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "biểu hiện về thị giác bị nhòe, ruồi bay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        578,
+        617
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        619,
+        627
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mạch đập ở vùng thái dương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        629,
+        655
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau vừa hoặc đau dữ dội",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        696,
+        719
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau tăng dần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        725,
+        737
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        773,
+        781
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        778,
+        781
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sợ ánh sáng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        783,
+        794
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sợ ánh sáng, sợ tiếng động",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        783,
+        809
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sợ tiếng động",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        796,
+        809
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "căng thẳng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        811,
+        821
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau nửa đầu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        839,
+        850
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau nửa đầu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        876,
+        887
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau nửa đầu bên trái",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        876,
+        896
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau nửa đầu bên trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        876,
+        896
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm xoang",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        974,
+        984
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau nửa đầu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1042,
+        1053
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy giảm trí nhớ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1123,
+        1139
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó tập trung",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1141,
+        1154
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "trầm cảm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1156,
+        1164
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đột quỵ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1177,
+        1184
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy thoái võng mạc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1222,
+        1240
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mất thị lực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1242,
+        1253
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mù vĩnh viễn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1257,
+        1269
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau nửa đầu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1360,
+        1371
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        1389,
+        1396
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "allopurinol",
+      "type": "THUỐC",
+      "position": [
+        1438,
+        1449
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1562,
+        1569
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1650,
+        1657
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giácxuất hiện khoảng một tháng trước",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1650,
+        1689
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1705,
+        1764
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm khuẩn đường tiết niệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1714,
+        1741
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1854,
+        1913
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "allopurinol đã ngừng cách nhập viện 5 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1996,
+        2038
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "record": 30,
+  "chunk": 0,
+  "window": [
+    0,
+    981
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "25f354ce83e63135fe6a95ad272c1cef866ed5659ee56ef9ddb970445d26f9c0",
+  "response": {
+    "entities": [
+      {
+        "q": "Không có tiền sử bệnh tim mạch hoặc thận bệnh nào được biết đến",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đang dùng methadone",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Đánh giá phù, chủ quan sốt và ớn lạnh, và đau tăng dần khi đi lại",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phù hai bên",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ban đỏ, RL",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chủ quan sốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ớn lạnh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau tăng dần khi đi lại",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Vị trí: RL (Chân phải)",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Mức độ nghiêm trọng: đau tăng dần",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "phù, ban đỏ, chủ quan sốt, ớn lạnh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "được chuyển từ nơi trú ẩn đến Khoa Cấp cứu để đánh giá",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "lơ mơ khi đến tầng và không thể tỉnh táo đủ lâu để cung cấp tiền sử",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "được ghi nhận phù hai bên và ban đỏ, RL",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Chào bạn,mình xin trả lời câu hỏi của bạn như sau Như bạn đã mô tả, trường hợp này bạn thuộc MÀY đay VÔ CĂN. Chúng tôi không tìm được nguyên nhân gây bệnh.",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

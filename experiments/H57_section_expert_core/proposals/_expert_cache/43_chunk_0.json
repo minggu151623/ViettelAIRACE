@@ -1,0 +1,58 @@
+{
+  "record": 43,
+  "chunk": 0,
+  "window": [
+    0,
+    952
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "2fd680df0b5067563c5db3b78e815b3c5bf5447b8fc6d608419aa46db3db49b0",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh bạch cầu dòng tủy mãn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng cholesterol máu đơn thuần",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "gleevec",
+        "t": "THUỐC"
+      },
+      {
+        "q": "allopurinol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ảo giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "điều trị nhiễm khuẩn đường tiết niệu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thuốc giảm đau",
+        "t": "THUỐC"
+      },
+      {
+        "q": "liều gleevec đã ngừng cách nhập viện 5 ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "allopurinol đã ngừng cách nhập viện 5 ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ảo giác xảy ra khoảng mỗi đêm lúc 2 giờ sáng",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

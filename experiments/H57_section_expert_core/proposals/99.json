@@ -1,0 +1,301 @@
+{
+  "record": 99,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4cb5c80e8de68815e5112a72742cbffa506d6bbcf38d99e5d382e0bb600f2dc0",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "viêm tủy xương",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        52,
+        66
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bàng quang thần kinh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        70,
+        90
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "biến chứng liệt hai chi dưới",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        94,
+        122
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "biến đổi ý thức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        166,
+        181
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ thân nhiệt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        191,
+        204
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        208,
+        219
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "biến đổi ý thức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        378,
+        393
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ thân nhiệt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        395,
+        408
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        410,
+        421
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "biến đổi ý thức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        484,
+        499
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ thân nhiệt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        506,
+        519
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "T1, T2 rõ",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        616,
+        625
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gan lách không sờ thấy",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        776,
+        798
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đợt cấp COPD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        853,
+        865
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cấp COPD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        857,
+        865
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tâm phế mạn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        868,
+        879
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Cơn tim nhanh nhĩ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        882,
+        899
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhiễm khuẩn đường tiêu hóa",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        902,
+        928
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        931,
+        944
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chẩn đoán hình ảnh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        958,
+        976
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chẩn đoán hình ảnh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        983,
+        1001
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1003,
+        1020
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1080,
+        1097
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đặt sonde bàng quang",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1144,
+        1164
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Gửi xét nghiệm máu và cấy nước tiểu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1171,
+        1206
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điện tâm đồ",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1235,
+        1246
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp chậm xoang",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1256,
+        1271
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đường huyết lúc đói",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1275,
+        1294
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đường huyết thấp",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1294,
+        1310
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

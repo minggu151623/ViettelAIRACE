@@ -1,0 +1,441 @@
+{
+  "record": 5,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7a667055c65a5f2ff1b0e008c8c5c31da88e72e0d6565b918f8d77049f3bef0e",
+  "chunks_expected": 4,
+  "chunks_complete": 4,
+  "errors": {},
+  "entities": [
+    {
+      "text": "ung thư biểu mô tế bào mật không thể cắt bỏ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        238,
+        281
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tinh dịch đồ",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        530,
+        542
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        616,
+        623
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp tử cung vòi trứng",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        664,
+        686
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xét nghiệm nội tiết",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        749,
+        768
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hội chứng buồng trứng đa nang",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        982,
+        1011
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rậm lông",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1021,
+        1029
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "béo phì",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1031,
+        1038
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm buồng trứng có nhiều nang",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1040,
+        1073
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1169,
+        1177
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1174,
+        1177
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1179,
+        1182
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1184,
+        1187
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ớn lạnh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1189,
+        1196
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dịch rò rỉ quanh ống thông",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1203,
+        1229
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cholangiogram",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1250,
+        1263
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tắc nghẽn kéo dài gần chỗ nối mật tụy",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1289,
+        1326
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ống dẫn trước và sau bên phải",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1342,
+        1371
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sinh thiết",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1478,
+        1488
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lấy mẫu bằng bàn chải",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1492,
+        1513
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lấy mẫu bằng bàn chải",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1541,
+        1562
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tế bào bất thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1572,
+        1589
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ung thư biểu mô tuyến",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1605,
+        1626
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đặt stent thành vách vĩnh viễn",
+      "type": "THUỐC",
+      "position": [
+        1726,
+        1756
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "stent thành vách vĩnh viễn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1730,
+        1756
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "stent thành vách vĩnh viễn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1784,
+        1810
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ống dẫn mật ngoài-trong tại chỗ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1819,
+        1850
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1954,
+        1962
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1969,
+        1976
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau khi sờ nắn xung quanh vị trí đặt ống dẫn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2011,
+        2055
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ống dẫn mật xuyên gan tại chỗ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2320,
+        2349
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cholangiogram",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2447,
+        2460
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tắc nghẽn kéo dài gần chỗ nối mật tụy",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2486,
+        2523
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tắc nghẽn kéo dài gần chỗ nối mật tụy",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2486,
+        2523
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảnh hưởng đến ống dẫn trước và sau bên phải",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2525,
+        2568
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ống dẫn trước và sau bên phải",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2539,
+        2568
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lấy mẫu bằng bàn chải cho thấy các tế bào bất thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2727,
+        2779
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đặt stent thành vách vĩnh viễn",
+      "type": "THUỐC",
+      "position": [
+        2919,
+        2949
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau khi sờ nắn xung quanh vị trí đặt ống dẫn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3002,
+        3046
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lấy mẫu bằng bàn chải cho thấy tế bào bất thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        3106,
+        3154
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đáng ngại cho ung thư biểu mô tuyến",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3173,
+        3208
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tắc nghẽn kéo dài gần chỗ nối mật tụy",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3280,
+        3317
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ống dẫn trước và sau bên phải",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3333,
+        3362
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

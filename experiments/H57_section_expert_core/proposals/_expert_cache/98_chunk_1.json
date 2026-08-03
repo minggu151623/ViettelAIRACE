@@ -1,0 +1,46 @@
+{
+  "record": 98,
+  "chunk": 1,
+  "window": [
+    862,
+    1314
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "71fd1d83ceb9cb35647c0f728cf3b144efd5bafed68acf1f874c56f517354ebc",
+  "response": {
+    "entities": [
+      {
+        "q": "tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "có ý định tự tử",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ý nghĩ tự tử, có nghĩ tự bắn vào đầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lo âu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hoảng sợ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hoang tưởng như đang chiếm khí oxy của người khác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suboxone",
+        "t": "THUỐC"
+      },
+      {
+        "q": "chăm sóc tâm thần",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

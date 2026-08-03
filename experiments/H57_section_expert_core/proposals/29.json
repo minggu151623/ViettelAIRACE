@@ -1,0 +1,241 @@
+{
+  "record": 29,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "81944b7d77d4e6ba164b720b0eae795dbe1c9203fb00710ae0f6e886b02d430c",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        46,
+        77
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        80,
+        93
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đái tháo đường típ 2",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        96,
+        116
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Rung nhĩ kèm đáp ứng thất nhanh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        122,
+        153
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh thận mạn, không đặc hiệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        156,
+        185
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm giác nghẹt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        334,
+        353
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        358,
+        361
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        414,
+        417
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nghẹt ngực vẫn kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        435,
+        457
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở tăng dần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        504,
+        520
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù ngoại vi tăng dần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        548,
+        569
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        640,
+        643
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy hô hấp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        700,
+        710
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        715,
+        728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hỗ trợ thở áp lực dương không xâm nhập (BiPAP)",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        814,
+        860
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hội chứng bàn chân bẹt bẩm sinh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1309,
+        1340
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bàn chân bẹt bẩm sinh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1319,
+        1340
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lòng bàn chân phẳng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1406,
+        1425
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chạy, nhảy bình thường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1432,
+        1454
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chân có hơi vòng kiềng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1456,
+        1478
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh bàn chân bẹt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1700,
+        1717
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết khối",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2149,
+        2159
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuyên tắc phổi",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2218,
+        2233
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "record": 37,
+  "chunk": 0,
+  "window": [
+    0,
+    998
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "38ba88646c5063aaf788640b23b91dee563f8c3f7df4618aa8e1c9946ceed2bf",
+  "response": {
+    "entities": [
+      {
+        "q": "tai phải bé không có lỗ tai",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vành tai không phát triển đều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vành tai đẹp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nghe bình thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "phản ứng khi mình gọi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nghe bình thường khi sắp ngủ",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "phát triển đều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lo lắng về tai của bé",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "sợ sau này sẽ ảnh hưởng đến sự phát triển của bé",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bị trêu chọc",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "kiểm tra việc nghe của bé thường xuyên",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

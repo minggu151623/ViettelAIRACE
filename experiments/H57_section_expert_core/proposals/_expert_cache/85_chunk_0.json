@@ -1,0 +1,62 @@
+{
+  "record": 85,
+  "chunk": 0,
+  "window": [
+    0,
+    978
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "07e5b3f080846d3c9a06780f0cd0febcaf1b51d65b3945fc7415082d4e41c35b",
+  "response": {
+    "entities": [
+      {
+        "q": "tiểu đường loại 1 đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng lipid máu, không đặc hiệu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "béo phì",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Nhiễm trùng đường tiết niệu (UTIs) tái phát nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau bàn chân phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất thăng bằng khi đi lại",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm bể thận và viêm phế quản",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hct (hematocrit) 8.126.3",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tiểu cầu (platelets) 478",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hco3- (bicarbonate) 20",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ag (anion gap) 13",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

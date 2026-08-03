@@ -1,0 +1,70 @@
+{
+  "record": 38,
+  "chunk": 1,
+  "window": [
+    836,
+    1827
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4ee4ef9937e00f7852f491f04f0761c0e9cdcf7bc02801802bdb5215fedd5fd6",
+  "response": {
+    "entities": [
+      {
+        "q": "lú lẫn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ăn uống kém, ăn vào dễ nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn không ra máu, không ra dịch mật",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vừa được xuất viện sau chẩn đoán cho ảo giác bình thường",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "được hướng dẫn ngừng gleevec",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "toàn trạng suy kiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "trượt ngã xuống sàn do yếu cơ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bạch cầu tăng là 39.2",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "creatinin là 3.0",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "troponin là 0.10",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "inr là 1.4",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tăng men gan. với alt là 176 và ast là 287",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tổng phân tích nước tiểu có đái tháo đườngđái tháo đường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp x-quang ngực là bình thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

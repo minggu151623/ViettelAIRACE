@@ -1,0 +1,38 @@
+{
+  "record": 55,
+  "chunk": 1,
+  "window": [
+    850,
+    1799
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "01d553e7f153c75f4bf0e40e9cfa2b301638887ef5182bb99637757c5816aaaf",
+  "response": {
+    "entities": [
+      {
+        "q": "suy thận mạn giai đoạn V do đái tháo đường và tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phẫu thuật cắt bỏ u dây thần kinh số VIII",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đặt shunt động tĩnh mạch (AVF) ở tay phải (RUE AVF)",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "sinh thiết tuyến tiền liệt",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "mệt mỏi, mất trí nhớ chi tiết",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

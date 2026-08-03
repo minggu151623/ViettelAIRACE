@@ -1,0 +1,311 @@
+{
+  "record": 7,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "af2e42db84b13c5ff6783b590c7ea42c76903c28bee4665b1b71c9545129f169",
+  "chunks_expected": 4,
+  "chunks_complete": 4,
+  "errors": {},
+  "entities": [
+    {
+      "text": "đau bao tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        113,
+        123
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ổ loét trong bao tử",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        327,
+        346
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tinh bột nghệ tách tinh dầu",
+      "type": "THUỐC",
+      "position": [
+        578,
+        605
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng 10kg",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        808,
+        817
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạn chế ăn tinh bột",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        883,
+        902
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ăn tinh bột",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        891,
+        902
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng râm ran",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1030,
+        1046
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cơn đau càng dồn đạp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1050,
+        1070
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đến mức chỉ biết ôm bụng mà không thể nhúc nhích được chân tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1087,
+        1153
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hàng ngàn sợi chỉ đang thắt ruột gan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1258,
+        1294
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1347,
+        1354
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sỏi thận",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1455,
+        1463
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm bao tử",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1517,
+        1528
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đang có thai",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1543,
+        1555
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "An toàn của ****** trên phụ nữ có thai chưa được thiết lập",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1740,
+        1798
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "**************",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1812,
+        1826
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "******************, ****************",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1813,
+        1849
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "**************",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1833,
+        1847
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "**************",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1853,
+        1867
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Alverin citrate 40mg và Simethicon 100mg",
+      "type": "THUỐC",
+      "position": [
+        2094,
+        2134
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "metoclopramide 10mg",
+      "type": "THUỐC",
+      "position": [
+        2145,
+        2164
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhôm hydroxid và magie hydroxid",
+      "type": "THUỐC",
+      "position": [
+        2249,
+        2280
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "********** trên phụ nữ mang thai",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2475,
+        2507
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mang thai",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2498,
+        2507
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc có qua nhau thai",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2537,
+        2559
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hấp thu của ********** qua ruột bị hạn chế",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2576,
+        2618
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phơi nhiễm đối với thai nhi",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2644,
+        2671
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổn thương vùng âm hộ và mông bên phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2709,
+        2747
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xét nghiệm/siêu âm/nội soi cần thiết",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        3022,
+        3058
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm dạ dày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3167,
+        3178
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

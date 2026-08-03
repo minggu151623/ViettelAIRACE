@@ -1,0 +1,201 @@
+{
+  "record": 68,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "6c7d86a6a76c1dadbb00135b3fae775150d040d18cd5a3138ce610e535b0111e",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "bệnh động mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        34,
+        53
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh lý thần kinh ngoại biên",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        55,
+        83
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        160,
+        167
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        248,
+        255
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh lý thần kinh ngoại biên",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        361,
+        389
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dị tật cố định vùng trước vách và vách dưới",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        485,
+        528
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm chức năng tâm thu thất trái nghiêm trọng",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        534,
+        579
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rối loạn chức năng thất trái",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        589,
+        617
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh ba thân động mạch vành nghiêm trọng",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        650,
+        690
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "29 tháng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        772,
+        780
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "13 kg",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        787,
+        792
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Augmentin (amoxicillin/acid clavulanic)",
+      "type": "THUỐC",
+      "position": [
+        799,
+        838
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amoxicillin/acid clavulanic",
+      "type": "THUỐC",
+      "position": [
+        810,
+        837
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "500 mg/lần x 2 lần ngày",
+      "type": "THUỐC",
+      "position": [
+        920,
+        943
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Augmentin",
+      "type": "THUỐC",
+      "position": [
+        1360,
+        1369
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiêu chảy",
+      "type": "THUỐC",
+      "position": [
+        1434,
+        1443
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "men tiêu hóa",
+      "type": "THUỐC",
+      "position": [
+        1498,
+        1510
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vi khuẩn đề kháng thuốc",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1571,
+        1594
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm trùng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1649,
+        1660
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

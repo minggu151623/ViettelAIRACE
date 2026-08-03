@@ -1,0 +1,98 @@
+{
+  "record": 46,
+  "chunk": 1,
+  "window": [
+    829,
+    1810
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "64fa944e17f07e73e839db34763cea540eed5ea1bf0adddc7fd929886826a6e6",
+  "response": {
+    "entities": [
+      {
+        "q": "HCO3: 32.09",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "PO2: 97.0",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "PCO2: 39",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "pH: 7.517",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Phình thành sau và thành bên thất trái",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Giảm vận động 2/3 thành bên và 2/3 thành sau dưới thất trái về phía đáy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Thành thất trái dày, buồng thất trái không giãn, chức năng tâm thu thất trái bảo tồn (EF BP: 55%)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Hở hai lá nhiều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Hở chủ vừa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Tăng áp lực động mạch phổi nhẹ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Chẩn đoán: Phù phổi cấp - Suy tim - Stent mạch vành - Tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Phẫu thuật cắt bỏ u dây thần kinh số VIII",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Đặt shunt động tĩnh mạch (AVF) ở tay phải (RUE AVF)",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Sinh thiết tuyến tiền liệt",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "mệt mỏi, mất trí nhớ chi tiết",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "khó thở khi gắng sức",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ăn không ngon miệng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ngứa da toàn thân nhiều",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "buồn nôn, và nôn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Mệt mỏi nhiều",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "mất trí nhớ chi tiết",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

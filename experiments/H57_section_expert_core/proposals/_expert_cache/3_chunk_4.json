@@ -1,0 +1,46 @@
+{
+  "record": 3,
+  "chunk": 4,
+  "window": [
+    3429,
+    3724
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1d5bbc523b8949b40e7a42ddb6221f92a80bd081c2f59d1d80f91b17f630e681",
+  "response": {
+    "entities": [
+      {
+        "q": "chân phải liên tục khuỵ xuống",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tỉnh chậm, phản xạ kém",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chụp ct sọ não",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp lại chụp ct sọ não",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp ct sọ não: âm tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp lại chụp ct sọ não: âm tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chọc dò dịch não tủy",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Truyền dịch tĩnh mạch",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "record": 21,
+  "chunk": 2,
+  "window": [
+    1630,
+    2497
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d189308e501d6dc08c9144708fadbcd4975103fea932399bb6dc1b3b9293821d",
+  "response": {
+    "entities": [
+      {
+        "q": "chướng bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn thoáng qua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn mửa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau lưng âm ỉ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chướng bụng, buồn nôn thoáng qua, nôn, đau lưng kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm dạ dày",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "omeprazole",
+        "t": "THUỐC"
+      },
+      {
+        "q": "sỏi đoạn cuối ống mật chủ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "men gan tăng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "xét nghiệm chức năng gan ghi nhận tăng men gan",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

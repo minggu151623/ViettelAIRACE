@@ -1,0 +1,831 @@
+{
+  "record": 1,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7c9c9d3c57b45818fd1bfd2835a02186fef9533b7c91d4ee6d83456b14e7f909",
+  "chunks_expected": 6,
+  "chunks_complete": 6,
+  "errors": {},
+  "entities": [
+    {
+      "text": "G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        10,
+        14
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        27,
+        41
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "men G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        33,
+        41
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        37,
+        41
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        55,
+        69
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "men G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        61,
+        69
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        65,
+        69
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Glucose-6-Phosphate Dehydrogenase",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        71,
+        104
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm sắc thể X",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        145,
+        160
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gen lặn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        186,
+        193
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm sắc thể X",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        279,
+        294
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đột biến gen G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        381,
+        398
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        394,
+        398
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Xq28",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        410,
+        414
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "men G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        558,
+        566
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        562,
+        566
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "men G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        659,
+        667
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        663,
+        667
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hồng cầu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        674,
+        682
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hồng cầu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        746,
+        754
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        761,
+        765
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hồng cầu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        808,
+        816
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tác nhân oxy hóa",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        826,
+        842
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hồng cầu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        863,
+        871
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        943,
+        948
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thực phẩm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        950,
+        959
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1019,
+        1033
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1137,
+        1151
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1229,
+        1243
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1371,
+        1385
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1497,
+        1511
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đậu tằm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1518,
+        1525
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1539,
+        1544
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thực phẩm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1546,
+        1555
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thực phẩm chứa chất oxy hóa",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1546,
+        1573
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1758,
+        1767
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu do tan huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1758,
+        1780
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu do tan huyết",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1758,
+        1780
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hồng cầu bị phá hủy hàng loạt",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1782,
+        1811
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hồng cầu bị phá hủy hàng loạt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1782,
+        1811
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1821,
+        1830
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da vàng mắt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1832,
+        1848
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy thận cấp",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1861,
+        1873
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy thận cấp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1861,
+        1873
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da nặng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1904,
+        1916
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổn thương thần kinh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1945,
+        1965
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bại não",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1995,
+        2002
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chậm phát triển trí tuệ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2004,
+        2027
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2150,
+        2159
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "men G6PD",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2282,
+        2290
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2464,
+        2473
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu tan huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2464,
+        2483
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da nặng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2501,
+        2513
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2517,
+        2531
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2518,
+        2531
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "men G6PD",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2523,
+        2531
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu tan huyết",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2696,
+        2715
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da sơ sinh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2728,
+        2743
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2864,
+        2878
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2865,
+        2878
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đậu tằm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2997,
+        3004
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thực phẩm có tính oxy hóa cao",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        3015,
+        3044
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3079,
+        3093
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3080,
+        3093
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3268,
+        3282
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3269,
+        3282
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3317,
+        3331
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3318,
+        3331
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm virus",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3412,
+        3423
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm khuẩn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3613,
+        3624
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc, thực phẩm hay hóa chất có nguy cơ gây tan huyết",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3774,
+        3828
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tình trạng thiếu men G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        3869,
+        3894
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        3880,
+        3894
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "long não, băng phiến",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3917,
+        3937
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc nam, thuốc đông y",
+      "type": "THUỐC",
+      "position": [
+        3982,
+        4005
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        4186,
+        4200
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        4229,
+        4243
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu men G6PD",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        4229,
+        4243
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xét nghiệm sàng lọc",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        4245,
+        4264
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xét nghiệm sàng lọc trước sinh",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        4245,
+        4275
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xét nghiệm sàng lọc trước sinh và sau sinh",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        4245,
+        4287
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xét nghiệm sàng lọc",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        4368,
+        4387
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

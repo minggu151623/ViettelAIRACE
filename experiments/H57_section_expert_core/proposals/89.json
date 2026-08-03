@@ -1,0 +1,261 @@
+{
+  "record": 89,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "22ae8d9f62a671e9a4eafe694239ff936f7d1ec0c6b8fc56d28797310e7653fd",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "tiền sử Đái tháo đường",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        23,
+        45
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiền sử Đái tháo đường",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        47,
+        69
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        73,
+        86
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xét nghiệm gắng sức bất thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        172,
+        202
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        325,
+        334
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        337,
+        344
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        346,
+        353
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đổ mồ hôi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        357,
+        366
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hoạt động gắng sức",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        552,
+        570
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nghỉ ngơi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        598,
+        607
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        637,
+        646
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        648,
+        655
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đổ mồ hôi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        657,
+        666
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xét nghiệm gắng sức bất thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        700,
+        730
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điện tâm đồ bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        820,
+        843
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điện tâm đồ bình thường tại phòng cấp cứu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        820,
+        861
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhiệt độ 36.7°c",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        902,
+        917
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Huyết áp 139/68 mmhg",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        919,
+        939
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mạch 67 lần/phút",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        941,
+        957
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhịp thở 16 lần/phút",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        959,
+        979
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "SpO2 100% (không thở oxy)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        981,
+        1006
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "độ bão hòa oxy 100% trên khí trời",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1091,
+        1124
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)",
+      "type": "THUỐC",
+      "position": [
+        1154,
+        1210
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Liệu phát miễn dịch tiếp xúc (contac immunotherapy)",
+      "type": "THUỐC",
+      "position": [
+        1250,
+        1301
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đoạn ST chênh xuống kiểu xuống dốc xuất hiện trong giai đoạn hồi phục",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1302,
+        1371
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

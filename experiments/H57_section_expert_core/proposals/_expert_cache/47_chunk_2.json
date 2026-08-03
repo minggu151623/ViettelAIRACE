@@ -1,0 +1,26 @@
+{
+  "record": 47,
+  "chunk": 2,
+  "window": [
+    1720,
+    1897
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9eb23b7c5aea3c614ee1c62c1e8f9a4771581dd05f579b03822aa23833c941a5",
+  "response": {
+    "entities": [
+      {
+        "q": "n dịch màng phổi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Viêm phổi bệnh viện",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Rung nhĩ kèm nhịp nhanh trên thất",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

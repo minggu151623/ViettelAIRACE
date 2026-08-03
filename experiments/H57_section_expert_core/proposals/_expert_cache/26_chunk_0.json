@@ -1,0 +1,86 @@
+{
+  "record": 26,
+  "chunk": 0,
+  "window": [
+    0,
+    985
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "000d59909d4a847bcaa971db8fe287c18edb8d5d54477a6a96b68192b138b4a1",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh mạch vành",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "xơ vữa động mạch",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "LDL-cholesterol tăng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "lắng đọng lipid",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "mảng xơ vữa",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hẹp lòng mạch",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nứt vỡ mảng xơ vữa",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "huyết khối",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tắc mạch cấp",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "đau thắt ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tiền sử gia đình bệnh tim mạch sớm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hút thuốc lá",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đái tháo đường",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "rối loạn lipid máu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "béo phì",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ít vận động",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "stress kéo dài",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "record": 90,
+  "chunk": 1,
+  "window": [
+    820,
+    1426
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "735d075a0d832fc777a954cfb6faab2d17e3ad5373dc17074d8358c05d66bed8",
+  "response": {
+    "entities": [
+      {
+        "q": "đau",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bạch cầu 26.7",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bnp 4227",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "kali 3.2",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "troponin 0.01",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "lactate 1.8",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tổng phân tích nước tiểu có kết quả dương tính với 182bạch cầuvài vi khuẩn (vi khuẩn), nitrite",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chẩn đoán hình ảnh không cho thấy quá trình bệnh lý tim mạch hoặc hô hấp cấp tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chụp x-quang ngực phù hợp với viêm phổi kẽ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Khí dung phối hợp Albuterol và Ipratropium 1 lần",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Ceftriaxone 1 gram dùng 1 liều",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Uống Tylenol 1 gram, 1 liều duy nhất",
+        "t": "THUỐC"
+      },
+      {
+        "q": "cấy máu 2 mẫu và cấy nước tiểu đã được gửi",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

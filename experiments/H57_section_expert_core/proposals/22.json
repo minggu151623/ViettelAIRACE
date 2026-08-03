@@ -1,0 +1,291 @@
+{
+  "record": 22,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "3ed9032c5d18646fd03c12706bb70a4afaa040751f686f106b637ff73242dbe4",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "đau bụng ngày càng nặng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        376,
+        399
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng ngày càng nặng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        449,
+        472
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng liên tục",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        491,
+        508
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng liên tục",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        542,
+        559
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng men gan",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        642,
+        654
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổng bilirubin",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        687,
+        701
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng ngày càng nặng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        775,
+        798
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng liên tục",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        801,
+        818
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi toàn thân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        821,
+        838
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ệt mỏi toàn thân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        822,
+        838
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "yếu sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        841,
+        848
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi gắng sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        851,
+        871
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngứa toàn thân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        874,
+        888
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiểu ra máu không đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        899,
+        920
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "uống 2 chai thuốc an thần trong quá khứ",
+      "type": "THUỐC",
+      "position": [
+        1241,
+        1280
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ast 421",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1967,
+        1974
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "alt 336",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1977,
+        1984
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "alp 185",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1987,
+        1994
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bilirubin toàn phần 0.9",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1997,
+        2020
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "total bili bắt đầu tăng lên đạt đỉnh 6.7",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2023,
+        2063
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bảng xét nghiệm viêm gan virus là âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2066,
+        2107
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ferritin là bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2110,
+        2133
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ceruloplasmin vẫn đang chờ kết quả",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2136,
+        2170
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm bụng có doppler âm tính âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2243,
+        2282
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "âm tính chụp hida",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2285,
+        2302
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ercp cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2305,
+        2406
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng men gan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2464,
+        2476
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng bilirubin máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2479,
+        2497
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

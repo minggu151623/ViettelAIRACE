@@ -1,0 +1,78 @@
+{
+  "record": 45,
+  "chunk": 1,
+  "window": [
+    800,
+    1766
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "484e878d94eaefef0fc7d66d6c6940c68649fd54d19989f30955c5670c9bcf14",
+  "response": {
+    "entities": [
+      {
+        "q": "não úng tuỷ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đặt dẫn lưu shunt",
+        "t": "THUỐC"
+      },
+      {
+        "q": "não úng thủy",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng đau đầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau đầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mờ mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phù gai thị",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Tổng phân tích tế bào máu ngoại vi",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Thời gian prothrombin (PT: Prothrombin Time)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng Troponin Ths",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng NT - proBNP ( ProBNP)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Đo hoạt độ AST (GOT)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Đo hoạt độ ALT (GPT)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng Creatinin (máy)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Điện giải đồ (Na, K, Cl",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Dị tật còn ống động mạch",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

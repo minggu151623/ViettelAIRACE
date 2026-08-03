@@ -1,0 +1,50 @@
+{
+  "record": 32,
+  "chunk": 0,
+  "window": [
+    0,
+    981
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "dc6fdc99d4c8d8e4980197e51e779db415a6379962ff26245db8594824ae67a4",
+  "response": {
+    "entities": [
+      {
+        "q": "Rối loạn chuyển hóa tinh bột (amyloidosis)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh thoái hóa tinh bột (hay bệnh amyloidosis)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh bạch cầu dòng tủy mãn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tăng huyết áp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tăng lipid máu, không đặc hiệu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Đái tháo đường típ 2",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hẹp ống sống",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Giả gout",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

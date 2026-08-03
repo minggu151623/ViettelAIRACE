@@ -1,0 +1,54 @@
+{
+  "record": 18,
+  "chunk": 2,
+  "window": [
+    1586,
+    2581
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7b77a88212879721913dadc870bb5fb4366a8f2c8a21f7f93d05d12e5334693a",
+  "response": {
+    "entities": [
+      {
+        "q": "không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "siêu âm vùng gan mật",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "lipase là tăng lên ở mức 623 (lần nhập viện trước)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tăng men gan nhẹ (lần nhập viện trước)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tbr là cao tới 1.0 sau đó cải thiện (lần nhập viện trước)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "dương tính cấy máu khi tái khám với GPRs",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc sỏi ống mật (lần nhập viện trước)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chụp ct bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

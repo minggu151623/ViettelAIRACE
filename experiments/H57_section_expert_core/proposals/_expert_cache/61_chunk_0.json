@@ -1,0 +1,42 @@
+{
+  "record": 61,
+  "chunk": 0,
+  "window": [
+    0,
+    964
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0897f80583542435d57dbe2f463ff6df329d15afed77ad3162862bac1a882886",
+  "response": {
+    "entities": [
+      {
+        "q": "mệt mỏi kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó khăn khi ra khỏi giường",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng gián đoạn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạ huyết áp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở khi gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ho mạn tính có đờm vàng loãng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chán ăn",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

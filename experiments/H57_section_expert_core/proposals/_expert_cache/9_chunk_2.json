@@ -1,0 +1,42 @@
+{
+  "record": 9,
+  "chunk": 2,
+  "window": [
+    1525,
+    2509
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9fd9ca5d22f1b98ae12019550592c73ad353300b874db3b9101ae16769554e5e",
+  "response": {
+    "entities": [
+      {
+        "q": "An toàn của ****** trên phụ nữ có thai chưa được thiết lập",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "******************, ****************",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "**************",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Nhôm hydroxid và magie hydroxid",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Alverin citrate 40mg và Simethicon 100mg",
+        "t": "THUỐC"
+      },
+      {
+        "q": "metoclopramide 10mg",
+        "t": "THUỐC"
+      },
+      {
+        "q": "********** trên phụ nữ mang thai",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

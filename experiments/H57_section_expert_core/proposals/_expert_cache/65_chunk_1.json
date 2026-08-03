@@ -1,0 +1,54 @@
+{
+  "record": 65,
+  "chunk": 1,
+  "window": [
+    842,
+    1689
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0354103c95fd98aa7f38412290e5eef9fdf163a282662ab84766a23f68225f78",
+  "response": {
+    "entities": [
+      {
+        "q": "thiếu máu cơ tim cục bộ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "biểu hiện ST chênh xuống",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "diphenylcyclopropenone (diphencyprone)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "dinitrochlorobenzene",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "viêm da tiếp xúc dị ứng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "viêm da tiếp xúc",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "mày đay",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bạch biến",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "PUVA",
+        "t": "THUỐC"
+      },
+      {
+        "q": "psoralen kết hợp UVA",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

@@ -6,7 +6,14 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Freeze externally confirmed H23 at 38.9352. H24 retains a type-specialist
+  Freeze externally confirmed H38 at 39.2813 as the safe fallback. H57 rebuilt
+  extraction around deterministic section chunks, but its conservative merger
+  changed only 13 rows and failed its materiality gate. H58 is the first
+  core-rebuild challenger: it replaces 55 independently supported shorter
+  boundaries and adds 167 disjoint clinical/numeric spans while freezing
+  candidate coding. It passes every local integrity gate and remains
+  unsubmitted; its 137 Qwen-only additions make it deliberately higher variance
+  than H38. Earlier history: H24 retains a type-specialist
   candidate retriever. H25 PU calibration failed, while H26's train-only phrase
   source transferred with useful recall. H27's dual-prompt verifier retained
   81.40% of H23-present additions and gained 4.06 dev F1 points, but missed its
@@ -572,8 +579,18 @@ experiments:
     - "H55 H44 result recorder: 4/4 anomaly cases stop attribution, 4/4 valid branches map correctly, invalid input writes no result, 164 tests; external result still absent"
     - "H44 external rejection: 35.4639; WER/assertions invariant, candidate Jaccard -9.5437; retain H38"
     - "H56 size audit: ZIP-score r=0.9817 is confounded; V2/H44 counterexamples reject byte size as selector"
+    - "H57 extractor: 271/271 deterministic Qwen3 calls, 2,738 proposals, digest c96cb5ba2aa95888d71017cd6d5ca6278b7a5a41a71b718afb518e8e6a2fd08e"
+    - "H57 conservative merger rejected: 13 changes below 150-row materiality gate; no ZIP"
+    - "H58 recall core: 222 changes, zero new nonempty candidate codes, 100/100 valid, 170 tests, ZIP 1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51"
   next: >
-    Retain H38 at 39.2813 and freeze its candidate policy. H44 proves that
+    Retain H38 at 39.2813 and freeze its candidate policy. H58 is the next
+    experimental submission candidate because it changes span/type coverage
+    materially without repeating H44 candidate expansion. Treat it as a
+    high-variance recall test, not a guaranteed promotion: 137 additions have
+    Qwen-only evidence. Record its exact hash and component metrics before any
+    further change. If H58 regresses, restore H38 and use component movement to
+    decide whether to retain only its independently supported boundary subset.
+    H44 proves that
     candidate-list growth without row-specific cardinality calibration can
     destroy Jaccard. Do not optimize archive bytes; require any size increase to
     come from independently supported spans/types/assertions. Prioritize a new

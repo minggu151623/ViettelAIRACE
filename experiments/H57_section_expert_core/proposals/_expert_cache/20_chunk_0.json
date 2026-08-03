@@ -1,0 +1,42 @@
+{
+  "record": 20,
+  "chunk": 0,
+  "window": [
+    0,
+    907
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "137b959c970ecc52f5dfc1ca9cfe201ebbfcc0f1dd4c8f36d291568794c39485",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh dại",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Lyssavirus",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nước bọt của chó",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "vết thương",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "da bị trầy xước",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chó chưa tiêm chủng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nước dãi chó",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

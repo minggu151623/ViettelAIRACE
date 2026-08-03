@@ -1,0 +1,66 @@
+{
+  "record": 99,
+  "chunk": 1,
+  "window": [
+    857,
+    1311
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4cb5c80e8de68815e5112a72742cbffa506d6bbcf38d99e5d382e0bb600f2dc0",
+  "response": {
+    "entities": [
+      {
+        "q": "cấp COPD",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tâm phế mạn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Cơn tim nhanh nhĩ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Nhiễm khuẩn đường tiêu hóa",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chẩn đoán hình ảnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chụp x-quang ngực",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Đặt sonde bàng quang",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Gửi xét nghiệm máu và cấy nước tiểu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "điện tâm đồ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhịp chậm xoang",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đường huyết lúc đói",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đường huyết thấp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

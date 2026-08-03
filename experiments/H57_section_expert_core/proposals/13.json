@@ -1,0 +1,321 @@
+{
+  "record": 13,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9b6acee1d257287d253466af1d9a0728563015db006c6a6aa2c286523c8a54b7",
+  "chunks_expected": 4,
+  "chunks_complete": 4,
+  "errors": {},
+  "entities": [
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        310,
+        318
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết cắn của động vật",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        571,
+        591
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        603,
+        611
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nước bọt của chó",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        687,
+        703
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        736,
+        744
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết thương",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        766,
+        776
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lyssavirus",
+      "type": "THUỐC",
+      "position": [
+        855,
+        865
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lyssavirus",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        855,
+        865
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "virus",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        860,
+        865
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "virus",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        950,
+        955
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiêm vaccine phòng dại",
+      "type": "THUỐC",
+      "position": [
+        1307,
+        1329
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "virus",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1387,
+        1392
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1436,
+        1444
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nước bọt",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1543,
+        1551
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết cắn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1596,
+        1603
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết trầy xước trên cơ thể",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1613,
+        1638
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1675,
+        1683
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1675,
+        1683
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chó cắn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1713,
+        1720
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chó cắn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1729,
+        1736
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1994,
+        2002
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1994,
+        2002
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2179,
+        2187
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2179,
+        2187
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực trái cấp tính",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2243,
+        2265
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau sau xương ức lan ra sau lưng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2269,
+        2301
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vi rút dại",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2343,
+        2353
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết thương ở đầu và cổ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2416,
+        2438
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết thương ở các khu vực đầu mút thần kinh như ngón tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2455,
+        2510
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thời gian ủ bệnh ngắn hơn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2522,
+        2547
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vi rút xâm nhập vào mô thần kinh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2575,
+        2607
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "record": 82,
+  "chunk": 0,
+  "window": [
+    0,
+    950
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1504418318672c1f2b2d52012498508cfbe7fd53e7a4b7b4ee54788144422f0a",
+  "response": {
+    "entities": [
+      {
+        "q": "đau đầu gối",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau vùng hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chướng bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn thoáng qua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau lưng kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau vùng hạ sườn phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau lưng kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng vùng hạ sườn phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau vùng hạ sườn phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau vùng hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau vùng hạ sườn phải",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

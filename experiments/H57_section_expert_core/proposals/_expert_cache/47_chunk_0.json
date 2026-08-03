@@ -1,0 +1,78 @@
+{
+  "record": 47,
+  "chunk": 0,
+  "window": [
+    0,
+    975
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9eb23b7c5aea3c614ee1c62c1e8f9a4771581dd05f579b03822aa23833c941a5",
+  "response": {
+    "entities": [
+      {
+        "q": "Ung thư biểu mô tuyến đại tràng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "xơ gan do rượu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì ung thư tuyến đại tràng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "xơ gan do rượu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tụt huyết áp không rõ nguyên nhân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Viêm phổi bệnh viện",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "rung nhĩ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nhịp nhanh trên thất",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đi tiêu mỗi ngày",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không có sốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không có đau ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không có chóng mặt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không có đánh trống ngực",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

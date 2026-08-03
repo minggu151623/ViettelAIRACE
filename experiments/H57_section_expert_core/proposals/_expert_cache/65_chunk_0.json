@@ -1,0 +1,26 @@
+{
+  "record": 65,
+  "chunk": 0,
+  "window": [
+    0,
+    962
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0354103c95fd98aa7f38412290e5eef9fdf163a282662ab84766a23f68225f78",
+  "response": {
+    "entities": [
+      {
+        "q": "rụng tóc từng mảng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rụng tóc toàn bộ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rụng tóc toàn thể",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

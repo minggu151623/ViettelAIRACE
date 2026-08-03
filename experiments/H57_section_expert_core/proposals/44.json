@@ -1,0 +1,351 @@
+{
+  "record": 44,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f6b179c57bcad09314b78463f99105a4d8acb4db3106c5ff6de7876af8de3662",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "tăng men gan",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        31,
+        43
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng bilirubin máu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        48,
+        66
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ast 421",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        68,
+        75
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "alt 336",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        77,
+        84
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "alp 185",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        86,
+        93
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bilirubin toàn phần 0.9",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        95,
+        118
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm bụng có doppler",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        129,
+        152
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp hida",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        163,
+        172
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "acetaminophen",
+      "type": "THUỐC",
+      "position": [
+        204,
+        217
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nac",
+      "type": "THUỐC",
+      "position": [
+        235,
+        238
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ercp",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        270,
+        274
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ercp",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        277,
+        281
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "túi mật giãn nở rõ rệt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        291,
+        313
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tống ra một viên sỏi mật",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        396,
+        420
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng bilirubin máu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        458,
+        476
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng bilirubin máu và tăng men gan kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        458,
+        500
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng men gan",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        480,
+        492
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MÀY đay VÔ CĂN",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        618,
+        632
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MÀY đay MẠN",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        716,
+        727
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xâm nhập của tế bào một nhân kết hợp với bạch huyết T và đại thực bào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        773,
+        842
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh lý mày đay vô căn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1187,
+        1209
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mày đay vô căn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1195,
+        1209
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1332,
+        1345
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hiệu quả kiểm soát triệu chứng",
+      "type": "THUỐC",
+      "position": [
+        1511,
+        1541
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "triệu chứng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1530,
+        1541
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tác hại gây độc",
+      "type": "THUỐC",
+      "position": [
+        1551,
+        1566
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "liệu pháp điều trị",
+      "type": "THUỐC",
+      "position": [
+        1571,
+        1589
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đơn hàng đầu",
+      "type": "THUỐC",
+      "position": [
+        1643,
+        1655
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hệ 1",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1690,
+        1694
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bậc thấp cách ngày hoặc hàng ngày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1706,
+        1739
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cách ngày hoặc hàng ngày",
+      "type": "THUỐC",
+      "position": [
+        1715,
+        1739
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1743,
+        1779
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+      "type": "THUỐC",
+      "position": [
+        1743,
+        1779
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị tốt nhất",
+      "type": "THUỐC",
+      "position": [
+        1889,
+        1906
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

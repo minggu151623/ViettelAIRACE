@@ -1,0 +1,42 @@
+{
+  "record": 11,
+  "chunk": 2,
+  "window": [
+    1633,
+    2550
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "b7260f93164e8f57fcf9cfad78540027133b9671ffcd9657a696b093d7f50f8b",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh bàn chân bẹt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "mất định hướng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đi lại không vững",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "kích thích nhẹ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ngửa đầu ra sau",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhắm mắt từng lúc",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khám lâm sàng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

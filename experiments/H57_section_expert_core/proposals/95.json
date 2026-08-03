@@ -1,0 +1,221 @@
+{
+  "record": 95,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "e5c36ec53c6f4de64017eda1090b88985a8a48e4c6e3c37e906ee2a6379ba947",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "bệnh gút",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        64,
+        72
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạt nhỏ màu trắng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        166,
+        183
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạt tophi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        508,
+        517
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh gout mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        524,
+        542
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạt tophi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        558,
+        567
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạt tophi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        588,
+        597
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "axit uric",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        652,
+        661
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ng nổi hạt tophi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        757,
+        773
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạt tophi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        764,
+        773
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạt tophi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        764,
+        773
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sưng, tấy đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        788,
+        800
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạt tophi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        908,
+        917
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "acid uric",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1024,
+        1033
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạt tophi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1039,
+        1048
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gout cấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1076,
+        1084
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho đái tháo đường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1162,
+        1179
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1186,
+        1199
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "béo phì",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1206,
+        1213
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngưng thở khi ngủ do tắc nghẽn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1220,
+        1250
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tylenol",
+      "type": "THUỐC",
+      "position": [
+        1287,
+        1294
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mucinex d",
+      "type": "THUỐC",
+      "position": [
+        1301,
+        1310
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "record": 44,
+  "chunk": 1,
+  "window": [
+    842,
+    1781
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f6b179c57bcad09314b78463f99105a4d8acb4db3106c5ff6de7876af8de3662",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh lý mày đay vô căn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "mày đay vô căn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "triệu chứng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "liệu pháp điều trị",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tác hại gây độc",
+        "t": "THUỐC"
+      },
+      {
+        "q": "hiệu quả kiểm soát triệu chứng",
+        "t": "THUỐC"
+      },
+      {
+        "q": "đơn hàng đầu",
+        "t": "THUỐC"
+      },
+      {
+        "q": "cách ngày hoặc hàng ngày",
+        "t": "THUỐC"
+      },
+      {
+        "q": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

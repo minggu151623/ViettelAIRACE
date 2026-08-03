@@ -1,0 +1,22 @@
+{
+  "record": 96,
+  "chunk": 0,
+  "window": [
+    0,
+    892
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "85c46f08b7d0cafe0b6352780a94603337c4c71a3ff6064a0570acebc6c20193",
+  "response": {
+    "entities": [
+      {
+        "q": "chụp cắt lớp vi tính (ct)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tắc hẹp 80% động mạch thận trái L",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "record": 44,
+  "chunk": 0,
+  "window": [
+    0,
+    962
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f6b179c57bcad09314b78463f99105a4d8acb4db3106c5ff6de7876af8de3662",
+  "response": {
+    "entities": [
+      {
+        "q": "tăng men gan",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tăng bilirubin máu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ast 421",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "alt 336",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "alp 185",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bilirubin toàn phần 0.9",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "siêu âm bụng có doppler",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp hida",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "acetaminophen",
+        "t": "THUỐC"
+      },
+      {
+        "q": "nac",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ercp",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "túi mật giãn nở rõ rệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tống ra một viên sỏi mật",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tăng bilirubin máu và tăng men gan kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "MÀY đay VÔ CĂN",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "MÀY đay MẠN",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "xâm nhập của tế bào một nhân kết hợp với bạch huyết T và đại thực bào",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

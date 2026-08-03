@@ -1,0 +1,161 @@
+{
+  "record": 59,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "fbfb4e6f8fc173bf27f0d10e7858bfff8aee86bc913141ae4bcda4d9e7d17f33",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "mụn trứng cá",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        69,
+        81
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn cám",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        316,
+        323
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn đầu trắng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        327,
+        340
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "da dầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        557,
+        563
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lactate 1.1-->0.8",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        737,
+        754
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm khuẩn đường tiết niệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        773,
+        800
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vi khuẩn hỗn hợp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        808,
+        824
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cấy máu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        827,
+        834
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "marker viêm của anh ấy đã có xu hướng tăng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        852,
+        894
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chẩn đoán hình ảnh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        896,
+        914
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MRI",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        920,
+        923
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm xương tủy",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        948,
+        962
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Sừng hóa nang lông bất thường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        972,
+        1001
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Vi khuẩn C. acne",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1002,
+        1018
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn trứng cá",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1060,
+        1072
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

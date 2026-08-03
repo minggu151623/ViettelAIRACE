@@ -1,0 +1,74 @@
+{
+  "record": 54,
+  "chunk": 0,
+  "window": [
+    0,
+    977
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "e02450ad552cbab443de33b985f1462b85d77dae591b6820f4141d47a9d499e6",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh bạch cầu dòng tủy mãn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng lipid máu, không đặc hiệu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đái tháo đường típ 2",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hẹp ống sống",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "giả gout",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng sản tuyến tiền liệt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ảo giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lú lẫn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "gleevec",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ngã",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "toàn trạng suy kiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ảo giác dai dẳng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lú lẫn ngày càng nặng",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

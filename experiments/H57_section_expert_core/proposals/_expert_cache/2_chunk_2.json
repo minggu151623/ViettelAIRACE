@@ -1,0 +1,58 @@
+{
+  "record": 2,
+  "chunk": 2,
+  "window": [
+    1724,
+    2674
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "745fdb5057a85b6c8ce4486c01d93c0c614fd87a74ef4a144b61ae2aecd74d32",
+  "response": {
+    "entities": [
+      {
+        "q": "Ban đỏ toàn thân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Ban dạng đa hình: dát – sẩn – mảng đỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Bệnh đa xơ cứng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Công thức máu, CRP, máu lắng",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Men gan, albumin",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Xét nghiệm nước tiểu",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Cấy máu, dịch hầu họng",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Siêu âm tim",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ECG điện tâm đồ",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Bệnh Kawasaki",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ASA",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

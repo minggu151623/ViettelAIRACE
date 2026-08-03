@@ -1,0 +1,46 @@
+{
+  "record": 23,
+  "chunk": 2,
+  "window": [
+    1736,
+    2470
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9d3eefaca8030d772787ceacb6bce15033c783b06c638372b406bc8a7d43439b",
+  "response": {
+    "entities": [
+      {
+        "q": "đau đầu kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cơn đau đầu nhiều hơn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhìn mờ: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau đầu: nhiều hơn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phù gai thị, bên trái nặng hơn bên phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng nhãn áp so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phù gai thị (theo báo cáo của bác sĩ nhãn khoa)",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

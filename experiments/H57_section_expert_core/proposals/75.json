@@ -1,0 +1,41 @@
+{
+  "record": 75,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "3c425031b8b121b2fb285e86ade7f1f200b9f48b42bb14c6865f2fb2cec01c59",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "vùng bẹn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        896,
+        904
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vùng bẹn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1161,
+        1169
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vi nấm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1234,
+        1240
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

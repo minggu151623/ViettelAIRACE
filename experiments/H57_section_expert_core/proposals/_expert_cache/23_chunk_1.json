@@ -1,0 +1,58 @@
+{
+  "record": 23,
+  "chunk": 1,
+  "window": [
+    880,
+    1856
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9d3eefaca8030d772787ceacb6bce15033c783b06c638372b406bc8a7d43439b",
+  "response": {
+    "entities": [
+      {
+        "q": "hệ thống dẫn lưu được chỉnh sửa/thay thế khi 3 tháng tuổi",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "não úng tuỷ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đặt dẫn lưu shunt",
+        "t": "THUỐC"
+      },
+      {
+        "q": "não úng thủy",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau đầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mờ mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhìn mờ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau đầu gián đoạn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cơn đau đầu nhiều hơn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khám nhãn khoa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "phù gai thị",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

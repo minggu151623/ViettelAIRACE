@@ -1,0 +1,451 @@
+{
+  "record": 10,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "2b6125a71e606d37f95f030f1fc7647917a7ca5275fd6a8d12f0d3ef2de6ca12",
+  "chunks_expected": 4,
+  "chunks_complete": 4,
+  "errors": {},
+  "entities": [
+    {
+      "text": "metoprolol 25mg po bid",
+      "type": "THUỐC",
+      "position": [
+        53,
+        75
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "doxycycline",
+      "type": "THUỐC",
+      "position": [
+        82,
+        93
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "atenolol",
+      "type": "THUỐC",
+      "position": [
+        122,
+        130
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mất việc làm 8 ngày trước",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        266,
+        291
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "uống hàng chục tách cà phê có caffeine",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        326,
+        364
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        453,
+        512
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        497,
+        512
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm giác đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        606,
+        630
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        615,
+        630
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        666,
+        681
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        700,
+        707
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm giác thắt chặt ngực vùng trước tim",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        714,
+        752
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        782,
+        802
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        787,
+        802
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        832,
+        839
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi nhiều khi gắng sức trong tuần qua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        878,
+        919
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        926,
+        994
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1053,
+        1068
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1084,
+        1099
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1121,
+        1128
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1149,
+        1164
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1180,
+        1187
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm giác thắt chặt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1217,
+        1240
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1339,
+        1346
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh trống ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1362,
+        1377
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm dung nạp gắng sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1423,
+        1445
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "monitor holter",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1631,
+        1645
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhịp xoang chiếm ưu thế",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1655,
+        1678
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngoại tâm thu nhĩ",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1689,
+        1706
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngoại tâm thu thất",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1710,
+        1728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "metoprolol",
+      "type": "THUỐC",
+      "position": [
+        1772,
+        1782
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "metoprolol 25mg po bid",
+      "type": "THUỐC",
+      "position": [
+        1772,
+        1794
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "atenolol",
+      "type": "THUỐC",
+      "position": [
+        1849,
+        1857
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm tim qua thành ngực",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1929,
+        1955
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "aspirin 325mg x 1",
+      "type": "THUỐC",
+      "position": [
+        2199,
+        2216
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2223,
+        2240
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phân tích nước tiểu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2276,
+        2295
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ecg",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2331,
+        2334
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm gan cấp tính do virus B thể thông thường điển hình mức độ nặng giai đoạn toàn phát",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2506,
+        2593
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phân tích nước tiểu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2633,
+        2652
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phân tích nước tiểu không có gì đáng chú ý",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2633,
+        2675
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực không có gì đáng chú ý",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2708,
+        2748
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điện tâm đồ là không ghi nhận gì bất thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2786,
+        2829
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "monitor holter cho thấy Nhịp xoang chiếm ưu thế. Ghi nhận ngoại tâm thu nhĩ và ngoại tâm thu thất xuất hiện thường xuyên",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2836,
+        2956
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

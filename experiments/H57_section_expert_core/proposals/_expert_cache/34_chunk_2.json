@@ -1,0 +1,38 @@
+{
+  "record": 34,
+  "chunk": 2,
+  "window": [
+    1646,
+    2141
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4f105c977e7244ebc0e614a605dccdef333e2a028917e7d76a5234103885f407",
+  "response": {
+    "entities": [
+      {
+        "q": "ảo giácxuất hiện khoảng một tháng trước",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "đã ngừng thuốc giảm đau",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không có thay đổi đáng kể về triệu chứng mặc dù đã điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định và ngừng thuốc giảm đau",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "liều gleevec đã ngừng cách nhập viện 5 ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "allopurinol đã ngừng cách nhập viện 5 ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

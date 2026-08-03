@@ -1,0 +1,143 @@
+[
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      34,
+      46
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32",
+      "F32.A"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      108,
+      116
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F41.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      121,
+      135
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      179,
+      198
+    ]
+  },
+  {
+    "text": "sốc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      263,
+      266
+    ]
+  },
+  {
+    "text": "buồn chán",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      314,
+      323
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      441,
+      460
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32",
+      "F32.A"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      555,
+      563
+    ]
+  },
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      595,
+      607
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      633,
+      652
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I26",
+      "I26.99"
+    ],
+    "assertions": [],
+    "position": [
+      768,
+      791
+    ]
+  },
+  {
+    "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L08.9",
+      "B95.2",
+      "Z16.21"
+    ],
+    "assertions": [],
+    "position": [
+      795,
+      857
+    ]
+  }
+]

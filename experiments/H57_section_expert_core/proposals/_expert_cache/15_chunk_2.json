@@ -1,0 +1,46 @@
+{
+  "record": 15,
+  "chunk": 2,
+  "window": [
+    1707,
+    2669
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0bc2d9b7a450a2b1d0061110fe8fb988a978ce2b3a96e908ea0619f782f533ef",
+  "response": {
+    "entities": [
+      {
+        "q": "n phải, mông bên phải",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "cực kỳ đau đớn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ban đỏ, chảy mủ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Viêm mô tế bào",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bactrim",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Doxycycline",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Nhiễm virus Herpes simplex (HSV)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh thủy đậu/Zona (do Varicella Zoster Virus)",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

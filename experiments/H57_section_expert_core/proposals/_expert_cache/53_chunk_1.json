@@ -1,0 +1,54 @@
+{
+  "record": 53,
+  "chunk": 1,
+  "window": [
+    865,
+    1802
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9c602c4dd9e711c498ebf73292cc4dcf3cfbb2210ab08f51cee8e0e67e86edaf",
+  "response": {
+    "entities": [
+      {
+        "q": "tăng kali máu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Creatinine tăng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Torsemide",
+        "t": "THUỐC"
+      },
+      {
+        "q": "glargine",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ngã",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "CTM",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "SHM",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp XQ phổi",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "điều chỉnh rối loạn lipid máu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "điều chỉnh HA",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

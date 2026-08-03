@@ -1,0 +1,82 @@
+{
+  "record": 5,
+  "chunk": 1,
+  "window": [
+    844,
+    1758
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7a667055c65a5f2ff1b0e008c8c5c31da88e72e0d6565b918f8d77049f3bef0e",
+  "response": {
+    "entities": [
+      {
+        "q": "Hội chứng buồng trứng đa nang",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "rậm lông",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "béo phì",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "siêu âm buồng trứng có nhiều nang",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nôn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "sốt",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ớn lạnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "dịch rò rỉ quanh ống thông",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "cholangiogram",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tắc nghẽn kéo dài gần chỗ nối mật tụy",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ống dẫn trước và sau bên phải",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "sinh thiết",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "lấy mẫu bằng bàn chải",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tế bào bất thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ung thư biểu mô tuyến",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đặt stent thành vách vĩnh viễn",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

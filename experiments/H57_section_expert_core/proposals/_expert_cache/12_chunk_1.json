@@ -1,0 +1,70 @@
+{
+  "record": 12,
+  "chunk": 1,
+  "window": [
+    872,
+    1775
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "27189284c7ddd7b2b52547fa5bd45069636de92d1e637f5fc9f2e705e188e5e0",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm mô tế bào",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "cotrimoxazol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "doxycyclin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ban đỏ quanh tổn thương",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tổn thương",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bọng nước",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau nhiều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rỉ dịch vàng đục giống mủ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tổn thương vùng âm hộ và mông bên phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tổn thương cực kỳ đau đớn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tình trạng tổn thương dạng bóng nước ngày càng nặng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lan đến mông bên phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "có dịch giống mủ có màu vàng chảy ra từ tổn thương",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dị tật thiểu sản vành tai và tịt ống tai ngoài bẩm sinh",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

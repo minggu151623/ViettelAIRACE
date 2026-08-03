@@ -1,0 +1,26 @@
+{
+  "record": 28,
+  "chunk": 2,
+  "window": [
+    1726,
+    2329
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "142554032ab57bb779d84b4cb7ed5b7b01ce8f5754f7bb821ba82846520349c3",
+  "response": {
+    "entities": [
+      {
+        "q": "hẹp ống sống C4-5",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hẹp lỗ liên hợp",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "cộng hưởng từ (mri) cột sống cổ",
+        "t": "TÊN_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

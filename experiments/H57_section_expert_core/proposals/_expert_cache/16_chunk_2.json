@@ -1,0 +1,58 @@
+{
+  "record": 16,
+  "chunk": 2,
+  "window": [
+    1616,
+    2541
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1e70d7220bc2fff80de106226a2c41df8e094f96726419bfebe07f4ba26ec012",
+  "response": {
+    "entities": [
+      {
+        "q": "dại",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chó cắn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dơi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bumetanide 2mg iv",
+        "t": "THUỐC"
+      },
+      {
+        "q": "vancomycin 1 gram",
+        "t": "THUỐC"
+      },
+      {
+        "q": "levofloxacin 750mg iv",
+        "t": "THUỐC"
+      },
+      {
+        "q": "vết thương ở đầu và cổ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vết thương ở các khu vực đầu mút thần kinh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thời gian ủ bệnh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vi rút dại",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tình trạng miễn dịch của bệnh nhân",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

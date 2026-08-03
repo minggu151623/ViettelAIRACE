@@ -1,0 +1,161 @@
+{
+  "record": 67,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "719ed8c2399ba9df3d4ac2f26cdf9e6d3081d6fd9635d8721899476f6517bf9c",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        477,
+        493
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        503,
+        508
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        510,
+        516
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        537,
+        545
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        542,
+        545
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        551,
+        554
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nội soi dạ dày",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        812,
+        826
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm sung huyết hang vị dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1206,
+        1236
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chế độ ăn uống khoa học, lành mạnh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1337,
+        1371
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kiêng ăn các thức ăn có vị chua, cay, nóng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1377,
+        1419
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ăn chậm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1554,
+        1561
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhai kỹ",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1563,
+        1570
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ăn uống điều độ đúng giờ, đủ bữa",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1572,
+        1608
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không ăn quá no hoặc để quá đói",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1610,
+        1642
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chế độ tập luyện phù hợp",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1655,
+        1679
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

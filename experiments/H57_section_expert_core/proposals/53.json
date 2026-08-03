@@ -1,0 +1,321 @@
+{
+  "record": 53,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9c602c4dd9e711c498ebf73292cc4dcf3cfbb2210ab08f51cee8e0e67e86edaf",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        45,
+        52
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gầy sút cân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        54,
+        65
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ăn nhiều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        140,
+        148
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khát nước",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        150,
+        159
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "uống nhiều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        161,
+        171
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đi tiểu nhiều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        173,
+        186
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gầy sút cân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        188,
+        199
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        219,
+        226
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mạch: 89 lần/phút",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        276,
+        293
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA: 180/100 mmHg",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        295,
+        311
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Glucose máu: 13,2 mmol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        337,
+        361
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Quai ĐMC vồng cao",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        373,
+        390
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chỉ số tim/LN < ½",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        392,
+        409
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rốn phổi đậm",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        411,
+        423
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ĐTD typ II",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        458,
+        468
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Torsemide: uống 1 viên/ngày, đôi khi 2 viên/ngày",
+      "type": "THUỐC",
+      "position": [
+        554,
+        602
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Insulin glargine: theo đơn 100 đơn vị x 2 lần/ngày, hiện đã ngừng sử dụng",
+      "type": "THUỐC",
+      "position": [
+        604,
+        677
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Isosorbide: đã hết thuốc khoảng 3 tuần trước nhập viện",
+      "type": "THUỐC",
+      "position": [
+        679,
+        733
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Rosuvastatin (Crestor): đã hết thuốc khoảng 3 tuần trước nhập viện",
+      "type": "THUỐC",
+      "position": [
+        735,
+        801
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Carvedilol: đã hết thuốc khoảng 3 tuần trước nhập viện",
+      "type": "THUỐC",
+      "position": [
+        803,
+        857
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xét nghiệm bất thường - tăng kali máu và Creatinine tăng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        896,
+        952
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng kali máu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        920,
+        933
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Creatinine tăng",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        937,
+        952
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Torsemide",
+      "type": "THUỐC",
+      "position": [
+        1071,
+        1080
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "glargine",
+      "type": "THUỐC",
+      "position": [
+        1273,
+        1281
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1295,
+        1298
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "CTM",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1374,
+        1377
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "SHM",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1379,
+        1382
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp XQ phổi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1384,
+        1396
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều chỉnh rối loạn lipid máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1425,
+        1454
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều chỉnh HA",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1456,
+        1469
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

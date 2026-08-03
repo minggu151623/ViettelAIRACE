@@ -1,0 +1,42 @@
+{
+  "record": 78,
+  "chunk": 1,
+  "window": [
+    819,
+    1527
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "2be0fa005b192aa9e237472799b693081cb4531d69f61b015fc7c697da9e774e",
+  "response": {
+    "entities": [
+      {
+        "q": "ban đỏ ở vị trí phẫu thuật",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau ấn vùng mổ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chảy máu mũi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chảy máu tái phát nhiều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đốt điểm mạch",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nội soi mũi họng",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "khoa Tai mũi họng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

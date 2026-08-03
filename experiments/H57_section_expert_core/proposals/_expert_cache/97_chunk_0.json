@@ -1,0 +1,70 @@
+{
+  "record": 97,
+  "chunk": 0,
+  "window": [
+    0,
+    951
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "577c9106db5a4b775e00b57a1ec6970421f2aa50dbed9e4c96f19673a65beaa5",
+  "response": {
+    "entities": [
+      {
+        "q": "suy thận mạn giai đoạn V do đái tháo đường và tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phẫu thuật cắt bỏ u dây thần kinh số VIII",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đặt shunt động tĩnh mạch (AVF) ở tay phải (RUE AVF)",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "sinh thiết tuyến tiền liệt",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ăn không ngon miệng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ngứa da toàn thân nhiều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất trí nhớ chi tiết",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở khi gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "điều trị bệnh trĩ theo tây y có hai cách nội khoa và ngoại khoa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "dùng thuốc ************ uống 1-2 viên x2 sáng chiều",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

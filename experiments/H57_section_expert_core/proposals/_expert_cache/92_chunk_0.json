@@ -1,0 +1,66 @@
+{
+  "record": 92,
+  "chunk": 0,
+  "window": [
+    0,
+    999
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "dcbfb67a6d67fbea9ae0cf0163c95912e0ab85aa9e2b073a78c7bbdee433d6fe",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm tủy xương mãn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bàng quang thần kinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "biến chứng liệt hai chi dưới",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "loét tì đè giai đoạn IV mãn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đặt lưu sonde tiểu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiễm khuẩn đường tiết niệu tái phát",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "vancozosyn",
+        "t": "THUỐC"
+      },
+      {
+        "q": "bactrim",
+        "t": "THUỐC"
+      },
+      {
+        "q": "nhiễm trùng huyết",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sốt cao",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạ huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau hông từng cơn",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

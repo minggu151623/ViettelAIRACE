@@ -1,0 +1,66 @@
+{
+  "record": 51,
+  "chunk": 1,
+  "window": [
+    846,
+    1831
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0b1de6257ce3a60dae2c3264571da4136f4d0d8e3b46eb37789448dc7b2088c5",
+  "response": {
+    "entities": [
+      {
+        "q": "khó nằm vào ban đêm để ngủ vì khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ho có đờm trắng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chủ quan sốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phù chi dưới",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "gọi EMS",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "EMS đưa bệnh nhân đến khoa Cấp cứu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "được cho aspirin 325mg",
+        "t": "THUỐC"
+      },
+      {
+        "q": "được cho albuterolipratropium nebulizer",
+        "t": "THUỐC"
+      },
+      {
+        "q": "được cho methylprednisolone 125mg iv",
+        "t": "THUỐC"
+      },
+      {
+        "q": "lợi tiểu 600cc",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "record": 86,
+  "chunk": 1,
+  "window": [
+    862,
+    1476
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a2e9031f27aa521710818ecfb305a57c38e835a5b5fdb9b00f5b0b7bb8d61983",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm sung huyết hang vị dạ dày",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nghệ",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "mật ong",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "thức ăn có vị chua, cay, nóng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đồ ăn nhiều dầu mỡ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rượu, bia, nước có ga",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thuốc lá, thuốc lào",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cà phê",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ăn chậm, nhai kỹ, ăn uống điều độ đúng giờ, đủ bữa, không ăn quá no hoặc để quá đói",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chế độ tập luyện phù hợp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

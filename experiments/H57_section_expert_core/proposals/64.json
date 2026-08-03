@@ -1,0 +1,211 @@
+{
+  "record": 64,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "2ab4b5f4b2788810d751924151af598008a36a0d07666f1247f4433215410966",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "bệnh động mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        62,
+        81
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc Vastarel",
+      "type": "THUỐC",
+      "position": [
+        123,
+        137
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "run tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        203,
+        210
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc Vastarel",
+      "type": "THUỐC",
+      "position": [
+        237,
+        251
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "run tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        417,
+        424
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tác dụng phụ của thuốc",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        439,
+        461
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tác dụng phụ của thuốc",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        495,
+        517
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc trimetazidine",
+      "type": "THUỐC",
+      "position": [
+        512,
+        531
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "run tay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        725,
+        732
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc Nitramyl 2,5 mg/viên (nitroglycerin)",
+      "type": "THUỐC",
+      "position": [
+        804,
+        846
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cơn đau thắt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        944,
+        961
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau thắt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        948,
+        961
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        969,
+        983
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1201,
+        1208
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chóng mặt",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1210,
+        1219
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1221,
+        1229
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đỏ mặt",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1231,
+        1237
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tác dụng tụt huyết áp thế đứng",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1242,
+        1272
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nitramyl",
+      "type": "THUỐC",
+      "position": [
+        1508,
+        1516
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tim mạch",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1577,
+        1585
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

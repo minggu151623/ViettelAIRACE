@@ -1,0 +1,54 @@
+{
+  "record": 1,
+  "chunk": 0,
+  "window": [
+    0,
+    999
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7c9c9d3c57b45818fd1bfd2835a02186fef9533b7c91d4ee6d83456b14e7f909",
+  "response": {
+    "entities": [
+      {
+        "q": "Thiếu men G6PD",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "G6PD",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Glucose-6-Phosphate Dehydrogenase",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiễm sắc thể X",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "gen lặn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đột biến gen G6PD",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Xq28",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "men G6PD",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hồng cầu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tác nhân oxy hóa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

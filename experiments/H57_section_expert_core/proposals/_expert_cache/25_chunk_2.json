@@ -1,0 +1,42 @@
+{
+  "record": 25,
+  "chunk": 2,
+  "window": [
+    1695,
+    2397
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d38c915cc7c961dd07e037e9608b481d43b1cc7b64ad6be8390145a085b13dd7",
+  "response": {
+    "entities": [
+      {
+        "q": "ban đỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chóng mặt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau khi sờ nắn vùng mổ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ban đỏ ở vị trí phẫu thuật",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "levafloxacin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "cephalexin",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

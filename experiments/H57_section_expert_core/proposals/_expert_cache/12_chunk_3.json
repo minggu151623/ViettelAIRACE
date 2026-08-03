@@ -1,0 +1,30 @@
+{
+  "record": 12,
+  "chunk": 3,
+  "window": [
+    2434,
+    2844
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "27189284c7ddd7b2b52547fa5bd45069636de92d1e637f5fc9f2e705e188e5e0",
+  "response": {
+    "entities": [
+      {
+        "q": "Viêm mô tế bào",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Nhiễm virus Herpes simplex (HSV)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh thủy đậu/Zona",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Varicella Zoster Virus",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

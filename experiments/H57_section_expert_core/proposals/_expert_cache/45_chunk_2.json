@@ -1,0 +1,26 @@
+{
+  "record": 45,
+  "chunk": 2,
+  "window": [
+    1646,
+    1911
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "484e878d94eaefef0fc7d66d6c6940c68649fd54d19989f30955c5670c9bcf14",
+  "response": {
+    "entities": [
+      {
+        "q": "Dị tật còn ống động mạch",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tăng nhãn áp so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Phù gai thị (theo báo cáo của bác sĩ nhãn khoa)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

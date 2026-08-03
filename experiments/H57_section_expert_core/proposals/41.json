@@ -1,0 +1,301 @@
+{
+  "record": 41,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "75de5985ae3a4bb7c2c889c5fc7ee309c1f77d712b73ffb88ab68f9c3a302f10",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "mụn trứng cá",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        80,
+        92
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "da dầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        316,
+        322
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nang",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        525,
+        529
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nang",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        572,
+        576
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Propionibacterium acnes",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        586,
+        609
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhân mụn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        744,
+        752
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sẹo",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        775,
+        778
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn mủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        780,
+        786
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nốt sần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        788,
+        795
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nang",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        800,
+        804
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Sừng hóa nang lông bất thường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        875,
+        904
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nang",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        884,
+        888
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Vi khuẩn C. acne",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        907,
+        923
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm tại chỗ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        926,
+        938
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tretinoin",
+      "type": "THUỐC",
+      "position": [
+        962,
+        971
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tretinoin tại chỗ",
+      "type": "THUỐC",
+      "position": [
+        962,
+        979
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Trứng cá viêm nhẹ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        982,
+        999
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực trái cấp tính",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1115,
+        1137
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau sau xương ức lan ra sau lưng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1141,
+        1173
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị trứng cá",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1241,
+        1258
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn trứng cá",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1333,
+        1345
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh sẽ ổn định",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1528,
+        1543
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngừng điều trị thì khả năng bệnh sẽ tái phát",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1545,
+        1589
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "yếu tố nội tiết",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1659,
+        1674
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cơ địa",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1676,
+        1682
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nghề nghiệp",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1684,
+        1695
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thói quen chà xát và nặn mụn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1700,
+        1728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "da mụn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1805,
+        1811
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "da mụn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1906,
+        1912
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

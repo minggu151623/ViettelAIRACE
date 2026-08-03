@@ -954,3 +954,23 @@ The strongest verified direction is conservative structural cleanup:
    improve candidates without changing spans?
 7. Can Vietnamese ICD parent/specific candidate generation be calibrated on
    independently annotated diagnoses without recreating the overview's errors?
+
+## 2026-08-03 — H57/H58 section-expert core rebuild
+
+- H57 rebuilt extraction around deterministic 1,000-character clinical chunks
+  with 120-character overlap and one six-type Qwen3 schema. All 271 chunks
+  completed, yielding 2,738 proposals with digest
+  `c96cb5ba2aa95888d71017cd6d5ca6278b7a5a41a71b718afb518e8e6a2fd08e`.
+- Its conservative exact-independent-agreement merger changed only 13 rows,
+  below the frozen 150-row materiality gate. H57 failed and produced no ZIP.
+- A corrected relation audit isolated 55 genuine shorter same-type boundary
+  alternatives. Separately preregistered H58 freezes H38 except for those
+  independently supported replacements, then narrowly adds disjoint Qwen
+  diagnoses, symptoms and numeric laboratory results.
+- H58 changes 222 semantic rows: 55 supported replacements, 30 supported
+  disjoint additions and 137 Qwen-only clinical/numeric additions. It adds no
+  new nonempty candidate code, avoiding H44's proven cardinality failure mode.
+- `turn2/output_v14_section_expert_recall.zip` validates 100/100 records, has
+  exactly 100 required members, is byte-reproducible, passes all 170 tests and
+  has SHA-256 `1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51`.
+  It remains an unsubmitted high-variance challenger; H38 is the safe fallback.

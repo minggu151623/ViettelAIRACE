@@ -1,0 +1,581 @@
+{
+  "record": 2,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "745fdb5057a85b6c8ce4486c01d93c0c614fd87a74ef4a144b61ae2aecd74d32",
+  "chunks_expected": 5,
+  "chunks_complete": 5,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Bệnh Kawasaki",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3,
+        16
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh Kawasaki",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        25,
+        38
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt cấp kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        53,
+        68
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phát ban toàn thân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        84,
+        102
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm lan tỏa hệ mạch máu nhỏ và vừa",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        126,
+        161
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "động mạch vành",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        171,
+        185
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm tim",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        555,
+        563
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phình giãn động mạch vành",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        565,
+        590
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "động mạch vành",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        576,
+        590
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đột tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        592,
+        598
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhồi máu cơ tim",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        600,
+        615
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hẹp tắc mạch vành",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        622,
+        639
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy tim",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        644,
+        651
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm mạch máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        687,
+        700
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhiễm khuẩn – nhiễm virus hoặc độc tố vi khuẩn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        945,
+        991
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm virus",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        959,
+        970
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "độc tố vi khuẩn",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        976,
+        991
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Phản ứng miễn dịch bất thường ở trẻ có cơ địa nhạy cảm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        996,
+        1050
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Yếu tố chủng tộc: Trẻ gốc Á, đặc biệt trẻ Nhật Bản và Hàn Quốc, có tỉ lệ mắc cao",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1055,
+        1135
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Yếu tố môi trường: thay đổi khí hậu, chất độc trong không khí",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1140,
+        1201
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh không lây từ trẻ này sang trẻ khác và đến nay chưa có bằng chứng về lây truyền trong cộng đồng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1220,
+        1319
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Triệu chứng bệnh Kawasaki ở trẻ em",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1324,
+        1358
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Sốt cao kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1439,
+        1454
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Sốt 39–40°C trong hơn 5 ngày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1458,
+        1486
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mắt đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1534,
+        1540
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm kết mạc 2 bên, đỏ nhưng không có ghèn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1544,
+        1586
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thay đổi niêm mạc miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1592,
+        1615
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Môi đỏ, nứt, có thể rỉ máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1619,
+        1645
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lưỡi đỏ như dâu tây",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1650,
+        1669
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Họng đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1674,
+        1681
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tổn thương ở đầu chi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1686,
+        1706
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Sưng, đỏ mu bàn tay – chân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1710,
+        1736
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đỏ gan bàn tay – chân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1741,
+        1762
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bong da đầu ngón tay, ngón chân vào ngày 7–14 của bệnh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1767,
+        1821
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ban đỏ toàn thân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1827,
+        1843
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ban dạng đa hình: dát – sẩn – mảng đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1847,
+        1884
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh đa xơ cứng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1916,
+        1931
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Công thức máu, CRP, máu lắng",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2042,
+        2070
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Men gan, albumin",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2074,
+        2090
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Xét nghiệm nước tiểu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2094,
+        2114
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Cấy máu, dịch hầu họng",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2118,
+        2140
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Siêu âm tim",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2144,
+        2155
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ECG điện tâm đồ",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2204,
+        2219
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ASA",
+      "type": "THUỐC",
+      "position": [
+        2543,
+        2546
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "truyền ****",
+      "type": "THUỐC",
+      "position": [
+        2692,
+        2703
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm tim đánh giá động mạch vành",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2841,
+        2876
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "truyền ****",
+      "type": "THUỐC",
+      "position": [
+        2947,
+        2958
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tránh hút thuốc lá thụ động",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        3349,
+        3376
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh Kawasaki",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3407,
+        3420
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt cao kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3550,
+        3565
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đỏ mắt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3587,
+        3593
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3595,
+        3601
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "môi đỏ – nứt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3603,
+        3615
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lưỡi đỏ dâu tây",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3617,
+        3632
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sưng hạch cổ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        3638,
+        3650
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Điều trị bằng **** trong 10 ngày đầu",
+      "type": "THUỐC",
+      "position": [
+        3652,
+        3688
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "biến chứng mạch vành",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        3719,
+        3739
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "record": 38,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4ee4ef9937e00f7852f491f04f0761c0e9cdcf7bc02801802bdb5215fedd5fd6",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        57,
+        88
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        99,
+        106
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        113,
+        126
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng lipid máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        133,
+        147
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đái tháo đường típ 2",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        170,
+        190
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hẹp ống sống",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        197,
+        209
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Giả gout",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        216,
+        224
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh thận mạn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        231,
+        244
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng sản tuyến tiền liệt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        279,
+        303
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhiều lần ngã gần đây Ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        310,
+        335
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        342,
+        349
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        381,
+        388
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Toàn trạng suy kiệt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        476,
+        495
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        523,
+        530
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác dai dẳng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        523,
+        539
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lú lẫn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        546,
+        552
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        661,
+        668
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lú lẫn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        693,
+        699
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        823,
+        830
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lú lẫn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        837,
+        843
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ăn uống kém, ăn vào dễ nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        850,
+        876
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nôn không ra máu, không ra dịch mật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        884,
+        919
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "trượt ngã xuống sàn do yếu cơ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1127,
+        1156
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bạch cầu tăng là 39.2",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1565,
+        1586
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "creatinin là 3.0",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1593,
+        1609
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "troponin là 0.10",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1616,
+        1632
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "inr là 1.4",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1639,
+        1649
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổng phân tích nước tiểu có đái tháo đườngđái tháo đường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1705,
+        1761
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1733,
+        1747
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đái tháo đường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1733,
+        1747
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1747,
+        1761
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đái tháo đường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1747,
+        1761
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực là bình thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1794,
+        1826
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cml",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1968,
+        1971
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

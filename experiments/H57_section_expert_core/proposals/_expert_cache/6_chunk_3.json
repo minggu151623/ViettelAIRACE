@@ -1,0 +1,74 @@
+{
+  "record": 6,
+  "chunk": 3,
+  "window": [
+    2506,
+    3218
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a59e081eda8a6c3bcb1f7ffcb8495f5a2e0785d066399135b310590f5bf40ab4",
+  "response": {
+    "entities": [
+      {
+        "q": "CT Scanner",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tiêm thuốc cản quang",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Điện tâm đồ",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Xét nghiệm Máu Huyết học & Đông máu",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "WBC",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "NEUT%",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "HGB (Hemoglobin)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "PT - INR",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "CT sọ não",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "xuất huyết dưới nhện vùng trán phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nang màng nhện",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tụ máu dưới màng cứng mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tụ máu ngoài màng cứng phải cấp tính trên nền tổn thương mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

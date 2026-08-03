@@ -1,4 +1,12 @@
 observations:
+  - id: O58
+    timestamp: "2026-08-03T23:30+07:00"
+    provenance: ai-executed
+    content: "H57 exact-independent fusion changed only 13 rows and failed its materiality gate; H58 boundary-aware fusion changed 222 rows while adding zero new nonempty candidate codes."
+    context: "Deterministic 271-chunk Qwen3 proposal census over the 100 Turn-2 records; no external H58 result exists."
+    potential_type: claim
+    promoted: true
+    stale: false
   - id: O01
     timestamp: "2026-07-27T22:40+07:00"
     provenance: ai-suggested

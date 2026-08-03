@@ -1,0 +1,34 @@
+{
+  "record": 11,
+  "chunk": 3,
+  "window": [
+    2430,
+    2861
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "b7260f93164e8f57fcf9cfad78540027133b9671ffcd9657a696b093d7f50f8b",
+  "response": {
+    "entities": [
+      {
+        "q": "xuất huyết dưới nhện vùng trán phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tụ máu dưới màng cứng mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tụ máu ngoài màng cứng phải cấp tính trên nền tổn thương mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

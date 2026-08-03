@@ -1,0 +1,401 @@
+{
+  "record": 20,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "137b959c970ecc52f5dfc1ca9cfe201ebbfcc0f1dd4c8f36d291568794c39485",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "nước dãi chó",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        295,
+        307
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        327,
+        335
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        612,
+        620
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nước bọt của chó",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        696,
+        712
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        746,
+        754
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        776,
+        786
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "da bị trầy xước",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        799,
+        814
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        830,
+        838
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        853,
+        861
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lyssavirus",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        865,
+        875
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "họ Lyssaviridae",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        883,
+        898
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hệ thần kinh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        981,
+        993
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tủy sống",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        998,
+        1006
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "não",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1010,
+        1013
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đại não",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1053,
+        1060
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "não",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1057,
+        1060
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn ra thức ăn và dịch dạ dày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1115,
+        1144
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "SPO2",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1243,
+        1247
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "compazine",
+      "type": "THUỐC",
+      "position": [
+        1287,
+        1296
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "aleven",
+      "type": "THUỐC",
+      "position": [
+        1300,
+        1306
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "morphineoral",
+      "type": "THUỐC",
+      "position": [
+        1335,
+        1347
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lorazepam",
+      "type": "THUỐC",
+      "position": [
+        1352,
+        1361
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1413,
+        1421
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nước bọt",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1486,
+        1494
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "động vật bị dại",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1508,
+        1523
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết cắn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1539,
+        1546
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết trầy xước",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1556,
+        1569
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết trầy xước trên cơ thể",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1556,
+        1581
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chó cắn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1656,
+        1663
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chó cắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1656,
+        1663
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chó cắn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1672,
+        1679
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chó cắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1672,
+        1679
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thần kinh trung ương",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1689,
+        1709
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dơi",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1824,
+        1827
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dơi",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1859,
+        1862
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1938,
+        1946
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh dại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2123,
+        2131
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết cắn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2205,
+        2212
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vi rút dại",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2222,
+        2232
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "record": 74,
+  "chunk": 1,
+  "window": [
+    832,
+    1603
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "962357041501251c102deac203f7ed0ba458382d6198294e8e66a493c030d885",
+  "response": {
+    "entities": [
+      {
+        "q": "suy nhược",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Toàn trạng suy kiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 ml trong cùng khoảng thời gian",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Vị trí: LLQ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Thời gian: 48 giờ qua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Tần suất: nôn x 1",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt, thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

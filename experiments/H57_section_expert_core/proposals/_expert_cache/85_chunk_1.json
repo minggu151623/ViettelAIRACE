@@ -1,0 +1,62 @@
+{
+  "record": 85,
+  "chunk": 1,
+  "window": [
+    858,
+    1477
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "07e5b3f080846d3c9a06780f0cd0febcaf1b51d65b3945fc7415082d4e41c35b",
+  "response": {
+    "entities": [
+      {
+        "q": "hct (hematocrit)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tiểu cầu (platelets)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hco3- (bicarbonate)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ag (anion gap)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bun/creatinine (ure/creatinine)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "glucose (đường huyết)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "lactate (acid lactat)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Kết quả ua (urinalysis - tổng phân tích nước tiểu)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Kết quả chẩn đoán hình ảnh chẩn đoán hình ảnh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chụp x-quang ngực",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chụp x-quang bàn chân phải",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "huyết khối tĩnh mạch sâu (DVT)",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

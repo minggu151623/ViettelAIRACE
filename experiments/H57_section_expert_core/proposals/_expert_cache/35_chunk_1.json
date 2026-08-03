@@ -1,0 +1,58 @@
+{
+  "record": 35,
+  "chunk": 1,
+  "window": [
+    843,
+    1780
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9e3f202fd3df1ff0d0f605566f39c23db7a88bed6f0cfe3a94890f3bc6c4c16a",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm sung huyết hang vị dạ dày",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau bụng cồn cào",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ợ hơi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ợ chua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nội soi dạ dày",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "thăm khám chuyên khoa",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "điều trị viêm sung huyết hang vị dạ dày",
+        "t": "THUỐC"
+      },
+      {
+        "q": "nghệ",
+        "t": "THUỐC"
+      },
+      {
+        "q": "mật ong",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

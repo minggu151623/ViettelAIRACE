@@ -1,0 +1,58 @@
+{
+  "record": 54,
+  "chunk": 1,
+  "window": [
+    857,
+    1801
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "e02450ad552cbab443de33b985f1462b85d77dae591b6820f4141d47a9d499e6",
+  "response": {
+    "entities": [
+      {
+        "q": "ảo giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lú lẫn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "yếu cơ dẫn đến ngã hôm nay",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "toàn trạng suy kiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dị tật bẩm sinh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nipt",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "double test",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "siêu âm",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "mốc thai 12 tuần",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "mốc thai 22 tuần",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "mốc thai 32 tuần",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

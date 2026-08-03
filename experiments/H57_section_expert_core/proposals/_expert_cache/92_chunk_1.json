@@ -1,0 +1,70 @@
+{
+  "record": 92,
+  "chunk": 1,
+  "window": [
+    879,
+    1399
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "dcbfb67a6d67fbea9ae0cf0163c95912e0ab85aa9e2b073a78c7bbdee433d6fe",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh nhân tỉnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Cảm giác khát nước",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Da khô, nếp véo da mất chậm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Không ngực, không khó thở",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Đau bụng, đau hông từng cơn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Hạ huyết áp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Mạch nhanh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Tim nhịp nhanh đều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Xquang ngực thẳng: không thấy thâm nhiễm",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "svo2 là 82",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Đặt ống thông tĩnh mạch trung tâm : đo cvp là 6",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Chẩn đoán: nhiễm trùng huyết đường vào tiết niệu- viêm tủy xương mãn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Truyền dịch : 4000 ml NS 0.9 %",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Kháng sinh Cefepim và Vancomycin truyền tĩnh mạch",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "record": 81,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "b2a2b09911a58cb5ab8c5d2f7e8484e1219658134ebbb4004923fa5e3342b832",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "thrombophilia",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        208,
+        221
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "que thử 2 vạch",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        272,
+        286
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thrombophilia",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        364,
+        377
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh tăng đông máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        876,
+        894
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng đông máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        881,
+        894
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc chống đông",
+      "type": "THUỐC",
+      "position": [
+        1036,
+        1052
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu khó cầm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1195,
+        1211
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đặt shunt dẫn lưu tĩnh mạch cửa qua da",
+      "type": "THUỐC",
+      "position": [
+        1478,
+        1516
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

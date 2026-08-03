@@ -1,0 +1,62 @@
+{
+  "record": 63,
+  "chunk": 1,
+  "window": [
+    849,
+    1695
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4569b046a28ab48ef8714c8c0385cae6dbf307f4d83937032e51fac8aafc16f3",
+  "response": {
+    "entities": [
+      {
+        "q": "huẩn đường tiết niệu, vị trí không xác định",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ngừng thuốc giảm đau",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Liều gleevec đã ngừng cách nhập viện 5 ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "allopurinol đã ngừng cách nhập viện 5 ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ảo giác xảy ra khoảng mỗi đêm lúc 2 giờ sáng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Triệu chứng hiện tại: ảo giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Bệnh nhân nhìn/nghe thấy có nhiều người (đôi khi tổng cộng khoảng 8 người)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Thấy những người này đang nói chuyện với mình",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Ảo giác không mang tính chất ra lệnh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Bệnh nhân thường hoang tưởng/lo sợ rằng họ sẽ chạm vào da của mình",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tình trạng ngay trước khi nhập viện: ảo giác khoảng mỗi đêm lúc 2 giờ sáng",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

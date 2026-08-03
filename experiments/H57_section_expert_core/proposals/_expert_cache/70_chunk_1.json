@@ -1,0 +1,50 @@
+{
+  "record": 70,
+  "chunk": 1,
+  "window": [
+    846,
+    1645
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "bc69f7581b4ca006d702a52362e1e8eb6ea96399b55b7f474dbdef4eb50c6232",
+  "response": {
+    "entities": [
+      {
+        "q": "khó nằm vào ban đêm để ngủ vì khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ho có đờm trắng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chủ quan sốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phù chi dưới",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "aspirin 325mg",
+        "t": "THUỐC"
+      },
+      {
+        "q": "albuterolipratropium nebulizer",
+        "t": "THUỐC"
+      },
+      {
+        "q": "methylprednisolone 125mg iv",
+        "t": "THUỐC"
+      },
+      {
+        "q": "lợi tiểu 600cc",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

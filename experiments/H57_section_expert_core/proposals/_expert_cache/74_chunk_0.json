@@ -1,0 +1,58 @@
+{
+  "record": 74,
+  "chunk": 0,
+  "window": [
+    0,
+    952
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "962357041501251c102deac203f7ed0ba458382d6198294e8e66a493c030d885",
+  "response": {
+    "entities": [
+      {
+        "q": "Viêm loét đại tràng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh gan do rượu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nấm bẹn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng/khó chịu vùng bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sốt và run rẩy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất cảm giác ngon miệng/chán ăn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suy nhược",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Toàn trạng suy kiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm lượng nước tiểu",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "record": 31,
+  "chunk": 1,
+  "window": [
+    865,
+    1850
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "bbca0788b652d1841b328847ac70bdca96545a2d03d6e0ab606ceeec352dc68e",
+  "response": {
+    "entities": [
+      {
+        "q": "đau bụng vùng hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chướng bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn thoáng qua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn mửa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau lưng âm ỉ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm dạ dày",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ngừng sử dụng thuốc NSAIDs",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "omeprazole",
+        "t": "THUỐC"
+      },
+      {
+        "q": "sỏi đoạn cuối ống mật chủ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "men gan tăng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "xét nghiệm chức năng gan",
+        "t": "TÊN_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "record": 25,
+  "chunk": 1,
+  "window": [
+    819,
+    1815
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d38c915cc7c961dd07e037e9608b481d43b1cc7b64ad6be8390145a085b13dd7",
+  "response": {
+    "entities": [
+      {
+        "q": "không rụng trứng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "vô sinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ung thư cổ tử cung",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "mang thai ngoài tử cung",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ảnh hưởng đến tim, mạch, gan, thận",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "thay đổi nội tiết tố",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "mụn trứng cá",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nám",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tàn nhang",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sạm da",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bồn chồn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "lo lắng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bứt rứt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "giảm ham muốn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "lãnh cảm",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "suy giảm hưng phấn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tình cảm gia đình",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ban đỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau khi sờ nắn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sưng nề",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tăng diện tích đau khi sờ nắn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ống dẫn lưu JP",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "vết mổ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

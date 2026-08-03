@@ -1,0 +1,321 @@
+{
+  "record": 39,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "753060d7c2451d8bf065d152e3d12c4d1d43f5e154f58e246ec0f2f267e093d6",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Ung thư biểu mô tuyến đại tràng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        39,
+        70
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        73,
+        117
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        120,
+        134
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xơ gan do rượu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        137,
+        151
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì ung thư tuyến đại tràng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        231,
+        306
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xơ gan do rượu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        337,
+        351
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tụt huyết áp không rõ nguyên nhân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        390,
+        423
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        427,
+        434
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        477,
+        484
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm phổi bệnh viện",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        557,
+        576
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rung nhĩ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        580,
+        588
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp nhanh trên thất",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        592,
+        612
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        826,
+        833
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ó khăn khi ra khỏi giường vào sáng nay.",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        869,
+        908
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng gián đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        927,
+        945
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng gián đoạn kể từ khi phẫu thuật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        927,
+        966
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ huyết áp, không đặc hiệu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        991,
+        1018
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1021,
+        1028
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1031,
+        1038
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh bàn chân bẹt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1073,
+        1090
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi gắng sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1483,
+        1503
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho mạn tính có đờm vàng loãng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1506,
+        1535
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ran",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1538,
+        1541
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1544,
+        1551
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dịch thanh dịch lẫn máu từ vết mổ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1554,
+        1587
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phân nâu dương tính guaiac",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1590,
+        1616
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết khối 26.3",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1637,
+        1652
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "n hình ảnh: chụp x-quang ngực có xẹp phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1735,
+        1826
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực có xẹp phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1747,
+        1826
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm phổi bệnh viện",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1932,
+        1951
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Rung nhĩ kèm nhịp nhanh trên thất",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1954,
+        1987
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

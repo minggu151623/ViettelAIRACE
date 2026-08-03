@@ -1,0 +1,50 @@
+{
+  "record": 33,
+  "chunk": 2,
+  "window": [
+    1753,
+    2199
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "575636241f0244b9740349d5d9fb407861966653abc3cd6360955f0a165282d4",
+  "response": {
+    "entities": [
+      {
+        "q": "thủ thuật đã thực hiện",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhận 2 sl ntg",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhận asa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhận 80mg lasix iv",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhận 8mg morphine",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhận 1mg dilaudid",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "được cho po metoprolol",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "được cho 10mg iv diltiazem",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhịp tim cải thiện",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

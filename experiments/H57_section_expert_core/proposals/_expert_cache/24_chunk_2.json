@@ -1,0 +1,90 @@
+{
+  "record": 24,
+  "chunk": 2,
+  "window": [
+    1546,
+    2465
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "faf1f545df44ce4fa3e1d0246ca4737caff62cdf003a53784dcc2190425caa11",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm gan B",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "viêm gan B thể thông thường điển hình mức độ nặng giai đoạn toàn phát",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nhiễm virus viêm gan B",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiễm virus viêm gan C",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "virus viêm gan B",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ALT",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "AST",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Glucose 5%",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Philpovin 5g",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Fortex 25mg",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Vitamin 3B",
+        "t": "THUỐC"
+      },
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vàng da",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ăn ngủ được",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đánh răng không chảy máu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tiểu tiện 1000ml/24h",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nước tiểu vàng nhẹ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đại tiện phân thành khuôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cảm giác khó chịu vùng ngực",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

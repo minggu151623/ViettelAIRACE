@@ -1,0 +1,34 @@
+{
+  "record": 68,
+  "chunk": 1,
+  "window": [
+    872,
+    1667
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "6c7d86a6a76c1dadbb00135b3fae775150d040d18cd5a3138ce610e535b0111e",
+  "response": {
+    "entities": [
+      {
+        "q": "Augmentin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tiêu chảy",
+        "t": "THUỐC"
+      },
+      {
+        "q": "men tiêu hóa",
+        "t": "THUỐC"
+      },
+      {
+        "q": "vi khuẩn đề kháng thuốc",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiễm trùng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "record": 14,
+  "chunk": 3,
+  "window": [
+    2406,
+    2672
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "c606bda442cdb5648b5436b8decfece12a05ec72d4b931b3ed58ab3f186b4d3d",
+  "response": {
+    "entities": [
+      {
+        "q": "corticoid liêù thấp cách ngày hoặc hàng ngày",
+        "t": "THUỐC"
+      },
+      {
+        "q": "giảm liều chậm 2,5 – 5mg mỗi 2-3 tuần",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

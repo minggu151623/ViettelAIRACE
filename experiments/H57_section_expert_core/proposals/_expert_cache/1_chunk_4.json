@@ -1,0 +1,78 @@
+{
+  "record": 1,
+  "chunk": 4,
+  "window": [
+    3359,
+    4321
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7c9c9d3c57b45818fd1bfd2835a02186fef9533b7c91d4ee6d83456b14e7f909",
+  "response": {
+    "entities": [
+      {
+        "q": "thiếu men G6PD",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiễm khuẩn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhiễm virus",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thuốc giảm đau, hạ sốt",
+        "t": "THUỐC"
+      },
+      {
+        "q": "kháng sinh nhóm",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thuốc kháng sốt rét",
+        "t": "THUỐC"
+      },
+      {
+        "q": "vitamin K",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thực phẩm chế biến từ đậu tằm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tiếp xúc với băng phiến, long não",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không nên hiến máu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thuốc, thực phẩm hay hóa chất có nguy cơ gây tan huyết",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tình trạng thiếu men G6PD",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "long não, băng phiến",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thuốc nam, thuốc đông y",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thuốc chống chỉ định",
+        "t": "THUỐC"
+      },
+      {
+        "q": "xét nghiệm sàng lọc trước sinh và sau sinh",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

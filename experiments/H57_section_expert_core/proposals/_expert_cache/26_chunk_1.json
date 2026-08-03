@@ -1,0 +1,70 @@
+{
+  "record": 26,
+  "chunk": 1,
+  "window": [
+    865,
+    1862
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "000d59909d4a847bcaa971db8fe287c18edb8d5d54477a6a96b68192b138b4a1",
+  "response": {
+    "entities": [
+      {
+        "q": "đau ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau thắt ngực ổn định",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hội chứng vành cấp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nhồi máu cơ tim ST chênh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nhồi máu không ST chênh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau thắt ngực không ổn định",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau thượng vị",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm tụy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rung nhĩ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "eliquis",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

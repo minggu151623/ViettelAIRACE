@@ -1,0 +1,291 @@
+{
+  "record": 66,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "8ed4471e72655c62eb17c26f6d8ad50acf71cbfa4a77d7c835b15ea37e8a50ec",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "u lành về tuyến vú",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        70,
+        88
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u xơ tuyến vú",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        93,
+        106
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u nang tuyến vú",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        111,
+        126
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vitamin B12",
+      "type": "THUỐC",
+      "position": [
+        647,
+        658
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xương",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        820,
+        825
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dị cảm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        858,
+        864
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm cảm giác vị thế",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        867,
+        887
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khả năng trí óc giảm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        889,
+        909
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ huyết áp tư thế đứng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        911,
+        934
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ung thư",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        958,
+        965
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "B12",
+      "type": "THUỐC",
+      "position": [
+        1004,
+        1007
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u nang tuyến vú",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1022,
+        1037
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u xơ tuyến vú",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1039,
+        1052
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "B12",
+      "type": "THUỐC",
+      "position": [
+        1097,
+        1100
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ung thư",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1118,
+        1125
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u nang tuyến vú",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1151,
+        1166
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u xơ tuyến vú",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1168,
+        1181
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "B12",
+      "type": "THUỐC",
+      "position": [
+        1199,
+        1202
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u xơ tuyến vú",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1269,
+        1282
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u nang tuyến vú",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1284,
+        1299
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Estrogen",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1369,
+        1377
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cúm âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1381,
+        1392
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1421,
+        1438
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng gánh nhẹ tuần hoàn phổi",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1440,
+        1468
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tràn dịch màng phổi hai bên nhẹ",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1470,
+        1501
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tim to",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1503,
+        1509
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u xơ tuyến vú",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1531,
+        1544
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u nang tuyến vú",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1546,
+        1561
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

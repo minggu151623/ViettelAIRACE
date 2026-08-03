@@ -1,0 +1,42 @@
+{
+  "record": 31,
+  "chunk": 0,
+  "window": [
+    0,
+    985
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "bbca0788b652d1841b328847ac70bdca96545a2d03d6e0ab606ceeec352dc68e",
+  "response": {
+    "entities": [
+      {
+        "q": "giãn thừng tinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau bụng vùng hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau nhẹ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cảm thấy nóng phần tinh hoàn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "điều trị thuốc uống 5 tuần",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "đã ngừng dùng thuốc",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "vô sinh thứ phát",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

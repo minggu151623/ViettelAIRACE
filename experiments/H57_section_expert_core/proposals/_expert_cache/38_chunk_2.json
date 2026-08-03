@@ -1,0 +1,26 @@
+{
+  "record": 38,
+  "chunk": 2,
+  "window": [
+    1707,
+    2000
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4ee4ef9937e00f7852f491f04f0761c0e9cdcf7bc02801802bdb5215fedd5fd6",
+  "response": {
+    "entities": [
+      {
+        "q": "đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đái tháo đường",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cml",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

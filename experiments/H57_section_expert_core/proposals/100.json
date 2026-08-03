@@ -1,0 +1,131 @@
+{
+  "record": 100,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "90af72c6536432a338b0ac5ee8469daff440592816eb921eb8c97f28ccc6ff3a",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "nguy cơ tiền sản giật",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        576,
+        597
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiền sản giật",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        584,
+        597
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiền sản giật",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        616,
+        629
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiền sản giật",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        664,
+        677
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tác dụng chống đông máu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        710,
+        733
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tác dụng phụ của thuốc",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        740,
+        762
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        777,
+        785
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đi khám sớm nhất có thể",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        973,
+        996
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "aspirin",
+      "type": "THUỐC",
+      "position": [
+        1114,
+        1121
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "3 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1212,
+        1218
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "3 ngày đại tiện ra máu đỏ tươi gián đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1212,
+        1252
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "3 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1286,
+        1292
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

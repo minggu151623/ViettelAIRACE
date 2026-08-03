@@ -1,0 +1,131 @@
+{
+  "record": 48,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "ad271c475bb937fcdd1eaaae5e56732832990482c5d508d9b3d45c647e49f951",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "phát triển đều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        299,
+        313
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vành tai không phát triển đều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        375,
+        404
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phát triển đều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        390,
+        404
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phản ứng khi mình gọi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        508,
+        529
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sợ sau này sẽ ảnh hưởng đến sự phát triển của bé",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        655,
+        703
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bị trêu chọc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        710,
+        722
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kiểm tra việc nghe của bé thường xuyên",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        819,
+        857
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dị tật thiểu sản vành tai",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1042,
+        1067
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tịt ống tai ngoài bẩm sinh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1071,
+        1097
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đo thính lực",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1647,
+        1659
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh viện lớn có chuyên khoa Tai mũi họng nhi",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1699,
+        1744
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tai mũi họng nhi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1728,
+        1744
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

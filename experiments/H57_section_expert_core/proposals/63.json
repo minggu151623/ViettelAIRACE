@@ -1,0 +1,291 @@
+{
+  "record": 63,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4569b046a28ab48ef8714c8c0385cae6dbf307f4d83937032e51fac8aafc16f3",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        57,
+        88
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng cholesterol máu đơn thuần",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        95,
+        125
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "B-histamin",
+      "type": "THUỐC",
+      "position": [
+        148,
+        158
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        368,
+        375
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngừng uống cách nhập viện 5 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        377,
+        409
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "allopurinol",
+      "type": "THUỐC",
+      "position": [
+        417,
+        428
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thuốc giảm đau",
+      "type": "THUỐC",
+      "position": [
+        471,
+        485
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        541,
+        548
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        629,
+        636
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm khuẩn đường tiết niệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        693,
+        720
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thuốc giảm đau",
+      "type": "THUỐC",
+      "position": [
+        751,
+        765
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm khuẩn đường tiết niệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        842,
+        869
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huẩn đường tiết niệu, vị trí không xác định",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        849,
+        892
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngừng thuốc giảm đau",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        896,
+        916
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Liều gleevec đã ngừng cách nhập viện 5 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        924,
+        967
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        929,
+        936
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "allopurinol đã ngừng cách nhập viện 5 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        975,
+        1017
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác xảy ra khoảng mỗi đêm lúc 2 giờ sáng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1025,
+        1069
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Triệu chứng hiện tại: ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1075,
+        1104
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh nhân nhìn/nghe thấy có nhiều người (đôi khi tổng cộng khoảng 8 người)",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1131,
+        1205
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thấy những người này đang nói chuyện với mình",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1207,
+        1252
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ảo giác không mang tính chất ra lệnh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1254,
+        1290
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh nhân thường hoang tưởng/lo sợ rằng họ sẽ chạm vào da của mình",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1292,
+        1358
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1401,
+        1460
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huẩn đường tiết niệu, vị trí không xác định",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1417,
+        1460
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Liều gleevec đã ngừng cách nhập viện 5 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1497,
+        1540
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "allopurinol đã ngừng cách nhập viện 5 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1547,
+        1589
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tình trạng ngay trước khi nhập viện: ảo giác khoảng mỗi đêm lúc 2 giờ sáng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1594,
+        1668
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "record": 5,
+  "chunk": 3,
+  "window": [
+    2450,
+    3420
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7a667055c65a5f2ff1b0e008c8c5c31da88e72e0d6565b918f8d77049f3bef0e",
+  "response": {
+    "entities": [
+      {
+        "q": "tắc nghẽn kéo dài gần chỗ nối mật tụy",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ống dẫn trước và sau bên phải",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng kích cỡ ống dẫn mật từ 8.5fr lên 10.2 fr",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "lấy mẫu bằng bàn chải cho thấy các tế bào bất thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "đáng ngại cho ung thư biểu mô tuyến",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đặt stent thành vách vĩnh viễn",
+        "t": "THUỐC"
+      },
+      {
+        "q": "đau khi sờ nắn xung quanh vị trí đặt ống dẫn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lấy mẫu bằng bàn chải cho thấy tế bào bất thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tắc nghẽn kéo dài gần chỗ nối mật tụy",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đặt 3 stent thành vách vĩnh viễn",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

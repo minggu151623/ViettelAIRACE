@@ -1,0 +1,41 @@
+hypothesis: H58_section_expert_recall
+status: preregistered_after_H57_failure
+created_at: "2026-08-03T20:45:00+07:00"
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+evidence_before_registration:
+  H57_chunk_calls: 271/271
+  H57_raw_proposals: 2738
+  H57_conservative_disjoint_dual_supported: 13
+  H57_conservative_gate: failed_13_below_150_no_zip
+  exact_H38_reconfirmations: 1011
+  actual_shorter_Qwen_plus_encoder_boundaries: 55
+question: >
+  Can a boundary-aware high-recall decoder use the complete H57 extraction as
+  a new teacher while preserving H38 and avoiding Qwen's clearly unreliable
+  patient/drug routing?
+selection:
+  supported_shorter_boundary:
+    rule: Qwen exact span/type plus at least one independent neural family
+    action: replace only genuinely longer same-type H38 rows and inherit fields
+  supported_disjoint:
+    rule: Qwen exact span/type plus at least one independent neural family
+    action: add
+  qwen_only_disjoint:
+    allowed_types: [CHẨN_ĐOÁN, TRIỆU_CHỨNG]
+    numeric_result_exception: KẾT_QUẢ_XÉT_NGHIỆM with explicit numeric measurement
+    forbidden_types: [THÔNG_TIN_BỆNH_NHÂN, THUỐC, TÊN_XÉT_NGHIỆM]
+  conflicts: abstain_on_overlapping_Qwen_only_proposals
+  assertions: frozen_rule_engine_for_additions_inherit_H38_for_replacements
+  candidates: no_new_nonempty_codes_exact_H38_alias_only
+gates:
+  - baseline_hash_matches
+  - all_100_H57_proposal_records_complete
+  - at_least_150_semantic_changes
+  - at_most_200_Qwen_only_changes
+  - no_new_nonempty_candidate_codes_without_independent_support
+  - all_100_records_validate
+  - repeated_zip_byte_identical
+failure_policy: no_zip_if_any_gate_fails

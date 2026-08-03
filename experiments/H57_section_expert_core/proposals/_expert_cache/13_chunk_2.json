@@ -1,0 +1,46 @@
+{
+  "record": 13,
+  "chunk": 2,
+  "window": [
+    1602,
+    2402
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9b6acee1d257287d253466af1d9a0728563015db006c6a6aa2c286523c8a54b7",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh dại",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chó cắn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đau ngực trái cấp tính",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau sau xương ức lan ra sau lưng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tiền sử bệnh hiện tại",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bệnh dại",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vi rút dại",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tình trạng miễn dịch của bệnh nhân",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

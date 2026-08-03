@@ -1,0 +1,30 @@
+{
+  "record": 50,
+  "chunk": 2,
+  "window": [
+    1671,
+    1845
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f754b0bed6d0e6f8b3ff599218245ee49e6794bb60434c9c4eaa638228209f96",
+  "response": {
+    "entities": [
+      {
+        "q": "ng không giảm thể tích",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "phá hủy cấu trúc nhu mô phổi bình thường",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vùng giảm bắt thuốc cản quang",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "phù gai thị",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

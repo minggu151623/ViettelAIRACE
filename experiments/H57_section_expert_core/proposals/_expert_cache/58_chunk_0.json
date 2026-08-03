@@ -1,0 +1,70 @@
+{
+  "record": 58,
+  "chunk": 0,
+  "window": [
+    0,
+    996
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "ea93320ffc2f9f0beddf5f89af52b1a36114360ab581ec1d3681a67eda6ecba9",
+  "response": {
+    "entities": [
+      {
+        "q": "Tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Biến chứng bệnh lý thần kinh ngoại biên",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Suy tim không do thiếu máu cơ tim",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh thận mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Glucose",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Cholesterol",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Triglycerid",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "LDL - cholesterol",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "HDL - cholesterol",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "HbA1c",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Uống rượu 30 năm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Phát hiện tăng HA từ năm 2009",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Đái tháo đường typ II/Tăng HA độ III đáp ứng với thuốc",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

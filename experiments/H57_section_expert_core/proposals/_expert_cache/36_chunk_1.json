@@ -1,0 +1,58 @@
+{
+  "record": 36,
+  "chunk": 1,
+  "window": [
+    874,
+    1805
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a1be87610643af29de7ebc9b9c6bca957be787114182cc41487bb2ded71f950b",
+  "response": {
+    "entities": [
+      {
+        "q": "thiếu máu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "HC: 4,49 T/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "HST: 103 g/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Điện giải: Na+: 141 mmol/l; K+: 5 mmol/l; Cl-: 106 mmol/l; Ca++: 2 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Viêm cầu thận mạn - Hội chứng thận hư",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tiền sử: Không có viêm họng cấp, viêm nhiễm ngoài da trong 1 tháng trước khi vào viện",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Điều trị nguyên nhân: điều trị VCTM theo cơ chế bệnh sinh",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Điều trị triệu chứng: phù, tăng lipid máu, giảm thải protein",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Medrol 16mg x 3 viên, uống 8h sáng sau ăn no",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Omez 20mg x 1 viên, uống 8h sáng",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Furosemid 40 mg x 1 viên, uống sáng",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

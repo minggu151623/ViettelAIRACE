@@ -1,0 +1,171 @@
+{
+  "record": 35,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9e3f202fd3df1ff0d0f605566f39c23db7a88bed6f0cfe3a94890f3bc6c4c16a",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Viêm hang vị sung huyết",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        743,
+        766
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        884,
+        900
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        910,
+        915
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        917,
+        923
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        944,
+        952
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        949,
+        952
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        958,
+        961
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm sung huyết hang vị dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1133,
+        1163
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thăm khám chuyên khoa",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1196,
+        1217
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nội soi dạ dày",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1219,
+        1233
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm sung huyết hang vị dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1613,
+        1643
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nghệ",
+      "type": "THUỐC",
+      "position": [
+        1687,
+        1691
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mật ong",
+      "type": "THUỐC",
+      "position": [
+        1693,
+        1700
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chế độ ăn uống khoa học, lành mạnh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1744,
+        1778
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kiêng ăn các thức ăn có vị chua, cay, nóng và các loại đồ ăn nhiều dầu mỡ",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1784,
+        1857
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chế độ tập luyện phù hợp",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2062,
+        2086
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

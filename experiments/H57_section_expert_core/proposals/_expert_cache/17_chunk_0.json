@@ -1,0 +1,74 @@
+{
+  "record": 17,
+  "chunk": 0,
+  "window": [
+    0,
+    995
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0541dd1ecb10ac809ed2529d51e0ca618eb68842cb5f446fd890bceec9e7ed19",
+  "response": {
+    "entities": [
+      {
+        "q": "chảy máu chân răng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hôi miệng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mảng bám quanh răng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vệ sinh răng miệng kém",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "viêm quanh răng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "viêm nha chu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau khi nhai",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "răng lung lay",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sưng nướu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dễ chảy máu răng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hôi miệng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "có mủ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm khớp dạng thấp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "các bệnh hô hấp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đột quỵ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

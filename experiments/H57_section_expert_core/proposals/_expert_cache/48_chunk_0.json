@@ -1,0 +1,54 @@
+{
+  "record": 48,
+  "chunk": 0,
+  "window": [
+    0,
+    922
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "ad271c475bb937fcdd1eaaae5e56732832990482c5d508d9b3d45c647e49f951",
+  "response": {
+    "entities": [
+      {
+        "q": "tai phải không có lỗ tai",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vành tai không phát triển đều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vành tai nhỏ hơn tai còn lại",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tai trái rất to và vành tai đẹp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phản ứng khi mình gọi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nghe bình thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "phát triển đều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sợ sau này sẽ ảnh hưởng đến sự phát triển của bé",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bị trêu chọc",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "kiểm tra việc nghe của bé thường xuyên",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

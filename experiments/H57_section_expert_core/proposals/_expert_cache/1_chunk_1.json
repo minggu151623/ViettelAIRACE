@@ -1,0 +1,58 @@
+{
+  "record": 1,
+  "chunk": 1,
+  "window": [
+    879,
+    1875
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7c9c9d3c57b45818fd1bfd2835a02186fef9533b7c91d4ee6d83456b14e7f909",
+  "response": {
+    "entities": [
+      {
+        "q": "thiếu men G6PD",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "thiếu máu do tan huyết",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hồng cầu bị phá hủy hàng loạt",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "vàng da, vàng mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sốt cao",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tim đập nhanh, khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suy thận cấp",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "đậu tằm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thực phẩm chứa chất oxy hóa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thực phẩm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thuốc",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

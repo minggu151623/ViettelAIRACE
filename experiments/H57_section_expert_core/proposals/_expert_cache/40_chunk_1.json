@@ -1,0 +1,82 @@
+{
+  "record": 40,
+  "chunk": 1,
+  "window": [
+    850,
+    1743
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "89f10b9618e79f21b9e1075e6fe870d83c2b123120f34d77dd8cbcfc8406fe34",
+  "response": {
+    "entities": [
+      {
+        "q": "kháng vitamin K",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Viêm phổi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Van động mạch chủ cơ học",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "TS thay khớp háng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Khí máu động mạch (23 thông số)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Tổng phân tích tế bào máu ngoại vi (bằng máy đếm laser)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Thời gian Thromboplastin một phần hoạt hóa (aPTT / TCK) bằng máy tự động",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Thời gian Prothrombin (PT / TQ / Tỷ lệ Prothrombin) bằng máy tự động",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng Fibrinogen (Yếu tố I) - Phương pháp Clauss trực tiếp bằng máy tự động",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng Glucose, Urê, Creatinin máu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Điện giải đồ (Na+, K+, cl-)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Đo hoạt độ AST (GOT) và ALT (GPT)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng CRP và Troponin T siêu nhạy (hs-Troponin T)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "CRP: 227.0 mg/L",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Creatinin : 46 µmol/L",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Kali +: 3.6 mmol/L",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "record": 14,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "c606bda442cdb5648b5436b8decfece12a05ec72d4b931b3ed58ab3f186b4d3d",
+  "chunks_expected": 4,
+  "chunks_complete": 4,
+  "errors": {},
+  "entities": [
+    {
+      "text": "nổi các dấu mề đay rất to",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        73,
+        98
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dấu mề đay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        81,
+        91
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngứa khắp người",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        102,
+        117
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nổi quanh năm luôn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        129,
+        147
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dấu mề đay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        157,
+        167
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nổi rất khó chịu và ngứa",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        168,
+        192
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "di truyền",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        318,
+        327
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dị ứng do thời tiết",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        357,
+        376
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh này là bệnh gì",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        441,
+        460
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "có cách nào để chữa cho bạn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        554,
+        581
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh thận mạn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        816,
+        829
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Giai đoạn 4",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        846,
+        857
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng sản tuyến tiền liệt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        864,
+        888
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        927,
+        934
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        966,
+        973
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1108,
+        1115
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1246,
+        1253
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xâm nhập của tế bào một nhân",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1371,
+        1404
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lympho T",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1420,
+        1428
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đại thực bào",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1433,
+        1448
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tế bào mast",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1576,
+        1589
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mày đay vô căn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1857,
+        1871
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh mạn tính",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1991,
+        2004
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị triệu chứng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2072,
+        2092
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm liều chậm 2,5 – 5mg mỗi 2-3 tuần",
+      "type": "THUỐC",
+      "position": [
+        2482,
+        2524
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

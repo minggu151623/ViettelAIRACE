@@ -1,0 +1,62 @@
+{
+  "record": 10,
+  "chunk": 1,
+  "window": [
+    876,
+    1868
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "2b6125a71e606d37f95f030f1fc7647917a7ca5275fd6a8d12f0d3ef2de6ca12",
+  "response": {
+    "entities": [
+      {
+        "q": "mệt mỏi nhiều khi gắng sức trong tuần qua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đánh trống ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cảm giác thắt chặt ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm dung nạp gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "monitor holter",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Nhịp xoang chiếm ưu thế",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ngoại tâm thu nhĩ",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ngoại tâm thu thất",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "metoprolol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "atenolol",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

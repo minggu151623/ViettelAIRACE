@@ -1,0 +1,30 @@
+{
+  "record": 42,
+  "chunk": 2,
+  "window": [
+    1644,
+    1958
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "54ae1d6d106296d438ff421d70b26e46efe202854422269638c9dd3c8fa04072",
+  "response": {
+    "entities": [
+      {
+        "q": "số lượng bạch cầu là 12.5",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tổng phân tích nước tiểu đáng chú ý chỉ có vếtvết protein niệu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "troponin âm tính x1",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp x-quang ngực được cho là viêm phổi thùy dưới phải (RLL PNA)",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

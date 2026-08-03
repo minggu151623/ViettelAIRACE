@@ -1,0 +1,259 @@
+{
+  "hypothesis": "H57_section_expert_core",
+  "proposal_digest": "c96cb5ba2aa95888d71017cd6d5ca6278b7a5a41a71b718afb518e8e6a2fd08e",
+  "selected": 13,
+  "changed_rows": 13,
+  "baseline_retention": 1.0,
+  "candidate_additions": 1,
+  "rejected": {
+    "no_independent_exact_support": 1530,
+    "contained_same_type": 1064,
+    "cross_type": 61,
+    "contains_same_type": 51,
+    "candidate_alias_not_unanimous": 17,
+    "hazard": 2
+  },
+  "selected_by_type": {
+    "TRIỆU_CHỨNG": 12,
+    "CHẨN_ĐOÁN": 1
+  },
+  "selected_rows": [
+    {
+      "record": 12,
+      "text": "tổn thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1066,
+        1076
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ]
+    },
+    {
+      "record": 12,
+      "text": "tổn thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1548,
+        1558
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ]
+    },
+    {
+      "record": 16,
+      "text": "vết thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        776,
+        786
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ]
+    },
+    {
+      "record": 16,
+      "text": "vết thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1204,
+        1214
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ]
+    },
+    {
+      "record": 18,
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1113,
+        1116
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ]
+    },
+    {
+      "record": 20,
+      "text": "vết thương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        776,
+        786
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ]
+    },
+    {
+      "record": 21,
+      "text": "suy các cơ quan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        713,
+        728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami"
+      ]
+    },
+    {
+      "record": 21,
+      "text": "tử vong",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        750,
+        757
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ]
+    },
+    {
+      "record": 33,
+      "text": "nhói",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        980,
+        984
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami",
+        "h34_oof"
+      ]
+    },
+    {
+      "record": 36,
+      "text": "phù",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        381,
+        384
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami",
+        "vietmed"
+      ]
+    },
+    {
+      "record": 54,
+      "text": "dị tật bẩm sinh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1208,
+        1223
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ]
+    },
+    {
+      "record": 79,
+      "text": "tử vong",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        750,
+        757
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "vietmed"
+      ]
+    },
+    {
+      "record": 80,
+      "text": "hạt tophi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1356,
+        1365
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert",
+      "relation": "disjoint",
+      "baseline_overlap_indices": [],
+      "independent_sources": [
+        "bami",
+        "h34_oof"
+      ],
+      "candidates": [
+        "M1A.9XX1"
+      ]
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 874,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1311,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "gates": {
+    "baseline_hash_matches": true,
+    "all_chunk_calls_complete": true,
+    "all_selected_have_independent_support": true,
+    "positive_control_retention_at_least_0_90": true,
+    "at_least_150_rows_change": false,
+    "candidate_count_increase_at_most_75": true,
+    "all_records_validate": true
+  },
+  "decision": "FAIL"
+}

@@ -1,0 +1,241 @@
+{
+  "record": 23,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9d3eefaca8030d772787ceacb6bce15033c783b06c638372b406bc8a7d43439b",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "thời kỳ mãn kinh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        181,
+        197
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thời kỳ mãn kinh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        229,
+        245
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đổ mồ hôi đêm và bốc hỏa",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        247,
+        271
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1047,
+        1054
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mờ mắt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1072,
+        1078
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhìn mờ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1116,
+        1123
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "não úng tuỷ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1190,
+        1201
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đặt dẫn lưu shunt",
+      "type": "THUỐC",
+      "position": [
+        1246,
+        1263
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "não úng thủy",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1312,
+        1324
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1344,
+        1351
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1453,
+        1460
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù gai thị",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1536,
+        1547
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mờ mắt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1581,
+        1587
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1705,
+        1712
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu gián đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1705,
+        1722
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1755,
+        1762
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1755,
+        1770
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhìn mờ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1777,
+        1784
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1777,
+        1825
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1838,
+        1845
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhìn mờ: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1887,
+        1951
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu: nhiều hơn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1958,
+        1976
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù gai thị, bên trái nặng hơn bên phải",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2126,
+        2165
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

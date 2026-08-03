@@ -1,0 +1,31 @@
+{
+  "record": 84,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f3867a3ae5a2c23fdbe74c5306ddc29cafb929ba738008fb85bad652d511b430",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "thuốc giảm đau opioid",
+      "type": "THUỐC",
+      "position": [
+        55,
+        76
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vi nấm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1128,
+        1134
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

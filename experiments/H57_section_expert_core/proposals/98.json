@@ -1,0 +1,251 @@
+{
+  "record": 98,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "71fd1d83ceb9cb35647c0f728cf3b144efd5bafed68acf1f874c56f517354ebc",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Rối loạn cảm xúc",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        277,
+        293
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Rối loạn lưỡng cực",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        301,
+        319
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rối loạn lo âu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        326,
+        340
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "klonopinclonidine",
+      "type": "THUỐC",
+      "position": [
+        442,
+        459
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "clonidine",
+      "type": "THUỐC",
+      "position": [
+        450,
+        459
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "clonidine",
+      "type": "THUỐC",
+      "position": [
+        480,
+        489
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suboxone",
+      "type": "THUỐC",
+      "position": [
+        517,
+        525
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lạm dụng chất kích thích",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        649,
+        673
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chất gây nghiện opioid",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        675,
+        697
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ý định tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        742,
+        754
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "trầm cảm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        808,
+        816
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hưng cảm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        873,
+        881
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng hoạt động",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        898,
+        912
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        898,
+        941
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm nhu cầu ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        916,
+        932
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "có ý định tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        965,
+        980
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ý định tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        968,
+        980
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suboxone",
+      "type": "THUỐC",
+      "position": [
+        1039,
+        1047
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suboxone",
+      "type": "THUỐC",
+      "position": [
+        1082,
+        1090
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ý nghĩ tự tử, có nghĩ tự bắn vào đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1139,
+        1175
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lo âu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1182,
+        1187
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hoảng sợ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1188,
+        1196
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hoang tưởng như đang chiếm khí oxy của người khác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1203,
+        1252
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chăm sóc tâm thần",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1284,
+        1301
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

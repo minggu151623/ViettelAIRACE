@@ -1,0 +1,46 @@
+{
+  "record": 18,
+  "chunk": 1,
+  "window": [
+    790,
+    1706
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7b77a88212879721913dadc870bb5fb4366a8f2c8a21f7f93d05d12e5334693a",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh mạch vành",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sốt nhẹ đến 38.3°C",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau hạ sườnh phải tái phát, ngày càng nặng hơn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau hạ sườn phải liên tục",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cấy máu dương tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

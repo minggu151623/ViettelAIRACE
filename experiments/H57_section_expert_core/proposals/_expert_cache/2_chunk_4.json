@@ -1,0 +1,50 @@
+{
+  "record": 2,
+  "chunk": 4,
+  "window": [
+    3384,
+    3740
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "745fdb5057a85b6c8ce4486c01d93c0c614fd87a74ef4a144b61ae2aecd74d32",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh Kawasaki",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sốt cao kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đỏ mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ban đỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "môi đỏ – nứt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lưỡi đỏ dâu tây",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sưng hạch cổ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Điều trị bằng **** trong 10 ngày đầu",
+        "t": "THUỐC"
+      },
+      {
+        "q": "biến chứng mạch vành",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

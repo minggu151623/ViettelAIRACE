@@ -1,0 +1,82 @@
+{
+  "record": 57,
+  "chunk": 1,
+  "window": [
+    857,
+    1734
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "e72396c2571c6d0b4a1b5e3b5b8384b2a98476d15d70c3db8f299a06e22e7251",
+  "response": {
+    "entities": [
+      {
+        "q": "uyết thường xuyên tại nhà do hết que thử đường máu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "glucose là thấp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ngừng dùng glargine",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Báo cáo bị ngã gần đây",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Các loại thuốc (isosorbide, crestor, carvedilol) đã hết khi đi khám PCP",
+        "t": "THUỐC"
+      },
+      {
+        "q": "hết isosorbide, crestor, carvedilol khoảng 3 tuần trước",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "các xét nghiệm xét nghiệm được kiểm tra bởi PCP: kali là 6.3 mẫu không tan máu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "kali 6.3, mẫu không tan máu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "kali (k).8",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ure (bun) 83",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "creatinine 5.7",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hemoglobin 7.8",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hba1c 6.5",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bnp 21,000",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "được dùng insulin và dextrose cho tăng kali máu",
+        "t": "THUỐC"
+      },
+      {
+        "q": "iv lasix 40 mg once",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "record": 14,
+  "chunk": 1,
+  "window": [
+    815,
+    1686
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "c606bda442cdb5648b5436b8decfece12a05ec72d4b931b3ed58ab3f186b4d3d",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh thận mạn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Giai đoạn 4",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng sản tuyến tiền liệt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ảo giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lú lẫn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "gleevec",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tổn thương mô bệnh học",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "xâm nhập của tế bào một nhân",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "lympho T",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đại thực bào",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tế bào mast",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

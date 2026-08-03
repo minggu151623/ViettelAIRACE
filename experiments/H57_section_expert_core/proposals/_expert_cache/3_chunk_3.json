@@ -1,0 +1,70 @@
+{
+  "record": 3,
+  "chunk": 3,
+  "window": [
+    2567,
+    3549
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1d5bbc523b8949b40e7a42ddb6221f92a80bd081c2f59d1d80f91b17f630e681",
+  "response": {
+    "entities": [
+      {
+        "q": "yếu sức chân phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không thể tự đứng dậy do yếu sức chân phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không thể chịu lực ở chân phải, liên tục khuỵu chân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "yếu nửa người bên phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không nhấc chân phải khỏi mặt giường",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chân phải liên tục khuỵ xuống",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tỉnh chậm, phản xạ kém",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhịp tim chậm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạ huyết áp, không đặc hiệu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "được chụp ct sọ não kết quả âm tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp lại chụp ct sọ não, kết quả âm tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chẩn đoán hình ảnh",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "dùng kháng sinh cho nhiễm trùng nhiễm trùng răng miệng gần đây",
+        "t": "THUỐC"
+      },
+      {
+        "q": "dùng intravenous fluids",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "record": 37,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "38ba88646c5063aaf788640b23b91dee563f8c3f7df4618aa8e1c9946ceed2bf",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "tai phải bé không có lỗ tai",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        72,
+        99
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phát triển đều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        299,
+        313
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vành tai không phát triển đều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        375,
+        404
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phát triển đều",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        390,
+        404
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vành tai đẹp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        468,
+        480
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phản ứng khi mình gọi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        508,
+        529
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lo lắng về tai của bé",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        632,
+        653
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sợ sau này sẽ ảnh hưởng đến sự phát triển của bé",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        655,
+        703
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bị trêu chọc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        710,
+        722
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kiểm tra việc nghe của bé thường xuyên",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        819,
+        857
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1087,
+        1093
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy mủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1095,
+        1102
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bactrim",
+      "type": "THUỐC",
+      "position": [
+        1211,
+        1218
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "doxycycline",
+      "type": "THUỐC",
+      "position": [
+        1222,
+        1233
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm mô tế bào",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1256,
+        1270
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1310,
+        1316
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dịch tiết có vẻ như mủ",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1323,
+        1345
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thính lực",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1786,
+        1795
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tai mũi họng nhi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1864,
+        1880
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

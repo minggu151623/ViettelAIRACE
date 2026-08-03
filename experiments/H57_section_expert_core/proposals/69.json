@@ -1,0 +1,181 @@
+{
+  "record": 69,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "82db94e3061b2eebf2835c3ac0f6dcb5ad8c7f5e5259390a899fd7b670c72992",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "trầm cảm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        108,
+        116
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rối loạn lo âu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        121,
+        135
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổn thương chi dưới",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        179,
+        198
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tự tử không thành",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        202,
+        219
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốc",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        263,
+        266
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn chán",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        314,
+        323
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "uống nhiều rượu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        325,
+        340
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hút cần sa",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        341,
+        351
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhảy cầu tự tử",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        418,
+        432
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổn thương chi dưới",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        441,
+        460
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "trầm cảm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        555,
+        563
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổn thương chi dưới",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        633,
+        652
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổn thương chi dưới nghiêm trọng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        633,
+        665
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "biến chứng thuyên tắc phổi hai bên",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        757,
+        791
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        795,
+        857
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vancomycin",
+      "type": "THUỐC",
+      "position": [
+        847,
+        857
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kháng sinh tĩnh mạch",
+      "type": "THUỐC",
+      "position": [
+        943,
+        963
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

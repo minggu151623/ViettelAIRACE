@@ -1,0 +1,62 @@
+{
+  "record": 89,
+  "chunk": 1,
+  "window": [
+    742,
+    1432
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "22ae8d9f62a671e9a4eafe694239ff936f7d1ec0c6b8fc56d28797310e7653fd",
+  "response": {
+    "entities": [
+      {
+        "q": "không có đau tại phòng cấp cứu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "điện tâm đồ bình thường tại phòng cấp cứu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Nhiệt độ 36.7°c",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Huyết áp 139/68 mmhg",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Mạch 67 lần/phút",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Nhịp thở 16 lần/phút",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "SpO2 100% (không thở oxy)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "độ bão hòa oxy 100% trên khí trời",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Liệu phát miễn dịch tiếp xúc (contac immunotherapy)",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Đoạn ST chênh xuống kiểu xuống dốc xuất hiện trong giai đoạn hồi phục",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Đoạn ST chênh xuống kiểu xuống dốc còn tồn tại sau 1 phút và kéo dài đến sau 5 phút hồi phục",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

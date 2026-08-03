@@ -1,0 +1,431 @@
+{
+  "record": 42,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "54ae1d6d106296d438ff421d70b26e46efe202854422269638c9dd3c8fa04072",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        51,
+        53
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        51,
+        68
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        75,
+        88
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "béo phì",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        95,
+        102
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngưng thở khi ngủ do tắc nghẽn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        109,
+        139
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tylenol",
+      "type": "THUỐC",
+      "position": [
+        176,
+        183
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mucinex d",
+      "type": "THUỐC",
+      "position": [
+        190,
+        199
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thỉnh thoảng tiêu chảy các thuốc của ông ấy",
+      "type": "THUỐC",
+      "position": [
+        206,
+        249
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thỉnh thoảng tiêu chảy các thuốc của ông ấy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        206,
+        249
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        213,
+        215
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        298,
+        300
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu oxy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        302,
+        311
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nội soi dạ dày",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        480,
+        494
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hang vị, tiền môn vị, niêm mạc phù nề, sung huyết đỏ",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        512,
+        564
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        696,
+        703
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt lên đến 101",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        710,
+        725
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thỉnh thoảng tiêu chảy các thuốc của ông ấy",
+      "type": "THUỐC",
+      "position": [
+        732,
+        775
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thỉnh thoảng tiêu chảy các thuốc của ông ấy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        732,
+        775
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        739,
+        741
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đi tiểu nhiều lần vào ban đêm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        782,
+        811
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau buốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        822,
+        830
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "au buốt khi đi tiểu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        823,
+        842
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi gắng sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        874,
+        894
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm giác khó thở sau khi đi bộ vài khối",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        903,
+        942
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho đặc như bã theo lời bệnh nhân",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        949,
+        981
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt lần cuối sốt là vào ngày",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1019,
+        1047
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiêu chảy đã tự khỏi vào buổi sáng hôm sau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1054,
+        1096
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1112,
+        1120
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn/nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1136,
+        1148
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đổ mồ hôi đêm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1164,
+        1177
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi nằm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1193,
+        1208
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi nằm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1224,
+        1239
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1224,
+        1279
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giãn phế quản",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1381,
+        1394
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "azithromycin",
+      "type": "THUỐC",
+      "position": [
+        1413,
+        1425
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tylenol",
+      "type": "THUỐC",
+      "position": [
+        1449,
+        1456
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mucinex d",
+      "type": "THUỐC",
+      "position": [
+        1460,
+        1469
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "spo2 là 90-92% spo2 khi thở khí trời",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1567,
+        1603
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "số lượng bạch cầu là 12.5",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1738,
+        1763
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổng phân tích nước tiểu đáng chú ý chỉ có vếtvết protein niệu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1770,
+        1832
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "troponin âm tính x1",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1842,
+        1861
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực được cho là viêm phổi thùy dưới phải (RLL PNA)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1894,
+        1958
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "record": 66,
+  "chunk": 1,
+  "window": [
+    820,
+    1681
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "8ed4471e72655c62eb17c26f6d8ad50acf71cbfa4a77d7c835b15ea37e8a50ec",
+  "response": {
+    "entities": [
+      {
+        "q": "xương",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "dị cảm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm cảm giác vị thế",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khả năng trí óc giảm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạ huyết áp tư thế đứng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ung thư",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "B12",
+        "t": "THUỐC"
+      },
+      {
+        "q": "u nang tuyến vú",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "u xơ tuyến vú",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chụp x-quang ngực",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Tăng gánh nhẹ tuần hoàn phổi",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tràn dịch màng phổi hai bên nhẹ",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tim to",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Estrogen",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "cúm âm tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

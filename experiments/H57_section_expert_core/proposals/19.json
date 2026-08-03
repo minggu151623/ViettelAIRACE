@@ -1,0 +1,251 @@
+{
+  "record": 19,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "6b62c491ad772b7bc23bdcbf20b03a815be2e9d8de81289cf9036861b562de77",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "nổi các dấu mề đay rất to và ngứa khắp người",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        73,
+        117
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bị nổi quanh năm luôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        126,
+        147
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dấu mề đay nổi rất khó chịu và ngứa",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        157,
+        192
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "di truyền",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        318,
+        327
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tylenol",
+      "type": "THUỐC",
+      "position": [
+        684,
+        691
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tylenol",
+      "type": "THUỐC",
+      "position": [
+        721,
+        728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        809,
+        817
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "táo bón",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        824,
+        831
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        838,
+        846
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau hố chậu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        886,
+        897
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        925,
+        969
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tylenol",
+      "type": "THUỐC",
+      "position": [
+        962,
+        969
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        999,
+        1007
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MÀY ĐAY VÔ CĂN",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1161,
+        1175
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MÀY ĐAY MẠN TÍNH",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1267,
+        1283
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xâm nhập của tế bào một nhân kết hợp với lympho T và đại thực bào",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1338,
+        1415
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tế bào mast",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1543,
+        1556
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "n thương sinh thiết không thấy có hình ảnh của lắng đọng các phức hợp miễn dịch, bổ thể hay sợi fibrin",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1688,
+        1806
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lắng đọng các phức hợp miễn dịch",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1741,
+        1780
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sợi fibrin",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1795,
+        1806
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh lý mày đay vô căn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1816,
+        1838
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mày đay vô căn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1824,
+        1838
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị triệu chứng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2039,
+        2059
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "corticoid liều thấp cách ngày hoặc hàng ngày và giảm liều chậm 2,5 – 5mg mỗi 2-3 tuần",
+      "type": "THUỐC",
+      "position": [
+        2393,
+        2491
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

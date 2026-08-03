@@ -1,0 +1,38 @@
+{
+  "record": 28,
+  "chunk": 1,
+  "window": [
+    869,
+    1846
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "142554032ab57bb779d84b4cb7ed5b7b01ce8f5754f7bb821ba82846520349c3",
+  "response": {
+    "entities": [
+      {
+        "q": "tình trạng xâm nhập của tế bào mô một nhân kết hợp với lympho T và đại thực bào",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tế bào mast tăng số lượng vùng hạch",
+        "t": "THUỐC"
+      },
+      {
+        "q": "mày đay vô căn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh mạn tính",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "điều trị triệu chứng",
+        "t": "THUỐC"
+      },
+      {
+        "q": "cân bằng giữa hiệu quả điều trị kiểm soát triệu chứng và những tác dụng gây độc của liệu pháp điều trị",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "record": 30,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "25f354ce83e63135fe6a95ad272c1cef866ed5659ee56ef9ddb970445d26f9c0",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Không có tiền sử bệnh tim mạch hoặc thận bệnh nào được biết đến",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        23,
+        86
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đang dùng methadone",
+      "type": "THUỐC",
+      "position": [
+        126,
+        145
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đánh giá phù, chủ quan sốt và ớn lạnh, và đau tăng dần khi đi lại",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        194,
+        259
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chủ quan sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        208,
+        220
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ớn lạnh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        224,
+        231
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau tăng dần khi đi lại",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        236,
+        259
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù hai bên",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        295,
+        306
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ, RL",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        313,
+        323
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chủ quan sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        330,
+        342
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ớn lạnh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        349,
+        356
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau tăng dần khi đi lại",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        363,
+        386
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Vị trí: RL (Chân phải)",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        418,
+        440
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mức độ nghiêm trọng: đau tăng dần",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        447,
+        480
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù, ban đỏ, chủ quan sốt, ớn lạnh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        514,
+        548
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chủ quan sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        527,
+        539
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ớn lạnh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        541,
+        548
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "được chuyển từ nơi trú ẩn đến Khoa Cấp cứu để đánh giá",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        586,
+        640
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lơ mơ khi đến tầng và không thể tỉnh táo đủ lâu để cung cấp tiền sử",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        687,
+        754
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "được ghi nhận phù hai bên và ban đỏ, RL",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        761,
+        800
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù hai bên",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        775,
+        786
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ban đỏ, RL",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        790,
+        800
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Chào bạn,mình xin trả lời câu hỏi của bạn như sau Như bạn đã mô tả, trường hợp này bạn thuộc MÀY đay VÔ CĂN. Chúng tôi không tìm được nguyên nhân gây bệnh.",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        825,
+        980
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MÀY đay VÔ CĂN",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        918,
+        932
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MÀY đay MẠN",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1016,
+        1027
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tế bào một nhân",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1086,
+        1101
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bạch huyết T",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1114,
+        1126
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đại thực bào",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1130,
+        1142
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kính hiển thị vi quang học",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1183,
+        1209
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kính hiển thị vi điện tử",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1236,
+        1260
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tế bào cột sống",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1266,
+        1281
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dịch sinh học",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1402,
+        1415
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh lý mày đay vô căn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1487,
+        1509
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh mạn tính",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1632,
+        1645
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cân bằng giữa hiệu quả kiểm soát triệu chứng và những tác hại gây độc của liệu pháp điều trị",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1797,
+        1889
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hệ sau không gây buồn ngủ",
+      "type": "THUỐC",
+      "position": [
+        1914,
+        1939
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đơn hàng đầu sau đó đến",
+      "type": "THUỐC",
+      "position": [
+        1943,
+        1966
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hệ 1",
+      "type": "THUỐC",
+      "position": [
+        1990,
+        1994
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bậc thấp cách ngày hoặc hàng ngày và giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+      "type": "THUỐC",
+      "position": [
+        2006,
+        2079
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phương pháp điều trị tốt nhất",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2177,
+        2206
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

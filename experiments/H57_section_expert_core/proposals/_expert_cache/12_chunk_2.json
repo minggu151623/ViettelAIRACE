@@ -1,0 +1,50 @@
+{
+  "record": 12,
+  "chunk": 2,
+  "window": [
+    1655,
+    2554
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "27189284c7ddd7b2b52547fa5bd45069636de92d1e637f5fc9f2e705e188e5e0",
+  "response": {
+    "entities": [
+      {
+        "q": "dị tật thiểu sản vành tai",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tịt ống tai ngoài bẩm sinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "cấu trúc tai trong",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tạo hình vành tai bằng sụn sườn tự thân",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tạo hình vành tai bằng sụn nhân tạo",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tạo hình ống tai ngoài",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "thiết bị trợ thính đường xương",
+        "t": "THUỐC"
+      },
+      {
+        "q": "doxycyclinebactrim",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Viêm mô tế bào",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

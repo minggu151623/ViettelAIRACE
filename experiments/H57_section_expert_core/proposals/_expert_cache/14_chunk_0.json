@@ -1,0 +1,58 @@
+{
+  "record": 14,
+  "chunk": 0,
+  "window": [
+    0,
+    935
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "c606bda442cdb5648b5436b8decfece12a05ec72d4b931b3ed58ab3f186b4d3d",
+  "response": {
+    "entities": [
+      {
+        "q": "dấu mề đay",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ngứa khắp người",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nổi các dấu mề đay rất to",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nổi quanh năm luôn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nổi rất khó chịu và ngứa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dị ứng do thời tiết",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "dị ứng do thức ăn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "di truyền",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bệnh này là bệnh gì",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh này có bị nặng hay ảnh hưởng nghiêm trọng gì không",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "có cách nào để chữa cho bạn",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

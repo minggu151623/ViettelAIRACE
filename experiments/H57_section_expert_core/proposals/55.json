@@ -1,0 +1,181 @@
+{
+  "record": 55,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "01d553e7f153c75f4bf0e40e9cfa2b301638887ef5182bb99637757c5816aaaf",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "HA",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        83,
+        85
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        119,
+        121
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        154,
+        156
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hồi hợp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        197,
+        204
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rợn người",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        215,
+        224
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        243,
+        245
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        272,
+        274
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        391,
+        393
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rợn người",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        436,
+        445
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tim đập rất mạnh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        470,
+        486
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HA",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        697,
+        699
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết áp",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        806,
+        814
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đái tháo đường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        938,
+        952
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        956,
+        969
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết áp",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        961,
+        969
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        976,
+        1029
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi, mất trí nhớ chi tiết",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1249,
+        1278
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "record": 40,
+  "chunk": 0,
+  "window": [
+    0,
+    970
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "89f10b9618e79f21b9e1075e6fe870d83c2b123120f34d77dd8cbcfc8406fe34",
+  "response": {
+    "entities": [
+      {
+        "q": "Đi ngoài phân đen",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng quanh rốn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn thức ăn lẫn máu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "XHTH quá liều thuốc kháng vitamin K",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Van động mạch chủ cơ học",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thay khớp háng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Xuất huyết tiêu hóa theo dõi quá liều kháng vitamin K",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Viêm phổi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "TS thay khớp háng",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

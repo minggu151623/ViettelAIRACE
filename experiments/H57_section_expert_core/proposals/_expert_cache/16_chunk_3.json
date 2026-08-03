@@ -1,0 +1,22 @@
+{
+  "record": 16,
+  "chunk": 3,
+  "window": [
+    2421,
+    2661
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1e70d7220bc2fff80de106226a2c41df8e094f96726419bfebe07f4ba26ec012",
+  "response": {
+    "entities": [
+      {
+        "q": "thời gian ủ bệnh ngắn hơn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vi rút xâm nhập vào mô thần kinh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

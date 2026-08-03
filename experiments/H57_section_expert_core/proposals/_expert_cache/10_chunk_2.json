@@ -1,0 +1,46 @@
+{
+  "record": 10,
+  "chunk": 2,
+  "window": [
+    1748,
+    2676
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "2b6125a71e606d37f95f030f1fc7647917a7ca5275fd6a8d12f0d3ef2de6ca12",
+  "response": {
+    "entities": [
+      {
+        "q": "metoprolol 25mg po bid",
+        "t": "THUỐC"
+      },
+      {
+        "q": "atenolol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "siêu âm tim qua thành ngực",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "aspirin 325mg x 1",
+        "t": "THUỐC"
+      },
+      {
+        "q": "chụp x-quang ngực",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "phân tích nước tiểu",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ecg",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Viêm gan cấp tính do virus B thể thông thường điển hình mức độ nặng giai đoạn toàn phát",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

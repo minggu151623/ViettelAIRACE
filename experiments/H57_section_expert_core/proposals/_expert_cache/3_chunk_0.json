@@ -1,0 +1,54 @@
+{
+  "record": 3,
+  "chunk": 0,
+  "window": [
+    0,
+    970
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1d5bbc523b8949b40e7a42ddb6221f92a80bd081c2f59d1d80f91b17f630e681",
+  "response": {
+    "entities": [
+      {
+        "q": "run tay",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hội chứng Parkinson",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Nitralmyl",
+        "t": "THUỐC"
+      },
+      {
+        "q": "trimetazidin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "đau thắt ngực ổn định",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chóng mặt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ù tai",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "rối loạn thị lực",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Parkinson",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "yếu sức nửa người bên phải",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

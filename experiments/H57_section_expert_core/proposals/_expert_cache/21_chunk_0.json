@@ -1,0 +1,66 @@
+{
+  "record": 21,
+  "chunk": 0,
+  "window": [
+    0,
+    982
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d189308e501d6dc08c9144708fadbcd4975103fea932399bb6dc1b3b9293821d",
+  "response": {
+    "entities": [
+      {
+        "q": "Rối loạn chuyển hóa tinh bột",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "amyloidosis",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh thoái hóa tinh bột",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "protein amyloid",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "lắng đọng protein amyloid",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suy các cơ quan",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tử vong",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lắng đọng của protein amyloid",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phổi",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "da",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bàng quang",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ruột",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "toàn thân",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

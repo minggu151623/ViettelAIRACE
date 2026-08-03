@@ -1,0 +1,101 @@
+{
+  "record": 76,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "26512799727a277ffa3547ebaf7b3fe6ab80c8fbfbc5d5a4fa30e0664a860647",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "MÀY đay VÔ CĂN",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        267,
+        281
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MÀY đay MẠN",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        365,
+        376
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh lý mày đay vô căn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        836,
+        858
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        981,
+        994
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hiệu quả kiểm soát triệu chứng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1160,
+        1190
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "những tác hại gây độc của liệu pháp điều trị",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1194,
+        1238
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cách ngày hoặc hàng ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1364,
+        1388
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1392,
+        1428
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bác sĩ chuyên khoa da liễu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1493,
+        1519
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

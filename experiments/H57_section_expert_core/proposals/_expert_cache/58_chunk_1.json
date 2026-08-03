@@ -1,0 +1,94 @@
+{
+  "record": 58,
+  "chunk": 1,
+  "window": [
+    876,
+    1713
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "ea93320ffc2f9f0beddf5f89af52b1a36114360ab581ec1d3681a67eda6ecba9",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "điều trị ổn định từng đợt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "biến chứng tại cơ quan đích",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "isosorbide",
+        "t": "THUỐC"
+      },
+      {
+        "q": "crestor",
+        "t": "THUỐC"
+      },
+      {
+        "q": "carvedilol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "kali là 6.3 mẫu không tan máu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "kali (k).8",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ure (bun) 83",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "creatinine 5.7",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hemoglobin 7.8",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hba1c 6.5",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bnp 21,000",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tăng gánh nhẹ tuần hoàn phổi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tràn dịch màng phổi hai bên nhẹ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tim to",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng kali máu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "insulin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "dextrose",
+        "t": "THUỐC"
+      },
+      {
+        "q": "iv lasix 40 mg once",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

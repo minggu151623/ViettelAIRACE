@@ -1,0 +1,41 @@
+{
+  "record": 52,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f03ed99bac869f595aad2abe5b6ed95ef617a55013f1a4e004d16eed0dfbaa71",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "MÀY ĐAY VÔ CĂN",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        733,
+        747
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "MÀY ĐAY MẠN TÍNH",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        839,
+        855
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mẹ Đã tử vong trong lần nhập viện gần đây nhất",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1753,
+        1799
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

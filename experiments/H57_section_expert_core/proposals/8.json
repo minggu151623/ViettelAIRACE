@@ -1,0 +1,541 @@
+{
+  "record": 8,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d6dae34ac1a987e170a44c3f0de23fd1c8a344eca8c89d825a91269dd14b639b",
+  "chunks_expected": 4,
+  "chunks_complete": 4,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Rối loạn cảm xúc (trầm cảm)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        51,
+        78
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hội chứng nghiện rượu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        129,
+        150
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "seroquel",
+      "type": "THUỐC",
+      "position": [
+        190,
+        198
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        237,
+        246
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hội chứng nghiện rượu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        323,
+        344
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        400,
+        405
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        465,
+        470
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lú lẫn từng đợt gần đây",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        477,
+        500
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm giác chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        507,
+        525
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        516,
+        525
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó khăn khi nhìn gần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        532,
+        553
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rối loạn thị giác, nhìn thấy con cái mình ở góc mắt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        560,
+        611
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác thị giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        618,
+        634
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác thị giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        636,
+        652
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ảo thanh (AH) (ảo giác thính giác)",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        660,
+        694
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        726,
+        731
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        726,
+        810
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lú lẫn: từng đợt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        817,
+        833
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chóng mặt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        840,
+        849
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Khó khăn về thị lực gần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        856,
+        879
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rối loạn thị giác: nhìn thấy con cái ở góc mắt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        886,
+        932
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        939,
+        1010
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1278,
+        1353
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chọc dò dịch não tủy là không phát hiện bất thường",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1360,
+        1410
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh giá thần kinh để tìm bệnh lý chất trắng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1417,
+        1461
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "các băng nhóm oligoclonal đang chờ kết quả",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1468,
+        1510
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1617,
+        1701
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Kết quả xét nghiệm: chọc dò dịch não tủy là âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1734,
+        1785
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chọc dò dịch não tủy",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1754,
+        1774
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chọc dò dịch não tủy là âm tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1754,
+        1785
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct sọ",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1818,
+        1828
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phát hiện bệnh lý chất trắng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1830,
+        1858
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chọc dò dịch não tủy",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1916,
+        1936
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phát hiện bệnh lý chất trắng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2126,
+        2154
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Kawasaki",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2260,
+        2268
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Kawasaki",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2403,
+        2411
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Kawasaki",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2469,
+        2477
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Phình giãn động mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2565,
+        2590
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hẹp – tắc động mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2594,
+        2618
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thiếu máu cơ tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2622,
+        2638
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhồi máu cơ tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2642,
+        2657
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Suy vành mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2661,
+        2678
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm cơ tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2764,
+        2775
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tràn dịch màng tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2779,
+        2797
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng men gan",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2801,
+        2813
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Rối loạn tiêu hóa",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2817,
+        2834
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Chẩn đoán bệnh Kawasaki",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2838,
+        2861
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Sốt ≥5 ngày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2885,
+        2896
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Viêm kết mạc 2 bên không ghèn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2921,
+        2950
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Môi – miệng thay đổi (nứt, đỏ, lưỡi dâu tây)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2955,
+        2999
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tổn thương đầu chi (phù, đỏ, bong da)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3004,
+        3041
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ban đỏ toàn thân",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3046,
+        3062
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hạch cổ to ≥1,5 cm",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3067,
+        3085
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

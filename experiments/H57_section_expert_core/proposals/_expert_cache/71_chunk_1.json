@@ -1,0 +1,62 @@
+{
+  "record": 71,
+  "chunk": 1,
+  "window": [
+    880,
+    1623
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4b378f17315724ad888d36646cf611297a42d89bdb316f3f1ac1ec739f5c3a41",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm nang lông",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nổi mẩn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mẩn đỏ ngứa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ma sát giữa da và quần áo",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "vệ sinh da kém",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thay đổi thời tiết",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "suy giảm chức năng gan",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nổi mề đay",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh vảy nến",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tác dụng phụ của một số loại thuốc chữa bệnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "điều trị",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "xác định chính xác nguyên nhân gây bệnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

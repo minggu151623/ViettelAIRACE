@@ -1,0 +1,70 @@
+{
+  "record": 8,
+  "chunk": 1,
+  "window": [
+    813,
+    1786
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d6dae34ac1a987e170a44c3f0de23fd1c8a344eca8c89d825a91269dd14b639b",
+  "response": {
+    "entities": [
+      {
+        "q": "Lú lẫn: từng đợt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chóng mặt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Khó khăn về thị lực gần",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rối loạn thị giác: nhìn thấy con cái ở góc mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chọc dò dịch não tủy là không phát hiện bất thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "đánh giá thần kinh để tìm bệnh lý chất trắng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "các băng nhóm oligoclonal đang chờ kết quả",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Kết quả xét nghiệm: chọc dò dịch não tủy là âm tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+hypothesis: H57_section_expert_core
+status: amended_before_quality_evaluation
+created_at: "2026-08-03T16:00:00+07:00"
+question: >
+  Can full-corpus, type-specialist clinical extraction provide a genuinely new
+  recall source that breaks H38's correlated-token-model ceiling while keeping
+  the externally validated H38 candidate policy frozen?
+
+backup:
+  git_ref: codex/baseline-39.2813
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+
+architecture:
+  generator: qwen3:8b
+  generator_id: 500a1f067a9f
+  full_corpus: 100_records
+  experts:
+    clinical: [CHẨN_ĐOÁN, TRIỆU_CHỨNG]
+    laboratory: [TÊN_XÉT_NGHIỆM, KẾT_QUẢ_XÉT_NGHIỆM]
+    medication_patient: [THUỐC, THÔNG_TIN_BỆNH_NHÂN]
+  runtime_amendment_2026_08_03:
+    reason: >
+      The first record required about five minutes and two of three responses
+      were truncated invalid JSON. This is a structural/runtime failure, not a
+      quality result; no merged output or submission was produced.
+    replacement: >
+      One unified six-type extractor over deterministic 1000-character windows
+      with 120-character overlap. The initial 1600/180 setting still truncated
+      one of the first seven observed chunks and was replaced before any merge.
+      It returns only short quote/type pairs; raw
+      offsets, assertions and candidates remain deterministic downstream.
+    assertion_policy: frozen_rule_engine_only
+    context_runtime: >
+      Reduced from 4096 to 2048 after 30 valid 1000-character chunks; the
+      largest minified response was 1194 characters and no quality statistic
+      or fusion census had been observed.
+    frozen_before_rerun: true
+  extraction:
+    - exact_verbatim_quote_required
+    - returned_or_uniquely_recovered_offsets_must_round_trip
+    - no_candidate_generation_by_llm
+    - deterministic_temperature_zero
+  independent_support:
+    sources: [bami_family, vietmed, h34_oof]
+    acceptance: exact_span_type_agreement_between_qwen_expert_and_one_independent_source
+    bami_v15_and_bami_v3_count_as_one_family: true
+
+integration:
+  baseline: H38
+  allowed_relations: [disjoint, contained_same_type]
+  forbidden_relations: [cross_type, partial_same_type, contains_same_type]
+  contained_same_type: reject_in_amended_run
+  disjoint_non_candidate_type: add_with_conservative_assertions
+  disjoint_candidate_type: add_only_with_one_unanimous_exact_H38_alias_tuple
+  candidate_policy: frozen_H38_no_parent_expansion_no_new_codes
+  new_assertion_policy: retain_only_when_qwen_and_frozen_rule_engine_agree
+
+gates:
+  - baseline_hash_matches
+  - all_deterministic_chunk_calls_complete_or_fail_closed_per_record
+  - every_selected_row_has_qwen_plus_independent_exact_support
+  - registered_hazards_and_numeric_temperature_symptoms_are_excluded
+  - positive_control_retention_at_least_0.90
+  - at_least_150_semantic_rows_change
+  - candidate_count_increase_at_most_75
+  - zero_new_candidate_codes_outside_H38_exact_alias_tuples
+  - zero_cross_type_or_partial_overlap_changes
+  - all_100_records_validate
+  - repeated_merge_and_zip_are_byte_identical
+
+failure_policy: >
+  Do not lower the independent-support rule, add unsupported candidates, tune
+  prompts after seeing the census, or optimize ZIP bytes. If fewer than 150
+  rows pass, keep the proposal bank for future training but create no submission.

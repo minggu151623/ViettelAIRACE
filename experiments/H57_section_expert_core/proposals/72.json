@@ -1,0 +1,201 @@
+{
+  "record": 72,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "29bd079ee4901e451049be12e8400916b8cc6c2f3bb8040695346d7cb9fcba46",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Rối loạn cảm xúc",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        581,
+        597
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Rối loạn lưỡng cực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        605,
+        623
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "clonidine",
+      "type": "THUỐC",
+      "position": [
+        754,
+        763
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "clonidine",
+      "type": "THUỐC",
+      "position": [
+        784,
+        793
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suboxone",
+      "type": "THUỐC",
+      "position": [
+        821,
+        829
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dừng thuốc trước nhập viện 01 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        879,
+        913
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ý định tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1046,
+        1058
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "trầm cảm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1112,
+        1120
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hưng cảm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1177,
+        1185
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng hoạt động",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1202,
+        1216
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm nhu cầu ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1220,
+        1236
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ý định tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1272,
+        1284
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không dùng đều đặn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1300,
+        1318
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suboxone",
+      "type": "THUỐC",
+      "position": [
+        1343,
+        1351
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suboxone",
+      "type": "THUỐC",
+      "position": [
+        1386,
+        1394
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ý nghĩ tự tử",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1443,
+        1455
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lo âu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1486,
+        1491
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hoảng sợ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1492,
+        1500
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hoang tưởng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1507,
+        1518
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

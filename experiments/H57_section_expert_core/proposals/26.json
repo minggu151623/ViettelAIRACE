@@ -1,0 +1,301 @@
+{
+  "record": 26,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "000d59909d4a847bcaa971db8fe287c18edb8d5d54477a6a96b68192b138b4a1",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Bệnh mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        52,
+        66
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        76,
+        90
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xơ vữa động mạch",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        208,
+        224
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau thắt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        288,
+        301
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "LDL-cholesterol tăng",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        425,
+        445
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mảng xơ vữa",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        478,
+        489
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hẹp lòng mạch",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        514,
+        527
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mảng xơ vữa",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        538,
+        549
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết khối",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        552,
+        562
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tắc mạch cấp",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        565,
+        577
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ít vận động",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        783,
+        794
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1428,
+        1436
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm tụy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1517,
+        1525
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rung nhĩ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1561,
+        1569
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1576,
+        1636
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1711,
+        1771
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "u ác của tuyến tiền liệt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1746,
+        1770
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "eliquis",
+      "type": "THUỐC",
+      "position": [
+        1813,
+        1820
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rung nhĩ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1826,
+        1834
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rung nhĩ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1826,
+        1834
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1883,
+        1886
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1890,
+        1898
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1951,
+        1959
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng trên",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1951,
+        1964
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2015,
+        2018
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt nhẹ đến 38.3°C",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2015,
+        2033
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2043,
+        2059
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "LDL < 1,8 mmol/L (hoặc <70 mg/dL)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2296,
+        2329
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2353,
+        2361
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

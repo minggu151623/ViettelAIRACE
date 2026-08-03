@@ -1,0 +1,161 @@
+{
+  "record": 96,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "85c46f08b7d0cafe0b6352780a94603337c4c71a3ff6064a0570acebc6c20193",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "chụp cắt lớp vi tính (ct)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        57,
+        82
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tắc hẹp 80% động mạch thận trái L",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        107,
+        140
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp cắt lớp vi tính (ct)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        201,
+        226
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tắc hẹp 80% động mạch thận trái L",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        236,
+        269
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xăm môi",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        772,
+        779
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lên màu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        785,
+        792
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lên màu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        853,
+        860
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lên màu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        907,
+        914
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sắc tố da",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        937,
+        946
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kỹ thuật của người thao tác phun xăm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        964,
+        1000
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lên màu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1049,
+        1056
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khẩu trang",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1115,
+        1125
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bụi bẩn",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1171,
+        1178
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "va chạm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1204,
+        1211
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cọ xát",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1213,
+        1219
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

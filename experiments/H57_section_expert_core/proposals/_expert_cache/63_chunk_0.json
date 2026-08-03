@@ -1,0 +1,50 @@
+{
+  "record": 63,
+  "chunk": 0,
+  "window": [
+    0,
+    969
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4569b046a28ab48ef8714c8c0385cae6dbf307f4d83937032e51fac8aafc16f3",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh bạch cầu dòng tủy mãn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng cholesterol máu đơn thuần",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "B-histamin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ngừng uống cách nhập viện 5 ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ảo giác",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nhiễm khuẩn đường tiết niệu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "gleevec",
+        "t": "THUỐC"
+      },
+      {
+        "q": "allopurinol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Thuốc giảm đau",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

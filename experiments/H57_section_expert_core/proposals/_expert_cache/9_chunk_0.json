@@ -1,0 +1,34 @@
+{
+  "record": 9,
+  "chunk": 0,
+  "window": [
+    0,
+    904
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9fd9ca5d22f1b98ae12019550592c73ad353300b874db3b9101ae16769554e5e",
+  "response": {
+    "entities": [
+      {
+        "q": "đau bao tử",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ổ loét trong bao tử",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tinh bột nghệ tách tinh dầu",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tăng 10kg",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hạn chế ăn tinh bột",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

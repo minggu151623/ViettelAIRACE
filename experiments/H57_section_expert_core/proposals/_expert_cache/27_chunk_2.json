@@ -1,0 +1,38 @@
+{
+  "record": 27,
+  "chunk": 2,
+  "window": [
+    1544,
+    2334
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "02549ca9392af1bdd3d4c7cfa78c0576ed79c677f74eebc147b06ee62c9a05ba",
+  "response": {
+    "entities": [
+      {
+        "q": "nhìn mờ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau đầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phù gai thị",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng nhãn áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nang chứa khí hay dịch nhỏ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "áp-xe phổi",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "record": 49,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "728630aa5a0b65d8cbd1dd10a697096ab7ee6bc85b27b330e015738da072f2a8",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "rụng tóc từng mảng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        35,
+        53
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tràn dịch màng phổi trái tái phát",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        214,
+        247
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        286,
+        293
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tràn dịch màng ngoài tim",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        326,
+        350
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ung thư di căn theo đường bạch huyết ở hai phổi",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        397,
+        444
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dẫn lưu dịch màng tim",
+      "type": "THUỐC",
+      "position": [
+        474,
+        495
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Liệu pháp **************",
+      "type": "THUỐC",
+      "position": [
+        559,
+        583
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kem ***************************",
+      "type": "THUỐC",
+      "position": [
+        824,
+        855
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "************************************",
+      "type": "THUỐC",
+      "position": [
+        878,
+        914
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rụng tóc toàn bộ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        948,
+        964
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rụng tóc toàn thể",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        970,
+        987
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "diphenylcyclopropenone (diphencyprone)",
+      "type": "THUỐC",
+      "position": [
+        1284,
+        1322
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dinitrochlorobenzene",
+      "type": "THUỐC",
+      "position": [
+        1326,
+        1346
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PUVA",
+      "type": "THUỐC",
+      "position": [
+        1592,
+        1596
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "UVA",
+      "type": "THUỐC",
+      "position": [
+        1593,
+        1596
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "psoralen",
+      "type": "THUỐC",
+      "position": [
+        1598,
+        1606
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "UVA",
+      "type": "THUỐC",
+      "position": [
+        1615,
+        1618
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PUVA",
+      "type": "THUỐC",
+      "position": [
+        1620,
+        1624
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PUVA toàn thân và tại chỗ",
+      "type": "THUỐC",
+      "position": [
+        1620,
+        1645
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "UVA",
+      "type": "THUỐC",
+      "position": [
+        1621,
+        1624
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị nhiều bệnh nhân tái phát sau khi ngừng điều trị",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1678,
+        1734
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

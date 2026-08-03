@@ -1,0 +1,90 @@
+{
+  "record": 24,
+  "chunk": 0,
+  "window": [
+    0,
+    946
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "faf1f545df44ce4fa3e1d0246ca4737caff62cdf003a53784dcc2190425caa11",
+  "response": {
+    "entities": [
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vàng da",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vàng mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sốt nhẹ (37^∘ 8)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sốt nóng liên tục có gai rét",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mệt mỏi nhiều chỉ muốn nằm nghỉ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "HBsAg (+)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Anti HBe (-)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Anti HBc IgG (-)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Anti HBc IgM (+)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "BC 5,38 G/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "N 51,4%",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nước tiểu ít hơn so với bình thường",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vàng sậm như nước vối",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vàng da giảm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nước tiểu trong",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "số lượng đã nhiều hơn so với lúc vào viện",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hội chứng nhiễm trùng nhiễm độc",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hội chứng viêm gan vàng da ứ mật",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

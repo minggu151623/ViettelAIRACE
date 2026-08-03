@@ -1,0 +1,38 @@
+{
+  "record": 5,
+  "chunk": 0,
+  "window": [
+    0,
+    964
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7a667055c65a5f2ff1b0e008c8c5c31da88e72e0d6565b918f8d77049f3bef0e",
+  "response": {
+    "entities": [
+      {
+        "q": "ung thư biểu mô tế bào mật không thể cắt bỏ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "siêu âm",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp tử cung vòi trứng",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "xét nghiệm nội tiết",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tinh dịch đồ",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "kinh nguyệt thưa",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "record": 49,
+  "chunk": 0,
+  "window": [
+    0,
+    940
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "728630aa5a0b65d8cbd1dd10a697096ab7ee6bc85b27b330e015738da072f2a8",
+  "response": {
+    "entities": [
+      {
+        "q": "rụng tóc từng mảng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ung thư vú di căn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tràn dịch màng phổi trái tái phát",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tràn dịch màng ngoài tim",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ung thư di căn theo đường bạch huyết ở hai phổi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "dẫn lưu dịch màng tim",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Liệu pháp **************",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tiêm ************** nội thương tổn",
+        "t": "THUỐC"
+      },
+      {
+        "q": "kem ***************************",
+        "t": "THUỐC"
+      },
+      {
+        "q": "************************************",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

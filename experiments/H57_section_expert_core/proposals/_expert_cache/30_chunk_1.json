@@ -1,0 +1,62 @@
+{
+  "record": 30,
+  "chunk": 1,
+  "window": [
+    861,
+    1787
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "25f354ce83e63135fe6a95ad272c1cef866ed5659ee56ef9ddb970445d26f9c0",
+  "response": {
+    "entities": [
+      {
+        "q": "MÀY đay VÔ CĂN",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "MÀY đay MẠN",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tế bào một nhân",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bạch huyết T",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đại thực bào",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "kính hiển thị vi quang học",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "kính hiển thị vi điện tử",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tế bào cột sống",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "dịch sinh học",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bệnh lý mày đay vô căn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh mạn tính",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "điều trị phụ thuộc vào mức độ nghiêm trọng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

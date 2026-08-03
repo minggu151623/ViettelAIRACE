@@ -1,0 +1,118 @@
+{
+  "record": 87,
+  "chunk": 0,
+  "window": [
+    0,
+    985
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "5d3f351e7cee4cb131f4b2c2987487ff59e715f08ce1e2be0b246e14a3ca6fb7",
+  "response": {
+    "entities": [
+      {
+        "q": "đau ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau ngực T âm ỉ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau không lan",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau tăng khi gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau ngực tăng lên",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Tim nhịp đều",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Phổi RRPN thô",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Da niêm mạc hồng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Không phù, không xuất huyết",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Bụng mềm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Tiểu được",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "HA: 110/ 70 mmHg",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "M: 70 l/p",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Thời gian prothrombin (PT: Prothrombin Time)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng Troponin Ths",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Đo hoạt độ AST (GOT)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Đo hoạt độ ALT (GPT)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng Creatinin (máy)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Điện giải đồ (Na, K, Cl)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng Glucose",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Định lượng NT - proBNP (ProBNP)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Tổng phân tích tế bào máu ngoại vi (bằng máy đếm laser)",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Siêu âm Doppler tim, van tim",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Ghi điện tim cấp cứu tại giường",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Cơn đau thắt ngực không ổn định-bệnh tăng HA vô căn(nguyên phát)",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

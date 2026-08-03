@@ -1,0 +1,58 @@
+{
+  "record": 19,
+  "chunk": 0,
+  "window": [
+    0,
+    970
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "6b62c491ad772b7bc23bdcbf20b03a815be2e9d8de81289cf9036861b562de77",
+  "response": {
+    "entities": [
+      {
+        "q": "nổi các dấu mề đay rất to và ngứa khắp người",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dấu mề đay nổi rất khó chịu và ngứa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bị nổi quanh năm luôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dấu mề đay nổi lên mọi lúc",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "di truyền",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đau bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "táo bón",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau hố chậu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tylenol",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

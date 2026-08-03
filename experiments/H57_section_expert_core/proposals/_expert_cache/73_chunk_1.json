@@ -1,0 +1,62 @@
+{
+  "record": 73,
+  "chunk": 1,
+  "window": [
+    783,
+    1609
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0f6d66b6075f2ad8a8c9b8cefe70f5d71f403dec1a833d8cc51bec8f9fcf8695",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh amyloidosis di truyền hoặc gia đình",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh thoái hóa tinh bột",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nôn x 1",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sốt và run rẩy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất cảm giác ngon miệng/chán ăn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suy nhược",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "toàn trạng suy kiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thiểu niệu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chảy dịch từ lỗ dò tăng đáng kể",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ăn uống kém do buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tác dụng phụ của thuốc giảm đau opioid",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ngừng thuốc giảm đau opioid",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

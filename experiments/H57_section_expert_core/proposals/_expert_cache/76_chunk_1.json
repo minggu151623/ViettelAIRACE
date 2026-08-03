@@ -1,0 +1,50 @@
+{
+  "record": 76,
+  "chunk": 1,
+  "window": [
+    836,
+    1582
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "26512799727a277ffa3547ebaf7b3fe6ab80c8fbfbc5d5a4fa30e0664a860647",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh lý mày đay vô căn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "điều trị phụ thuộc vào mức độ nghiêm trọng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hiệu quả kiểm soát triệu chứng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "những tác hại gây độc của liệu pháp điều trị",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "xenical",
+        "t": "THUỐC"
+      },
+      {
+        "q": "cách ngày hoặc hàng ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bác sĩ chuyên khoa da liễu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

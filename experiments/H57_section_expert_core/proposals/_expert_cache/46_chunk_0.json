@@ -1,0 +1,70 @@
+{
+  "record": 46,
+  "chunk": 0,
+  "window": [
+    0,
+    949
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "64fa944e17f07e73e839db34763cea540eed5ea1bf0adddc7fd929886826a6e6",
+  "response": {
+    "entities": [
+      {
+        "q": "khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "stent mạch vành",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "suy tim",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "HoHL",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "NYHA III-IV",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phù phổi cấp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "khó thở vừa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Lactat: 0.8",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "HCO3: 32.09",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "PO2: 97.0",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "PCO2: 39",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "pH: 7.517",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Phình thành sau và thành bên thất trái",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

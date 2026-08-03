@@ -1,0 +1,42 @@
+{
+  "record": 87,
+  "chunk": 1,
+  "window": [
+    865,
+    1465
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "5d3f351e7cee4cb131f4b2c2987487ff59e715f08ce1e2be0b246e14a3ca6fb7",
+  "response": {
+    "entities": [
+      {
+        "q": "Cơn đau thắt ngực không ổn định-bệnh tăng HA vô căn(nguyên phát)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng HA vô căn(nguyên phát)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sau cân sau phẫu thuật",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiều lần cố gắng giảm cân và tăng cân trở lại",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiều lần thực hiện chế độ ăn kiêng có giám sát với mức giảm cân tối đa 60 pound nhưng sau đó có tăng cân trở lại",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Ngày uống 1 viên buổi sáng sau ăn",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Ngày uống 2 viên buổi tối",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

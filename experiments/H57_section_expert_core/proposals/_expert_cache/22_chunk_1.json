@@ -1,0 +1,46 @@
+{
+  "record": 22,
+  "chunk": 1,
+  "window": [
+    822,
+    1817
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "3ed9032c5d18646fd03c12706bb70a4afaa040751f686f106b637ff73242dbe4",
+  "response": {
+    "entities": [
+      {
+        "q": "ệt mỏi toàn thân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "yếu sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở khi gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ngứa toàn thân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tiểu ra máu không đau",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tự điều trị bằng liều cao acetaminophen 500mg",
+        "t": "THUỐC"
+      },
+      {
+        "q": "uống 2 chai thuốc an thần trong quá khứ",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

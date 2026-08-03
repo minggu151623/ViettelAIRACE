@@ -1,0 +1,201 @@
+{
+  "record": 82,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "1504418318672c1f2b2d52012498508cfbe7fd53e7a4b7b4ee54788144422f0a",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "đau đầu gối",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        77,
+        88
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau vùng hạ sườn phải",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        206,
+        227
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau vùng hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        206,
+        227
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau vùng hạ sườn phải",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        315,
+        336
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau vùng hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        315,
+        336
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chướng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        342,
+        353
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn thoáng qua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        357,
+        376
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau lưng kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        442,
+        458
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chướng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        632,
+        643
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn thoáng qua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        676,
+        695
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau lưng kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        743,
+        759
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        871,
+        879
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng vùng hạ sườn phải",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        871,
+        897
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng vùng hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        871,
+        897
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm dạ dày",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1196,
+        1207
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sỏi đoạn cuối ống mật chủ",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1233,
+        1258
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lấy thành công 02 viên sỏi tại đoạn cuối ống mật chủ (CBD)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1345,
+        1403
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cộng hưởng từ mật tụy",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1416,
+        1437
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sỏi ống dẫn mật chung đoạn cuối",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1470,
+        1501
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

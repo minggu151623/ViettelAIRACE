@@ -1,0 +1,91 @@
+{
+  "record": 83,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7f0de539a4cbd833ef08f64bcbc758d9c57d50af16958cb502505e2652f7dba5",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "nhiều lần cố gắng giảm cân và tăng cân trở lại",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        6,
+        52
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        884,
+        897
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cân bằng giữa hiệu quả kiểm soát triệu chứng và những tác hại gây độc của liệu pháp điều trị",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1049,
+        1141
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hệ sau không gây buồn ngủ",
+      "type": "THUỐC",
+      "position": [
+        1166,
+        1191
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đơn hàng đầu sau đó đến",
+      "type": "THUỐC",
+      "position": [
+        1195,
+        1218
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hệ 1",
+      "type": "THUỐC",
+      "position": [
+        1242,
+        1246
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bậc thấp cách ngày hoặc hàng ngày và giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+      "type": "THUỐC",
+      "position": [
+        1258,
+        1331
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phương pháp điều trị tốt nhất",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1429,
+        1458
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "record": 21,
+  "chunk": 1,
+  "window": [
+    862,
+    1750
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d189308e501d6dc08c9144708fadbcd4975103fea932399bb6dc1b3b9293821d",
+  "response": {
+    "entities": [
+      {
+        "q": "amyloidosis",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh thoái hóa tinh bột",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau bụng vùng hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chướng bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn thoáng qua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn mửa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau lưng âm ỉ",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

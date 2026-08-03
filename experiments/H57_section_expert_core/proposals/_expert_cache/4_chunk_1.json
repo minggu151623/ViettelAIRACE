@@ -1,0 +1,54 @@
+{
+  "record": 4,
+  "chunk": 1,
+  "window": [
+    764,
+    1737
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "8a55ce0b9d87a7bcf516a9460e10460820239e092723b651cf17e6a5d6829928",
+  "response": {
+    "entities": [
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tiêu chảy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm dạ dày ruột do virus",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "khó khăn khi ăn uống qua đường miệng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn ra máu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "loét tá tràng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "cryptosporidium",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "test hơi thở h. pylori",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "omeprazole",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

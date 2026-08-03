@@ -1,0 +1,161 @@
+{
+  "record": 65,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0354103c95fd98aa7f38412290e5eef9fdf163a282662ab84766a23f68225f78",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "rụng tóc từng mảng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        35,
+        53
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rụng tóc toàn bộ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        713,
+        729
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rụng tóc toàn thể",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        735,
+        752
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu máu cơ tim cục bộ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        998,
+        1021
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "biểu hiện ST chênh xuống",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1023,
+        1047
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "diphenylcyclopropenone (diphencyprone)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1116,
+        1154
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dinitrochlorobenzene",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1158,
+        1178
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm da tiếp xúc",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1221,
+        1237
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm da tiếp xúc dị ứng",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1221,
+        1244
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm da tiếp xúc",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1349,
+        1365
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mày đay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1367,
+        1374
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bạch biến",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1402,
+        1411
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PUVA",
+      "type": "THUỐC",
+      "position": [
+        1424,
+        1428
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "psoralen kết hợp UVA",
+      "type": "THUỐC",
+      "position": [
+        1430,
+        1450
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PUVA",
+      "type": "THUỐC",
+      "position": [
+        1452,
+        1456
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

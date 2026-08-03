@@ -1,0 +1,26 @@
+{
+  "record": 49,
+  "chunk": 2,
+  "window": [
+    1616,
+    1857
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "728630aa5a0b65d8cbd1dd10a697096ab7ee6bc85b27b330e015738da072f2a8",
+  "response": {
+    "entities": [
+      {
+        "q": "PUVA toàn thân và tại chỗ",
+        "t": "THUỐC"
+      },
+      {
+        "q": "PUVA",
+        "t": "THUỐC"
+      },
+      {
+        "q": "điều trị nhiều bệnh nhân tái phát sau khi ngừng điều trị",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

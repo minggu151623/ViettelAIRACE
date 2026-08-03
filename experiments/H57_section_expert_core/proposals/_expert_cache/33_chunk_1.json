@@ -1,0 +1,62 @@
+{
+  "record": 33,
+  "chunk": 1,
+  "window": [
+    876,
+    1873
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "575636241f0244b9740349d5d9fb407861966653abc3cd6360955f0a165282d4",
+  "response": {
+    "entities": [
+      {
+        "q": "đau ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lan xuống cánh tay trái",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "kèm theo tê bì ở cánh tay trái trên",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau ở cánh tay trái dưới và bàn tay",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "shortness of breath",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau rát khi đi tiểu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Ăn uống: kém trong 3 ngày qua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Nôn mửa: từng đợt sau khi ăn trong 3 ngày qua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cơn ngất xỉu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

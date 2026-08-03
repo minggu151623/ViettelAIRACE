@@ -1,0 +1,66 @@
+{
+  "record": 39,
+  "chunk": 1,
+  "window": [
+    869,
+    1855
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "753060d7c2451d8bf065d152e3d12c4d1d43f5e154f58e246ec0f2f267e093d6",
+  "response": {
+    "entities": [
+      {
+        "q": "ó khăn khi ra khỏi giường vào sáng nay.",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đau bụng gián đoạn kể từ khi phẫu thuật",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạ huyết áp, không đặc hiệu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bệnh bàn chân bẹt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "khó thở khi gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ho mạn tính có đờm vàng loãng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ran",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phù phù",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dịch thanh dịch lẫn máu từ vết mổ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phân nâu dương tính guaiac",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "huyết khối 26.3",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp x-quang ngực có xẹp phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

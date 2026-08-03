@@ -1,0 +1,42 @@
+{
+  "record": 49,
+  "chunk": 1,
+  "window": [
+    820,
+    1736
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "728630aa5a0b65d8cbd1dd10a697096ab7ee6bc85b27b330e015738da072f2a8",
+  "response": {
+    "entities": [
+      {
+        "q": "rụng tóc toàn bộ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rụng tóc toàn thể",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "diphenylcyclopropenone (diphencyprone)",
+        "t": "THUỐC"
+      },
+      {
+        "q": "dinitrochlorobenzene",
+        "t": "THUỐC"
+      },
+      {
+        "q": "PUVA",
+        "t": "THUỐC"
+      },
+      {
+        "q": "psoralen",
+        "t": "THUỐC"
+      },
+      {
+        "q": "UVA",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

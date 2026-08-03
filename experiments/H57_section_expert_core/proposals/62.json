@@ -1,0 +1,321 @@
+{
+  "record": 62,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "983aa701d1287791845257a22cf886f6cf0c34b63d0d33382ef649cafe922d1c",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        133,
+        135
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        244,
+        246
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        353,
+        355
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nghẹt ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        362,
+        372
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở nhẹ-vừa khó thở khi gắng sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        379,
+        415
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        422,
+        429
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        436,
+        443
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt lên đến 101",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        450,
+        465
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        479,
+        481
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        485,
+        494
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đi tiểu nhiều lần vào ban đêm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        522,
+        551
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        614,
+        682
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        689,
+        691
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        689,
+        752
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiêu chảy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        794,
+        803
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiêu chảy đã tự khỏi vào buổi sáng hôm sau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        794,
+        836
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau ngực",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        852,
+        860
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn/nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        876,
+        888
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đổ mồ hôi đêm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        904,
+        917
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi nằm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        933,
+        948
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi nằm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        964,
+        979
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        964,
+        1019
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giãn phế quản",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1121,
+        1134
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "azithromycin",
+      "type": "THUỐC",
+      "position": [
+        1153,
+        1165
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tylenol",
+      "type": "THUỐC",
+      "position": [
+        1189,
+        1196
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mucinex d",
+      "type": "THUỐC",
+      "position": [
+        1200,
+        1209
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "spo2 là 90-92% spo2 khi thở khí trời",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1307,
+        1343
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "số lượng bạch cầu là 12.5",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1478,
+        1503
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết protein niệu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1556,
+        1572
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "troponin âm tính x1",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1582,
+        1601
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm phổi thùy dưới phải (RLL PNA)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1664,
+        1698
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

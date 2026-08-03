@@ -1,0 +1,58 @@
+{
+  "record": 8,
+  "chunk": 2,
+  "window": [
+    1666,
+    2658
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d6dae34ac1a987e170a44c3f0de23fd1c8a344eca8c89d825a91269dd14b639b",
+  "response": {
+    "entities": [
+      {
+        "q": "chọc dò dịch não tủy",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chọc dò dịch não tủy là âm tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp ct sọ",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "phát hiện bệnh lý chất trắng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sưng hạch cổ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Kawasaki",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "biến chứng tim mạch",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phình giãn động mạch vành",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hẹp – tắc động mạch vành",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "thiếu máu cơ tim",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nhồi máu cơ tim",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

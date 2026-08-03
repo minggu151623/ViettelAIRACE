@@ -1,0 +1,54 @@
+{
+  "record": 9,
+  "chunk": 1,
+  "window": [
+    784,
+    1645
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9fd9ca5d22f1b98ae12019550592c73ad353300b874db3b9101ae16769554e5e",
+  "response": {
+    "entities": [
+      {
+        "q": "tăng 10kg",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ăn tinh bột",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đau bụng râm ran",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cơn đau càng dồn đạp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau đến mức chỉ biết ôm bụng mà không thể nhúc nhích được chân tay",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hàng ngàn sợi chỉ đang thắt ruột gan",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "siêu âm",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "sỏi thận",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "viêm bao tử",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đang có thai",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "record": 57,
+  "chunk": 0,
+  "window": [
+    0,
+    977
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "e72396c2571c6d0b4a1b5e3b5b8384b2a98476d15d70c3db8f299a06e22e7251",
+  "response": {
+    "entities": [
+      {
+        "q": "Tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Biến chứng bệnh lý thần kinh ngoại biên",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Suy tim không do thiếu máu cơ tim",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh thận mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Torsemide",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Insulin glargine",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Isosorbide",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Rosuvastatin (Crestor)",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Carvedilol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Tăng kali máu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Creatinine tăng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Ngã",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

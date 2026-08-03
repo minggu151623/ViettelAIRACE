@@ -1,0 +1,34 @@
+{
+  "record": 48,
+  "chunk": 1,
+  "window": [
+    802,
+    1772
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "ad271c475bb937fcdd1eaaae5e56732832990482c5d508d9b3d45c647e49f951",
+  "response": {
+    "entities": [
+      {
+        "q": "dị tật thiểu sản vành tai",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tịt ống tai ngoài bẩm sinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đánh giá tại bệnh viện",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đo thính lực",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bệnh viện lớn có chuyên khoa Tai mũi họng nhi",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

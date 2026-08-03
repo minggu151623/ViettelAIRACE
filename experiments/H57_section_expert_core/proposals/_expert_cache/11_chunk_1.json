@@ -1,0 +1,54 @@
+{
+  "record": 11,
+  "chunk": 1,
+  "window": [
+    815,
+    1753
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "b7260f93164e8f57fcf9cfad78540027133b9671ffcd9657a696b093d7f50f8b",
+  "response": {
+    "entities": [
+      {
+        "q": "đau đầu vùng thái dương phải và đỉnh đầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cảm giác tê bì nửa mặt phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tê bì vùng trán phải và da đầu phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất định hướng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đi lại không vững",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ngất",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "không đáp ứng được các câu hỏi của người nhà",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "kích thích nhẹ, liên tục cố gắng đứng dậy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dao động kéo dài khoảng 20 phút",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cải thiện dần",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

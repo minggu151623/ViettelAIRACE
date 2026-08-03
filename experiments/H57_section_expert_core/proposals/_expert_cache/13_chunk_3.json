@@ -1,0 +1,30 @@
+{
+  "record": 13,
+  "chunk": 3,
+  "window": [
+    2282,
+    2729
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9b6acee1d257287d253466af1d9a0728563015db006c6a6aa2c286523c8a54b7",
+  "response": {
+    "entities": [
+      {
+        "q": "vết thương ở đầu và cổ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vết thương ở các khu vực đầu mút thần kinh như ngón tay",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thời gian ủ bệnh ngắn hơn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vi rút xâm nhập vào mô thần kinh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

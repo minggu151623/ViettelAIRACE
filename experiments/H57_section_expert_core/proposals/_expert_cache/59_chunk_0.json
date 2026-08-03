@@ -1,0 +1,62 @@
+{
+  "record": 59,
+  "chunk": 0,
+  "window": [
+    0,
+    972
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "fbfb4e6f8fc173bf27f0d10e7858bfff8aee86bc913141ae4bcda4d9e7d17f33",
+  "response": {
+    "entities": [
+      {
+        "q": "mụn trứng cá",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mụn cám",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mụn đầu trắng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "da dầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhiễm khuẩn đường tiết niệu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "vi khuẩn hỗn hợp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "lactate 1.1-->0.8",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "cấy nước tiểu",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "cấy máu",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chẩn đoán hình ảnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "MRI",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "viêm xương tủy",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

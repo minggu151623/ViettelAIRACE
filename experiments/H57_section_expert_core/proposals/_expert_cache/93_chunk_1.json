@@ -1,0 +1,30 @@
+{
+  "record": 93,
+  "chunk": 1,
+  "window": [
+    842,
+    1396
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "85ff8b56a2e1c13894e6ec088bb6633452a1cea03ea654f2553b31d314a7bfc5",
+  "response": {
+    "entities": [
+      {
+        "q": "huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "kết quả chẩn đoán hình ảnh",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp ct",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "đại tràng giãn",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

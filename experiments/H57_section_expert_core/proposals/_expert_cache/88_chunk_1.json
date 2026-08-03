@@ -1,0 +1,46 @@
+{
+  "record": 88,
+  "chunk": 1,
+  "window": [
+    831,
+    1450
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "42c1eb0503f6de95bf2a9390a01264ea0c08124f21e21f39440a90b63074f90e",
+  "response": {
+    "entities": [
+      {
+        "q": "mồ hôi nhiều hơn trẻ khác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thiếu một số vi chất",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "calcium, sắt, kẽm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "mắc một bệnh tiềm ẩn chưa được phát hiện",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đăng ký khám bs nhi khoa",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ba stent mật kim loại đã được đặt",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ổ dịch sau phẫu thuật",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm kích thước so với lần chụp chẩn đoán hình ảnh trước",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

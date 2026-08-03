@@ -1,0 +1,70 @@
+{
+  "record": 72,
+  "chunk": 1,
+  "window": [
+    827,
+    1618
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "29bd079ee4901e451049be12e8400916b8cc6c2f3bb8040695346d7cb9fcba46",
+  "response": {
+    "entities": [
+      {
+        "q": "trầm cảm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hưng cảm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tăng hoạt động",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm nhu cầu ngủ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ý nghĩ tự tử",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ý định tự tử",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "lo âu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hoảng sợ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hoang tưởng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suboxone",
+        "t": "THUỐC"
+      },
+      {
+        "q": "lạm dụng chất kích thích",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "lạm dụng chất gây nghiện opioid",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không dùng đều đặn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "dừng thuốc trước nhập viện 01 ngày",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

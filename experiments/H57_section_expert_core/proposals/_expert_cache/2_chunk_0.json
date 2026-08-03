@@ -1,0 +1,74 @@
+{
+  "record": 2,
+  "chunk": 0,
+  "window": [
+    0,
+    993
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "745fdb5057a85b6c8ce4486c01d93c0c614fd87a74ef4a144b61ae2aecd74d32",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh Kawasaki",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sốt cấp kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phát ban toàn thân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm lan tỏa hệ mạch máu nhỏ và vừa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm tim",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phình giãn động mạch vành",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đột tử",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhồi máu cơ tim",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hẹp tắc mạch vành",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suy tim",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm mạch máu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "động mạch vành",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiễm khuẩn",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nhiễm virus",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "độc tố vi khuẩn",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "record": 83,
+  "chunk": 1,
+  "window": [
+    851,
+    1485
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7f0de539a4cbd833ef08f64bcbc758d9c57d50af16958cb502505e2652f7dba5",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "điều trị phụ thuộc vào mức độ nghiêm trọng và nền tảng có liên kết",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "cân bằng giữa hiệu quả kiểm soát triệu chứng và những tác hại gây độc của liệu pháp điều trị",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đơn hàng đầu sau đó đến",
+        "t": "THUỐC"
+      },
+      {
+        "q": "hệ sau không gây buồn ngủ",
+        "t": "THUỐC"
+      },
+      {
+        "q": "hệ 1",
+        "t": "THUỐC"
+      },
+      {
+        "q": "bậc thấp cách ngày hoặc hàng ngày và giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+        "t": "THUỐC"
+      },
+      {
+        "q": "phương pháp điều trị tốt nhất",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

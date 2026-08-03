@@ -1,0 +1,94 @@
+{
+  "record": 99,
+  "chunk": 0,
+  "window": [
+    0,
+    977
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4cb5c80e8de68815e5112a72742cbffa506d6bbcf38d99e5d382e0bb600f2dc0",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm tủy xương",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bàng quang thần kinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "biến chứng liệt hai chi dưới",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "biến đổi ý thức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạ thân nhiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạ huyết áp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở khi nằm đầu bằng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "SpO2 99% thở khí 2L/ph",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tim nhịp không đều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tần số 105 chu kỳ/phút",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "T1, T2 rõ",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "huyết áp 110/70 mmHg",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "phổi rì rào phế nang giảm",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bụng mềm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "gan lách không sờ thấy",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Đợt cấp COPD",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tâm phế mạn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Cơn tim nhanh nhĩ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Nhiễm khuẩn đường tiêu hóa",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

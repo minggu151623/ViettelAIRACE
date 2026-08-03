@@ -1,0 +1,42 @@
+{
+  "record": 29,
+  "chunk": 1,
+  "window": [
+    820,
+    1775
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "81944b7d77d4e6ba164b720b0eae795dbe1c9203fb00710ae0f6e886b02d430c",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh bàn chân bẹt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hội chứng bàn chân bẹt bẩm sinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bàn chân bẹt bẩm sinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "lòng bàn chân phẳng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "gót chân lệch",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chạy, nhảy bình thường",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chân có hơi vòng kiềng",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

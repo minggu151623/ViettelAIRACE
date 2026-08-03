@@ -1,0 +1,30 @@
+{
+  "record": 44,
+  "chunk": 2,
+  "window": [
+    1661,
+    1933
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f6b179c57bcad09314b78463f99105a4d8acb4db3106c5ff6de7876af8de3662",
+  "response": {
+    "entities": [
+      {
+        "q": "hệ 1",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bậc thấp cách ngày hoặc hàng ngày",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "điều trị tốt nhất",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

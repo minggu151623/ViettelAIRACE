@@ -1,0 +1,50 @@
+{
+  "record": 23,
+  "chunk": 0,
+  "window": [
+    0,
+    1000
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9d3eefaca8030d772787ceacb6bce15033c783b06c638372b406bc8a7d43439b",
+  "response": {
+    "entities": [
+      {
+        "q": "sử dụng các chất kích thích như cà phê, chè, thuốc lá",
+        "t": "THUỐC"
+      },
+      {
+        "q": "sự thay đổi nội tiết tố trong chu kỳ kinh nguyệt",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thời kỳ mãn kinh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đổ mồ hôi đêm và bốc hỏa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất ngủ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rối loạn lo âu, trầm cảm, stress",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "phẫu thuật đặt cảng để điều trị chứng tăng nhãn áp",
+        "t": "THUỐC"
+      },
+      {
+        "q": "hệ thống dẫn lưu được chỉnh sửa/thay thế",
+        "t": "THUỐC"
+      },
+      {
+        "q": "chỉnh sửa/thay thế lại hệ thống dẫn lưu",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "record": 20,
+  "chunk": 2,
+  "window": [
+    1625,
+    2608
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "137b959c970ecc52f5dfc1ca9cfe201ebbfcc0f1dd4c8f36d291568794c39485",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh dại",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chó cắn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "dơi",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tiêm chủng",
+        "t": "THUỐC"
+      },
+      {
+        "q": "vết cắn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vi rút dại",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "trung tâm tiêm chủng",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

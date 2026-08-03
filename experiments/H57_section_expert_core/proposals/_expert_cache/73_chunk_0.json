@@ -1,0 +1,74 @@
+{
+  "record": 73,
+  "chunk": 0,
+  "window": [
+    0,
+    903
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0f6d66b6075f2ad8a8c9b8cefe70f5d71f403dec1a833d8cc51bec8f9fcf8695",
+  "response": {
+    "entities": [
+      {
+        "q": "Viêm loét đại tràng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh gan do rượu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phẫu thuật tạo hậu môn nhân tạo kiểu túi nối hồi tràng - hậu môn",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thuốc giảm đau opioid",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ăn uống kém do buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn x 1",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chủ quan sốt và run rẩy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất cảm giác ngon miệng/chán ăn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suy nhược",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Toàn trạng suy kiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 ml trong cùng khoảng thời gian",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Bệnh amyloidosis di truyền hoặc gia đình",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

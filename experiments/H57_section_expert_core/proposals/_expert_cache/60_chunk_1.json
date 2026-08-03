@@ -1,0 +1,26 @@
+{
+  "record": 60,
+  "chunk": 1,
+  "window": [
+    857,
+    1704
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "ca08a2cffd2c8759b4d54608880396907b58d3d43613b6781520b9d435b95416",
+  "response": {
+    "entities": [
+      {
+        "q": "INR dưới ngưỡng điều trị",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "INR 1.7",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chảy máu mũi",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

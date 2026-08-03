@@ -1,0 +1,46 @@
+{
+  "record": 46,
+  "chunk": 2,
+  "window": [
+    1690,
+    1906
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "64fa944e17f07e73e839db34763cea540eed5ea1bf0adddc7fd929886826a6e6",
+  "response": {
+    "entities": [
+      {
+        "q": "Ăn không ngon miệng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Ngứa da toàn thân nhiều",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất trí nhớ chi tiết",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở khi gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn và nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Cận lâm sàng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Viên",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Ngày uống 1 viên buổi tối",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

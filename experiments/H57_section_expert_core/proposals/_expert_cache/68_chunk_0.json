@@ -1,0 +1,86 @@
+{
+  "record": 68,
+  "chunk": 0,
+  "window": [
+    0,
+    992
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "6c7d86a6a76c1dadbb00135b3fae775150d040d18cd5a3138ce610e535b0111e",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh động mạch vành",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh lý thần kinh ngoại biên",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở tăng khi vận động gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đi lại khó khăn, cần dùng gậy hỗ trợ đi lại",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau hai bàn chân do bệnh lý thần kinh ngoại biên",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đo sức bền cơ tim bằng đồng vị phóng xạ",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "dị tật cố định vùng trước vách và vách dưới",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "giảm chức năng tâm thu thất trái nghiêm trọng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "rối loạn chức năng thất trái",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp động mạch vành",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bệnh ba thân động mạch vành nghiêm trọng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chụp động mạch vành can thiệp",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Augmentin (amoxicillin/acid clavulanic)",
+        "t": "THUỐC"
+      },
+      {
+        "q": "amoxicillin/acid clavulanic",
+        "t": "THUỐC"
+      },
+      {
+        "q": "500 mg/lần x 2 lần ngày",
+        "t": "THUỐC"
+      },
+      {
+        "q": "13 kg",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "29 tháng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

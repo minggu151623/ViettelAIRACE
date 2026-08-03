@@ -1,0 +1,401 @@
+{
+  "record": 17,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0541dd1ecb10ac809ed2529d51e0ca618eb68842cb5f446fd890bceec9e7ed19",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "chảy máu chân răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        74,
+        92
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mảng bám quanh răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        147,
+        166
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu chân răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        452,
+        470
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hôi miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        475,
+        484
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau khi nhai",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        780,
+        792
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "răng lung lay",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        794,
+        807
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sưng nướu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        809,
+        818
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dễ chảy máu răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        820,
+        836
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hôi miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        838,
+        847
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "có mủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        849,
+        854
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm khớp dạng thấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        945,
+        964
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm khớp dạng thấp",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        945,
+        964
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "các bệnh hô hấp",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        966,
+        981
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh hô hấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        970,
+        981
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đột quỵ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        983,
+        990
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đột quỵ",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        983,
+        990
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "loãng xương",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1044,
+        1055
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sâu răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1057,
+        1065
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm nha chu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1083,
+        1095
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu chân răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1110,
+        1128
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu chân răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1198,
+        1216
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiểu đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1238,
+        1248
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiểu đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1313,
+        1323
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hôi miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1536,
+        1545
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu chân răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1550,
+        1568
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc chống trầm cảm",
+      "type": "THUỐC",
+      "position": [
+        1609,
+        1629
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc lợi tiểu",
+      "type": "THUỐC",
+      "position": [
+        1631,
+        1645
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc kháng sinh",
+      "type": "THUỐC",
+      "position": [
+        1647,
+        1663
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc chống nôn",
+      "type": "THUỐC",
+      "position": [
+        1665,
+        1680
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "át triển quá mức khiến vi khuẩn xâm nhập, gây hôi miệng, chảy máu chân răng và mất răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1755,
+        1842
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hôi miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1801,
+        1810
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu chân răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1812,
+        1830
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mất răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1834,
+        1842
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh mạch máu ngoại biên",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1850,
+        1874
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh phổi tắc nghẽn mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1881,
+        1909
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ngưng thở khi ngủ do tắc nghẽn đang dùng BiPAP",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1916,
+        1962
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tiền sử phẫu thuật / thủ thuật",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2084,
+        2114
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu chân răng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2318,
+        2336
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hôi miệng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2340,
+        2349
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

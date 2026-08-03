@@ -1,0 +1,251 @@
+{
+  "record": 31,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "bbca0788b652d1841b328847ac70bdca96545a2d03d6e0ab606ceeec352dc68e",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "giãn thừng tinh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        240,
+        255
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị thuốc uống 5 tuần",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        280,
+        306
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau nhẹ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        341,
+        348
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm thấy nóng phần tinh hoàn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        350,
+        378
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đã ngừng dùng thuốc",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        380,
+        399
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vô sinh thứ phát",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        643,
+        659
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giãn thừng tinh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        873,
+        888
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng vùng hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        958,
+        984
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chướng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        991,
+        1002
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn thoáng qua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1010,
+        1029
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau lưng âm ỉ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1064,
+        1077
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chướng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1291,
+        1302
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chướng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1337,
+        1348
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn thoáng qua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1351,
+        1370
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1512,
+        1523
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngừng sử dụng thuốc NSAIDs",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1528,
+        1554
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "omeprazole",
+      "type": "THUỐC",
+      "position": [
+        1575,
+        1585
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sỏi đoạn cuối ống mật chủ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1624,
+        1649
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "men gan tăng",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1685,
+        1697
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng men gan",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1836,
+        1848
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1919,
+        1930
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sỏi đoạn cuối ống mật chủ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1956,
+        1981
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nội soi mật tụy ngược dòng (ERCP)",
+      "type": "THUỐC",
+      "position": [
+        2011,
+        2044
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sỏi ống dẫn mật chung đoạn cuối",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2193,
+        2224
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

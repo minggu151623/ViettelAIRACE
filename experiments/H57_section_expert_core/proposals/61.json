@@ -1,0 +1,191 @@
+{
+  "record": 61,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0897f80583542435d57dbe2f463ff6df329d15afed77ad3162862bac1a882886",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "mệt mỏi kéo dài",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        598,
+        613
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó khăn khi ra khỏi giường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        639,
+        666
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng gián đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        699,
+        717
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hạ huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        763,
+        774
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó khăn khi ra khỏi giường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        813,
+        840
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng gián đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        843,
+        861
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "au bụng gián đoạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        844,
+        861
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở khi gắng sức",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        864,
+        884
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho mạn tính có đờm vàng loãng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        887,
+        916
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chán ăn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        919,
+        926
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chán ăn trong vài tháng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        919,
+        942
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cấy que tránh thai",
+      "type": "THUỐC",
+      "position": [
+        1014,
+        1032
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tránh thai",
+      "type": "THUỐC",
+      "position": [
+        1022,
+        1032
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tránh thai",
+      "type": "THUỐC",
+      "position": [
+        1158,
+        1168
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tránh thai",
+      "type": "THUỐC",
+      "position": [
+        1471,
+        1481
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tránh thai",
+      "type": "THUỐC",
+      "position": [
+        1591,
+        1601
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rỉ máu âm đạo",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1653,
+        1666
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kinh nguyệt thưa",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1685,
+        1701
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

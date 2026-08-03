@@ -1,0 +1,441 @@
+{
+  "record": 6,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a59e081eda8a6c3bcb1f7ffcb8495f5a2e0785d066399135b310590f5bf40ab4",
+  "chunks_expected": 4,
+  "chunks_complete": 4,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Bệnh tim mạch do xơ vữa động mạch",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        21,
+        54
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        56,
+        68
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Rối loạn lipid máu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        69,
+        87
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đái tháo đường",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        89,
+        103
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Cơn rối loạn ý thức thoáng qua",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        132,
+        162
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xuất huyết dưới nhện",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        253,
+        273
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xuất huyết dưới nhện",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        317,
+        337
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        354,
+        409
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        419,
+        467
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nang màng nhện",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        484,
+        498
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tụ dịch/tụ máu dưới màng cứng mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        504,
+        542
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp CT theo dõi",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        553,
+        569
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổn thương mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        798,
+        817
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "các lần chụp CT kiểm tra không ghi nhận diễn tiến xấu",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        854,
+        907
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu vùng thái dương phải và đỉnh đầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1001,
+        1041
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cảm giác tê bì nửa mặt phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1047,
+        1074
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mất định hướng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1376,
+        1390
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đi lại không vững",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1392,
+        1409
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngất",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1421,
+        1425
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không đáp ứng được các câu hỏi của người nhà",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1493,
+        1537
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kích thích nhẹ, liên tục cố gắng đứng dậy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1596,
+        1637
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tình trạng ý thức dao động",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1683,
+        1709
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dao động kéo dài khoảng 20 phút",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1701,
+        1732
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cải thiện dần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1737,
+        1750
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đau đầu vùng thái dương phải, đỉnh đầu, đôi khi lan ra sau mắt phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2008,
+        2075
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tê bì vùng trán phải, da đầu phải và nửa mặt phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2077,
+        2126
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Cơn rối loạn ý thức thoáng qua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2128,
+        2158
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mất định hướng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2159,
+        2173
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mất thăng bằng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2175,
+        2189
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Gần ngất",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        2190,
+        2198
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Chụp cắt lớp vi tính (CT Scanner): Bụng - Tiểu khung thường quy",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2496,
+        2559
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "CT Scanner",
+      "type": "THUỐC",
+      "position": [
+        2518,
+        2528
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiêm thuốc cản quang",
+      "type": "THUỐC",
+      "position": [
+        2584,
+        2604
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Điện tâm đồ",
+      "type": "THUỐC",
+      "position": [
+        2655,
+        2666
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Xét nghiệm Máu Huyết học & Đông máu",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2792,
+        2827
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "WBC",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2828,
+        2831
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "NEUT%",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2844,
+        2849
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HGB (Hemoglobin)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2867,
+        2883
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "PT - INR",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2892,
+        2900
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "CT sọ não",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2921,
+        2930
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xuất huyết dưới nhện vùng trán phải",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2949,
+        2984
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nang màng nhện",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3100,
+        3114
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tụ máu dưới màng cứng mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        3120,
+        3150
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "record": 40,
+  "chunk": 2,
+  "window": [
+    1623,
+    1983
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "89f10b9618e79f21b9e1075e6fe870d83c2b123120f34d77dd8cbcfc8406fe34",
+  "response": {
+    "entities": [
+      {
+        "q": "CRP",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Creatinin",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Kali +",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Chụp CT Bụng - Tiểu khung",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Ceftriaxone 1g",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Truyền tĩnh mạch",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

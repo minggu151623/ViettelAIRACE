@@ -1,0 +1,70 @@
+{
+  "record": 50,
+  "chunk": 0,
+  "window": [
+    0,
+    920
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f754b0bed6d0e6f8b3ff599218245ee49e6794bb60434c9c4eaa638228209f96",
+  "response": {
+    "entities": [
+      {
+        "q": "não úng thuỷ khác từ thời kỳ sơ sinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau đầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mờ mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhập viện khoa Thần kinh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thông não so với chụp cắt lớp vi tính (ct) đầu",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "phẫu thuật đặt cảng",
+        "t": "THUỐC"
+      },
+      {
+        "q": "hệ thống dẫn lưu được chỉnh sửa/thay thế",
+        "t": "THUỐC"
+      },
+      {
+        "q": "đặt dẫn lưu shunt",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "não úng tuỷ từ thời kỳ sơ sinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng nhãn áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phù gai thị",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau đầu kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhìn mờ tiến triển",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "được bác sĩ nhãn khoa khám",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

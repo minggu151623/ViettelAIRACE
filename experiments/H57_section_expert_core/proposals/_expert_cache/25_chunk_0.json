@@ -1,0 +1,50 @@
+{
+  "record": 25,
+  "chunk": 0,
+  "window": [
+    0,
+    939
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d38c915cc7c961dd07e037e9608b481d43b1cc7b64ad6be8390145a085b13dd7",
+  "response": {
+    "entities": [
+      {
+        "q": "sd nhiều **********",
+        "t": "THUỐC"
+      },
+      {
+        "q": "********** loại 12h",
+        "t": "THUỐC"
+      },
+      {
+        "q": "đau bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "trễ kinh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tắc ống dẫn trứng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "teo niêm mạc tử cung",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "không rụng trứng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "vô sinh",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ung thư cổ tử cung",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

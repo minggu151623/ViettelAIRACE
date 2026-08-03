@@ -1,0 +1,74 @@
+{
+  "record": 69,
+  "chunk": 0,
+  "window": [
+    0,
+    966
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "82db94e3061b2eebf2835c3ac0f6dcb5ad8c7f5e5259390a899fd7b670c72992",
+  "response": {
+    "entities": [
+      {
+        "q": "trầm cảm",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "rối loạn lo âu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tổn thương chi dưới",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tự tử không thành",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "sốc",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "buồn chán",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "uống nhiều rượu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hút cần sa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhảy cầu tự tử",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tổn thương chi dưới nghiêm trọng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "phẫu thuật cắt cụt chân trái bên trên gối",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phẫu thuật cắt cụt chân phải bên dưới gối",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "biến chứng thuyên tắc phổi hai bên",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "kháng sinh tĩnh mạch",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

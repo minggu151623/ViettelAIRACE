@@ -1,0 +1,361 @@
+{
+  "record": 32,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "dc6fdc99d4c8d8e4980197e51e779db415a6379962ff26245db8594824ae67a4",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Rối loạn chuyển hóa tinh bột (amyloidosis)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        29,
+        71
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh thoái hóa tinh bột (hay bệnh amyloidosis)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        308,
+        354
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        765,
+        796
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        821,
+        834
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng lipid máu, không đặc hiệu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        841,
+        871
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đái tháo đường típ 2",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        878,
+        898
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Đái tháo đường típ 2",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        878,
+        898
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hẹp ống sống",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        905,
+        917
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hẹp ống sống",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        905,
+        917
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Giả gout",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        924,
+        932
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Giả gout",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        924,
+        932
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        939,
+        980
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        939,
+        980
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng sản tuyến tiền liệt",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        987,
+        1011
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhiều lần ngã gần đây Ngã",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1018,
+        1043
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1050,
+        1057
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        1089,
+        1096
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Toàn trạng suy kiệt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1184,
+        1203
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1231,
+        1238
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác dai dẳng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1231,
+        1247
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lú lẫn ngày càng nặng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1254,
+        1275
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1369,
+        1376
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Lú lẫn ngày càng nặng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1401,
+        1422
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1531,
+        1538
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ăn uống kém, ăn vào dễ nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1558,
+        1584
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nôn không ra máu, không ra dịch mật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1592,
+        1627
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1637,
+        1663
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1642,
+        1653
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh amyloidosis tự miễn dịch",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1673,
+        1702
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1678,
+        1689
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh amyloidosis di truyền hoặc gia đình",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1712,
+        1752
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1717,
+        1728
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị tận gốc amyloidosis",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1874,
+        1902
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1891,
+        1902
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "amyloidosis",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        2036,
+        2047
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

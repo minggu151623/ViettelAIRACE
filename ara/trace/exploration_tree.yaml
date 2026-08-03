@@ -973,6 +973,36 @@ tree:
                       "experiments/H46_score_shape_cardinality/results/report.json",
                       "ara/evidence/tables/h46_score_shape_cardinality.md"]
 
+  - id: N69
+    type: dead_end
+    title: "H57 conservative section-expert fusion"
+    provenance: ai-executed
+    timestamp: "2026-08-03T23:10+07:00"
+    hypothesis: >
+      Exact agreement between deterministic section-level Qwen3 extraction and
+      an independent encoder can materially rebuild H38's span/type core.
+    failure_mode: >
+      Only 13 rows passed exact independent support, below the locked 150-row
+      materiality gate. No ZIP was created.
+    lesson: >
+      Exact agreement is a useful precision filter but too sparse to provide
+      the recall jump required by the remaining score gap.
+    evidence: [C54,
+      "experiments/H57_section_expert_core/results/report.json"]
+    children:
+      - id: N70
+        type: experiment
+        title: "H58 boundary-aware section-expert recall"
+        provenance: ai-executed
+        timestamp: "2026-08-03T23:30+07:00"
+        result: >
+          H58 makes 222 semantic changes: 55 independently supported shorter
+          boundaries, 30 supported disjoint additions and 137 Qwen-only
+          clinical/numeric additions. It adds no new nonempty candidate codes,
+          validates 100/100 and passes 170 tests. External effect is pending.
+        evidence: [C55,
+          "experiments/H58_section_expert_recall/results/report.json"]
+
   - id: N59
     type: dead_end
     title: "H47 novel-span assertion abstention leverage"

@@ -1,0 +1,50 @@
+{
+  "record": 96,
+  "chunk": 1,
+  "window": [
+    772,
+    1325
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "85c46f08b7d0cafe0b6352780a94603337c4c71a3ff6064a0570acebc6c20193",
+  "response": {
+    "entities": [
+      {
+        "q": "xăm môi",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "lên màu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sắc tố da",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "kỹ thuật của người thao tác phun xăm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "khẩu trang",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bụi bẩn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "va chạm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "cọ xát",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thực phẩm có chứa vitamin C",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

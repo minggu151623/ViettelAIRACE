@@ -1,0 +1,74 @@
+{
+  "record": 8,
+  "chunk": 0,
+  "window": [
+    0,
+    933
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "d6dae34ac1a987e170a44c3f0de23fd1c8a344eca8c89d825a91269dd14b639b",
+  "response": {
+    "entities": [
+      {
+        "q": "Rối loạn cảm xúc (trầm cảm)",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hội chứng nghiện rượu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "seroquel",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tự tử",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Lú lẫn từng đợt gần đây",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cảm giác chóng mặt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó khăn khi nhìn gần",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rối loạn thị giác, nhìn thấy con cái mình ở góc mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ảo giác thị giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Ảo thanh (AH) (ảo giác thính giác)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Lú lẫn: từng đợt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chóng mặt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Khó khăn về thị lực gần",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rối loạn thị giác: nhìn thấy con cái ở góc mắt",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

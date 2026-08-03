@@ -1,0 +1,181 @@
+{
+  "record": 77,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "3a169e0a434cc87f15073ca96feef510255f5458cc8e6d90ae52aec7900768a4",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "đau vùng xương bánh chè – đùi phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        73,
+        107
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu gối phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        202,
+        218
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau đầu gối phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        609,
+        625
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang)+ Hình ảnh giãn nh đường mật trong gan hai bên",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        626,
+        725
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Siêu âm Doppler tim, van tim",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        728,
+        756
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Buồng thất trái giãn, chức năng tâm thu thất trái giảm nhiều (EF BP: 28%)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        759,
+        832
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hở hai lá vừa",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        834,
+        847
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hở chủ nhẹ",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        849,
+        859
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hở ba lá nhiều",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        861,
+        875
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thất phải giãn, chức năng tâm thu thất phải giảm (FAC: 30%)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        877,
+        936
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chức năng tâm thu thất phải giảm (FAC: 30%)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        893,
+        936
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tăng áp lực động mạch phổi vừa",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        938,
+        968
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bóng tim to",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1005,
+        1016
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy tim - suy thận mạn giai đoạn 5",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1029,
+        1063
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1063,
+        1076
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thoái hóa nghiêm trọng của khớp bánh chè đùi phải",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1458,
+        1507
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "góc tăng lên",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1569,
+        1581
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

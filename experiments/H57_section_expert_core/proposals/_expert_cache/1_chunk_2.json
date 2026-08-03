@@ -1,0 +1,78 @@
+{
+  "record": 1,
+  "chunk": 2,
+  "window": [
+    1755,
+    2638
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7c9c9d3c57b45818fd1bfd2835a02186fef9533b7c91d4ee6d83456b14e7f909",
+  "response": {
+    "entities": [
+      {
+        "q": "thiếu máu do tan huyết",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hồng cầu bị phá hủy hàng loạt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thiếu máu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vàng da vàng mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suy thận cấp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vàng da nặng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tổn thương thần kinh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bại não",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chậm phát triển trí tuệ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rối loạn vận động",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thiếu men G6PD",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "men G6PD",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "thiếu máu tan huyết",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bại não",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chậm phát triển trí tuệ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rối loạn vận động",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

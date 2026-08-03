@@ -1,0 +1,46 @@
+{
+  "record": 55,
+  "chunk": 0,
+  "window": [
+    0,
+    970
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "01d553e7f153c75f4bf0e40e9cfa2b301638887ef5182bb99637757c5816aaaf",
+  "response": {
+    "entities": [
+      {
+        "q": "HA",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "huyết áp",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hồi hợp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "rợn người",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tim đập rất mạnh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suy thận mạn giai đoạn V do đái tháo đường và tăng huyết áp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đái tháo đường",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

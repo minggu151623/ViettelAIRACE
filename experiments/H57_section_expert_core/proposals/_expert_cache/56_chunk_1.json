@@ -1,0 +1,62 @@
+{
+  "record": 56,
+  "chunk": 1,
+  "window": [
+    824,
+    1755
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "5e437f28c9464267a1f00e56c9253c3f36e9e8e9262f894d84c96c60eab6fde0",
+  "response": {
+    "entities": [
+      {
+        "q": "dạ dày",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nội soi dạ dày",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "viêm sung huyết hang vị dạ dày",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nghệ",
+        "t": "THUỐC"
+      },
+      {
+        "q": "mật ong",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ăn chậm, nhai kỹ, ăn uống điều độ đúng giờ, đủ bữa, không ăn quá no hoặc để quá đói",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chế độ ăn uống khoa học, lành mạnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "kiêng ăn các thức ăn có vị chua, cay, nóng và các loại đồ ăn nhiều dầu mỡ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không uống rượu, bia, nước có ga",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không hút thuốc lá, thuốc lào",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hạn chế uống cà phê",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chế độ tập luyện phù hợp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

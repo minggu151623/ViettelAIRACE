@@ -1,0 +1,78 @@
+{
+  "record": 24,
+  "chunk": 1,
+  "window": [
+    826,
+    1666
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "faf1f545df44ce4fa3e1d0246ca4737caff62cdf003a53784dcc2190425caa11",
+  "response": {
+    "entities": [
+      {
+        "q": "vàng da",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nước tiểu trong",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Gan to dưới bờ sườn 3cm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Bilirubin toàn phần: 43 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Bilirubin trực tiếp: 27 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Ure: 5,9 mmol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Creatinin: 89 micromol/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Hội chứng hủy hoại tế bào gan",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "GOT: 542 U/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "GPT: 628 U/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "GGT: 234 U/l",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Tỷ lệ prothrombin: 55%",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Tiền sử bản thân: chưa bị vàng da, vàng mắt trước đó",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Trước đó 3 tháng có cạo râu chung với người cùng đơn vị",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Tiền sử gia đình: không ai bị nhiễm virus viêm gan B, C",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Trong đơn vị có 3 người mang virus viêm gan B",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

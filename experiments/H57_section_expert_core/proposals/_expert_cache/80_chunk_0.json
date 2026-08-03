@@ -1,0 +1,34 @@
+{
+  "record": 80,
+  "chunk": 0,
+  "window": [
+    0,
+    877
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "de5f8f13bd736cc1fd20f4badede158a04440b673f9b21d294a091fab53c3783",
+  "response": {
+    "entities": [
+      {
+        "q": "bệnh gút",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hạt nhỏ màu trắng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạt tophi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bệnh gout mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "axit uric",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

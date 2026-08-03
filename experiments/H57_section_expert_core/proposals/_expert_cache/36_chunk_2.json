@@ -1,0 +1,38 @@
+{
+  "record": 36,
+  "chunk": 2,
+  "window": [
+    1685,
+    2040
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a1be87610643af29de7ebc9b9c6bca957be787114182cc41487bb2ded71f950b",
+  "response": {
+    "entities": [
+      {
+        "q": "FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau vùng hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "siêu âm cho thấy sỏi mật",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Zestril 10mg x 1 viên, uống sáng",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Omez 20mg x 1 viên, uống 8h sáng",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Furosemid 40 mg x 1 viên, uống sáng",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

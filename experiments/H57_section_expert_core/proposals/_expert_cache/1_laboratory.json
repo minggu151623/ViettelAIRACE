@@ -1,0 +1,55 @@
+{
+  "record": 1,
+  "expert": "laboratory",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7c9c9d3c57b45818fd1bfd2835a02186fef9533b7c91d4ee6d83456b14e7f909",
+  "response": {
+    "entities": [
+      {
+        "text": "xét nghiệm thiếu men G6PD",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "start": 136,
+        "end": 154,
+        "assertions": [
+          "isHistorical"
+        ]
+      },
+      {
+        "text": "xét nghiệm máu",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "start": 285,
+        "end": 293,
+        "assertions": [
+          "isHistorical"
+        ]
+      },
+      {
+        "text": "xét nghiệm sàng lọc",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "start": 414,
+        "end": 423,
+        "assertions": [
+          "isHistorical"
+        ]
+      },
+      {
+        "text": "xét nghiệm sàng lọc trước sinh",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "start": 510,
+        "end": 525,
+        "assertions": [
+          "isHistorical"
+        ]
+      },
+      {
+        "text": "xét nghiệm sàng lọc sau sinh",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "start": 533,
+        "end": 548,
+        "assertions": [
+          "isHistorical"
+        ]
+      }
+    ]
+  }
+}

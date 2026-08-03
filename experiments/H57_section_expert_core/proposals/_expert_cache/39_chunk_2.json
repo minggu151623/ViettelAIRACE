@@ -1,0 +1,26 @@
+{
+  "record": 39,
+  "chunk": 2,
+  "window": [
+    1735,
+    1987
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "753060d7c2451d8bf065d152e3d12c4d1d43f5e154f58e246ec0f2f267e093d6",
+  "response": {
+    "entities": [
+      {
+        "q": "n hình ảnh: chụp x-quang ngực có xẹp phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Viêm phổi bệnh viện",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Rung nhĩ kèm nhịp nhanh trên thất",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

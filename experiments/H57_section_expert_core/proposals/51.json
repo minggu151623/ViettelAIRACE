@@ -1,0 +1,321 @@
+{
+  "record": 51,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0b1de6257ce3a60dae2c3264571da4136f4d0d8e3b46eb37789448dc7b2088c5",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "béo phì",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        48,
+        55
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đái tháo đường được kiểm soát bằng chế độ ăn",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        62,
+        106
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngừng thở khi ngủ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        113,
+        130
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy tim, không đặc hiệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        154,
+        177
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        256,
+        263
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        362,
+        369
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        441,
+        448
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó nằm vào ban đêm để ngủ vì thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        455,
+        488
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "căng cứng vai trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        495,
+        513
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        495,
+        567
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho có đờm trắng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        582,
+        597
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chủ quan sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        604,
+        616
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù chi dưới",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        623,
+        635
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù chi dưới (ổn định)",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        623,
+        645
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "căng cứng vai trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        685,
+        703
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "căng cứng vai trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        737,
+        755
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "căng cứng vai trái",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        798,
+        816
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó nằm vào ban đêm để ngủ vì khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        847,
+        884
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "khó thở",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        877,
+        884
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho có đờm trắng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        886,
+        901
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chủ quan sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        903,
+        915
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phù chi dưới",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        917,
+        929
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        972,
+        1038
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gọi EMS",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1045,
+        1052
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1059,
+        1134
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1141,
+        1196
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "EMS đưa bệnh nhân đến khoa Cấp cứu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1203,
+        1237
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "được cho aspirin 325mg",
+      "type": "THUỐC",
+      "position": [
+        1699,
+        1721
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "được cho albuterolipratropium nebulizer",
+      "type": "THUỐC",
+      "position": [
+        1728,
+        1767
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "được cho methylprednisolone 125mg iv",
+      "type": "THUỐC",
+      "position": [
+        1774,
+        1810
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lợi tiểu 600cc",
+      "type": "THUỐC",
+      "position": [
+        1817,
+        1831
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

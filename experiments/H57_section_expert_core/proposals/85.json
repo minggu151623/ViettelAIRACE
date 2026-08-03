@@ -1,0 +1,251 @@
+{
+  "record": 85,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "07e5b3f080846d3c9a06780f0cd0febcaf1b51d65b3945fc7415082d4e41c35b",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        93,
+        106
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng lipid máu, không đặc hiệu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        113,
+        143
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "béo phì",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        150,
+        157
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Nhiễm trùng đường tiết niệu (UTIs) tái phát nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        164,
+        258
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bàn chân phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        307,
+        324
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bàn chân phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        360,
+        377
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mất thăng bằng khi đi lại",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        384,
+        409
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm bể thận và viêm phế quản",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        473,
+        502
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hct (hematocrit)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        869,
+        885
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hct (hematocrit) 8.126.3",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        869,
+        893
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiểu cầu (platelets)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        900,
+        920
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiểu cầu (platelets) 478",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        900,
+        924
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hco3- (bicarbonate)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        931,
+        950
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hco3- (bicarbonate) 20",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        931,
+        953
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ag (anion gap)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        960,
+        974
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ag (anion gap) 13",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        960,
+        977
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bun/creatinine (ure/creatinine)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        984,
+        1015
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "glucose (đường huyết)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1022,
+        1043
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lactate (acid lactat)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1054,
+        1075
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Kết quả ua (urinalysis - tổng phân tích nước tiểu)",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1086,
+        1136
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Kết quả chẩn đoán hình ảnh chẩn đoán hình ảnh",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1199,
+        1244
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1251,
+        1268
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang bàn chân phải",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1347,
+        1373
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "huyết khối tĩnh mạch sâu (DVT)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1447,
+        1477
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

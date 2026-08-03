@@ -1,0 +1,54 @@
+{
+  "record": 80,
+  "chunk": 1,
+  "window": [
+    757,
+    1520
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "de5f8f13bd736cc1fd20f4badede158a04440b673f9b21d294a091fab53c3783",
+  "response": {
+    "entities": [
+      {
+        "q": "ng nổi hạt tophi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sưng, tấy đỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hạt tophi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng áp lực tĩnh mạch cửa",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cổ trướng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tràn dịch màng phổi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "liệu pháp lợi tiểu",
+        "t": "THUỐC"
+      },
+      {
+        "q": "chọc dò màng phổi 3L4",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chọc dò dịch ổ bụng 7L",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "xơ gan mất bù",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

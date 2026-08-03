@@ -1,0 +1,86 @@
+{
+  "record": 17,
+  "chunk": 1,
+  "window": [
+    875,
+    1875
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0541dd1ecb10ac809ed2529d51e0ca618eb68842cb5f446fd890bceec9e7ed19",
+  "response": {
+    "entities": [
+      {
+        "q": "hôi miệng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chảy máu chân răng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "loãng xương",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sâu răng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "viêm nha chu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tiểu đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "viêm khớp dạng thấp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh hô hấp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đột quỵ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "thiếu canxi",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thiếu vitamin K",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "kháng histamin H1",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thuốc chống trầm cảm",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thuốc lợi tiểu",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thuốc kháng sinh",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thuốc chống nôn",
+        "t": "THUỐC"
+      },
+      {
+        "q": "hút thuốc lá",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "bệnh mạch máu ngoại biên",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

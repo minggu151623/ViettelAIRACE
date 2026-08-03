@@ -1,0 +1,301 @@
+{
+  "record": 18,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7b77a88212879721913dadc870bb5fb4366a8f2c8a21f7f93d05d12e5334693a",
+  "chunks_expected": 4,
+  "chunks_complete": 4,
+  "errors": {},
+  "entities": [
+    {
+      "text": "bệnh mạch vành",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        791,
+        805
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        895,
+        903
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng trên",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        895,
+        908
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1113,
+        1116
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt nhẹ đến 38.3°C",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1113,
+        1131
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1141,
+        1157
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cấy máu dương tính",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1232,
+        1250
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1283,
+        1286
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1293,
+        1301
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1308,
+        1324
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1331,
+        1334
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt nhẹ đến 38.3°C",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1331,
+        1349
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1356,
+        1372
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau hạ sườn phải",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1408,
+        1424
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau hạ sườn phải liên tục",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1408,
+        1433
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm vùng gan mật",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        1818,
+        1838
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1866,
+        1927
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lipase là tăng lên ở mức 623 (lần nhập viện trước)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1985,
+        2035
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng men gan nhẹ (lần nhập viện trước)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2042,
+        2080
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tbr là cao tới 1.0 sau đó cải thiện (lần nhập viện trước)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2087,
+        2144
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "dương tính cấy máu khi tái khám với GPRs",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2216,
+        2256
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm vùng gan mật",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2294,
+        2314
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc sỏi ống mật (lần nhập viện trước)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2294,
+        2398
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp ct bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2405,
+        2473
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm vùng gan mật",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        2480,
+        2500
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2480,
+        2580
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2519,
+        2580
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm túi mật cấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2564,
+        2580
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm túi mật cấp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        2623,
+        2639
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

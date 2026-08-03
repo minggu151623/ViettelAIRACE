@@ -1,0 +1,171 @@
+{
+  "record": 88,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "42c1eb0503f6de95bf2a9390a01264ea0c08124f21e21f39440a90b63074f90e",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "cắt bỏ ống dẫn mật chủ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        67,
+        89
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cắt bỏ phân đoạn bên trái gan",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        96,
+        125
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "phẫu thuật nối ống gan - hỗng tràng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        135,
+        170
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "can thiệp chụp đường mật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        227,
+        251
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đặt 3 stent đường mật lưu dài hạn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        253,
+        286
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "run rẩy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        401,
+        408
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        413,
+        416
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        426,
+        429
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        493,
+        496
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "áp xe",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        536,
+        541
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Augmentin",
+      "type": "THUỐC",
+      "position": [
+        630,
+        639
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mồ hôi nhiều hơn trẻ khác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        924,
+        949
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "calcium, sắt, kẽm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1052,
+        1069
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đăng ký khám bs nhi khoa",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1252,
+        1276
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ba stent mật kim loại đã được đặt",
+      "type": "THUỐC",
+      "position": [
+        1327,
+        1360
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ổ dịch sau phẫu thuật",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1371,
+        1392
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "record": 6,
+  "chunk": 2,
+  "window": [
+    1633,
+    2626
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a59e081eda8a6c3bcb1f7ffcb8495f5a2e0785d066399135b310590f5bf40ab4",
+  "response": {
+    "entities": [
+      {
+        "q": "Tình trạng ý thức dao động",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Cơn rối loạn ý thức thoáng qua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Mất định hướng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Mất thăng bằng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Gần ngất",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Đau đầu vùng thái dương phải, đỉnh đầu, đôi khi lan ra sau mắt phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Tê bì vùng trán phải, da đầu phải và nửa mặt phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Chụp cắt lớp vi tính (CT Scanner): Bụng - Tiểu khung thường quy",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "record": 74,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "962357041501251c102deac203f7ed0ba458382d6198294e8e66a493c030d885",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Viêm loét đại tràng",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        57,
+        76
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bệnh gan do rượu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        114,
+        130
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nấm bẹn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        285,
+        292
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        649,
+        657
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        654,
+        657
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng/khó chịu vùng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        664,
+        691
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        745,
+        753
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        750,
+        753
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        760,
+        763
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt và run rẩy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        783,
+        797
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mất cảm giác ngon miệng/chán ăn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        804,
+        835
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy nhược",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        842,
+        851
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Toàn trạng suy kiệt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        859,
+        878
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm lượng nước tiểu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        885,
+        905
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        885,
+        951
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Vị trí: LLQ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1085,
+        1096
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1103,
+        1160
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Thời gian: 48 giờ qua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1167,
+        1188
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tần suất: nôn x 1",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1195,
+        1212
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy nhược",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1300,
+        1309
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1414,
+        1492
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1499,
+        1575
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

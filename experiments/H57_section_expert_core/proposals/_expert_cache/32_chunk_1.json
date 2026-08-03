@@ -1,0 +1,78 @@
+{
+  "record": 32,
+  "chunk": 1,
+  "window": [
+    861,
+    1753
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "dc6fdc99d4c8d8e4980197e51e779db415a6379962ff26245db8594824ae67a4",
+  "response": {
+    "entities": [
+      {
+        "q": "Đái tháo đường típ 2",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hẹp ống sống",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Giả gout",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng sản tuyến tiền liệt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Nhiều lần ngã gần đây Ngã",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ảo giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Toàn trạng suy kiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ảo giác dai dẳng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Lú lẫn ngày càng nặng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Ăn uống kém, ăn vào dễ nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Nôn không ra máu, không ra dịch mật",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Bệnh amyloidosis chuỗi nhẹ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh amyloidosis tự miễn dịch",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh amyloidosis di truyền hoặc gia đình",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "gleevec",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

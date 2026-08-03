@@ -743,3 +743,30 @@
   `experiments/H56_semantic_size_proxy/analysis.md`]
 - **Dependencies**: [C52]
 - **Tags**: proxy-metric, confounding, recall, compression, black-box-evaluation
+
+## C54: Exact cross-model agreement is too sparse for a material core rebuild
+- **Statement**: On deterministic section-level Qwen3 proposals, requiring an
+  exact same-type match from an independent encoder yields only 13 H38 changes,
+  below the preregistered 150-row materiality threshold.
+- **Status**: supported internally; H57 rejected without external submission
+- **Provenance**: ai-executed
+- **Falsification criteria**: Rebuilding the locked proposal corpus and merger
+  yields at least 150 admissible semantic changes or a different proposal hash.
+- **Proof**: [`experiments/H57_section_expert_core/protocol.yaml`,
+  `experiments/H57_section_expert_core/results/report.json`]
+- **Dependencies**: [C53]
+- **Tags**: section-expert, consensus, materiality, dead-end
+
+## C55: Boundary-aware section fusion produces a material recall challenger
+- **Statement**: Freezing H38 coding while accepting independently supported
+  shorter boundaries and narrowly scoped disjoint clinical/numeric proposals
+  produces 222 semantic changes without introducing new nonempty candidate codes.
+- **Status**: locally supported; external effect pending
+- **Provenance**: ai-executed
+- **Falsification criteria**: Reproduction fails validation, determinism or the
+  candidate-safety invariant, or external scoring regresses materially.
+- **Proof**: [`experiments/H58_section_expert_recall/protocol.yaml`,
+  `experiments/H58_section_expert_recall/results/report.json`,
+  `turn2/output_v14_section_expert_recall.zip`]
+- **Dependencies**: [C54]
+- **Tags**: section-expert, boundary-repair, recall, candidate-safety

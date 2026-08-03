@@ -1,0 +1,251 @@
+{
+  "record": 43,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "2fd680df0b5067563c5db3b78e815b3c5bf5447b8fc6d608419aa46db3db49b0",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "tăng cholesterol máu đơn thuần",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        95,
+        125
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        132,
+        145
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        190,
+        197
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "allopurinol",
+      "type": "THUỐC",
+      "position": [
+        239,
+        250
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        363,
+        370
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        451,
+        458
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị nhiễm khuẩn đường tiết niệu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        506,
+        542
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị nhiễm khuẩn đường tiết niệu",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        655,
+        691
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thuốc giảm đau",
+      "type": "THUỐC",
+      "position": [
+        724,
+        738
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        751,
+        758
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "allopurinol",
+      "type": "THUỐC",
+      "position": [
+        797,
+        808
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "allopurinol đã ngừng cách nhập viện 5 ngày",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        797,
+        839
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        847,
+        854
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác xảy ra khoảng mỗi đêm lúc 2 giờ sáng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        847,
+        891
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        919,
+        926
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "hoang tưởng/lo sợ rằng họ sẽ chạm vào da của mình",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1131,
+        1180
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đi cầu phân sống",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1252,
+        1268
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đi cầu phân sống",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1396,
+        1412
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Bacillus clausii",
+      "type": "THUỐC",
+      "position": [
+        1635,
+        1651
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Enterogermina",
+      "type": "THUỐC",
+      "position": [
+        1706,
+        1719
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Biogermin",
+      "type": "THUỐC",
+      "position": [
+        1721,
+        1730
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "gleevec",
+      "type": "THUỐC",
+      "position": [
+        1743,
+        1750
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "allopurinol",
+      "type": "THUỐC",
+      "position": [
+        1788,
+        1799
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ảo giác khoảng mỗi đêm lúc 2 giờ sáng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1872,
+        1909
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

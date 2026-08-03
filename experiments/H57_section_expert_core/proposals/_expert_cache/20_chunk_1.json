@@ -1,0 +1,126 @@
+{
+  "record": 20,
+  "chunk": 1,
+  "window": [
+    787,
+    1745
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "137b959c970ecc52f5dfc1ca9cfe201ebbfcc0f1dd4c8f36d291568794c39485",
+  "response": {
+    "entities": [
+      {
+        "q": "vết trầy xước trên cơ thể",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "vết cắn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "vết trầy xước",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Bệnh dại",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Lyssavirus",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "họ Lyssaviridae",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hệ thần kinh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tủy sống",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "não",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đại não",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhiệt độ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "huyết áp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "mạch",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhịp thở",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "SPO2",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "compazine",
+        "t": "THUỐC"
+      },
+      {
+        "q": "aleven",
+        "t": "THUỐC"
+      },
+      {
+        "q": "morphineoral",
+        "t": "THUỐC"
+      },
+      {
+        "q": "lorazepam",
+        "t": "THUỐC"
+      },
+      {
+        "q": "đau bụng hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn ra thức ăn và dịch dạ dày",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "da niêm mạc hồngi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đường truyền",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nước bọt",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "động vật bị dại",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chó cắn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thần kinh trung ương",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

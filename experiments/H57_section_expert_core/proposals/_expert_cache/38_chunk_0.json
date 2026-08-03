@@ -1,0 +1,78 @@
+{
+  "record": 38,
+  "chunk": 0,
+  "window": [
+    0,
+    956
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4ee4ef9937e00f7852f491f04f0761c0e9cdcf7bc02801802bdb5215fedd5fd6",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh bạch cầu dòng tủy mãn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "gleevec",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng lipid máu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Đái tháo đường típ 2",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hẹp ống sống",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Giả gout",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh thận mạn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng sản tuyến tiền liệt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Nhiều lần ngã gần đây Ngã",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ảo giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Toàn trạng suy kiệt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ảo giác dai dẳng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Lú lẫn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Ăn uống kém, ăn vào dễ nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Nôn không ra máu, không ra dịch mật",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

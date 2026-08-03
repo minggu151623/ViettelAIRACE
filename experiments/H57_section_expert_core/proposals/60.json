@@ -1,0 +1,111 @@
+{
+  "record": 60,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "ca08a2cffd2c8759b4d54608880396907b58d3d43613b6781520b9d435b95416",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "da rất nhiều dầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        46,
+        62
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn trứng cá",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        69,
+        81
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn cám",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        316,
+        323
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mụn đầu trắng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        327,
+        340
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "da dầu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        557,
+        563
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "coumadin",
+      "type": "THUỐC",
+      "position": [
+        805,
+        813
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "INR dưới ngưỡng điều trị",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        866,
+        890
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu mũi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        933,
+        945
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "INR 1.7",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1076,
+        1083
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy máu mũi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1156,
+        1168
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

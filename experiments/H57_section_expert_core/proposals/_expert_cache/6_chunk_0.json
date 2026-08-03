@@ -1,0 +1,82 @@
+{
+  "record": 6,
+  "chunk": 0,
+  "window": [
+    0,
+    935
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "a59e081eda8a6c3bcb1f7ffcb8495f5a2e0785d066399135b310590f5bf40ab4",
+  "response": {
+    "entities": [
+      {
+        "q": "Bệnh tim mạch do xơ vữa động mạch",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Rối loạn lipid máu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Cơn rối loạn ý thức thoáng qua",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Cơn co giật",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "xuất huyết dưới nhện",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chụp cắt lớp vi tính sọ não",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "hình ảnh xuất huyết dưới nhện vùng trán phải",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nang màng nhện",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tụ dịch/tụ máu dưới màng cứng mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chụp kiểm tra ghi nhận tụ máu ngoài màng cứng phải cấp tính",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tổn thương mạn tính",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "chụp CT theo dõi",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "các lần chụp CT kiểm tra không ghi nhận diễn tiến xấu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "record": 91,
+  "chunk": 1,
+  "window": [
+    861,
+    1416
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9c9331a6f9445d1a8797e54eedcd6bafa6b05dbaace934de134257112a5593dc",
+  "response": {
+    "entities": [
+      {
+        "q": "đánh giá tổng quát về tiêu hóa",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "khó nuốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "albuterolipratropium nebs x2",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "sỏi niệu quản lớn hơn 7mm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "điều trị nội khoa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "phẫu thuật",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hr cải thiện lên mức 110 sau khi dùng metoprolol",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "cảm thấy khỏe khi đến phòng khám",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

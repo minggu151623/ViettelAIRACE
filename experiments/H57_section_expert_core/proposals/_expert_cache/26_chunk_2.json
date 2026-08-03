@@ -1,0 +1,54 @@
+{
+  "record": 26,
+  "chunk": 2,
+  "window": [
+    1742,
+    2361
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "000d59909d4a847bcaa971db8fe287c18edb8d5d54477a6a96b68192b138b4a1",
+  "response": {
+    "entities": [
+      {
+        "q": "u ác của tuyến tiền liệt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "eliquis",
+        "t": "THUỐC"
+      },
+      {
+        "q": "rung nhĩ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "sốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau bụng trên",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sốt nhẹ đến 38.3°C",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau hạ sườn phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "LDL < 1,8 mmol/L (hoặc <70 mg/dL)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "đau ngực",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

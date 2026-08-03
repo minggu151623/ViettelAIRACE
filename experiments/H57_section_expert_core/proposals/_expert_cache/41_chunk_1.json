@@ -1,0 +1,78 @@
+{
+  "record": 41,
+  "chunk": 1,
+  "window": [
+    860,
+    1813
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "75de5985ae3a4bb7c2c889c5fc7ee309c1f77d712b73ffb88ab68f9c3a302f10",
+  "response": {
+    "entities": [
+      {
+        "q": "uyên bã nhờn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Sừng hóa nang lông bất thường",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Vi khuẩn C. acne",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Viêm tại chỗ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Tretinoin tại chỗ",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Trứng cá viêm nhẹ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau ngực trái cấp tính",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau sau xương ức lan ra sau lưng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "điều trị trứng cá",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "mụn trứng cá",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bệnh sẽ ổn định",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "ngừng điều trị thì khả năng bệnh sẽ tái phát",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "yếu tố nội tiết",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "cơ địa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nghề nghiệp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thói quen chà xát và nặn mụn",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "record": 97,
+  "chunk": 1,
+  "window": [
+    831,
+    1319
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "577c9106db5a4b775e00b57a1ec6970421f2aa50dbed9e4c96f19673a65beaa5",
+  "response": {
+    "entities": [
+      {
+        "q": "trị bệnh trĩ theo tây y có hai cách nội khoa và ngoại khoa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Nội khoa dùng thuốc",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Ure tăng từ 69 lên 91 mg/dl ( 24.6 -32.5 mmol/l)trong 2 tháng qua,  photpho 8.4",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Bệnh nhân đã hoàn thành quá trình đánh giá trước ghép thận nhưng tạm hoãn ghép thận do chẩn đoán u ác của tuyến tiền liệt",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "điều trị bắt đầu chạy thận nhân tạo (HD)",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

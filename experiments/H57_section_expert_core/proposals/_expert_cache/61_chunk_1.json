@@ -1,0 +1,46 @@
+{
+  "record": 61,
+  "chunk": 1,
+  "window": [
+    844,
+    1702
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "0897f80583542435d57dbe2f463ff6df329d15afed77ad3162862bac1a882886",
+  "response": {
+    "entities": [
+      {
+        "q": "au bụng gián đoạn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở khi gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ho mạn tính có đờm vàng loãng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chán ăn trong vài tháng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cấy que tránh thai",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tránh thai",
+        "t": "THUỐC"
+      },
+      {
+        "q": "rỉ máu âm đạo",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "kinh nguyệt thưa",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

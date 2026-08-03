@@ -1,0 +1,62 @@
+{
+  "record": 67,
+  "chunk": 1,
+  "window": [
+    847,
+    1680
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "719ed8c2399ba9df3d4ac2f26cdf9e6d3081d6fd9635d8721899476f6517bf9c",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm sung huyết hang vị dạ dày",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ăn chậm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhai kỹ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ăn uống điều độ đúng giờ, đủ bữa",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không ăn quá no hoặc để quá đói",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "kiêng ăn các thức ăn có vị chua, cay, nóng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "kiêng ăn các loại đồ ăn nhiều dầu mỡ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không uống rượu, bia, nước có ga",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không hút thuốc lá, thuốc lào",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hạn chế uống cà phê",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chế độ ăn uống khoa học, lành mạnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chế độ tập luyện phù hợp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

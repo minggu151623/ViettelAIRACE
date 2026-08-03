@@ -1,0 +1,133 @@
+[
+  {
+    "text": "mề đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      85,
+      91
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      106
+    ]
+  },
+  {
+    "text": "mề đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      161,
+      167
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      188,
+      192
+    ]
+  },
+  {
+    "text": "dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "T78",
+      "T78.40"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      357,
+      363
+    ]
+  },
+  {
+    "text": "MÀY ĐAY VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.1"
+    ],
+    "assertions": [],
+    "position": [
+      733,
+      747
+    ]
+  },
+  {
+    "text": "MÀY ĐAY MẠN TÍNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.8"
+    ],
+    "assertions": [],
+    "position": [
+      839,
+      855
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.1"
+    ],
+    "assertions": [],
+    "position": [
+      1396,
+      1410
+    ]
+  },
+  {
+    "text": "Mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.1"
+    ],
+    "assertions": [],
+    "position": [
+      1508,
+      1522
+    ]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1662,
+      1667
+    ]
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": [
+      "2598",
+      "2599"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1679,
+      1696
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "record": 98,
+  "chunk": 0,
+  "window": [
+    0,
+    982
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "71fd1d83ceb9cb35647c0f728cf3b144efd5bafed68acf1f874c56f517354ebc",
+  "response": {
+    "entities": [
+      {
+        "q": "trầm cảm",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hưng cảm",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng hoạt động",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm nhu cầu ngủ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ý định tự tử",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Rối loạn cảm xúc",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Rối loạn lưỡng cực",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "rối loạn lo âu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Lạm dụng chất kích thích",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chất gây nghiện opioid",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "suboxone",
+        "t": "THUỐC"
+      },
+      {
+        "q": "clonidine",
+        "t": "THUỐC"
+      },
+      {
+        "q": "klonopinclonidine",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

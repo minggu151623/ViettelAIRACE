@@ -1,0 +1,90 @@
+{
+  "record": 42,
+  "chunk": 0,
+  "window": [
+    0,
+    943
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "54ae1d6d106296d438ff421d70b26e46efe202854422269638c9dd3c8fa04072",
+  "response": {
+    "entities": [
+      {
+        "q": "ho đái tháo đường",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "béo phì",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ngưng thở khi ngủ do tắc nghẽn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tylenol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "mucinex d",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thỉnh thoảng tiêu chảy các thuốc của ông ấy",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ho",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thiếu oxy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau buồng vùng thượng vị",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau buốt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mệt mỏi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sốt lên đến 101",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thỉnh thoảng tiêu chảy các thuốc của ông ấy",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đi tiểu nhiều lần vào ban đêm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở khi gắng sức",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cảm giác khó thở sau khi đi bộ vài khối",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hang vị, tiền môn vị, niêm mạc phù nề, sung huyết đỏ",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "nội soi dạ dày",
+        "t": "TÊN_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

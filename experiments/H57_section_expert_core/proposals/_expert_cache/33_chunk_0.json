@@ -1,0 +1,78 @@
+{
+  "record": 33,
+  "chunk": 0,
+  "window": [
+    0,
+    996
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "575636241f0244b9740349d5d9fb407861966653abc3cd6360955f0a165282d4",
+  "response": {
+    "entities": [
+      {
+        "q": "rung nhĩ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "suy tim, không đặc hiệu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "béo phì",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "mụn trứng cá",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mụn cám",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mụn đầu trắng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mệt mỏi và weak",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thường xuyên ngủ quên hoặc có thể ngất xỉu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giảm khả năng quan hệ tình dục với bạn tình",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau buốt khi đi tiểu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chán ăn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn từng đợt sau khi ăn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhói",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bên trái",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

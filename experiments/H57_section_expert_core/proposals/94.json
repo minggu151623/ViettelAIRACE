@@ -1,0 +1,211 @@
+{
+  "record": 94,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "3180158579d1d09e4a64167b43e4f17fd7f49c35699e19a3166ce735ab65e330",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "Viêm hang vị sung huyết",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        43,
+        66
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau bụng cồn cào",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        184,
+        200
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ợ hơi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        210,
+        215
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ợ chua",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        217,
+        223
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "buồn nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        244,
+        252
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        249,
+        252
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        258,
+        261
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị dứt điểm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        410,
+        427
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thăm khám chuyên khoa",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        496,
+        517
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nội soi dạ dày",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        519,
+        533
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tuân thủ tuyệt đối sự chỉ dẫn của bác sĩ",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        710,
+        750
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "không được tự ý tăng giảm liều lượng thuốc",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        817,
+        859
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm sung huyết hang vị dạ dày",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        913,
+        943
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nghệ",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        987,
+        991
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mật ong",
+      "type": "TÊN_XÉT_NGHIỆM",
+      "position": [
+        993,
+        1000
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thức ăn có vị chua, cay, nóng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1097,
+        1126
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đồ ăn nhiều dầu mỡ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1139,
+        1157
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rượu, bia, nước có ga",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1170,
+        1191
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cà phê",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1240,
+        1246
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chế độ tập luyện phù hợp",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1362,
+        1386
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

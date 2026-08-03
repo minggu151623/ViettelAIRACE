@@ -1,0 +1,34 @@
+{
+  "record": 66,
+  "chunk": 0,
+  "window": [
+    0,
+    940
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "8ed4471e72655c62eb17c26f6d8ad50acf71cbfa4a77d7c835b15ea37e8a50ec",
+  "response": {
+    "entities": [
+      {
+        "q": "u lành về tuyến vú",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "u xơ tuyến vú",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "u nang tuyến vú",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "vitamin B12",
+        "t": "THUỐC"
+      },
+      {
+        "q": "vitamin B12 làm kích thích khối u ung thư phát triển",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "record": 62,
+  "chunk": 1,
+  "window": [
+    829,
+    1698
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "983aa701d1287791845257a22cf886f6cf0c34b63d0d33382ef649cafe922d1c",
+  "response": {
+    "entities": [
+      {
+        "q": "đau ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn/nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đổ mồ hôi đêm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở khi nằm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "giãn phế quản",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "azithromycin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tylenol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "mucinex d",
+        "t": "THUỐC"
+      },
+      {
+        "q": "spo2 là 90-92% spo2 khi thở khí trời",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "spo2 là 93% khi không dùng oxy",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "số lượng bạch cầu là 12.5",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "vết protein niệu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "troponin âm tính x1",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "viêm phổi thùy dưới phải (RLL PNA)",
+        "t": "CHẨN_ĐOÁN"
+      }
+    ]
+  }
+}

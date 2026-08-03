@@ -1,0 +1,212 @@
+[
+  {
+    "text": "tỉnh, tiếp xúc tốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      66,
+      84
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32.9"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      106,
+      114
+    ]
+  },
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      146,
+      158
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới nghiêm trọng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      184,
+      216
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I26.9"
+    ],
+    "assertions": [],
+    "position": [
+      319,
+      342
+    ]
+  },
+  {
+    "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L08.9",
+      "B95.2",
+      "Z16.2"
+    ],
+    "assertions": [],
+    "position": [
+      346,
+      408
+    ]
+  },
+  {
+    "text": "nổi mẩn ở vùng lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      632,
+      651
+    ]
+  },
+  {
+    "text": "nổi mẩn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      691,
+      698
+    ]
+  },
+  {
+    "text": "lan ra xung quanh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      721,
+      738
+    ]
+  },
+  {
+    "text": "đỏ hơn trước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      743,
+      755
+    ]
+  },
+  {
+    "text": "nổi sần tạo thành lớp sừng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      763,
+      789
+    ]
+  },
+  {
+    "text": "lan xuống vùng hông - mông",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      815,
+      841
+    ]
+  },
+  {
+    "text": "viêm nang lông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L73.9"
+    ],
+    "assertions": [],
+    "position": [
+      914,
+      928
+    ]
+  },
+  {
+    "text": "tình trạng bệnh xấu đi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      937,
+      959
+    ]
+  },
+  {
+    "text": "vẫn như cũ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      973,
+      983
+    ]
+  },
+  {
+    "text": "nổi mẩn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1064,
+      1071
+    ]
+  },
+  {
+    "text": "nổi mẩn đỏ ngứa ở lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1171,
+      1193
+    ]
+  },
+  {
+    "text": "suy giảm chức năng gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K76.9"
+    ],
+    "assertions": [],
+    "position": [
+      1387,
+      1409
+    ]
+  },
+  {
+    "text": "nổi mề đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      1411,
+      1421
+    ]
+  },
+  {
+    "text": "bệnh vảy nến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L40.9"
+    ],
+    "assertions": [],
+    "position": [
+      1423,
+      1435
+    ]
+  }
+]

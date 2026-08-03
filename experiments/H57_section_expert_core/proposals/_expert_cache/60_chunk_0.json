@@ -1,0 +1,46 @@
+{
+  "record": 60,
+  "chunk": 0,
+  "window": [
+    0,
+    977
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "ca08a2cffd2c8759b4d54608880396907b58d3d43613b6781520b9d435b95416",
+  "response": {
+    "entities": [
+      {
+        "q": "mụn trứng cá",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "da dầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mụn cám",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mụn đầu trắng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "da rất nhiều dầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "coumadin",
+        "t": "THUỐC"
+      },
+      {
+        "q": "INR dưới ngưỡng điều trị",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chảy máu mũi",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

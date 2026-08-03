@@ -1,0 +1,42 @@
+{
+  "record": 1,
+  "chunk": 3,
+  "window": [
+    2518,
+    3479
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "7c9c9d3c57b45818fd1bfd2835a02186fef9533b7c91d4ee6d83456b14e7f909",
+  "response": {
+    "entities": [
+      {
+        "q": "hiếu men G6PD",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "thiếu máu tan huyết",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "vàng da sơ sinh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thiếu men G6PD",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đậu tằm",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thực phẩm có tính oxy hóa cao",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "thuốc giảm đau, hạ sốt chứa ******* hoặc **********",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

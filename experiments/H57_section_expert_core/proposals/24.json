@@ -1,0 +1,561 @@
+{
+  "record": 24,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "faf1f545df44ce4fa3e1d0246ca4737caff62cdf003a53784dcc2190425caa11",
+  "chunks_expected": 3,
+  "chunks_complete": 3,
+  "errors": {},
+  "entities": [
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        49,
+        56
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        58,
+        65
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng mắt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        67,
+        75
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt nhẹ (37^∘ 8)",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        238,
+        254
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "sốt nóng liên tục có gai rét",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        256,
+        284
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        400,
+        407
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        448,
+        455
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi nhiều chỉ muốn nằm nghỉ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        448,
+        479
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        515,
+        522
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "BC 5,38 G/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        544,
+        555
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "N 51,4%",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        557,
+        564
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "HBsAg (+)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        573,
+        582
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Anti HBe (-)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        584,
+        596
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Anti HBc IgG (-)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        605,
+        621
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Anti HBc IgM (+)",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        623,
+        639
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        667,
+        674
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nước tiểu ít hơn so với bình thường",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        758,
+        793
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng sậm như nước vối",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        795,
+        816
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        860,
+        867
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da giảm",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        860,
+        872
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nước tiểu trong",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        874,
+        889
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "số lượng đã nhiều hơn so với lúc vào viện",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        891,
+        932
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Gan to dưới bờ sườn 3cm",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        954,
+        977
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ure: 5,9 mmol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1115,
+        1130
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Creatinin: 89 micromol/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1132,
+        1156
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Hội chứng hủy hoại tế bào gan",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1165,
+        1194
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "GOT: 542 U/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1224,
+        1236
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "GPT: 628 U/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1238,
+        1250
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "GGT: 234 U/l",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1252,
+        1264
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tỷ lệ prothrombin: 55%",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1328,
+        1350
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tiền sử bản thân: chưa bị vàng da, vàng mắt trước đó",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1384,
+        1436
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1410,
+        1417
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Trước đó 3 tháng có cạo râu chung với người cùng đơn vị",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1438,
+        1493
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Tiền sử gia đình: không ai bị nhiễm virus viêm gan B, C",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1536,
+        1591
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm virus viêm gan B",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1566,
+        1588
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "virus viêm gan B",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1572,
+        1588
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm gan B",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1578,
+        1588
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Trong đơn vị có 3 người mang virus viêm gan B",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1618,
+        1663
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "virus viêm gan B",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1647,
+        1663
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm gan B",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1653,
+        1663
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1712,
+        1719
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vàng da",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1725,
+        1732
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ăn ngủ được",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1743,
+        1754
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đánh răng không chảy máu",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1756,
+        1780
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tiểu tiện 1000ml/24h",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1782,
+        1802
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nước tiểu vàng nhẹ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1804,
+        1822
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đại tiện phân thành khuôn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1824,
+        1849
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Glucose 5%",
+      "type": "THUỐC",
+      "position": [
+        1997,
+        2007
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Philpovin 5g",
+      "type": "THUỐC",
+      "position": [
+        2108,
+        2120
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ALT",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2193,
+        2196
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "AST",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2198,
+        2201
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Fortex 25mg",
+      "type": "THUỐC",
+      "position": [
+        2230,
+        2241
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ALT",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2295,
+        2298
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "AST",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        2300,
+        2303
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Vitamin 3B",
+      "type": "THUỐC",
+      "position": [
+        2332,
+        2342
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

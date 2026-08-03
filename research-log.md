@@ -1537,3 +1537,26 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - V2 and H44 provide externally scored counterexamples to byte-size selection.
   Archive size is rejected as an objective; only independently supported
   semantic coverage may guide the next recall challenger.
+
+## 2026-08-03 — H57 deterministic section-expert reconstruction
+
+- A first full-document three-expert prompt was stopped fail-closed after the
+  first record took about five minutes and two responses truncated. No quality
+  result or ZIP existed when the protocol was amended.
+- The deterministic chunked extractor completed 271/271 local Qwen3 calls and
+  produced 2,738 proposals. Its conservative merger selected only 13 rows and
+  failed the 150-row materiality gate; H57 closed without packaging.
+
+## 2026-08-03 — H58 boundary-aware section-expert recall
+
+- Preregistered only after H57 closed. H58 permits 55 shorter boundaries with
+  Qwen-plus-encoder support and narrowly admits disjoint Qwen-only diagnoses,
+  symptoms and numeric laboratory results.
+- The first build failed its candidate-safety gate because two unsupported
+  diagnoses inherited alias codes. Candidate assignment was fixed to require
+  independent support, then the full build was rerun.
+- Final census: 222 semantic changes, zero new nonempty candidate codes,
+  100/100 valid records, exact ZIP member set, byte-identical repeat packaging
+  and 170 passing tests. SHA-256 is
+  `1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51`.
+  No competition submission was performed.

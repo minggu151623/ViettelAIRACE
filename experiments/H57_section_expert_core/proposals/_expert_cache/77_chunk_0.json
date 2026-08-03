@@ -1,0 +1,54 @@
+{
+  "record": 77,
+  "chunk": 0,
+  "window": [
+    0,
+    971
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "3a169e0a434cc87f15073ca96feef510255f5458cc8e6d90ae52aec7900768a4",
+  "response": {
+    "entities": [
+      {
+        "q": "đau vùng xương bánh chè – đùi phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau đầu gối phải",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Siêu âm Doppler tim, van tim",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Buồng thất trái giãn, chức năng tâm thu thất trái giảm nhiều (EF BP: 28%)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Hở hai lá vừa",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Hở chủ nhẹ",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Hở ba lá nhiều",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Thất phải giãn, chức năng tâm thu thất phải giảm (FAC: 30%)",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Tăng áp lực động mạch phổi vừa",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang)+ Hình ảnh giãn nh đường mật trong gan hai bên",
+        "t": "TÊN_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

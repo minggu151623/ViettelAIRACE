@@ -1,0 +1,42 @@
+{
+  "record": 67,
+  "chunk": 0,
+  "window": [
+    0,
+    967
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "719ed8c2399ba9df3d4ac2f26cdf9e6d3081d6fd9635d8721899476f6517bf9c",
+  "response": {
+    "entities": [
+      {
+        "q": "viêm hang vị sung huyết",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau bụng cồn cào",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ợ hơi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ợ chua",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nội soi dạ dày",
+        "t": "TÊN_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

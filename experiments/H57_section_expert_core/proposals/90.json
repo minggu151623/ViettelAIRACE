@@ -1,0 +1,301 @@
+{
+  "record": 90,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "735d075a0d832fc777a954cfb6faab2d17e3ad5373dc17074d8358c05d66bed8",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        61,
+        63
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "rối loạn lo âu",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        81,
+        95
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tăng huyết áp (tăng huyết áp)",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        102,
+        131
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Táo bón mãn tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        138,
+        154
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngưng thở khi ngủ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        162,
+        179
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp thở nhanh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        222,
+        236
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thiếu oxy",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        240,
+        249
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        269,
+        271
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        322,
+        329
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        331,
+        333
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy nước mũi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        337,
+        350
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "độ bão hòa oxy (SPO2) từ 88-92 % khi thở khí trời",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        550,
+        599
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp thở nhanh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        603,
+        617
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mệt mỏi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        745,
+        752
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ho",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        759,
+        761
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chảy nước mũi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        768,
+        781
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhịp thở nhanh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        788,
+        802
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đau",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        825,
+        828
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bạch cầu 26.7",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        858,
+        871
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bnp 4227",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        878,
+        886
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "kali 3.2",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        893,
+        901
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "troponin 0.01",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        908,
+        921
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lactate 1.8",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        928,
+        939
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chẩn đoán hình ảnh không cho thấy quá trình bệnh lý tim mạch hoặc hô hấp cấp tính",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1079,
+        1160
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "chụp x-quang ngực phù hợp với viêm phổi kẽ",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1168,
+        1210
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Khí dung phối hợp Albuterol và Ipratropium 1 lần",
+      "type": "THUỐC",
+      "position": [
+        1247,
+        1295
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Ceftriaxone 1 gram dùng 1 liều",
+      "type": "THUỐC",
+      "position": [
+        1302,
+        1332
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "Uống Tylenol 1 gram, 1 liều duy nhất",
+      "type": "THUỐC",
+      "position": [
+        1339,
+        1375
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "cấy máu 2 mẫu và cấy nước tiểu đã được gửi",
+      "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+      "position": [
+        1383,
+        1425
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

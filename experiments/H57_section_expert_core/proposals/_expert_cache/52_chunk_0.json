@@ -1,0 +1,30 @@
+{
+  "record": 52,
+  "chunk": 0,
+  "window": [
+    0,
+    989
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f03ed99bac869f595aad2abe5b6ed95ef617a55013f1a4e004d16eed0dfbaa71",
+  "response": {
+    "entities": [
+      {
+        "q": "MÀY ĐAY VÔ CĂN",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "MÀY ĐAY MẠN TÍNH",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tế baò một nhân kết hợp với lympho T",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "đại thực baò",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

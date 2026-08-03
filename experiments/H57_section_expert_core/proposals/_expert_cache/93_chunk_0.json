@@ -1,0 +1,70 @@
+{
+  "record": 93,
+  "chunk": 0,
+  "window": [
+    0,
+    962
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "85ff8b56a2e1c13894e6ec088bb6633452a1cea03ea654f2553b31d314a7bfc5",
+  "response": {
+    "entities": [
+      {
+        "q": "HA",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "hồi hợp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "cảm giác rợn người",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "hồi hộp",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tim đập rất mạnh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "XN",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "bình thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tự đo",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "máy đo HA điện tử",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "học y",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "kĩ thuật chính xác",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ĐHYD",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "dịch",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "record": 100,
+  "chunk": 0,
+  "window": [
+    0,
+    961
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "90af72c6536432a338b0ac5ee8469daff440592816eb921eb8c97f28ccc6ff3a",
+  "response": {
+    "entities": [
+      {
+        "q": "tiền sản giật",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "nguy cơ tiền sản giật",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "thuốc ************",
+        "t": "THUỐC"
+      },
+      {
+        "q": "chảy máu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tác dụng phụ của thuốc",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chảy máu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tác dụng chống đông máu",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

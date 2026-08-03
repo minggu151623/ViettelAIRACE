@@ -1,0 +1,50 @@
+{
+  "record": 89,
+  "chunk": 0,
+  "window": [
+    0,
+    862
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "22ae8d9f62a671e9a4eafe694239ff936f7d1ec0c6b8fc56d28797310e7653fd",
+  "response": {
+    "entities": [
+      {
+        "q": "tiền sử Đái tháo đường",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Tăng huyết áp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "xét nghiệm gắng sức bất thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "khó thở",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chóng mặt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đổ mồ hôi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Hoạt động gắng sức",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Nghỉ ngơi",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "điện tâm đồ bình thường",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

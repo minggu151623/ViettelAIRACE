@@ -1,0 +1,38 @@
+{
+  "record": 52,
+  "chunk": 1,
+  "window": [
+    869,
+    1825
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f03ed99bac869f595aad2abe5b6ed95ef617a55013f1a4e004d16eed0dfbaa71",
+  "response": {
+    "entities": [
+      {
+        "q": "tình trạng xâm nhập của tế bào mô một nhân kết hợp với lympho T và đại thực bào",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tế bào mast tăng số lượng vùng hạch",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhuộm huyình quang miễn dịch tổn thương sinh thiết không thấy có hình ảnh của lăng đồng các phức hợp miễn dịch, bơ thể hay sợi fibrin",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tiền sử bệnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "2 lần tự tử do quá liều klonopinclonidine điều trị đặt nội khí quản tại khoa Hồi sức tích cực",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "Mẹ Đã tử vong trong lần nhập viện gần đây nhất",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

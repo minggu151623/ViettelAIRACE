@@ -1,0 +1,106 @@
+{
+  "record": 34,
+  "chunk": 1,
+  "window": [
+    778,
+    1766
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4f105c977e7244ebc0e614a605dccdef333e2a028917e7d76a5234103885f407",
+  "response": {
+    "entities": [
+      {
+        "q": "nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sợ ánh sáng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "sợ tiếng động",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "căng thẳng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau nửa đầu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau nửa đầu bên trái",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "viêm xoang",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "suy giảm trí nhớ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "khó tập trung",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "trầm cảm",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đột quỵ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "suy thoái võng mạc",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mất thị lực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mù vĩnh viễn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "ảo giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "nhiễm khuẩn đường tiết niệu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "gleevec",
+        "t": "THUỐC"
+      },
+      {
+        "q": "allopurinol",
+        "t": "THUỐC"
+      },
+      {
+        "q": "thuốc giảm đau",
+        "t": "THUỐC"
+      },
+      {
+        "q": "tiền sử bệnh hiện tại",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "lý do nhập viện",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ảo giác",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "thời điểm khởi phát triệu chứng",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

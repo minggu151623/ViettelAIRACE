@@ -1,0 +1,291 @@
+{
+  "record": 71,
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "input_sha256": "4b378f17315724ad888d36646cf611297a42d89bdb316f3f1ac1ec739f5c3a41",
+  "chunks_expected": 2,
+  "chunks_complete": 2,
+  "errors": {},
+  "entities": [
+    {
+      "text": "tỉnh, tiếp xúc tốt",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        66,
+        84
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tổn thương chi dưới nghiêm trọng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        184,
+        216
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "biến chứng thuyên tắc phổi hai bên",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        308,
+        342
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        346,
+        408
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nổi mẩn ở vùng lưng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        632,
+        651
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vết nổi mẩn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        687,
+        698
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lan ra xung quanh",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        721,
+        738
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "đỏ hơn trước",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        743,
+        755
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nổi sần tạo thành lớp sừng",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        763,
+        789
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "lan xuống vùng hông - mông",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        815,
+        841
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        894,
+        902
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị bằng thuốc viêm nang lông",
+      "type": "THUỐC",
+      "position": [
+        894,
+        928
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "viêm nang lông",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        914,
+        928
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tình trạng bệnh xấu đi",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        937,
+        959
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vẫn như cũ",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        973,
+        983
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ngủ",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        997,
+        1000
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nổi mẩn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1064,
+        1071
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nổi mẩn",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1171,
+        1178
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "mẩn đỏ ngứa",
+      "type": "TRIỆU_CHỨNG",
+      "position": [
+        1175,
+        1186
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "ma sát giữa da và quần áo",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1224,
+        1249
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "vệ sinh da kém",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1251,
+        1265
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "thay đổi thời tiết",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1267,
+        1285
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "suy giảm chức năng gan",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1387,
+        1409
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "nổi mề đay",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1411,
+        1421
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "bệnh vảy nến",
+      "type": "CHẨN_ĐOÁN",
+      "position": [
+        1423,
+        1435
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "tác dụng phụ của một số loại thuốc chữa bệnh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1437,
+        1481
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "điều trị",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1486,
+        1494
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    },
+    {
+      "text": "xác định chính xác nguyên nhân gây bệnh",
+      "type": "THÔNG_TIN_BỆNH_NHÂN",
+      "position": [
+        1511,
+        1550
+      ],
+      "assertions": [],
+      "source": "qwen_chunk_expert"
+    }
+  ]
+}

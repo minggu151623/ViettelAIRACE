@@ -1,0 +1,50 @@
+{
+  "record": 19,
+  "chunk": 1,
+  "window": [
+    850,
+    1808
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "6b62c491ad772b7bc23bdcbf20b03a815be2e9d8de81289cf9036861b562de77",
+  "response": {
+    "entities": [
+      {
+        "q": "đau hố chậu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "MÀY ĐAY VÔ CĂN",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "MÀY ĐAY MẠN TÍNH",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "xâm nhập của tế bào một nhân kết hợp với lympho T và đại thực bào",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "tế bào mast",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "nhuộm huỳnh quang miễn dịch tổn thương sinh thiết",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "lắng đọng các phức hợp miễn dịch",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "sợi fibrin",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

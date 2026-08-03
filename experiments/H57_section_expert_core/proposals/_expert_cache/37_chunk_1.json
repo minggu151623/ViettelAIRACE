@@ -1,0 +1,42 @@
+{
+  "record": 37,
+  "chunk": 1,
+  "window": [
+    878,
+    1811
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "38ba88646c5063aaf788640b23b91dee563f8c3f7df4618aa8e1c9946ceed2bf",
+  "response": {
+    "entities": [
+      {
+        "q": "Viêm mô tế bào",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "ban đỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "chảy mủ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "bactrim",
+        "t": "THUỐC"
+      },
+      {
+        "q": "doxycycline",
+        "t": "THUỐC"
+      },
+      {
+        "q": "dịch tiết có vẻ như mủ",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "thính lực",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

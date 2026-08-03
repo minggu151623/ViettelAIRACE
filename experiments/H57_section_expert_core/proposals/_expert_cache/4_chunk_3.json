@@ -1,0 +1,42 @@
+{
+  "record": 4,
+  "chunk": 3,
+  "window": [
+    2487,
+    3428
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "8a55ce0b9d87a7bcf516a9460e10460820239e092723b651cf17e6a5d6829928",
+  "response": {
+    "entities": [
+      {
+        "q": "h. pylori",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "omeprazole",
+        "t": "THUỐC"
+      },
+      {
+        "q": "levothyroxine",
+        "t": "THUỐC"
+      },
+      {
+        "q": "Berlthyrox",
+        "t": "THUỐC"
+      },
+      {
+        "q": "ung thư tuyến giáp",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "phẫu thuật",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "trạng thái bình giáp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

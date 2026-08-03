@@ -1,0 +1,54 @@
+{
+  "record": 50,
+  "chunk": 1,
+  "window": [
+    800,
+    1791
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "f754b0bed6d0e6f8b3ff599218245ee49e6794bb60434c9c4eaa638228209f96",
+  "response": {
+    "entities": [
+      {
+        "q": "não úng tuỷ",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đặt dẫn lưu shunt",
+        "t": "THUỐC"
+      },
+      {
+        "q": "não úng thủy",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng đau đầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "đau đầu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "mờ mắt",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "CT ngực",
+        "t": "TÊN_XÉT_NGHIỆM"
+      },
+      {
+        "q": "VPHT",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đông đặc phổi",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "giảm bắt thuốc cản quang",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      }
+    ]
+  }
+}

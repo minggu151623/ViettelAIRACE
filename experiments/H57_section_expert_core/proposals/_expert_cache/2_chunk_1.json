@@ -1,0 +1,90 @@
+{
+  "record": 2,
+  "chunk": 1,
+  "window": [
+    873,
+    1844
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "745fdb5057a85b6c8ce4486c01d93c0c614fd87a74ef4a144b61ae2aecd74d32",
+  "response": {
+    "entities": [
+      {
+        "q": "Nhiễm khuẩn – nhiễm virus hoặc độc tố vi khuẩn",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Phản ứng miễn dịch bất thường ở trẻ có cơ địa nhạy cảm",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Yếu tố chủng tộc: Trẻ gốc Á, đặc biệt trẻ Nhật Bản và Hàn Quốc, có tỉ lệ mắc cao",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Yếu tố môi trường: thay đổi khí hậu, chất độc trong không khí",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Bệnh không lây từ trẻ này sang trẻ khác và đến nay chưa có bằng chứng về lây truyền trong cộng đồng",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "Triệu chứng bệnh Kawasaki ở trẻ em",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Sốt cao kéo dài",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Sốt 39–40°C trong hơn 5 ngày",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Mắt đỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Viêm kết mạc 2 bên, đỏ nhưng không có ghèn",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Thay đổi niêm mạc miệng",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Môi đỏ, nứt, có thể rỉ máu",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Lưỡi đỏ như dâu tây",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Họng đỏ",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Tổn thương ở đầu chi",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Sưng, đỏ mu bàn tay – chân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Đỏ gan bàn tay – chân",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Bong da đầu ngón tay, ngón chân vào ngày 7–14 của bệnh",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "Ban đỏ toàn thân",
+        "t": "TRIỆU_CHỨNG"
+      }
+    ]
+  }
+}

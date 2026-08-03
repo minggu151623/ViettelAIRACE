@@ -1,0 +1,42 @@
+{
+  "record": 35,
+  "chunk": 2,
+  "window": [
+    1660,
+    2087
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "9e3f202fd3df1ff0d0f605566f39c23db7a88bed6f0cfe3a94890f3bc6c4c16a",
+  "response": {
+    "entities": [
+      {
+        "q": "chế độ ăn uống khoa học, lành mạnh",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "kiêng ăn các thức ăn có vị chua, cay, nóng và các loại đồ ăn nhiều dầu mỡ",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không uống rượu, bia, nước có ga",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "không hút thuốc lá, thuốc lào",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "hạn chế uống cà phê",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "ăn chậm, nhai kỹ, ăn uống điều độ, đúng giờ, đủ bữa, không ăn quá no hoặc để quá đói",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      },
+      {
+        "q": "chế độ tập luyện phù hợp",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}

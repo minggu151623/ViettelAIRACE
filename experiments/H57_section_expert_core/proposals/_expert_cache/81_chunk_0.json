@@ -1,0 +1,34 @@
+{
+  "record": 81,
+  "chunk": 0,
+  "window": [
+    0,
+    931
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "b2a2b09911a58cb5ab8c5d2f7e8484e1219658134ebbb4004923fa5e3342b832",
+  "response": {
+    "entities": [
+      {
+        "q": "thrombophilia",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "tăng đông máu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "bệnh tăng đông máu",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "que thử 2 vạch",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tiêm thuốc chống đông máu",
+        "t": "THUỐC"
+      }
+    ]
+  }
+}

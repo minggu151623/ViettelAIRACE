@@ -1,0 +1,50 @@
+{
+  "record": 64,
+  "chunk": 1,
+  "window": [
+    865,
+    1690
+  ],
+  "model_id": "500a1f067a9f",
+  "input_sha256": "2ab4b5f4b2788810d751924151af598008a36a0d07666f1247f4433215410966",
+  "response": {
+    "entities": [
+      {
+        "q": "đau đầu",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "chóng mặt",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "buồn nôn",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "đỏ mặt",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "tác dụng tụt huyết áp thế đứng",
+        "t": "KẾT_QUẢ_XÉT_NGHIỆM"
+      },
+      {
+        "q": "Nitramyl",
+        "t": "THUỐC"
+      },
+      {
+        "q": "bệnh mạch vành",
+        "t": "CHẨN_ĐOÁN"
+      },
+      {
+        "q": "đau thắt ngực",
+        "t": "TRIỆU_CHỨNG"
+      },
+      {
+        "q": "tim mạch",
+        "t": "THÔNG_TIN_BỆNH_NHÂN"
+      }
+    ]
+  }
+}
