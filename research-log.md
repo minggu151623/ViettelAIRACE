@@ -1678,3 +1678,14 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The two files remain checksum-locked for audit but are quarantined from all
   training and submission decisions. The research direction pivots to an
   independent cross-lingual projection family.
+
+## 2026-08-04 — H64 crosslingual clinical projection Stage 0 benchmark outcome
+
+- Executed Stage 0 resource inventory and end-to-end benchmark on 50 public sentences using `Helsinki-NLP/opus-mt-vi-en`/`opus-mt-en-vi`, `d4data/biomedical-ner-all`, and `tner/xlm-roberta-base-bc5cdr`.
+- Recorded resource manifest at `experiments/H64_crosslingual_clinical_projection/results/resource_manifest.json`.
+- Benchmark result: **FAIL**
+  - `projected_span_round_trip_rate`: **0.3758** (59/157 spans), failing the `>= 0.98` gate threshold (`false`). Translation/back-translation alignment distorts exact raw-text boundaries on 62.42% of projected mentions.
+  - `estimated_full_turn2_wall_time_minutes`: **756.22 minutes** (~12.6 hours), failing the `<= 180.0` minutes gate ceiling (`false`).
+- Under the frozen protocol rules, execution stopped immediately before Turn 2 inference.
+- No challenger ZIP was created; baseline **H38 (39.2813)** is retained as the safe artifact.
+

@@ -443,8 +443,20 @@ hypotheses:
       better than baseline; H44 adds 611 candidates yet loses 3.8174 points.
       Use semantic coverage only as a recall diagnostic; padding and unsupported
       cardinality expansion are forbidden.
+  H64_crosslingual_clinical_projection:
+    status: rejected_stage_0_benchmark_gate_failed
+    prediction: >
+      Cross-lingual translation to English, clinical NER with two independent
+      English models and bidirectional span projection can add high-precision
+      entities without relying on Vietnamese proposal sources.
+    result: >
+      Stage 0 benchmark on 50 public sentences returned FAIL. Projected span
+      round-trip rate reached only 0.3758 (gate >= 0.98, status: FALSE).
+      Estimated full Turn 2 runtime reached 756.22 minutes (gate <= 180.0,
+      status: FALSE). Stopped before Turn 2 inference; retain H38 baseline 39.2813.
 experiments:
   completed:
+    - "H64 crosslingual clinical projection: Stage 0 benchmark failed (round-trip 0.3758 < 0.98, ETA 756.22m > 180m); no Turn 2 inference or ZIP"
     - "V1 rule/dictionary baseline: 0.3690"
     - "V2 Qwen hybrid: 1.3060"
     - "V3 consensus: 1.2726"

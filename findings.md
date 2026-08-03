@@ -1,6 +1,13 @@
 # Findings
 
-## 2026-08-04 — H41 agreement result invalidated by provenance audit
+## 2026-08-04 — H64 crosslingual clinical projection Stage 0 benchmark failed
+
+- Resources loaded: `Helsinki-NLP/opus-mt-vi-en` / `opus-mt-en-vi` (MarianMT), `d4data/biomedical-ner-all` (BERT-Biomedical), `tner/xlm-roberta-base-bc5cdr` (XLM-RoBERTa-BC5CDR).
+- Stage 0 benchmark on 50 public sentences returned **FAIL**:
+  - `projected_span_round_trip_rate`: **`0.3758`** (59/157 spans), failing the `>= 0.98` gate. Translation/back-translation loses exact target boundaries on 62.42% of projected mentions.
+  - `estimated_full_turn2_wall_time_minutes`: **`756.22` minutes** (~12.6 hours), failing the `<= 180.0` minutes gate.
+- Under the frozen protocol rules in `EXECUTOR_TASK_H64.md` and `protocol.yaml`, execution is stopped before Turn 2 inference and no challenger submission ZIP is created.
+- Baseline **H38 (`39.2813`)** is retained.
 
 - Both H41 JSONL files are structurally complete, but neither is an independent
   blind annotation. Reviewer 1 was produced by passage-specific rules plus a

@@ -1,0 +1,53 @@
+{
+  "protocol": "H64_crosslingual_clinical_projection",
+  "decision": "FAIL",
+  "resource_manifest": {
+    "translator": {
+      "identifier": "Helsinki-NLP/opus-mt-vi-en / opus-mt-en-vi",
+      "revision": "main",
+      "license": "Apache-2.0",
+      "device": "mps:0",
+      "source": "HuggingFace"
+    },
+    "ner_model_1": {
+      "identifier": "d4data/biomedical-ner-all",
+      "revision": "main",
+      "family": "BERT-Biomedical",
+      "license": "MIT",
+      "device": "mps:0",
+      "source": "HuggingFace"
+    },
+    "ner_model_2": {
+      "identifier": "tner/xlm-roberta-base-bc5cdr",
+      "revision": "main",
+      "family": "XLM-RoBERTa-BC5CDR",
+      "license": "MIT",
+      "device": "mps:0",
+      "source": "HuggingFace"
+    }
+  },
+  "stage_0_benchmark": {
+    "benchmarked_sentences": 50,
+    "total_projected_spans": 157,
+    "successful_round_trips": 59,
+    "round_trip_rate": 0.37579617834394907,
+    "benchmark_duration_seconds": 907.4673752784729,
+    "estimated_turn2_wall_time_minutes": 756.2228127320608,
+    "gates": {
+      "at_least_one_translator_and_two_distinct_english_ner_models_available": true,
+      "every_selected_resource_has_redistribution_or_local_research_permission": true,
+      "projected_span_round_trip_rate_at_least_0.98": false,
+      "estimated_full_turn2_wall_time_at_most_180_minutes": false
+    }
+  },
+  "failure_reasons": [
+    "projected_span_round_trip_rate 0.3758 is below the required 0.98 gate threshold",
+    "estimated_full_turn2_wall_time 756.22 minutes exceeds the required 180.0 minute ceiling gate"
+  ],
+  "zip_sha256": null,
+  "retained_baseline": {
+    "artifact": "turn2/output_v10_multiview_consensus.zip",
+    "sha256": "a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b",
+    "score": 39.2813
+  }
+}

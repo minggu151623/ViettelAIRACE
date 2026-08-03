@@ -1,0 +1,25 @@
+{
+  "translator": {
+    "identifier": "Helsinki-NLP/opus-mt-vi-en / opus-mt-en-vi",
+    "revision": "main",
+    "license": "Apache-2.0",
+    "device": "mps:0",
+    "source": "HuggingFace"
+  },
+  "ner_model_1": {
+    "identifier": "d4data/biomedical-ner-all",
+    "revision": "main",
+    "family": "BERT-Biomedical",
+    "license": "MIT",
+    "device": "mps:0",
+    "source": "HuggingFace"
+  },
+  "ner_model_2": {
+    "identifier": "tner/xlm-roberta-base-bc5cdr",
+    "revision": "main",
+    "family": "XLM-RoBERTa-BC5CDR",
+    "license": "MIT",
+    "device": "mps:0",
+    "source": "HuggingFace"
+  }
+}

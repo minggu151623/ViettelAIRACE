@@ -1,0 +1,15 @@
+{
+  "status": "FAIL",
+  "benchmarked_sentences": 50,
+  "total_projected_spans": 157,
+  "successful_round_trips": 59,
+  "round_trip_rate": 0.37579617834394907,
+  "benchmark_duration_seconds": 907.4673752784729,
+  "estimated_turn2_wall_time_minutes": 756.2228127320608,
+  "gates": {
+    "at_least_one_translator_and_two_distinct_english_ner_models_available": true,
+    "every_selected_resource_has_redistribution_or_local_research_permission": true,
+    "projected_span_round_trip_rate_at_least_0.98": false,
+    "estimated_full_turn2_wall_time_at_most_180_minutes": false
+  }
+}
