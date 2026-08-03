@@ -1594,3 +1594,27 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   sentences/766 mentions and 3,000 test sentences/1,136 mentions. Five focused
   conversion, metric, threshold and exact-support tests pass. Training is in
   progress; no target ZIP exists at this checkpoint.
+
+## 2026-08-03 — H59 outcome and H60 semantic rejection
+
+- H59 selected epoch 2 and threshold 0.80. It passed source calibration with
+  dev precision/F1 0.901084/0.884309 and test precision/F1
+  0.921305/0.881543, but found zero exact supports among 131 H58 Qwen-only
+  clinical proposals. The preregistered target gate failed; no H59 ZIP exists.
+- H60 was registered from aggregate overlap counts before row-level text review.
+  It produced 162 one-to-one containment replacements across 61 records and
+  passed technical validation, but semantic audit found 45 single-token spans,
+  33 spans at most three characters, and median new/old length ratio 0.466667.
+  H60 is marked `DO_NOT_SUBMIT`; its local ZIP is retained only for audit.
+
+## 2026-08-03 — H61 target-adaptive boundary model preregistration
+
+- Registered task-adaptive masked-language pretraining on the unlabeled Turn2
+  corpus before any H61 training. The encoder then receives the unchanged
+  PhoNER source supervision and H59 source gates.
+- Target gates were locked from the H60 failure signature: at least 600 exact
+  H38 confirmations, 80-180 one-to-one nonexact clinical rows, <=10%
+  single-token replacements, <=5 rows of at most three characters, and median
+  new/old character ratio >=0.70.
+- Added deterministic TAPT code and focused tests. No target output or H61
+  checkpoint existed when the gates were locked.

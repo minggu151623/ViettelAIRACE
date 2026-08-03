@@ -1,0 +1,52 @@
+hypothesis: H61_turn2_task_adaptive_pretraining
+status: preregistered_before_TAPT_training
+created_at: "2026-08-03T20:25:00+07:00"
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+unlabelled_target:
+  archive: input_turn2_vong1.zip
+  sha256: 989d82404a9c1f3739e15d68a1e69d0f1f90d35c93c04ab0988e071fc1525545
+  labels_used: none
+mechanism: >
+  Continue masked-language pretraining on the exact unlabelled Turn2 corpus
+  before applying the unchanged PhoNER human-supervised fine-tuning. This tests
+  task-adaptive pretraining as a domain bridge rather than filtering H60 after
+  observing its rows.
+literature:
+  primary: https://aclanthology.org/2020.acl-main.740/
+  supported_claim: >
+    Task-adaptive pretraining on unlabelled task text can improve downstream
+    transfer after general pretraining; it does not guarantee this NER result.
+TAPT:
+  base: cbc-528a/BamiBERT-ViMedNER
+  objective: masked_language_modeling
+  mask_probability: 0.15
+  max_length: 256
+  stride: 32
+  epochs: 3
+  batch_size: 16
+  learning_rate: 0.00005
+  seed: 61
+source_finetuning:
+  dataset: PhoNER_COVID19_revision_9af190aa76adcfad0a2d14fab9bcab2b252c9c2e
+  settings: identical_to_H59_except_TAPT_initialized_encoder
+source_gates:
+  dev_precision_minimum: 0.90
+  dev_f1_minimum: 0.65
+  one_shot_test_precision_minimum: 0.85
+  one_shot_test_f1_minimum: 0.60
+target_blind_gates:
+  exact_H38_confirmations_minimum: 600
+  one_to_one_nonexact_clinical_rows_minimum: 80
+  one_to_one_nonexact_clinical_rows_maximum: 180
+  single_token_replacement_rate_maximum: 0.10
+  at_most_three_character_replacements_maximum: 5
+  median_new_to_old_character_ratio_minimum: 0.70
+integration_if_all_gates_pass:
+  policy: H60_one_to_one_boundary_only_resegmentation
+  preserve: [type, assertions, candidates, entity_count]
+  validate_all_records: true
+  require_byte_identical_repeat_zip: true
+failure_policy: no_submission_artifact_if_any_source_or_target_gate_fails

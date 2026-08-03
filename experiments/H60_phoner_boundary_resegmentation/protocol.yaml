@@ -1,0 +1,65 @@
+hypothesis: H60_phoner_boundary_resegmentation
+status: technical_pass_semantic_audit_reject
+created_at: "2026-08-03T20:05:00+07:00"
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+teacher:
+  experiment: H59_phoner_boundary_teacher
+  model_sha256: a3d005f86d6ff4a377463b338cc49a79968dc183ccd639a4477ff901dd62b430
+  frozen_threshold: 0.80
+  source_dev_precision: 0.901084
+  source_dev_f1: 0.884309
+  source_test_precision: 0.921305
+  source_test_f1: 0.881543
+evidence_before_registration:
+  target_teacher_spans: 854
+  exact_H38_confirmations: 653
+  any_H38_overlaps: 837
+  nonexact_H38_overlaps: 184
+  one_to_one_clinical_containment_rows: 168
+  unique_baseline_rows_in_that_set: 165
+  baseline_rows_with_competing_teacher_spans: 3
+question: >
+  Can an independently human-supervised, source-calibrated boundary teacher
+  improve H38 by resegmenting only unambiguous existing clinical entities,
+  while preserving all BTC type, assertion and candidate decisions?
+selection:
+  teacher_confidence: at_least_0.80
+  baseline_types: [CHẨN_ĐOÁN, TRIỆU_CHỨNG]
+  required_overlap_count: exactly_one_baseline_entity
+  allowed_relations: [teacher_strictly_inside_baseline, baseline_strictly_inside_teacher]
+  forbidden_relations: [exact, partial_overlap, disjoint, overlaps_multiple_baseline_entities]
+  competing_teacher_policy: reject_all_if_two_or_more_teacher_spans_target_same_baseline_row
+  type: inherit_baseline
+  assertions: inherit_baseline
+  candidates: inherit_baseline
+  entity_count: unchanged
+gates:
+  - baseline_hash_matches
+  - teacher_model_hash_matches
+  - source_calibration_decision_is_PASS
+  - at_least_120_and_at_most_180_replacements
+  - every_replacement_is_one_to_one_strict_containment
+  - no_baseline_additions_or_net_deletions
+  - type_assertions_candidates_unchanged_per_replaced_row
+  - no_overlapping_final_entities
+  - all_100_records_validate
+  - repeated_zip_byte_identical
+failure_policy: no_submission_artifact_if_any_gate_fails
+outcome:
+  technical_decision: PASS
+  replacements: 162
+  records_changed: 61
+  zip_sha256: a7f6fbe3d464ca61037d0b1f20f6ceb10a054693ac1e951ec490a2cc53fa0cf6
+  submission_recommendation: DO_NOT_SUBMIT
+  semantic_audit:
+    single_token_new_spans: 45
+    new_span_under_half_old_length: 85
+    new_span_at_most_three_characters: 33
+    median_new_to_old_character_ratio: 0.466667
+interpretation_limits:
+  - Source-domain exact precision does not guarantee Turn2 improvement.
+  - H58 does not isolate its 55 boundary replacements from 167 additions.
+  - A positive leaderboard result would support boundary-policy transfer, not BTC type transfer.

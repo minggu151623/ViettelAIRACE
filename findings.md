@@ -988,3 +988,38 @@ The strongest verified direction is conservative structural cleanup:
   The external result does not separately identify the effect of the 55
   supported boundary replacements or 30 supported disjoint additions, so they
   may be studied offline but are not authorized as blind micro-submissions.
+
+## 2026-08-03 — H59 transfers source boundaries but not target proposals
+
+- A clinical-boundary teacher trained on the official PhoNER-COVID19 splits
+  passes all frozen source gates at threshold 0.80: dev precision/F1 are
+  0.9011/0.8843 and one-shot test precision/F1 are 0.9213/0.8815.
+- The teacher confirms 653 H38 spans exactly and overlaps 837, but exactly
+  supports none of H58's 131 Qwen-only clinical proposals. H59 therefore fails
+  its target materiality gate and creates no submission artifact.
+- PhoNER guidelines exclude negated clinical mentions and favor complete
+  disease/symptom phrases. Teacher presence is positive boundary evidence;
+  absence cannot justify deletion or assertion transfer.
+
+## 2026-08-03 — H60 exposes target-domain fragmentation
+
+- One-to-one containment generated 162 technically valid boundary replacements
+  across 61 records while preserving types, assertions, candidates and entity
+  count. The deterministic local ZIP passes schema and offset checks.
+- Semantic audit rejects it: 45 new spans are single tokens, 33 are at most
+  three characters, 85 are under half the old span length, and median new/old
+  character ratio is only 0.4667. Examples include lexical fragments such as
+  `Đái`, `Tê`, `buồn` and `đau`. H60 must not be submitted.
+- This is direct evidence of source-to-target boundary drift. Source precision
+  alone is insufficient; target adaptation must precede another integration.
+
+## 2026-08-03 — H61 preregisters task-adaptive pretraining
+
+- H61 performs masked-language pretraining on the unlabeled Turn2 records,
+  starting from BamiBERT-ViMedNER, before unchanged PhoNER fine-tuning.
+- No H38, Qwen or leaderboard labels enter training. Frozen source gates retain
+  H59's precision/F1 floors, while target gates explicitly bound fragmentation:
+  single-token rate <=10%, at most five <=3-character rows, and median boundary
+  length ratio >=0.70.
+- Failure of any gate means no ZIP. This is a core representation change, not a
+  post-hoc threshold variant.

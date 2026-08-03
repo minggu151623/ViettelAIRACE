@@ -1,0 +1,7051 @@
+{
+  "hypothesis": "H59_phoner_boundary_teacher",
+  "threshold": 0.8,
+  "eligible_qwen_clinical": 131,
+  "added_rows": 0,
+  "added_types": {},
+  "records_changed": 0,
+  "rejected_baseline_overlap": 0,
+  "selected_rows": [],
+  "target_teacher_audit": {
+    "1": [
+      {
+        "text": "Sốt cao",
+        "position": [
+          1632,
+          1639
+        ],
+        "confidence": 0.927392
+      },
+      {
+        "text": "Tim đập nhanh",
+        "position": [
+          1669,
+          1682
+        ],
+        "confidence": 0.881087
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1684,
+          1691
+        ],
+        "confidence": 0.854317
+      },
+      {
+        "text": "Vàng da",
+        "position": [
+          1695,
+          1702
+        ],
+        "confidence": 0.916686
+      },
+      {
+        "text": "vàng mắt",
+        "position": [
+          1704,
+          1712
+        ],
+        "confidence": 0.911112
+      },
+      {
+        "text": "thiếu máu",
+        "position": [
+          1758,
+          1767
+        ],
+        "confidence": 0.819654
+      },
+      {
+        "text": "thiếu máu",
+        "position": [
+          1821,
+          1830
+        ],
+        "confidence": 0.916955
+      },
+      {
+        "text": "vàng da vàng mắt",
+        "position": [
+          1832,
+          1848
+        ],
+        "confidence": 0.919826
+      },
+      {
+        "text": "suy thận cấp",
+        "position": [
+          1861,
+          1873
+        ],
+        "confidence": 0.936292
+      },
+      {
+        "text": "bại não",
+        "position": [
+          1995,
+          2002
+        ],
+        "confidence": 0.865871
+      },
+      {
+        "text": "thiếu máu tan huyết",
+        "position": [
+          2464,
+          2483
+        ],
+        "confidence": 0.875949
+      },
+      {
+        "text": "vàng da nặng",
+        "position": [
+          2501,
+          2513
+        ],
+        "confidence": 0.832258
+      },
+      {
+        "text": "Rối loạn vận động",
+        "position": [
+          2619,
+          2636
+        ],
+        "confidence": 0.82549
+      },
+      {
+        "text": "thiếu máu tan huyết",
+        "position": [
+          2696,
+          2715
+        ],
+        "confidence": 0.874871
+      },
+      {
+        "text": "vàng da",
+        "position": [
+          2728,
+          2735
+        ],
+        "confidence": 0.804678
+      }
+    ],
+    "2": [
+      {
+        "text": "sốt cấp kéo dài",
+        "position": [
+          53,
+          68
+        ],
+        "confidence": 0.865179
+      },
+      {
+        "text": "viêm tim",
+        "position": [
+          555,
+          563
+        ],
+        "confidence": 0.936361
+      },
+      {
+        "text": "phình giãn động mạch vành",
+        "position": [
+          565,
+          590
+        ],
+        "confidence": 0.921992
+      },
+      {
+        "text": "nhồi máu cơ tim",
+        "position": [
+          600,
+          615
+        ],
+        "confidence": 0.933842
+      },
+      {
+        "text": "hẹp tắc mạch vành",
+        "position": [
+          622,
+          639
+        ],
+        "confidence": 0.909769
+      },
+      {
+        "text": "suy tim",
+        "position": [
+          644,
+          651
+        ],
+        "confidence": 0.907557
+      },
+      {
+        "text": "sốt",
+        "position": [
+          1423,
+          1426
+        ],
+        "confidence": 0.916122
+      },
+      {
+        "text": "Viêm kết mạc 2 bên",
+        "position": [
+          1544,
+          1562
+        ],
+        "confidence": 0.832019
+      },
+      {
+        "text": "sốt cao",
+        "position": [
+          3550,
+          3557
+        ],
+        "confidence": 0.885752
+      },
+      {
+        "text": "đỏ mắt",
+        "position": [
+          3587,
+          3593
+        ],
+        "confidence": 0.908206
+      },
+      {
+        "text": "ban đỏ",
+        "position": [
+          3595,
+          3601
+        ],
+        "confidence": 0.877863
+      },
+      {
+        "text": "lưỡi đỏ dâu tây",
+        "position": [
+          3617,
+          3632
+        ],
+        "confidence": 0.805903
+      },
+      {
+        "text": "sưng hạch cổ",
+        "position": [
+          3638,
+          3650
+        ],
+        "confidence": 0.913908
+      }
+    ],
+    "3": [
+      {
+        "text": "run tay",
+        "position": [
+          35,
+          42
+        ],
+        "confidence": 0.899514
+      },
+      {
+        "text": "run tay",
+        "position": [
+          79,
+          86
+        ],
+        "confidence": 0.869631
+      },
+      {
+        "text": "hội",
+        "position": [
+          510,
+          513
+        ],
+        "confidence": 0.858834
+      },
+      {
+        "text": "run tay chân",
+        "position": [
+          535,
+          547
+        ],
+        "confidence": 0.878801
+      },
+      {
+        "text": "mất",
+        "position": [
+          549,
+          552
+        ],
+        "confidence": 0.835496
+      },
+      {
+        "text": "run rấy toàn thân",
+        "position": [
+          576,
+          593
+        ],
+        "confidence": 0.813649
+      },
+      {
+        "text": "đau thắt ngực",
+        "position": [
+          660,
+          673
+        ],
+        "confidence": 0.922768
+      },
+      {
+        "text": "chóng mặt",
+        "position": [
+          808,
+          817
+        ],
+        "confidence": 0.908168
+      },
+      {
+        "text": "ù tai",
+        "position": [
+          819,
+          824
+        ],
+        "confidence": 0.926103
+      },
+      {
+        "text": "rối loạn thị lực",
+        "position": [
+          826,
+          842
+        ],
+        "confidence": 0.92233
+      },
+      {
+        "text": "co giật",
+        "position": [
+          2126,
+          2133
+        ],
+        "confidence": 0.821132
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          2259,
+          2266
+        ],
+        "confidence": 0.807354
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          2565,
+          2572
+        ],
+        "confidence": 0.893122
+      },
+      {
+        "text": "suy giảm tri giác",
+        "position": [
+          3301,
+          3318
+        ],
+        "confidence": 0.806329
+      }
+    ],
+    "4": [
+      {
+        "text": "buồn nôn",
+        "position": [
+          73,
+          81
+        ],
+        "confidence": 0.909712
+      },
+      {
+        "text": "tiêu chảy",
+        "position": [
+          85,
+          94
+        ],
+        "confidence": 0.899362
+      },
+      {
+        "text": "Nôn",
+        "position": [
+          118,
+          121
+        ],
+        "confidence": 0.859048
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          144,
+          160
+        ],
+        "confidence": 0.92595
+      },
+      {
+        "text": "hội chứng ruột kích thích",
+        "position": [
+          226,
+          251
+        ],
+        "confidence": 0.873703
+      },
+      {
+        "text": "hội chứng ruột kích thích",
+        "position": [
+          268,
+          293
+        ],
+        "confidence": 0.810781
+      },
+      {
+        "text": "loét tá tràng",
+        "position": [
+          390,
+          403
+        ],
+        "confidence": 0.860448
+      },
+      {
+        "text": "Viêm thực quản độ C",
+        "position": [
+          478,
+          497
+        ],
+        "confidence": 0.905537
+      },
+      {
+        "text": "buồn",
+        "position": [
+          809,
+          813
+        ],
+        "confidence": 0.916652
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          809,
+          817
+        ],
+        "confidence": 0.918109
+      },
+      {
+        "text": "tiêu chảy",
+        "position": [
+          821,
+          830
+        ],
+        "confidence": 0.913242
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          842,
+          858
+        ],
+        "confidence": 0.936759
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          937,
+          945
+        ],
+        "confidence": 0.934165
+      },
+      {
+        "text": "tiêu chảy",
+        "position": [
+          949,
+          958
+        ],
+        "confidence": 0.908561
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          975,
+          991
+        ],
+        "confidence": 0.925836
+      },
+      {
+        "text": "Nôn",
+        "position": [
+          1008,
+          1011
+        ],
+        "confidence": 0.943226
+      },
+      {
+        "text": "Nôn ra máu",
+        "position": [
+          1008,
+          1018
+        ],
+        "confidence": 0.900006
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          1035,
+          1051
+        ],
+        "confidence": 0.928341
+      },
+      {
+        "text": "Nôn",
+        "position": [
+          1068,
+          1071
+        ],
+        "confidence": 0.939362
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          1115,
+          1123
+        ],
+        "confidence": 0.941686
+      },
+      {
+        "text": "nôn ra máu",
+        "position": [
+          1127,
+          1137
+        ],
+        "confidence": 0.919977
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          1244,
+          1252
+        ],
+        "confidence": 0.947562
+      },
+      {
+        "text": "tiêu chảy",
+        "position": [
+          1256,
+          1265
+        ],
+        "confidence": 0.938821
+      },
+      {
+        "text": "loét tá tràng",
+        "position": [
+          1314,
+          1327
+        ],
+        "confidence": 0.917988
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          1406,
+          1422
+        ],
+        "confidence": 0.857941
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          1460,
+          1476
+        ],
+        "confidence": 0.943459
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          1534,
+          1542
+        ],
+        "confidence": 0.925885
+      },
+      {
+        "text": "tiêu chảy",
+        "position": [
+          1544,
+          1553
+        ],
+        "confidence": 0.935172
+      },
+      {
+        "text": "nôn ra máu",
+        "position": [
+          1555,
+          1565
+        ],
+        "confidence": 0.915122
+      },
+      {
+        "text": "loét tá tràng",
+        "position": [
+          1590,
+          1603
+        ],
+        "confidence": 0.85717
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          1776,
+          1784
+        ],
+        "confidence": 0.937086
+      },
+      {
+        "text": "nôn ra máu",
+        "position": [
+          1788,
+          1798
+        ],
+        "confidence": 0.909419
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          2025,
+          2041
+        ],
+        "confidence": 0.950719
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          2120,
+          2128
+        ],
+        "confidence": 0.850232
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          2158,
+          2174
+        ],
+        "confidence": 0.924017
+      },
+      {
+        "text": "nôn ra máu",
+        "position": [
+          2204,
+          2214
+        ],
+        "confidence": 0.836909
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          2231,
+          2247
+        ],
+        "confidence": 0.937781
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          2330,
+          2346
+        ],
+        "confidence": 0.934402
+      },
+      {
+        "text": "viêm dạ dày ruột",
+        "position": [
+          2426,
+          2442
+        ],
+        "confidence": 0.938674
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          2541,
+          2549
+        ],
+        "confidence": 0.934416
+      },
+      {
+        "text": "nôn ra máu",
+        "position": [
+          2553,
+          2563
+        ],
+        "confidence": 0.901518
+      },
+      {
+        "text": "ung thư tuyến giáp",
+        "position": [
+          2625,
+          2643
+        ],
+        "confidence": 0.909784
+      }
+    ],
+    "5": [
+      {
+        "text": "Hội chứng buồng trứng đa nang",
+        "position": [
+          982,
+          1011
+        ],
+        "confidence": 0.836379
+      },
+      {
+        "text": "rậm lông",
+        "position": [
+          1021,
+          1029
+        ],
+        "confidence": 0.872213
+      },
+      {
+        "text": "béo phì",
+        "position": [
+          1031,
+          1038
+        ],
+        "confidence": 0.859228
+      },
+      {
+        "text": "nôn",
+        "position": [
+          1179,
+          1182
+        ],
+        "confidence": 0.922343
+      },
+      {
+        "text": "sốt",
+        "position": [
+          1184,
+          1187
+        ],
+        "confidence": 0.941542
+      },
+      {
+        "text": "ung thư biểu mô tuyến",
+        "position": [
+          1605,
+          1626
+        ],
+        "confidence": 0.888336
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          1939,
+          1947
+        ],
+        "confidence": 0.814253
+      },
+      {
+        "text": "nôn",
+        "position": [
+          1949,
+          1952
+        ],
+        "confidence": 0.927858
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          1954,
+          1962
+        ],
+        "confidence": 0.921562
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1969,
+          1976
+        ],
+        "confidence": 0.915548
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          2366,
+          2374
+        ],
+        "confidence": 0.835395
+      },
+      {
+        "text": "nôn",
+        "position": [
+          2376,
+          2379
+        ],
+        "confidence": 0.93372
+      },
+      {
+        "text": "sốt",
+        "position": [
+          2381,
+          2384
+        ],
+        "confidence": 0.941054
+      }
+    ],
+    "6": [
+      {
+        "text": "Bệnh tim mạch",
+        "position": [
+          21,
+          34
+        ],
+        "confidence": 0.897234
+      },
+      {
+        "text": "xơ vữa động mạch",
+        "position": [
+          38,
+          54
+        ],
+        "confidence": 0.882894
+      },
+      {
+        "text": "ăng huyết áp",
+        "position": [
+          56,
+          68
+        ],
+        "confidence": 0.889083
+      },
+      {
+        "text": "Rối loạn lipid máu",
+        "position": [
+          69,
+          87
+        ],
+        "confidence": 0.922168
+      },
+      {
+        "text": "Đái",
+        "position": [
+          89,
+          92
+        ],
+        "confidence": 0.906573
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          89,
+          103
+        ],
+        "confidence": 0.880147
+      },
+      {
+        "text": "Tê",
+        "position": [
+          2077,
+          2079
+        ],
+        "confidence": 0.907263
+      }
+    ],
+    "7": [
+      {
+        "text": "đau bao tử",
+        "position": [
+          113,
+          123
+        ],
+        "confidence": 0.879796
+      },
+      {
+        "text": "đau bụng râm ran",
+        "position": [
+          1030,
+          1046
+        ],
+        "confidence": 0.887636
+      },
+      {
+        "text": "ợ nóng",
+        "position": [
+          2346,
+          2352
+        ],
+        "confidence": 0.869341
+      },
+      {
+        "text": "trào ngược dạ dày thực quản",
+        "position": [
+          2358,
+          2385
+        ],
+        "confidence": 0.928
+      },
+      {
+        "text": "viêm dạ dày",
+        "position": [
+          3167,
+          3178
+        ],
+        "confidence": 0.846584
+      }
+    ],
+    "8": [
+      {
+        "text": "ho Rối loạn cảm xúc",
+        "position": [
+          48,
+          67
+        ],
+        "confidence": 0.882143
+      },
+      {
+        "text": "chóng mặt",
+        "position": [
+          237,
+          246
+        ],
+        "confidence": 0.905892
+      },
+      {
+        "text": "rối loạn thị giác",
+        "position": [
+          560,
+          577
+        ],
+        "confidence": 0.918107
+      },
+      {
+        "text": "Lú",
+        "position": [
+          817,
+          819
+        ],
+        "confidence": 0.821882
+      },
+      {
+        "text": "chóng mặt",
+        "position": [
+          840,
+          849
+        ],
+        "confidence": 0.825594
+      },
+      {
+        "text": "rối loạn thị giác",
+        "position": [
+          886,
+          903
+        ],
+        "confidence": 0.832595
+      },
+      {
+        "text": "Sưng",
+        "position": [
+          2159,
+          2163
+        ],
+        "confidence": 0.952884
+      },
+      {
+        "text": "Sưng hạch cổ",
+        "position": [
+          2159,
+          2171
+        ],
+        "confidence": 0.899559
+      },
+      {
+        "text": "sốt siêu vi",
+        "position": [
+          2281,
+          2292
+        ],
+        "confidence": 0.871215
+      },
+      {
+        "text": "sốt phát ban",
+        "position": [
+          2294,
+          2306
+        ],
+        "confidence": 0.915574
+      },
+      {
+        "text": "nhiễm trùng",
+        "position": [
+          2308,
+          2319
+        ],
+        "confidence": 0.885617
+      },
+      {
+        "text": "sốt cao",
+        "position": [
+          2329,
+          2336
+        ],
+        "confidence": 0.832964
+      },
+      {
+        "text": "đỏ mắt",
+        "position": [
+          2348,
+          2354
+        ],
+        "confidence": 0.886612
+      },
+      {
+        "text": "môi đỏ",
+        "position": [
+          2368,
+          2374
+        ],
+        "confidence": 0.861822
+      },
+      {
+        "text": "Phình",
+        "position": [
+          2565,
+          2570
+        ],
+        "confidence": 0.935165
+      },
+      {
+        "text": "Phình giãn động mạch vành",
+        "position": [
+          2565,
+          2590
+        ],
+        "confidence": 0.901128
+      },
+      {
+        "text": "tắc động mạch vành",
+        "position": [
+          2600,
+          2618
+        ],
+        "confidence": 0.88616
+      },
+      {
+        "text": "Thiếu máu cơ tim",
+        "position": [
+          2622,
+          2638
+        ],
+        "confidence": 0.853271
+      },
+      {
+        "text": "Nhồi máu cơ tim",
+        "position": [
+          2642,
+          2657
+        ],
+        "confidence": 0.942422
+      },
+      {
+        "text": "Suy vành mạn tính",
+        "position": [
+          2661,
+          2678
+        ],
+        "confidence": 0.918891
+      },
+      {
+        "text": "Viêm cơ tim",
+        "position": [
+          2764,
+          2775
+        ],
+        "confidence": 0.935594
+      },
+      {
+        "text": "Tràn dịch màng tim",
+        "position": [
+          2779,
+          2797
+        ],
+        "confidence": 0.847803
+      },
+      {
+        "text": "Tăng men gan",
+        "position": [
+          2801,
+          2813
+        ],
+        "confidence": 0.92609
+      },
+      {
+        "text": "Rối loạn tiêu hóa",
+        "position": [
+          2817,
+          2834
+        ],
+        "confidence": 0.917913
+      },
+      {
+        "text": "Sốt",
+        "position": [
+          2885,
+          2888
+        ],
+        "confidence": 0.932919
+      }
+    ],
+    "9": [
+      {
+        "text": "đau bao tử",
+        "position": [
+          113,
+          123
+        ],
+        "confidence": 0.879796
+      },
+      {
+        "text": "đau bụng râm ran",
+        "position": [
+          1030,
+          1046
+        ],
+        "confidence": 0.887636
+      },
+      {
+        "text": "ợ nóng",
+        "position": [
+          2346,
+          2352
+        ],
+        "confidence": 0.88073
+      },
+      {
+        "text": "trào ngược dạ dày thực quản",
+        "position": [
+          2358,
+          2385
+        ],
+        "confidence": 0.937529
+      }
+    ],
+    "10": [
+      {
+        "text": "viêm tuyến mồ hôi",
+        "position": [
+          98,
+          115
+        ],
+        "confidence": 0.909861
+      },
+      {
+        "text": "đánh trống ngực",
+        "position": [
+          497,
+          512
+        ],
+        "confidence": 0.846015
+      },
+      {
+        "text": "Khó thở",
+        "position": [
+          688,
+          695
+        ],
+        "confidence": 0.875605
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          832,
+          839
+        ],
+        "confidence": 0.861456
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1121,
+          1128
+        ],
+        "confidence": 0.829135
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          2115,
+          2122
+        ],
+        "confidence": 0.897604
+      },
+      {
+        "text": "Viêm gan cấp tính",
+        "position": [
+          2506,
+          2523
+        ],
+        "confidence": 0.926045
+      }
+    ],
+    "11": [
+      {
+        "text": "Bệnh tim mạch",
+        "position": [
+          21,
+          34
+        ],
+        "confidence": 0.897234
+      },
+      {
+        "text": "xơ vữa động mạch",
+        "position": [
+          38,
+          54
+        ],
+        "confidence": 0.882894
+      },
+      {
+        "text": "ăng huyết áp",
+        "position": [
+          56,
+          68
+        ],
+        "confidence": 0.889083
+      },
+      {
+        "text": "Rối loạn lipid máu",
+        "position": [
+          69,
+          87
+        ],
+        "confidence": 0.922168
+      },
+      {
+        "text": "Đái",
+        "position": [
+          89,
+          92
+        ],
+        "confidence": 0.906573
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          89,
+          103
+        ],
+        "confidence": 0.880147
+      }
+    ],
+    "12": [
+      {
+        "text": "Bệnh phổi kẽ",
+        "position": [
+          44,
+          56
+        ],
+        "confidence": 0.802879
+      },
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          184,
+          197
+        ],
+        "confidence": 0.871427
+      }
+    ],
+    "13": [
+      {
+        "text": "đau ngực trái cấp tính",
+        "position": [
+          2243,
+          2265
+        ],
+        "confidence": 0.842457
+      },
+      {
+        "text": "đau sau xương ức",
+        "position": [
+          2269,
+          2285
+        ],
+        "confidence": 0.897639
+      }
+    ],
+    "14": [
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          698,
+          711
+        ],
+        "confidence": 0.892996
+      },
+      {
+        "text": "tăng lipid máu",
+        "position": [
+          718,
+          732
+        ],
+        "confidence": 0.891657
+      },
+      {
+        "text": "Đái tháo đường típ",
+        "position": [
+          755,
+          773
+        ],
+        "confidence": 0.835752
+      },
+      {
+        "text": "hẹp ống sống",
+        "position": [
+          782,
+          794
+        ],
+        "confidence": 0.837537
+      },
+      {
+        "text": "tăng sản tuyến tiền liệt",
+        "position": [
+          864,
+          888
+        ],
+        "confidence": 0.864905
+      },
+      {
+        "text": "Lú",
+        "position": [
+          1131,
+          1133
+        ],
+        "confidence": 0.810342
+      },
+      {
+        "text": "Lú",
+        "position": [
+          1278,
+          1280
+        ],
+        "confidence": 0.877653
+      }
+    ],
+    "15": [
+      {
+        "text": "Bệnh phổi kẽ",
+        "position": [
+          44,
+          56
+        ],
+        "confidence": 0.802879
+      },
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          184,
+          197
+        ],
+        "confidence": 0.871427
+      },
+      {
+        "text": "ban đỏ",
+        "position": [
+          1860,
+          1866
+        ],
+        "confidence": 0.878168
+      },
+      {
+        "text": "chảy mủ",
+        "position": [
+          1868,
+          1875
+        ],
+        "confidence": 0.838644
+      },
+      {
+        "text": "Viêm mô tế bào",
+        "position": [
+          2029,
+          2043
+        ],
+        "confidence": 0.828829
+      }
+    ],
+    "16": [],
+    "17": [
+      {
+        "text": "chảy máu chân răng",
+        "position": [
+          74,
+          92
+        ],
+        "confidence": 0.830046
+      },
+      {
+        "text": "chảy máu chân răng",
+        "position": [
+          452,
+          470
+        ],
+        "confidence": 0.887208
+      },
+      {
+        "text": "hôi miệng",
+        "position": [
+          475,
+          484
+        ],
+        "confidence": 0.909229
+      },
+      {
+        "text": "Viêm nha chu",
+        "position": [
+          712,
+          724
+        ],
+        "confidence": 0.883709
+      },
+      {
+        "text": "sưng nướu",
+        "position": [
+          809,
+          818
+        ],
+        "confidence": 0.870501
+      },
+      {
+        "text": "hôi miệng",
+        "position": [
+          838,
+          847
+        ],
+        "confidence": 0.879235
+      },
+      {
+        "text": "Viêm nha chu",
+        "position": [
+          856,
+          868
+        ],
+        "confidence": 0.894787
+      },
+      {
+        "text": "viêm khớp dạng thấp",
+        "position": [
+          945,
+          964
+        ],
+        "confidence": 0.904232
+      },
+      {
+        "text": "viêm nha chu",
+        "position": [
+          1083,
+          1095
+        ],
+        "confidence": 0.838113
+      },
+      {
+        "text": "Hôi",
+        "position": [
+          1097,
+          1100
+        ],
+        "confidence": 0.892493
+      },
+      {
+        "text": "chảy máu chân răng",
+        "position": [
+          1110,
+          1128
+        ],
+        "confidence": 0.842693
+      },
+      {
+        "text": "Hôi",
+        "position": [
+          1185,
+          1188
+        ],
+        "confidence": 0.907011
+      },
+      {
+        "text": "Hôi miệng",
+        "position": [
+          1185,
+          1194
+        ],
+        "confidence": 0.846681
+      },
+      {
+        "text": "chảy máu chân răng",
+        "position": [
+          1198,
+          1216
+        ],
+        "confidence": 0.874591
+      },
+      {
+        "text": "hôi miệng",
+        "position": [
+          1536,
+          1545
+        ],
+        "confidence": 0.866038
+      },
+      {
+        "text": "chảy máu chân răng",
+        "position": [
+          1550,
+          1568
+        ],
+        "confidence": 0.856894
+      },
+      {
+        "text": "hôi miệng",
+        "position": [
+          1801,
+          1810
+        ],
+        "confidence": 0.88042
+      },
+      {
+        "text": "chảy máu chân răng",
+        "position": [
+          1812,
+          1830
+        ],
+        "confidence": 0.877816
+      },
+      {
+        "text": "mất răng",
+        "position": [
+          1834,
+          1842
+        ],
+        "confidence": 0.824117
+      },
+      {
+        "text": "bệnh phổi tắc nghẽn mạn tính",
+        "position": [
+          1881,
+          1909
+        ],
+        "confidence": 0.81646
+      },
+      {
+        "text": "hôi miệng",
+        "position": [
+          2340,
+          2349
+        ],
+        "confidence": 0.821813
+      }
+    ],
+    "18": [
+      {
+        "text": "thiếu máu cơ tim",
+        "position": [
+          254,
+          270
+        ],
+        "confidence": 0.842401
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          895,
+          903
+        ],
+        "confidence": 0.926683
+      },
+      {
+        "text": "sốt nhẹ",
+        "position": [
+          1113,
+          1120
+        ],
+        "confidence": 0.934091
+      },
+      {
+        "text": "38.3°C",
+        "position": [
+          1125,
+          1131
+        ],
+        "confidence": 0.810328
+      },
+      {
+        "text": "đau hạ sườn phải tái",
+        "position": [
+          1141,
+          1161
+        ],
+        "confidence": 0.879679
+      },
+      {
+        "text": "sốt",
+        "position": [
+          1283,
+          1286
+        ],
+        "confidence": 0.9458
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          1293,
+          1301
+        ],
+        "confidence": 0.926561
+      },
+      {
+        "text": "đau hạ sườn phải",
+        "position": [
+          1308,
+          1324
+        ],
+        "confidence": 0.927997
+      },
+      {
+        "text": "sốt nhẹ",
+        "position": [
+          1331,
+          1338
+        ],
+        "confidence": 0.922941
+      },
+      {
+        "text": "đau hạ sườn phải",
+        "position": [
+          1356,
+          1372
+        ],
+        "confidence": 0.897264
+      },
+      {
+        "text": "đau hạ sườn phải liên tục",
+        "position": [
+          1408,
+          1433
+        ],
+        "confidence": 0.849813
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          1654,
+          1662
+        ],
+        "confidence": 0.906531
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1664,
+          1671
+        ],
+        "confidence": 0.899857
+      },
+      {
+        "text": "viêm túi mật cấp",
+        "position": [
+          1911,
+          1927
+        ],
+        "confidence": 0.837799
+      },
+      {
+        "text": "viêm túi mật cấp",
+        "position": [
+          2564,
+          2580
+        ],
+        "confidence": 0.916669
+      },
+      {
+        "text": "viêm túi mật cấp",
+        "position": [
+          2623,
+          2639
+        ],
+        "confidence": 0.92438
+      }
+    ],
+    "19": [
+      {
+        "text": "đau",
+        "position": [
+          761,
+          764
+        ],
+        "confidence": 0.86457
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          809,
+          817
+        ],
+        "confidence": 0.920363
+      },
+      {
+        "text": "táo bón",
+        "position": [
+          824,
+          831
+        ],
+        "confidence": 0.923532
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          838,
+          846
+        ],
+        "confidence": 0.91794
+      },
+      {
+        "text": "đau hố chậu",
+        "position": [
+          886,
+          897
+        ],
+        "confidence": 0.894679
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          999,
+          1007
+        ],
+        "confidence": 0.868831
+      }
+    ],
+    "20": [
+      {
+        "text": "Đau bụng hạ sườn phải",
+        "position": [
+          1082,
+          1103
+        ],
+        "confidence": 0.845564
+      }
+    ],
+    "21": [
+      {
+        "text": "Rối loạn chuyển hóa tinh bột",
+        "position": [
+          29,
+          57
+        ],
+        "confidence": 0.838611
+      },
+      {
+        "text": "đau bụng vùng hạ sườn phải",
+        "position": [
+          1605,
+          1631
+        ],
+        "confidence": 0.87607
+      },
+      {
+        "text": "chướng bụng",
+        "position": [
+          1638,
+          1649
+        ],
+        "confidence": 0.929663
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          1657,
+          1665
+        ],
+        "confidence": 0.900394
+      },
+      {
+        "text": "Nôn",
+        "position": [
+          1683,
+          1686
+        ],
+        "confidence": 0.941545
+      },
+      {
+        "text": "đau lưng âm ỉ",
+        "position": [
+          1711,
+          1724
+        ],
+        "confidence": 0.815544
+      },
+      {
+        "text": "đau bụng hạ sườn phải",
+        "position": [
+          1764,
+          1785
+        ],
+        "confidence": 0.922485
+      },
+      {
+        "text": "đau lưng",
+        "position": [
+          1787,
+          1795
+        ],
+        "confidence": 0.937967
+      },
+      {
+        "text": "đau",
+        "position": [
+          1928,
+          1931
+        ],
+        "confidence": 0.960812
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          1928,
+          1936
+        ],
+        "confidence": 0.934673
+      },
+      {
+        "text": "chướng bụng",
+        "position": [
+          1938,
+          1949
+        ],
+        "confidence": 0.938065
+      },
+      {
+        "text": "chướng bụng",
+        "position": [
+          1984,
+          1995
+        ],
+        "confidence": 0.916292
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          1998,
+          2006
+        ],
+        "confidence": 0.909548
+      },
+      {
+        "text": "nôn",
+        "position": [
+          2019,
+          2022
+        ],
+        "confidence": 0.949907
+      },
+      {
+        "text": "đau lưng",
+        "position": [
+          2024,
+          2032
+        ],
+        "confidence": 0.927665
+      },
+      {
+        "text": "viêm dạ dày",
+        "position": [
+          2159,
+          2170
+        ],
+        "confidence": 0.92924
+      }
+    ],
+    "22": [
+      {
+        "text": "đau bụng",
+        "position": [
+          376,
+          384
+        ],
+        "confidence": 0.901147
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          449,
+          457
+        ],
+        "confidence": 0.894619
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          590,
+          598
+        ],
+        "confidence": 0.874691
+      },
+      {
+        "text": "tăng",
+        "position": [
+          642,
+          646
+        ],
+        "confidence": 0.852585
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          775,
+          783
+        ],
+        "confidence": 0.917494
+      },
+      {
+        "text": "mệt mỏi toàn thân",
+        "position": [
+          821,
+          838
+        ],
+        "confidence": 0.896236
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          851,
+          858
+        ],
+        "confidence": 0.805715
+      },
+      {
+        "text": "ngứa toàn thân",
+        "position": [
+          874,
+          888
+        ],
+        "confidence": 0.841224
+      },
+      {
+        "text": "Đau vùng gan phải",
+        "position": [
+          952,
+          969
+        ],
+        "confidence": 0.833137
+      },
+      {
+        "text": "tăng men gan",
+        "position": [
+          2464,
+          2476
+        ],
+        "confidence": 0.878348
+      },
+      {
+        "text": "tăng bilirubin máu",
+        "position": [
+          2479,
+          2497
+        ],
+        "confidence": 0.846994
+      }
+    ],
+    "23": [
+      {
+        "text": "Mất ngủ",
+        "position": [
+          303,
+          310
+        ],
+        "confidence": 0.808818
+      },
+      {
+        "text": "rối loạn lo âu",
+        "position": [
+          438,
+          452
+        ],
+        "confidence": 0.85906
+      },
+      {
+        "text": "trầm",
+        "position": [
+          453,
+          457
+        ],
+        "confidence": 0.84017
+      },
+      {
+        "text": "stress",
+        "position": [
+          463,
+          469
+        ],
+        "confidence": 0.885258
+      },
+      {
+        "text": "tăng nhãn áp",
+        "position": [
+          848,
+          860
+        ],
+        "confidence": 0.877605
+      },
+      {
+        "text": "đau đầu kéo dài",
+        "position": [
+          1047,
+          1062
+        ],
+        "confidence": 0.889517
+      },
+      {
+        "text": "mờ mắt",
+        "position": [
+          1072,
+          1078
+        ],
+        "confidence": 0.928873
+      },
+      {
+        "text": "nhìn mờ",
+        "position": [
+          1116,
+          1123
+        ],
+        "confidence": 0.843071
+      },
+      {
+        "text": "não úng tuỷ",
+        "position": [
+          1190,
+          1201
+        ],
+        "confidence": 0.872224
+      },
+      {
+        "text": "tăng đau đầu",
+        "position": [
+          1339,
+          1351
+        ],
+        "confidence": 0.863746
+      },
+      {
+        "text": "đau đầu",
+        "position": [
+          1453,
+          1460
+        ],
+        "confidence": 0.901975
+      },
+      {
+        "text": "đau đầu",
+        "position": [
+          1705,
+          1712
+        ],
+        "confidence": 0.842317
+      },
+      {
+        "text": "phù gai thị",
+        "position": [
+          2126,
+          2137
+        ],
+        "confidence": 0.818313
+      },
+      {
+        "text": "Phù gai thị",
+        "position": [
+          2216,
+          2227
+        ],
+        "confidence": 0.859055
+      },
+      {
+        "text": "Phù gai thị",
+        "position": [
+          2422,
+          2433
+        ],
+        "confidence": 0.898188
+      }
+    ],
+    "24": [
+      {
+        "text": "mệt mỏi",
+        "position": [
+          49,
+          56
+        ],
+        "confidence": 0.911136
+      },
+      {
+        "text": "vàng da",
+        "position": [
+          58,
+          65
+        ],
+        "confidence": 0.908506
+      },
+      {
+        "text": "vàng mắt",
+        "position": [
+          67,
+          75
+        ],
+        "confidence": 0.893532
+      },
+      {
+        "text": "sốt nhẹ",
+        "position": [
+          238,
+          245
+        ],
+        "confidence": 0.883419
+      },
+      {
+        "text": "sốt nóng liên tục",
+        "position": [
+          256,
+          273
+        ],
+        "confidence": 0.846795
+      },
+      {
+        "text": "vàng da",
+        "position": [
+          400,
+          407
+        ],
+        "confidence": 0.899869
+      },
+      {
+        "text": "vàng niêm mạc",
+        "position": [
+          409,
+          422
+        ],
+        "confidence": 0.88106
+      },
+      {
+        "text": "sốt",
+        "position": [
+          441,
+          444
+        ],
+        "confidence": 0.937198
+      },
+      {
+        "text": "mệt mỏi nhiều",
+        "position": [
+          448,
+          461
+        ],
+        "confidence": 0.852288
+      },
+      {
+        "text": "viêm gan vàng da ứ mật",
+        "position": [
+          658,
+          680
+        ],
+        "confidence": 0.888644
+      },
+      {
+        "text": "mệt mỏi hết",
+        "position": [
+          1712,
+          1723
+        ],
+        "confidence": 0.854823
+      }
+    ],
+    "25": [
+      {
+        "text": "nám",
+        "position": [
+          1241,
+          1244
+        ],
+        "confidence": 0.848841
+      }
+    ],
+    "26": [
+      {
+        "text": "Bệnh mạch vành",
+        "position": [
+          52,
+          66
+        ],
+        "confidence": 0.827297
+      },
+      {
+        "text": "Bệnh mạch vành",
+        "position": [
+          76,
+          90
+        ],
+        "confidence": 0.860682
+      },
+      {
+        "text": "xơ vữa động mạch",
+        "position": [
+          208,
+          224
+        ],
+        "confidence": 0.800445
+      },
+      {
+        "text": "đau thắt ngực",
+        "position": [
+          288,
+          301
+        ],
+        "confidence": 0.94385
+      },
+      {
+        "text": "nhồi máu cơ tim",
+        "position": [
+          303,
+          318
+        ],
+        "confidence": 0.948965
+      },
+      {
+        "text": "suy tim",
+        "position": [
+          320,
+          327
+        ],
+        "confidence": 0.946845
+      },
+      {
+        "text": "Xơ vữa động mạch vành",
+        "position": [
+          399,
+          420
+        ],
+        "confidence": 0.893048
+      },
+      {
+        "text": "tắc mạch cấp",
+        "position": [
+          565,
+          577
+        ],
+        "confidence": 0.834582
+      },
+      {
+        "text": "bệnh tim mạch",
+        "position": [
+          661,
+          674
+        ],
+        "confidence": 0.856225
+      },
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          716,
+          729
+        ],
+        "confidence": 0.938814
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          733,
+          747
+        ],
+        "confidence": 0.954908
+      },
+      {
+        "text": "Rối loạn lipid máu",
+        "position": [
+          752,
+          770
+        ],
+        "confidence": 0.956339
+      },
+      {
+        "text": "Béo phì",
+        "position": [
+          774,
+          781
+        ],
+        "confidence": 0.91264
+      },
+      {
+        "text": "Đau thắt ngực",
+        "position": [
+          838,
+          851
+        ],
+        "confidence": 0.955999
+      },
+      {
+        "text": "Đau thắt ngực",
+        "position": [
+          1061,
+          1074
+        ],
+        "confidence": 0.947195
+      },
+      {
+        "text": "Hội chứng vành cấp",
+        "position": [
+          1124,
+          1142
+        ],
+        "confidence": 0.831248
+      },
+      {
+        "text": "Nhồi máu cơ tim ST chênh",
+        "position": [
+          1198,
+          1222
+        ],
+        "confidence": 0.955313
+      },
+      {
+        "text": "Nhồi",
+        "position": [
+          1226,
+          1230
+        ],
+        "confidence": 0.954784
+      },
+      {
+        "text": "Nhồi máu không",
+        "position": [
+          1226,
+          1240
+        ],
+        "confidence": 0.947578
+      },
+      {
+        "text": "Đau thắt ngực không ổn định",
+        "position": [
+          1253,
+          1280
+        ],
+        "confidence": 0.825835
+      },
+      {
+        "text": "Khó thở",
+        "position": [
+          1345,
+          1352
+        ],
+        "confidence": 0.919089
+      },
+      {
+        "text": "Buồn",
+        "position": [
+          1363,
+          1367
+        ],
+        "confidence": 0.932687
+      },
+      {
+        "text": "Đau thượng vị",
+        "position": [
+          1375,
+          1388
+        ],
+        "confidence": 0.936288
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          1428,
+          1436
+        ],
+        "confidence": 0.869316
+      },
+      {
+        "text": "vìviêm",
+        "position": [
+          1515,
+          1521
+        ],
+        "confidence": 0.905092
+      },
+      {
+        "text": "vìviêm tụy",
+        "position": [
+          1515,
+          1525
+        ],
+        "confidence": 0.858517
+      },
+      {
+        "text": "sốt",
+        "position": [
+          1883,
+          1886
+        ],
+        "confidence": 0.956392
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          1890,
+          1898
+        ],
+        "confidence": 0.944911
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          1951,
+          1959
+        ],
+        "confidence": 0.934002
+      },
+      {
+        "text": "sốt nhẹ",
+        "position": [
+          2015,
+          2022
+        ],
+        "confidence": 0.929376
+      },
+      {
+        "text": "đau hạ sườn phải",
+        "position": [
+          2043,
+          2059
+        ],
+        "confidence": 0.8806
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          2353,
+          2361
+        ],
+        "confidence": 0.950433
+      }
+    ],
+    "27": [
+      {
+        "text": "viêm phổi hoại tử",
+        "position": [
+          20,
+          37
+        ],
+        "confidence": 0.894151
+      },
+      {
+        "text": "viêm phổi",
+        "position": [
+          68,
+          77
+        ],
+        "confidence": 0.873047
+      },
+      {
+        "text": "Viêm phổi",
+        "position": [
+          211,
+          220
+        ],
+        "confidence": 0.915059
+      },
+      {
+        "text": "viêm phế quản",
+        "position": [
+          235,
+          248
+        ],
+        "confidence": 0.903641
+      },
+      {
+        "text": "Viêm phổi",
+        "position": [
+          391,
+          400
+        ],
+        "confidence": 0.892969
+      },
+      {
+        "text": "Viêm phổi hoại tử",
+        "position": [
+          572,
+          589
+        ],
+        "confidence": 0.845381
+      },
+      {
+        "text": "đau đầu",
+        "position": [
+          1488,
+          1495
+        ],
+        "confidence": 0.846912
+      },
+      {
+        "text": "đau đầu",
+        "position": [
+          1538,
+          1545
+        ],
+        "confidence": 0.88304
+      },
+      {
+        "text": "đau đầu",
+        "position": [
+          1741,
+          1748
+        ],
+        "confidence": 0.835322
+      },
+      {
+        "text": "phù gai thị",
+        "position": [
+          1909,
+          1920
+        ],
+        "confidence": 0.838443
+      },
+      {
+        "text": "Phù gai thị",
+        "position": [
+          1999,
+          2010
+        ],
+        "confidence": 0.853016
+      }
+    ],
+    "28": [
+      {
+        "text": "hẹp",
+        "position": [
+          2314,
+          2317
+        ],
+        "confidence": 0.810814
+      }
+    ],
+    "29": [
+      {
+        "text": "ho Bệnh bạch cầu dòng tủy mãn tính",
+        "position": [
+          43,
+          77
+        ],
+        "confidence": 0.884689
+      },
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          80,
+          93
+        ],
+        "confidence": 0.946029
+      },
+      {
+        "text": "Đái tháo đường típ 2",
+        "position": [
+          96,
+          116
+        ],
+        "confidence": 0.927057
+      },
+      {
+        "text": "ho Rung nhĩ",
+        "position": [
+          119,
+          130
+        ],
+        "confidence": 0.948083
+      },
+      {
+        "text": "bệnh thận mạn",
+        "position": [
+          156,
+          169
+        ],
+        "confidence": 0.921075
+      },
+      {
+        "text": "Khó thở tăng dần",
+        "position": [
+          222,
+          238
+        ],
+        "confidence": 0.9048
+      },
+      {
+        "text": "nghẹt ngực",
+        "position": [
+          343,
+          353
+        ],
+        "confidence": 0.926504
+      },
+      {
+        "text": "sốt",
+        "position": [
+          358,
+          361
+        ],
+        "confidence": 0.95791
+      },
+      {
+        "text": "nghẹt ngực",
+        "position": [
+          435,
+          445
+        ],
+        "confidence": 0.910334
+      },
+      {
+        "text": "khó thở tăng dần",
+        "position": [
+          504,
+          520
+        ],
+        "confidence": 0.841053
+      },
+      {
+        "text": "phù ngoại vi tăng dần",
+        "position": [
+          548,
+          569
+        ],
+        "confidence": 0.856385
+      },
+      {
+        "text": "sốt",
+        "position": [
+          640,
+          643
+        ],
+        "confidence": 0.964488
+      },
+      {
+        "text": "đau vai",
+        "position": [
+          647,
+          654
+        ],
+        "confidence": 0.945316
+      },
+      {
+        "text": "suy hô hấp",
+        "position": [
+          700,
+          710
+        ],
+        "confidence": 0.948196
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          715,
+          728
+        ],
+        "confidence": 0.903578
+      }
+    ],
+    "30": [
+      {
+        "text": "sốt",
+        "position": [
+          217,
+          220
+        ],
+        "confidence": 0.821341
+      },
+      {
+        "text": "đau",
+        "position": [
+          468,
+          471
+        ],
+        "confidence": 0.80432
+      },
+      {
+        "text": "phù",
+        "position": [
+          514,
+          517
+        ],
+        "confidence": 0.86784
+      }
+    ],
+    "31": [
+      {
+        "text": "đau đầu gối",
+        "position": [
+          77,
+          88
+        ],
+        "confidence": 0.92065
+      },
+      {
+        "text": "đau nhẹ",
+        "position": [
+          341,
+          348
+        ],
+        "confidence": 0.828983
+      },
+      {
+        "text": "nóng phần tinh hoàn",
+        "position": [
+          359,
+          378
+        ],
+        "confidence": 0.840658
+      },
+      {
+        "text": "Giãn",
+        "position": [
+          592,
+          596
+        ],
+        "confidence": 0.922592
+      },
+      {
+        "text": "Giãn thừng tinh",
+        "position": [
+          592,
+          607
+        ],
+        "confidence": 0.877653
+      },
+      {
+        "text": "đau bụng vùng hạ sườn phải",
+        "position": [
+          958,
+          984
+        ],
+        "confidence": 0.90568
+      },
+      {
+        "text": "chướng bụng",
+        "position": [
+          991,
+          1002
+        ],
+        "confidence": 0.934725
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          1010,
+          1018
+        ],
+        "confidence": 0.915698
+      },
+      {
+        "text": "Nôn",
+        "position": [
+          1036,
+          1039
+        ],
+        "confidence": 0.913765
+      },
+      {
+        "text": "đau lưng âm ỉ",
+        "position": [
+          1064,
+          1077
+        ],
+        "confidence": 0.834293
+      },
+      {
+        "text": "đau bụng hạ sườn phải",
+        "position": [
+          1117,
+          1138
+        ],
+        "confidence": 0.923089
+      },
+      {
+        "text": "đau lưng",
+        "position": [
+          1140,
+          1148
+        ],
+        "confidence": 0.943717
+      },
+      {
+        "text": "đau",
+        "position": [
+          1281,
+          1284
+        ],
+        "confidence": 0.955397
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          1281,
+          1289
+        ],
+        "confidence": 0.93366
+      },
+      {
+        "text": "chướng bụng",
+        "position": [
+          1291,
+          1302
+        ],
+        "confidence": 0.929414
+      },
+      {
+        "text": "chướng bụng",
+        "position": [
+          1337,
+          1348
+        ],
+        "confidence": 0.93233
+      },
+      {
+        "text": "buồn nôn thoáng",
+        "position": [
+          1351,
+          1366
+        ],
+        "confidence": 0.848842
+      },
+      {
+        "text": "nôn",
+        "position": [
+          1372,
+          1375
+        ],
+        "confidence": 0.935981
+      },
+      {
+        "text": "đau lưng kéo dài",
+        "position": [
+          1377,
+          1393
+        ],
+        "confidence": 0.824916
+      },
+      {
+        "text": "viêm dạ dày",
+        "position": [
+          1512,
+          1523
+        ],
+        "confidence": 0.889439
+      }
+    ],
+    "32": [
+      {
+        "text": "Rối loạn chuyển hóa tinh bột",
+        "position": [
+          29,
+          57
+        ],
+        "confidence": 0.890863
+      },
+      {
+        "text": "Bệnh thoái hóa tinh bột",
+        "position": [
+          308,
+          331
+        ],
+        "confidence": 0.804749
+      },
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          821,
+          834
+        ],
+        "confidence": 0.91687
+      },
+      {
+        "text": "tăng lipid máu",
+        "position": [
+          841,
+          855
+        ],
+        "confidence": 0.91657
+      },
+      {
+        "text": "Đái tháo đường típ 2",
+        "position": [
+          878,
+          898
+        ],
+        "confidence": 0.870599
+      },
+      {
+        "text": "hẹp ống sống",
+        "position": [
+          905,
+          917
+        ],
+        "confidence": 0.872588
+      },
+      {
+        "text": "bệnh thận mạn",
+        "position": [
+          939,
+          952
+        ],
+        "confidence": 0.803472
+      },
+      {
+        "text": "tăng sản tuyến tiền liệt",
+        "position": [
+          987,
+          1011
+        ],
+        "confidence": 0.856919
+      }
+    ],
+    "33": [
+      {
+        "text": "rung nhĩ",
+        "position": [
+          39,
+          47
+        ],
+        "confidence": 0.900585
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          50,
+          63
+        ],
+        "confidence": 0.931342
+      },
+      {
+        "text": "suy tim",
+        "position": [
+          66,
+          73
+        ],
+        "confidence": 0.938876
+      },
+      {
+        "text": "béo phì",
+        "position": [
+          92,
+          99
+        ],
+        "confidence": 0.879969
+      },
+      {
+        "text": "chán",
+        "position": [
+          852,
+          856
+        ],
+        "confidence": 0.818451
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          909,
+          917
+        ],
+        "confidence": 0.851624
+      },
+      {
+        "text": "tê bì",
+        "position": [
+          1033,
+          1038
+        ],
+        "confidence": 0.800049
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          2081,
+          2088
+        ],
+        "confidence": 0.856424
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          2105,
+          2113
+        ],
+        "confidence": 0.887671
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          2132,
+          2139
+        ],
+        "confidence": 0.85083
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          2156,
+          2164
+        ],
+        "confidence": 0.90866
+      }
+    ],
+    "34": [
+      {
+        "text": "đau nửa đầu",
+        "position": [
+          344,
+          355
+        ],
+        "confidence": 0.934347
+      },
+      {
+        "text": "đau nửa đầu Migraine",
+        "position": [
+          376,
+          396
+        ],
+        "confidence": 0.806067
+      },
+      {
+        "text": "đau nửa đầu không cố định",
+        "position": [
+          438,
+          463
+        ],
+        "confidence": 0.817242
+      },
+      {
+        "text": "đau nửa đầu",
+        "position": [
+          544,
+          555
+        ],
+        "confidence": 0.912067
+      },
+      {
+        "text": "đau dữ dội",
+        "position": [
+          709,
+          719
+        ],
+        "confidence": 0.819185
+      },
+      {
+        "text": "đau nửa đầu",
+        "position": [
+          839,
+          850
+        ],
+        "confidence": 0.928002
+      },
+      {
+        "text": "đau nửa đầu bên trái",
+        "position": [
+          876,
+          896
+        ],
+        "confidence": 0.849731
+      },
+      {
+        "text": "đau đầu",
+        "position": [
+          963,
+          970
+        ],
+        "confidence": 0.905742
+      },
+      {
+        "text": "viêm xoang",
+        "position": [
+          974,
+          984
+        ],
+        "confidence": 0.887738
+      },
+      {
+        "text": "đau nửa đầu trái",
+        "position": [
+          1042,
+          1058
+        ],
+        "confidence": 0.87733
+      },
+      {
+        "text": "suy giảm trí nhớ",
+        "position": [
+          1123,
+          1139
+        ],
+        "confidence": 0.885388
+      },
+      {
+        "text": "khó tập trung",
+        "position": [
+          1141,
+          1154
+        ],
+        "confidence": 0.854505
+      },
+      {
+        "text": "trầm cảm",
+        "position": [
+          1156,
+          1164
+        ],
+        "confidence": 0.869526
+      },
+      {
+        "text": "đột quỵ",
+        "position": [
+          1177,
+          1184
+        ],
+        "confidence": 0.814126
+      },
+      {
+        "text": "suy thoái võng mạc",
+        "position": [
+          1222,
+          1240
+        ],
+        "confidence": 0.924096
+      },
+      {
+        "text": "mất thị lực",
+        "position": [
+          1242,
+          1253
+        ],
+        "confidence": 0.887857
+      },
+      {
+        "text": "mù vĩnh viễn",
+        "position": [
+          1257,
+          1269
+        ],
+        "confidence": 0.812547
+      }
+    ],
+    "35": [
+      {
+        "text": "khó chịu vùng ngực gián đoạn",
+        "position": [
+          193,
+          221
+        ],
+        "confidence": 0.833685
+      },
+      {
+        "text": "chóng mặt",
+        "position": [
+          224,
+          233
+        ],
+        "confidence": 0.936044
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          236,
+          243
+        ],
+        "confidence": 0.933342
+      },
+      {
+        "text": "đổ mồ hôi",
+        "position": [
+          256,
+          265
+        ],
+        "confidence": 0.803969
+      },
+      {
+        "text": "chóng mặt",
+        "position": [
+          536,
+          545
+        ],
+        "confidence": 0.936311
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          547,
+          554
+        ],
+        "confidence": 0.920475
+      },
+      {
+        "text": "Viêm hang vị sung huyết",
+        "position": [
+          743,
+          766
+        ],
+        "confidence": 0.935324
+      },
+      {
+        "text": "đau bụng cồn cào",
+        "position": [
+          884,
+          900
+        ],
+        "confidence": 0.947322
+      },
+      {
+        "text": "ợ hơi",
+        "position": [
+          910,
+          915
+        ],
+        "confidence": 0.94458
+      },
+      {
+        "text": "ợ chua",
+        "position": [
+          917,
+          923
+        ],
+        "confidence": 0.932466
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          1133,
+          1163
+        ],
+        "confidence": 0.935659
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          1613,
+          1643
+        ],
+        "confidence": 0.932767
+      }
+    ],
+    "36": [
+      {
+        "text": "nặng mặt",
+        "position": [
+          42,
+          50
+        ],
+        "confidence": 0.850284
+      },
+      {
+        "text": "tức nặng 2 chi dưới",
+        "position": [
+          52,
+          71
+        ],
+        "confidence": 0.856667
+      },
+      {
+        "text": "tiểu ít",
+        "position": [
+          73,
+          80
+        ],
+        "confidence": 0.906579
+      },
+      {
+        "text": "Hội chứng thận hư",
+        "position": [
+          187,
+          204
+        ],
+        "confidence": 0.835984
+      },
+      {
+        "text": "phù 2 chi dưới",
+        "position": [
+          308,
+          322
+        ],
+        "confidence": 0.877191
+      },
+      {
+        "text": "phù",
+        "position": [
+          324,
+          327
+        ],
+        "confidence": 0.82321
+      },
+      {
+        "text": "phù mặt",
+        "position": [
+          408,
+          415
+        ],
+        "confidence": 0.837731
+      },
+      {
+        "text": "phù nhẹ 2 chi dưới",
+        "position": [
+          421,
+          439
+        ],
+        "confidence": 0.826108
+      },
+      {
+        "text": "viêm cầu thận",
+        "position": [
+          777,
+          790
+        ],
+        "confidence": 0.88113
+      },
+      {
+        "text": "Viêm cầu thận mạn",
+        "position": [
+          1102,
+          1119
+        ],
+        "confidence": 0.938843
+      },
+      {
+        "text": "Hội chứng thận hư",
+        "position": [
+          1122,
+          1139
+        ],
+        "confidence": 0.84045
+      },
+      {
+        "text": "phù",
+        "position": [
+          1561,
+          1564
+        ],
+        "confidence": 0.875105
+      },
+      {
+        "text": "đau vùng hạ sườn phải",
+        "position": [
+          1908,
+          1929
+        ],
+        "confidence": 0.881152
+      }
+    ],
+    "37": [
+      {
+        "text": "chảy mủ",
+        "position": [
+          1095,
+          1102
+        ],
+        "confidence": 0.836835
+      },
+      {
+        "text": "Viêm mô tế bào",
+        "position": [
+          1256,
+          1270
+        ],
+        "confidence": 0.841216
+      }
+    ],
+    "38": [
+      {
+        "text": "bạch cầu dòng tủy mãn tính",
+        "position": [
+          62,
+          88
+        ],
+        "confidence": 0.820984
+      },
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          113,
+          126
+        ],
+        "confidence": 0.912968
+      },
+      {
+        "text": "tăng lipid máu",
+        "position": [
+          133,
+          147
+        ],
+        "confidence": 0.90012
+      },
+      {
+        "text": "Đái tháo đường típ 2",
+        "position": [
+          170,
+          190
+        ],
+        "confidence": 0.84061
+      },
+      {
+        "text": "bệnh thận mạn",
+        "position": [
+          231,
+          244
+        ],
+        "confidence": 0.815603
+      },
+      {
+        "text": "tăng sản tuyến tiền liệt",
+        "position": [
+          279,
+          303
+        ],
+        "confidence": 0.857102
+      },
+      {
+        "text": "Lú",
+        "position": [
+          837,
+          839
+        ],
+        "confidence": 0.808899
+      },
+      {
+        "text": "Nôn",
+        "position": [
+          884,
+          887
+        ],
+        "confidence": 0.861577
+      },
+      {
+        "text": "Nôn",
+        "position": [
+          884,
+          887
+        ],
+        "confidence": 0.860605
+      },
+      {
+        "text": "Nôn",
+        "position": [
+          1197,
+          1200
+        ],
+        "confidence": 0.824924
+      },
+      {
+        "text": "Nôn",
+        "position": [
+          1197,
+          1200
+        ],
+        "confidence": 0.829805
+      },
+      {
+        "text": "đái tháo đườngđái",
+        "position": [
+          1733,
+          1750
+        ],
+        "confidence": 0.950102
+      },
+      {
+        "text": "đườngđái tháo đường",
+        "position": [
+          1742,
+          1761
+        ],
+        "confidence": 0.937836
+      }
+    ],
+    "39": [
+      {
+        "text": "Ung thư biểu mô tuyến đại tràng",
+        "position": [
+          39,
+          70
+        ],
+        "confidence": 0.922714
+      },
+      {
+        "text": "bệnh phổi tắc nghẽn mạn tính",
+        "position": [
+          73,
+          101
+        ],
+        "confidence": 0.919748
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          120,
+          134
+        ],
+        "confidence": 0.947466
+      },
+      {
+        "text": "xơ gan",
+        "position": [
+          137,
+          143
+        ],
+        "confidence": 0.952548
+      },
+      {
+        "text": "ung thư tuyến đại tràng",
+        "position": [
+          283,
+          306
+        ],
+        "confidence": 0.919984
+      },
+      {
+        "text": "xơ gan",
+        "position": [
+          337,
+          343
+        ],
+        "confidence": 0.928766
+      },
+      {
+        "text": "tụt huyết áp",
+        "position": [
+          390,
+          402
+        ],
+        "confidence": 0.942214
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          427,
+          434
+        ],
+        "confidence": 0.92157
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          477,
+          484
+        ],
+        "confidence": 0.857566
+      },
+      {
+        "text": "rung nhĩ",
+        "position": [
+          580,
+          588
+        ],
+        "confidence": 0.924618
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          826,
+          833
+        ],
+        "confidence": 0.912172
+      },
+      {
+        "text": "hạ huyết áp",
+        "position": [
+          991,
+          1002
+        ],
+        "confidence": 0.852827
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          1021,
+          1028
+        ],
+        "confidence": 0.920106
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          1031,
+          1038
+        ],
+        "confidence": 0.920245
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1483,
+          1490
+        ],
+        "confidence": 0.912565
+      },
+      {
+        "text": "ho mạn tính có đờm vàng loãng",
+        "position": [
+          1506,
+          1535
+        ],
+        "confidence": 0.82322
+      },
+      {
+        "text": "xẹp phổi thùy dưới phải",
+        "position": [
+          1768,
+          1791
+        ],
+        "confidence": 0.862739
+      },
+      {
+        "text": "tràn dịch màng phổi",
+        "position": [
+          1807,
+          1826
+        ],
+        "confidence": 0.82904
+      },
+      {
+        "text": "Viêm phổi",
+        "position": [
+          1932,
+          1941
+        ],
+        "confidence": 0.904417
+      },
+      {
+        "text": "Rung",
+        "position": [
+          1954,
+          1958
+        ],
+        "confidence": 0.915264
+      },
+      {
+        "text": "Rung nhĩ",
+        "position": [
+          1954,
+          1962
+        ],
+        "confidence": 0.839361
+      }
+    ],
+    "40": [
+      {
+        "text": "Đi ngoài phân đen",
+        "position": [
+          34,
+          51
+        ],
+        "confidence": 0.861934
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          53,
+          60
+        ],
+        "confidence": 0.920601
+      },
+      {
+        "text": "đau bụng quanh rốn",
+        "position": [
+          106,
+          124
+        ],
+        "confidence": 0.936917
+      },
+      {
+        "text": "nôn thức ăn lẫn máu",
+        "position": [
+          126,
+          145
+        ],
+        "confidence": 0.91111
+      },
+      {
+        "text": "đi ngoài phân đen",
+        "position": [
+          150,
+          167
+        ],
+        "confidence": 0.817588
+      },
+      {
+        "text": "khó thở liên tục",
+        "position": [
+          169,
+          185
+        ],
+        "confidence": 0.889994
+      },
+      {
+        "text": "Da niêm mạc nhợt",
+        "position": [
+          520,
+          536
+        ],
+        "confidence": 0.903558
+      },
+      {
+        "text": "Xuất huyết tiêu hóa",
+        "position": [
+          812,
+          831
+        ],
+        "confidence": 0.818452
+      },
+      {
+        "text": "Viêm phổi",
+        "position": [
+          868,
+          877
+        ],
+        "confidence": 0.857837
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          909,
+          923
+        ],
+        "confidence": 0.829883
+      }
+    ],
+    "41": [
+      {
+        "text": "đau sau xương ức",
+        "position": [
+          1141,
+          1157
+        ],
+        "confidence": 0.809855
+      }
+    ],
+    "42": [
+      {
+        "text": "ho đái tháo đường",
+        "position": [
+          51,
+          68
+        ],
+        "confidence": 0.942745
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          75,
+          88
+        ],
+        "confidence": 0.940132
+      },
+      {
+        "text": "béo phì",
+        "position": [
+          95,
+          102
+        ],
+        "confidence": 0.92175
+      },
+      {
+        "text": "ngưng thở",
+        "position": [
+          109,
+          118
+        ],
+        "confidence": 0.858785
+      },
+      {
+        "text": "ho",
+        "position": [
+          298,
+          300
+        ],
+        "confidence": 0.955038
+      },
+      {
+        "text": "thiếu oxy",
+        "position": [
+          302,
+          311
+        ],
+        "confidence": 0.849256
+      },
+      {
+        "text": "đau bụng vùng thượng vị",
+        "position": [
+          424,
+          451
+        ],
+        "confidence": 0.849635
+      },
+      {
+        "text": "niêm mạc phù nề",
+        "position": [
+          534,
+          549
+        ],
+        "confidence": 0.805198
+      },
+      {
+        "text": "sung huyết đỏ",
+        "position": [
+          551,
+          564
+        ],
+        "confidence": 0.911287
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          696,
+          703
+        ],
+        "confidence": 0.885364
+      },
+      {
+        "text": "sốt",
+        "position": [
+          710,
+          713
+        ],
+        "confidence": 0.939548
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          874,
+          881
+        ],
+        "confidence": 0.881643
+      },
+      {
+        "text": "ho đặc",
+        "position": [
+          949,
+          955
+        ],
+        "confidence": 0.90777
+      },
+      {
+        "text": "sốt",
+        "position": [
+          1019,
+          1022
+        ],
+        "confidence": 0.944757
+      },
+      {
+        "text": "sốt",
+        "position": [
+          1032,
+          1035
+        ],
+        "confidence": 0.846419
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          1112,
+          1120
+        ],
+        "confidence": 0.846076
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1193,
+          1200
+        ],
+        "confidence": 0.857633
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1224,
+          1231
+        ],
+        "confidence": 0.849819
+      },
+      {
+        "text": "giãn phế quản",
+        "position": [
+          1381,
+          1394
+        ],
+        "confidence": 0.881356
+      },
+      {
+        "text": "viêm phổi thùy dưới phải",
+        "position": [
+          1924,
+          1948
+        ],
+        "confidence": 0.94785
+      }
+    ],
+    "43": [
+      {
+        "text": "tăng cholesterol máu",
+        "position": [
+          95,
+          115
+        ],
+        "confidence": 0.804288
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          132,
+          145
+        ],
+        "confidence": 0.906058
+      }
+    ],
+    "44": [
+      {
+        "text": "tăng men gan",
+        "position": [
+          31,
+          43
+        ],
+        "confidence": 0.922817
+      },
+      {
+        "text": "tăng bilirubin",
+        "position": [
+          48,
+          62
+        ],
+        "confidence": 0.912966
+      },
+      {
+        "text": "tăng bilirubin máu",
+        "position": [
+          458,
+          476
+        ],
+        "confidence": 0.83557
+      },
+      {
+        "text": "tăng men gan",
+        "position": [
+          480,
+          492
+        ],
+        "confidence": 0.911517
+      }
+    ],
+    "45": [
+      {
+        "text": "đau đầu",
+        "position": [
+          263,
+          270
+        ],
+        "confidence": 0.847371
+      },
+      {
+        "text": "tăng nhãn áp",
+        "position": [
+          504,
+          516
+        ],
+        "confidence": 0.879523
+      },
+      {
+        "text": "đau đầu kéo dài",
+        "position": [
+          703,
+          718
+        ],
+        "confidence": 0.919165
+      },
+      {
+        "text": "mờ mắt",
+        "position": [
+          728,
+          734
+        ],
+        "confidence": 0.911352
+      },
+      {
+        "text": "não úng tuỷ",
+        "position": [
+          846,
+          857
+        ],
+        "confidence": 0.857094
+      },
+      {
+        "text": "não úng thủy",
+        "position": [
+          968,
+          980
+        ],
+        "confidence": 0.909604
+      },
+      {
+        "text": "tăng đau đầu",
+        "position": [
+          995,
+          1007
+        ],
+        "confidence": 0.922713
+      },
+      {
+        "text": "đau đầu",
+        "position": [
+          1109,
+          1116
+        ],
+        "confidence": 0.927117
+      },
+      {
+        "text": "mờ mắt ở cả hai mắt",
+        "position": [
+          1237,
+          1256
+        ],
+        "confidence": 0.851007
+      }
+    ],
+    "46": [
+      {
+        "text": "suy tim",
+        "position": [
+          71,
+          78
+        ],
+        "confidence": 0.914214
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          82,
+          95
+        ],
+        "confidence": 0.930715
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          221,
+          228
+        ],
+        "confidence": 0.881173
+      },
+      {
+        "text": "phù phổi cấp",
+        "position": [
+          303,
+          315
+        ],
+        "confidence": 0.940768
+      },
+      {
+        "text": "suy tim",
+        "position": [
+          318,
+          325
+        ],
+        "confidence": 0.953283
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          347,
+          360
+        ],
+        "confidence": 0.917304
+      },
+      {
+        "text": "HoHL",
+        "position": [
+          363,
+          367
+        ],
+        "confidence": 0.801077
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          393,
+          400
+        ],
+        "confidence": 0.846303
+      },
+      {
+        "text": "Phù phổi cấp",
+        "position": [
+          1192,
+          1204
+        ],
+        "confidence": 0.936707
+      },
+      {
+        "text": "Suy tim",
+        "position": [
+          1207,
+          1214
+        ],
+        "confidence": 0.94771
+      },
+      {
+        "text": "Stent mạch vành",
+        "position": [
+          1217,
+          1232
+        ],
+        "confidence": 0.902036
+      },
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          1235,
+          1248
+        ],
+        "confidence": 0.943942
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          1444,
+          1451
+        ],
+        "confidence": 0.939441
+      },
+      {
+        "text": "mất trí nhớ chi tiết",
+        "position": [
+          1453,
+          1473
+        ],
+        "confidence": 0.891372
+      },
+      {
+        "text": "mệt mỏi nhiều",
+        "position": [
+          1505,
+          1518
+        ],
+        "confidence": 0.862168
+      },
+      {
+        "text": "ăn không ngon miệng",
+        "position": [
+          1520,
+          1539
+        ],
+        "confidence": 0.813071
+      },
+      {
+        "text": "ngứa da toàn thân nhiều",
+        "position": [
+          1541,
+          1564
+        ],
+        "confidence": 0.880925
+      },
+      {
+        "text": "mất trí nhớ chi tiết",
+        "position": [
+          1569,
+          1589
+        ],
+        "confidence": 0.878612
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1591,
+          1598
+        ],
+        "confidence": 0.910031
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          1625,
+          1633
+        ],
+        "confidence": 0.85059
+      },
+      {
+        "text": "nôn",
+        "position": [
+          1638,
+          1641
+        ],
+        "confidence": 0.90344
+      },
+      {
+        "text": "Mệt",
+        "position": [
+          1685,
+          1688
+        ],
+        "confidence": 0.931847
+      },
+      {
+        "text": "Mệt mỏi nhiều",
+        "position": [
+          1685,
+          1698
+        ],
+        "confidence": 0.908478
+      },
+      {
+        "text": "Ngứa da toàn thân nhiều",
+        "position": [
+          1731,
+          1754
+        ],
+        "confidence": 0.858867
+      },
+      {
+        "text": "mất trí nhớ chi tiết",
+        "position": [
+          1761,
+          1781
+        ],
+        "confidence": 0.830689
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1788,
+          1795
+        ],
+        "confidence": 0.89166
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          1816,
+          1824
+        ],
+        "confidence": 0.887066
+      },
+      {
+        "text": "nôn",
+        "position": [
+          1828,
+          1831
+        ],
+        "confidence": 0.869167
+      }
+    ],
+    "47": [
+      {
+        "text": "Ung thư biểu mô tuyến đại tràng",
+        "position": [
+          39,
+          70
+        ],
+        "confidence": 0.922673
+      },
+      {
+        "text": "bệnh phổi tắc nghẽn mạn tính",
+        "position": [
+          73,
+          101
+        ],
+        "confidence": 0.9166
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          120,
+          134
+        ],
+        "confidence": 0.947942
+      },
+      {
+        "text": "xơ gan",
+        "position": [
+          137,
+          143
+        ],
+        "confidence": 0.952376
+      },
+      {
+        "text": "ung thư tuyến đại tràng",
+        "position": [
+          283,
+          306
+        ],
+        "confidence": 0.929374
+      },
+      {
+        "text": "xơ gan",
+        "position": [
+          337,
+          343
+        ],
+        "confidence": 0.933105
+      },
+      {
+        "text": "tụt huyết áp",
+        "position": [
+          390,
+          402
+        ],
+        "confidence": 0.943955
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          427,
+          434
+        ],
+        "confidence": 0.922765
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          477,
+          484
+        ],
+        "confidence": 0.846181
+      },
+      {
+        "text": "rung nhĩ",
+        "position": [
+          580,
+          588
+        ],
+        "confidence": 0.924136
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          833,
+          841
+        ],
+        "confidence": 0.838739
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          843,
+          851
+        ],
+        "confidence": 0.904629
+      },
+      {
+        "text": "nôn",
+        "position": [
+          853,
+          856
+        ],
+        "confidence": 0.941741
+      },
+      {
+        "text": "tiêu chảy",
+        "position": [
+          858,
+          867
+        ],
+        "confidence": 0.920533
+      },
+      {
+        "text": "táo bón",
+        "position": [
+          874,
+          881
+        ],
+        "confidence": 0.911477
+      },
+      {
+        "text": "chóng mặt",
+        "position": [
+          947,
+          956
+        ],
+        "confidence": 0.828564
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          1373,
+          1380
+        ],
+        "confidence": 0.902136
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          1383,
+          1390
+        ],
+        "confidence": 0.900014
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          1393,
+          1400
+        ],
+        "confidence": 0.900933
+      },
+      {
+        "text": "tràn dịch màng phổi",
+        "position": [
+          1717,
+          1736
+        ],
+        "confidence": 0.908238
+      },
+      {
+        "text": "Viêm phổi",
+        "position": [
+          1842,
+          1851
+        ],
+        "confidence": 0.909268
+      },
+      {
+        "text": "Rung nhĩ",
+        "position": [
+          1864,
+          1872
+        ],
+        "confidence": 0.878144
+      }
+    ],
+    "48": [],
+    "49": [
+      {
+        "text": "rụng tóc từng mảng",
+        "position": [
+          35,
+          53
+        ],
+        "confidence": 0.883203
+      },
+      {
+        "text": "Ung thư vú",
+        "position": [
+          195,
+          205
+        ],
+        "confidence": 0.846384
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          286,
+          293
+        ],
+        "confidence": 0.887352
+      },
+      {
+        "text": "rụng tóc toàn bộ",
+        "position": [
+          948,
+          964
+        ],
+        "confidence": 0.88681
+      },
+      {
+        "text": "viêm da tiếp xúc dị ứng",
+        "position": [
+          1389,
+          1412
+        ],
+        "confidence": 0.888073
+      },
+      {
+        "text": "viêm da tiếp xúc",
+        "position": [
+          1517,
+          1533
+        ],
+        "confidence": 0.944236
+      },
+      {
+        "text": "mày đay",
+        "position": [
+          1535,
+          1542
+        ],
+        "confidence": 0.936169
+      },
+      {
+        "text": "bất thường sắc tố",
+        "position": [
+          1544,
+          1561
+        ],
+        "confidence": 0.914588
+      }
+    ],
+    "50": [
+      {
+        "text": "đau đầu",
+        "position": [
+          263,
+          270
+        ],
+        "confidence": 0.847371
+      },
+      {
+        "text": "tăng nhãn áp",
+        "position": [
+          504,
+          516
+        ],
+        "confidence": 0.879523
+      },
+      {
+        "text": "đau đầu kéo dài",
+        "position": [
+          703,
+          718
+        ],
+        "confidence": 0.914225
+      },
+      {
+        "text": "mờ mắt",
+        "position": [
+          728,
+          734
+        ],
+        "confidence": 0.910101
+      },
+      {
+        "text": "não úng tuỷ",
+        "position": [
+          846,
+          857
+        ],
+        "confidence": 0.840758
+      },
+      {
+        "text": "não úng thủy",
+        "position": [
+          968,
+          980
+        ],
+        "confidence": 0.872403
+      },
+      {
+        "text": "tăng đau đầu",
+        "position": [
+          995,
+          1007
+        ],
+        "confidence": 0.914015
+      },
+      {
+        "text": "đau đầu",
+        "position": [
+          1109,
+          1116
+        ],
+        "confidence": 0.922358
+      },
+      {
+        "text": "mờ mắt ở cả hai mắt",
+        "position": [
+          1237,
+          1256
+        ],
+        "confidence": 0.831564
+      }
+    ],
+    "51": [
+      {
+        "text": "béo phì",
+        "position": [
+          48,
+          55
+        ],
+        "confidence": 0.896219
+      },
+      {
+        "text": "đái tháo đường",
+        "position": [
+          62,
+          76
+        ],
+        "confidence": 0.919853
+      },
+      {
+        "text": "ngừng",
+        "position": [
+          113,
+          118
+        ],
+        "confidence": 0.805332
+      },
+      {
+        "text": "suy tim",
+        "position": [
+          154,
+          161
+        ],
+        "confidence": 0.925436
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          256,
+          263
+        ],
+        "confidence": 0.825505
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          362,
+          369
+        ],
+        "confidence": 0.854343
+      },
+      {
+        "text": "sốt",
+        "position": [
+          613,
+          616
+        ],
+        "confidence": 0.841931
+      },
+      {
+        "text": "phù chi dưới",
+        "position": [
+          623,
+          635
+        ],
+        "confidence": 0.81135
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          877,
+          884
+        ],
+        "confidence": 0.837793
+      },
+      {
+        "text": "ho có đờm trắng",
+        "position": [
+          886,
+          901
+        ],
+        "confidence": 0.884365
+      },
+      {
+        "text": "sốt",
+        "position": [
+          912,
+          915
+        ],
+        "confidence": 0.927036
+      },
+      {
+        "text": "phù chi dưới",
+        "position": [
+          917,
+          929
+        ],
+        "confidence": 0.866879
+      }
+    ],
+    "52": [],
+    "53": [
+      {
+        "text": "mệt mỏi",
+        "position": [
+          45,
+          52
+        ],
+        "confidence": 0.945778
+      },
+      {
+        "text": "gầy sút cân",
+        "position": [
+          54,
+          65
+        ],
+        "confidence": 0.945782
+      },
+      {
+        "text": "khát nước",
+        "position": [
+          150,
+          159
+        ],
+        "confidence": 0.93779
+      },
+      {
+        "text": "uống nhiều",
+        "position": [
+          161,
+          171
+        ],
+        "confidence": 0.892957
+      },
+      {
+        "text": "đi tiểu nhiều",
+        "position": [
+          173,
+          186
+        ],
+        "confidence": 0.91425
+      },
+      {
+        "text": "gầy sút cân",
+        "position": [
+          188,
+          199
+        ],
+        "confidence": 0.939543
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          219,
+          226
+        ],
+        "confidence": 0.877602
+      }
+    ],
+    "54": [
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          357,
+          370
+        ],
+        "confidence": 0.928856
+      },
+      {
+        "text": "tăng lipid máu",
+        "position": [
+          377,
+          391
+        ],
+        "confidence": 0.923429
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          414,
+          428
+        ],
+        "confidence": 0.930321
+      },
+      {
+        "text": "hẹp ống sống",
+        "position": [
+          441,
+          453
+        ],
+        "confidence": 0.838352
+      },
+      {
+        "text": "bệnh thận mạn",
+        "position": [
+          475,
+          488
+        ],
+        "confidence": 0.854958
+      },
+      {
+        "text": "tăng sản tuyến tiền liệt",
+        "position": [
+          523,
+          547
+        ],
+        "confidence": 0.881678
+      },
+      {
+        "text": "Lú",
+        "position": [
+          790,
+          792
+        ],
+        "confidence": 0.845019
+      }
+    ],
+    "55": [
+      {
+        "text": "Suy thận mạn giai đoạn V",
+        "position": [
+          910,
+          934
+        ],
+        "confidence": 0.919064
+      },
+      {
+        "text": "đái tháo đường",
+        "position": [
+          938,
+          952
+        ],
+        "confidence": 0.933094
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          956,
+          969
+        ],
+        "confidence": 0.921559
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          1249,
+          1256
+        ],
+        "confidence": 0.860457
+      }
+    ],
+    "56": [
+      {
+        "text": "Viêm hang vị sung huyết",
+        "position": [
+          411,
+          434
+        ],
+        "confidence": 0.915396
+      },
+      {
+        "text": "đau bụng cồn cào",
+        "position": [
+          552,
+          568
+        ],
+        "confidence": 0.911102
+      },
+      {
+        "text": "ợ hơi",
+        "position": [
+          578,
+          583
+        ],
+        "confidence": 0.932512
+      },
+      {
+        "text": "ợ chua",
+        "position": [
+          585,
+          591
+        ],
+        "confidence": 0.92919
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          612,
+          620
+        ],
+        "confidence": 0.841023
+      },
+      {
+        "text": "nôn",
+        "position": [
+          626,
+          629
+        ],
+        "confidence": 0.899014
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          801,
+          831
+        ],
+        "confidence": 0.905756
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          1281,
+          1311
+        ],
+        "confidence": 0.945807
+      }
+    ],
+    "57": [
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          39,
+          52
+        ],
+        "confidence": 0.951479
+      },
+      {
+        "text": "Đái",
+        "position": [
+          54,
+          57
+        ],
+        "confidence": 0.950171
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          54,
+          68
+        ],
+        "confidence": 0.953756
+      },
+      {
+        "text": "Suy tim",
+        "position": [
+          114,
+          121
+        ],
+        "confidence": 0.943248
+      },
+      {
+        "text": "Bệnh thận mạn tính",
+        "position": [
+          176,
+          194
+        ],
+        "confidence": 0.870159
+      },
+      {
+        "text": "tăng kali máu",
+        "position": [
+          590,
+          603
+        ],
+        "confidence": 0.890924
+      }
+    ],
+    "58": [
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          39,
+          52
+        ],
+        "confidence": 0.939766
+      },
+      {
+        "text": "Đái",
+        "position": [
+          54,
+          57
+        ],
+        "confidence": 0.941458
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          54,
+          68
+        ],
+        "confidence": 0.946454
+      },
+      {
+        "text": "Suy tim",
+        "position": [
+          114,
+          121
+        ],
+        "confidence": 0.935907
+      },
+      {
+        "text": "Bệnh thận mạn tính",
+        "position": [
+          176,
+          194
+        ],
+        "confidence": 0.80349
+      },
+      {
+        "text": "tăng HA",
+        "position": [
+          670,
+          677
+        ],
+        "confidence": 0.886248
+      },
+      {
+        "text": "Đái tháo đường typ II",
+        "position": [
+          825,
+          846
+        ],
+        "confidence": 0.810338
+      },
+      {
+        "text": "Tăng HA độ III",
+        "position": [
+          847,
+          861
+        ],
+        "confidence": 0.836458
+      }
+    ],
+    "59": [],
+    "60": [],
+    "61": [
+      {
+        "text": "mệt mỏi",
+        "position": [
+          598,
+          605
+        ],
+        "confidence": 0.89545
+      },
+      {
+        "text": "hạ huyết áp",
+        "position": [
+          763,
+          774
+        ],
+        "confidence": 0.813518
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          793,
+          800
+        ],
+        "confidence": 0.93054
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          803,
+          810
+        ],
+        "confidence": 0.924996
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          864,
+          871
+        ],
+        "confidence": 0.908405
+      },
+      {
+        "text": "ho mạn tính có đờm vàng loãng",
+        "position": [
+          887,
+          916
+        ],
+        "confidence": 0.831771
+      },
+      {
+        "text": "chán ăn",
+        "position": [
+          919,
+          926
+        ],
+        "confidence": 0.906228
+      }
+    ],
+    "62": [
+      {
+        "text": "ho",
+        "position": [
+          244,
+          246
+        ],
+        "confidence": 0.950317
+      },
+      {
+        "text": "thiếu oxy",
+        "position": [
+          248,
+          257
+        ],
+        "confidence": 0.829713
+      },
+      {
+        "text": "ho",
+        "position": [
+          353,
+          355
+        ],
+        "confidence": 0.939725
+      },
+      {
+        "text": "nghẹt ngực",
+        "position": [
+          362,
+          372
+        ],
+        "confidence": 0.91199
+      },
+      {
+        "text": "khó thở nhẹ",
+        "position": [
+          379,
+          390
+        ],
+        "confidence": 0.865393
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          395,
+          402
+        ],
+        "confidence": 0.870466
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          422,
+          429
+        ],
+        "confidence": 0.919141
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          436,
+          443
+        ],
+        "confidence": 0.920634
+      },
+      {
+        "text": "sốt",
+        "position": [
+          450,
+          453
+        ],
+        "confidence": 0.936847
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          614,
+          621
+        ],
+        "confidence": 0.854031
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          652,
+          659
+        ],
+        "confidence": 0.82827
+      },
+      {
+        "text": "sốt",
+        "position": [
+          759,
+          762
+        ],
+        "confidence": 0.940747
+      },
+      {
+        "text": "sốt",
+        "position": [
+          772,
+          775
+        ],
+        "confidence": 0.927794
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          852,
+          860
+        ],
+        "confidence": 0.848834
+      },
+      {
+        "text": "giãn phế quản",
+        "position": [
+          1121,
+          1134
+        ],
+        "confidence": 0.85409
+      },
+      {
+        "text": "viêm phổi thùy dưới phải",
+        "position": [
+          1664,
+          1688
+        ],
+        "confidence": 0.955333
+      }
+    ],
+    "63": [],
+    "64": [
+      {
+        "text": "tăng lipid máu",
+        "position": [
+          301,
+          315
+        ],
+        "confidence": 0.823071
+      },
+      {
+        "text": "run rẩy tay chân",
+        "position": [
+          338,
+          354
+        ],
+        "confidence": 0.815994
+      },
+      {
+        "text": "đau thắt ngực",
+        "position": [
+          948,
+          961
+        ],
+        "confidence": 0.88691
+      },
+      {
+        "text": "đau",
+        "position": [
+          1201,
+          1204
+        ],
+        "confidence": 0.924336
+      },
+      {
+        "text": "đau đầu",
+        "position": [
+          1201,
+          1208
+        ],
+        "confidence": 0.913415
+      },
+      {
+        "text": "chóng mặt",
+        "position": [
+          1210,
+          1219
+        ],
+        "confidence": 0.920343
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          1221,
+          1229
+        ],
+        "confidence": 0.918842
+      },
+      {
+        "text": "đỏ mặt",
+        "position": [
+          1231,
+          1237
+        ],
+        "confidence": 0.904645
+      }
+    ],
+    "65": [
+      {
+        "text": "rụng tóc từng mảng",
+        "position": [
+          35,
+          53
+        ],
+        "confidence": 0.911962
+      },
+      {
+        "text": "rụng tóc",
+        "position": [
+          252,
+          260
+        ],
+        "confidence": 0.920896
+      },
+      {
+        "text": "rụng tóc toàn bộ",
+        "position": [
+          713,
+          729
+        ],
+        "confidence": 0.90162
+      },
+      {
+        "text": "rụng tóc toàn thể",
+        "position": [
+          735,
+          752
+        ],
+        "confidence": 0.805545
+      },
+      {
+        "text": "thiếu máu cơ tim cục bộ",
+        "position": [
+          998,
+          1021
+        ],
+        "confidence": 0.951591
+      },
+      {
+        "text": "viêm da tiếp xúc dị ứng",
+        "position": [
+          1221,
+          1244
+        ],
+        "confidence": 0.908253
+      },
+      {
+        "text": "viêm da tiếp xúc",
+        "position": [
+          1349,
+          1365
+        ],
+        "confidence": 0.946558
+      },
+      {
+        "text": "mày đay",
+        "position": [
+          1367,
+          1374
+        ],
+        "confidence": 0.933727
+      },
+      {
+        "text": "bất thường sắc tố",
+        "position": [
+          1376,
+          1393
+        ],
+        "confidence": 0.891185
+      }
+    ],
+    "66": [
+      {
+        "text": "u xơ tuyến vú",
+        "position": [
+          93,
+          106
+        ],
+        "confidence": 0.830023
+      },
+      {
+        "text": "u nang tuyến vú",
+        "position": [
+          111,
+          126
+        ],
+        "confidence": 0.898854
+      },
+      {
+        "text": "viêm teo niêm mạc dạ dày",
+        "position": [
+          700,
+          724
+        ],
+        "confidence": 0.820898
+      },
+      {
+        "text": "u nang tuyến vú",
+        "position": [
+          1022,
+          1037
+        ],
+        "confidence": 0.923988
+      },
+      {
+        "text": "u xơ tuyến vú",
+        "position": [
+          1039,
+          1052
+        ],
+        "confidence": 0.957113
+      },
+      {
+        "text": "u nang tuyến vú",
+        "position": [
+          1151,
+          1166
+        ],
+        "confidence": 0.950843
+      },
+      {
+        "text": "u xơ tuyến vú",
+        "position": [
+          1168,
+          1181
+        ],
+        "confidence": 0.957995
+      },
+      {
+        "text": "u xơ tuyến vú",
+        "position": [
+          1269,
+          1282
+        ],
+        "confidence": 0.952926
+      },
+      {
+        "text": "u nang tuyến vú",
+        "position": [
+          1284,
+          1299
+        ],
+        "confidence": 0.914885
+      },
+      {
+        "text": "u xơ tuyến vú",
+        "position": [
+          1531,
+          1544
+        ],
+        "confidence": 0.950798
+      },
+      {
+        "text": "u nang tuyến vú",
+        "position": [
+          1546,
+          1561
+        ],
+        "confidence": 0.955559
+      }
+    ],
+    "67": [
+      {
+        "text": "suy tim",
+        "position": [
+          30,
+          37
+        ],
+        "confidence": 0.954668
+      },
+      {
+        "text": "bệnh mạch máu ngoại biên",
+        "position": [
+          44,
+          68
+        ],
+        "confidence": 0.887627
+      },
+      {
+        "text": "bệnh phổi tắc nghẽn mạn tính",
+        "position": [
+          75,
+          103
+        ],
+        "confidence": 0.908375
+      },
+      {
+        "text": "Ngưng",
+        "position": [
+          110,
+          115
+        ],
+        "confidence": 0.844354
+      },
+      {
+        "text": "Viêm hang vị sung huyết",
+        "position": [
+          336,
+          359
+        ],
+        "confidence": 0.925007
+      },
+      {
+        "text": "đau bụng cồn cào",
+        "position": [
+          477,
+          493
+        ],
+        "confidence": 0.936933
+      },
+      {
+        "text": "ợ hơi",
+        "position": [
+          503,
+          508
+        ],
+        "confidence": 0.948186
+      },
+      {
+        "text": "ợ chua",
+        "position": [
+          510,
+          516
+        ],
+        "confidence": 0.936928
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          537,
+          545
+        ],
+        "confidence": 0.890544
+      },
+      {
+        "text": "nôn",
+        "position": [
+          551,
+          554
+        ],
+        "confidence": 0.868813
+      },
+      {
+        "text": "bệnh dạ dày",
+        "position": [
+          566,
+          577
+        ],
+        "confidence": 0.822229
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          726,
+          756
+        ],
+        "confidence": 0.917152
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          1206,
+          1236
+        ],
+        "confidence": 0.955795
+      }
+    ],
+    "68": [
+      {
+        "text": "bệnh động mạch vành",
+        "position": [
+          34,
+          53
+        ],
+        "confidence": 0.90673
+      },
+      {
+        "text": "bệnh lý thần kinh ngoại biên",
+        "position": [
+          55,
+          83
+        ],
+        "confidence": 0.874206
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          160,
+          167
+        ],
+        "confidence": 0.90535
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          248,
+          255
+        ],
+        "confidence": 0.920207
+      },
+      {
+        "text": "Khó thở tăng",
+        "position": [
+          258,
+          270
+        ],
+        "confidence": 0.82252
+      },
+      {
+        "text": "Đau hai bàn chân",
+        "position": [
+          341,
+          357
+        ],
+        "confidence": 0.882448
+      },
+      {
+        "text": "rối loạn chức năng thất trái",
+        "position": [
+          589,
+          617
+        ],
+        "confidence": 0.843107
+      }
+    ],
+    "69": [
+      {
+        "text": "trầm cảm",
+        "position": [
+          108,
+          116
+        ],
+        "confidence": 0.915988
+      },
+      {
+        "text": "rối loạn lo âu",
+        "position": [
+          121,
+          135
+        ],
+        "confidence": 0.919808
+      },
+      {
+        "text": "thuyên tắc phổi",
+        "position": [
+          768,
+          783
+        ],
+        "confidence": 0.862019
+      }
+    ],
+    "70": [
+      {
+        "text": "béo phì",
+        "position": [
+          48,
+          55
+        ],
+        "confidence": 0.896219
+      },
+      {
+        "text": "đái tháo đường",
+        "position": [
+          62,
+          76
+        ],
+        "confidence": 0.919853
+      },
+      {
+        "text": "ngừng",
+        "position": [
+          113,
+          118
+        ],
+        "confidence": 0.805332
+      },
+      {
+        "text": "suy tim",
+        "position": [
+          154,
+          161
+        ],
+        "confidence": 0.925436
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          256,
+          263
+        ],
+        "confidence": 0.825505
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          362,
+          369
+        ],
+        "confidence": 0.854343
+      },
+      {
+        "text": "sốt",
+        "position": [
+          613,
+          616
+        ],
+        "confidence": 0.841931
+      },
+      {
+        "text": "phù chi dưới",
+        "position": [
+          623,
+          635
+        ],
+        "confidence": 0.81135
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          877,
+          884
+        ],
+        "confidence": 0.805505
+      },
+      {
+        "text": "ho có đờm trắng",
+        "position": [
+          886,
+          901
+        ],
+        "confidence": 0.852489
+      },
+      {
+        "text": "sốt",
+        "position": [
+          912,
+          915
+        ],
+        "confidence": 0.913602
+      }
+    ],
+    "71": [
+      {
+        "text": "nổi mẩn đỏ ngứa",
+        "position": [
+          1171,
+          1186
+        ],
+        "confidence": 0.802092
+      },
+      {
+        "text": "nổi mề đay",
+        "position": [
+          1411,
+          1421
+        ],
+        "confidence": 0.872421
+      }
+    ],
+    "72": [
+      {
+        "text": "Rối loạn cảm xúc",
+        "position": [
+          581,
+          597
+        ],
+        "confidence": 0.912917
+      },
+      {
+        "text": "Rối loạn lưỡng cực",
+        "position": [
+          605,
+          623
+        ],
+        "confidence": 0.814239
+      },
+      {
+        "text": "rối loạn lo âu",
+        "position": [
+          630,
+          644
+        ],
+        "confidence": 0.938922
+      },
+      {
+        "text": "trầm cảm",
+        "position": [
+          1112,
+          1120
+        ],
+        "confidence": 0.895978
+      }
+    ],
+    "73": [
+      {
+        "text": "Viêm loét đại tràng",
+        "position": [
+          57,
+          76
+        ],
+        "confidence": 0.907834
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          438,
+          446
+        ],
+        "confidence": 0.890086
+      },
+      {
+        "text": "khó",
+        "position": [
+          447,
+          450
+        ],
+        "confidence": 0.893378
+      },
+      {
+        "text": "sốt",
+        "position": [
+          557,
+          560
+        ],
+        "confidence": 0.919821
+      },
+      {
+        "text": "sốt",
+        "position": [
+          1257,
+          1260
+        ],
+        "confidence": 0.925935
+      },
+      {
+        "text": "run rẩy",
+        "position": [
+          1264,
+          1271
+        ],
+        "confidence": 0.874992
+      },
+      {
+        "text": "mất cảm giác ngon miệng",
+        "position": [
+          1273,
+          1296
+        ],
+        "confidence": 0.85574
+      },
+      {
+        "text": "chán ăn",
+        "position": [
+          1297,
+          1304
+        ],
+        "confidence": 0.869118
+      },
+      {
+        "text": "suy nhược",
+        "position": [
+          1306,
+          1315
+        ],
+        "confidence": 0.886716
+      },
+      {
+        "text": "suy kiệt",
+        "position": [
+          1328,
+          1336
+        ],
+        "confidence": 0.814676
+      },
+      {
+        "text": "ăn uống kém",
+        "position": [
+          1420,
+          1431
+        ],
+        "confidence": 0.806485
+      }
+    ],
+    "74": [
+      {
+        "text": "Viêm loét đại tràng",
+        "position": [
+          57,
+          76
+        ],
+        "confidence": 0.904983
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          664,
+          672
+        ],
+        "confidence": 0.869016
+      },
+      {
+        "text": "khó",
+        "position": [
+          673,
+          676
+        ],
+        "confidence": 0.864914
+      },
+      {
+        "text": "khó chịu vùng bụng",
+        "position": [
+          673,
+          691
+        ],
+        "confidence": 0.801679
+      },
+      {
+        "text": "sốt",
+        "position": [
+          783,
+          786
+        ],
+        "confidence": 0.886984
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          1124,
+          1132
+        ],
+        "confidence": 0.907498
+      },
+      {
+        "text": "khó",
+        "position": [
+          1133,
+          1136
+        ],
+        "confidence": 0.928663
+      },
+      {
+        "text": "khó chịu vùng bụng",
+        "position": [
+          1133,
+          1151
+        ],
+        "confidence": 0.860296
+      },
+      {
+        "text": "sốt",
+        "position": [
+          1251,
+          1254
+        ],
+        "confidence": 0.926563
+      },
+      {
+        "text": "run rẩy",
+        "position": [
+          1258,
+          1265
+        ],
+        "confidence": 0.842789
+      },
+      {
+        "text": "suy nhược",
+        "position": [
+          1300,
+          1309
+        ],
+        "confidence": 0.86482
+      }
+    ],
+    "75": [],
+    "76": [],
+    "77": [
+      {
+        "text": "đau vùng xương bánh chè",
+        "position": [
+          73,
+          96
+        ],
+        "confidence": 0.91227
+      },
+      {
+        "text": "đau đầu gối phải",
+        "position": [
+          202,
+          218
+        ],
+        "confidence": 0.93055
+      },
+      {
+        "text": "Đau bánh chè đùi phải dữ dội",
+        "position": [
+          434,
+          462
+        ],
+        "confidence": 0.90532
+      },
+      {
+        "text": "đau đau dữ dội",
+        "position": [
+          495,
+          509
+        ],
+        "confidence": 0.859191
+      },
+      {
+        "text": "đau đầu gối phải",
+        "position": [
+          609,
+          625
+        ],
+        "confidence": 0.902717
+      },
+      {
+        "text": "suy tim",
+        "position": [
+          1029,
+          1036
+        ],
+        "confidence": 0.936737
+      },
+      {
+        "text": "suy thận mạn giai đoạn 5tăng",
+        "position": [
+          1039,
+          1067
+        ],
+        "confidence": 0.917958
+      },
+      {
+        "text": "5tăng huyết áp",
+        "position": [
+          1062,
+          1076
+        ],
+        "confidence": 0.822919
+      }
+    ],
+    "78": [
+      {
+        "text": "choáng",
+        "position": [
+          1279,
+          1285
+        ],
+        "confidence": 0.825687
+      }
+    ],
+    "79": [
+      {
+        "text": "Rối loạn chuyển hóa tinh bột",
+        "position": [
+          29,
+          57
+        ],
+        "confidence": 0.838611
+      },
+      {
+        "text": "đau bụng",
+        "position": [
+          1301,
+          1309
+        ],
+        "confidence": 0.888745
+      },
+      {
+        "text": "khó",
+        "position": [
+          1310,
+          1313
+        ],
+        "confidence": 0.819601
+      }
+    ],
+    "80": [],
+    "81": [],
+    "82": [
+      {
+        "text": "đau đầu gối",
+        "position": [
+          77,
+          88
+        ],
+        "confidence": 0.929103
+      },
+      {
+        "text": "đau vùng hạ sườn phải",
+        "position": [
+          206,
+          227
+        ],
+        "confidence": 0.938354
+      },
+      {
+        "text": "đau vùng hạ sườn phải",
+        "position": [
+          315,
+          336
+        ],
+        "confidence": 0.922904
+      },
+      {
+        "text": "chướng bụng",
+        "position": [
+          342,
+          353
+        ],
+        "confidence": 0.939821
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          357,
+          365
+        ],
+        "confidence": 0.928414
+      },
+      {
+        "text": "đau lưng",
+        "position": [
+          442,
+          450
+        ],
+        "confidence": 0.920903
+      },
+      {
+        "text": "Đau bụng",
+        "position": [
+          551,
+          559
+        ],
+        "confidence": 0.921094
+      },
+      {
+        "text": "chướng bụng",
+        "position": [
+          632,
+          643
+        ],
+        "confidence": 0.925683
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          676,
+          684
+        ],
+        "confidence": 0.885393
+      },
+      {
+        "text": "đau",
+        "position": [
+          743,
+          746
+        ],
+        "confidence": 0.954227
+      },
+      {
+        "text": "đau bụng vùng hạ sườn phải",
+        "position": [
+          871,
+          897
+        ],
+        "confidence": 0.907591
+      },
+      {
+        "text": "viêm dạ dày",
+        "position": [
+          1196,
+          1207
+        ],
+        "confidence": 0.899157
+      }
+    ],
+    "83": [],
+    "84": [],
+    "85": [
+      {
+        "text": "Tiểu đường",
+        "position": [
+          54,
+          64
+        ],
+        "confidence": 0.944386
+      },
+      {
+        "text": "đái tháo đường",
+        "position": [
+          72,
+          86
+        ],
+        "confidence": 0.956078
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          93,
+          106
+        ],
+        "confidence": 0.958355
+      },
+      {
+        "text": "tăng lipid máu",
+        "position": [
+          113,
+          127
+        ],
+        "confidence": 0.940053
+      },
+      {
+        "text": "béo phì",
+        "position": [
+          150,
+          157
+        ],
+        "confidence": 0.943867
+      },
+      {
+        "text": "Nhiễm trùng đường tiết niệu",
+        "position": [
+          164,
+          191
+        ],
+        "confidence": 0.859325
+      },
+      {
+        "text": "đau bàn chân phải",
+        "position": [
+          307,
+          324
+        ],
+        "confidence": 0.94446
+      },
+      {
+        "text": "đau bàn chân phải",
+        "position": [
+          360,
+          377
+        ],
+        "confidence": 0.929605
+      },
+      {
+        "text": "viêm bể thận",
+        "position": [
+          473,
+          485
+        ],
+        "confidence": 0.939727
+      },
+      {
+        "text": "viêm phế quản",
+        "position": [
+          489,
+          502
+        ],
+        "confidence": 0.949016
+      }
+    ],
+    "86": [
+      {
+        "text": "nghẹt ngực",
+        "position": [
+          38,
+          48
+        ],
+        "confidence": 0.952534
+      },
+      {
+        "text": "khó thở nhẹ",
+        "position": [
+          55,
+          66
+        ],
+        "confidence": 0.867127
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          71,
+          78
+        ],
+        "confidence": 0.811769
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          98,
+          105
+        ],
+        "confidence": 0.941014
+      },
+      {
+        "text": "Viêm hang vị sung huyết",
+        "position": [
+          132,
+          155
+        ],
+        "confidence": 0.937737
+      },
+      {
+        "text": "đau bụng cồn cào",
+        "position": [
+          273,
+          289
+        ],
+        "confidence": 0.947082
+      },
+      {
+        "text": "ợ hơi",
+        "position": [
+          299,
+          304
+        ],
+        "confidence": 0.954476
+      },
+      {
+        "text": "ợ chua",
+        "position": [
+          306,
+          312
+        ],
+        "confidence": 0.941416
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          522,
+          552
+        ],
+        "confidence": 0.93569
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          1002,
+          1032
+        ],
+        "confidence": 0.952007
+      }
+    ],
+    "87": [
+      {
+        "text": "đau",
+        "position": [
+          34,
+          37
+        ],
+        "confidence": 0.892148
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          34,
+          42
+        ],
+        "confidence": 0.887081
+      },
+      {
+        "text": "đau ngực T âm ỉ",
+        "position": [
+          112,
+          127
+        ],
+        "confidence": 0.806896
+      },
+      {
+        "text": "đau ngực",
+        "position": [
+          163,
+          171
+        ],
+        "confidence": 0.910315
+      },
+      {
+        "text": "đau",
+        "position": [
+          182,
+          185
+        ],
+        "confidence": 0.822685
+      },
+      {
+        "text": "Đau ngực",
+        "position": [
+          240,
+          248
+        ],
+        "confidence": 0.901792
+      },
+      {
+        "text": "đau",
+        "position": [
+          257,
+          260
+        ],
+        "confidence": 0.870762
+      },
+      {
+        "text": "đau",
+        "position": [
+          257,
+          260
+        ],
+        "confidence": 0.802342
+      }
+    ],
+    "88": [
+      {
+        "text": "ung thư đường mật",
+        "position": [
+          183,
+          200
+        ],
+        "confidence": 0.876226
+      },
+      {
+        "text": "run rẩy",
+        "position": [
+          401,
+          408
+        ],
+        "confidence": 0.899377
+      },
+      {
+        "text": "sốt",
+        "position": [
+          413,
+          416
+        ],
+        "confidence": 0.943838
+      },
+      {
+        "text": "sốt",
+        "position": [
+          426,
+          429
+        ],
+        "confidence": 0.942644
+      },
+      {
+        "text": "sốt",
+        "position": [
+          493,
+          496
+        ],
+        "confidence": 0.930308
+      }
+    ],
+    "89": [
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          31,
+          45
+        ],
+        "confidence": 0.956177
+      },
+      {
+        "text": "Đái tháo đường",
+        "position": [
+          55,
+          69
+        ],
+        "confidence": 0.949328
+      },
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          73,
+          86
+        ],
+        "confidence": 0.957363
+      },
+      {
+        "text": "tăng huyết áp vô căn",
+        "position": [
+          88,
+          108
+        ],
+        "confidence": 0.920873
+      },
+      {
+        "text": "khó chịu vùng ngực gián đoạn",
+        "position": [
+          294,
+          322
+        ],
+        "confidence": 0.88632
+      },
+      {
+        "text": "chóng mặt",
+        "position": [
+          325,
+          334
+        ],
+        "confidence": 0.944139
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          337,
+          344
+        ],
+        "confidence": 0.947416
+      },
+      {
+        "text": "chóng mặt",
+        "position": [
+          637,
+          646
+        ],
+        "confidence": 0.950894
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          648,
+          655
+        ],
+        "confidence": 0.946145
+      },
+      {
+        "text": "đổ mồ hôi",
+        "position": [
+          657,
+          666
+        ],
+        "confidence": 0.869922
+      }
+    ],
+    "90": [
+      {
+        "text": "rối loạn lo âu",
+        "position": [
+          81,
+          95
+        ],
+        "confidence": 0.945145
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          102,
+          115
+        ],
+        "confidence": 0.947326
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          117,
+          130
+        ],
+        "confidence": 0.941602
+      },
+      {
+        "text": "Táo bón mãn tính",
+        "position": [
+          138,
+          154
+        ],
+        "confidence": 0.930043
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          322,
+          329
+        ],
+        "confidence": 0.937189
+      },
+      {
+        "text": "ho",
+        "position": [
+          331,
+          333
+        ],
+        "confidence": 0.959823
+      },
+      {
+        "text": "chảy nước mũi",
+        "position": [
+          337,
+          350
+        ],
+        "confidence": 0.941797
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          745,
+          752
+        ],
+        "confidence": 0.912078
+      },
+      {
+        "text": "ho",
+        "position": [
+          759,
+          761
+        ],
+        "confidence": 0.949131
+      },
+      {
+        "text": "chảy nước mũi",
+        "position": [
+          768,
+          781
+        ],
+        "confidence": 0.871162
+      },
+      {
+        "text": "viêm phổi kẽ",
+        "position": [
+          1198,
+          1210
+        ],
+        "confidence": 0.901969
+      }
+    ],
+    "91": [
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          87,
+          100
+        ],
+        "confidence": 0.908939
+      },
+      {
+        "text": "Ung thư đại tràng",
+        "position": [
+          146,
+          163
+        ],
+        "confidence": 0.804286
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          412,
+          419
+        ],
+        "confidence": 0.860855
+      }
+    ],
+    "92": [
+      {
+        "text": "viêm tủy xương mãn tính",
+        "position": [
+          18,
+          41
+        ],
+        "confidence": 0.948284
+      },
+      {
+        "text": "bàng quang thần kinh",
+        "position": [
+          45,
+          65
+        ],
+        "confidence": 0.929456
+      },
+      {
+        "text": "liệt hai chi dưới",
+        "position": [
+          81,
+          98
+        ],
+        "confidence": 0.936859
+      },
+      {
+        "text": "sốt cao",
+        "position": [
+          407,
+          414
+        ],
+        "confidence": 0.944959
+      },
+      {
+        "text": "hạ huyết áp",
+        "position": [
+          466,
+          477
+        ],
+        "confidence": 0.859313
+      },
+      {
+        "text": "nhiễm trùng huyết",
+        "position": [
+          497,
+          514
+        ],
+        "confidence": 0.815224
+      },
+      {
+        "text": "viêm tuỷ xương",
+        "position": [
+          575,
+          589
+        ],
+        "confidence": 0.811852
+      },
+      {
+        "text": "viêm tủy xương mãn tính",
+        "position": [
+          655,
+          678
+        ],
+        "confidence": 0.933025
+      },
+      {
+        "text": "sốt cao 39.7 độ C",
+        "position": [
+          822,
+          839
+        ],
+        "confidence": 0.925936
+      },
+      {
+        "text": "Đau bụng",
+        "position": [
+          970,
+          978
+        ],
+        "confidence": 0.902662
+      },
+      {
+        "text": "đau hông từng cơn",
+        "position": [
+          980,
+          997
+        ],
+        "confidence": 0.858362
+      },
+      {
+        "text": "nhiễm trùng huyết đường",
+        "position": [
+          1232,
+          1255
+        ],
+        "confidence": 0.909059
+      },
+      {
+        "text": "viêm tủy xương mãn tính",
+        "position": [
+          1271,
+          1294
+        ],
+        "confidence": 0.922855
+      }
+    ],
+    "93": [],
+    "94": [
+      {
+        "text": "Viêm hang vị sung huyết",
+        "position": [
+          43,
+          66
+        ],
+        "confidence": 0.933187
+      },
+      {
+        "text": "đau bụng cồn cào",
+        "position": [
+          184,
+          200
+        ],
+        "confidence": 0.956188
+      },
+      {
+        "text": "ợ hơi",
+        "position": [
+          210,
+          215
+        ],
+        "confidence": 0.950401
+      },
+      {
+        "text": "ợ chua",
+        "position": [
+          217,
+          223
+        ],
+        "confidence": 0.92037
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          433,
+          463
+        ],
+        "confidence": 0.943299
+      },
+      {
+        "text": "viêm sung huyết hang vị dạ dày",
+        "position": [
+          913,
+          943
+        ],
+        "confidence": 0.922762
+      }
+    ],
+    "95": [
+      {
+        "text": "đau các khớp",
+        "position": [
+          1086,
+          1098
+        ],
+        "confidence": 0.880846
+      },
+      {
+        "text": "ho đái tháo đường",
+        "position": [
+          1162,
+          1179
+        ],
+        "confidence": 0.92104
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          1186,
+          1199
+        ],
+        "confidence": 0.9165
+      },
+      {
+        "text": "béo phì",
+        "position": [
+          1206,
+          1213
+        ],
+        "confidence": 0.899837
+      },
+      {
+        "text": "ngưng thở",
+        "position": [
+          1220,
+          1229
+        ],
+        "confidence": 0.856309
+      }
+    ],
+    "96": [],
+    "97": [
+      {
+        "text": "Suy thận mạn giai đoạn V",
+        "position": [
+          48,
+          72
+        ],
+        "confidence": 0.930729
+      },
+      {
+        "text": "đái tháo đường",
+        "position": [
+          76,
+          90
+        ],
+        "confidence": 0.949453
+      },
+      {
+        "text": "tăng huyết áp",
+        "position": [
+          94,
+          107
+        ],
+        "confidence": 0.952121
+      },
+      {
+        "text": "mệt mỏi",
+        "position": [
+          387,
+          394
+        ],
+        "confidence": 0.929493
+      },
+      {
+        "text": "mất trí nhớ chi tiết",
+        "position": [
+          396,
+          416
+        ],
+        "confidence": 0.887721
+      },
+      {
+        "text": "khó",
+        "position": [
+          439,
+          442
+        ],
+        "confidence": 0.822945
+      },
+      {
+        "text": "mệt mỏi nhiều",
+        "position": [
+          448,
+          461
+        ],
+        "confidence": 0.859251
+      },
+      {
+        "text": "ăn không ngon miệng",
+        "position": [
+          463,
+          482
+        ],
+        "confidence": 0.816687
+      },
+      {
+        "text": "ngứa da toàn thân nhiều",
+        "position": [
+          484,
+          507
+        ],
+        "confidence": 0.879772
+      },
+      {
+        "text": "mất trí nhớ chi tiết",
+        "position": [
+          512,
+          532
+        ],
+        "confidence": 0.880254
+      },
+      {
+        "text": "khó thở",
+        "position": [
+          534,
+          541
+        ],
+        "confidence": 0.878749
+      },
+      {
+        "text": "buồn nôn",
+        "position": [
+          568,
+          576
+        ],
+        "confidence": 0.853614
+      },
+      {
+        "text": "nôn",
+        "position": [
+          581,
+          584
+        ],
+        "confidence": 0.927298
+      },
+      {
+        "text": "Mệt",
+        "position": [
+          628,
+          631
+        ],
+        "confidence": 0.942006
+      },
+      {
+        "text": "Mệt mỏi nhiều",
+        "position": [
+          628,
+          641
+        ],
+        "confidence": 0.87493
+      },
+      {
+        "text": "Ngứa",
+        "position": [
+          674,
+          678
+        ],
+        "confidence": 0.94367
+      },
+      {
+        "text": "Ngứa da toàn thân nhiều",
+        "position": [
+          674,
+          697
+        ],
+        "confidence": 0.805116
+      }
+    ],
+    "98": [
+      {
+        "text": "da sạm",
+        "position": [
+          40,
+          46
+        ],
+        "confidence": 0.851622
+      },
+      {
+        "text": "Rối loạn cảm xúc",
+        "position": [
+          277,
+          293
+        ],
+        "confidence": 0.903908
+      },
+      {
+        "text": "Rối loạn lưỡng cực",
+        "position": [
+          301,
+          319
+        ],
+        "confidence": 0.913413
+      },
+      {
+        "text": "rối loạn lo âu",
+        "position": [
+          326,
+          340
+        ],
+        "confidence": 0.931484
+      },
+      {
+        "text": "trầm cảm",
+        "position": [
+          808,
+          816
+        ],
+        "confidence": 0.822313
+      }
+    ],
+    "99": [
+      {
+        "text": "viêm tủy xương",
+        "position": [
+          52,
+          66
+        ],
+        "confidence": 0.903303
+      },
+      {
+        "text": "bàng quang thần kinh",
+        "position": [
+          70,
+          90
+        ],
+        "confidence": 0.856258
+      },
+      {
+        "text": "liệt hai chi dưới",
+        "position": [
+          105,
+          122
+        ],
+        "confidence": 0.892905
+      },
+      {
+        "text": "Cơn tim nhanh nhĩ",
+        "position": [
+          882,
+          899
+        ],
+        "confidence": 0.897463
+      },
+      {
+        "text": "Tăng huyết áp",
+        "position": [
+          931,
+          944
+        ],
+        "confidence": 0.917256
+      }
+    ],
+    "100": []
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 873,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1299,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "gates": {
+    "baseline_hash_matches": true,
+    "every_added_row_has_exact_H59_boundary_support": true,
+    "at_least_20_and_at_most_100_added_rows": false,
+    "no_baseline_rows_changed_or_removed": true,
+    "no_new_nonempty_candidate_codes": true,
+    "all_100_records_validate": true
+  },
+  "decision": "FAIL"
+}

@@ -6,18 +6,18 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Freeze externally confirmed H38 at 39.2813 as the safe fallback. H58 scored
-  37.7760 and regressed every component, so aggressive Qwen-only recall is
-  rejected. Candidate-code freezing was insufficient because span additions
-  and boundary replacements changed entity matching and reduced candidate
-  Jaccard too. H57 rebuilt
-  extraction around deterministic section chunks, but its conservative merger
-  changed only 13 rows and failed its materiality gate. H58 is the first
-  core-rebuild challenger: it replaces 55 independently supported shorter
-  boundaries and adds 167 disjoint clinical/numeric spans while freezing
-  candidate coding. It passes every local integrity gate and remains
-  unsubmitted; its 137 Qwen-only additions make it deliberately higher variance
-  than H38. Earlier history: H24 retains a type-specialist
+  Freeze externally confirmed H38 at 39.2813 as the safe fallback. H59 trained
+  an independent PhoNER clinical-boundary teacher and passed its locked source
+  gates, but it exactly supported zero H58 Qwen-only target additions, so no
+  artifact was created. H60 then tested one-to-one boundary resegmentation:
+  all technical gates passed, but a post-build semantic audit found 45
+  single-token spans, 33 spans of at most three characters and a median
+  new/old length ratio of 0.4667. H60 is rejected and must not be submitted.
+  H61 is now preregistered: task-adaptive masked-language pretraining on the
+  unlabeled Turn2 input will precede otherwise unchanged PhoNER fine-tuning.
+  Its blind target gates explicitly reject the fragment behavior seen in H60.
+  H58 previously scored 37.7760 and regressed every component, so aggressive
+  Qwen-only recall remains rejected. Earlier history: H24 retains a type-specialist
   candidate retriever. H25 PU calibration failed, while H26's train-only phrase
   source transferred with useful recall. H27's dual-prompt verifier retained
   81.40% of H23-present additions and gained 4.06 dev F1 points, but missed its
@@ -587,9 +587,17 @@ experiments:
     - "H57 conservative merger rejected: 13 changes below 150-row materiality gate; no ZIP"
     - "H58 recall core: 222 changes, zero new nonempty candidate codes, 100/100 valid, 170 tests, ZIP 1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51"
     - "H58 external rejection: 37.7760 vs H38 39.2813; WER +1.7125 unfavorable, assertions -2.3820, candidates -0.6925; retain H38"
+    - "H59 source transfer passed: dev P/F1 0.9011/0.8843 and test P/F1 0.9213/0.8815 at threshold 0.80; zero exact Qwen-only target supports, no ZIP"
+    - "H60 technical pass but semantic reject: 162 replacements, 45 single-token and 33 <=3-character spans, median length ratio 0.4667; do not submit"
+    - "H61 TAPT protocol locked before training: unlabeled Turn2 MLM then unchanged PhoNER fine-tuning, with explicit target fragment gates"
   next: >
-    Retain H38 at 39.2813. Do not submit H58-derived Qwen-only, boundary-only or
-    supported-only micro-variants from the same aggregate result. First perform
+    Retain H38 at 39.2813. Do not submit H58-derived Qwen-only variants or H60.
+    Run H61 exactly once under its locked source and blind target gates. Create
+    a challenger artifact only if every source gate passes and the target audit
+    has at least 600 exact H38 confirmations, 80-180 one-to-one nonexact rows,
+    no more than 10% single-token replacements, at most five replacements of
+    three characters or fewer, and median new/old length ratio at least 0.70.
+    Do not relax these thresholds after inspecting the output. First perform
     an offline error audit that treats entity identity, assertions and
     candidates jointly; H58 proves that freezing code strings does not isolate
     candidate score when entity matching changes. A subsequent challenger must

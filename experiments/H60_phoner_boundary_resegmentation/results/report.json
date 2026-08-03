@@ -1,0 +1,2806 @@
+{
+  "hypothesis": "H60_phoner_boundary_resegmentation",
+  "teacher_model_sha256": "a3d005f86d6ff4a377463b338cc49a79968dc183ccd639a4477ff901dd62b430",
+  "teacher_threshold": 0.8,
+  "replacements": 162,
+  "records_changed": 61,
+  "relations": {
+    "teacher_strictly_inside_baseline": 139,
+    "baseline_strictly_inside_teacher": 23
+  },
+  "types": {
+    "CHẨN_ĐOÁN": 81,
+    "TRIỆU_CHỨNG": 81
+  },
+  "rejected": {
+    "exact_confirmation": 653,
+    "not_exactly_one_baseline_overlap": 26,
+    "nonclinical_baseline_type": 6,
+    "partial_overlap": 1,
+    "competing_teacher_spans": 6
+  },
+  "selected_rows": [
+    {
+      "record": 1,
+      "baseline_index": 15,
+      "old_text": "thiếu máu do tan huyết",
+      "old_position": [
+        1758,
+        1780
+      ],
+      "new_text": "thiếu máu",
+      "new_position": [
+        1758,
+        1767
+      ],
+      "confidence": 0.819654,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 1,
+      "baseline_index": 26,
+      "old_text": "vàng da",
+      "old_position": [
+        2501,
+        2508
+      ],
+      "new_text": "vàng da nặng",
+      "new_position": [
+        2501,
+        2513
+      ],
+      "confidence": 0.832258,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 1,
+      "baseline_index": 31,
+      "old_text": "thiếu máu tan huyết kéo dài",
+      "old_position": [
+        2696,
+        2723
+      ],
+      "new_text": "thiếu máu tan huyết",
+      "new_position": [
+        2696,
+        2715
+      ],
+      "confidence": 0.874871,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 1,
+      "baseline_index": 32,
+      "old_text": "vàng da sơ sinh",
+      "old_position": [
+        2728,
+        2743
+      ],
+      "new_text": "vàng da",
+      "new_position": [
+        2728,
+        2735
+      ],
+      "confidence": 0.804678,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 3,
+      "baseline_index": 4,
+      "old_text": "hội chứng Parkinson",
+      "old_position": [
+        510,
+        529
+      ],
+      "new_text": "hội",
+      "new_position": [
+        510,
+        513
+      ],
+      "confidence": 0.858834,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 3,
+      "baseline_index": 6,
+      "old_text": "mất thăng bằng khi đi",
+      "old_position": [
+        549,
+        570
+      ],
+      "new_text": "mất",
+      "new_position": [
+        549,
+        552
+      ],
+      "confidence": 0.835496,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 3,
+      "baseline_index": 8,
+      "old_text": "đau thắt ngực ổn định",
+      "old_position": [
+        660,
+        681
+      ],
+      "new_text": "đau thắt ngực",
+      "new_position": [
+        660,
+        673
+      ],
+      "confidence": 0.922768,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 2,
+      "old_text": "Nôn ra máu",
+      "old_position": [
+        118,
+        128
+      ],
+      "new_text": "Nôn",
+      "new_position": [
+        118,
+        121
+      ],
+      "confidence": 0.859048,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 4,
+      "baseline_index": 3,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        144,
+        169
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        144,
+        160
+      ],
+      "confidence": 0.92595,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 18,
+      "old_text": "buồn nôn",
+      "old_position": [
+        809,
+        817
+      ],
+      "new_text": "buồn",
+      "new_position": [
+        809,
+        813
+      ],
+      "confidence": 0.916652,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 4,
+      "baseline_index": 20,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        842,
+        867
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        842,
+        858
+      ],
+      "confidence": 0.936759,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 24,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        975,
+        1000
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        975,
+        991
+      ],
+      "confidence": 0.925836,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 25,
+      "old_text": "Nôn ra máu",
+      "old_position": [
+        1008,
+        1018
+      ],
+      "new_text": "Nôn",
+      "new_position": [
+        1008,
+        1011
+      ],
+      "confidence": 0.943226,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 4,
+      "baseline_index": 26,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        1035,
+        1060
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        1035,
+        1051
+      ],
+      "confidence": 0.928341,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 27,
+      "old_text": "Nôn ra máu",
+      "old_position": [
+        1068,
+        1078
+      ],
+      "new_text": "Nôn",
+      "new_position": [
+        1068,
+        1071
+      ],
+      "confidence": 0.939362,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 4,
+      "baseline_index": 35,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        1406,
+        1431
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        1406,
+        1422
+      ],
+      "confidence": 0.857941,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 36,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        1460,
+        1485
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        1460,
+        1476
+      ],
+      "confidence": 0.943459,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 42,
+      "old_text": "nhiều loét tá tràng và hồi tràng",
+      "old_position": [
+        1584,
+        1616
+      ],
+      "new_text": "loét tá tràng",
+      "new_position": [
+        1590,
+        1603
+      ],
+      "confidence": 0.85717,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 57,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        2025,
+        2050
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        2025,
+        2041
+      ],
+      "confidence": 0.950719,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 61,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        2158,
+        2183
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        2158,
+        2174
+      ],
+      "confidence": 0.924017,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 63,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        2231,
+        2256
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        2231,
+        2247
+      ],
+      "confidence": 0.937781,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 66,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        2330,
+        2355
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        2330,
+        2346
+      ],
+      "confidence": 0.934402,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 4,
+      "baseline_index": 70,
+      "old_text": "viêm dạ dày ruột do virus",
+      "old_position": [
+        2426,
+        2451
+      ],
+      "new_text": "viêm dạ dày ruột",
+      "new_position": [
+        2426,
+        2442
+      ],
+      "confidence": 0.938674,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 6,
+      "baseline_index": 3,
+      "old_text": "Đái tháo đường",
+      "old_position": [
+        89,
+        103
+      ],
+      "new_text": "Đái",
+      "new_position": [
+        89,
+        92
+      ],
+      "confidence": 0.906573,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 6,
+      "baseline_index": 30,
+      "old_text": "Tê bì vùng trán phải, da đầu phải và nửa mặt phải",
+      "old_position": [
+        2077,
+        2126
+      ],
+      "new_text": "Tê",
+      "new_position": [
+        2077,
+        2079
+      ],
+      "confidence": 0.907263,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 8,
+      "baseline_index": 22,
+      "old_text": "Lú lẫn",
+      "old_position": [
+        817,
+        823
+      ],
+      "new_text": "Lú",
+      "new_position": [
+        817,
+        819
+      ],
+      "confidence": 0.821882,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 8,
+      "baseline_index": 49,
+      "old_text": "Sưng hạch cổ",
+      "old_position": [
+        2159,
+        2171
+      ],
+      "new_text": "Sưng",
+      "new_position": [
+        2159,
+        2163
+      ],
+      "confidence": 0.952884,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 8,
+      "baseline_index": 62,
+      "old_text": "Phình giãn động mạch vành",
+      "old_position": [
+        2565,
+        2590
+      ],
+      "new_text": "Phình",
+      "new_position": [
+        2565,
+        2570
+      ],
+      "confidence": 0.935165,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 8,
+      "baseline_index": 63,
+      "old_text": "Hẹp – tắc động mạch vành",
+      "old_position": [
+        2594,
+        2618
+      ],
+      "new_text": "tắc động mạch vành",
+      "new_position": [
+        2600,
+        2618
+      ],
+      "confidence": 0.88616,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 8,
+      "baseline_index": 72,
+      "old_text": "Sốt ≥5 ngày",
+      "old_position": [
+        2885,
+        2896
+      ],
+      "new_text": "Sốt",
+      "new_position": [
+        2885,
+        2888
+      ],
+      "confidence": 0.932919,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 10,
+      "baseline_index": 46,
+      "old_text": "Viêm gan cấp tính do virus B thể thông thường điển hình mức độ nặng giai đoạn toàn phát",
+      "old_position": [
+        2506,
+        2593
+      ],
+      "new_text": "Viêm gan cấp tính",
+      "new_position": [
+        2506,
+        2523
+      ],
+      "confidence": 0.926045,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 11,
+      "baseline_index": 3,
+      "old_text": "Đái tháo đường",
+      "old_position": [
+        89,
+        103
+      ],
+      "new_text": "Đái",
+      "new_position": [
+        89,
+        92
+      ],
+      "confidence": 0.906573,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 12,
+      "baseline_index": 4,
+      "old_text": "Tăng huyết áp nguyên phát",
+      "old_position": [
+        184,
+        209
+      ],
+      "new_text": "Tăng huyết áp",
+      "new_position": [
+        184,
+        197
+      ],
+      "confidence": 0.871427,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 13,
+      "baseline_index": 19,
+      "old_text": "đau sau xương ức lan ra sau lưng",
+      "old_position": [
+        2269,
+        2301
+      ],
+      "new_text": "đau sau xương ức",
+      "new_position": [
+        2269,
+        2285
+      ],
+      "confidence": 0.897639,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 14,
+      "baseline_index": 8,
+      "old_text": "tăng lipid máu, không đặc hiệu",
+      "old_position": [
+        718,
+        748
+      ],
+      "new_text": "tăng lipid máu",
+      "new_position": [
+        718,
+        732
+      ],
+      "confidence": 0.891657,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 14,
+      "baseline_index": 9,
+      "old_text": "Đái tháo đường típ 2",
+      "old_position": [
+        755,
+        775
+      ],
+      "new_text": "Đái tháo đường típ",
+      "new_position": [
+        755,
+        773
+      ],
+      "confidence": 0.835752,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 14,
+      "baseline_index": 20,
+      "old_text": "Lú lẫn ngày càng nặng",
+      "old_position": [
+        1131,
+        1152
+      ],
+      "new_text": "Lú",
+      "new_position": [
+        1131,
+        1133
+      ],
+      "confidence": 0.810342,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 14,
+      "baseline_index": 23,
+      "old_text": "Lú lẫn ngày càng nặng",
+      "old_position": [
+        1278,
+        1299
+      ],
+      "new_text": "Lú",
+      "new_position": [
+        1278,
+        1280
+      ],
+      "confidence": 0.877653,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 15,
+      "baseline_index": 3,
+      "old_text": "Tăng huyết áp nguyên phát",
+      "old_position": [
+        184,
+        209
+      ],
+      "new_text": "Tăng huyết áp",
+      "new_position": [
+        184,
+        197
+      ],
+      "confidence": 0.871427,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 17,
+      "baseline_index": 28,
+      "old_text": "Hôi miệng",
+      "old_position": [
+        1097,
+        1106
+      ],
+      "new_text": "Hôi",
+      "new_position": [
+        1097,
+        1100
+      ],
+      "confidence": 0.892493,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 17,
+      "baseline_index": 32,
+      "old_text": "Hôi miệng",
+      "old_position": [
+        1185,
+        1194
+      ],
+      "new_text": "Hôi",
+      "new_position": [
+        1185,
+        1188
+      ],
+      "confidence": 0.907011,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 18,
+      "baseline_index": 12,
+      "old_text": "thiếu máu cơ tim khi gắng sức",
+      "old_position": [
+        254,
+        283
+      ],
+      "new_text": "thiếu máu cơ tim",
+      "new_position": [
+        254,
+        270
+      ],
+      "confidence": 0.842401,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 18,
+      "baseline_index": 18,
+      "old_text": "đau hạ sườn phải tái phát",
+      "old_position": [
+        1141,
+        1166
+      ],
+      "new_text": "đau hạ sườn phải tái",
+      "new_position": [
+        1141,
+        1161
+      ],
+      "confidence": 0.879679,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 18,
+      "baseline_index": 24,
+      "old_text": "sốt nhẹ đến 38.3°C",
+      "old_position": [
+        1331,
+        1349
+      ],
+      "new_text": "sốt nhẹ",
+      "new_position": [
+        1331,
+        1338
+      ],
+      "confidence": 0.922941,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 18,
+      "baseline_index": 25,
+      "old_text": "đau hạ sườn phải tái phát, ngày càng nặng hơn",
+      "old_position": [
+        1356,
+        1401
+      ],
+      "new_text": "đau hạ sườn phải",
+      "new_position": [
+        1356,
+        1372
+      ],
+      "confidence": 0.897264,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 21,
+      "baseline_index": 13,
+      "old_text": "buồn nôn thoáng qua",
+      "old_position": [
+        1657,
+        1676
+      ],
+      "new_text": "buồn nôn",
+      "new_position": [
+        1657,
+        1665
+      ],
+      "confidence": 0.900394,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 21,
+      "baseline_index": 14,
+      "old_text": "Nôn mửa",
+      "old_position": [
+        1683,
+        1690
+      ],
+      "new_text": "Nôn",
+      "new_position": [
+        1683,
+        1686
+      ],
+      "confidence": 0.941545,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 21,
+      "baseline_index": 18,
+      "old_text": "đau bụng",
+      "old_position": [
+        1928,
+        1936
+      ],
+      "new_text": "đau",
+      "new_position": [
+        1928,
+        1931
+      ],
+      "confidence": 0.960812,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 21,
+      "baseline_index": 21,
+      "old_text": "buồn nôn thoáng qua",
+      "old_position": [
+        1998,
+        2017
+      ],
+      "new_text": "buồn nôn",
+      "new_position": [
+        1998,
+        2006
+      ],
+      "confidence": 0.909548,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 22,
+      "baseline_index": 2,
+      "old_text": "đau bụng ngày càng nặng",
+      "old_position": [
+        376,
+        399
+      ],
+      "new_text": "đau bụng",
+      "new_position": [
+        376,
+        384
+      ],
+      "confidence": 0.901147,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 22,
+      "baseline_index": 13,
+      "old_text": "khó thở khi gắng sức",
+      "old_position": [
+        851,
+        871
+      ],
+      "new_text": "khó thở",
+      "new_position": [
+        851,
+        858
+      ],
+      "confidence": 0.805715,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 22,
+      "baseline_index": 16,
+      "old_text": "Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng",
+      "old_position": [
+        952,
+        1004
+      ],
+      "new_text": "Đau vùng gan phải",
+      "new_position": [
+        952,
+        969
+      ],
+      "confidence": 0.833137,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 23,
+      "baseline_index": 5,
+      "old_text": "trầm cảm",
+      "old_position": [
+        453,
+        461
+      ],
+      "new_text": "trầm",
+      "new_position": [
+        453,
+        457
+      ],
+      "confidence": 0.84017,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 23,
+      "baseline_index": 8,
+      "old_text": "đau đầu",
+      "old_position": [
+        1047,
+        1054
+      ],
+      "new_text": "đau đầu kéo dài",
+      "new_position": [
+        1047,
+        1062
+      ],
+      "confidence": 0.889517,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 23,
+      "baseline_index": 24,
+      "old_text": "phù gai thị, bên trái nặng hơn bên phải",
+      "old_position": [
+        2126,
+        2165
+      ],
+      "new_text": "phù gai thị",
+      "new_position": [
+        2126,
+        2137
+      ],
+      "confidence": 0.818313,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 23,
+      "baseline_index": 25,
+      "old_text": "Phù gai thị, bên trái nặng hơn bên phải",
+      "old_position": [
+        2216,
+        2255
+      ],
+      "new_text": "Phù gai thị",
+      "new_position": [
+        2216,
+        2227
+      ],
+      "confidence": 0.859055,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 24,
+      "baseline_index": 4,
+      "old_text": "sốt",
+      "old_position": [
+        238,
+        241
+      ],
+      "new_text": "sốt nhẹ",
+      "new_position": [
+        238,
+        245
+      ],
+      "confidence": 0.883419,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 24,
+      "baseline_index": 12,
+      "old_text": "mệt mỏi",
+      "old_position": [
+        448,
+        455
+      ],
+      "new_text": "mệt mỏi nhiều",
+      "new_position": [
+        448,
+        461
+      ],
+      "confidence": 0.852288,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 24,
+      "baseline_index": 61,
+      "old_text": "mệt mỏi",
+      "old_position": [
+        1712,
+        1719
+      ],
+      "new_text": "mệt mỏi hết",
+      "new_position": [
+        1712,
+        1723
+      ],
+      "confidence": 0.854823,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 26,
+      "baseline_index": 12,
+      "old_text": "bệnh tim mạch sớm",
+      "old_position": [
+        661,
+        678
+      ],
+      "new_text": "bệnh tim mạch",
+      "new_position": [
+        661,
+        674
+      ],
+      "confidence": 0.856225,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 26,
+      "baseline_index": 24,
+      "old_text": "Đau thắt ngực ổn định",
+      "old_position": [
+        1061,
+        1082
+      ],
+      "new_text": "Đau thắt ngực",
+      "new_position": [
+        1061,
+        1074
+      ],
+      "confidence": 0.947195,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 26,
+      "baseline_index": 32,
+      "old_text": "Buồn nôn",
+      "old_position": [
+        1363,
+        1371
+      ],
+      "new_text": "Buồn",
+      "new_position": [
+        1363,
+        1367
+      ],
+      "confidence": 0.932687,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 26,
+      "baseline_index": 35,
+      "old_text": "viêm tụy",
+      "old_position": [
+        1517,
+        1525
+      ],
+      "new_text": "vìviêm tụy",
+      "new_position": [
+        1515,
+        1525
+      ],
+      "confidence": 0.858517,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 26,
+      "baseline_index": 45,
+      "old_text": "sốt",
+      "old_position": [
+        2015,
+        2018
+      ],
+      "new_text": "sốt nhẹ",
+      "new_position": [
+        2015,
+        2022
+      ],
+      "confidence": 0.929376,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 27,
+      "baseline_index": 7,
+      "old_text": "Viêm phổi tiến triển nặng",
+      "old_position": [
+        391,
+        416
+      ],
+      "new_text": "Viêm phổi",
+      "new_position": [
+        391,
+        400
+      ],
+      "confidence": 0.892969,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 28,
+      "baseline_index": 12,
+      "old_text": "hẹp lỗ liên hợp",
+      "old_position": [
+        2314,
+        2329
+      ],
+      "new_text": "hẹp",
+      "new_position": [
+        2314,
+        2317
+      ],
+      "confidence": 0.810814,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 29,
+      "baseline_index": 6,
+      "old_text": "bệnh thận mạn, không đặc hiệu",
+      "old_position": [
+        156,
+        185
+      ],
+      "new_text": "bệnh thận mạn",
+      "new_position": [
+        156,
+        169
+      ],
+      "confidence": 0.921075,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 29,
+      "baseline_index": 7,
+      "old_text": "Khó thở",
+      "old_position": [
+        222,
+        229
+      ],
+      "new_text": "Khó thở tăng dần",
+      "new_position": [
+        222,
+        238
+      ],
+      "confidence": 0.9048,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 29,
+      "baseline_index": 14,
+      "old_text": "khó thở",
+      "old_position": [
+        504,
+        511
+      ],
+      "new_text": "khó thở tăng dần",
+      "new_position": [
+        504,
+        520
+      ],
+      "confidence": 0.841053,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 29,
+      "baseline_index": 15,
+      "old_text": "phù ngoại vi",
+      "old_position": [
+        548,
+        560
+      ],
+      "new_text": "phù ngoại vi tăng dần",
+      "new_position": [
+        548,
+        569
+      ],
+      "confidence": 0.856385,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 30,
+      "baseline_index": 12,
+      "old_text": "đau tăng dần",
+      "old_position": [
+        468,
+        480
+      ],
+      "new_text": "đau",
+      "new_position": [
+        468,
+        471
+      ],
+      "confidence": 0.80432,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 31,
+      "baseline_index": 7,
+      "old_text": "Giãn thừng tinh",
+      "old_position": [
+        592,
+        607
+      ],
+      "new_text": "Giãn",
+      "new_position": [
+        592,
+        596
+      ],
+      "confidence": 0.922592,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 31,
+      "baseline_index": 12,
+      "old_text": "buồn nôn thoáng qua",
+      "old_position": [
+        1010,
+        1029
+      ],
+      "new_text": "buồn nôn",
+      "new_position": [
+        1010,
+        1018
+      ],
+      "confidence": 0.915698,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 31,
+      "baseline_index": 13,
+      "old_text": "Nôn mửa",
+      "old_position": [
+        1036,
+        1043
+      ],
+      "new_text": "Nôn",
+      "new_position": [
+        1036,
+        1039
+      ],
+      "confidence": 0.913765,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 31,
+      "baseline_index": 14,
+      "old_text": "đau lưng",
+      "old_position": [
+        1064,
+        1072
+      ],
+      "new_text": "đau lưng âm ỉ",
+      "new_position": [
+        1064,
+        1077
+      ],
+      "confidence": 0.834293,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 31,
+      "baseline_index": 17,
+      "old_text": "đau bụng",
+      "old_position": [
+        1281,
+        1289
+      ],
+      "new_text": "đau",
+      "new_position": [
+        1281,
+        1284
+      ],
+      "confidence": 0.955397,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 31,
+      "baseline_index": 20,
+      "old_text": "buồn nôn thoáng qua",
+      "old_position": [
+        1351,
+        1370
+      ],
+      "new_text": "buồn nôn thoáng",
+      "new_position": [
+        1351,
+        1366
+      ],
+      "confidence": 0.848842,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 32,
+      "baseline_index": 0,
+      "old_text": "Rối loạn chuyển hóa tinh bột (amyloidosis)",
+      "old_position": [
+        29,
+        71
+      ],
+      "new_text": "Rối loạn chuyển hóa tinh bột",
+      "new_position": [
+        29,
+        57
+      ],
+      "confidence": 0.890863,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 32,
+      "baseline_index": 6,
+      "old_text": "tăng lipid máu, không đặc hiệu",
+      "old_position": [
+        841,
+        871
+      ],
+      "new_text": "tăng lipid máu",
+      "new_position": [
+        841,
+        855
+      ],
+      "confidence": 0.91657,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 32,
+      "baseline_index": 10,
+      "old_text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+      "old_position": [
+        939,
+        980
+      ],
+      "new_text": "bệnh thận mạn",
+      "new_position": [
+        939,
+        952
+      ],
+      "confidence": 0.803472,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 33,
+      "baseline_index": 15,
+      "old_text": "chán ăn",
+      "old_position": [
+        852,
+        859
+      ],
+      "new_text": "chán",
+      "new_position": [
+        852,
+        856
+      ],
+      "confidence": 0.818451,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 33,
+      "baseline_index": 18,
+      "old_text": "tê bì ở cánh tay trái trên",
+      "old_position": [
+        1033,
+        1059
+      ],
+      "new_text": "tê bì",
+      "new_position": [
+        1033,
+        1038
+      ],
+      "confidence": 0.800049,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 34,
+      "baseline_index": 4,
+      "old_text": "Bệnh lý đau nửa đầu",
+      "old_position": [
+        336,
+        355
+      ],
+      "new_text": "đau nửa đầu",
+      "new_position": [
+        344,
+        355
+      ],
+      "confidence": 0.934347,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 34,
+      "baseline_index": 5,
+      "old_text": "bệnh đau nửa đầu Migraine",
+      "old_position": [
+        371,
+        396
+      ],
+      "new_text": "đau nửa đầu Migraine",
+      "new_position": [
+        376,
+        396
+      ],
+      "confidence": 0.806067,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 34,
+      "baseline_index": 6,
+      "old_text": "đau nửa đầu",
+      "old_position": [
+        438,
+        449
+      ],
+      "new_text": "đau nửa đầu không cố định",
+      "new_position": [
+        438,
+        463
+      ],
+      "confidence": 0.817242,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 34,
+      "baseline_index": 23,
+      "old_text": "đau nửa đầu",
+      "old_position": [
+        1042,
+        1053
+      ],
+      "new_text": "đau nửa đầu trái",
+      "new_position": [
+        1042,
+        1058
+      ],
+      "confidence": 0.87733,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 35,
+      "baseline_index": 21,
+      "old_text": "bệnh viêm sung huyết hang vị dạ dày",
+      "old_position": [
+        1128,
+        1163
+      ],
+      "new_text": "viêm sung huyết hang vị dạ dày",
+      "new_position": [
+        1133,
+        1163
+      ],
+      "confidence": 0.935659,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 36,
+      "baseline_index": 6,
+      "old_text": "phù tăng",
+      "old_position": [
+        324,
+        332
+      ],
+      "new_text": "phù",
+      "new_position": [
+        324,
+        327
+      ],
+      "confidence": 0.82321,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 38,
+      "baseline_index": 0,
+      "old_text": "Bệnh bạch cầu dòng tủy mãn tính",
+      "old_position": [
+        57,
+        88
+      ],
+      "new_text": "bạch cầu dòng tủy mãn tính",
+      "new_position": [
+        62,
+        88
+      ],
+      "confidence": 0.820984,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 38,
+      "baseline_index": 3,
+      "old_text": "tăng lipid máu, không đặc hiệu",
+      "old_position": [
+        133,
+        163
+      ],
+      "new_text": "tăng lipid máu",
+      "new_position": [
+        133,
+        147
+      ],
+      "confidence": 0.90012,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 38,
+      "baseline_index": 7,
+      "old_text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+      "old_position": [
+        231,
+        272
+      ],
+      "new_text": "bệnh thận mạn",
+      "new_position": [
+        231,
+        244
+      ],
+      "confidence": 0.815603,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 38,
+      "baseline_index": 23,
+      "old_text": "Lú lẫn",
+      "old_position": [
+        837,
+        843
+      ],
+      "new_text": "Lú",
+      "new_position": [
+        837,
+        839
+      ],
+      "confidence": 0.808899,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 39,
+      "baseline_index": 1,
+      "old_text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+      "old_position": [
+        73,
+        117
+      ],
+      "new_text": "bệnh phổi tắc nghẽn mạn tính",
+      "new_position": [
+        73,
+        101
+      ],
+      "confidence": 0.919748,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 39,
+      "baseline_index": 3,
+      "old_text": "xơ gan do rượu",
+      "old_position": [
+        137,
+        151
+      ],
+      "new_text": "xơ gan",
+      "new_position": [
+        137,
+        143
+      ],
+      "confidence": 0.952548,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 39,
+      "baseline_index": 5,
+      "old_text": "xơ gan do rượu",
+      "old_position": [
+        337,
+        351
+      ],
+      "new_text": "xơ gan",
+      "new_position": [
+        337,
+        343
+      ],
+      "confidence": 0.928766,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 39,
+      "baseline_index": 33,
+      "old_text": "xẹp phổi thùy dưới phải do chèn ép",
+      "old_position": [
+        1768,
+        1802
+      ],
+      "new_text": "xẹp phổi thùy dưới phải",
+      "new_position": [
+        1768,
+        1791
+      ],
+      "confidence": 0.862739,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 39,
+      "baseline_index": 35,
+      "old_text": "Viêm phổi bệnh viện",
+      "old_position": [
+        1932,
+        1951
+      ],
+      "new_text": "Viêm phổi",
+      "new_position": [
+        1932,
+        1941
+      ],
+      "confidence": 0.904417,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 39,
+      "baseline_index": 36,
+      "old_text": "Rung nhĩ",
+      "old_position": [
+        1954,
+        1962
+      ],
+      "new_text": "Rung",
+      "new_position": [
+        1954,
+        1958
+      ],
+      "confidence": 0.915264,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 41,
+      "baseline_index": 20,
+      "old_text": "đau sau xương ức lan ra sau lưng",
+      "old_position": [
+        1141,
+        1173
+      ],
+      "new_text": "đau sau xương ức",
+      "new_position": [
+        1141,
+        1157
+      ],
+      "confidence": 0.809855,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 42,
+      "baseline_index": 4,
+      "old_text": "ngưng thở khi ngủ do tắc nghẽn",
+      "old_position": [
+        109,
+        139
+      ],
+      "new_text": "ngưng thở",
+      "new_position": [
+        109,
+        118
+      ],
+      "confidence": 0.858785,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 42,
+      "baseline_index": 16,
+      "old_text": "sốt lên đến 101",
+      "old_position": [
+        710,
+        725
+      ],
+      "new_text": "sốt",
+      "new_position": [
+        710,
+        713
+      ],
+      "confidence": 0.939548,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 42,
+      "baseline_index": 22,
+      "old_text": "ho đặc như bã",
+      "old_position": [
+        949,
+        962
+      ],
+      "new_text": "ho đặc",
+      "new_position": [
+        949,
+        955
+      ],
+      "confidence": 0.90777,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 42,
+      "baseline_index": 30,
+      "old_text": "khó thở khi nằm",
+      "old_position": [
+        1193,
+        1208
+      ],
+      "new_text": "khó thở",
+      "new_position": [
+        1193,
+        1200
+      ],
+      "confidence": 0.857633,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 42,
+      "baseline_index": 31,
+      "old_text": "khó thở khi nằm đột ngột",
+      "old_position": [
+        1224,
+        1248
+      ],
+      "new_text": "khó thở",
+      "new_position": [
+        1224,
+        1231
+      ],
+      "confidence": 0.849819,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 43,
+      "baseline_index": 1,
+      "old_text": "tăng cholesterol máu đơn thuần",
+      "old_position": [
+        95,
+        125
+      ],
+      "new_text": "tăng cholesterol máu",
+      "new_position": [
+        95,
+        115
+      ],
+      "confidence": 0.804288,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 45,
+      "baseline_index": 6,
+      "old_text": "đau đầu",
+      "old_position": [
+        703,
+        710
+      ],
+      "new_text": "đau đầu kéo dài",
+      "new_position": [
+        703,
+        718
+      ],
+      "confidence": 0.919165,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 45,
+      "baseline_index": 11,
+      "old_text": "đau đầu",
+      "old_position": [
+        1000,
+        1007
+      ],
+      "new_text": "tăng đau đầu",
+      "new_position": [
+        995,
+        1007
+      ],
+      "confidence": 0.922713,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 45,
+      "baseline_index": 14,
+      "old_text": "mờ mắt",
+      "old_position": [
+        1237,
+        1243
+      ],
+      "new_text": "mờ mắt ở cả hai mắt",
+      "new_position": [
+        1237,
+        1256
+      ],
+      "confidence": 0.851007,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 46,
+      "baseline_index": 70,
+      "old_text": "Mệt mỏi nhiều",
+      "old_position": [
+        1685,
+        1698
+      ],
+      "new_text": "Mệt",
+      "new_position": [
+        1685,
+        1688
+      ],
+      "confidence": 0.931847,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 47,
+      "baseline_index": 1,
+      "old_text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+      "old_position": [
+        73,
+        117
+      ],
+      "new_text": "bệnh phổi tắc nghẽn mạn tính",
+      "new_position": [
+        73,
+        101
+      ],
+      "confidence": 0.9166,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 47,
+      "baseline_index": 3,
+      "old_text": "xơ gan do rượu",
+      "old_position": [
+        137,
+        151
+      ],
+      "new_text": "xơ gan",
+      "new_position": [
+        137,
+        143
+      ],
+      "confidence": 0.952376,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 47,
+      "baseline_index": 5,
+      "old_text": "xơ gan do rượu",
+      "old_position": [
+        337,
+        351
+      ],
+      "new_text": "xơ gan",
+      "new_position": [
+        337,
+        343
+      ],
+      "confidence": 0.933105,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 47,
+      "baseline_index": 32,
+      "old_text": "khó thở khi gắng sức",
+      "old_position": [
+        1393,
+        1413
+      ],
+      "new_text": "khó thở",
+      "new_position": [
+        1393,
+        1400
+      ],
+      "confidence": 0.900933,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 47,
+      "baseline_index": 44,
+      "old_text": "Viêm phổi bệnh viện",
+      "old_position": [
+        1842,
+        1861
+      ],
+      "new_text": "Viêm phổi",
+      "new_position": [
+        1842,
+        1851
+      ],
+      "confidence": 0.909268,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 49,
+      "baseline_index": 0,
+      "old_text": "bệnh rụng tóc từng mảng",
+      "old_position": [
+        30,
+        53
+      ],
+      "new_text": "rụng tóc từng mảng",
+      "new_position": [
+        35,
+        53
+      ],
+      "confidence": 0.883203,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 49,
+      "baseline_index": 1,
+      "old_text": "Ung thư vú di căn",
+      "old_position": [
+        195,
+        212
+      ],
+      "new_text": "Ung thư vú",
+      "new_position": [
+        195,
+        205
+      ],
+      "confidence": 0.846384,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 50,
+      "baseline_index": 5,
+      "old_text": "đau đầu",
+      "old_position": [
+        703,
+        710
+      ],
+      "new_text": "đau đầu kéo dài",
+      "new_position": [
+        703,
+        718
+      ],
+      "confidence": 0.914225,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 50,
+      "baseline_index": 10,
+      "old_text": "đau đầu",
+      "old_position": [
+        1000,
+        1007
+      ],
+      "new_text": "tăng đau đầu",
+      "new_position": [
+        995,
+        1007
+      ],
+      "confidence": 0.914015,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 50,
+      "baseline_index": 13,
+      "old_text": "mờ mắt",
+      "old_position": [
+        1237,
+        1243
+      ],
+      "new_text": "mờ mắt ở cả hai mắt",
+      "new_position": [
+        1237,
+        1256
+      ],
+      "confidence": 0.831564,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 51,
+      "baseline_index": 2,
+      "old_text": "ngừng thở khi ngủ",
+      "old_position": [
+        113,
+        130
+      ],
+      "new_text": "ngừng",
+      "new_position": [
+        113,
+        118
+      ],
+      "confidence": 0.805332,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 54,
+      "baseline_index": 4,
+      "old_text": "tăng lipid máu, không đặc hiệu",
+      "old_position": [
+        377,
+        407
+      ],
+      "new_text": "tăng lipid máu",
+      "new_position": [
+        377,
+        391
+      ],
+      "confidence": 0.923429,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 54,
+      "baseline_index": 5,
+      "old_text": "Đái tháo đường típ 2",
+      "old_position": [
+        414,
+        434
+      ],
+      "new_text": "Đái tháo đường",
+      "new_position": [
+        414,
+        428
+      ],
+      "confidence": 0.930321,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 54,
+      "baseline_index": 8,
+      "old_text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+      "old_position": [
+        475,
+        516
+      ],
+      "new_text": "bệnh thận mạn",
+      "new_position": [
+        475,
+        488
+      ],
+      "confidence": 0.854958,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 54,
+      "baseline_index": 15,
+      "old_text": "Lú lẫn ngày càng nặng",
+      "old_position": [
+        790,
+        811
+      ],
+      "new_text": "Lú",
+      "new_position": [
+        790,
+        792
+      ],
+      "confidence": 0.845019,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 57,
+      "baseline_index": 1,
+      "old_text": "Đái tháo đường",
+      "old_position": [
+        54,
+        68
+      ],
+      "new_text": "Đái",
+      "new_position": [
+        54,
+        57
+      ],
+      "confidence": 0.950171,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 57,
+      "baseline_index": 2,
+      "old_text": "Suy tim không do thiếu máu cơ tim",
+      "old_position": [
+        114,
+        147
+      ],
+      "new_text": "Suy tim",
+      "new_position": [
+        114,
+        121
+      ],
+      "confidence": 0.943248,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 58,
+      "baseline_index": 1,
+      "old_text": "Đái tháo đường",
+      "old_position": [
+        54,
+        68
+      ],
+      "new_text": "Đái",
+      "new_position": [
+        54,
+        57
+      ],
+      "confidence": 0.941458,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 58,
+      "baseline_index": 3,
+      "old_text": "Suy tim không do thiếu máu cơ tim",
+      "old_position": [
+        114,
+        147
+      ],
+      "new_text": "Suy tim",
+      "new_position": [
+        114,
+        121
+      ],
+      "confidence": 0.935907,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 61,
+      "baseline_index": 9,
+      "old_text": "khó thở khi gắng sức",
+      "old_position": [
+        864,
+        884
+      ],
+      "new_text": "khó thở",
+      "new_position": [
+        864,
+        871
+      ],
+      "confidence": 0.908405,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 61,
+      "baseline_index": 10,
+      "old_text": "đờm vàng loãng",
+      "old_position": [
+        902,
+        916
+      ],
+      "new_text": "ho mạn tính có đờm vàng loãng",
+      "new_position": [
+        887,
+        916
+      ],
+      "confidence": 0.831771,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 62,
+      "baseline_index": 6,
+      "old_text": "khó thở",
+      "old_position": [
+        379,
+        386
+      ],
+      "new_text": "khó thở nhẹ",
+      "new_position": [
+        379,
+        390
+      ],
+      "confidence": 0.865393,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 62,
+      "baseline_index": 10,
+      "old_text": "sốt lên đến 101",
+      "old_position": [
+        450,
+        465
+      ],
+      "new_text": "sốt",
+      "new_position": [
+        450,
+        453
+      ],
+      "confidence": 0.936847,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 62,
+      "baseline_index": 39,
+      "old_text": "viêm phổi thùy dưới phải (RLL PNA)",
+      "old_position": [
+        1664,
+        1698
+      ],
+      "new_text": "viêm phổi thùy dưới phải",
+      "new_position": [
+        1664,
+        1688
+      ],
+      "confidence": 0.955333,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 64,
+      "baseline_index": 5,
+      "old_text": "tăng lipid máu, không đặc hiệu",
+      "old_position": [
+        301,
+        331
+      ],
+      "new_text": "tăng lipid máu",
+      "new_position": [
+        301,
+        315
+      ],
+      "confidence": 0.823071,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 64,
+      "baseline_index": 12,
+      "old_text": "cơn đau thắt ngực",
+      "old_position": [
+        944,
+        961
+      ],
+      "new_text": "đau thắt ngực",
+      "new_position": [
+        948,
+        961
+      ],
+      "confidence": 0.88691,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 64,
+      "baseline_index": 14,
+      "old_text": "đau đầu",
+      "old_position": [
+        1201,
+        1208
+      ],
+      "new_text": "đau",
+      "new_position": [
+        1201,
+        1204
+      ],
+      "confidence": 0.924336,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 67,
+      "baseline_index": 3,
+      "old_text": "Ngưng thở khi ngủ do tắc nghẽn",
+      "old_position": [
+        110,
+        140
+      ],
+      "new_text": "Ngưng",
+      "new_position": [
+        110,
+        115
+      ],
+      "confidence": 0.844354,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 67,
+      "baseline_index": 14,
+      "old_text": "bệnh viêm sung huyết hang vị dạ dày",
+      "old_position": [
+        721,
+        756
+      ],
+      "new_text": "viêm sung huyết hang vị dạ dày",
+      "new_position": [
+        726,
+        756
+      ],
+      "confidence": 0.917152,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 68,
+      "baseline_index": 5,
+      "old_text": "Khó thở tăng khi vận động gắng sức",
+      "old_position": [
+        258,
+        292
+      ],
+      "new_text": "Khó thở tăng",
+      "new_position": [
+        258,
+        270
+      ],
+      "confidence": 0.82252,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 69,
+      "baseline_index": 10,
+      "old_text": "thuyên tắc phổi hai bên",
+      "old_position": [
+        768,
+        791
+      ],
+      "new_text": "thuyên tắc phổi",
+      "new_position": [
+        768,
+        783
+      ],
+      "confidence": 0.862019,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 70,
+      "baseline_index": 2,
+      "old_text": "ngừng thở khi ngủ",
+      "old_position": [
+        113,
+        130
+      ],
+      "new_text": "ngừng",
+      "new_position": [
+        113,
+        118
+      ],
+      "confidence": 0.805332,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 71,
+      "baseline_index": 11,
+      "old_text": "nổi mẩn đỏ ngứa ở lưng",
+      "old_position": [
+        1171,
+        1193
+      ],
+      "new_text": "nổi mẩn đỏ ngứa",
+      "new_position": [
+        1171,
+        1186
+      ],
+      "confidence": 0.802092,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 73,
+      "baseline_index": 23,
+      "old_text": "toàn trạng suy kiệt",
+      "old_position": [
+        1317,
+        1336
+      ],
+      "new_text": "suy kiệt",
+      "new_position": [
+        1328,
+        1336
+      ],
+      "confidence": 0.814676,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 77,
+      "baseline_index": 0,
+      "old_text": "đau vùng xương bánh chè – đùi phải dữ dội",
+      "old_position": [
+        73,
+        114
+      ],
+      "new_text": "đau vùng xương bánh chè",
+      "new_position": [
+        73,
+        96
+      ],
+      "confidence": 0.91227,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 79,
+      "baseline_index": 13,
+      "old_text": "khó chịu vùng bụng",
+      "old_position": [
+        1310,
+        1328
+      ],
+      "new_text": "khó",
+      "new_position": [
+        1310,
+        1313
+      ],
+      "confidence": 0.819601,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 82,
+      "baseline_index": 13,
+      "old_text": "đau lưng",
+      "old_position": [
+        743,
+        751
+      ],
+      "new_text": "đau",
+      "new_position": [
+        743,
+        746
+      ],
+      "confidence": 0.954227,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 85,
+      "baseline_index": 2,
+      "old_text": "tăng lipid máu, không đặc hiệu",
+      "old_position": [
+        113,
+        143
+      ],
+      "new_text": "tăng lipid máu",
+      "new_position": [
+        113,
+        127
+      ],
+      "confidence": 0.940053,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 85,
+      "baseline_index": 4,
+      "old_text": "Nhiễm trùng đường tiết niệu (UTIs) tái phát",
+      "old_position": [
+        164,
+        207
+      ],
+      "new_text": "Nhiễm trùng đường tiết niệu",
+      "new_position": [
+        164,
+        191
+      ],
+      "confidence": 0.859325,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 86,
+      "baseline_index": 2,
+      "old_text": "khó thở",
+      "old_position": [
+        55,
+        62
+      ],
+      "new_text": "khó thở nhẹ",
+      "new_position": [
+        55,
+        66
+      ],
+      "confidence": 0.867127,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 86,
+      "baseline_index": 3,
+      "old_text": "khó thở khi gắng sức",
+      "old_position": [
+        71,
+        91
+      ],
+      "new_text": "khó thở",
+      "new_position": [
+        71,
+        78
+      ],
+      "confidence": 0.811769,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 86,
+      "baseline_index": 12,
+      "old_text": "bệnh viêm sung huyết hang vị dạ dày",
+      "old_position": [
+        517,
+        552
+      ],
+      "new_text": "viêm sung huyết hang vị dạ dày",
+      "new_position": [
+        522,
+        552
+      ],
+      "confidence": 0.93569,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 87,
+      "baseline_index": 0,
+      "old_text": "đau ngực",
+      "old_position": [
+        34,
+        42
+      ],
+      "new_text": "đau",
+      "new_position": [
+        34,
+        37
+      ],
+      "confidence": 0.892148,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 87,
+      "baseline_index": 5,
+      "old_text": "Đau ngực T âm ỉ",
+      "old_position": [
+        240,
+        255
+      ],
+      "new_text": "Đau ngực",
+      "new_position": [
+        240,
+        248
+      ],
+      "confidence": 0.901792,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 89,
+      "baseline_index": 3,
+      "old_text": "tăng huyết áp vô căn (nguyên phát)",
+      "old_position": [
+        88,
+        122
+      ],
+      "new_text": "tăng huyết áp vô căn",
+      "new_position": [
+        88,
+        108
+      ],
+      "confidence": 0.920873,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 92,
+      "baseline_index": 12,
+      "old_text": "bệnh viêm tuỷ xương",
+      "old_position": [
+        570,
+        589
+      ],
+      "new_text": "viêm tuỷ xương",
+      "new_position": [
+        575,
+        589
+      ],
+      "confidence": 0.811852,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 92,
+      "baseline_index": 33,
+      "old_text": "nhiễm trùng huyết đường vào tiết niệu",
+      "old_position": [
+        1232,
+        1269
+      ],
+      "new_text": "nhiễm trùng huyết đường",
+      "new_position": [
+        1232,
+        1255
+      ],
+      "confidence": 0.909059,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 95,
+      "baseline_index": 18,
+      "old_text": "đau các khớp rất nhiều",
+      "old_position": [
+        1086,
+        1108
+      ],
+      "new_text": "đau các khớp",
+      "new_position": [
+        1086,
+        1098
+      ],
+      "confidence": 0.880846,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 95,
+      "baseline_index": 19,
+      "old_text": "đái tháo đường",
+      "old_position": [
+        1165,
+        1179
+      ],
+      "new_text": "ho đái tháo đường",
+      "new_position": [
+        1162,
+        1179
+      ],
+      "confidence": 0.92104,
+      "relation": "baseline_strictly_inside_teacher",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 95,
+      "baseline_index": 22,
+      "old_text": "ngưng thở khi ngủ do tắc nghẽn",
+      "old_position": [
+        1220,
+        1250
+      ],
+      "new_text": "ngưng thở",
+      "new_position": [
+        1220,
+        1229
+      ],
+      "confidence": 0.856309,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "CHẨN_ĐOÁN"
+    },
+    {
+      "record": 97,
+      "baseline_index": 12,
+      "old_text": "khó thở khi gắng sức",
+      "old_position": [
+        534,
+        554
+      ],
+      "new_text": "khó thở",
+      "new_position": [
+        534,
+        541
+      ],
+      "confidence": 0.878749,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 97,
+      "baseline_index": 15,
+      "old_text": "Mệt mỏi nhiều",
+      "old_position": [
+        628,
+        641
+      ],
+      "new_text": "Mệt",
+      "new_position": [
+        628,
+        631
+      ],
+      "confidence": 0.942006,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    },
+    {
+      "record": 97,
+      "baseline_index": 17,
+      "old_text": "Ngứa da toàn thân nhiều",
+      "old_position": [
+        674,
+        697
+      ],
+      "new_text": "Ngứa",
+      "new_position": [
+        674,
+        678
+      ],
+      "confidence": 0.94367,
+      "relation": "teacher_strictly_inside_baseline",
+      "type": "TRIỆU_CHỨNG"
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 873,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1299,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "gates": {
+    "baseline_hash_matches": true,
+    "teacher_model_hash_matches": true,
+    "source_calibration_decision_is_PASS": true,
+    "at_least_120_and_at_most_180_replacements": true,
+    "every_replacement_is_one_to_one_strict_containment": true,
+    "no_baseline_additions_or_net_deletions": true,
+    "type_assertions_candidates_unchanged_per_replaced_row": true,
+    "no_overlapping_final_entities": true,
+    "all_100_records_validate": true
+  },
+  "decision": "PASS",
+  "zip_sha256": "a7f6fbe3d464ca61037d0b1f20f6ceb10a054693ac1e951ec490a2cc53fa0cf6",
+  "repeat_zip_sha256": "a7f6fbe3d464ca61037d0b1f20f6ceb10a054693ac1e951ec490a2cc53fa0cf6",
+  "byte_identical_repeat": true
+}
