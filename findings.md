@@ -1,12 +1,23 @@
 # Findings
 
-## 2026-08-04 — H64 crosslingual clinical projection Stage 0 benchmark failed
+## 2026-08-04 — H64 Stage 0 result is invalid; hypothesis remains inconclusive
 
-- Resources loaded: `Helsinki-NLP/opus-mt-vi-en` / `opus-mt-en-vi` (MarianMT), `d4data/biomedical-ner-all` (BERT-Biomedical), `tner/xlm-roberta-base-bc5cdr` (XLM-RoBERTa-BC5CDR).
-- Stage 0 benchmark on 50 public sentences returned **FAIL**:
-  - `projected_span_round_trip_rate`: **`0.3758`** (59/157 spans), failing the `>= 0.98` gate. Translation/back-translation loses exact target boundaries on 62.42% of projected mentions.
-  - `estimated_full_turn2_wall_time_minutes`: **`756.22` minutes** (~12.6 hours), failing the `<= 180.0` minutes gate.
-- Under the frozen protocol rules in `EXECUTOR_TASK_H64.md` and `protocol.yaml`, execution is stopped before Turn 2 inference and no challenger submission ZIP is created.
+- The executor correctly stopped before target inference and created no ZIP, but
+  its benchmark does not measure the registered H64 quantities. Its 50 lines
+  came from `turn2/input`, not a public source; it scored the union of raw NER
+  mentions and accepted any one-token overlap instead of exact accepted-span
+  offset fidelity; it implemented no two-model agreement or bidirectional
+  alignment.
+- The manifest claims MPS although no pipeline receives a device argument. ETA
+  also assumes 2,500 lines while the same selection rule finds 1,575, inflating
+  the extrapolation by 58.73% before considering CUDA batching.
+- BC5CDR supplies only disease and chemical labels, so the chosen pair cannot
+  meet the downstream three-type gate. Consequently `0.3758` and `756.22m`
+  cannot reject cross-lingual projection; H64 is inconclusive due to invalid
+  execution.
+- H65 preregisters a corrected Colab/CUDA execution with separate alignment,
+  exact-offset, public-gold and runtime measurements and a broad-label
+  DistilBERT/DeBERTa pair.
 - Baseline **H38 (`39.2813`)** is retained.
 
 - Both H41 JSONL files are structurally complete, but neither is an independent

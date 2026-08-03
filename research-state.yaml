@@ -6,7 +6,13 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  H63 invalidates the claimed H41 independent-reviewer result on provenance:
+  H64's executor stopped safely but did not evaluate its registered hypothesis:
+  it sampled Turn2 instead of public data, used raw mention union and token
+  overlap instead of exact accepted-span projection, misreported device usage,
+  overestimated corpus size and selected a two-type model that cannot meet the
+  three-type gate. H64 is inconclusive. Run preregistered H65 on Colab CUDA with
+  corrected measurements and a broad-label architecture-distinct pair. H38 at
+  39.2813 remains frozen. H63 invalidates the claimed H41 independent-reviewer result on provenance:
   reviewer 1 used hard-coded/keyword rules and reviewer 2 used the existing
   detector, candidate resolver and assertion engine. Their labels are
   quarantined and cannot train H63. Pivot to H64, a feasibility-gated
@@ -444,19 +450,27 @@ hypotheses:
       Use semantic coverage only as a recall diagnostic; padding and unsupported
       cardinality expansion are forbidden.
   H64_crosslingual_clinical_projection:
-    status: rejected_stage_0_benchmark_gate_failed
+    status: invalid_execution_hypothesis_inconclusive
     prediction: >
       Cross-lingual translation to English, clinical NER with two independent
       English models and bidirectional span projection can add high-precision
       entities without relying on Vietnamese proposal sources.
     result: >
-      Stage 0 benchmark on 50 public sentences returned FAIL. Projected span
-      round-trip rate reached only 0.3758 (gate >= 0.98, status: FALSE).
-      Estimated full Turn 2 runtime reached 756.22 minutes (gate <= 180.0,
-      status: FALSE). Stopped before Turn 2 inference; retain H38 baseline 39.2813.
+      Executor stopped safely and created no ZIP, but used Turn2 lines rather
+      than public data, raw union/token overlap rather than registered exact
+      accepted projections, no actual MPS device argument, an inflated assumed
+      corpus size and a model pair unable to cover three BTC types. The reported
+      metrics do not test H64. Retain H38 and run corrected H65.
+  H65_crosslingual_projection_corrected_execution:
+    status: preregistered
+    prediction: >
+      A CUDA-batched, protocol-faithful execution with a broad-label
+      DistilBERT/DeBERTa pair can separately establish projection alignment,
+      exact-offset fidelity, public-gold quality and runtime feasibility before
+      any Turn2 inference. Failure of any frozen gate creates no ZIP.
 experiments:
   completed:
-    - "H64 crosslingual clinical projection: Stage 0 benchmark failed (round-trip 0.3758 < 0.98, ETA 756.22m > 180m); no Turn 2 inference or ZIP"
+    - "H64 execution invalid/inconclusive: Turn2 sample, wrong denominator, soft token overlap, unsupported device claim and unreachable three-type gate; no ZIP"
     - "V1 rule/dictionary baseline: 0.3690"
     - "V2 Qwen hybrid: 1.3060"
     - "V3 consensus: 1.2726"
@@ -619,7 +633,10 @@ experiments:
     - "H61 source pass/target fail: dev P/F1 0.9007/0.8882, test P/F1 0.8953/0.8685; target 539 exact, 184 replacements, 10.87% single-token, median ratio 0.5833; no ZIP"
     - "H62 assertion-only protocol locked: two-stage Qwen classifier/critic, all entity and candidate fields frozen, 80-500 materiality gate"
   next: >
-    Retain H38 at 39.2813. Do not submit H58, H60 or H61. Run H62 under its
+    Retain H38 at 39.2813. Execute H65 exactly from EXECUTOR_TASK_H65.md on a
+    Colab CUDA runtime; do not rerun the invalid H64 script. Stop before target
+    inference on any Stage-0 or Stage-1 failure, and submit only a hash that
+    passes every inherited gate. Do not submit H58, H60 or H61. Run H62 under its
     frozen two-stage assertion protocol. Create an artifact only if 80-500 rows
     change, every positive evidence quote round-trips, malformed rate is <=1%,
     all non-assertion fields remain identical and repeated packaging is

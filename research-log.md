@@ -1689,3 +1689,18 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - Under the frozen protocol rules, execution stopped immediately before Turn 2 inference.
 - No challenger ZIP was created; baseline **H38 (39.2813)** is retained as the safe artifact.
 
+## 2026-08-04 — H64 execution audit and H65 preregistration
+
+- Static audit found the 50 benchmark lines came from Turn2 rather than public
+  data. The script evaluates a raw union, counts any token overlap as success,
+  and never implements two-model agreement, sentence alignment or exact
+  accepted-span offset fidelity.
+- The manifest's MPS claim is unsupported by code, and the ETA uses 2,500
+  assumed lines versus 1,575 under its actual line rule. BC5CDR also limits
+  consensus to two BTC types, making the three-type target gate unreachable.
+- Reclassify H64 from a hypothesis rejection to invalid execution/inconclusive.
+  The absence of a ZIP remains the correct safety outcome.
+- H65 is committed before execution. It requires Colab CUDA, real device and
+  revision evidence, a deterministic public sample, a broad-label
+  DistilBERT/DeBERTa pair, separate alignment-yield and exact-offset metrics,
+  public-gold calibration, and all inherited conservative fusion gates.

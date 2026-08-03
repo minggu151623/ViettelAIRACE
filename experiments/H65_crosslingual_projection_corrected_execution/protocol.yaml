@@ -1,0 +1,127 @@
+hypothesis: H65_crosslingual_projection_corrected_execution
+status: preregistered_before_resource_download_or_inference
+created_at: "2026-08-04T01:20:00+07:00"
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+question: >
+  Does a protocol-faithful, CUDA-batched re-execution show that H64 is feasible
+  when exact-offset fidelity, alignment yield, public-source quality and runtime
+  are measured separately and both English NER architectures cover the full
+  mapped clinical label set?
+audit_dependency:
+  path: experiments/H64_crosslingual_clinical_projection/audit.md
+  interpretation: H64_is_inconclusive_due_to_invalid_execution
+forbidden:
+  - H41_contaminated_labels
+  - Turn2_input_as_public_calibration_data
+  - token_overlap_counted_as_exact_round_trip
+  - union_of_raw_NER_mentions_as_projection_denominator
+  - mutable_main_revision_in_final_manifest
+  - claimed_device_without_runtime_assertion
+  - target_inference_before_all_source_gates_pass
+  - threshold_changes_after_public_test_or_leaderboard
+resources:
+  translator:
+    preferred:
+      - Helsinki-NLP/opus-mt-vi-en
+      - Helsinki-NLP/opus-mt-en-vi
+    requirements:
+      - resolved_commit_sha
+      - verified_license
+      - exact_downloaded_bytes
+  english_ner_pair:
+    preferred:
+      model_a: d4data/biomedical-ner-all
+      model_b: blaze999/Medical-NER
+      rationale: >
+        Both expose the broad MACCROBAT label inventory needed for at least
+        diagnosis, symptom, test, drug and patient-info mappings, while their
+        encoders are DistilBERT and DeBERTa-v3 respectively. Shared training
+        schema/corpus is disclosed as correlated evidence; architectural
+        distinctness satisfies H64's frozen OR condition but does not justify
+        raw union.
+    requirements:
+      - resolved_commit_sha
+      - verified_license
+      - exact_downloaded_bytes
+      - at_least_three_shared_mapped_BTC_types
+compute:
+  required_device: cuda
+  runtime_assertion: every_model_parameter_device_and_pipeline_device_saved
+  batching_required: true
+  cold_start_seconds_reported_separately: true
+stage_0:
+  sample:
+    source: PhoNER_official_dev
+    selection: >
+      Sort official document and sentence identifiers, then take the first 50
+      nonempty sentences. Save identifiers and SHA-256; do not select by model
+      output or translation quality.
+  measurements:
+    exact_offset_fidelity:
+      denominator: accepted_consensus_projection_candidates
+      numerator: candidates_where_raw_text_start_end_equals_emitted_text
+      gate: at_least_0.98
+    alignment_yield:
+      denominator: normalized_same_type_English_consensus_mentions
+      numerator: mentions_with_one_unique_bidirectionally_supported_Vietnamese_span
+      gate: at_least_0.15
+    structural_coverage:
+      gate: shared_mapping_supports_at_least_3_BTC_types
+    materiality:
+      gate: at_least_20_accepted_projection_candidates_on_50_sentences
+    runtime:
+      corpus_size: exact_count_from_production_window_builder
+      estimate: cold_start_plus_measured_batched_seconds_per_window_times_exact_window_count
+      gate_minutes: at_most_180
+  failure: stop_without_full_public_test_target_inference_or_zip
+stage_1:
+  development:
+    - PhoNER_official_dev
+    - ViMedNER_official_dev_if_license_permits
+  one_shot_test:
+    - PhoNER_official_test
+    - ViMedNER_official_test_if_license_permits
+  threshold_selection: development_only
+  gates:
+    - dev_and_test_precision_at_least_0.90_on_mapped_PhoNER_entities
+    - dev_and_test_f1_at_least_0.70_on_mapped_PhoNER_entities
+    - mapped_ViMedNER_precision_at_least_0.85_if_available
+    - mapped_ViMedNER_f1_at_least_0.65_if_available
+    - exact_offset_fidelity_at_least_0.98
+  failure: stop_without_target_inference_or_zip
+turn2:
+  inherit_from: experiments/H64_crosslingual_clinical_projection/protocol.yaml
+  immutable_rules:
+    - H38_unchanged_rows_fields_assertions_and_candidates_are_frozen
+    - novel_span_requires_two_model_same_span_same_normalized_type_consensus
+    - bidirectional_projection_required
+    - independent_local_exact_support_or_exact_unique_ontology_support_required
+    - no_inferred_diagnosis_from_symptoms
+    - new_candidate_only_for_exact_unique_ontology_mapping
+  gates:
+    - total_additions_or_replacements_between_80_and_500
+    - changes_span_at_least_60_records
+    - changes_cover_at_least_3_entity_types
+    - single_token_change_rate_at_most_0.10
+    - changed_spans_of_at_most_3_chars_at_most_5
+    - median_replacement_length_ratio_at_least_0.75
+    - repeated_passage_consistency_at_least_0.95
+    - all_100_records_validate
+    - repeated_zip_is_byte_identical
+  failure: no_challenger_zip_and_retain_H38
+if_all_gates_pass:
+  output_directory: turn2/output_v21_crosslingual_corrected
+  artifact: turn2/output_v21_crosslingual_corrected.zip
+  submission_slots: 1
+  submission_rule: submit_exact_reported_hash_only_under_existing_user_authority
+required_results:
+  - resource_manifest.json
+  - public_sample_manifest.json
+  - stage_0_report.json
+  - stage_1_report.json
+  - projection_audit.jsonl
+  - execution_report.json
+  - artifact_sha256_if_PASS
