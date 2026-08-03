@@ -6,7 +6,12 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Freeze externally confirmed H38 at 39.2813 as the safe fallback. H59 trained
+  Freeze externally confirmed H38 at 39.2813 as the safe fallback. H61 passed
+  its source gates after Turn2 task-adaptive pretraining but failed all locked
+  target boundary-safety gates, so no ZIP was created. The next core branch,
+  H62, freezes every span/type/candidate decision and uses a two-stage
+  classifier/critic to repair only assertion scope. Its protocol was locked
+  before the first LLM assertion label. H59 trained
   an independent PhoNER clinical-boundary teacher and passed its locked source
   gates, but it exactly supported zero H58 Qwen-only target additions, so no
   artifact was created. H60 then tested one-to-one boundary resegmentation:
@@ -590,14 +595,15 @@ experiments:
     - "H59 source transfer passed: dev P/F1 0.9011/0.8843 and test P/F1 0.9213/0.8815 at threshold 0.80; zero exact Qwen-only target supports, no ZIP"
     - "H60 technical pass but semantic reject: 162 replacements, 45 single-token and 33 <=3-character spans, median length ratio 0.4667; do not submit"
     - "H61 TAPT protocol locked before training: unlabeled Turn2 MLM then unchanged PhoNER fine-tuning, with explicit target fragment gates"
+    - "H61 source pass/target fail: dev P/F1 0.9007/0.8882, test P/F1 0.8953/0.8685; target 539 exact, 184 replacements, 10.87% single-token, median ratio 0.5833; no ZIP"
+    - "H62 assertion-only protocol locked: two-stage Qwen classifier/critic, all entity and candidate fields frozen, 80-500 materiality gate"
   next: >
-    Retain H38 at 39.2813. Do not submit H58-derived Qwen-only variants or H60.
-    Run H61 exactly once under its locked source and blind target gates. Create
-    a challenger artifact only if every source gate passes and the target audit
-    has at least 600 exact H38 confirmations, 80-180 one-to-one nonexact rows,
-    no more than 10% single-token replacements, at most five replacements of
-    three characters or fewer, and median new/old length ratio at least 0.70.
-    Do not relax these thresholds after inspecting the output. First perform
+    Retain H38 at 39.2813. Do not submit H58, H60 or H61. Run H62 under its
+    frozen two-stage assertion protocol. Create an artifact only if 80-500 rows
+    change, every positive evidence quote round-trips, malformed rate is <=1%,
+    all non-assertion fields remain identical and repeated packaging is
+    byte-identical. Do not relax these thresholds after inspecting the output.
+    First perform
     an offline error audit that treats entity identity, assertions and
     candidates jointly; H58 proves that freezing code strings does not isolate
     candidate score when entity matching changes. A subsequent challenger must

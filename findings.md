@@ -1023,3 +1023,25 @@ The strongest verified direction is conservative structural cleanup:
   length ratio >=0.70.
 - Failure of any gate means no ZIP. This is a core representation change, not a
   post-hoc threshold variant.
+
+## 2026-08-03 — H61 improves source learning but fails target safety
+
+- TAPT loss falls 8.1806→6.1150 and the best PhoNER dev F1 rises to 0.8913.
+  Frozen calibration passes at threshold 0.75 with dev precision/F1
+  0.9007/0.8882 and one-shot test precision/F1 0.8953/0.8685.
+- Target behavior remains fragmented: exact H38 confirmations fall to 539,
+  one-to-one nonexact rows rise to 184, single-token rate is 10.87%, 17 rows
+  have at most three characters, and median new/old ratio is 0.5833.
+- Every target gate fails, so no H61 ZIP exists. Unlabeled target adaptation
+  alone cannot bridge the annotation-policy mismatch.
+
+## 2026-08-03 — H62 isolates assertion modeling
+
+- H38 has 3,226 entities; 753 rows carry at least one assertion, including 553
+  historical, 181 negated and 61 family labels. Assertion-only intervention is
+  therefore materially larger than the previously rejected novel-span subset.
+- H62 freezes every entity and candidate field. Qwen performs a direct pass,
+  then a separate critic sees only disagreements. A change requires identical
+  assertion sets across both passes plus verifiable evidence/scope metadata.
+- The protocol is locked before the first LLM assertion label. This can isolate
+  assertion-score movement, but two prompts to one model remain correlated.

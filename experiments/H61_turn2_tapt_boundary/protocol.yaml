@@ -1,5 +1,5 @@
 hypothesis: H61_turn2_task_adaptive_pretraining
-status: preregistered_before_TAPT_training
+status: source_pass_target_gates_fail
 created_at: "2026-08-03T20:25:00+07:00"
 baseline:
   artifact: turn2/output_v10_multiview_consensus.zip
@@ -50,3 +50,20 @@ integration_if_all_gates_pass:
   validate_all_records: true
   require_byte_identical_repeat_zip: true
 failure_policy: no_submission_artifact_if_any_source_or_target_gate_fails
+outcome:
+  tapt_model_sha256: c702caaae2c2906dcacd742bf06c4cdedeead1fd15bce2418eeda121a196252d
+  boundary_model_sha256: 7fff57cc41d806e9dc6f672b2ac20aba1b03419b11e2c9298990313768d9a44f
+  best_source_epoch: 5
+  selected_threshold: 0.75
+  source_dev_precision: 0.900671
+  source_dev_f1: 0.888154
+  source_test_precision: 0.895327
+  source_test_f1: 0.868540
+  target_teacher_spans: 772
+  target_exact_H38_confirmations: 539
+  target_one_to_one_nonexact_rows: 184
+  target_single_token_rate: 0.108696
+  target_at_most_three_character_rows: 17
+  target_median_new_to_old_character_ratio: 0.583333
+  target_decision: FAIL
+  submission_zip_created: false

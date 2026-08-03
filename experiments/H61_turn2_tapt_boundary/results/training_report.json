@@ -1,0 +1,104 @@
+{
+  "examples": 5027,
+  "train_examples": 5027,
+  "validation_examples": 2000,
+  "validation_source": "/tmp/h59-phoner-jsonl/dev.jsonl",
+  "windows": 5027,
+  "epochs_requested": 8,
+  "epochs_completed": 8,
+  "minimum_epochs": 4,
+  "device": "mps",
+  "mean_loss": 0.048268,
+  "best_validation_f1": 0.891347,
+  "entity_counts": {
+    "TRIỆU_CHỨNG": 1439
+  },
+  "max_length": 256,
+  "stride": 64,
+  "output_dir": "models/h61-phoner-boundary",
+  "elapsed_seconds": 3066.972,
+  "class_weighting": false,
+  "class_weights": null,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.341783,
+      "precision": 0.778813,
+      "recall": 0.873368,
+      "f1": 0.823385,
+      "true_positive": 669,
+      "false_positive": 190,
+      "false_negative": 97
+    },
+    {
+      "epoch": 2,
+      "loss": 0.017528,
+      "precision": 0.860728,
+      "recall": 0.895561,
+      "f1": 0.877799,
+      "true_positive": 686,
+      "false_positive": 111,
+      "false_negative": 80
+    },
+    {
+      "epoch": 3,
+      "loss": 0.009319,
+      "precision": 0.859119,
+      "recall": 0.891645,
+      "f1": 0.87508,
+      "true_positive": 683,
+      "false_positive": 112,
+      "false_negative": 83
+    },
+    {
+      "epoch": 4,
+      "loss": 0.006188,
+      "precision": 0.867801,
+      "recall": 0.865535,
+      "f1": 0.866667,
+      "true_positive": 663,
+      "false_positive": 101,
+      "false_negative": 103
+    },
+    {
+      "epoch": 5,
+      "loss": 0.004347,
+      "precision": 0.888457,
+      "recall": 0.894256,
+      "f1": 0.891347,
+      "true_positive": 685,
+      "false_positive": 86,
+      "false_negative": 81
+    },
+    {
+      "epoch": 6,
+      "loss": 0.002916,
+      "precision": 0.878981,
+      "recall": 0.900783,
+      "f1": 0.889749,
+      "true_positive": 690,
+      "false_positive": 95,
+      "false_negative": 76
+    },
+    {
+      "epoch": 7,
+      "loss": 0.002207,
+      "precision": 0.88151,
+      "recall": 0.883812,
+      "f1": 0.88266,
+      "true_positive": 677,
+      "false_positive": 91,
+      "false_negative": 89
+    },
+    {
+      "epoch": 8,
+      "loss": 0.001859,
+      "precision": 0.883268,
+      "recall": 0.889034,
+      "f1": 0.886142,
+      "true_positive": 681,
+      "false_positive": 90,
+      "false_negative": 85
+    }
+  ]
+}

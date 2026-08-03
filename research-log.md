@@ -1618,3 +1618,20 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   new/old character ratio >=0.70.
 - Added deterministic TAPT code and focused tests. No target output or H61
   checkpoint existed when the gates were locked.
+
+## 2026-08-03 — H61 outcome
+
+- TAPT completed three epochs with loss 8.180611→6.115009. PhoNER fine-tuning
+  selected epoch 5 and passed all source gates at threshold 0.75.
+- The Turn2 audit then failed every locked safety threshold: 539 exact H38
+  confirmations, 184 replacements, 10.87% single-token rate, 17 very short
+  rows and median length ratio 0.583333. No ZIP was created.
+
+## 2026-08-03 — H62 assertion-only core registered
+
+- Counted 553 historical, 181 negated and 61 family labels across H38 before
+  model inference. Non-assertion entity fields and candidates are frozen.
+- Registered a two-stage Qwen classifier/critic following the ConText concepts
+  of trigger, scope, termination and pseudo-trigger. Only exact agreement with
+  auditable evidence may alter a row; malformed/missing output retains H38.
+- No H62 LLM label or output existed when the protocol was locked.

@@ -1,0 +1,43 @@
+{
+  "method": "Turn2_task_adaptive_masked_language_pretraining",
+  "input_records": 100,
+  "windows": 286,
+  "epochs": 3,
+  "batch_size": 16,
+  "learning_rate": 5e-05,
+  "mask_probability": 0.15,
+  "max_length": 256,
+  "stride": 32,
+  "seed": 61,
+  "device": "mps",
+  "missing_keys_at_load": [
+    "lm_head.bias",
+    "lm_head.decoder.bias",
+    "lm_head.dense.bias",
+    "lm_head.dense.weight",
+    "lm_head.layer_norm.bias",
+    "lm_head.layer_norm.weight"
+  ],
+  "unexpected_keys_at_load": [
+    "classifier.bias",
+    "classifier.weight"
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "mean_loss": 8.180611,
+      "perplexity": 3571.036847
+    },
+    {
+      "epoch": 2,
+      "mean_loss": 6.583662,
+      "perplexity": 723.182461
+    },
+    {
+      "epoch": 3,
+      "mean_loss": 6.115009,
+      "perplexity": 452.600164
+    }
+  ],
+  "elapsed_seconds": 65.056
+}
