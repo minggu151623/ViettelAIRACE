@@ -991,17 +991,19 @@ tree:
       "experiments/H57_section_expert_core/results/report.json"]
     children:
       - id: N70
-        type: experiment
+        type: dead_end
         title: "H58 boundary-aware section-expert recall"
         provenance: ai-executed
         timestamp: "2026-08-03T23:30+07:00"
         result: >
           H58 makes 222 semantic changes: 55 independently supported shorter
           boundaries, 30 supported disjoint additions and 137 Qwen-only
-          clinical/numeric additions. It adds no new nonempty candidate codes,
-          validates 100/100 and passes 170 tests. External effect is pending.
+          clinical/numeric additions. External score is 37.7760, down 1.5053
+          from H38; every component regresses. Candidate strings were frozen,
+          but changed entity matching still reduced candidate Jaccard.
         evidence: [C55,
-          "experiments/H58_section_expert_recall/results/report.json"]
+          C56,
+          "experiments/H58_section_expert_recall/external_result.json"]
 
   - id: N59
     type: dead_end

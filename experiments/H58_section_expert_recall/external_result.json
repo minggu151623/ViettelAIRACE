@@ -1,0 +1,29 @@
+{
+  "artifact": "turn2/output_v14_section_expert_recall.zip",
+  "submitted_sha256": "1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51",
+  "submitted_at": "2026-08-03T18:43:00+07:00",
+  "score": 37.7760,
+  "wer_percent": 57.8701,
+  "j_assertion": 45.0100,
+  "j_candidates": 29.0851,
+  "num_scored": 100,
+  "num_records": 100,
+  "baseline": {
+    "artifact": "turn2/output_v10_multiview_consensus.zip",
+    "score": 39.2813,
+    "wer_percent": 56.1576,
+    "j_assertion": 47.3920,
+    "j_candidates": 29.7776
+  },
+  "delta": {
+    "score": -1.5053,
+    "wer_percent": 1.7125,
+    "j_assertion": -2.3820,
+    "j_candidates": -0.6925,
+    "weighted_text": -0.51375,
+    "weighted_assertion": -0.71460,
+    "weighted_candidates": -0.27700
+  },
+  "decision": "REJECT_H58_RETAIN_H38",
+  "interpretation": "All three components regress. The frozen candidate-code policy did not protect candidate Jaccard because changed entity boundaries and added diagnosis/drug rows alter entity matching. Qwen-only recall and boundary replacement are not externally supported as a bundle."
+}

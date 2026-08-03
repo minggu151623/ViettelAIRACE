@@ -1560,3 +1560,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   and 170 passing tests. SHA-256 is
   `1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51`.
   No competition submission was performed.
+
+## 2026-08-03 — H58 external rejection
+
+- Recorded the submitted SHA-256 and organizer metrics from the user's result.
+- H58 scored 37.7760, down 1.5053 from H38. All components regress: WER by
+  +1.7125 unfavorable, assertion Jaccard by -2.3820 and candidate Jaccard by
+  -0.6925.
+- The score decomposition exactly reconciles to -1.50535 before display
+  rounding. H58 is rejected and H38 remains the safe baseline.
+- No follow-up ZIP was generated from this single aggregate result. In
+  particular, supported-only or boundary-only variants would be unmeasured
+  post-hoc micro-ablations rather than a demonstrated breakthrough.

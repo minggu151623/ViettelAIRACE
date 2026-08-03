@@ -761,7 +761,7 @@
 - **Statement**: Freezing H38 coding while accepting independently supported
   shorter boundaries and narrowly scoped disjoint clinical/numeric proposals
   produces 222 semantic changes without introducing new nonempty candidate codes.
-- **Status**: locally supported; external effect pending
+- **Status**: externally refuted as a bundle
 - **Provenance**: ai-executed
 - **Falsification criteria**: Reproduction fails validation, determinism or the
   candidate-safety invariant, or external scoring regresses materially.
@@ -770,3 +770,16 @@
   `turn2/output_v14_section_expert_recall.zip`]
 - **Dependencies**: [C54]
 - **Tags**: section-expert, boundary-repair, recall, candidate-safety
+
+## C56: Freezing candidate strings does not isolate candidate Jaccard
+- **Statement**: Entity additions and boundary replacements can reduce
+  candidate Jaccard even when no new nonempty candidate code is introduced,
+  because entity matching determines which candidate sets are compared.
+- **Status**: externally supported by H58 component movement
+- **Provenance**: user-provided external result, ai-analyzed
+- **Falsification criteria**: The hash-bound H58 metrics are incorrect or the
+  organizer matcher can be shown to score candidate fields independently of
+  entity identity.
+- **Proof**: [`experiments/H58_section_expert_recall/external_result.json`]
+- **Dependencies**: [C55]
+- **Tags**: candidate-Jaccard, entity-matching, boundary, external-result

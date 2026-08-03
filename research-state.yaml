@@ -6,7 +6,11 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Freeze externally confirmed H38 at 39.2813 as the safe fallback. H57 rebuilt
+  Freeze externally confirmed H38 at 39.2813 as the safe fallback. H58 scored
+  37.7760 and regressed every component, so aggressive Qwen-only recall is
+  rejected. Candidate-code freezing was insufficient because span additions
+  and boundary replacements changed entity matching and reduced candidate
+  Jaccard too. H57 rebuilt
   extraction around deterministic section chunks, but its conservative merger
   changed only 13 rows and failed its materiality gate. H58 is the first
   core-rebuild challenger: it replaces 55 independently supported shorter
@@ -582,15 +586,15 @@ experiments:
     - "H57 extractor: 271/271 deterministic Qwen3 calls, 2,738 proposals, digest c96cb5ba2aa95888d71017cd6d5ca6278b7a5a41a71b718afb518e8e6a2fd08e"
     - "H57 conservative merger rejected: 13 changes below 150-row materiality gate; no ZIP"
     - "H58 recall core: 222 changes, zero new nonempty candidate codes, 100/100 valid, 170 tests, ZIP 1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51"
+    - "H58 external rejection: 37.7760 vs H38 39.2813; WER +1.7125 unfavorable, assertions -2.3820, candidates -0.6925; retain H38"
   next: >
-    Retain H38 at 39.2813 and freeze its candidate policy. H58 is the next
-    experimental submission candidate because it changes span/type coverage
-    materially without repeating H44 candidate expansion. Treat it as a
-    high-variance recall test, not a guaranteed promotion: 137 additions have
-    Qwen-only evidence. Record its exact hash and component metrics before any
-    further change. If H58 regresses, restore H38 and use component movement to
-    decide whether to retain only its independently supported boundary subset.
-    H44 proves that
+    Retain H38 at 39.2813. Do not submit H58-derived Qwen-only, boundary-only or
+    supported-only micro-variants from the same aggregate result. First perform
+    an offline error audit that treats entity identity, assertions and
+    candidates jointly; H58 proves that freezing code strings does not isolate
+    candidate score when entity matching changes. A subsequent challenger must
+    use a new independently calibrated selector or supervised labels, not a
+    looser recall threshold. H44 proves that
     candidate-list growth without row-specific cardinality calibration can
     destroy Jaccard. Do not optimize archive bytes; require any size increase to
     come from independently supported spans/types/assertions. Prioritize a new

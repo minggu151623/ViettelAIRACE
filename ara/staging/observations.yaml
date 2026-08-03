@@ -1,4 +1,12 @@
 observations:
+  - id: O59
+    timestamp: "2026-08-03T18:44+07:00"
+    provenance: user-provided
+    content: "The hash-bound H58 submission scored 37.7760 with WER 57.8701, assertion Jaccard 45.01 and candidate Jaccard 29.0851."
+    context: "Organizer leaderboard screenshot supplied by the user; all three components regress from H38."
+    potential_type: evidence
+    promoted: true
+    stale: false
   - id: O58
     timestamp: "2026-08-03T23:30+07:00"
     provenance: ai-executed

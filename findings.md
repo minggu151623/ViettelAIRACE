@@ -974,3 +974,17 @@ The strongest verified direction is conservative structural cleanup:
   exactly 100 required members, is byte-reproducible, passes all 170 tests and
   has SHA-256 `1789379ff5a091efe01477cd4c9b235c174624a2df8bedde752b420ac0e11b51`.
   It remains an unsubmitted high-variance challenger; H38 is the safe fallback.
+
+## 2026-08-03 — H58 external result rejects aggressive section recall
+
+- The hash-bound H58 artifact scored 37.7760 versus H38's 39.2813, a decline of
+  1.5053 points. WER worsened 56.1576→57.8701, assertion Jaccard fell
+  47.3920→45.0100, and candidate Jaccard fell 29.7776→29.0851.
+- Weighted attribution is -0.51375 text, -0.71460 assertions and -0.27700
+  candidates. Candidate codes were frozen, so their decline demonstrates that
+  entity additions and boundary replacements also disturb candidate matching;
+  coding safety cannot be evaluated independently of entity identity.
+- Reject H58 and retain H38. The 137 Qwen-only additions are closed as a bundle.
+  The external result does not separately identify the effect of the 55
+  supported boundary replacements or 30 supported disjoint additions, so they
+  may be studied offline but are not authorized as blind micro-submissions.
