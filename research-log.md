@@ -1635,3 +1635,26 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   of trigger, scope, termination and pseudo-trigger. Only exact agreement with
   auditable evidence may alter a row; malformed/missing output retains H38.
 - No H62 LLM label or output existed when the protocol was locked.
+
+## 2026-08-03 — H62 direct pass and critic runtime amendment
+
+- Direct pass completed 100/100 records and returned 2,445/2,448 eligible
+  entities, with three missing rows and one malformed duplicate (0.123%
+  missing). It disagrees with H38 on 813 rows across 95 records.
+- The first critic calls returned all rows for records 1-3. Record 4's
+  evidence-rich response truncated at about 9 KB and failed JSON parsing before
+  any merged output or critic quality census existed.
+- Amended only transport: critic batches contain at most ten disagreements.
+  Prompt, model, temperature, labels, evidence contract and all gates remain
+  frozen. Existing valid caches are preserved; invalid/missing rows retain H38.
+
+## 2026-08-03 — H62 deadline checkpoint and rejection
+
+- The critic reached 343/813 disagreements. Only 18 changes passed the frozen
+  integration rule; 323 rows still disagreed between stages, one failed exact
+  evidence, and one failed the removal-reason contract.
+- A four-shard concurrency test completed only three additional records while
+  contending for the same Ollama GPU, so it was stopped.
+- The 18 accepted changes miss the locked 80-row minimum and the incomplete
+  response census has 14.5354% missing/malformed items. H62 is rejected and no
+  submission ZIP is generated. H38 remains the immediate safe artifact.

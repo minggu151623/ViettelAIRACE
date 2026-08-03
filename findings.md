@@ -1,5 +1,17 @@
 # Findings
 
+## 2026-08-03 — H62 assertion critic rejected
+
+- The direct assertion pass returned 2,445/2,448 eligible rows and disagreed
+  with H38 on 813, but the evidence critic accepted only 18 of the first 343
+  reviewed disagreements under the frozen agreement/evidence contract.
+- Of those 343 rows, 323 retained stage disagreement; one failed verbatim
+  evidence and one failed the removal-reason contract. This is not a promising
+  route to the locked 80-change minimum.
+- Four concurrent Ollama shards contended for one local GPU and did not improve
+  throughput. H62 is stopped rather than consuming the final submission window.
+  No ZIP was created; H38 at 39.2813 remains the safe fallback.
+
 ## 2026-08-03 — H44 external rejection and H56 size-proxy audit
 
 - H44 scored **35.4639**, down **3.8174** from H38. WER (`56.1576`) and

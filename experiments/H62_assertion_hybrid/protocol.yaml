@@ -1,5 +1,5 @@
 hypothesis: H62_two_stage_assertion_hybrid
-status: preregistered_before_first_llm_label
+status: rejected_after_deadline_checkpoint
 created_at: "2026-08-03T21:40:00+07:00"
 baseline:
   artifact: turn2/output_v10_multiview_consensus.zip
@@ -31,6 +31,13 @@ stage_two:
   input: only_rows_where_stage_one_differs_from_H38
   policy: hide_global_counts_and_leaderboard_metrics
   output: final_assertion_set_plus_exact_evidence_quote_and_scope_category
+  runtime_amendment:
+    trigger: >
+      Record 4's first full-record critic response was truncated at about 9 KB
+      and failed JSON parsing. No critic quality census or merged output existed.
+    change: split_each_record_into_batches_of_at_most_10_disagreements
+    frozen_components: [prompt, model, temperature, labels, evidence_contract, integration_gates]
+    failure_behavior: retain_H38_for_missing_or_invalid_rows
 integration:
   accept_change_only_if:
     - stage_one_and_stage_two_assertion_sets_are_identical
@@ -53,3 +60,14 @@ interpretation_limits:
   - Two prompts to the same model are correlated, not independent annotators.
   - No organizer assertion gold is available.
   - The artifact may isolate assertion-score movement but cannot guarantee gain.
+outcome:
+  checkpoint_scope: 343_of_813_critic_disagreements
+  accepted_changes: 18
+  stage_disagreements: 323
+  evidence_failures: 1
+  removal_reason_failures: 1
+  missing_or_malformed_rate: 0.1453541858
+  decision: FAIL_NO_SUBMISSION
+  reason: >
+    The accepted-change count is far below the locked 80-row minimum and the
+    incomplete critic census exceeds the one-percent response-quality gate.

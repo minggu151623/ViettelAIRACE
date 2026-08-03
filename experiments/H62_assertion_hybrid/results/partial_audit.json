@@ -1,0 +1,374 @@
+{
+  "hypothesis": "H62_two_stage_assertion_hybrid",
+  "changes": 18,
+  "records_changed": 6,
+  "transition_counts": {
+    "()->('isHistorical',)": 10,
+    "()->('isNegated',)": 6,
+    "('isNegated', 'isFamily')->('isNegated',)": 1,
+    "()->('isFamily',)": 1
+  },
+  "invalid": {
+    "stage_disagreement": 323,
+    "positive_evidence_failure": 1,
+    "removal_reason_failure": 1
+  },
+  "response_audit": {
+    "direct_expected": 2448,
+    "direct_returned": 2445,
+    "direct_missing": 3,
+    "direct_malformed": 1,
+    "critic_expected": 813,
+    "critic_returned": 343,
+    "critic_missing": 470,
+    "critic_malformed": 0
+  },
+  "missing_or_malformed": 474,
+  "response_expected": 3261,
+  "malformed_rate": 0.1453541858325667,
+  "changed_rows": [
+    {
+      "record": 11,
+      "entity_index": 29,
+      "text": "mất định hướng",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "Có ghi nhận giai đoạn mất định hướng và đi lại không vững theo lời kể người nhà."
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 11,
+      "entity_index": 30,
+      "text": "đi lại không vững",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "Có ghi nhận giai đoạn mất định hướng và đi lại không vững theo lời kể người nhà."
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 11,
+      "entity_index": 31,
+      "text": "kích thích nhẹ",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "Có ghi nhận giai đoạn mất định hướng và đi lại không vững theo lời kể người nhà."
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 14,
+      "entity_index": 0,
+      "text": "nổi các dấu mề đay rất to",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isNegated"
+      ],
+      "evidence": [
+        {
+          "label": "isNegated",
+          "quote": "nổi các dấu mề đay rất to"
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 14,
+      "entity_index": 1,
+      "text": "ngứa khắp người",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isNegated"
+      ],
+      "evidence": [
+        {
+          "label": "isNegated",
+          "quote": "ngứa khắp người"
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 14,
+      "entity_index": 2,
+      "text": "dấu mề đay nổi rất khó chịu",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isNegated"
+      ],
+      "evidence": [
+        {
+          "label": "isNegated",
+          "quote": "dấu mề đay nổi rất khó chịu"
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 14,
+      "entity_index": 3,
+      "text": "ngứa",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isNegated"
+      ],
+      "evidence": [
+        {
+          "label": "isNegated",
+          "quote": "ngứa"
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 14,
+      "entity_index": 4,
+      "text": "dị ứng do thời tiết hay thức ăn",
+      "type": "CHẨN_ĐOÁN",
+      "before": [
+        "isNegated",
+        "isFamily"
+      ],
+      "after": [
+        "isNegated"
+      ],
+      "evidence": [
+        {
+          "label": "isNegated",
+          "quote": "dị ứng do thời tiết hay thức ăn"
+        }
+      ],
+      "removals": [
+        {
+          "label": "isFamily",
+          "category": "patient_is_subject"
+        }
+      ]
+    },
+    {
+      "record": 14,
+      "entity_index": 22,
+      "text": "ảo giác",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "ảo giác dai dẳng"
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 14,
+      "entity_index": 23,
+      "text": "Lú lẫn ngày càng nặng",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "Lú lẫn ngày càng nặng được vợ nhận thấy"
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 17,
+      "entity_index": 0,
+      "text": "chảy máu chân răng",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isNegated"
+      ],
+      "evidence": [
+        {
+          "label": "isNegated",
+          "quote": "Vấn đề của bạn nói nguy hiểm hay không nguy hiểm thì còn tùy một số trường hợp"
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 23,
+      "entity_index": 3,
+      "text": "Mất ngủ",
+      "type": "CHẨN_ĐOÁN",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "Sử dụng các chất kích thích như cà phê, chè, thuốc lá,..\n-        Sự thay đổi nội tiết tố trong chu kỳ kinh nguyệt và trong thời kỳ mãn kinh có thể đóng một vai trò. Trong thời kỳ mãn kinh, đổ mồ hôi đêm và bốc hỏa thường làm gián đoạn giấc ngủ. Mất ngủ cũng phổ biến với thai kỳ."
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 23,
+      "entity_index": 4,
+      "text": "rối loạn lo âu",
+      "type": "CHẨN_ĐOÁN",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "Sử dụng các chất kích thích như cà phê, chè, thuốc lá,..\n-        Sự thay đổi nội tiết tố trong chu kỳ kinh nguyệt và trong thời kỳ mãn kinh có thể đóng một vai trò. Trong thời kỳ mãn kinh, đổ mồ hôi đêm và bốc hỏa thường làm gián đoạn giấc ngủ. Mất ngủ cũng phổ biến với thai kỳ."
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 23,
+      "entity_index": 5,
+      "text": "trầm cảm",
+      "type": "CHẨN_ĐOÁN",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "Sử dụng các chất kích thích như cà phê, chè, thuốc lá,..\n-        Sự thay đổi nội tiết tố trong chu kỳ kinh nguyệt và trong thời kỳ mãn kinh có thể đóng một vai trò. Trong thời kỳ mãn kinh, đổ mồ hôi đêm và bốc hỏa thường làm gián đoạn giấc ngủ. Mất ngủ cũng phổ biến với thai kỳ."
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 23,
+      "entity_index": 6,
+      "text": "stress",
+      "type": "CHẨN_ĐOÁN",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "Sử dụng các chất kích thích như cà phê, chè, thuốc lá,..\n-        Sự thay đổi nội tiết tố trong chu kỳ kinh nguyệt và trong thời kỳ mãn kinh có thể đóng một vai trò. Trong thời kỳ mãn kinh, đổ mồ hôi đêm và bốc hỏa thường làm gián đoạn giấc ngủ. Mất ngủ cũng phổ biến với thai kỳ."
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 23,
+      "entity_index": 28,
+      "text": "Phù gai thị",
+      "type": "CHẨN_ĐOÁN",
+      "before": [],
+      "after": [
+        "isHistorical"
+      ],
+      "evidence": [
+        {
+          "label": "isHistorical",
+          "quote": "Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có phù gai thị."
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 25,
+      "entity_index": 0,
+      "text": "sì nước",
+      "type": "TRIỆU_CHỨNG",
+      "before": [],
+      "after": [
+        "isNegated"
+      ],
+      "evidence": [
+        {
+          "label": "isNegated",
+          "quote": "Tính từ năm ngoái tới năm nay em có sd 6 vien ********** ạ. Có một dạo em uống 4 viên trong 4 tuần, nguyên nhân của tất cả lần đó là tụi em sd bcs invisible và bị sì nước khi tụi em test nên em có sd ạ."
+        }
+      ],
+      "removals": []
+    },
+    {
+      "record": 29,
+      "entity_index": 30,
+      "text": "chân có hơi vòng kiềng",
+      "type": "CHẨN_ĐOÁN",
+      "before": [],
+      "after": [
+        "isFamily"
+      ],
+      "evidence": [
+        {
+          "label": "isFamily",
+          "quote": "Cháu có 1 nhóc 3,5 tuổi. Cháu đang nghĩ cháu bị hội chứng bàn chân bẹt bẩm sinh, vì phần gót chân của con cháu khi nhìn ngoại quan nó hơi lệch , lòng bàn chân phẳng."
+        }
+      ],
+      "removals": [
+        {
+          "label": "isFamily",
+          "category": "patient_is_subject"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 873,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1299,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "gates": {
+    "baseline_hash_matches": true,
+    "qwen_model_id_matches": true,
+    "at_least_80_and_at_most_500_assertion_rows_changed": false,
+    "all_non_assertion_fields_are_identical": true,
+    "zero_assertions_on_ineligible_types": true,
+    "malformed_or_missing_rate_at_most_0.01": false,
+    "all_positive_evidence_quotes_round_trip": false,
+    "all_100_records_validate": true
+  },
+  "decision": "FAIL"
+}

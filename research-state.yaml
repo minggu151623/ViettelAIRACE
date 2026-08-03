@@ -6,7 +6,11 @@ question: >
 status: active
 started_at: "2026-07-26"
 current_direction: >
-  Freeze externally confirmed H38 at 39.2813 as the safe fallback. H61 passed
+  Freeze externally confirmed H38 at 39.2813 as the safe fallback. H62 is
+  rejected at its deadline checkpoint: only 18 of the first 343 critic-reviewed
+  disagreements passed the frozen agreement/evidence contract, far below the
+  80-change gate, and parallel Ollama shards contended for one GPU. No H62 ZIP
+  exists. H61 passed
   its source gates after Turn2 task-adaptive pretraining but failed all locked
   target boundary-safety gates, so no ZIP was created. The next core branch,
   H62, freezes every span/type/candidate decision and uses a two-stage
