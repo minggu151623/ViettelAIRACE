@@ -36,3 +36,21 @@ baseline entity, or introduce a candidate code.
 This is intentionally more conservative than H58: the new evidence is an
 independent human-labelled corpus, while the target intervention remains an
 intersection rather than a union.
+
+## Guideline compatibility audit
+
+The 17-page official Vietnamese annotation guideline was inspected in full,
+including visual verification of the general rules and clinical pages 11-12.
+Its clinical boundary policy provides useful but asymmetric transfer evidence:
+
+- it keeps severity and stage modifiers inside the mention (for example chronic
+  or end-stage qualifiers), which is compatible with the competition's need
+  for complete clinical mentions;
+- when annotated entities overlap, it chooses the longest composite mention;
+- it excludes etiologic agents, the word `biến chứng`, and treatment methods;
+- crucially, it does **not** annotate a disease/symptom preceded by negation.
+
+The last rule conflicts with a competition schema that explicitly represents
+`isNegated`. H59 therefore treats teacher presence as positive boundary support
+only. Teacher absence is never evidence for deleting a baseline or Qwen span,
+and no assertion policy is transferred from PhoNER.

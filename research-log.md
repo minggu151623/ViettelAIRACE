@@ -1572,3 +1572,25 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - No follow-up ZIP was generated from this single aggregate result. In
   particular, supported-only or boundary-only variants would be unmeasured
   post-hoc micro-ablations rather than a demonstrated breakthrough.
+
+## 2026-08-03 — H59 independent PhoNER boundary teacher
+
+- Preregistered a new evidence source rather than another H58 threshold
+  variant: the official, manually annotated PhoNER-COVID19 train/dev/test
+  splits at revision `9af190aa76adcfad0a2d14fab9bcab2b252c9c2e`.
+- The source `SYMPTOM_AND_DISEASE` label is converted to a combined clinical
+  boundary target. It is never interpreted as the BTC diagnosis/symptom type.
+- The source terms permit research/educational use and forbid redistribution;
+  the dataset and trained checkpoint therefore remain local and untracked.
+- The 17-page source guideline was reviewed in full. It favors complete spans
+  with severity/stage modifiers but omits negated clinical mentions, so H59
+  can provide positive exact-boundary support only and cannot justify deletion
+  or assertion transfer.
+- Frozen source gates require dev precision/F1 at least 0.90/0.65 and one-shot
+  test precision/F1 at least 0.85/0.60. Target integration is H38 plus 20-100
+  disjoint Qwen clinical rows with identical teacher offsets, with no baseline
+  edits and no new nonempty candidate codes.
+- Conversion produced 5,027 train sentences/1,439 mentions, 2,000 dev
+  sentences/766 mentions and 3,000 test sentences/1,136 mentions. Five focused
+  conversion, metric, threshold and exact-support tests pass. Training is in
+  progress; no target ZIP exists at this checkpoint.
