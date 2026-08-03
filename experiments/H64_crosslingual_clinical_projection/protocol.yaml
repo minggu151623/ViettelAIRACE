@@ -1,0 +1,143 @@
+hypothesis: H64_crosslingual_clinical_projection
+status: preregistered_before_model_inventory_or_target_inference
+created_at: "2026-08-04T00:20:00+07:00"
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+  wer_percent: 56.1576
+  assertion_jaccard: 47.3920
+  candidate_jaccard: 29.7776
+question: >
+  Can an evidence family independent of the Vietnamese proposal stack—local
+  Vietnamese-to-English translation, multiple English clinical NER models and
+  bidirectional exact-span projection—add precise BTC entities and ontology
+  links without repeating H58's recall regression?
+literature:
+  - https://aclanthology.org/2022.findings-emnlp.34/
+  - https://aclanthology.org/D19-1100/
+  - https://aclanthology.org/2023.clinicalnlp-1.34/
+  - https://aclanthology.org/2025.nodalida-1.54/
+forbidden_evidence:
+  - experiments/H41_repeated_passage_blind_annotation/labels/reviewer_1.jsonl
+  - experiments/H41_repeated_passage_blind_annotation/labels/reviewer_2.jsonl
+  - leaderboard_scores_as_thresholds
+  - zip_file_size_as_objective
+independence_contract:
+  translator:
+    requirements:
+      - local_offline_inference_after_resource_preparation
+      - explicit_license_and_pinned_revision
+      - supports_vi_to_en_and_entity_back_translation
+  english_ner:
+    minimum_distinct_model_families: 2
+    requirements:
+      - explicit_license_and_pinned_revision
+      - trained_on_distinct_source_corpora_or_architectures
+      - no_finetuning_on_H38_or_Turn2_outputs
+  projection:
+    signals:
+      - sentence_or_window_alignment
+      - entity_back_translation
+      - exact_target_substring_candidate
+      - mutual_vi_en_vi_consistency
+    raw_offset_contract: raw_text[start:end] == text
+stage_0_resource_and_speed_gate:
+  maximum_minutes: 45
+  actions:
+    - inventory_local_translation_and_english_clinical_ner_models
+    - record_identifier_revision_license_size_and_device
+    - benchmark_50_public_sentences_end_to_end
+  pass_if:
+    - at_least_one_translator_and_two_distinct_english_ner_models_available
+    - every_selected_resource_has_redistribution_or_local_research_permission
+    - projected_span_round_trip_rate_at_least_0.98
+    - estimated_full_turn2_wall_time_at_most_180_minutes
+  failure: stop_without_turn2_inference_or_zip
+stage_1_public_gold_calibration:
+  development:
+    - phoner_official_dev_combined_clinical_boundary
+    - vimedner_official_dev_mapped_BTC_types_if_license_permits
+  one_shot_test:
+    - phoner_official_test_combined_clinical_boundary
+    - vimedner_official_test_mapped_BTC_types_if_license_permits
+  selection_scope: development_only
+  thresholds_and_model_router:
+    - projection_confidence
+    - model_agreement
+    - alignment_bidirectionality
+    - ontology_exactness
+  gates:
+    - phoner_dev_and_test_precision_at_least_0.90
+    - phoner_dev_and_test_f1_at_least_0.70
+    - mapped_vimedner_dev_and_test_precision_at_least_0.85_if_available
+    - mapped_vimedner_dev_and_test_f1_at_least_0.65_if_available
+    - no_test_threshold_tuning
+    - exact_offset_round_trip_rate_at_least_0.98
+  failure: stop_without_turn2_inference_or_zip
+turn2_proposal_policy:
+  chunking: sentence_or_paragraph_windows_with_raw_offset_map
+  accept_novel_span_only_if:
+    - two_distinct_english_ner_models_project_to_exact_same_target_span_and_type
+    - bidirectional_projection_passes
+    - one_existing_independent_local_source_exactly_supports_span_and_type_or_ontology_link_is_exact_unique
+  accept_boundary_replacement_only_if:
+    - two_english_models_agree_on_replacement
+    - replacement_contains_or_is_contained_by_exactly_one_H38_row_of_same_type
+    - replacement_is_supported_by_alignment_and_back_translation
+  type_mapping:
+    diagnosis: disease_disorder_or_clinical_condition
+    symptom: sign_symptom
+    drug: medication_drug_chemical_only_when_used_as_treatment
+    test_name: diagnostic_procedure_or_laboratory_test
+    test_result: measured_value_or_explicit_result_not_procedure
+    patient_info: age_sex_pregnancy_and_explicit_demographic_only
+  no_inferred_diagnosis_from_symptoms: true
+fusion:
+  frozen_from_H38:
+    - every_unchanged_entity_field
+    - assertions_of_existing_entities
+    - candidates_of_existing_entities
+  new_entity_assertions: []
+  new_entity_candidates:
+    diagnosis_or_drug: >
+      emit one code only when the English mention is an exact unique official
+      ontology title/alias and both the translation view and local graph agree;
+      otherwise emit an empty list
+    other_types: forbidden
+  overlap_decoder: weighted_interval_scheduling
+  preserve_distinct_occurrences: true
+target_blind_gates:
+  - at_least_80_and_at_most_500_total_additions_or_replacements
+  - changes_span_at_least_60_records
+  - changes_cover_at_least_3_entity_types
+  - single_token_change_rate_at_most_0.10
+  - at_most_5_changed_spans_of_length_at_most_3_characters
+  - median_replacement_new_to_old_length_ratio_at_least_0.75
+  - repeated_passage_exact_entity_consistency_at_least_0.95
+  - zero_invalid_offsets_types_assertions_candidates_or_duplicates
+  - all_100_records_validate
+  - repeated_output_and_zip_are_byte_identical
+  - output_diff_report_contains_every_change_and_support_source
+failure_policy: >
+  If any resource, public-gold or target-blind gate fails, create no challenger
+  ZIP and retain H38. Do not weaken a gate or run a Turn-2 micro-variant.
+if_passed:
+  output_directory: turn2/output_v20_crosslingual_projection
+  artifact: turn2/output_v20_crosslingual_projection.zip
+  submission_slots: 1
+  submission_authority: >
+    The execution model may submit this exact hash only under the user's active
+    instruction that execution includes submission; it must record the hash,
+    upload time and complete organizer metrics, and must never submit a FAIL.
+expected_report:
+  path: experiments/H64_crosslingual_clinical_projection/results/execution_report.json
+  required_fields:
+    - resource_manifest
+    - source_dev_test_metrics
+    - runtime_by_stage
+    - change_counts_by_type_and_operation
+    - fragment_and_consistency_audits
+    - validation
+    - zip_sha256
+    - decision
