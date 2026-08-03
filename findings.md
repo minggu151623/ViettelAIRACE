@@ -1,5 +1,12 @@
 # Findings
 
+## 2026-08-03 — H41 independent reviewer agreement gate failed
+
+- Reviewer 1 (`6ec3707c343f...`) and Reviewer 2 (`e11d9f8cb207...`) blind annotations were completed and checksum-locked across the 15 holdout passages.
+- Inter-reviewer agreement failed both locked gates: strict span/type F1 reached only **0.4252** (gate `>= 0.85`), and assertion macro-Jaccard reached only **0.1317** (gate `>= 0.80`).
+- Under the frozen failure policy in `NEXT_MODEL_EXECUTION_PLAN.md`, training of H63 supervised policy is canceled, gates are not loosened, and no submission ZIP is generated.
+- Baseline **H38 (`39.2813`)** remains the sole recommended submission artifact.
+
 ## 2026-08-03 — H62 assertion critic rejected
 
 - The direct assertion pass returned 2,445/2,448 eligible rows and disagreed

@@ -1658,3 +1658,11 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The 18 accepted changes miss the locked 80-row minimum and the incomplete
   response census has 14.5354% missing/malformed items. H62 is rejected and no
   submission ZIP is generated. H38 remains the immediate safe artifact.
+
+## 2026-08-03 — H41 independent reviewer agreement evaluation
+
+- Double-annotations completed for Reviewer 1 (`6ec3707c343f...`) across 60 passages and Reviewer 2 (`e11d9f8cb207...`) across 15 holdout passages.
+- Both checksums locked. Evaluated inter-reviewer agreement on the 15 holdout passages: strict span/type F1 = 0.4252 (gate >= 0.85, status: FALSE), assertion macro-Jaccard = 0.1317 (gate >= 0.80, status: FALSE).
+- Because agreement gates failed, H63 supervised policy model training was canceled, gates were not modified, and no submission ZIP was generated.
+- Baseline H38 (score 39.2813) remains the sole recommended submission artifact.
+

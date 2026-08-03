@@ -1,0 +1,18 @@
+{
+  "status": "needs_adjudication",
+  "passages_compared": 15,
+  "strict_span_type": {
+    "primary_count": 41,
+    "secondary_count": 86,
+    "exact_matches": 27,
+    "precision_secondary_vs_primary": 0.313953488372093,
+    "recall_secondary_vs_primary": 0.6585365853658537,
+    "F1": 0.42519685039370075
+  },
+  "assertion_macro_jaccard": 0.13168724279835392,
+  "candidate_macro_jaccard_diagnostic_only": 0.05555555555555555,
+  "gates": {
+    "strict_span_type_F1_at_least_0_85": false,
+    "assertion_macro_jaccard_at_least_0_80": false
+  }
+}

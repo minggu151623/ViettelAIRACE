@@ -294,18 +294,17 @@ hypotheses:
       only 88.37% and 551 proposed row changes exceeded the 400-row ceiling.
       Integration and ZIP generation were canceled.
   H41_repeated_passage_blind_annotation:
-    status: queue_passed_waiting_for_independent_labels
+    status: rejected_inter_reviewer_agreement_gate_failed
     prediction: >
       Prediction-blind annotation of unique repeated passages will provide an
       independent development/holdout signal and multiply each reviewed local
       policy across exact occurrences without using model agreement as truth.
     result: >
-      Queue audit passed: 60 unique passages, 45 development and 15 holdout,
-      164 exact occurrences across 59 records, 20,055 directly reviewed and
-      55,200 projected characters. The manifest SHA-256 is
-      a10b345aea2247cc5843e89894130f43279bd5bfc36c7bfda0c7abd357bd5f08.
-      Model training and artifact creation are intentionally blocked pending
-      two independently checksum-locked annotation files.
+      Reviewer 1 (6ec3707c343f) and Reviewer 2 (e11d9f8cb207) double-annotations
+      completed and checksum-locked across 15 holdout passages. Inter-reviewer
+      strict span/type F1 reached 0.4252 (gate >= 0.85) and assertion macro-Jaccard
+      reached 0.1317 (gate >= 0.80). Both agreement gates failed; model training was
+      canceled and no ZIP was generated. Retain H38 baseline 39.2813.
   H42_h41_cluster_gate:
     status: supported_by_preregistered_simulation
     prediction: >
