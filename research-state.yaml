@@ -70,7 +70,13 @@ current_direction: >
   assertion movement on H37/H38 novel spans. Only 36 novel entities are
   asserted, and their two observed component losses sum to 0.04605 weighted
   score points, below the 0.10 leverage gate. Blanket assertion abstention is
-  closed as another reset-slot mechanism.
+  closed as another reset-slot mechanism. H44 then scores 35.4639: WER and
+  assertions remain identical to H38, but candidate Jaccard collapses by
+  9.5437. Broad parent expansion is rejected and H38 remains frozen at 39.2813.
+  H56 confirms that ZIP size is a confounded recall proxy, not an objective:
+  entity/assertion coverage explains the historical trend, while V2 and H44
+  are externally scored counterexamples. The next challenger must freeze H38
+  candidates and increase only independently supported semantic coverage.
 baseline:
   best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
   score: 39.2813
@@ -301,15 +307,15 @@ hypotheses:
       1/19 prior known-title hazard uses was reproduced versus the locked 80%
       gate. The ZIP was deleted; same-prompt agreement is temporally unstable.
   H44_full_who_family_hedge:
-    status: passed_submission_candidate_external_pending
+    status: externally_rejected_retain_h38
     prediction: >
       Extending H23's externally positive same-family WHO parent hedge to every
       singleton diagnosis-specific code will recover a corpus-wide mixed-
       hierarchy target policy while freezing WER and assertions.
     result: >
-      Added a WHO three-character parent beside 611 frozen specific codes over
-      97 records. All 3,226 entities and 100 files validate; two builds and ZIPs
-      are byte-identical at SHA-256 5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba.
+      The exact frozen ZIP scored 35.4639. WER and assertion Jaccard were
+      invariant, while candidate Jaccard fell 29.7776 -> 20.2339. The loss is
+      attributable to broad parent insertion; retain H38 and forbid this policy.
   H48_h41_power_curve:
     status: supported_type_i_underpowered_moderate_effect
     prediction: >
@@ -391,16 +397,27 @@ hypotheses:
       broad extrapolation, not erase H23; strong positive would establish
       transfer into untouched families. ZIP and numerical gates stayed fixed.
   H55_h44_external_result_recorder:
-    status: passed_readiness_no_external_result
+    status: passed_and_recorded_negative_h44
     prediction: >
       Loading the frozen decision tree mechanically can eliminate remaining
       result-ingestion risks without adding another speculative H44 audit.
     result: >
       All eight registered synthetic cases map correctly: four identity or
       metric anomalies stop attribution, while strong/small/null/negative map
-      to the exact frozen decisions. Invalid CLI input creates no result file.
-      Reports are deterministic, 164 tests pass, and synthetic fixtures are
-      explicitly not leaderboard evidence.
+      to the exact frozen decisions. The submitted H44 hash and metrics pass
+      every identity/invariance check and mechanically select RETAIN_H38.
+  H56_semantic_size_proxy:
+    status: rejected_archive_size_as_selector
+    prediction: >
+      Archive size may proxy missing recall, but it is useful for submission
+      selection only if the association survives same-architecture external
+      counterexamples and semantic-size decomposition.
+    result: >
+      ZIP bytes correlate 0.9817 with score across nine sequential runs, but
+      entity/assertion counts correlate at least as strongly. V2 is smaller yet
+      better than baseline; H44 adds 611 candidates yet loses 3.8174 points.
+      Use semantic coverage only as a recall diagnostic; padding and unsupported
+      cardinality expansion are forbidden.
 experiments:
   completed:
     - "V1 rule/dictionary baseline: 0.3690"
@@ -553,16 +570,14 @@ experiments:
     - "H53 H44 concentration: 148 families/effective 47.48 passes family breadth; 286 lexical units/effective 89.76 fails lexical breadth; decision semantics corrected, ZIP unchanged"
     - "H54 H44 novelty: 461/611 rows and 120/148 families are H23-novel; H44 primarily tests cross-family extrapolation, while a frozen 150-row/28-family seen stratum remains material"
     - "H55 H44 result recorder: 4/4 anomaly cases stop attribution, 4/4 valid branches map correctly, invalid input writes no result, 164 tests; external result still absent"
+    - "H44 external rejection: 35.4639; WER/assertions invariant, candidate Jaccard -9.5437; retain H38"
+    - "H56 size audit: ZIP-score r=0.9817 is confounded; V2/H44 counterexamples reject byte size as selector"
   next: >
-    Submit the frozen H44 ZIP once and record score, WER, assertion Jaccard and
-    candidate Jaccard through H55 before constructing another artifact. Do not
-    hand-select a branch or create `external_result.json` manually. Interpret a
-    positive result as broad WHO-family transfer, not broad lexical transfer,
-    per H53's frozen concentration audit. H54 further fixes the causal scope:
-    75.45% of rows are in H23-untouched families, so negative movement rejects
-    broad cross-family extrapolation rather than H23 itself. Do not build the
-    frozen 150-row seen-family subgroup unless the revealed branch explicitly
-    warrants a separately preregistered post-result ablation. In parallel,
+    Retain H38 at 39.2813 and freeze its candidate policy. H44 proves that
+    candidate-list growth without row-specific cardinality calibration can
+    destroy Jaccard. Do not optimize archive bytes; require any size increase to
+    come from independently supported spans/types/assertions. Prioritize a new
+    semantic-recall proposal source rather than another threshold variant. Also
     complete H41 reviewer_1 labels for all 60 passages and independent
     reviewer_2 labels for the frozen 15-passage double-annotation queue. Lock
     both checksums, require span/type F1 >= 0.85 and assertion Jaccard >= 0.80,

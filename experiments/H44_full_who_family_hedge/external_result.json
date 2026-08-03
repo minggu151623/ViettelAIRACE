@@ -1,0 +1,41 @@
+{
+  "action": "Reject H44, retain H38, forbid further broad parent expansion, and pivot primary effort to independently labeled span/assertion policy. The frozen H23-seen-family subgroup may be considered only as a separately preregistered post-result ablation, never by retrospective row selection.\n",
+  "attributable": true,
+  "baseline_h38": {
+    "j_assertion": 47.392,
+    "j_candidates": 29.7776,
+    "score": 39.2813,
+    "wer_percent": 56.1576
+  },
+  "branch_id": "negative",
+  "checks": {
+    "assertion_invariant": true,
+    "local_zip_hash_matches": true,
+    "metrics_finite": true,
+    "score_reconciles": true,
+    "submitted_zip_hash_matches": true,
+    "wer_invariant": true
+  },
+  "decision": "RETAIN_H38",
+  "decision_tree_sha256": "b5f6f63f9aea86e30742fff3db901f7fee1f492dc6cdfe17458ca7c2b1d8e9a8",
+  "deltas": {
+    "j_assertion": 0.0,
+    "j_candidates": -9.5437,
+    "score": -3.8174,
+    "wer_percent": 0.0
+  },
+  "hypothesis": "H44_full_who_family_hedge",
+  "interpretation": "H23 was specific to ontology-version mismatch; broad parent insertion reduces candidate precision. More precisely, H54 shows the aggregate is dominated by extrapolation to H23-untouched families, so this does not negate H23's observed CM-exclusive effect.\n",
+  "local_zip_sha256": "5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba",
+  "metrics": {
+    "j_assertion": 47.392,
+    "j_candidates": 20.2339,
+    "score": 35.4639,
+    "wer_percent": 56.1576
+  },
+  "pre_result_scope": {
+    "breadth": "family_only",
+    "novelty": "cross_family_extrapolation"
+  },
+  "submitted_zip_sha256": "5e451dd4f728ee2acecad80e364b5f750f11064941d1055031e7653aed3c83ba"
+}

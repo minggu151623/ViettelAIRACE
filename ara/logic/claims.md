@@ -717,3 +717,29 @@
   `airace/h41_bounded_gate.py`]
 - **Dependencies**: [C45, C46]
 - **Tags**: Hoeffding, empirical-Bernstein, finite-sample, bounded-data, power
+## C52: Broad WHO-parent insertion harms H38 candidate Jaccard
+- **Statement**: Adding a same-family WHO three-character parent beside all 611
+  eligible H38 singleton diagnosis codes materially reduces candidate Jaccard
+  while leaving WER and assertion scoring invariant.
+- **Status**: refuted as a general policy; externally supported negative result
+- **Provenance**: ai-executed
+- **Falsification criteria**: Reconciliation of the hash-bound submission fails,
+  or an exact repeat produces non-invariant WER/assertions and nonnegative
+  candidate movement.
+- **Proof**: [`experiments/H44_full_who_family_hedge/external_result.json`]
+- **Dependencies**: [C40, C51]
+- **Tags**: WHO-ICD, candidate-Jaccard, external-result, negative-transfer
+
+## C53: Archive size is not a valid blind submission selector
+- **Statement**: The observed file-size/score association is confounded by
+  semantic-coverage growth; archive bytes cannot distinguish supported recall
+  from formatting, compression or harmful candidate cardinality.
+- **Status**: supported by nine-run audit and external counterexamples
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Within a frozen semantic architecture, archive
+  size predicts repeated external score direction without a counterexample and
+  independently of canonical entity/assertion/candidate counts.
+- **Proof**: [`experiments/H56_semantic_size_proxy/results/audit.json`,
+  `experiments/H56_semantic_size_proxy/analysis.md`]
+- **Dependencies**: [C52]
+- **Tags**: proxy-metric, confounding, recall, compression, black-box-evaluation

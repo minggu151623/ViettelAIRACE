@@ -1,4 +1,30 @@
 tree:
+  - id: N69
+    type: experiment
+    title: "H44 external hierarchy result and H56 size-proxy audit"
+    provenance: ai-executed
+    timestamp: "2026-08-03T15:00+07:00"
+    result: >
+      The hash-bound H44 submission scored 35.4639. WER and assertion Jaccard
+      exactly matched H38, while candidate Jaccard fell 9.5437, rejecting broad
+      WHO-parent expansion. Across nine scored artifacts ZIP bytes correlated
+      0.9817 with score, but entity/assertion counts were at least as correlated
+      and V2/H44 supplied direct counterexamples to byte-size selection.
+    evidence: [C52, C53,
+      "experiments/H44_full_who_family_hedge/external_result.json",
+      "experiments/H56_semantic_size_proxy/results/audit.json"]
+    children:
+      - id: N70
+        type: pivot
+        title: "Freeze H38 candidates and optimize supported semantic coverage"
+        provenance: ai-suggested
+        timestamp: "2026-08-03T15:10+07:00"
+        from: "Broad candidate hierarchy and archive-size expansion"
+        to: "Independently supported span/type/assertion recall on H38"
+        trigger: >
+          H44's entire 3.8174-point loss was candidate-derived, while the
+          historical size trend was explained by semantic coverage rather than
+          bytes themselves.
   - id: N31
     type: pivot
     title: "Pivot from candidate lists to ontology-aware model core"

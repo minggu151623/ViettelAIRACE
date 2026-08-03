@@ -214,3 +214,11 @@
 - **Sensitivity**: high
 - **Code ref**: [`airace/h44_result_recorder.py`,
   `tests/test_h44_result_recorder.py`]
+## H25: Measure semantic coverage, never optimize archive bytes
+- **Rationale**: Larger high-scoring runs generally contain more useful entity
+  and assertion rows, but ZIP bytes also vary with formatting and compression.
+  Count supported semantic rows directly and freeze candidate cardinality unless
+  it has row-specific evidence.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`experiments/H56_semantic_size_proxy/protocol.yaml`]

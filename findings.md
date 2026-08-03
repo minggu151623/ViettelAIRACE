@@ -1,5 +1,22 @@
 # Findings
 
+## 2026-08-03 — H44 external rejection and H56 size-proxy audit
+
+- H44 scored **35.4639**, down **3.8174** from H38. WER (`56.1576`) and
+  assertion Jaccard (`47.3920`) were exactly unchanged, while candidate Jaccard
+  fell `29.7776 → 20.2339`. Broad WHO-parent insertion is rejected; H38 remains
+  the baseline and its candidate policy is frozen for the next recall branch.
+- ZIP size has high historical correlation with score (`r=0.9817`) because the
+  pipeline accumulated more entities and assertions over time. Entity and
+  assertion counts correlate at least as strongly (`0.9895` and `0.9912`).
+- The relation is not causal. V2 is 4,827 bytes smaller than the initial Turn-2
+  baseline but scores 2.4036 higher. H44 adds 611 candidate values yet loses
+  3.8174 points; canonical JSON grows while its compressed ZIP shrinks because
+  repeated codes and formatting compress differently.
+- File bytes are therefore rejected as a submission selector. Semantic
+  coverage may be used only as a recall diagnostic. Padding, formatting edits,
+  duplicate entities and unsupported candidate expansion are forbidden.
+
 ## 2026-08-02 — H23 isolates the WHO parent hedge
 
 - H22 contains 146 ICD-10-CM candidate uses whose exact code is absent from

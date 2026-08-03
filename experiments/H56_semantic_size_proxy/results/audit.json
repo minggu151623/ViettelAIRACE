@@ -1,0 +1,30 @@
+{
+  "hypothesis": "H56_semantic_size_proxy",
+  "runs": 9,
+  "correlations_with_score": {
+    "zip_bytes_pearson": 0.9817,
+    "zip_bytes_spearman": 0.9167,
+    "canonical_json_bytes_pearson": 0.9897,
+    "entity_count_pearson": 0.9895,
+    "candidate_count_pearson": 0.8328,
+    "assertion_count_pearson": 0.9912,
+    "mention_characters_pearson": 0.9945
+  },
+  "counterexamples": {
+    "v2_vs_baseline": {
+      "zip_byte_delta": -4827,
+      "score_delta": 2.4036
+    },
+    "h44_vs_h38": {
+      "zip_byte_delta": -1640,
+      "canonical_json_byte_delta": 3666,
+      "entity_delta": 0,
+      "candidate_delta": 611,
+      "assertion_delta": 0,
+      "score_delta": -3.8174,
+      "candidate_jaccard_delta": -9.5437
+    }
+  },
+  "decision": "REJECT_ARCHIVE_SIZE_AS_SELECTOR",
+  "allowed_use": "semantic_coverage_recall_diagnostic_only"
+}

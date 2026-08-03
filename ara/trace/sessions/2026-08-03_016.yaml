@@ -1,0 +1,48 @@
+session:
+  id: "2026-08-03_016"
+  timestamp: "2026-08-03T15:10+07:00"
+  summary: "Recorded H44's external rejection and showed that file size is a confounded semantic-coverage proxy, not a submission objective."
+
+events_logged:
+  - type: experiment
+    id: N69
+    provenance: ai-executed
+    summary: "H44 lost 3.8174 points entirely through candidate Jaccard; H56 audited nine scored archives."
+  - type: pivot
+    id: N70
+    provenance: ai-suggested
+    summary: "Freeze H38 candidates and pursue independently supported semantic recall."
+  - type: claim
+    id: C52
+    provenance: ai-executed
+    summary: "Broad WHO-parent insertion harms candidate Jaccard."
+  - type: claim
+    id: C53
+    provenance: ai-suggested
+    summary: "Archive bytes are not a valid blind selector."
+  - type: heuristic
+    id: H25
+    provenance: ai-suggested
+    summary: "Measure semantic coverage directly and never optimize ZIP size."
+
+ai_actions:
+  - action: "Ingested the hash-bound H44 metrics through the fail-closed recorder."
+    provenance: ai-executed
+    files_changed: ["experiments/H44_full_who_family_hedge/external_result.json"]
+  - action: "Created the H56 semantic-size audit and updated project state."
+    provenance: ai-executed
+    files_changed: ["experiments/H56_semantic_size_proxy/", "findings.md", "research-log.md", "research-state.yaml"]
+
+claims_touched:
+  - id: C52
+    action: created
+    provenance: ai-executed
+  - id: C53
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "Build the next H38-based challenger from independently supported span/type/assertion recall while freezing candidate policy."
+
+ai_suggestions_pending:
+  - "Treat semantic entity/assertion coverage as a recall diagnostic, not archive bytes as an optimization objective."

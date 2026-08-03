@@ -1518,3 +1518,22 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   Readiness reports are byte-identical at SHA-256
   `7293b2491f26727435879fa99e5b8ea4fb32fd828a439be071477d620d5f72ac`;
   164 tests pass and no external result or new submission artifact exists.
+## 2026-08-03 — H44 external result rejects broad parent expansion
+
+- Recorded the submitted SHA-256 through the fail-closed H55 recorder.
+- H44 scored 35.4639 versus H38's 39.2813. WER and assertion Jaccard were
+  invariant; candidate Jaccard fell by 9.5437, so the full loss is attributable
+  to the 611 broad WHO-parent additions.
+- The frozen decision tree selects `RETAIN_H38`. No further broad parent
+  expansion is authorized.
+
+## 2026-08-03 — H56 audits the reported file-size relationship
+
+- Measured nine externally scored Turn-2 ZIPs using archive bytes, canonical
+  JSON bytes and semantic counts.
+- ZIP size correlates with score at 0.9817, but entity/assertion coverage has an
+  equal or stronger association and the sequence is heavily confounded by
+  architecture progress.
+- V2 and H44 provide externally scored counterexamples to byte-size selection.
+  Archive size is rejected as an objective; only independently supported
+  semantic coverage may guide the next recall challenger.
