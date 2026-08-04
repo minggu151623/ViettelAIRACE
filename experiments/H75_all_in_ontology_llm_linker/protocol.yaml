@@ -1,0 +1,69 @@
+hypothesis: H75_all_in_ontology_llm_linker
+status: preregistered_before_inference
+created_at: "2026-08-04T20:45:00+07:00"
+
+baseline:
+  artifact: turn2/output_v29_constrained_candidate_moe.zip
+  sha256: 6dbd1cce2351a57be944cd0cab5963a40c884a49af169433c415695812d847e4
+  parent_external_baseline: turn2/output_v24_rxnorm_exact_brand_identity.zip
+  parent_external_score: 40.2216
+
+question: >
+  Can an architecture-scale ontology retrieval and LLM reranking layer replace
+  weak ICD/RxNorm candidate assignments while preserving H69's externally
+  supported entity detector, assertions and exact brand identities?
+
+architecture:
+  ontology_graph:
+    nodes: WHO_ICD10_2019_and_RxNorm_CPC_2026_07
+    relations: ICD_parent_child_and_RxNorm_identity_ingredient_brand_relations
+  retriever:
+    model: qwen3-embedding_0.6b
+    query: Vietnamese mention with retrieval instruction
+    pool: type_restricted_top10
+    current_candidate: always_included_as_anchor
+  reranker:
+    model: qwen3_8b
+    passes: 2
+    temperature: 0
+    seeds: [7501, 7502]
+    evidence: mention_context_official_candidate_titles_graph_family
+    decoder: choose_only_from_supplied_ontology_ids
+  structured_output:
+    grouping: normalized_mention_and_entity_type
+    propagation: only_identical_normalized_mentions
+    preserved_rows: all_H69_exact_brand_and_H74_constrained_identity_rows
+
+promotion_policy:
+  minimum_agreed_changed_rows: 80
+  minimum_changed_records: 40
+  minimum_pass_confidence: 0.85
+  both_llm_passes_must_choose_same_candidate: true
+  all_selected_candidates_must_exist_in_frozen_graph: true
+  all_non_candidate_fields_identical_to_H69: true
+  deterministic_packaging: true
+
+frozen:
+  - all_entity_spans_types_positions_and_order
+  - all_assertions
+  - all_non_diagnosis_non_drug_candidates
+  - H69_exact_brand_identity
+  - H74_constrained_medication_identity
+
+prohibited:
+  - candidate_not_present_in_supplied_options
+  - unrestricted_code_generation
+  - parent_top_k_hedging
+  - any_entity_or_assertion_change
+  - competition_submission_by_agent
+
+artifact:
+  output_directory: turn2/output_v30_all_in_ontology_llm_linker
+  zip_path: turn2/output_v30_all_in_ontology_llm_linker.zip
+  submission_policy: user_only_after_hash_review
+
+interpretation_contract:
+  - this_is_deliberately_high_risk_and_architecture_scale
+  - WER_and_assertion_must_equal_H69
+  - only_candidate_Jaccard_can_move
+  - failure_retains_H69_as_best_known_submission
