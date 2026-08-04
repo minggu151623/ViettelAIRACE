@@ -1,0 +1,15 @@
+{
+  "hypothesis": "H75_all_in_ontology_llm_linker",
+  "status": "FAIL_STOP_NO_PACKAGE",
+  "completed_pass_1": 260,
+  "completed_pass_2": 50,
+  "agreed_changed_rows": 41,
+  "agreed_changed_records": 21,
+  "gates": {
+    "changed_rows_ge_80": false,
+    "changed_records_ge_40": false,
+    "all_selected_codes_in_graph": true,
+    "all_100_records_validate": true
+  },
+  "decision": "Do not package or submit. Preserve H69 as the external baseline."
+}

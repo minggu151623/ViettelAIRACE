@@ -1,0 +1,73 @@
+hypothesis: H76_additive_consensus_rescue
+status: preregistered_before_output_transformation
+created_at: "2026-08-04T21:25:00+07:00"
+risk_class: final_slot_architecture_scale_recall_rescue
+
+baseline:
+  artifact: turn2/output_v24_rxnorm_exact_brand_identity.zip
+  sha256: 12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369
+  external_score: 40.2216
+  components: {wer_percent: 56.1576, j_assertion: 47.3920, j_candidates: 32.1281}
+
+negative_evidence:
+  H73:
+    artifact: turn2/output_v28_type_routed_repeated_passage_rebuild.zip
+    external_score: 39.5206
+    added_target_spans: 126
+    removed_target_spans: 238
+    interpretation: >
+      The full canonical replacement reduced recall: WER, assertion and
+      candidate metrics all worsened. The 238 removals are therefore rejected.
+  H75:
+    status: failed_gate
+    agreed_candidate_rows: 41
+    agreed_candidate_records: 21
+    interpretation: candidate_only_delta_is_too_small_and_generic_for_final_slot
+
+question: >
+  Can the multi-view detector's genuinely novel diagnosis and symptom spans
+  recover missing organizer annotations when every H69 entity is preserved and
+  every overlapping boundary alternative is rejected?
+
+transformation:
+  source_of_additions: H73_multiview_canonical
+  parent_output: H69_exact_brand_identity
+  eligible_types: [CHẨN_ĐOÁN, TRIỆU_CHỨNG]
+  add_only_if:
+    - exact_span_type_not_already_in_H69
+    - no_character_overlap_with_any_H69_entity_of_the_same_type
+  metadata:
+    assertions: preserve_from_H73_for_the_exact_added_entity
+    candidates: preserve_from_H73_for_the_exact_added_entity
+  ordering: position_then_end_then_type_then_text
+
+frozen:
+  - every_H69_entity_and_all_of_its_fields
+  - all_test_result_and_drug_entities
+  - all_H69_exact_brand_candidates
+
+predeclared_census:
+  additions: 79
+  changed_records: 34
+  additions_by_type: {CHẨN_ĐOÁN: 31, TRIỆU_CHỨNG: 48}
+  removals: 0
+
+gates:
+  exact_additions_79: true
+  exact_changed_records_34: true
+  no_H69_entity_removed_or_modified: true
+  every_added_span_matches_raw_text: true
+  no_added_span_overlaps_same_type_H69_entity: true
+  all_100_records_validate: true
+  deterministic_zip_bytes: true
+
+artifact:
+  output_directory: turn2/output_v31_additive_consensus_rescue
+  zip_path: turn2/output_v31_additive_consensus_rescue.zip
+  submission_policy: user_only_after_exact_hash_review
+
+interpretation_contract:
+  - this_is_the_single_high_variance_final_slot_challenger
+  - expected_gain_axis_is_WER_recall
+  - H69_remains_the_safe_known_baseline
+  - no_competition_submission_by_agent
