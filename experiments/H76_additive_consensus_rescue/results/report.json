@@ -1,0 +1,857 @@
+{
+  "hypothesis": "H76_additive_consensus_rescue",
+  "status": "PASS_HIGH_VARIANCE_FINAL_SLOT_AWAITING_USER_SUBMISSION",
+  "zip": "/Users/mac/ViettelAIRACE/turn2/output_v31_additive_consensus_rescue.zip",
+  "zip_sha256": "f438667d0e24277b71a536f09fca89ccc3908fa73c0258125722deafdc5c8d5e",
+  "zip_bytes": 95875,
+  "project_test_result": "200 passed in 12.47s",
+  "additions": 79,
+  "changed_records": 34,
+  "additions_by_type": {
+    "CHẨN_ĐOÁN": 31,
+    "TRIỆU_CHỨNG": 48
+  },
+  "gates": {
+    "exact_additions_79": true,
+    "exact_changed_records_34": true,
+    "additions_by_type_exact": true,
+    "all_100_records_validate": true,
+    "deterministic_zip_bytes": true
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 904,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1347,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "changes": [
+    {
+      "record": 6,
+      "text": "xuất huyết dưới nhện vùng trán phải",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        317,
+        352
+      ]
+    },
+    {
+      "record": 6,
+      "text": "bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        354,
+        409
+      ]
+    },
+    {
+      "record": 6,
+      "text": "lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        419,
+        467
+      ]
+    },
+    {
+      "record": 6,
+      "text": "nang màng nhện",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        484,
+        498
+      ]
+    },
+    {
+      "record": 6,
+      "text": "tụ máu ngoài màng cứng phải cấp tính trên nền tổn thương mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        752,
+        817
+      ]
+    },
+    {
+      "record": 6,
+      "text": "xuất huyết dưới nhện vùng trán phải",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        2949,
+        2984
+      ]
+    },
+    {
+      "record": 6,
+      "text": "nang màng nhện",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        3100,
+        3114
+      ]
+    },
+    {
+      "record": 6,
+      "text": "tụ máu dưới màng cứng mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        3120,
+        3150
+      ]
+    },
+    {
+      "record": 12,
+      "text": "Varicella Zoster Virus",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        2821,
+        2843
+      ]
+    },
+    {
+      "record": 15,
+      "text": "tổn thương",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1021,
+        1031
+      ]
+    },
+    {
+      "record": 15,
+      "text": "Varicella Zoster Virus",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        2646,
+        2668
+      ]
+    },
+    {
+      "record": 16,
+      "text": "Lyssavirus",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        865,
+        875
+      ]
+    },
+    {
+      "record": 17,
+      "text": "Ngưng thở",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1916,
+        1925
+      ]
+    },
+    {
+      "record": 18,
+      "text": "sốt",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1113,
+        1116
+      ]
+    },
+    {
+      "record": 19,
+      "text": "buồn ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        2314,
+        2324
+      ]
+    },
+    {
+      "record": 20,
+      "text": "Lyssavirus",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        865,
+        875
+      ]
+    },
+    {
+      "record": 21,
+      "text": "ung thư",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        1043,
+        1050
+      ]
+    },
+    {
+      "record": 21,
+      "text": "ung thư máu",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        1094,
+        1105
+      ]
+    },
+    {
+      "record": 23,
+      "text": "phù gai thị",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1536,
+        1547
+      ]
+    },
+    {
+      "record": 23,
+      "text": "Phù gai thị",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        2216,
+        2227
+      ]
+    },
+    {
+      "record": 23,
+      "text": "Tăng nhãn áp",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        2331,
+        2343
+      ]
+    },
+    {
+      "record": 23,
+      "text": "Phù gai thị",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        2422,
+        2433
+      ]
+    },
+    {
+      "record": 27,
+      "text": "Phù gai thị",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1999,
+        2010
+      ]
+    },
+    {
+      "record": 27,
+      "text": "Tăng nhãn áp",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        2114,
+        2126
+      ]
+    },
+    {
+      "record": 28,
+      "text": "buồn ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1886,
+        1896
+      ]
+    },
+    {
+      "record": 30,
+      "text": "bệnh lý",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        1487,
+        1494
+      ]
+    },
+    {
+      "record": 30,
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        1632,
+        1645
+      ]
+    },
+    {
+      "record": 33,
+      "text": "mụn",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        342,
+        345
+      ]
+    },
+    {
+      "record": 33,
+      "text": "mụn cám",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        392,
+        399
+      ]
+    },
+    {
+      "record": 33,
+      "text": "mụn đầu trắng",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        403,
+        416
+      ]
+    },
+    {
+      "record": 33,
+      "text": "tái phát",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        679,
+        687
+      ]
+    },
+    {
+      "record": 44,
+      "text": "bệnh lý",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        1187,
+        1194
+      ]
+    },
+    {
+      "record": 44,
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        1332,
+        1345
+      ]
+    },
+    {
+      "record": 44,
+      "text": "buồn ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1631,
+        1639
+      ]
+    },
+    {
+      "record": 45,
+      "text": "Tăng nhãn áp",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1772,
+        1784
+      ]
+    },
+    {
+      "record": 49,
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        35,
+        43
+      ]
+    },
+    {
+      "record": 49,
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        639,
+        647
+      ]
+    },
+    {
+      "record": 49,
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        948,
+        956
+      ]
+    },
+    {
+      "record": 49,
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        970,
+        978
+      ]
+    },
+    {
+      "record": 49,
+      "text": "mày đay",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1535,
+        1542
+      ]
+    },
+    {
+      "record": 49,
+      "text": "bất thường sắc tố",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1544,
+        1561
+      ]
+    },
+    {
+      "record": 55,
+      "text": "Huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1289,
+        1297
+      ]
+    },
+    {
+      "record": 55,
+      "text": "huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1397,
+        1405
+      ]
+    },
+    {
+      "record": 55,
+      "text": "huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1600,
+        1608
+      ]
+    },
+    {
+      "record": 56,
+      "text": "rối loạn chức năng thất trái",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        223,
+        251
+      ]
+    },
+    {
+      "record": 57,
+      "text": "bệnh lý thần kinh ngoại biên",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        84,
+        112
+      ]
+    },
+    {
+      "record": 59,
+      "text": "mụn cám",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        316,
+        323
+      ]
+    },
+    {
+      "record": 59,
+      "text": "mụn đầu trắng",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        327,
+        340
+      ]
+    },
+    {
+      "record": 59,
+      "text": "tái phát",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        603,
+        611
+      ]
+    },
+    {
+      "record": 60,
+      "text": "mụn cám",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        316,
+        323
+      ]
+    },
+    {
+      "record": 60,
+      "text": "mụn đầu trắng",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        327,
+        340
+      ]
+    },
+    {
+      "record": 60,
+      "text": "tái phát",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        603,
+        611
+      ]
+    },
+    {
+      "record": 65,
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        35,
+        43
+      ]
+    },
+    {
+      "record": 65,
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        404,
+        412
+      ]
+    },
+    {
+      "record": 65,
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        713,
+        721
+      ]
+    },
+    {
+      "record": 65,
+      "text": "rụng tóc",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        735,
+        743
+      ]
+    },
+    {
+      "record": 65,
+      "text": "mày đay",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1367,
+        1374
+      ]
+    },
+    {
+      "record": 65,
+      "text": "bất thường sắc tố",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1376,
+        1393
+      ]
+    },
+    {
+      "record": 67,
+      "text": "Ngưng thở",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        110,
+        119
+      ]
+    },
+    {
+      "record": 69,
+      "text": "biến chứng",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        757,
+        767
+      ]
+    },
+    {
+      "record": 71,
+      "text": "tổn thương tổn thương chi dưới nghiêm trọng",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        173,
+        216
+      ]
+    },
+    {
+      "record": 71,
+      "text": "biến chứng",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        308,
+        318
+      ]
+    },
+    {
+      "record": 72,
+      "text": "buồn ngủ",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        253,
+        263
+      ]
+    },
+    {
+      "record": 74,
+      "text": "khó chịu vùng bụng",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1133,
+        1151
+      ]
+    },
+    {
+      "record": 74,
+      "text": "run rẩy",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1258,
+        1265
+      ]
+    },
+    {
+      "record": 76,
+      "text": "bệnh lý",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        836,
+        843
+      ]
+    },
+    {
+      "record": 76,
+      "text": "Bạn đay vô căn hộ",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        956,
+        973
+      ]
+    },
+    {
+      "record": 76,
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        981,
+        994
+      ]
+    },
+    {
+      "record": 80,
+      "text": "hoại tử",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        938,
+        945
+      ]
+    },
+    {
+      "record": 80,
+      "text": "biến dạng",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        947,
+        956
+      ]
+    },
+    {
+      "record": 83,
+      "text": "bệnh lý",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        739,
+        746
+      ]
+    },
+    {
+      "record": 83,
+      "text": "Bạn đay vô căn hộ",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        859,
+        876
+      ]
+    },
+    {
+      "record": 83,
+      "text": "bệnh mạn tính",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        884,
+        897
+      ]
+    },
+    {
+      "record": 84,
+      "text": "nhiễm nấm",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        134,
+        143
+      ]
+    },
+    {
+      "record": 93,
+      "text": "Huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        899,
+        907
+      ]
+    },
+    {
+      "record": 93,
+      "text": "căng thẳng",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        992,
+        1002
+      ]
+    },
+    {
+      "record": 93,
+      "text": "huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1007,
+        1015
+      ]
+    },
+    {
+      "record": 93,
+      "text": "huyết áp",
+      "type": "TRIỆU_CHỨNG",
+      "assertions": [],
+      "position": [
+        1210,
+        1218
+      ]
+    },
+    {
+      "record": 95,
+      "text": "nhiễm trùng máu",
+      "type": "CHẨN_ĐOÁN",
+      "candidates": [],
+      "assertions": [],
+      "position": [
+        973,
+        988
+      ]
+    }
+  ]
+}

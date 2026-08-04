@@ -1417,3 +1417,25 @@ The strongest verified direction is conservative structural cleanup:
   3,226 entity and assertion projections remain identical to H69. The risk is
   thus isolated to the highest-weight component and the only mechanism with a
   large confirmed external gain.
+
+## 2026-08-04 — H75 fails its all-in linker gate; generic completion is too narrow
+
+- Two-pass Qwen3-8B reranking audits 260 high-impact diagnosis/drug mentions,
+  but only 41 candidate rows across 21 records survive agreement and confidence
+  gating. All selected codes are graph-valid and all 100 records validate.
+- This misses the preregistered 80-row/40-record gate and is not packaged. The
+  surviving changes are dominated by generic medication categories, so they do
+  not justify the single remaining leaderboard slot.
+
+## 2026-08-04 — H76 isolates the additive half of the failed H73 reconstruction
+
+- H73 added 126 target spans and removed 238; its external WER regression does
+  not identify which direction caused the loss, but removing predicted medical
+  mentions is the direct recall risk. H76 therefore preserves every H69 entity
+  and adds only the 79 H73 diagnosis/symptom spans disjoint from H69.
+- The 79 additions cover 34 records (31 diagnosis, 48 symptom). No boundary
+  alternative, removal, test/result/drug change, assertion rewrite, or candidate
+  rewrite is permitted. This is a high-variance recall challenger, not a safe
+  replacement for externally verified H69.
+- Validation passes 100/100 records, 200 project tests pass, deterministic ZIP
+  SHA-256 is `f438667d0e24277b71a536f09fca89ccc3908fa73c0258125722deafdc5c8d5e`.

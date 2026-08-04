@@ -149,13 +149,13 @@ baseline:
   verified_formula: >
     0.3*(100-56.1576) + 0.3*47.3920 + 0.4*32.1281 = 40.22156.
 challenger:
-  hypothesis: H74_constrained_candidate_moe
-  artifact: turn2/output_v29_constrained_candidate_moe.zip
-  artifact_sha256: 6dbd1cce2351a57be944cd0cab5963a40c884a49af169433c415695812d847e4
-  changed_candidate_rows: 21
-  changed_records: 15
-  scope: constrained_medication_candidate_moe_with_H69_entities_and_assertions_frozen
-  status: final_candidate_ready_for_user_submission
+  hypothesis: H76_additive_consensus_rescue
+  artifact: turn2/output_v31_additive_consensus_rescue.zip
+  artifact_sha256: f438667d0e24277b71a536f09fca89ccc3908fa73c0258125722deafdc5c8d5e
+  added_entity_rows: 79
+  changed_records: 34
+  scope: additive_disjoint_diagnosis_symptom_consensus_with_all_H69_entities_frozen
+  status: high_variance_final_slot_ready_for_user_submission
 constraints:
   - "No organizer ground truth is available."
   - "Inference must remain offline and deterministic."

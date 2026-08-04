@@ -2102,3 +2102,28 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   is deterministic, and a temperature-zero Qwen3-8B audit marks all eight new
   decisions SAFE. ZIP SHA-256 is
   `6dbd1cce2351a57be944cd0cab5963a40c884a49af169433c415695812d847e4`.
+
+## 2026-08-04 — H75 all-in ontology/LLM linker stopped at its gate
+
+- The complete retriever evaluates 451 normalized diagnosis/drug groups against
+  the frozen WHO ICD-10/RxNorm graph. The final impact-budgeted reranker audits
+  260 groups in pass 1 and 50 proposed changes in skeptical pass 2.
+- Only 41 rows over 21 records survive both passes. Graph validity and 100-file
+  validation pass, but the preregistered scale gates of 80 rows and 40 records
+  fail. No H75 ZIP is created or recommended.
+
+## 2026-08-04 — H76 final-slot additive consensus rescue built
+
+- The protocol is committed before transformation. Starting byte-for-byte from
+  H69, H76 imports only exact H73 diagnosis/symptom entities with no same-type
+  character overlap against any H69 entity.
+- The locked census is exactly 79 additions over 34 records: 31 diagnosis and
+  48 symptom. Every H69 entity dictionary remains present and unchanged;
+  removals and overlapping boundary hedges are zero.
+- The main test suite passes 200 tests. An unrelated pre-existing
+  `scratch/test_vietmed.py` collection error is left untouched. ZIP validation
+  confirms exactly `output/1.json` through `output/100.json`, deterministic
+  bytes, size 95,875 bytes, and SHA-256
+  `f438667d0e24277b71a536f09fca89ccc3908fa73c0258125722deafdc5c8d5e`.
+- No competition submission is performed. H76 is the high-variance final-slot
+  challenger; H69 remains the best externally verified artifact at 40.2216.
