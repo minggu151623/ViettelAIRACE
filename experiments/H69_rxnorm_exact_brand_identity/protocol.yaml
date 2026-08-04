@@ -1,0 +1,83 @@
+hypothesis: H69_rxnorm_exact_brand_identity
+status: preregistered_after_resource_inventory_before_output_transformation
+created_at: "2026-08-04T20:15:00+07:00"
+
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+  wer_percent: 56.1576
+  assertion_jaccard_percent: 47.3920
+  candidate_jaccard_percent: 29.7776
+
+question: >
+  Does preserving exact RxNorm brand identity improve drug candidate Jaccard
+  over H38's generic-ingredient collapse while every other output value stays
+  frozen?
+
+prediction: >
+  When a complete drug span is itself a unique active RxNorm BN alias, the BN
+  RxCUI is a closer identity match than H38's ingredient or multi-ingredient
+  concept. Replacing only those singleton candidates should improve candidate
+  Jaccard without affecting WER or assertion Jaccard.
+
+provenance:
+  ontology: RxNorm_Current_Prescribable_Content_2026_07_06
+  evidence: exact_normalized_unique_RXNORM_or_MTHSPL_alias_with_TTY_BN
+  note: >
+    The RxNorm inventory and aggregate target mismatch count were inspected
+    before this successor protocol. No organizer labels or leaderboard result
+    for this transformation were available. Treat the run as exploratory.
+
+frozen_fields:
+  - record_set
+  - entity_count
+  - entity_order
+  - text
+  - type
+  - position
+  - assertions
+  - every_non_drug_candidate
+  - every_drug_candidate_not_selected_by_the_exact_brand_rule
+
+action_policy:
+  allowed_action: REPLACE
+  eligibility:
+    - entity_type_equals_THUOC
+    - current_candidate_list_has_exactly_one_RxCUI
+    - normalized_full_entity_text_matches_an_active_alias_exactly
+    - normalized_alias_maps_to_exactly_one_RxCUI
+    - matched_RxCUI_has_TTY_BN
+    - new_RxCUI_differs_from_current_RxCUI
+  output_cardinality: 1
+  prohibited:
+    - substring_or_fuzzy_matching
+    - ingredient_guessing
+    - strength_or_product_inference
+    - filling_empty_candidates
+    - changing_generic_mentions
+    - adding_top_k_or_parent_candidates
+
+gates:
+  baseline_sha256_matches: true
+  unique_alias_collision_rate_for_selected_rows: 0
+  minimum_changed_rows: 20
+  maximum_changed_rows: 60
+  minimum_changed_records: 10
+  all_new_codes_active_and_TTY_BN: true
+  repeated_normalized_mentions_are_consistent: true
+  all_frozen_fields_identical: true
+  all_100_records_validate: true
+  deterministic_zip_bytes: true
+  full_test_suite_passes: true
+
+artifact:
+  output_directory: turn2/output_v24_rxnorm_exact_brand_identity
+  zip_path: turn2/output_v24_rxnorm_exact_brand_identity.zip
+  submission_policy: user_only_after_reviewing_exact_sha256
+
+interpretation_contract:
+  - WER and assertion scores must remain exactly equal to H38 externally.
+  - A score change is attributable only to candidate matching.
+  - Positive result supports exact BN identity, not generic RxNorm expansion.
+  - Negative result rejects BN preference for this organizer policy and keeps H38.
