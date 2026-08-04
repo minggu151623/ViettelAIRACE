@@ -1987,3 +1987,14 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   SHA-256 `12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369`.
 - No competition submission was performed. H69 is awaiting the user's exact
   hash review; H38 at 39.2813 remains the safe fallback.
+
+## 2026-08-04 — H69 externally confirmed at 40.2216
+
+- The submitted hash prefix matches the registered H69 artifact exactly.
+- WER remains 56.1576 and assertion Jaccard remains 47.3920, satisfying the
+  candidate-only causal invariant.
+- Candidate Jaccard rises 29.7776 to 32.1281 (+2.3505), contributing +0.9402
+  weighted points and explaining the displayed score increase from 39.2813 to
+  40.2216 up to rounding.
+- Exact full-span RxNorm BN identity is promoted. H69 is now the immutable
+  fallback for all remaining final-day experiments.

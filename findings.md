@@ -1317,3 +1317,14 @@ The strongest verified direction is conservative structural cleanup:
 - The artifact passes all technical gates and is ready for user-controlled
   measurement. It is not evidence yet that the organizer prefers `BN`; that
   claim depends on the external result.
+
+## 2026-08-04 — Organizer candidate policy rewards exact RxNorm brand identity
+
+- H69 raises the external score from 39.2813 to 40.2216. WER and assertion
+  Jaccard are byte-causally invariant, while candidate Jaccard gains 2.3505.
+- This is strong direct evidence that collapsing a named brand to its generic
+  ingredient loses organizer credit. A complete unique brand string should use
+  its RxNorm `BN` identity.
+- H69 becomes the new baseline. The supported mechanism can now be deepened to
+  explicit strength/form/route product identity, but it does not authorize
+  fuzzy brand matching or multi-candidate expansion.

@@ -3,7 +3,7 @@ question: >
   How can an offline Vietnamese clinical NER and coding pipeline improve the
   black-box Viettel AI Race score when the organizer provides only input text
   and no ground-truth annotations?
-status: h68_stage1_failed_family_gate_retain_h38
+status: h69_externally_supported_new_baseline_40_2216
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
@@ -139,14 +139,15 @@ current_direction: >
   are externally scored counterexamples. The next challenger must freeze H38
   candidates and increase only independently supported semantic coverage.
 baseline:
-  best_submitted_artifact: turn2/output_v10_multiview_consensus.zip
-  score: 39.2813
+  best_submitted_artifact: turn2/output_v24_rxnorm_exact_brand_identity.zip
+  artifact_sha256: 12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369
+  score: 40.2216
   wer_percent: 56.1576
   j_assertion: 47.3920
-  j_candidates: 29.7776
+  j_candidates: 32.1281
   score_formula: "score% = 0.3*(100-WER%) + 0.3*J_assertion% + 0.4*J_candidates%"
   verified_formula: >
-    0.3*(100-56.1576) + 0.3*47.3920 + 0.4*29.7776 = 39.28136.
+    0.3*(100-56.1576) + 0.3*47.3920 + 0.4*32.1281 = 40.22156.
 constraints:
   - "No organizer ground truth is available."
   - "Inference must remain offline and deterministic."
@@ -548,7 +549,7 @@ hypotheses:
       exact anchors, uses Wilson lower precision bounds, permits abstention and
       opens Turn2 only after the entire action policy is checksum-locked.
   H69_rxnorm_exact_brand_identity:
-    status: pass_awaiting_submission_approval
+    status: externally_supported_promoted_to_baseline
     prediction: >
       A complete drug span that exactly and uniquely equals an active RxNorm
       BN alias should retain the brand RxCUI rather than H38's ingredient or
@@ -560,8 +561,11 @@ hypotheses:
       BN match; all 3,226 entities and every frozen value remain identical.
       Validation passes 100/100, project tests pass 186/186, and the ZIP SHA-256
       is 12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369.
+      External score rises 39.2813 to 40.2216 with WER/assertions invariant and
+      candidate Jaccard rising 29.7776 to 32.1281. H69 is the new baseline.
 experiments:
   completed:
+    - "H69 external result: 40.2216; WER 56.1576 and assertion 47.392 invariant, candidate Jaccard 29.7776 -> 32.1281; promoted as baseline"
     - "H69 exact-brand identity PASS: 48 singleton RxNorm BN replacements across 23 records; 100/100 valid, 186 tests, deterministic ZIP 12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369; awaiting user submission"
     - "H68 Stage 0 PASS on Colab Tesla T4: H38 hash exact, 100/100 JSON validation, drug census 276/201/75, readable CPC, Qwen3/XLM-R CUDA smoke tests and batch-8 fit"
     - "H68 Stage 1 FAIL on Colab T4: 71,065 aliases, 0.0% collision rate, 736 public RxNorm anchors and zero family overlap pass, but relation-complete ingredient families are 20,482 < 30,000; no training, Turn2 or ZIP"
@@ -733,12 +737,10 @@ experiments:
     - "H61 source pass/target fail: dev P/F1 0.9007/0.8882, test P/F1 0.8953/0.8685; target 539 exact, 184 replacements, 10.87% single-token, median ratio 0.5833; no ZIP"
     - "H62 assertion-only protocol locked: two-stage Qwen classifier/critic, all entity and candidate fields frozen, 80-500 materiality gate"
   next: >
-    H69 is the first final-day external measurement: submit only the exact
-    SHA-256 12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369.
-    If WER/assertions differ from H38, reject the measurement as anomalous. If
-    candidate Jaccard rises, retain exact BN identity and use the next slot for
-    an orthogonal exact product/strength policy; if it falls, revert to H38 and
-    reject BN preference. H68 remains stopped and its gate must not be changed.
+    Promote H69 at 40.2216. Build H70 from H69 using only exact structured
+    RxNorm product upgrades: an explicit strength plus route/form must match an
+    active singleton SCD/SBD with no extra ingredient. Freeze all non-candidate
+    fields and all H69 brand replacements. H68 remains stopped.
 proxy_metrics:
   - family_heldout_RxNorm_exact_top1
   - family_heldout_RxNorm_recall_at_20
