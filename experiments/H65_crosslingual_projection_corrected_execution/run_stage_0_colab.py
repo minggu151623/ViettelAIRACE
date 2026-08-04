@@ -204,13 +204,18 @@ def main() -> int:
     )
 
     snapshots: dict[str, Path] = {}
+    resource_info: dict[str, Any] = {}
+    api = HfApi()
     for repo_id in [*TRANSLATORS.values(), *NER_MODELS.values()]:
-        snapshots[repo_id] = Path(snapshot_download(repo_id=repo_id, revision="main"))
+        info = api.model_info(repo_id, revision="main")
+        resource_info[repo_id] = info
+        # Resolve `main` before download so the bytes and recorded revision
+        # cannot diverge if the upstream branch changes during the run.
+        snapshots[repo_id] = Path(snapshot_download(repo_id=repo_id, revision=info.sha))
 
     manifest: dict[str, Any] = {"device": device, "resources": {}}
-    api = HfApi()
     for repo_id, snapshot in snapshots.items():
-        info = api.model_info(repo_id, revision="main")
+        info = resource_info[repo_id]
         entry = model_manifest(repo_id, snapshot, device)
         entry["revision"] = info.sha
         # Current huggingface_hub exposes card_data as ModelCardData; older

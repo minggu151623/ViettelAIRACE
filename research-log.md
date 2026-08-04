@@ -1,5 +1,21 @@
 # Research log — Viettel AI Race V1
 
+## 2026-08-04 — H65 first Colab run blocked by private-repository authentication
+
+- Drive mounted successfully and Colab exposed a Tesla T4 with CUDA-enabled
+  PyTorch. The first failing operation was the unauthenticated clone of the
+  private `minggu151623/ViettelAIRACE` repository; missing runner/report errors
+  were downstream consequences, not model failures.
+- Replaced the clone cell with a hidden fine-grained-token prompt using a
+  transient Git HTTP authorization header. The token is absent from the clone
+  URL and Git remote. Input copying now removes stale destination data and
+  requires exactly 100 `.txt` files.
+- Model downloads now resolve each Hugging Face `main` revision to its immutable
+  commit SHA before downloading, preventing manifest/byte drift. Notebook
+  outputs were cleared; Python, notebook JSON and cell syntax checks pass.
+- H65 remains unexecuted scientifically: no Stage-0 report, target inference or
+  challenger ZIP exists yet.
+
 ## 2026-08-04 — H65 Colab runner prepared
 
 - Added a deterministic notebook/runner bridge for the preregistered H65

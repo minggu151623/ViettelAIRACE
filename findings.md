@@ -1,5 +1,16 @@
 # Findings
 
+## 2026-08-04 — H65 notebook failure is authentication-only
+
+- The saved traceback proves Colab and GPU setup are healthy: Drive mounted and
+  CUDA reported a Tesla T4. The private repository clone failed because Colab
+  has no access to the Mac's GitHub credentials.
+- The later missing runner and missing report errors are causal fallout from
+  that failed clone. They provide no evidence for or against H65.
+- The notebook now accepts a hidden read-only fine-grained token and fails
+  immediately on clone or input-count errors. H38 at **39.2813** remains frozen
+  until H65 produces a valid report.
+
 ## 2026-08-04 — H65 Colab execution bridge prepared (not yet run)
 
 - Added `H65_Colab_Stage0.ipynb` and the protocol-faithful
