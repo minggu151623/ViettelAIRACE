@@ -1867,3 +1867,20 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - `PASS_SOURCE_INVENTORY` is therefore satisfied. The next run is the locked
   translation/data-quality stage; public Vietnamese test data and Turn2 remain
   unopened.
+
+## 2026-08-04 — H66 Stage 1 fails back-translation gate
+
+- The Colab T4 completed deterministic generation of 12,000 synthetic
+  sentences in roughly 47 minutes. Four mapped types and all mention-count
+  gates passed: diagnosis 12,241; symptom 7,257; test name 2,031; drug 4,734.
+- Construction checks also pass: sentinel integrity 1.0, sampled raw-offset
+  round-trip 1.0 and duplicate-template rate 0.0003333.
+- The decisive semantic gate fails: reverse `Helsinki-NLP/opus-mt-vi-en`
+  preservation on the fixed sample is **0.0787767** across 415 entity phrases,
+  versus the locked minimum 0.90. This shows that independently translating
+  fragments does not preserve enough clinical entity meaning for supervised
+  training, even though offsets are mechanically valid.
+- Under H66, execution stops before student training, public test, Turn2
+  inference and ZIP creation. The remote synthetic file is not copied or
+  committed; no submission artifact exists. H38 (39.2813) remains the safe
+  fallback.

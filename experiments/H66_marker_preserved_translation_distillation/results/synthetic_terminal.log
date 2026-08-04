@@ -1,0 +1,25 @@
+config.json:   0%|          | 0.00/1.39k [00:00<?, ?B/s]
+tokenizer_config.json:   0%|          | 0.00/44.0 [00:00<?, ?B/s]
+source.spm:   0%|          | 0.00/809k [00:00<?, ?B/s]
+target.spm:   0%|          | 0.00/756k [00:00<?, ?B/s]
+vocab.json:   0%|          | 0.00/1.19M [00:00<?, ?B/s]
+pytorch_model.bin: reconstructing file:   0%|          |  0.00B /  289MB        
+pytorch_model.bin: downloading bytes:           |  0.00B            
+Loading weights:   0%|          | 0/258 [00:00<?, ?it/s]
+model.safetensors: reconstructing file:   0%|          |  0.00B /  289MB        
+model.safetensors: downloading bytes:           |  0.00B            
+generation_config.json:   0%|          | 0.00/293 [00:00<?, ?B/s]
+config.json:   0%|          | 0.00/1.39k [00:00<?, ?B/s]
+tokenizer_config.json:   0%|          | 0.00/44.0 [00:00<?, ?B/s]
+source.spm:   0%|          | 0.00/756k [00:00<?, ?B/s]
+target.spm:   0%|          | 0.00/809k [00:00<?, ?B/s]
+vocab.json:   0%|          | 0.00/1.19M [00:00<?, ?B/s]
+pytorch_model.bin: reconstructing file:   0%|          |  0.00B /  289MB        
+pytorch_model.bin: downloading bytes:           |  0.00B            
+Loading weights:   0%|          | 0/258 [00:00<?, ?it/s]
+model.safetensors: reconstructing file:   0%|          |  0.00B /  289MB        
+model.safetensors: downloading bytes:           |  0.00B            
+generation_config.json:   0%|          | 0.00/293 [00:00<?, ?B/s]
+H66_STAGE1_JSON_BEGIN
+{"backtranslation_entity_preservation": 0.07877667189911823, "backtranslation_sample_size": 415, "duplicate_template_rate": 0.0003333333333333333, "generated_sentences": 12000, "mapped_types": ["CHẨN_ĐOÁN", "THUỐC", "TRIỆU_CHỨNG", "TÊN_XÉT_NGHIỆM"], "mentions_by_type": {"CHẨN_ĐOÁN": 12241, "THUỐC": 4734, "TRIỆU_CHỨNG": 7257, "TÊN_XÉT_NGHIỆM": 2031}, "raw_offset_round_trip_sample": 1.0, "sentinel_integrity": 1.0, "status": "FAIL_STAGE_1", "synthetic_path": "/content/h66_synthetic.jsonl", "translator_revisions": {"en_vi": "989c9fb9ec63987901022baf0182dcec3e149be6", "vi_en": "recorded_from_HF_at_execution"}}
+H66_STAGE1_JSON_END

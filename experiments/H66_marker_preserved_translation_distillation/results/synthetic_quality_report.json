@@ -1,0 +1,44 @@
+{
+  "command": [
+    "colab",
+    "exec",
+    "-s",
+    "h66",
+    "-f",
+    "/Users/mac/ViettelAIRACE/experiments/H66_marker_preserved_translation_distillation/stage_1_generate_remote.py",
+    "--timeout",
+    "2700"
+  ],
+  "completed_at": "2026-08-04T10:30:30.890981+00:00",
+  "experiment": "H66_marker_preserved_translation_distillation",
+  "remote": {
+    "backtranslation_entity_preservation": 0.07877667189911823,
+    "backtranslation_sample_size": 415,
+    "duplicate_template_rate": 0.0003333333333333333,
+    "generated_sentences": 12000,
+    "mapped_types": [
+      "CHẨN_ĐOÁN",
+      "THUỐC",
+      "TRIỆU_CHỨNG",
+      "TÊN_XÉT_NGHIỆM"
+    ],
+    "mentions_by_type": {
+      "CHẨN_ĐOÁN": 12241,
+      "THUỐC": 4734,
+      "TRIỆU_CHỨNG": 7257,
+      "TÊN_XÉT_NGHIỆM": 2031
+    },
+    "raw_offset_round_trip_sample": 1.0,
+    "sentinel_integrity": 1.0,
+    "status": "FAIL_STAGE_1",
+    "synthetic_path": "/content/h66_synthetic.jsonl",
+    "translator_revisions": {
+      "en_vi": "989c9fb9ec63987901022baf0182dcec3e149be6",
+      "vi_en": "recorded_from_HF_at_execution"
+    }
+  },
+  "returncode": 0,
+  "stage": 1,
+  "started_at": "2026-08-04T10:30:30.890733+00:00",
+  "terminal_log": "/Users/mac/ViettelAIRACE/experiments/H66_marker_preserved_translation_distillation/results/synthetic_terminal.log"
+}
