@@ -103,7 +103,10 @@ def _parse_mm(lines: list[str], mapped: dict[str, str]) -> dict | None:
             continue
         start, end = int(p[1]), int(p[2])
         # PubTator offsets refer to title+space+abstract in MedMentions.
-        sem_types = p[5].split(";") if p[5] else []
+        # PubTator MedMentions columns are PMID, start, end, mention,
+        # semantic-type IDs, concept ID.  Multiple semantic IDs are comma
+        # separated (e.g. ``T116,T123``).
+        sem_types = p[4].split(",") if p[4] else []
         label = next((mapped.get(t.strip()) for t in sem_types if mapped.get(t.strip())), None)
         if label and 0 <= start < end <= len(text):
             entities.append((start, end, label, text[start:end]))

@@ -1853,3 +1853,7 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   URLs recorded by the dataset scripts and parse them directly with the
   standard library, preserving the fixed CC0 revisions and provenance. No
   source labels are being synthesized or altered during inventory.
+- The first direct-parser probe found that MedMentions stores semantic types
+  in PubTator column 5 (comma-separated), not column 6. The parser was
+  corrected before any synthetic sentence was generated; the failed probe is
+  retained as an interface diagnostic, not counted as a gate result.
