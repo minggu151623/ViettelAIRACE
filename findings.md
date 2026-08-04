@@ -1089,6 +1089,13 @@ The strongest verified direction is conservative structural cleanup:
   or unstable, while guaranteed methods cannot promote. After annotation lock,
   development labels may define a raw effect scale for a newly preregistered,
   genuinely larger independent holdout; the frozen 15 cannot be repurposed.
+- **H65 separates compute feasibility from projection feasibility.** CUDA
+  reduces the estimated full Turn2 runtime to 3.91 minutes, but two English NER
+  models agree on only seven mentions in 50 public sentences and literal
+  Vietnamese projection accepts zero. More GPU cannot repair that interface.
+  H66 therefore uses label-preserving translation only to construct synthetic
+  training data, then tests direct Vietnamese students against matched controls
+  on untouched public splits before any Turn2 inference.
 
 1. Which exact span boundaries/types are systematically wrong on the 100 hidden
    files?

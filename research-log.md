@@ -1790,3 +1790,19 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   revision evidence, a deterministic public sample, a broad-label
   DistilBERT/DeBERTa pair, separate alignment-yield and exact-offset metrics,
   public-gold calibration, and all inherited conservative fusion gates.
+
+## 2026-08-04 — H65 failure and H66 plan-only preregistration
+
+- H65 completed a valid CUDA Stage 0 in 7.44 seconds for 50 public sentences;
+  projected Turn2 runtime was only 3.91 minutes. Compute is no longer the
+  limiting variable for this branch.
+- The architecture failed semantically: its two English NER students agreed on
+  only seven mentions, and none produced a literal Vietnamese projection. Even
+  perfect projection could not meet H65's 20-row materiality gate.
+- H66 is registered before downloads, generation, training or target inference.
+  It moves translation into marker-preserved synthetic-data construction and
+  trains PhoBERT/XLM-R students to infer directly on Vietnamese.
+- H66 contains paired direct-data controls, three-seed treatment comparisons,
+  public dev and one-shot test gates, additions-only H38 fusion, candidate-safe
+  diagnosis/drug handling, assertion-scope abstention and an explicit H58 hazard
+  audit. This turn creates plan/protocol only; no model, output or ZIP exists.

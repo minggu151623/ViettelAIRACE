@@ -1,0 +1,176 @@
+hypothesis: H66_marker_preserved_translation_distillation
+status: preregistered_plan_only_before_download_generation_training_or_target_inference
+created_at: "2026-08-04T02:30:00+07:00"
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+predecessor:
+  hypothesis: H65_crosslingual_projection_corrected_execution
+  result: failed_validly_at_stage_0
+  decisive_observations:
+    english_same_span_type_consensus_mentions_on_50_public_sentences: 7
+    accepted_literal_vietnamese_projections: 0
+    exact_string_projection_is_not_a_viable_inference_interface: true
+question: >
+  Can label-preserving English-to-Vietnamese clinical translation create useful
+  span-exact synthetic supervision, so two direct Vietnamese token classifiers
+  improve public held-out boundary/type performance and conservatively recover
+  Turn2 entities without inference-time translation or string projection?
+research_basis:
+  - https://aclanthology.org/2022.findings-emnlp.34/
+  - https://aclanthology.org/2020.findings-emnlp.147/
+  - https://aclanthology.org/D19-1100/
+  - https://aclanthology.org/2023.clinicalnlp-1.34/
+immutable_prohibitions:
+  - no_H41_contaminated_labels
+  - no_H38_or_Turn2_output_as_training_labels
+  - no_Turn2_text_for_threshold_selection_or_early_stopping
+  - no_public_test_threshold_tuning
+  - no_translation_projection_at_Turn2_inference
+  - no_raw_union_of_student_predictions
+  - no_leaderboard_or_zip_size_optimization
+  - no_gate_relaxation_after_results
+  - no_submission_from_a_failed_or_partially_completed_stage
+
+stage_0_inventory_and_control_design:
+  maximum_minutes: 45
+  required_resources:
+    - at_least_two_explicitly_licensed_English_clinical_NER_corpora
+    - local_ViMedNER_with_license_constraints_recorded
+    - local_PhoNER_COVID19_with_nonredistribution_constraint_recorded
+    - pinned_English_to_Vietnamese_translation_model
+    - vinai_phobert_base_v2_or_pinned_equivalent
+    - xlm_roberta_base_or_pinned_equivalent
+  manifest_fields:
+    - identifier
+    - resolved_revision_or_digest
+    - license
+    - source_url
+    - byte_size
+    - redistribution_policy
+  pass_if:
+    - every_training_resource_has_explicit_research_permission
+    - two_English_corpora_cover_at_least_three_mapped_BTC_types_in_total
+    - both_student_models_fit_the_available_Colab_GPU_with_training_batch_at_least_4
+  failure: stop_without_synthetic_generation_or_training
+
+stage_1_label_preserving_synthetic_corpus:
+  method:
+    - wrap_each_source_entity_with_unique_typed_sentinels
+    - translate_masked_context_English_to_Vietnamese
+    - translate_each_entity_phrase_separately_with_type_aware_context
+    - reinsert_entity_phrases_and_derive_exact_Vietnamese_character_offsets
+    - reject_missing_duplicated_reordered_or_nested_sentinels
+    - retain_source_document_and_entity_provenance
+  split_contract:
+    - split_by_source_document_before_translation
+    - no_source_document_or_normalized_entity_context_crosses_train_dev_test
+    - public_Vietnamese_test_sets_remain_unopened_until_thresholds_are_locked
+  quality_sample:
+    size: 200
+    selection: deterministic_stratified_by_source_and_type
+    diagnostics:
+      - sentinel_integrity
+      - raw_offset_round_trip
+      - back_translation_entity_preservation
+      - source_to_target_type_preservation
+      - duplicate_template_rate
+  pass_if:
+    - generated_sentences_at_least_10000
+    - mapped_types_at_least_4
+    - sentinel_integrity_at_least_0.995
+    - raw_offset_round_trip_equals_1.0
+    - back_translation_entity_preservation_at_least_0.90
+    - duplicate_template_rate_at_most_0.05
+    - each_mapped_type_has_at_least_500_training_mentions
+  failure: stop_without_student_training
+
+stage_2_controlled_student_training:
+  students:
+    - phobert_token_classifier
+    - xlm_roberta_token_classifier
+  required_arms:
+    control: direct_Vietnamese_public_train_only
+    treatment: same_direct_Vietnamese_train_plus_synthetic_corpus
+  common_rules:
+    - identical_seed_set_optimizer_epoch_budget_and_decoder_within_model_family
+    - minimum_three_seeds_per_arm
+    - early_stopping_on_public_Vietnamese_development_only
+    - character_offsets_reconstructed_from_tokenizer_offset_mapping
+    - record_all_per_seed_metrics_and_checkpoint_hashes
+  promotion_gates_on_development:
+    - treatment_macro_strict_F1_exceeds_control_by_at_least_0.02_for_each_student
+    - treatment_macro_precision_does_not_drop_more_than_0.01_for_either_student
+    - treatment_improves_at_least_three_mapped_types
+    - no_type_precision_below_0.80
+    - boundary_fragment_rate_at_most_0.05
+  failure: stop_before_public_test_and_Turn2
+
+stage_3_one_shot_public_test:
+  inputs:
+    - PhoNER_official_test
+    - ViMedNER_official_test_if_license_permits
+  thresholds: frozen_from_development
+  pass_if:
+    - ensemble_macro_precision_at_least_0.90
+    - ensemble_macro_strict_F1_at_least_0.75
+    - treatment_macro_strict_F1_exceeds_control_by_at_least_0.015
+    - at_least_three_mapped_types_have_precision_at_least_0.85
+    - exact_offset_round_trip_equals_1.0
+  failure: stop_without_Turn2_inference_or_zip
+
+stage_4_turn2_shadow_inference:
+  allowed_only_after_all_source_gates_pass: true
+  inference: direct_Vietnamese_students_only
+  proposal_acceptance:
+    - both_students_emit_exact_same_raw_span_and_mapped_type
+    - mean_calibrated_precision_estimate_at_least_0.92
+    - repeated_identical_passages_receive_identical_predictions
+    - span_is_not_a_heading_unit_value_or_known_fragment_hazard
+    - local_scope_contains_no_negation_history_or_family_trigger
+  fusion:
+    baseline_H38_is_immutable: true
+    deletions: forbidden
+    boundary_replacements: forbidden
+    additions_only: true
+    existing_H38_assertions_and_candidates: frozen
+    new_assertions: []
+    new_candidates:
+      diagnosis_or_drug: exactly_one_candidate_only_if_unique_official_ontology_mapping_else_shadow_only
+      all_other_types: []
+  shadow_gates:
+    - accepted_additions_between_80_and_350
+    - additions_span_at_least_60_records
+    - additions_cover_at_least_3_types
+    - single_token_addition_rate_at_most_0.08
+    - additions_of_at_most_3_characters_at_most_3
+    - median_addition_length_at_least_8_characters
+    - repeated_passage_consistency_at_least_0.98
+    - no_more_than_0.10_of_additions_overlap_any_H38_entity
+    - every_merged_diagnosis_or_drug_has_exactly_one_unique_supported_candidate
+    - zero_invalid_offsets_types_assertions_candidates_or_duplicates
+    - all_100_records_validate
+  failure: retain_H38_and_create_no_zip
+
+stage_5_counterfactual_risk_gate:
+  required_audits:
+    - compare_additions_against_all_prior_proposal_banks_and_rejected_H58_rows
+    - reject_if_more_than_0.20_of_additions_are_H58_Qwen_only_rows
+    - heldout_corruption_test_injects_known_fragment_heading_and_unit_hazards
+    - hazard_rejection_rate_at_least_0.95
+    - public_bootstrap_lower_bound_for_precision_at_least_0.88
+  failure: retain_H38_and_create_no_zip
+
+if_and_only_if_all_gates_pass:
+  output_directory: turn2/output_v22_marker_distilled
+  artifact: turn2/output_v22_marker_distilled.zip
+  deterministic_repeat_required: true
+  submission: forbidden_until_user_reviews_execution_report_and_explicitly_approves_hash
+required_outputs:
+  - experiments/H66_marker_preserved_translation_distillation/results/resource_manifest.json
+  - experiments/H66_marker_preserved_translation_distillation/results/synthetic_quality_report.json
+  - experiments/H66_marker_preserved_translation_distillation/results/training_report.json
+  - experiments/H66_marker_preserved_translation_distillation/results/public_test_report.json
+  - experiments/H66_marker_preserved_translation_distillation/results/turn2_shadow_audit.jsonl
+  - experiments/H66_marker_preserved_translation_distillation/results/execution_report.json

@@ -12,14 +12,16 @@ execution_bridge:
   remote_requirement: "Colab GPU; public clone requires no GitHub token"
 started_at: "2026-07-26"
 current_direction: >
-  H65 completed a valid CUDA Stage 0 and failed the frozen fidelity, alignment
-  and materiality gates: seven exact English consensus mentions yielded zero
-  literal Vietnamese projections. Runtime and three-type coverage passed, but
-  even perfect alignment could accept at most seven rows, below the minimum of
-  20. Stop H65 before Stage 1 and Turn2. The next cross-lingual hypothesis must
-  construct raw source offsets through explicit word/span alignment and may
-  replace exact English string consensus only under a new preregistered public
-  calibration protocol. H38 at 39.2813 remains frozen. H63 invalidates the claimed H41 independent-reviewer result on provenance:
+  H66 is preregistered plan-only before resource download, synthetic generation,
+  training or target inference. H65 completed a valid CUDA Stage 0 and proved
+  that inference-time translation is blocked twice: only seven exact English
+  consensus mentions appeared on 50 public sentences, and zero literal
+  Vietnamese projections survived. H66 moves translation into label-preserving
+  synthetic-data construction, trains controlled PhoBERT and XLM-R students to
+  read Vietnamese directly, and requires treatment-over-control gains on public
+  development and one-shot test before Turn2 shadow inference. H38 at 39.2813
+  remains immutable; H66 permits additions only and requires a counterfactual
+  audit against the externally rejected H58 proposal family. H63 invalidates the claimed H41 independent-reviewer result on provenance:
   reviewer 1 used hard-coded/keyword rules and reviewer 2 used the existing
   detector, candidate resolver and assertion engine. Their labels are
   quarantined and cannot train H63. Pivot to H64, a feasibility-gated
