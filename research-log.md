@@ -1857,3 +1857,13 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   in PubTator column 5 (comma-separated), not column 6. The parser was
   corrected before any synthetic sentence was generated; the failed probe is
   retained as an interface diagnostic, not counted as a gate result.
+
+## 2026-08-04 — H66 Stage 1 source inventory passes
+
+- Direct PubTator parsing finds 593 NCBI Disease documents and 4,392
+  MedMentions documents, yielding 29,398 entity-bearing sentence windows.
+- The fixed semantic-type map covers four BTC types with 29,751 diagnoses,
+  17,561 symptoms, 5,105 test-name mentions and 11,366 drug mentions.
+- `PASS_SOURCE_INVENTORY` is therefore satisfied. The next run is the locked
+  translation/data-quality stage; public Vietnamese test data and Turn2 remain
+  unopened.

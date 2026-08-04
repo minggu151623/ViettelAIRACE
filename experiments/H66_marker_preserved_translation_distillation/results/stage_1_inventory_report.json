@@ -1,0 +1,39 @@
+{
+  "command": [
+    "colab",
+    "exec",
+    "-s",
+    "h66",
+    "-f",
+    "/Users/mac/ViettelAIRACE/experiments/H66_marker_preserved_translation_distillation/stage_1_inventory_remote.py",
+    "--timeout",
+    "2700"
+  ],
+  "completed_at": "2026-08-04T09:39:25.270264+00:00",
+  "experiment": "H66_marker_preserved_translation_distillation",
+  "remote": {
+    "documents": {
+      "medmentions": 4392,
+      "ncbi_disease": 593
+    },
+    "mapped_mentions": {
+      "CHẨN_ĐOÁN": 29751,
+      "THUỐC": 11366,
+      "TRIỆU_CHỨNG": 17561,
+      "TÊN_XÉT_NGHIỆM": 5105
+    },
+    "mapped_types": [
+      "CHẨN_ĐOÁN",
+      "THUỐC",
+      "TRIỆU_CHỨNG",
+      "TÊN_XÉT_NGHIỆM"
+    ],
+    "sentences_with_entities": 29398,
+    "source_root": "/content/h66_sources",
+    "status": "PASS_SOURCE_INVENTORY"
+  },
+  "returncode": 0,
+  "stage": "1_source_inventory",
+  "started_at": "2026-08-04T09:39:25.270078+00:00",
+  "terminal_log": "/Users/mac/ViettelAIRACE/experiments/H66_marker_preserved_translation_distillation/results/stage_1_inventory_terminal.log"
+}
