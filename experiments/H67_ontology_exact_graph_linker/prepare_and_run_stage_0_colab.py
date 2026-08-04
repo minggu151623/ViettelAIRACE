@@ -45,7 +45,9 @@ def main() -> int:
         "--resource-manifest", str(ontology / "resource_manifest.json"),
         "--who-dir", str(who),
         "--rxnorm-dir", str(rxnorm),
-        "--out", "/content/h67_stage0_report.json",
+        # Use a fresh path so an earlier queued kernel execution cannot make
+        # a stale report look like the current run.
+        "--out", "/content/h67_stage0_report_fixed.json",
     ]
     return subprocess.call(args)
 
