@@ -1,5 +1,22 @@
 # Findings
 
+## 2026-08-04 — H68 narrows H67 to the independently viable RxNorm branch
+
+- H67 is not evidence that ontology supervision as a whole failed. Its RxNorm
+  branch produced 71,065 active same-RxCUI alias rows across 34,291 families;
+  the failure came from translated ICD identity and collision gates.
+- H68 therefore removes ICD entirely. It freezes every H38 field except drug
+  candidates and also freezes every diagnosis candidate. Official CPC identity,
+  structured ingredient/strength/form/route evidence and same-family hard
+  negatives are the only training signal.
+- The target has 276 drug entities: 201 have nonempty candidates and 75 are
+  empty. The action layer is singleton and selective; it may fill or replace
+  only after family-held-out calibration with a lower 95% precision bound.
+- This is intentionally a low-coupling candidate challenger rather than a
+  claim of a ten-point total breakthrough. Fewer than 15 safe Turn2 changes,
+  any structural contradiction or any offline gate failure yields no ZIP and
+  retains H38 at 39.2813.
+
 ## 2026-08-04 — H67 Stage 1 fails independent ICD identity gates
 
 - Official CPC parsing succeeded: 71,065 active same-code RxNorm alias rows

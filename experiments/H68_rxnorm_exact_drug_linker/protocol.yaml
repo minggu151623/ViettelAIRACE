@@ -1,0 +1,267 @@
+hypothesis: H68_rxnorm_exact_drug_linker
+status: preregistered_plan_only_before_training_calibration_or_turn2_inference
+created_at: "2026-08-04T20:30:00+07:00"
+
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+  wer_percent: 56.1576
+  assertion_jaccard_percent: 47.3920
+  candidate_jaccard_percent: 29.7776
+  turn2_drug_entities: 276
+  turn2_drug_entities_with_candidates: 201
+  turn2_drug_entities_without_candidates: 75
+
+question: >
+  Can a RxNorm-only exact drug linker trained from official same-RxCUI aliases,
+  structured drug relations and ingredient-family hard negatives improve H38
+  drug candidate decisions without changing any entity, diagnosis candidate,
+  assertion, position or ordering decision?
+
+prediction: >
+  H67 proved that the Current Prescribable Content contains enough independent
+  supervision: 71,065 accepted same-code alias rows and at least 856 public
+  exact anchors. A drug-specific sparse+dense+structured retriever followed by
+  a family-held-out pairwise reranker should distinguish exact ingredient,
+  strength, dose form, route and release type more reliably than H38's generic
+  candidate resolver. Selective singleton fill or replacement can therefore
+  improve candidate Jaccard while WER and assertion metrics remain invariant.
+
+predecessor_evidence:
+  H67:
+    rxnorm_alias_rows: 71065
+    active_rxnorm_codes: 34291
+    public_exact_anchors_all_types: 856
+    result: rxnorm_branch_passed_but_combined_hypothesis_stopped_on_icd
+  H8:
+    result: exact_CPC_and_route_audits_found_12_candidate_changes
+    limitation: abstraction_level_and_target_policy_were_not_independently_calibrated
+  H44:
+    result: externally_rejected
+    candidate_jaccard_change: -9.5437
+    lesson: no_parent_expansion_or_unconditional_cardinality_growth
+  H45:
+    result: k1_best
+    lesson: output_singleton_only
+  H58:
+    result: externally_rejected
+    lesson: candidate_only_is_required_to_isolate_candidate_effect
+
+research_basis:
+  - https://www.nlm.nih.gov/research/umls/rxnorm/docs/prescribe.html
+  - https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html
+  - https://www.nlm.nih.gov/research/umls/rxnorm/sourcereleasedocs/rxnorm.html
+  - https://aclanthology.org/2021.naacl-main.334/
+  - https://aclanthology.org/2022.findings-emnlp.61/
+  - https://aclanthology.org/2025.acl-short.25/
+  - https://aclanthology.org/2025.findings-acl.558/
+
+immutable_prohibitions:
+  - no_ICD_training_or_ICD_candidate_change
+  - no_H38_or_H24_candidate_as_clean_training_label
+  - no_turn2_before_model_threshold_and_action_policy_checksums_are_locked
+  - no_entity_text_type_boundary_position_assertion_order_or_count_change
+  - no_candidate_change_outside_THUOC
+  - no_candidate_list_with_cardinality_other_than_zero_or_one_on_changed_rows
+  - no_raw_top_k_output
+  - no_ingredient_to_product_guess_without_explicit_strength_form_route_evidence
+  - no_brand_to_generic_collapse_when_exact_brand_identity_is_available
+  - no_threshold_relaxation_after_dev_test_or_turn2_observation
+  - no_leaderboard_or_zip_size_as_training_selection_or_calibration_signal
+  - no_submission_without_user_approval_of_exact_sha256
+
+data_contract:
+  ontology_source: RxNorm_Current_Prescribable_Content_2026_07_06
+  accepted_rows:
+    SAB: [RXNORM]
+    SUPPRESS: [N]
+    content_view_flag: "4096_or_CPC_subset_equivalent"
+  term_types:
+    ingredients: [IN, PIN, MIN]
+    brands: [BN]
+    products: [SCD, SBD, SCDC, SBDC, SCDF, SBDF, PSN, SY]
+  family_group: base_ingredient_or_ingredient_combination_from_RXNREL
+  split_seed: 6801
+  split_proportions: [0.70, 0.15, 0.15]
+  leakage_rule: all_terms_products_strengths_forms_and_brands_of_one_family_share_one_fold
+  public_context_rule: >
+    Public Vietnamese or bilingual context is positive only when an exact
+    normalized mention maps to one RxCUI in the accepted CPC alias table. It
+    must be grouped by source document before splitting. Turn2 is forbidden.
+
+architecture:
+  structured_parser:
+    fields:
+      - ingredient_or_brand
+      - numerator_strength
+      - denominator_strength
+      - dose_form
+      - route
+      - release_type
+    normalization:
+      - unicode_NFC_and_casefold
+      - Vietnamese_and_clinical_route_abbreviations
+      - unit_and_decimal_canonicalization
+      - slash_and_per_unit_strength_canonicalization
+      - preserve_all_numeric_values
+    critical_rule: missing_structure_may_abstain_but_never_invent_structure
+  retrieval_views:
+    exact: normalized_alias_hash
+    sparse: character_2_to_5gram_TFIDF
+    dense_primary: Qwen/Qwen3-Embedding-0.6B
+    dense_secondary: BAAI/bge-m3_only_if_unique_recall_gate_passes
+    structural: RxNorm_relation_and_field_compatibility
+    top_k_per_view: 20
+  reranker:
+    model: xlm_roberta_base_pairwise_classifier_with_LoRA_or_small_MLP_over_frozen_embeddings
+    input: mention_plus_local_context_plus_candidate_name_TTY_and_structured_fields
+    positives: official_same_RxCUI_synonyms_plus_unique_public_exact_anchors
+    negatives:
+      - online_lexically_nearest_wrong_RxCUI
+      - same_ingredient_wrong_strength
+      - same_ingredient_wrong_dose_form
+      - same_ingredient_wrong_route
+      - same_ingredient_wrong_release_type
+      - exact_brand_vs_wrong_generic_or_wrong_brand
+    selection: dev_mean_across_three_seeds
+    seeds: [68, 680, 6800]
+  action_layer:
+    allowed: [UNCHANGED, FILL_EMPTY, REPLACE]
+    output_cardinality: 1
+    fill_rule: >
+      Exact, sparse, primary dense and structured views agree on one RxCUI;
+      explicit mention structure has no contradiction; calibrated lower 95%
+      precision bound is at least 0.95.
+    replace_rule: >
+      Every retained view agrees on one new RxCUI; old code loses an explicit
+      pairwise comparison; the new code matches every explicit ingredient,
+      strength, form, route and release field; calibrated lower 95% precision
+      bound is at least 0.92.
+
+stage_0_reproducibility_and_runtime:
+  maximum_minutes: 30
+  pass_if:
+    - H38_sha256_matches
+    - all_100_H38_files_validate_against_turn2_input
+    - H38_drug_census_reproduces_276_total_201_nonempty_75_empty
+    - CPC_20260706_checksum_matches_H67_manifest
+    - CUDA_available
+    - Qwen3_embedding_and_XLMR_batch8_forward_backward_pass
+  operational_rules:
+    - pin_model_revision_and_python_package_lock_before_training
+    - use_direct_AutoTokenizer_and_AutoModel_calls_not_legacy_pipeline_tasks
+    - one_stage_per_process_with_nonzero_exit_propagation
+    - persist_reports_manifests_and_small_checkpoints_after_every_stage
+    - never_assume_a_previous_Colab_runtime_cache_exists
+  failure: FAIL_STAGE_0_and_stop
+
+stage_1_independent_rxnorm_dataset:
+  pass_if:
+    - accepted_same_code_alias_pairs_at_least_50000
+    - ingredient_families_at_least_30000
+    - family_overlap_across_folds_equals_zero
+    - cross_code_normalized_alias_collision_rate_at_most_0.002
+    - public_unique_RxNorm_context_anchors_at_least_300
+    - every_generated_structural_variant_roundtrips_to_its_source_RxCUI
+  failure: FAIL_STAGE_1_and_stop_before_model_training
+
+stage_2_frozen_retrieval_and_structure:
+  systems:
+    - exact_only
+    - sparse_only
+    - Qwen_only
+    - sparse_Qwen_union
+    - sparse_Qwen_structured
+    - sparse_Qwen_BGE_structured_if_BGE_is_eligible
+  metrics:
+    - exact_top1
+    - recall_at_5_10_20
+    - mean_reciprocal_rank
+    - same_ingredient_wrong_product_rate
+    - structured_contradiction_rate
+  pass_if:
+    - best_union_dev_recall_at_20_at_least_0.98
+    - best_union_test_recall_at_20_at_least_0.97
+    - sparse_Qwen_union_exceeds_best_single_dev_recall_at_20_by_at_least_0.02
+    - structured_view_reduces_same_ingredient_wrong_product_rate_by_at_least_0.30_relative
+    - structured_contradiction_rate_equals_zero_on_exact_field_cases
+    - BGE_retained_only_if_unique_dev_recall_at_20_at_least_0.01
+  failure: FAIL_STAGE_2_and_stop
+
+stage_3_pairwise_reranker_and_ablation:
+  ablations:
+    A: best_frozen_retriever
+    B: A_plus_structured_fields
+    C: B_plus_pairwise_reranker
+    D: C_plus_online_same_family_hard_negatives
+  test_opening: once_after_variant_epoch_and_threshold_lock
+  pass_if:
+    - D_dev_exact_top1_exceeds_A_by_at_least_0.04
+    - D_dev_exact_top1_exceeds_B_by_at_least_0.02
+    - D_dev_hard_negative_pair_accuracy_at_least_0.95
+    - D_test_exact_top1_exceeds_A_by_at_least_0.025
+    - D_test_hard_negative_pair_accuracy_at_least_0.93
+    - no_seed_test_exact_top1_more_than_0.015_below_A
+    - expected_calibration_error_at_most_0.08
+  failure: FAIL_STAGE_3_and_stop_before_turn2
+
+stage_4_selective_action_calibration:
+  calibration_source: family_heldout_dev_only
+  uncertainty: Wilson_lower_95_bound
+  pass_if:
+    - FILL_EMPTY_lower_95_precision_at_least_0.95
+    - FILL_EMPTY_supported_examples_at_least_50
+    - REPLACE_lower_95_precision_at_least_0.92
+    - REPLACE_supported_examples_at_least_50
+    - action_policy_is_byte_locked_before_turn2
+    - all_known_H8_route_and_TTY_hazards_have_zero_structural_contradictions
+  failure: FAIL_STAGE_4_and_stop_before_turn2
+
+stage_5_turn2_candidate_only_shadow:
+  allowed_only_after_stages_0_to_4_pass: true
+  frozen_fields:
+    - all_diagnosis_candidates
+    - entity_count
+    - text
+    - type
+    - position
+    - assertions
+    - entity_order
+  change_window:
+    minimum_rows: 15
+    maximum_rows: 120
+    minimum_records: 8
+    minimum_unique_normalized_drug_mentions: 10
+    maximum_single_RxCUI_share: 0.20
+  pass_if:
+    - all_100_files_validate
+    - every_changed_row_is_THUOC
+    - every_changed_candidate_is_active_CPC_RxCUI
+    - every_changed_list_has_exactly_one_candidate
+    - all_explicit_structured_fields_match_new_code
+    - no_non_candidate_or_ICD_candidate_diff
+    - no_duplicate_entity_or_offset_error
+  failure: FAIL_STAGE_5_and_do_not_package
+
+stage_6_package:
+  output_directory: turn2/output_v23_rxnorm_exact_drug_linker
+  zip_path: turn2/output_v23_rxnorm_exact_drug_linker.zip
+  requirements:
+    - package_twice_byte_identical
+    - exactly_output_slash_1_json_through_100_json
+    - full_test_suite_passes
+    - report_exact_sha256_size_and_change_census
+  terminal_status: PASS_AWAITING_SUBMISSION_APPROVAL
+
+interpretation_contract:
+  - >
+    H68 is a candidate-component intervention, not a plausible ten-point total
+    breakthrough by itself. Its value is a low-coupling, independently trained
+    challenger that can add candidate score without risking H38 WER/assertions.
+  - >
+    If fewer than 15 Turn2 rows survive, stop without a ZIP: the action is too
+    small to justify a blind leaderboard slot.
+  - >
+    If any offline gate fails, do not lower thresholds and do not resurrect the
+    failed ICD translation branch. Record the negative result and retain H38.

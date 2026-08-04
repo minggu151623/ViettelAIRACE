@@ -81,3 +81,10 @@ for non-asymptotic guarantees. H50 therefore compares percentile,
 stratified-Welch and bootstrap-t gates on the exact H49 distributional envelope
 and fails closed on studentization degeneracy. See
 `literature/small_sample_mean_inference.md`.
+# H68 RxNorm exact linker (2026-08-04)
+
+See `literature/h68_rxnorm_exact_drug_linker.md`. Official CPC structure and
+same-concept synonym learning support a family-held-out, hard-negative exact
+drug linker. The literature does not justify parent/product expansion or raw
+top-k output; calibrated singleton prediction or abstention is the registered
+policy.

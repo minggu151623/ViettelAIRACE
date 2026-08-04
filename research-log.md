@@ -1,5 +1,20 @@
 # Research log — Viettel AI Race V1
 
+## 2026-08-04 — H68 RxNorm-only protocol locked for Luna
+
+- Performed the outer-loop pivot after H67 Stage 1. The failed translated ICD
+  branch is closed; its gates will not be lowered. The official CPC branch is
+  isolated as H68 because its 71,065 aliases and 34,291 families passed.
+- Preregistered a candidate-only design with family-held-out supervision,
+  sparse/Qwen/structured retrieval, pairwise hard-negative reranking and Wilson
+  lower-bound action calibration. Turn2 and H38 rows remain closed until the
+  model, indexes, thresholds and action policy are checksum-locked.
+- H68 freezes all non-candidate fields, all diagnosis candidates and all
+  unchanged drug candidates. It may emit only singleton `FILL_EMPTY` or
+  `REPLACE` decisions, and creates no ZIP if fewer than 15 safe rows survive.
+- Added a stage-by-stage Luna handoff with resumable Colab reports and explicit
+  runtime safeguards. H38 remains the only submission-safe artifact.
+
 ## 2026-08-04 — H65 Stage 0 confirmatory outcome
 
 - Completed the frozen 50-sentence public benchmark on CUDA. Report: seven
