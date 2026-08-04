@@ -1,5 +1,20 @@
 # Findings
 
+## 2026-08-04 — H67 Stage 0 passes on Colab T4
+
+- The locked H67 Stage 0 runner completed on a real Tesla T4 in 18.201
+  seconds. The frozen H38 ZIP hash is exactly
+  `a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b`.
+- All 100 `1.json`–`100.json` files validate against their paired `1.txt`–
+  `100.txt` inputs: schema, UTF-8 offsets, ordering and candidate-type rules
+  all pass. The graph manifest reports 69,991 nodes and 294,548 edges.
+- WHO ICD-10 2019 and RxNorm CPC 2026-07-06 are readable and checksummed.
+  Qwen3 Embedding 0.6B and an XLM-R pair classifier both complete CUDA
+  forward/backward smoke tests; the XLM-R batch-8 fit gate passes.
+- This is only an integrity/compute result. No ontology aliases, training,
+  target inference, Turn2 output or submission ZIP has been created. H67 now
+  advances to its independently supervised, family-held-out Stage 1.
+
 ## 2026-08-04 — H65 valid Stage 0 rejects literal cross-lingual projection
 
 - The corrected CUDA run completed on the frozen first 50 PhoNER dev

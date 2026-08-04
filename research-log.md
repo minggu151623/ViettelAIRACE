@@ -1905,3 +1905,18 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - No H67 data, model, Turn2 prediction, output directory or ZIP exists in this
   preregistration turn. H38 remains the safe artifact. Luna is the designated
   Colab executor; any failed gate must stop without a challenger.
+
+## 2026-08-04 — H67 Stage 0 passes; Stage 1 opened
+
+- Locked runner `run_stage_0_colab.py` was committed before execution. The
+  first two attempts stopped fail-closed on runner-only path/serialization
+  defects; after correction, the valid report is
+  `experiments/H67_ontology_exact_graph_linker/results/stage_0_report.json`.
+- Colab report: `PASS_STAGE_0`, 18.201 seconds, Tesla T4, H38 hash exact,
+  100/100 JSON records valid, graph 69,991/294,548, readable WHO/RxNorm
+  snapshots, Qwen forward/backward and XLM-R batch-8 forward/backward passed.
+- Stage 1 is now the only open branch. It will parse official RxNorm CPC and
+  WHO titles, translate isolated ICD titles with the two locked translators,
+  construct family-held-out alias sets, and stop if any identity/collision/
+  public-anchor gate fails. No Turn2 text or H38-derived label is used for
+  training, and no submission is authorized.

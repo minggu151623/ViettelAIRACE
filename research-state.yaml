@@ -3,16 +3,20 @@ question: >
   How can an offline Vietnamese clinical NER and coding pipeline improve the
   black-box Viettel AI Race score when the organizer provides only input text
   and no ground-truth annotations?
-status: h67_preregistered_plan_only_awaiting_luna_colab_execution
+status: h67_stage0_passed_awaiting_independent_ontology_stage1
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
-  status: h67_protocol_locked_waiting_for_luna_colab
+  status: h67_stage0_passed_colab_t4_stage1_running_next
   local_static_checks: pass
   remote_requirement: "Colab GPU; public clone requires no GitHub token"
 started_at: "2026-07-26"
 current_direction: >
-  H67 is preregistered plan-only and is now the sole active execution branch.
+  H67 is the sole active execution branch. Its locked Stage 0 passed on a real
+  Colab Tesla T4: H38 hash, 100 JSON/input pairs, ontology manifest and model
+  CUDA smoke tests all passed. Stage 1 must now establish independent,
+  family-held-out ontology supervision and fail closed on any identity,
+  collision or public-anchor gate; no Turn2 artifact exists yet.
   It is candidate-only: freeze every H38 entity, type, boundary, assertion,
   position and ordering decision, then learn ICD/RxNorm exact-code ranking from
   official synonyms, a typed ontology graph, code-preserving multilingual
@@ -512,7 +516,7 @@ hypotheses:
       sentence-level translation as NER supervision, not isolated ontology-name
       translation evaluated by code identity.
   H67_ontology_exact_graph_linker:
-    status: preregistered_plan_only_awaiting_luna_colab
+    status: stage0_passed_stage1_awaiting_execution
     prediction: >
       Official same-code synonyms, multilingual code-preserving ontology aliases,
       relation-aware graph objectives and parent/child/sibling hard negatives
@@ -524,9 +528,16 @@ hypotheses:
       by ICD/RxNorm family, treats graph-near codes as exact-code negatives,
       requires three-seed ablations and uses H24 weak links only as a secondary
       diagnostic. H44 parent expansion and arbitrary top-k are forbidden.
+    result: >
+      Stage 0 passed on Colab Tesla T4 in 18.201 seconds: frozen H38 SHA256
+      matched, all 100 JSON/input pairs validated, graph manifest reported
+      69,991 nodes and 294,548 edges, WHO/RxNorm snapshots were readable, and
+      Qwen3 Embedding plus XLM-R batch-8 CUDA forward/backward smoke tests
+      passed. Stage 1 alias construction and identity gates are not yet run;
+      no Turn2 artifact or ZIP exists.
 experiments:
   completed:
-    - "H67 protocol locked plan-only: ontology identity supervision, family-held-out graph ablations, selective candidate-only Turn2 policy; no training or ZIP"
+    - "H67 Stage 0 PASS on Colab T4: H38 hash exact, 100/100 JSON/input validation, 69,991/294,548 graph manifest, readable WHO/RxNorm and Qwen/XLM-R CUDA smoke tests; Stage 1 next, no ZIP"
     - "H66 failed Stage 1: 12,000 synthetic sentences but backtranslation entity preservation 0.0787767 < 0.90; no training or ZIP"
     - "H65 valid Stage 0 fail: 7 English consensus mentions, 0 exact Vietnamese projections, runtime 3.91m; no Stage 1 or ZIP"
     - "H64 execution invalid/inconclusive: Turn2 sample, wrong denominator, soft token overlap, unsupported device claim and unreachable three-type gate; no ZIP"
