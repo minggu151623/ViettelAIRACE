@@ -2048,3 +2048,13 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   metadata between records; only same-record overlap may transfer metadata.
   The first remaining slot measures this large reconstruction, and the last
   slot will retain only externally positive components.
+
+## 2026-08-04 — H72 rejected by semantic type-coverage audit
+
+- H72 passes its technical scale gates with 542 span/type differences over 75
+  records, but removes 57 result entities while adding zero results. Examples
+  include complete imaging and pathology findings, so this is proposal-model
+  undercoverage rather than credible negative evidence.
+- The full H72 ZIP is quarantined before submission. The next protocol routes
+  repeated-passage reconstruction only to diagnosis and symptom; tests,
+  results, drugs, candidates and H69 brands must remain byte-equivalent.

@@ -1368,3 +1368,12 @@ The strongest verified direction is conservative structural cleanup:
   intervention already supported by five model views. H72 deliberately accepts
   higher uncertainty to rebuild roughly 542 span/type rows over 76 records,
   while quarantining H69 brand rows and all cross-record metadata transfer.
+
+## 2026-08-04 — Multi-view absence is type-dependent, not a universal negative
+
+- H72 reveals a structural ensemble defect: the five views can vote on
+  diagnosis and symptom, but their absence for result entities is not evidence
+  that an H69 result span should be deleted. Full type-agnostic canonicalization
+  would remove 57 clinically meaningful results and is rejected before use.
+- Type routing preserves the large repeated-passage signal without interpreting
+  unsupported-type silence as a negative label.
