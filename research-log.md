@@ -1,5 +1,14 @@
 # Research log — Viettel AI Race V1
 
+## 2026-08-04 — H68 Stage 0 PASS on Colab T4
+
+- H68 Stage 0 completed on a real Tesla T4 in 56.847 seconds. H38 SHA-256,
+  100/100 JSON validation and the expected 276/201/75 drug census all passed.
+- The CPC snapshot was readable. Qwen3 Embedding 0.6B forward/backward and the
+  XLM-R batch-8 CUDA fit check passed. No Turn2 data, training, candidate
+  changes or ZIP were produced.
+- Continue only with the locked H68 Stage 1 independent RxNorm dataset gate.
+
 ## 2026-08-04 — H68 RxNorm-only protocol locked for Luna
 
 - Performed the outer-loop pivot after H67 Stage 1. The failed translated ICD

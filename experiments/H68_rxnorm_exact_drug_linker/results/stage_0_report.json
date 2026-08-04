@@ -1,0 +1,209 @@
+{
+  "hypothesis": "H68_rxnorm_exact_drug_linker",
+  "stage": "stage_0_reproducibility_and_runtime",
+  "protocol": "locked",
+  "started_unix": 1785844349.2108626,
+  "host": {
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]"
+  },
+  "checks": {
+    "baseline_sha256": {
+      "ok": true,
+      "sha256": "a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b"
+    },
+    "baseline_100_json": {
+      "ok": true,
+      "count": 100,
+      "errors": {}
+    },
+    "graph_manifest": {
+      "ok": true,
+      "sha256": "5d39dbef854339460b676f850ac91bf5476f4813081533ac6221c27ebce159eb",
+      "manifest": {
+        "nodes": 69991,
+        "edges": 294548,
+        "nodes_by_ontology": {
+          "RXNORM_CPC_2026_07": 57770,
+          "WHO_ICD10_2019": 12221
+        },
+        "edges_by_relation": {
+          "icd_child": 10171,
+          "icd_parent": 10171,
+          "rx_has_ingredient": 37624,
+          "rx_has_part": 3053,
+          "rx_has_precise_ingredient": 2212,
+          "rx_has_tradename": 26587,
+          "rx_ingredient_of": 37624,
+          "rx_inverse_isa": 67627,
+          "rx_isa": 67627,
+          "rx_part_of": 3053,
+          "rx_precise_ingredient_of": 2212,
+          "rx_tradename_of": 26587
+        },
+        "node_sha256": "40c3dd800ee9897f8a41b13f1e277d89bf310471f7279004fd8f8b3a74ee5e08",
+        "edge_sha256": "87d474000d8a0db53a67aa92c6fc550fef6a852989675a02647b7893c7c52208"
+      }
+    },
+    "ontology_snapshots": {
+      "ok": true,
+      "who_files": [
+        {
+          "path": "/content/h68_stage0/ontology/who/icd102019syst_chapters.txt",
+          "bytes": 1125,
+          "sha256": "de03379606038829974f7d0e49421389ed26125d1a5aee7b705709207ab71388"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/who/icd102019syst_codes.txt",
+          "bytes": 2244561,
+          "sha256": "6aab2f322ed4277302b17e5ad11e2111d1cd53765d62cfc93ed609a35c1e2c06"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/who/icd102019syst_groups.txt",
+          "bytes": 14849,
+          "sha256": "0d3fb0f485183253531e902ad36ad0d0a2ea7162794ec47e696bcf94d191f5d1"
+        }
+      ],
+      "rxnorm_files": [
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/RXNCONSO.RRF",
+          "bytes": 30506659,
+          "sha256": "4dda3b83bb67af5f8349a5fd455a4c54b8290921cffecc362163cd00f27439a5"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/RXNREL.RRF",
+          "bytes": 196795423,
+          "sha256": "88c25038ab62a189dd9f744b84552fcaa3d61d2bb9d9dc5a83f4a8a8f19b9c9b"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/RXNSAT.RRF",
+          "bytes": 280646563,
+          "sha256": "a01d4b60c6386d0f4d13304e78ae4c2e1a0397d223b905f191a4361891ae4793"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/Readme_Full_Prescribe_07062026.txt",
+          "bytes": 3067,
+          "sha256": "1d46f0dbf4edbe7fbe3c91bd77028be9834e8d6696ac13bc71d51715e2bf05ef"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/mysql/Indexes_mysql_rxn.sql",
+          "bytes": 463,
+          "sha256": "83ae2a095be1325ff554c288580eaf1df54b42488729f9da7460c747c83a34ff"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/mysql/Load_scripts_mysql_rxn_unix.sql",
+          "bytes": 1469,
+          "sha256": "f97883688026b39c41bb5418b448cfbbb2bf10071fc19311b7c11740e655208c"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/mysql/Load_scripts_mysql_rxn_win.sql",
+          "bytes": 1468,
+          "sha256": "5d7c5d4d197fb5354b5889337d87b90650213f135c40dfd72c04c3047ae9efa3"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/mysql/Populate_mysql_rxn.bat",
+          "bytes": 777,
+          "sha256": "0f23ef9b5f26e357d126b460ec0b5b2d7970017fe893c59783ad65cbc27acd76"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/mysql/Table_scripts_mysql_rxn.sql",
+          "bytes": 1749,
+          "sha256": "f15439969ad05bff023c002b0fe9b3eae5f266a1e0b429cbc3f45b7f2b8f90c5"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/mysql/populate_mysql_rxn.sh",
+          "bytes": 1609,
+          "sha256": "5a352f83036cb96ef4d34391fc03ef43daae1cf965591bab02b294ce087ee636"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/oracle/RXNCONSO.ctl",
+          "bytes": 512,
+          "sha256": "2865d7845a6ac3d3d2028cb68856b37e833c0a1155259e6e9323f1359c600b30"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/oracle/RXNREL.ctl",
+          "bytes": 471,
+          "sha256": "d1be7ff56bfc25923cbe76a6d89fdb57554ab5cf67371f68c81eba44f0ac8765"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/oracle/RXNSAT.ctl",
+          "bytes": 378,
+          "sha256": "c33fbbbc69ec32f7ce7fbf8ae7d223fa7f861b281fc66157faf1db6027164384"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/oracle/RxNormDDL.sql",
+          "bytes": 1373,
+          "sha256": "64bdd8ac9ae8a22796dcf8721b5bbdee746a7bf9bfc205eac94032a0a49154ce"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/oracle/populate_oracle_rxn_db.bat",
+          "bytes": 699,
+          "sha256": "8d9e3c46416a84a1ac33d66b7adb706846cfc74361143f3b93cbfbb8e00f1d3a"
+        },
+        {
+          "path": "/content/h68_stage0/ontology/rxnorm/scripts/oracle/rxn_index.sql",
+          "bytes": 460,
+          "sha256": "a83d980efb9b653c2e1b0790c37f9bbd587e11fe892a22730ca16785e63b0089"
+        }
+      ],
+      "resource_manifest": {
+        "hypothesis": "H68_rxnorm_exact_drug_linker",
+        "ontology": {
+          "who_icd10_2019": {
+            "path": "airace/resources/icd102019enMeta.zip",
+            "source": "WHO ICD-10 2019",
+            "sha256_required": true
+          },
+          "rxnorm_cpc_20260706": {
+            "path": "airace/resources/RxNorm_full_prescribe_07062026.zip",
+            "source": "NLM RxNorm Current Prescribable Content",
+            "sha256_required": true
+          }
+        },
+        "models": {
+          "dense_primary": "Qwen/Qwen3-Embedding-0.6B",
+          "pair_reranker": "xlm-roberta-base"
+        },
+        "license_note": "RxNorm CPC subset is distributed by NLM without a UMLS license."
+      }
+    },
+    "h68_drug_census": {
+      "ok": true,
+      "observed": {
+        "total": 276,
+        "nonempty": 201,
+        "empty": 75
+      },
+      "expected": {
+        "total": 276,
+        "nonempty": 201,
+        "empty": 75
+      }
+    }
+  },
+  "errors": [],
+  "gpu": {
+    "cuda_available": true,
+    "device_count": 1,
+    "device_name": "Tesla T4",
+    "torch": "2.11.0+cu128"
+  },
+  "qwen_embedding": {
+    "model": "Qwen/Qwen3-Embedding-0.6B",
+    "hidden_size": 1024,
+    "batch": 2,
+    "forward_backward": true,
+    "seconds": 18.469
+  },
+  "xlm_roberta_pair": {
+    "model": "xlm-roberta-base",
+    "batch": 2,
+    "required_batch_minimum": 8,
+    "probe_batch_fit": true,
+    "seconds": 18.051,
+    "batch_8_forward_backward": true
+  },
+  "status": "PASS_STAGE_0",
+  "elapsed_seconds": 56.847,
+  "h67_integrity_returncode": 0
+}

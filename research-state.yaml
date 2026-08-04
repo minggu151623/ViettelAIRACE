@@ -549,6 +549,7 @@ hypotheses:
       opens Turn2 only after the entire action policy is checksum-locked.
 experiments:
   completed:
+    - "H68 Stage 0 PASS on Colab Tesla T4: H38 hash exact, 100/100 JSON validation, drug census 276/201/75, readable CPC, Qwen3/XLM-R CUDA smoke tests and batch-8 fit"
     - "H68 preregistered: RxNorm-only family-held-out exact linker; all H38 fields except drug candidates frozen, all ICD candidates frozen, no Turn2 before calibration lock"
     - "H67 Stage 0 PASS on Colab T4: H38 hash exact, 100/100 JSON/input validation, 69,991/294,548 graph manifest, readable WHO/RxNorm and Qwen/XLM-R CUDA smoke tests"
     - "H67 Stage 1 FAIL: 71,065 RxNorm aliases and 856 anchors pass, but 1,400 ICD aliases, 0.14/0.95 identity accuracy and 0.0110552/0.005 collision gate fail; no training or ZIP"

@@ -1,5 +1,17 @@
 # Findings
 
+## 2026-08-04 — H68 Stage 0 passes on Colab Tesla T4
+
+- The H68 wrapper reproduced the immutable H38 SHA-256, validated all 100
+  baseline JSON/input pairs and reproduced the drug census exactly: 276 total,
+  201 nonempty candidate lists and 75 empty lists.
+- RxNorm CPC was readable. Qwen3 Embedding 0.6B and XLM-RoBERTa completed CUDA
+  forward/backward smoke tests on a Tesla T4, including the locked XLM-R
+  batch-8 fit check. Runtime was 56.847 seconds.
+- This is only a compute/integrity result. No aliases, training, Turn2 access,
+  candidate decision or ZIP has been created. H68 advances to independent
+  family-held-out RxNorm supervision.
+
 ## 2026-08-04 — H68 narrows H67 to the independently viable RxNorm branch
 
 - H67 is not evidence that ontology supervision as a whole failed. Its RxNorm
