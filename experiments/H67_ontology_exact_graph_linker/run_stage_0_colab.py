@@ -250,7 +250,7 @@ def main() -> int:
             raise RuntimeError(f"H38 validation failed in {len(validation_errors)} records")
 
         graph = json.loads(args.graph_manifest.read_text(encoding="utf-8"))
-        graph_ok = (
+        graph_ok = bool(
             graph.get("nodes", 0) >= 69000
             and graph.get("edges", 0) >= 290000
             and re.fullmatch(r"[0-9a-f]{64}", graph.get("node_sha256", ""))
