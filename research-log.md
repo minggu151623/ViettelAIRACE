@@ -1806,3 +1806,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   public dev and one-shot test gates, additions-only H38 fusion, candidate-safe
   diagnosis/drug handling, assertion-scope abstention and an explicit H58 hazard
   audit. This turn creates plan/protocol only; no model, output or ZIP exists.
+
+## 2026-08-04 — H66 worker preflight blocked on runtime
+
+- The worker read the locked H66 protocol and verified branch
+  `codex/core-rebuild-h57`, but the attached environment is the local Apple M1
+  Pro session: `cuda_available=false`, `nvidia-smi` absent, MPS available.
+- No Colab CUDA runtime or persistent SSH GPU terminal is attached to this
+  thread. Since H66's controlled training stage requires CUDA/Colab, execution
+  stops before resource download, synthetic generation, training, public test,
+  Turn2 inference, ZIP creation or submission.
+- This is `BLOCKED_RUNTIME`, not evidence against H66 quality. The preflight is
+  recorded at `experiments/H66_marker_preserved_translation_distillation/results/preflight_report.json`.

@@ -3,7 +3,7 @@ question: >
   How can an offline Vietnamese clinical NER and coding pipeline improve the
   black-box Viettel AI Race score when the organizer provides only input text
   and no ground-truth annotations?
-status: active
+status: active_blocked_on_h66_cuda_runtime
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
@@ -22,11 +22,16 @@ current_direction: >
   development and one-shot test before Turn2 shadow inference. H38 at 39.2813
   remains immutable; H66 permits additions only and requires a counterfactual
   audit against the externally rejected H58 proposal family. H63 invalidates the claimed H41 independent-reviewer result on provenance:
+  The first H66 worker preflight is now recorded as BLOCKED_RUNTIME: this local
+  M1 Pro session has MPS but no CUDA/nvidia-smi and no attached Colab or SSH
+  terminal. No H66 resource, data, model, public test or Turn2 inference has
+  started; H38 remains the only safe artifact.
   reviewer 1 used hard-coded/keyword rules and reviewer 2 used the existing
   detector, candidate resolver and assertion engine. Their labels are
-  quarantined and cannot train H63. Pivot to H64, a feasibility-gated
-  Vietnamese-to-English clinical NER ensemble with bidirectional span
-  projection and public-source calibration. Keep H38 at 39.2813 frozen.
+  quarantined and cannot train H63. H64 was audited as inconclusive and H65
+  then failed its corrected projection gates; those historical branches are
+  closed. Keep H38 at 39.2813 frozen while waiting for an attached CUDA
+  runtime to execute H66.
   Freeze externally confirmed H38 at 39.2813 as the safe fallback. H62 is
   rejected at its deadline checkpoint: only 18 of the first 343 critic-reviewed
   disagreements passed the frozen agreement/evidence contract, far below the

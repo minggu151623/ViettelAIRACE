@@ -1,0 +1,29 @@
+{
+  "status": "BLOCKED_RUNTIME",
+  "experiment": "H66_marker_preserved_translation_distillation",
+  "timestamp": "2026-08-04",
+  "workspace": "/Users/mac/ViettelAIRACE",
+  "branch": "codex/core-rebuild-h57",
+  "cuda_available": false,
+  "cuda_device_count": 0,
+  "nvidia_smi_present": false,
+  "mps_available": true,
+  "observed_hardware": "Apple M1 Pro, 32 GB unified memory",
+  "required_backend": "Colab CUDA GPU",
+  "reason": "H66 requires CUDA/Colab for the controlled student training stage; no Colab or SSH runtime is attached to this worker thread.",
+  "completed": [
+    "read_locked_protocol",
+    "verify_local_branch",
+    "verify_local_runtime"
+  ],
+  "not_started": [
+    "resource_download",
+    "synthetic_generation",
+    "student_training",
+    "public_test",
+    "Turn2_inference",
+    "ZIP_creation",
+    "submission"
+  ],
+  "next_action": "Attach a Colab CUDA runtime through the executor notebook or connect a persistent SSH GPU host, then rerun H66 Stage 0."
+}
