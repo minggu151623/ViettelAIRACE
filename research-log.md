@@ -1828,3 +1828,28 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   Turn2 text, output ZIP or leaderboard submission has been created yet.
 - The session is treated as billable and will be stopped after the run or a
   locked failure state.
+
+## 2026-08-04 — H66 Stage 0 passes on Colab T4
+
+- Remote CUDA is real (`torch 2.11.0+cu128`, one Tesla T4, capability 7.5).
+- Two explicitly licensed English corpora are available at fixed revisions:
+  `bigbio/ncbi_disease` CC0-1.0 (`b96b632b...`) and
+  `bigbio/medmentions` CC0-1.0 (`c8de447c...`). The translator is
+  `Helsinki-NLP/opus-mt-en-vi` Apache-2.0; students are `vinai/phobert-base-v2`
+  AGPL-3.0 and `xlm-roberta-base` MIT. Local ViMedNer and PhoNER terms remain
+  local-only/non-redistributable and are recorded in the manifest.
+- Actual CUDA forward/backward with batch size 4 succeeds for both students;
+  peak allocations are 1,094,567,424 and 2,238,492,672 bytes respectively.
+- Stage 0 status is **PASS_STAGE_0**. The next locked step is schema inspection
+  and marker-preserved synthetic generation; no target Turn2 text was opened.
+
+## 2026-08-04 — H66 Stage 1 source inventory started
+
+- The first `datasets.load_dataset(...)` probe exposed a current-library
+  incompatibility: the BigBio repositories still publish Python loading
+  scripts, while the installed `datasets` version rejects scripts. This is a
+  source-access issue, not a quality result.
+- The locked fallback is to use the explicit upstream PubTator/GitHub source
+  URLs recorded by the dataset scripts and parse them directly with the
+  standard library, preserving the fixed CC0 revisions and provenance. No
+  source labels are being synthesized or altered during inventory.

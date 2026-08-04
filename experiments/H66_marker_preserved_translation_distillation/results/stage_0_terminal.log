@@ -1,0 +1,56 @@
+config.json:   0%|          | 0.00/678 [00:00<?, ?B/s]
+vocab.txt:   0%|          | 0.00/895k [00:00<?, ?B/s]
+bpe.codes:   0%|          | 0.00/1.14M [00:00<?, ?B/s]
+tokenizer.json:   0%|          | 0.00/3.13M [00:00<?, ?B/s]
+pytorch_model.bin: reconstructing file:   0%|          |  0.00B /  540MB        
+pytorch_model.bin: downloading bytes:           |  0.00B            
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+model.safetensors: reconstructing file:   0%|          |  0.00B /  540MB        
+model.safetensors: downloading bytes:           |  0.00B            
+config.json:   0%|          | 0.00/615 [00:00<?, ?B/s]
+tokenizer_config.json:   0%|          | 0.00/25.0 [00:00<?, ?B/s]
+sentencepiece.bpe.model:   0%|          | 0.00/5.07M [00:00<?, ?B/s]
+tokenizer.json:   0%|          | 0.00/9.10M [00:00<?, ?B/s]
+model.safetensors: reconstructing file:   0%|          |  0.00B / 1.12GB        
+model.safetensors: downloading bytes:           |  0.00B            
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+H66_STAGE0_JSON_BEGIN
+{"cuda_available": true, "cuda_device_count": 1, "device": "Tesla T4", "device_capability": [7, 5], "elapsed_seconds": 40.642, "english_corpora": ["bigbio/ncbi_disease", "bigbio/medmentions"], "experiment": "H66_marker_preserved_translation_distillation", "mapped_btc_types": ["CHẨN_ĐOÁN", "TRIỆU_CHỨNG", "TÊN_XÉT_NGHIỆM", "THUỐC"], "python": "3.12.13", "resources": [{"byte_size": null, "card_license_present": true, "identifier": "bigbio/ncbi_disease", "license": "cc0-1.0", "redistribution_policy": null, "resolved_revision_or_digest": "b96b632b1c1c245b5cb21faaeec8bdac3b67553e", "source_url": "https://huggingface.co/datasets/bigbio/ncbi_disease"}, {"byte_size": null, "card_license_present": true, "identifier": "bigbio/medmentions", "license": "cc0-1.0", "redistribution_policy": null, "resolved_revision_or_digest": "c8de447c7fb7241ef37538644107a6a5e1d95e43", "source_url": "https://huggingface.co/datasets/bigbio/medmentions"}, {"byte_size": null, "card_license_present": true, "identifier": "Helsinki-NLP/opus-mt-en-vi", "license": "apache-2.0", "redistribution_policy": null, "resolved_revision_or_digest": "989c9fb9ec63987901022baf0182dcec3e149be6", "source_url": "https://huggingface.co/models/Helsinki-NLP/opus-mt-en-vi"}, {"byte_size": null, "card_license_present": true, "identifier": "vinai/phobert-base-v2", "license": "agpl-3.0", "redistribution_policy": null, "resolved_revision_or_digest": "86cd7fd4c148980922ac11a2cf5e257f2ba639e1", "source_url": "https://huggingface.co/models/vinai/phobert-base-v2"}, {"byte_size": null, "card_license_present": true, "identifier": "xlm-roberta-base", "license": "mit", "redistribution_policy": null, "resolved_revision_or_digest": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089", "source_url": "https://huggingface.co/models/xlm-roberta-base"}, {"byte_size": null, "card_license_present": true, "identifier": "local:ViMedNer", "license": "research-only; redistribution prohibited by source terms; local use only", "redistribution_policy": "do not redistribute dataset; retain local-only", "resolved_revision_or_digest": "workspace-external", "source_url": "https://github.com/taidng/ViMedNer"}, {"byte_size": null, "card_license_present": true, "identifier": "local:PhoNER_COVID19", "license": "research/educational only; redistribution prohibited by source terms; local use only", "redistribution_policy": "do not redistribute original or modified dataset", "resolved_revision_or_digest": "workspace-external", "source_url": "https://github.com/kaushaltrivedi/PhonER"}], "stage": 0, "started_at": "2026-08-04T09:33:54.956620+00:00", "status": "PASS_STAGE_0", "student_fit": [{"batch_size": 4, "fit": true, "identifier": "vinai/phobert-base-v2", "peak_memory_bytes": 1094567424, "seconds": 11.917, "sequence_length": 32}, {"batch_size": 4, "fit": true, "identifier": "xlm-roberta-base", "peak_memory_bytes": 2238492672, "seconds": 17.773, "sequence_length": 32}], "torch": "2.11.0+cu128"}
+H66_STAGE0_JSON_END
+
+STDERR:
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:138: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+  warnings.warn(f"\nError while fetching `HF_TOKEN` secret value from your vault: '{str(e)}'.")
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] [1mRobertaForTokenClassification LOAD REPORT[0m from: vinai/phobert-base-v2
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+classifier.weight         | MISSING    | 
+classifier.bias           | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[transformers] [1mXLMRobertaForTokenClassification LOAD REPORT[0m from: xlm-roberta-base
+Key                         | Status     | 
+----------------------------+------------+-
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+lm_head.bias                | UNEXPECTED | 
+lm_head.layer_norm.weight   | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+classifier.weight           | MISSING    | 
+classifier.bias             | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
