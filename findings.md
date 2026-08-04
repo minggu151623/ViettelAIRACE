@@ -1341,3 +1341,12 @@ The strongest verified direction is conservative structural cleanup:
 - All local safety evidence passes. This does not prove a leaderboard gain;
   only candidate Jaccard should move, so unchanged WER/assertion values are the
   required causal check after user-controlled submission.
+
+## 2026-08-04 — Product specificity is not the organizer's rewarded axis
+
+- H70 produces exactly the H69 external metrics. Replacing six ingredient/brand
+  codes by dose-form-specific SCD/SBD codes neither helps nor hurts measured
+  candidate Jaccard, so further product-level variants are not justified.
+- The supported signal remains named identity: H69's exact full-span BN rule.
+  H71 broadens only that proven mechanism to bounded brand occurrences inside
+  longer spans and repairs four deterministic complete-name inconsistencies.

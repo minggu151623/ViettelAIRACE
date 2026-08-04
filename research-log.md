@@ -2012,3 +2012,15 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   `df65a6c57277077e0b81750f508dda3f1ad8f94753f919e812219e5f604a7f92`.
 - H70 is a candidate-only leaderboard test. H69 at 40.2216 remains the safe
   baseline until external metrics confirm or reject product specialization.
+
+## 2026-08-04 — H70 external null; H71 identity completion locked
+
+- H70 returns exactly the H69 score and all three component metrics. The six
+  SCD/SBD changes therefore provide no measurable organizer credit; explicit
+  product specialization is closed and H69 remains baseline.
+- The next audited residual contains nine longer medication spans with one
+  unambiguous contained BN alias and four exact repeated-name inconsistencies.
+  H71 locks those 13 candidate-only corrections before transformation.
+- Mucinex D is explicitly excluded from substring-to-Mucinex BN replacement;
+  its two empty rows may only inherit the exact product code already observed
+  for the same complete normalized span.
