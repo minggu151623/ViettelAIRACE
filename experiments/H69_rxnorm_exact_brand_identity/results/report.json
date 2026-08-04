@@ -1,0 +1,811 @@
+{
+  "hypothesis": "H69_rxnorm_exact_brand_identity",
+  "status": "PASS_AWAITING_SUBMISSION_APPROVAL",
+  "baseline": "/Users/mac/ViettelAIRACE/turn2/output_v10_multiview_consensus",
+  "baseline_zip_sha256": "a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b",
+  "output": "/Users/mac/ViettelAIRACE/turn2/output_v24_rxnorm_exact_brand_identity",
+  "zip": "/Users/mac/ViettelAIRACE/turn2/output_v24_rxnorm_exact_brand_identity.zip",
+  "zip_sha256": "12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369",
+  "zip_bytes": 94801,
+  "records": 100,
+  "entities": 3226,
+  "unique_active_brand_aliases": 4139,
+  "changed_rows": 48,
+  "changed_records": 23,
+  "unique_changed_mentions": 13,
+  "gates": {
+    "changed_rows_ge_20": true,
+    "changed_rows_le_60": true,
+    "changed_records_ge_10": true,
+    "all_new_codes_active_tty_bn": true,
+    "repeated_mentions_consistent": true,
+    "all_100_records_validate": true,
+    "deterministic_zip_bytes": true,
+    "project_tests_186_passed": true
+  },
+  "test_command": "python -m pytest tests -q",
+  "test_result": "186 passed in 13.17s",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 873,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1299,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "changes": [
+    {
+      "record": 8,
+      "entity_index": 4,
+      "text": "seroquel",
+      "position": [
+        190,
+        198
+      ],
+      "old_candidates": [
+        "51272"
+      ],
+      "new_candidates": [
+        "83553"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 12,
+      "entity_index": 7,
+      "text": "bactrim",
+      "position": [
+        382,
+        389
+      ],
+      "old_candidates": [
+        "10831"
+      ],
+      "new_candidates": [
+        "151399"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 15,
+      "entity_index": 6,
+      "text": "bactrim",
+      "position": [
+        382,
+        389
+      ],
+      "old_candidates": [
+        "10831"
+      ],
+      "new_candidates": [
+        "151399"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 15,
+      "entity_index": 22,
+      "text": "bactrim",
+      "position": [
+        1984,
+        1991
+      ],
+      "old_candidates": [
+        "10831"
+      ],
+      "new_candidates": [
+        "151399"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 15,
+      "entity_index": 28,
+      "text": "bactrim",
+      "position": [
+        2343,
+        2350
+      ],
+      "old_candidates": [
+        "10831"
+      ],
+      "new_candidates": [
+        "151399"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 19,
+      "entity_index": 5,
+      "text": "tylenol",
+      "position": [
+        684,
+        691
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 19,
+      "entity_index": 6,
+      "text": "tylenol",
+      "position": [
+        721,
+        728
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 19,
+      "entity_index": 12,
+      "text": "tylenol",
+      "position": [
+        962,
+        969
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 19,
+      "entity_index": 14,
+      "text": "tylenol",
+      "position": [
+        1084,
+        1091
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 20,
+      "entity_index": 23,
+      "text": "compazine",
+      "position": [
+        1287,
+        1296
+      ],
+      "old_candidates": [
+        "8704"
+      ],
+      "new_candidates": [
+        "203546"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 20,
+      "entity_index": 24,
+      "text": "aleve",
+      "position": [
+        1300,
+        1305
+      ],
+      "old_candidates": [
+        "7258"
+      ],
+      "new_candidates": [
+        "215101"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 26,
+      "entity_index": 40,
+      "text": "eliquis",
+      "position": [
+        1813,
+        1820
+      ],
+      "old_candidates": [
+        "1364430"
+      ],
+      "new_candidates": [
+        "1364436"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 32,
+      "entity_index": 4,
+      "text": "gleevec",
+      "position": [
+        807,
+        814
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 32,
+      "entity_index": 14,
+      "text": "gleevec",
+      "position": [
+        1089,
+        1096
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 33,
+      "entity_index": 33,
+      "text": "dilaudid",
+      "position": [
+        1979,
+        1987
+      ],
+      "old_candidates": [
+        "3423"
+      ],
+      "new_candidates": [
+        "224913"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 34,
+      "entity_index": 31,
+      "text": "gleevec",
+      "position": [
+        1389,
+        1396
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 34,
+      "entity_index": 40,
+      "text": "gleevec",
+      "position": [
+        1950,
+        1957
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 38,
+      "entity_index": 1,
+      "text": "gleevec",
+      "position": [
+        99,
+        106
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 38,
+      "entity_index": 12,
+      "text": "gleevec",
+      "position": [
+        381,
+        388
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 38,
+      "entity_index": 28,
+      "text": "gleevec",
+      "position": [
+        1047,
+        1054
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 38,
+      "entity_index": 52,
+      "text": "gleevec",
+      "position": [
+        1993,
+        2000
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 42,
+      "entity_index": 5,
+      "text": "tylenol",
+      "position": [
+        176,
+        183
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 42,
+      "entity_index": 36,
+      "text": "tylenol",
+      "position": [
+        1449,
+        1456
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 43,
+      "entity_index": 3,
+      "text": "gleevec",
+      "position": [
+        190,
+        197
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 43,
+      "entity_index": 12,
+      "text": "gleevec",
+      "position": [
+        751,
+        758
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 43,
+      "entity_index": 26,
+      "text": "gleevec",
+      "position": [
+        1743,
+        1750
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 54,
+      "entity_index": 2,
+      "text": "gleevec",
+      "position": [
+        343,
+        350
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 54,
+      "entity_index": 12,
+      "text": "gleevec",
+      "position": [
+        625,
+        632
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 57,
+      "entity_index": 20,
+      "text": "crestor",
+      "position": [
+        1052,
+        1059
+      ],
+      "old_candidates": [
+        "301542"
+      ],
+      "new_candidates": [
+        "320864"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 57,
+      "entity_index": 23,
+      "text": "crestor",
+      "position": [
+        1114,
+        1121
+      ],
+      "old_candidates": [
+        "301542"
+      ],
+      "new_candidates": [
+        "320864"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 58,
+      "entity_index": 22,
+      "text": "crestor",
+      "position": [
+        1026,
+        1033
+      ],
+      "old_candidates": [
+        "301542"
+      ],
+      "new_candidates": [
+        "320864"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 58,
+      "entity_index": 25,
+      "text": "crestor",
+      "position": [
+        1088,
+        1095
+      ],
+      "old_candidates": [
+        "301542"
+      ],
+      "new_candidates": [
+        "320864"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 62,
+      "entity_index": 27,
+      "text": "tylenol",
+      "position": [
+        1189,
+        1196
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 63,
+      "entity_index": 4,
+      "text": "gleevec",
+      "position": [
+        368,
+        375
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 63,
+      "entity_index": 12,
+      "text": "gleevec",
+      "position": [
+        929,
+        936
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 63,
+      "entity_index": 20,
+      "text": "gleevec",
+      "position": [
+        1502,
+        1509
+      ],
+      "old_candidates": [
+        "282388"
+      ],
+      "new_candidates": [
+        "282386"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 68,
+      "entity_index": 18,
+      "text": "Augmentin",
+      "position": [
+        1360,
+        1369
+      ],
+      "old_candidates": [
+        "19711"
+      ],
+      "new_candidates": [
+        "151392"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 72,
+      "entity_index": 4,
+      "text": "klonopin",
+      "position": [
+        746,
+        754
+      ],
+      "old_candidates": [
+        "2598"
+      ],
+      "new_candidates": [
+        "202585"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 72,
+      "entity_index": 7,
+      "text": "suboxone",
+      "position": [
+        821,
+        829
+      ],
+      "old_candidates": [
+        "352364"
+      ],
+      "new_candidates": [
+        "352990"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 72,
+      "entity_index": 16,
+      "text": "suboxone",
+      "position": [
+        1343,
+        1351
+      ],
+      "old_candidates": [
+        "352364"
+      ],
+      "new_candidates": [
+        "352990"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 72,
+      "entity_index": 17,
+      "text": "suboxone",
+      "position": [
+        1386,
+        1394
+      ],
+      "old_candidates": [
+        "352364"
+      ],
+      "new_candidates": [
+        "352990"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 88,
+      "entity_index": 7,
+      "text": "Augmentin",
+      "position": [
+        630,
+        639
+      ],
+      "old_candidates": [
+        "19711"
+      ],
+      "new_candidates": [
+        "151392"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 92,
+      "entity_index": 6,
+      "text": "bactrim",
+      "position": [
+        321,
+        328
+      ],
+      "old_candidates": [
+        "10831"
+      ],
+      "new_candidates": [
+        "151399"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 92,
+      "entity_index": 13,
+      "text": "zosyn",
+      "position": [
+        604,
+        609
+      ],
+      "old_candidates": [
+        "74169"
+      ],
+      "new_candidates": [
+        "74170"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 95,
+      "entity_index": 23,
+      "text": "tylenol",
+      "position": [
+        1287,
+        1294
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 98,
+      "entity_index": 7,
+      "text": "suboxone",
+      "position": [
+        517,
+        525
+      ],
+      "old_candidates": [
+        "352364"
+      ],
+      "new_candidates": [
+        "352990"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 98,
+      "entity_index": 16,
+      "text": "suboxone",
+      "position": [
+        1039,
+        1047
+      ],
+      "old_candidates": [
+        "352364"
+      ],
+      "new_candidates": [
+        "352990"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    },
+    {
+      "record": 98,
+      "entity_index": 17,
+      "text": "suboxone",
+      "position": [
+        1082,
+        1090
+      ],
+      "old_candidates": [
+        "352364"
+      ],
+      "new_candidates": [
+        "352990"
+      ],
+      "evidence": "unique active full-span RxNorm BN alias"
+    }
+  ]
+}

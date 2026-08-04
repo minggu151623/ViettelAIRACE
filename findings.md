@@ -1302,3 +1302,18 @@ The strongest verified direction is conservative structural cleanup:
   three-seed ablations and selective calibration. H24 weak links remain a
   secondary diagnostic only. The protocol is locked before generation,
   training, Turn2 inference or ZIP creation.
+
+## 2026-08-04 — Exact brand identity is now an isolated external test
+
+- H68's failed family-count gate does not invalidate the audited active alias
+  table. H69 uses only a stricter subset: complete-span aliases that identify
+  exactly one active RxNorm `BN` concept.
+- H38 collapses 48 such brand occurrences to a different singleton ingredient
+  or multi-ingredient code. The affected 13 mentions include repeated Gleevec,
+  Tylenol, Suboxone, Bactrim and Crestor occurrences plus eight smaller brands.
+- H69 changes only those 48 candidate values. This gives a clean causal
+  leaderboard test: WER and assertion Jaccard must remain invariant, while any
+  score movement must come from candidate Jaccard.
+- The artifact passes all technical gates and is ready for user-controlled
+  measurement. It is not evidence yet that the organizer prefers `BN`; that
+  claim depends on the external result.

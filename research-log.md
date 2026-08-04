@@ -1969,3 +1969,21 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - Stage 1 stopped without writing the alias training file, graph checkpoint,
   reranker, Turn2 predictions or ZIP. Retain H38 at 39.2813; do not rerun this
   branch with relaxed margins or collision rules.
+
+## 2026-08-04 — H69 exact RxNorm brand identity artifact
+
+- Registered a successor after H68's resource inventory but before output
+  transformation. H69 does not lower H68's family gate or resume its training;
+  it tests one official exact-identity rule directly.
+- A drug row is eligible only when its complete normalized span maps uniquely
+  to an active RxNorm `BN` alias and H38 currently emits a different singleton.
+  Substring/fuzzy matching, empty fills, strength/product inference, generic
+  changes and multi-candidate output are forbidden.
+- The rule replaces 48 rows across 23 records and 13 unique brand mentions.
+  All 3,226 entities, every non-candidate field, all ICD candidates and all
+  unselected drug candidates remain identical to H38.
+- Validation passes 100/100 records and 186/186 project tests. Packaging is
+  byte-deterministic; `turn2/output_v24_rxnorm_exact_brand_identity.zip` has
+  SHA-256 `12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369`.
+- No competition submission was performed. H69 is awaiting the user's exact
+  hash review; H38 at 39.2813 remains the safe fallback.
