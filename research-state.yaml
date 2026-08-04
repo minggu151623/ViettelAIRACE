@@ -3,7 +3,7 @@ question: >
   How can an offline Vietnamese clinical NER and coding pipeline improve the
   black-box Viettel AI Race score when the organizer provides only input text
   and no ground-truth annotations?
-status: h68_preregistered_rxnorm_only_retain_h38
+status: h68_stage1_failed_family_gate_retain_h38
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
@@ -535,7 +535,7 @@ hypotheses:
       audit and measured 0.0110552 collision rate. The locked gates fail;
       graph/context training and Turn2 inference were canceled, with no ZIP.
   H68_rxnorm_exact_drug_linker:
-    status: preregistered_plan_only_before_training_calibration_or_turn2
+    status: failed_stage1_family_gate_no_training_or_zip
     prediction: >
       The independently successful H67 RxNorm branch can support a
       drug-specific exact linker. Official same-RxCUI aliases, structured
@@ -550,6 +550,7 @@ hypotheses:
 experiments:
   completed:
     - "H68 Stage 0 PASS on Colab Tesla T4: H38 hash exact, 100/100 JSON validation, drug census 276/201/75, readable CPC, Qwen3/XLM-R CUDA smoke tests and batch-8 fit"
+    - "H68 Stage 1 FAIL on Colab T4: 71,065 aliases, 0.0% collision rate, 736 public RxNorm anchors and zero family overlap pass, but relation-complete ingredient families are 20,482 < 30,000; no training, Turn2 or ZIP"
     - "H68 preregistered: RxNorm-only family-held-out exact linker; all H38 fields except drug candidates frozen, all ICD candidates frozen, no Turn2 before calibration lock"
     - "H67 Stage 0 PASS on Colab T4: H38 hash exact, 100/100 JSON/input validation, 69,991/294,548 graph manifest, readable WHO/RxNorm and Qwen/XLM-R CUDA smoke tests"
     - "H67 Stage 1 FAIL: 71,065 RxNorm aliases and 856 anchors pass, but 1,400 ICD aliases, 0.14/0.95 identity accuracy and 0.0110552/0.005 collision gate fail; no training or ZIP"
@@ -718,17 +719,12 @@ experiments:
     - "H61 source pass/target fail: dev P/F1 0.9007/0.8882, test P/F1 0.8953/0.8685; target 539 exact, 184 replacements, 10.87% single-token, median ratio 0.5833; no ZIP"
     - "H62 assertion-only protocol locked: two-stage Qwen classifier/critic, all entity and candidate fields frozen, 80-500 materiality gate"
   next: >
-    Execute the locked H68 RxNorm-only protocol with Luna. Reuse H67's verified
-    CPC parsing but rebuild runtime resources because the old Colab session is
-    gone. Split by ingredient family, evaluate exact/sparse/Qwen/structured
-    retrieval, train a pairwise reranker with wrong-strength/form/route hard
-    negatives and lock selective action thresholds before opening Turn2. Freeze
-    every H38 field except THUOC candidates and freeze all ICD candidates.
-    Permit only calibrated singleton fills or replacements. Any failed gate
-    stops without a ZIP; a pass creates output_v23 only as
-    PASS_AWAITING_SUBMISSION_APPROVAL with exact SHA-256. H68 is a low-coupling
-    candidate intervention, not a claimed ten-point breakthrough. Retain H38 at
-    39.2813. Do not rerun H67's ICD translation branch, H66 or H65 unchanged.
+    H68 is stopped at its locked Stage 1 family gate. Retain H38 at 39.2813 and
+    do not create a ZIP. The 20,482 relation-complete families are the valid
+    inventory; H67's 34,291 RxCUI-like count is quarantined as a provenance
+    error. Any successor must preregister a new, realistic split/gate before
+    using the 71,065 CPC aliases, and must not lower H68's gate after observing
+    this result. Do not open Turn2 or submit an uncalibrated RxNorm variant.
 proxy_metrics:
   - family_heldout_RxNorm_exact_top1
   - family_heldout_RxNorm_recall_at_20

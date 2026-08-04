@@ -1,0 +1,162 @@
+{
+  "hypothesis": "H68_rxnorm_exact_drug_linker",
+  "stage": "stage_1_independent_rxnorm_dataset",
+  "protocol": "locked",
+  "seed": 6801,
+  "errors": [
+    "RuntimeError: H68 Stage 1 independent RxNorm gate failed"
+  ],
+  "checks": {
+    "rxnorm_alias_quality": {
+      "active_codes": 34291,
+      "accepted_same_code_alias_pairs": 71065,
+      "ingredient_families": 20482,
+      "relation_connected_family_members": 20482,
+      "tty_counts": {
+        "BN": 4128,
+        "IN": 2905,
+        "PIN": 1314,
+        "SU": 3250,
+        "SY": 1550,
+        "DF": 6,
+        "MIN": 957,
+        "TMSY": 92,
+        "SCD": 7007,
+        "DP": 6816,
+        "SBD": 4385,
+        "PSN": 859,
+        "MTH_RXN_DP": 259,
+        "SCDF": 1,
+        "GPCK": 473,
+        "BPCK": 289
+      }
+    },
+    "family_split": {
+      "train": 14337,
+      "dev": 3072,
+      "test": 3073,
+      "overlap": 0,
+      "seed": 6801
+    },
+    "alias_collision": {
+      "normalized_aliases": 71065,
+      "cross_code_collisions": 0,
+      "collision_rate": 0.0
+    },
+    "public_context_anchor": {
+      "count": 736,
+      "unique_passages": 406,
+      "sample": [
+        [
+          "dev.txt:1006",
+          "dabigatran",
+          "1546356"
+        ],
+        [
+          "dev.txt:1006",
+          "warfarin",
+          "11289"
+        ],
+        [
+          "dev.txt:1028",
+          "vitamin d",
+          "11253"
+        ],
+        [
+          "dev.txt:1060",
+          "methyldopa",
+          "6876"
+        ],
+        [
+          "dev.txt:1068",
+          "dobutamine",
+          "3616"
+        ],
+        [
+          "dev.txt:1068",
+          "dopamine",
+          "3628"
+        ],
+        [
+          "dev.txt:107",
+          "rituxan",
+          "226754"
+        ],
+        [
+          "dev.txt:107",
+          "rituximab",
+          "121191"
+        ],
+        [
+          "dev.txt:11",
+          "anaprox",
+          "202399"
+        ],
+        [
+          "dev.txt:11",
+          "naprelan",
+          "218599"
+        ],
+        [
+          "dev.txt:11",
+          "naproxen",
+          "7258"
+        ],
+        [
+          "dev.txt:1151",
+          "aspirin",
+          "1191"
+        ],
+        [
+          "dev.txt:1151",
+          "warfarin",
+          "11289"
+        ],
+        [
+          "dev.txt:1153",
+          "magnesium",
+          "6574"
+        ],
+        [
+          "dev.txt:1172",
+          "ethylene glycol",
+          "1314364"
+        ],
+        [
+          "dev.txt:1172",
+          "methyl alcohol",
+          "1310568"
+        ],
+        [
+          "dev.txt:1181",
+          "vitamin b12",
+          "11248"
+        ],
+        [
+          "dev.txt:1193",
+          "acetaminophen",
+          "161"
+        ],
+        [
+          "dev.txt:1193",
+          "advil",
+          "153010"
+        ],
+        [
+          "dev.txt:1193",
+          "ibuprofen",
+          "5640"
+        ]
+      ]
+    }
+  },
+  "gates": {
+    "accepted_same_code_alias_pairs_ge_50000": true,
+    "ingredient_families_ge_30000": false,
+    "family_overlap_equals_zero": true,
+    "collision_rate_le_0.002": true,
+    "public_unique_rxnorm_context_anchors_ge_300": true
+  },
+  "status": "FAIL_STAGE_1",
+  "elapsed_seconds": 6.923
+}

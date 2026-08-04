@@ -1,5 +1,20 @@
 # Findings
 
+## 2026-08-04 — H68 Stage 1 fails the leakage-safe RxNorm family gate
+
+- Colab reproduced the independent RxNorm inventory: 71,065 same-RxCUI alias
+  rows, zero normalized cross-code collisions and 736 unique public RxNorm
+  anchors. Those three gates pass.
+- When `RXNREL.RRF` is parsed with relation-only intermediate term types and
+  products are grouped by connected ingredient/combination family, there are
+  20,482 families, below H68's preregistered minimum of 30,000. The family
+  overlap audit is zero, so the issue is coverage, not leakage.
+- This exposes a provenance flaw in H67's earlier 34,291-family count: that
+  count was effectively one family per accepted RxCUI because relation-only
+  term types were excluded. It must not be reused as family-held-out evidence.
+- H68 stops before retrieval training, reranking, Turn2 and packaging. No H68
+  ZIP exists; H38 at 39.2813 remains the only safe submission artifact.
+
 ## 2026-08-04 — H68 Stage 0 passes on Colab Tesla T4
 
 - The H68 wrapper reproduced the immutable H38 SHA-256, validated all 100

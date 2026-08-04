@@ -1,5 +1,17 @@
 # Research log — Viettel AI Race V1
 
+## 2026-08-04 — H68 Stage 1 FAIL on Colab: relation-complete family gate
+
+- The H68 Stage 1 parser completed on the same Colab T4 in 6.923 seconds.
+  Official CPC aliases `71,065`, normalized collision rate `0.0%`, public
+  unique RxNorm anchors `736` and family overlap `0` passed.
+- Correct RXNREL grouping through relation-only intermediate term types yielded
+  `20,482` ingredient/combination families versus the locked minimum `30,000`.
+  The stage stops before model training, calibration, Turn2 and ZIP creation.
+- This formally corrects H67's earlier 34,291-family inventory: it was not a
+  leakage-safe ingredient-family count. Do not lower the gate or report that
+  count as independent family evidence.
+
 ## 2026-08-04 — H68 Stage 0 PASS on Colab T4
 
 - H68 Stage 0 completed on a real Tesla T4 in 56.847 seconds. H38 SHA-256,
