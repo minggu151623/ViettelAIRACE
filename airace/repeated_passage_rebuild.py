@@ -109,6 +109,8 @@ def build_repeated_passage_submission(
     h69_report_path: str | Path,
     zip_path: str | Path,
     report_path: str | Path,
+    target_types: set[str] | None = None,
+    hypothesis: str = "H72_repeated_passage_multiview_rebuild",
 ) -> dict[str, Any]:
     inputs, baseline, output = Path(input_dir), Path(baseline_dir), Path(output_dir)
     target_zip, report_target = Path(zip_path), Path(report_path)
@@ -136,11 +138,19 @@ def build_repeated_passage_submission(
     selected_regions: dict[int, list[tuple[str, Occurrence, list[RelativeEntity]]]] = {}
     affected_groups: list[dict[str, Any]] = []
     symmetric_difference = 0
+    active_types = target_types
 
     for text, occurrences in groups.items():
         selected, ties = canonical(text, occurrences, views)
+        if active_types is not None:
+            selected = [entity for entity in selected if entity.type in active_types]
         differences = sum(
-            len(signature(sources[occurrence.record], occurrence).symmetric_difference(set(selected)))
+            len(
+                {
+                    entity for entity in signature(sources[occurrence.record], occurrence)
+                    if active_types is None or entity.type in active_types
+                }.symmetric_difference(set(selected))
+            )
             for occurrence in occurrences
         )
         if not differences:
@@ -156,7 +166,7 @@ def build_repeated_passage_submission(
             for occurrence in occurrences
             for row in sources[occurrence.record]
         )
-        if touches_brand or crossing:
+        if (touches_brand and (active_types is None or "THUỐC" in active_types)) or crossing:
             continue
         symmetric_difference += differences
         affected_groups.append({
@@ -179,11 +189,16 @@ def build_repeated_passage_submission(
             for _, occurrence, _ in regions
             for index, row in enumerate(source_rows)
             if _inside(row, occurrence)
+            and (active_types is None or row["type"] in active_types)
         }
         output_rows = [dict(row) for index, row in enumerate(source_rows) if index not in removed_indices]
         for _, occurrence, selected in regions:
             rebuilt = rebuild_occurrence(raw_texts[record], occurrence, selected, source_rows)
-            if signature(source_rows, occurrence) != signature(rebuilt, occurrence):
+            current_target = {
+                entity for entity in signature(source_rows, occurrence)
+                if active_types is None or entity.type in active_types
+            }
+            if current_target != signature(rebuilt, occurrence):
                 changed_records.add(record)
             output_rows.extend(rebuilt)
         output_rows.sort(key=lambda row: (row["position"][0], row["position"][1], row["type"], row["text"]))
@@ -196,15 +211,40 @@ def build_repeated_passage_submission(
         matches = [row for row in rows if tuple(row["position"]) == position and row["type"] == "THUỐC"]
         frozen_brand_ok &= len(matches) == 1 and matches[0].get("candidates") == expected["new_candidates"]
 
-    gates = {
-        "affected_groups_between_100_and_130": 100 <= len(affected_groups) <= 130,
-        "symmetric_difference_between_450_and_650": 450 <= symmetric_difference <= 650,
-        "changed_records_ge_70": len(changed_records) >= 70,
-        "all_H69_brand_rows_preserved": frozen_brand_ok,
-        "all_100_records_validate": validation["ok"] and validation["records"] == 100,
-    }
+    frozen_types_ok = True
+    short_new_spans = 0
+    for record in range(1, 101):
+        output_rows = json.loads((output / f"{record}.json").read_text(encoding="utf-8"))
+        if active_types is not None:
+            frozen_source = [row for row in sources[record] if row["type"] not in active_types]
+            frozen_output = [row for row in output_rows if row["type"] not in active_types]
+            frozen_types_ok &= frozen_source == frozen_output
+        source_keys = {(tuple(row["position"]), row["type"]) for row in sources[record]}
+        short_new_spans += sum(
+            (tuple(row["position"]), row["type"]) not in source_keys and len(row["text"]) <= 3
+            for row in output_rows
+        )
+
+    if hypothesis == "H73_type_routed_repeated_passage_rebuild":
+        gates = {
+            "affected_groups_between_85_and_105": 85 <= len(affected_groups) <= 105,
+            "symmetric_difference_between_320_and_420": 320 <= symmetric_difference <= 420,
+            "changed_records_ge_65": len(changed_records) >= 65,
+            "every_frozen_type_entity_dictionary_preserved": frozen_types_ok,
+            "all_H69_brand_rows_preserved": frozen_brand_ok,
+            "new_span_length_le_3_count_le_8": short_new_spans <= 8,
+            "all_100_records_validate": validation["ok"] and validation["records"] == 100,
+        }
+    else:
+        gates = {
+            "affected_groups_between_100_and_130": 100 <= len(affected_groups) <= 130,
+            "symmetric_difference_between_450_and_650": 450 <= symmetric_difference <= 650,
+            "changed_records_ge_70": len(changed_records) >= 70,
+            "all_H69_brand_rows_preserved": frozen_brand_ok,
+            "all_100_records_validate": validation["ok"] and validation["records"] == 100,
+        }
     if not all(gates.values()):
-        raise RuntimeError(f"H72 gates failed: {gates}")
+        raise RuntimeError(f"{hypothesis} gates failed: {gates}")
 
     package_output(output, target_zip, inputs)
     repeat_zip = report_target.parent / "repeat.zip"
@@ -215,7 +255,7 @@ def build_repeated_passage_submission(
         raise RuntimeError("ZIP packaging is not deterministic")
 
     report = {
-        "hypothesis": "H72_repeated_passage_multiview_rebuild",
+        "hypothesis": hypothesis,
         "status": "PASS_HIGH_RISK_AWAITING_SUBMISSION_APPROVAL",
         "risk_class": "high_upside_final_day_challenger",
         "baseline_zip_sha256": EXPECTED_H69_SHA256,
@@ -225,6 +265,8 @@ def build_repeated_passage_submission(
         "affected_occurrences": sum(row["occurrences"] for row in affected_groups),
         "changed_records": len(changed_records),
         "span_type_symmetric_difference": symmetric_difference,
+        "target_types": sorted(active_types) if active_types is not None else "all",
+        "new_span_length_le_3_count": short_new_spans,
         "gates": {**gates, "deterministic_zip_bytes": deterministic},
         "validation": validation,
         "groups": affected_groups,

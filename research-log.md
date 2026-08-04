@@ -2067,3 +2067,16 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - H73 remains a genuinely large intervention, but removes the identified H72
   failure mechanism. Local metadata transfer is one-to-one and same-record;
   cross-record assertion/candidate propagation remains forbidden.
+
+## 2026-08-04 — H73 large challenger passes local gates
+
+- H73 realizes exactly 364 span/type differences over 94 repeated groups and
+  70 records: 126 additions and 238 removals. Only diagnosis and symptom move.
+- All 456 test names, 322 results, 276 drugs and all 48 H69 brand decisions are
+  dictionary-identical. Six new spans have length at most three, all lexical
+  symptoms (`ho`, `đau`, `sốt`, `mụn`), below the locked ceiling of eight.
+- Validation passes 100/100 records, 195 tests pass, and packaging is
+  deterministic. ZIP SHA-256 is
+  `e2f51f2b1a6a802dbc84d92bd82a1d3853bcf0edbb6654745617aef0e64c8e57`.
+- This is deliberately high risk. The next external component metrics—not
+  total score alone—determine the one remaining final hybrid.

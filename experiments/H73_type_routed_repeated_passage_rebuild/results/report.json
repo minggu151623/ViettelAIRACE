@@ -1,0 +1,1116 @@
+{
+  "hypothesis": "H73_type_routed_repeated_passage_rebuild",
+  "status": "PASS_HIGH_RISK_AWAITING_SUBMISSION_APPROVAL",
+  "risk_class": "high_upside_final_day_challenger",
+  "baseline_zip_sha256": "12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369",
+  "zip": "/Users/mac/ViettelAIRACE/turn2/output_v28_type_routed_repeated_passage_rebuild.zip",
+  "zip_sha256": "e2f51f2b1a6a802dbc84d92bd82a1d3853bcf0edbb6654745617aef0e64c8e57",
+  "zip_bytes": 91524,
+  "affected_groups": 94,
+  "affected_occurrences": 214,
+  "changed_records": 70,
+  "span_type_symmetric_difference": 364,
+  "target_types": [
+    "CHẨN_ĐOÁN",
+    "TRIỆU_CHỨNG"
+  ],
+  "new_span_length_le_3_count": 6,
+  "gates": {
+    "affected_groups_between_85_and_105": true,
+    "symmetric_difference_between_320_and_420": true,
+    "changed_records_ge_65": true,
+    "every_frozen_type_entity_dictionary_preserved": true,
+    "all_H69_brand_rows_preserved": true,
+    "new_span_length_le_3_count_le_8": true,
+    "all_100_records_validate": true,
+    "deterministic_zip_bytes": true,
+    "project_tests_pass": true
+  },
+  "project_test_result": "195 passed in 11.52s",
+  "change_audit": {
+    "added_entities": 126,
+    "removed_entities": 238,
+    "added_asserted_entities": 11,
+    "removed_asserted_entities": 65,
+    "added_coded_entities": 14,
+    "removed_coded_entities": 92,
+    "frozen_test_name_entities": 456,
+    "frozen_test_result_entities": 322,
+    "frozen_drug_entities": 276
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 822,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1238,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "groups": [
+    {
+      "text_sha256": "1740b5c5b01595176b49e77bd6b07f91e6b6a97b91c8547289096fd9978207c4",
+      "occurrences": 2,
+      "records": [
+        6,
+        11
+      ],
+      "canonical_entities": 5,
+      "span_type_symmetric_difference": 7,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "0471ceb5020d3820f37b9c4eb73dc9242f2d4cab84faad622bba579a8a41253c",
+      "occurrences": 2,
+      "records": [
+        6,
+        11
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "651ef62aeb9dac601098d56d1609eeb79fb0b7a7cf83d3b0fea59c1dc285eeda",
+      "occurrences": 2,
+      "records": [
+        6,
+        11
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 8,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "7aa62fd9830f6d01be3c920053c3eb0b0fcd0a9626c4b37f1ebeacb93b43080b",
+      "occurrences": 2,
+      "records": [
+        6,
+        11
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "fa252a3cdf3644fbf1722f5467a85f34d9bdb12a8d20c30c316364cca78d9a1d",
+      "occurrences": 2,
+      "records": [
+        6,
+        11
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "da6afb16e5aee59a2c6fb22ab500aa98290e2e762b9f8a5aa2a67c6eddbac56a",
+      "occurrences": 2,
+      "records": [
+        6,
+        11
+      ],
+      "canonical_entities": 3,
+      "span_type_symmetric_difference": 6,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "a44dab6f043b01d1518a2e92294c113c41276da29b3a2b0185278b488bdca213",
+      "occurrences": 2,
+      "records": [
+        7,
+        9
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "457e0be12bf2581dc483b98357d6d9b8202695f8d4791c8fb7387bcd852af034",
+      "occurrences": 2,
+      "records": [
+        7,
+        9
+      ],
+      "canonical_entities": 5,
+      "span_type_symmetric_difference": 10,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "1ef985cbf24c8b3279b903d4e2e3a86351b5311e0253f85b67291e0ca72ca1fc",
+      "occurrences": 2,
+      "records": [
+        7,
+        9
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "72fe07d8eb3440dc7172b3cc5b2eb0a74d297710ad83baa97c31abef54a8ccd0",
+      "occurrences": 2,
+      "records": [
+        7,
+        12
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "3a312a5ff7036fd793e51518d0d87f35e95e1352737ac7636db9287aba79f0ac",
+      "occurrences": 2,
+      "records": [
+        7,
+        12
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "70939b5a70ca848e7d5e271771a58eba19da44b65975cb0be6119170bac87f54",
+      "occurrences": 3,
+      "records": [
+        11,
+        29,
+        39
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 5,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "ed4297d5724fc2c7e4182e53f345e1f18a7820ced92e9534879e3deec44ff552",
+      "occurrences": 2,
+      "records": [
+        12,
+        15
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "e0f2272624b317bc171cd13b826d9556e9be530fcf56a55fb6c5c0c50c77b465",
+      "occurrences": 2,
+      "records": [
+        12,
+        15
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "d3b3ee995026d4b7538b9cea68f9b018beebed78aefdbc5ab928bd6c9288e456",
+      "occurrences": 2,
+      "records": [
+        12,
+        15
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "db94877a68957207c1f3ea07465edc2ae43edc114dade846a4d0cee723f7eaea",
+      "occurrences": 2,
+      "records": [
+        12,
+        15
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "5b32c3ba0734fbf8370d11fe12b9024534a5368c0fa1a63221e3bbf2b6b500a0",
+      "occurrences": 2,
+      "records": [
+        12,
+        15
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 7,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "e0381056898d24697ea77eb476d5963e28a75d7f38a0663e52898d70c803c86c",
+      "occurrences": 2,
+      "records": [
+        12,
+        48
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "a3f6d4ed71e12e8cd165983e6e058dd5da13662a45ab145e3cb8d80e0520d877",
+      "occurrences": 2,
+      "records": [
+        12,
+        15
+      ],
+      "canonical_entities": 3,
+      "span_type_symmetric_difference": 6,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "85eca32ec146bec2ebb2a49a64f1f9b8de89fd0503a630a8da4f52d9d20e2612",
+      "occurrences": 4,
+      "records": [
+        14,
+        19,
+        28,
+        52
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 16,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "f6526048d484e8361cddd537e5a228315282bc5c0f0ea7d1f5636157ee3ef3c8",
+      "occurrences": 4,
+      "records": [
+        14,
+        32,
+        38,
+        54
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "dbda40cac973edd26ae29f029fe6955f7bcab720abf5f6c0c023e7ba9d1dc108",
+      "occurrences": 4,
+      "records": [
+        14,
+        19,
+        28,
+        52
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "343724205f273151918728b980d4a8aff16c91d053c8562e955a22e474705f53",
+      "occurrences": 4,
+      "records": [
+        14,
+        19,
+        28,
+        72
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "b050739ee9f5451b47b1e92bb25c3dd09bf5d3405903d21656cbbcf3ffa24ca9",
+      "occurrences": 2,
+      "records": [
+        15,
+        37
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "9bdcc511766e62341611dbf83b38c7d5b2084e7a42730de80a3cf5e8a86621a4",
+      "occurrences": 2,
+      "records": [
+        16,
+        20
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "ed86b443ef8d6ff896884b2ea85e1e67eeb6b3e4a8ec8e545e90ffce5800f28e",
+      "occurrences": 2,
+      "records": [
+        16,
+        20
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "ce5dce6bf7c27d7bcf7d4b892af89bd86441a59fb847e05cb13cc711dc14c5f6",
+      "occurrences": 2,
+      "records": [
+        17,
+        67
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "66c1f53a2498092792701a8904979c7d9fdc8f5767386c0e6864d7f0357a40b1",
+      "occurrences": 2,
+      "records": [
+        18,
+        26
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "8d2b4f814b5af2299391c5f2fcc55256029447bfb70da095334b8d6183d739b1",
+      "occurrences": 3,
+      "records": [
+        21,
+        32,
+        79
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "95f63da0e5369772bbc6b1ffb5f269b5763fea8b2373d2c6a8023ba392ba1ace",
+      "occurrences": 3,
+      "records": [
+        21,
+        32,
+        79
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 5,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "341959eaf2dfdb0438c7abdba899455056a8c7375b5f59fd6ede5c95626e5bf9",
+      "occurrences": 2,
+      "records": [
+        21,
+        79
+      ],
+      "canonical_entities": 5,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "973825ff2dda7bff48c10e4168a7cec9e1e4bf697092e1c3fb4b1197d8a66602",
+      "occurrences": 2,
+      "records": [
+        21,
+        31
+      ],
+      "canonical_entities": 4,
+      "span_type_symmetric_difference": 6,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "debb5583f27b5d7b7021bcdd5c7de5e9e6faa596b23ffaeb5adccbc798a7dfe0",
+      "occurrences": 2,
+      "records": [
+        22,
+        69
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "d6fe818b4d3d33e793d0202c27bb899712d010bd12edf862942a7035e4285ed5",
+      "occurrences": 3,
+      "records": [
+        23,
+        45,
+        50
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 2
+    },
+    {
+      "text_sha256": "d93be36ca897c382b37b6fe16539cfa2927643f33d773d47ec1b2a7553f683e3",
+      "occurrences": 3,
+      "records": [
+        23,
+        45,
+        50
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "a851cfa4babdaf0cf6a43378150ee910a344a7d95bb779a55939d429e36c457e",
+      "occurrences": 3,
+      "records": [
+        23,
+        45,
+        50
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "dae953cd1b65ba1d590ed8e9739b0539f8f92cfd45ba1a234bb5722577b23caf",
+      "occurrences": 3,
+      "records": [
+        23,
+        45,
+        50
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "3497d1f578d9cc5a3af82cf9d841a49bcfdd82819215dc82a6e1b3e96f7c0f65",
+      "occurrences": 2,
+      "records": [
+        23,
+        27
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "b84f59ff9f22fa1e33a7049b1f9421c4c78df7c054863716cf01a08c6f9125af",
+      "occurrences": 2,
+      "records": [
+        23,
+        27
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "b8de8905842594804fd9346659941849230107ade12d1d9c3e4cb95729f6b9c7",
+      "occurrences": 2,
+      "records": [
+        23,
+        27
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "6c811468dfe1480a0402dd1750fc12d22b2cb1da37a7726c1ad6333e3f5fb508",
+      "occurrences": 3,
+      "records": [
+        23,
+        27,
+        45
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 6,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "3a390d5bbb17bac0c99660e9b7f6b5dfdd174d75649d3924e18c692aa280d38f",
+      "occurrences": 3,
+      "records": [
+        23,
+        45,
+        50
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "9604583bf499aad08f0a60db15736d80963fae67ed6d51f56a546adfb2b99a25",
+      "occurrences": 4,
+      "records": [
+        30,
+        44,
+        76,
+        83
+      ],
+      "canonical_entities": 7,
+      "span_type_symmetric_difference": 13,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "54bf5f91d92039546e3f846c340f428f4ada6a6fd1b7765487e34888384ed2b4",
+      "occurrences": 2,
+      "records": [
+        31,
+        82
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "3692cecccd2831512247ffe768c3ba82d279ad2b59f4cbcb1312da7798bea03e",
+      "occurrences": 3,
+      "records": [
+        33,
+        59,
+        60
+      ],
+      "canonical_entities": 6,
+      "span_type_symmetric_difference": 24,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "fbebe06f9c75984e0e356afd0d955759dc3656d6e76b362a98faa1978fa0c6b0",
+      "occurrences": 3,
+      "records": [
+        34,
+        43,
+        63
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "6a798f3b8c5cb9690ee4253c399ffcf6cc6a43151ba6aaaf3e0e62f1371c6ed4",
+      "occurrences": 5,
+      "records": [
+        35,
+        56,
+        67,
+        86,
+        94
+      ],
+      "canonical_entities": 9,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "04121554e801a544879e4eacc8f87dee700c384a3eda62585fae79482d85d988",
+      "occurrences": 2,
+      "records": [
+        37,
+        48
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 6,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "3186c10ee9d042dde0ba363aeb28bf357d5b39ad86978db175eedcc63f5315ae",
+      "occurrences": 2,
+      "records": [
+        39,
+        47
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "4a22f3a5fb58c08b6ee458203a40f5dc8f0a959ddecc8db16eea8fb22ca63a9d",
+      "occurrences": 2,
+      "records": [
+        39,
+        61
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "d461d64f35364ed2fcd675590072d56a996c29bd00a3ea969905710b220ac993",
+      "occurrences": 2,
+      "records": [
+        39,
+        47
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "13a29c535c4c40587cb75431f98aa9c6a8aae770fa5796d32d2e5310578ce035",
+      "occurrences": 2,
+      "records": [
+        41,
+        59
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "db34cb101fe70be6b04e7f64e742d862bb3ce9b9c0cf087761e70570c197d161",
+      "occurrences": 3,
+      "records": [
+        41,
+        59,
+        60
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 5,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "8fbae79a76ea17dd4fbd4c6dcc58502bbf71f0dab2f8ef30ba048b8a37247c8a",
+      "occurrences": 2,
+      "records": [
+        42,
+        62
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "aa1a90a107cab4dc1ebccb56d60af76c195ae8cc96ecca121db90fc433d0fe56",
+      "occurrences": 2,
+      "records": [
+        42,
+        62
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 5,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "60bf92e12eaf25d22e52d921e1ac2bda9d3b4f345ad40c8c8ec4cd62ac2d302e",
+      "occurrences": 2,
+      "records": [
+        42,
+        62
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "9eb51ae63aed991c38a4f565e0aca61564f3e7221906e0da89e577530ecde339",
+      "occurrences": 2,
+      "records": [
+        42,
+        62
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "ba3e559caf59f3b6a2206ff387bb65dd063e04e0643b839db801343f1164c9c3",
+      "occurrences": 2,
+      "records": [
+        42,
+        62
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "07bce553c9368a3d9919c812f4efcc3a8aa4a34f59ce135c7050d64f53c0e2cf",
+      "occurrences": 2,
+      "records": [
+        43,
+        63
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "a10e0caf3c534facafc305ba36c14eba77cb8a3d51e6905f21d441bac5d3e4f1",
+      "occurrences": 2,
+      "records": [
+        43,
+        63
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "1ba15d6b4fe0e07346986453fac66c2283a5c0a146f6cdb70e61d6347f2936ac",
+      "occurrences": 2,
+      "records": [
+        43,
+        63
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "c4b2b5fa2edfe4223a4527664ede98e9ed3ba1ceeab043668244c5ca50e00c90",
+      "occurrences": 2,
+      "records": [
+        45,
+        50
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "7acc69eb52700934415ec50a024a1f1750923a7fbdcce0202f8ef40c29e68eeb",
+      "occurrences": 3,
+      "records": [
+        46,
+        55,
+        97
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "ff02283a27338590e62c76dd3d5877d455d754b096a9cc0ee0581fc5200cc819",
+      "occurrences": 2,
+      "records": [
+        46,
+        97
+      ],
+      "canonical_entities": 7,
+      "span_type_symmetric_difference": 7,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "5553dbb9442f794da019873c287bc269b10290ca23441e09117d3bb6ee3fe4ce",
+      "occurrences": 2,
+      "records": [
+        49,
+        65
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "9f0e164abdbda44b3029323f63caae0164bebb44c243b4fff8ca33b445eb5136",
+      "occurrences": 2,
+      "records": [
+        49,
+        65
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "7fe9253b35515e298e81f1ffcf13e2179cb916c6714b84e33f961298997cc872",
+      "occurrences": 2,
+      "records": [
+        49,
+        65
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 8,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "d66c566b5a42274ef5c222a6e82eda084fa42f03c71506f5bfd93a2e2b2e55d4",
+      "occurrences": 2,
+      "records": [
+        49,
+        65
+      ],
+      "canonical_entities": 5,
+      "span_type_symmetric_difference": 10,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "d1fd0160b74330c38557ecd8337afb5653e02b9b59b52556338312e7647d7abe",
+      "occurrences": 2,
+      "records": [
+        51,
+        70
+      ],
+      "canonical_entities": 5,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "9dd8bf1670d3b880acf8f1d7f855e0a7e074d55af32180e22b1b6a541c8cb151",
+      "occurrences": 2,
+      "records": [
+        53,
+        57
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "84d04484abf80d83a3ea92b2df90e9c7289d98ec3410755ccc1b6623ee3362e7",
+      "occurrences": 2,
+      "records": [
+        55,
+        93
+      ],
+      "canonical_entities": 6,
+      "span_type_symmetric_difference": 6,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "78cae8ace82cbd84c70991b47ba92fd57bf325f70b0687b78afd7fb2e5479ab5",
+      "occurrences": 2,
+      "records": [
+        55,
+        93
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "55b4ee4db4bffe296bb3f8e03c977a2c8c440859da1b9643f8f95ee16dac478d",
+      "occurrences": 2,
+      "records": [
+        55,
+        93
+      ],
+      "canonical_entities": 3,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "c26b87229848a271f0cba348b74e2c8013ec1557a41731de6ceb1f45faabc4a6",
+      "occurrences": 2,
+      "records": [
+        55,
+        93
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "1a6413dce4c79514567b82f3bb80400d5ab78c20e585f705313188bb697c1f96",
+      "occurrences": 2,
+      "records": [
+        56,
+        68
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "6835bf1cd407fcf2fa31e531f65e15696cefba1cdfe665c0b9fab9c80763c1e2",
+      "occurrences": 2,
+      "records": [
+        57,
+        58
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "19b0d8eb8d83c79955ed2d766812e302b04e149adabfa7d10e4a8a53e46ae368",
+      "occurrences": 2,
+      "records": [
+        69,
+        71
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "3ff00a5f85fe0bda9045459c37067bd53460b10986f108b5660b5c52dda90bd3",
+      "occurrences": 2,
+      "records": [
+        69,
+        71
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "df35c24b8c8b24bd153280782d370904ea27405d6c5aaa2ebc54636d2506e1bb",
+      "occurrences": 2,
+      "records": [
+        69,
+        71
+      ],
+      "canonical_entities": 3,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "15a8e7a9b2f9096bbef1987b3bf163c2ca26788b15748857573200968f05d882",
+      "occurrences": 2,
+      "records": [
+        72,
+        98
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "9aa41a97652377ea843bf439e8eafb5fc0411550d8d5331ee9921d7b5e905b06",
+      "occurrences": 2,
+      "records": [
+        72,
+        98
+      ],
+      "canonical_entities": 4,
+      "span_type_symmetric_difference": 6,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "eb6dcb725e597113d80859318d504f9a1ded074566624a4477c11305e1475e69",
+      "occurrences": 2,
+      "records": [
+        72,
+        98
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "96482073a6f2785a891537bf10e51c51bc31a74199147de24608a3325f917fe9",
+      "occurrences": 2,
+      "records": [
+        73,
+        74
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "444ec77af7b8468f7b909b9245e3c75d1ad6c0505092c1429f97ac3525ffe5eb",
+      "occurrences": 2,
+      "records": [
+        73,
+        74
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 2,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "23cb302115bf5aaf4ce83b7897bcf891fe0b721d07536be88fa90e43f723c76c",
+      "occurrences": 2,
+      "records": [
+        73,
+        74
+      ],
+      "canonical_entities": 7,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "a71d0af80bc3413df7ca7be5a95c6d858bc9797b8013947a00d7d472f69b46c4",
+      "occurrences": 2,
+      "records": [
+        74,
+        79
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "efe70583d88e8bfafe1c0226ecb765b91d9cd5d99552bb2b35bfba07fd051c00",
+      "occurrences": 2,
+      "records": [
+        75,
+        84
+      ],
+      "canonical_entities": 3,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "ec34e4b5281b0ccc8df675a31147448e4f467fef5a37c471d385b8d8986f3406",
+      "occurrences": 2,
+      "records": [
+        75,
+        84
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "ec26d799e30a4aa8cda7dbfb889a96e573bb91d1297d9a39ff36cb6d3c9ae7d8",
+      "occurrences": 2,
+      "records": [
+        75,
+        84
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "62610f9a014b5f63aaf0fabd97827f95ce438340a6b0845a7d8f59725a806036",
+      "occurrences": 2,
+      "records": [
+        75,
+        84
+      ],
+      "canonical_entities": 0,
+      "span_type_symmetric_difference": 1,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "bd758bfea3490f89104f5761a0b38d2c7c337f72aa4b9736e38a01fde7890a6a",
+      "occurrences": 2,
+      "records": [
+        80,
+        95
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "c435fb1b97638d5d48d734597d67c489d02773bdb0f6dbc2eb0d766f6d897ddc",
+      "occurrences": 2,
+      "records": [
+        80,
+        95
+      ],
+      "canonical_entities": 2,
+      "span_type_symmetric_difference": 3,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "b25cefba152cbb50304585d7dafdaaf0f5be4599b04fcbf06c7723c4d0095d35",
+      "occurrences": 2,
+      "records": [
+        80,
+        95
+      ],
+      "canonical_entities": 4,
+      "span_type_symmetric_difference": 17,
+      "excluded_cross_type_ties": 0
+    },
+    {
+      "text_sha256": "0cf2aa79ec6f75e6247538aa416f9fc300487c2b22052e05fcffeec1e2cde924",
+      "occurrences": 2,
+      "records": [
+        83,
+        87
+      ],
+      "canonical_entities": 1,
+      "span_type_symmetric_difference": 4,
+      "excluded_cross_type_ties": 0
+    }
+  ]
+}

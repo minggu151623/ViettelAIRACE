@@ -1386,3 +1386,13 @@ The strongest verified direction is conservative structural cleanup:
 - This is the appropriate penultimate external experiment: its component
   movement can determine whether the final slot keeps the repeated-passage
   span delta or returns entirely to H69.
+
+## 2026-08-04 — H73 is materially different from the 13-row H71 challenger
+
+- H73 changes 364 span/type decisions across 70 records while preserving every
+  unsupported type and every H69 brand row. It is large enough to move WER,
+  unlike H71's predicted few-tenths candidate effect.
+- The intervention is asymmetric (126 additions, 238 removals), so it is not a
+  safe baseline replacement. Its purpose is to expose whether repeated-passage
+  consensus corrects H69 over-extraction; the final slot will keep only an
+  externally supported direction.
