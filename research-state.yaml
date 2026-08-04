@@ -7,7 +7,7 @@ status: active
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
-  status: rerun_directory_fix_awaiting_stage0
+  status: stderr_capture_fix_awaiting_stage0
   local_static_checks: pass
   remote_requirement: "Colab GPU; public clone requires no GitHub token"
 started_at: "2026-07-26"

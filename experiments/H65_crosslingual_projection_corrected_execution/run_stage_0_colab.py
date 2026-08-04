@@ -12,7 +12,9 @@ import argparse
 import hashlib
 import json
 import re
+import sys
 import time
+import traceback
 from pathlib import Path
 from typing import Any
 
@@ -349,4 +351,25 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except SystemExit:
+        raise
+    except Exception as exc:  # pragma: no cover - exercised by remote runtime
+        output_dir = Path(".")
+        if "--output" in sys.argv:
+            try:
+                output_dir = Path(sys.argv[sys.argv.index("--output") + 1])
+            except (IndexError, ValueError):
+                output_dir = Path(".")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        report = {
+            "status": "FAIL",
+            "failure": f"{type(exc).__name__}: {exc}",
+            "traceback": traceback.format_exc(),
+        }
+        (output_dir / "stage_0_report.json").write_text(
+            json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+        )
+        print(json.dumps(report, indent=2, ensure_ascii=False), file=sys.stderr)
+        raise

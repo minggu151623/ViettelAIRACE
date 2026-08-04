@@ -42,6 +42,16 @@
 - Cell 2 now changes to `/content` before removing the old clone, making reruns
   safe. This is operational only; no H65 inference result exists yet.
 
+## 2026-08-04 — H65 current failure is unobserved runner stderr
+
+- The latest notebook run confirms cell 2 reached commit `ec68340` and cell 3
+  confirmed a Tesla T4. Cell 4 returned exit code 1, but its subprocess output
+  was not captured in the saved notebook, so the actual model-stage exception
+  is not yet identifiable from the artifact.
+- Added captured stdout/stderr in cell 4 and a fail-closed top-level exception
+  report in the runner. The next rerun will expose the first model/resource
+  traceback and write it to `stage_0_report.json` even for unhandled failures.
+
 ## 2026-08-04 — H65 Colab execution bridge prepared (not yet run)
 
 - Added `H65_Colab_Stage0.ipynb` and the protocol-faithful

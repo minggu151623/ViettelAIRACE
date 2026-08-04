@@ -44,6 +44,15 @@
 - Added an explicit `os.chdir('/content')` before cleanup. Rerunning cell 2 is
   now idempotent and does not require a runtime restart.
 
+## 2026-08-04 — H65 runner stderr capture added
+
+- The latest run cloned successfully and reached the T4 stage, but cell 4 only
+  preserved the parent `RuntimeError`; child stdout/stderr was absent from the
+  saved notebook. This is an observability failure, not yet a scientific
+  result.
+- Cell 4 now captures and prints both streams. The runner writes a structured
+  FAIL report with traceback for any unhandled model/resource exception.
+
 ## 2026-08-04 — H65 Colab runner prepared
 
 - Added a deterministic notebook/runner bridge for the preregistered H65
