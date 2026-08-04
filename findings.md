@@ -52,6 +52,16 @@
   report in the runner. The next rerun will expose the first model/resource
   traceback and write it to `stage_0_report.json` even for unhandled failures.
 
+## 2026-08-04 — H65 NER construction exposes a second Transformers API drift
+
+- The captured report shows both translators loaded successfully and all public
+  resources were cached. The run stopped while constructing NER model A because
+  current `TokenClassificationPipeline` rejects the legacy `framework="pt"`
+  keyword.
+- This is a compatibility failure before inference, not a failed quality gate.
+  Removing only that keyword preserves the task, model, aggregation strategy
+  and CUDA device.
+
 ## 2026-08-04 — H65 Colab execution bridge prepared (not yet run)
 
 - Added `H65_Colab_Stage0.ipynb` and the protocol-faithful

@@ -270,8 +270,8 @@ def main() -> int:
     en_vi = Seq2SeqTranslator(
         snapshots[TRANSLATORS["en_vi"]], device, torch, AutoTokenizer, AutoModelForSeq2SeqLM
     )
-    ner_a = pipeline("token-classification", model=str(snapshots[NER_MODELS["model_a"]]), aggregation_strategy="simple", device=0, framework="pt")
-    ner_b = pipeline("token-classification", model=str(snapshots[NER_MODELS["model_b"]]), aggregation_strategy="simple", device=0, framework="pt")
+    ner_a = pipeline("token-classification", model=str(snapshots[NER_MODELS["model_a"]]), aggregation_strategy="simple", device=0)
+    ner_b = pipeline("token-classification", model=str(snapshots[NER_MODELS["model_b"]]), aggregation_strategy="simple", device=0)
 
     texts = [item["text"] for item in sample]
     start_time = time.perf_counter()

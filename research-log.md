@@ -53,6 +53,14 @@
 - Cell 4 now captures and prints both streams. The runner writes a structured
   FAIL report with traceback for any unhandled model/resource exception.
 
+## 2026-08-04 — H65 report identifies NER pipeline keyword incompatibility
+
+- The next run reached translator loading and failed at NER construction with
+  `TokenClassificationPipeline._sanitize_parameters() got an unexpected
+  keyword argument 'framework'`.
+- Removed the obsolete `framework="pt"` argument from both NER pipelines. No
+  model inference or Stage-0 metric has run yet.
+
 ## 2026-08-04 — H65 Colab runner prepared
 
 - Added a deterministic notebook/runner bridge for the preregistered H65
