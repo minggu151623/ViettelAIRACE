@@ -231,7 +231,12 @@ def main() -> int:
             raise RuntimeError(f"expected exactly 1.json..100.json, got {len(json_files)} files")
         validation_errors: dict[str, list[str]] = {}
         for p in json_files:
-            ip = args.input_dir / p.name
+            # Turn2 input is 1.txt..100.txt while the output artifact is
+            # 1.json..100.json; pairing by numeric stem is part of the
+            # immutable submission contract.
+            ip = args.input_dir / f"{p.stem}.txt"
+            if not ip.exists():
+                ip = args.input_dir / p.name
             raw = ip.read_text(encoding="utf-8")
             errs = validate_record(raw, json.loads(p.read_text(encoding="utf-8")))
             if errs:
