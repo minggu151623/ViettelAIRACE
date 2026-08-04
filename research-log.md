@@ -29,6 +29,12 @@
 - H65 remains unexecuted scientifically: no Stage-0 report, target inference or
   challenger ZIP exists yet.
 
+## 2026-08-04 — H65 notebook simplified after repository publication
+
+- Anonymous `git ls-remote` confirms branch `codex/core-rebuild-h57` is now
+  publicly readable. Removed the token prompt and transient auth header from
+  the notebook; no token is needed for the next run.
+
 ## 2026-08-04 — H65 Colab runner prepared
 
 - Added a deterministic notebook/runner bridge for the preregistered H65

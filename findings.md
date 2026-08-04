@@ -23,6 +23,14 @@
   immediately on clone or input-count errors. H38 at **39.2813** remains frozen
   until H65 produces a valid report.
 
+## 2026-08-04 — Repository made public; token path removed
+
+- Anonymous `git ls-remote` now resolves `codex/core-rebuild-h57`, confirming
+  the repository is publicly readable.
+- The notebook no longer imports `getpass` or sends an authorization header;
+  it performs a plain public clone. The scientific runner and all gates are
+  unchanged.
+
 ## 2026-08-04 — H65 Colab execution bridge prepared (not yet run)
 
 - Added `H65_Colab_Stage0.ipynb` and the protocol-faithful
