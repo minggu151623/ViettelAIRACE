@@ -1,0 +1,20 @@
+{
+  "hypothesis": "H68_rxnorm_exact_drug_linker",
+  "ontology": {
+    "who_icd10_2019": {
+      "path": "airace/resources/icd102019enMeta.zip",
+      "source": "WHO ICD-10 2019",
+      "sha256_required": true
+    },
+    "rxnorm_cpc_20260706": {
+      "path": "airace/resources/RxNorm_full_prescribe_07062026.zip",
+      "source": "NLM RxNorm Current Prescribable Content",
+      "sha256_required": true
+    }
+  },
+  "models": {
+    "dense_primary": "Qwen/Qwen3-Embedding-0.6B",
+    "pair_reranker": "xlm-roberta-base"
+  },
+  "license_note": "RxNorm CPC subset is distributed by NLM without a UMLS license."
+}
