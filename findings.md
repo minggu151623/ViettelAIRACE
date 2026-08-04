@@ -1,5 +1,17 @@
 # Findings
 
+## 2026-08-04 — H65 second failure is Transformers task-registry drift
+
+- Colab successfully cloned commit `fb1c15e`, copied 100 inputs and exposed a
+  Tesla T4. The four resource downloads completed; therefore authentication,
+  input identity and GPU setup are cleared.
+- The runner failed at the first translator construction with
+  `KeyError: Unknown task translation` under the current Transformers build.
+  Cell 5's `FileNotFoundError` is not an independent failure.
+- The corrected runner uses direct Marian seq2seq generation, which is stable
+  across Transformers task-registry versions. H65 remains unexecuted until the
+  revised cell is run; H38 at **39.2813** remains the fallback.
+
 ## 2026-08-04 — H65 notebook failure is authentication-only
 
 - The saved traceback proves Colab and GPU setup are healthy: Drive mounted and

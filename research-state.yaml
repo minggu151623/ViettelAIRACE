@@ -7,7 +7,7 @@ status: active
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
-  status: private_clone_failure_fixed_awaiting_rerun
+  status: translation_pipeline_compatibility_fixed_awaiting_rerun
   local_static_checks: pass
   remote_requirement: "Colab GPU plus GitHub fine-grained token with Contents: Read-only on minggu151623/ViettelAIRACE"
 started_at: "2026-07-26"

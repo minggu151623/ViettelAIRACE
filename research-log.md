@@ -1,5 +1,18 @@
 # Research log — Viettel AI Race V1
 
+## 2026-08-04 — H65 second Colab run reaches model loading; translation API incompatibility
+
+- Private clone, Drive copy, 100-file check and CUDA runtime all passed. All
+  four pinned model snapshots downloaded successfully on a Tesla T4.
+- Execution stopped before inference because the installed Transformers build
+  no longer registers the legacy `pipeline("translation")` task. The exact
+  exception was `KeyError: Unknown task translation`; the missing report in
+  cell 5 was only a downstream consequence.
+- Replaced both translation pipelines with a direct batched
+  `AutoTokenizer`/`AutoModelForSeq2SeqLM.generate()` wrapper and changed cell 4
+  to propagate subprocess failures. Cell 5 now checks report existence before
+  reading it. No scientific Stage-0 result or target ZIP exists yet.
+
 ## 2026-08-04 — H65 first Colab run blocked by private-repository authentication
 
 - Drive mounted successfully and Colab exposed a Tesla T4 with CUDA-enabled

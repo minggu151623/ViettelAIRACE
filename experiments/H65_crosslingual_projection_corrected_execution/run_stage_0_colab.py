@@ -168,6 +168,41 @@ def model_manifest(repo_id: str, snapshot_path: Path, device: str) -> dict[str, 
     }
 
 
+class Seq2SeqTranslator:
+    """Batched Marian wrapper independent of pipeline task registries."""
+
+    def __init__(self, snapshot_path: Path, device: str, torch: Any, tokenizer_cls: Any, model_cls: Any) -> None:
+        self.device = device
+        self.torch = torch
+        self.tokenizer = tokenizer_cls.from_pretrained(str(snapshot_path))
+        dtype = torch.float16 if device.startswith("cuda") else torch.float32
+        self.model = model_cls.from_pretrained(str(snapshot_path), torch_dtype=dtype).to(device).eval()
+
+    def translate(
+        self,
+        texts: list[str],
+        batch_size: int,
+        max_length: int,
+        input_max_length: int,
+    ) -> list[dict[str, str]]:
+        rows: list[dict[str, str]] = []
+        with self.torch.inference_mode():
+            for start in range(0, len(texts), batch_size):
+                batch = texts[start : start + batch_size]
+                encoded = self.tokenizer(
+                    batch,
+                    return_tensors="pt",
+                    padding=True,
+                    truncation=True,
+                    max_length=input_max_length,
+                )
+                encoded = {key: value.to(self.device) for key, value in encoded.items()}
+                generated = self.model.generate(**encoded, max_length=max_length, num_beams=1)
+                decoded = self.tokenizer.batch_decode(generated, skip_special_tokens=True)
+                rows.extend({"translation_text": text} for text in decoded)
+        return rows
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--phoner-dev", type=Path, required=True)
@@ -181,7 +216,7 @@ def main() -> int:
     try:
         import torch
         from huggingface_hub import HfApi, snapshot_download
-        from transformers import pipeline
+        from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, pipeline
     except Exception as exc:  # pragma: no cover - exercised in Colab
         report = {"status": "FAIL", "failure": f"missing_dependency: {exc}"}
         (args.output / "stage_0_report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
@@ -227,14 +262,21 @@ def main() -> int:
         manifest["resources"][repo_id] = entry
     (args.output / "resource_manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    vi_en = pipeline("translation", model=str(snapshots[TRANSLATORS["vi_en"]]), device=0, framework="pt")
-    en_vi = pipeline("translation", model=str(snapshots[TRANSLATORS["en_vi"]]), device=0, framework="pt")
+    vi_en = Seq2SeqTranslator(
+        snapshots[TRANSLATORS["vi_en"]], device, torch, AutoTokenizer, AutoModelForSeq2SeqLM
+    )
+    en_vi = Seq2SeqTranslator(
+        snapshots[TRANSLATORS["en_vi"]], device, torch, AutoTokenizer, AutoModelForSeq2SeqLM
+    )
     ner_a = pipeline("token-classification", model=str(snapshots[NER_MODELS["model_a"]]), aggregation_strategy="simple", device=0, framework="pt")
     ner_b = pipeline("token-classification", model=str(snapshots[NER_MODELS["model_b"]]), aggregation_strategy="simple", device=0, framework="pt")
 
     texts = [item["text"] for item in sample]
     start_time = time.perf_counter()
-    english = [row["translation_text"] for row in vi_en(texts, batch_size=args.batch_size, max_length=512)]
+    english = [
+        row["translation_text"]
+        for row in vi_en.translate(texts, batch_size=args.batch_size, max_length=512, input_max_length=512)
+    ]
     entities_a = ner_a(english, batch_size=args.batch_size)
     entities_b = ner_b(english, batch_size=args.batch_size)
     consensus: list[dict[str, Any]] = []
@@ -245,11 +287,15 @@ def main() -> int:
             consensus.append({"sample_id": item["id"], "source": source, **mapped_a[key]})
 
     backtranslated = [row["mention"] for row in consensus]
-    back_texts = [row["source"] for row in consensus]
     # Translate each consensus mention, not the whole source sentence.
     translated_mentions = []
     if backtranslated:
-        translated_mentions = [row["translation_text"] for row in en_vi(backtranslated, batch_size=args.batch_size, max_length=128)]
+        translated_mentions = [
+            row["translation_text"]
+            for row in en_vi.translate(
+                backtranslated, batch_size=args.batch_size, max_length=128, input_max_length=128
+            )
+        ]
     accepted: list[dict[str, Any]] = []
     for row, translated in zip(consensus, translated_mentions):
         source_item = sample[next(i for i, item in enumerate(sample) if item["id"] == row["sample_id"])]
