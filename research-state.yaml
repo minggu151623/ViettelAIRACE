@@ -149,13 +149,13 @@ baseline:
   verified_formula: >
     0.3*(100-56.1576) + 0.3*47.3920 + 0.4*32.1281 = 40.22156.
 challenger:
-  hypothesis: H73_type_routed_repeated_passage_rebuild
-  artifact: turn2/output_v28_type_routed_repeated_passage_rebuild.zip
-  artifact_sha256: e2f51f2b1a6a802dbc84d92bd82a1d3853bcf0edbb6654745617aef0e64c8e57
-  expected_span_type_symmetric_difference: 364
-  expected_changed_records: 70
-  scope: high_coverage_diagnosis_symptom_rebuild_with_other_types_frozen
-  status: local_gates_passed_high_risk_awaiting_user_submission
+  hypothesis: H71_rxnorm_identity_completion
+  artifact: turn2/output_v26_rxnorm_identity_completion.zip
+  artifact_sha256: 1987a678fd68b1ba6e152f21a6815365701b9d8a3bd13e86ac195b857580a2f4
+  changed_candidate_rows: 13
+  changed_records: 10
+  scope: exact_medication_identity_only_with_H69_entities_and_assertions_frozen
+  status: final_candidate_ready_for_user_submission
 constraints:
   - "No organizer ground truth is available."
   - "Inference must remain offline and deterministic."

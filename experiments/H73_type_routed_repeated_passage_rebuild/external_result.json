@@ -1,0 +1,11 @@
+{
+  "submitted_at": "2026-08-04T20:10:00+07:00",
+  "artifact_sha256": "e2f51f2b1a6a802dbc84d92bd82a1d3853bcf0edbb6654745617aef0e64c8e57",
+  "score": 39.5206,
+  "wer_percent": 56.6041,
+  "j_assertion_percent": 46.7313,
+  "j_candidates_percent": 31.2062,
+  "baseline_score": 40.2216,
+  "decision": "REJECT_ALL_COMPONENTS_REVERT_H69",
+  "interpretation": "The type-routed repeated-passage rebuild underperforms H69 on WER, assertion Jaccard, and candidate Jaccard. No H73 component is eligible for the final hybrid."
+}

@@ -1396,3 +1396,13 @@ The strongest verified direction is conservative structural cleanup:
   safe baseline replacement. Its purpose is to expose whether repeated-passage
   consensus corrects H69 over-extraction; the final slot will keep only an
   externally supported direction.
+
+## 2026-08-04 — H73 fails on every component; no span delta is reusable
+
+- H73 scores 39.5206 versus H69's 40.2216. WER worsens from 56.1576 to
+  56.6041, assertion Jaccard falls from 47.3920 to 46.7313, and candidate
+  Jaccard falls from 32.1281 to 31.2062.
+- The repeated-passage reconstruction is therefore rejected wholesale. The
+  last slot returns byte-for-byte to H69's entity/assertion prediction and
+  tests H71's narrow extension of the only mechanism with a confirmed external
+  gain: exact medication identity.

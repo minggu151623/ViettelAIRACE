@@ -2080,3 +2080,12 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   `e2f51f2b1a6a802dbc84d92bd82a1d3853bcf0edbb6654745617aef0e64c8e57`.
 - This is deliberately high risk. The next external component metrics—not
   total score alone—determine the one remaining final hybrid.
+
+## 2026-08-04 — H73 externally rejected; final slot returns to H69
+
+- The submitted H73 hash is confirmed by the organizer prefix. It scores
+  39.5206 versus H69's 40.2216.
+- WER worsens 56.1576 to 56.6041, assertion Jaccard falls 47.3920 to 46.7313,
+  and candidate Jaccard falls 32.1281 to 31.2062. No H73 component survives.
+- The final challenger is H71: H69 entities/assertions stay byte-identical and
+  only 13 exact medication-identity fields change.
