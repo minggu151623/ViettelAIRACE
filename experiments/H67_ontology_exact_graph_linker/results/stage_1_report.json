@@ -1,0 +1,179 @@
+{
+  "hypothesis": "H67_ontology_exact_graph_linker",
+  "stage": "stage_1_independent_ontology_supervision",
+  "protocol": "locked",
+  "seed": 6701,
+  "errors": [
+    "RuntimeError: Stage 1 independent ontology gate failed"
+  ],
+  "checks": {
+    "family_split": {
+      "icd": {
+        "train": 7147,
+        "test": 1461,
+        "dev": 1559
+      },
+      "rxnorm": {
+        "train": 49706,
+        "test": 10651,
+        "dev": 10708
+      },
+      "icd_families": 1586,
+      "rxnorm_families": 34291,
+      "seed": 6701
+    },
+    "translation_inventory": {
+      "icd_codes": 10167,
+      "opus_rows": 6863,
+      "nllb_rows": 9239,
+      "cross_code_collision_aliases": 180,
+      "collision_rate": 0.011055152929615526
+    },
+    "rxnorm_alias_quality": {
+      "active_codes": 34291,
+      "accepted_same_code_alias_pairs": 71065,
+      "ingredient_families": 34291,
+      "tty_counts": {
+        "BN": 4139,
+        "IN": 5296,
+        "SY": 5882,
+        "PIN": 1873,
+        "MIN": 953,
+        "PSN": 15027,
+        "SCD": 697,
+        "SBD": 424
+      }
+    },
+    "icd_alias_quality": {
+      "accepted_multilingual_aliases": 1400,
+      "accepted_by_view": {
+        "nllb": 1342,
+        "opus": 58
+      },
+      "accepted_by_split": {
+        "train": 979,
+        "dev": 223,
+        "test": 198
+      },
+      "identity_audit_n": 300,
+      "identity_accuracy": 0.14,
+      "collision_rate": 0.011055152929615526
+    },
+    "public_context_anchor": {
+      "count": 856,
+      "unique_passages": 518,
+      "sample": [
+        [
+          "dev.txt:1006",
+          "dabigatran",
+          "1546356"
+        ],
+        [
+          "dev.txt:1006",
+          "warfarin",
+          "11289"
+        ],
+        [
+          "dev.txt:1026",
+          "hội chứng rett",
+          "F84.2"
+        ],
+        [
+          "dev.txt:1028",
+          "vitamin d",
+          "11253"
+        ],
+        [
+          "dev.txt:1060",
+          "methyldopa",
+          "6876"
+        ],
+        [
+          "dev.txt:1068",
+          "dobutamine",
+          "3616"
+        ],
+        [
+          "dev.txt:1068",
+          "dopamine",
+          "3628"
+        ],
+        [
+          "dev.txt:107",
+          "rituxan",
+          "226754"
+        ],
+        [
+          "dev.txt:107",
+          "rituximab",
+          "121191"
+        ],
+        [
+          "dev.txt:1096",
+          "hội chứng raynaud",
+          "I73.0"
+        ],
+        [
+          "dev.txt:11",
+          "anaprox",
+          "202399"
+        ],
+        [
+          "dev.txt:11",
+          "naprelan",
+          "218599"
+        ],
+        [
+          "dev.txt:11",
+          "naproxen",
+          "7258"
+        ],
+        [
+          "dev.txt:1151",
+          "aspirin",
+          "1191"
+        ],
+        [
+          "dev.txt:1151",
+          "warfarin",
+          "11289"
+        ],
+        [
+          "dev.txt:1153",
+          "magnesium",
+          "6574"
+        ],
+        [
+          "dev.txt:1154",
+          "đau khớp",
+          "M25.5"
+        ],
+        [
+          "dev.txt:116",
+          "đau mắt",
+          "H57.1"
+        ],
+        [
+          "dev.txt:1172",
+          "ethylene glycol",
+          "1314364"
+        ],
+        [
+          "dev.txt:1172",
+          "methyl alcohol",
+          "1310568"
+        ]
+      ]
+    }
+  },
+  "gates": {
+    "rxnorm_alias_pairs_ge_20000": true,
+    "icd_aliases_ge_3000": false,
+    "identity_audit_n_ge_300": true,
+    "identity_accuracy_ge_0.95": false,
+    "collision_rate_le_0.005": false,
+    "public_anchors_ge_500": true
+  },
+  "status": "FAIL_STAGE_1",
+  "elapsed_seconds": 819.718
+}

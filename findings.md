@@ -1,5 +1,21 @@
 # Findings
 
+## 2026-08-04 — H67 Stage 1 fails independent ICD identity gates
+
+- Official CPC parsing succeeded: 71,065 active same-code RxNorm alias rows
+  across 34,291 ingredient-family groups, above the 20,000 gate. The public
+  PhoNER/ViMedNer scan also found 856 unique exact anchors, above 500.
+- The ICD branch is not reliable enough to train. After isolated Opus/NLLB
+  translation and frozen Qwen/BGE family retrieval, only 1,400 aliases were
+  accepted versus the locked 3,000 minimum. The deterministic 300-alias
+  identity audit was only 14.0% top-1 exact-code accuracy, far below 0.95;
+  translated normalized collision rate was 1.1055%, above the 0.5% limit.
+- H67 therefore stops before graph training, context reranking, Turn2
+  inference and packaging. The result specifically rules out promoting these
+  machine-translated ICD aliases as exact-code supervision; it does not justify
+  lowering the identity/collision gates or using H38 predictions as labels.
+  H38 at 39.2813 remains the only safe submission artifact.
+
 ## 2026-08-04 — H67 Stage 0 passes on Colab T4
 
 - The locked H67 Stage 0 runner completed on a real Tesla T4 in 18.201

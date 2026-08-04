@@ -1920,3 +1920,16 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   construct family-held-out alias sets, and stop if any identity/collision/
   public-anchor gate fails. No Turn2 text or H38-derived label is used for
   training, and no submission is authorized.
+
+## 2026-08-04 — H67 Stage 1 fails; branch stopped before training
+
+- The locked Colab T4 Stage 1 report is saved as
+  `experiments/H67_ontology_exact_graph_linker/results/stage_1_report.json`.
+  It parsed 71,065 active RxNorm same-code alias rows and found 856 public
+  exact anchors; those gates pass.
+- The ICD dual-retriever gate fails: accepted multilingual aliases 1,400/3,000,
+  300-sample exact identity accuracy 0.14/0.95, and normalized collision rate
+  0.0110552/0.005. All thresholds were frozen before execution.
+- Stage 1 stopped without writing the alias training file, graph checkpoint,
+  reranker, Turn2 predictions or ZIP. Retain H38 at 39.2813; do not rerun this
+  branch with relaxed margins or collision rules.

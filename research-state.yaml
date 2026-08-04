@@ -3,20 +3,20 @@ question: >
   How can an offline Vietnamese clinical NER and coding pipeline improve the
   black-box Viettel AI Race score when the organizer provides only input text
   and no ground-truth annotations?
-status: h67_stage0_passed_awaiting_independent_ontology_stage1
+status: h67_stage1_failed_retain_h38
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
-  status: h67_stage0_passed_colab_t4_stage1_running_next
+  status: h67_stage1_failed_colab_t4_no_training_or_zip
   local_static_checks: pass
   remote_requirement: "Colab GPU; public clone requires no GitHub token"
 started_at: "2026-07-26"
 current_direction: >
-  H67 is the sole active execution branch. Its locked Stage 0 passed on a real
-  Colab Tesla T4: H38 hash, 100 JSON/input pairs, ontology manifest and model
-  CUDA smoke tests all passed. Stage 1 must now establish independent,
-  family-held-out ontology supervision and fail closed on any identity,
-  collision or public-anchor gate; no Turn2 artifact exists yet.
+  H67 Stage 0 passed on a real Colab Tesla T4, but the locked Stage 1
+  independent ontology gate failed: RxNorm and public-anchor counts passed,
+  while ICD alias yield, dual-retriever identity and collision thresholds did
+  not. The branch is stopped before graph training, reranking or Turn2; H38 at
+  39.2813 remains the only safe artifact.
   It is candidate-only: freeze every H38 entity, type, boundary, assertion,
   position and ordering decision, then learn ICD/RxNorm exact-code ranking from
   official synonyms, a typed ontology graph, code-preserving multilingual
@@ -516,7 +516,7 @@ hypotheses:
       sentence-level translation as NER supervision, not isolated ontology-name
       translation evaluated by code identity.
   H67_ontology_exact_graph_linker:
-    status: stage0_passed_stage1_awaiting_execution
+    status: failed_stage1_icd_identity_gate
     prediction: >
       Official same-code synonyms, multilingual code-preserving ontology aliases,
       relation-aware graph objectives and parent/child/sibling hard negatives
@@ -529,15 +529,15 @@ hypotheses:
       requires three-seed ablations and uses H24 weak links only as a secondary
       diagnostic. H44 parent expansion and arbitrary top-k are forbidden.
     result: >
-      Stage 0 passed on Colab Tesla T4 in 18.201 seconds: frozen H38 SHA256
-      matched, all 100 JSON/input pairs validated, graph manifest reported
-      69,991 nodes and 294,548 edges, WHO/RxNorm snapshots were readable, and
-      Qwen3 Embedding plus XLM-R batch-8 CUDA forward/backward smoke tests
-      passed. Stage 1 alias construction and identity gates are not yet run;
-      no Turn2 artifact or ZIP exists.
+      Stage 0 passed on Colab Tesla T4 in 18.201 seconds. Stage 1 parsed
+      71,065 RxNorm aliases and found 856 public anchors, but accepted only
+      1,400 ICD aliases, reached 0.14 exact identity accuracy on its 300-row
+      audit and measured 0.0110552 collision rate. The locked gates fail;
+      graph/context training and Turn2 inference were canceled, with no ZIP.
 experiments:
   completed:
-    - "H67 Stage 0 PASS on Colab T4: H38 hash exact, 100/100 JSON/input validation, 69,991/294,548 graph manifest, readable WHO/RxNorm and Qwen/XLM-R CUDA smoke tests; Stage 1 next, no ZIP"
+    - "H67 Stage 0 PASS on Colab T4: H38 hash exact, 100/100 JSON/input validation, 69,991/294,548 graph manifest, readable WHO/RxNorm and Qwen/XLM-R CUDA smoke tests"
+    - "H67 Stage 1 FAIL: 71,065 RxNorm aliases and 856 anchors pass, but 1,400 ICD aliases, 0.14/0.95 identity accuracy and 0.0110552/0.005 collision gate fail; no training or ZIP"
     - "H66 failed Stage 1: 12,000 synthetic sentences but backtranslation entity preservation 0.0787767 < 0.90; no training or ZIP"
     - "H65 valid Stage 0 fail: 7 English consensus mentions, 0 exact Vietnamese projections, runtime 3.91m; no Stage 1 or ZIP"
     - "H64 execution invalid/inconclusive: Turn2 sample, wrong denominator, soft token overlap, unsupported device claim and unreachable three-type gate; no ZIP"
