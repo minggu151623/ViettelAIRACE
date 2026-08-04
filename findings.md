@@ -1377,3 +1377,12 @@ The strongest verified direction is conservative structural cleanup:
   would remove 57 clinically meaningful results and is rejected before use.
 - Type routing preserves the large repeated-passage signal without interpreting
   unsupported-type silence as a negative label.
+
+## 2026-08-04 — H73 isolates the ensemble's supported clinical core
+
+- Diagnosis and symptom retain 364 coordinate-aligned differences across 70
+  records after type routing, enough to test a material WER mechanism while
+  freezing the unsupported test/result/drug channels.
+- This is the appropriate penultimate external experiment: its component
+  movement can determine whether the final slot keeps the repeated-passage
+  span delta or returns entirely to H69.

@@ -2058,3 +2058,12 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - The full H72 ZIP is quarantined before submission. The next protocol routes
   repeated-passage reconstruction only to diagnosis and symptom; tests,
   results, drugs, candidates and H69 brands must remain byte-equivalent.
+
+## 2026-08-04 — H73 type-routed reconstruction locked
+
+- Filtering the frozen H72 canonical to diagnosis and symptom yields a locked
+  census of 94 groups, 214 occurrences, 70 records and 364 span/type symmetric
+  differences. It preserves every test, result and drug entity.
+- H73 remains a genuinely large intervention, but removes the identified H72
+  failure mechanism. Local metadata transfer is one-to-one and same-record;
+  cross-record assertion/candidate propagation remains forbidden.
