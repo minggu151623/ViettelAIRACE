@@ -1818,3 +1818,13 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   Turn2 inference, ZIP creation or submission.
 - This is `BLOCKED_RUNTIME`, not evidence against H66 quality. The preflight is
   recorded at `experiments/H66_marker_preserved_translation_distillation/results/preflight_report.json`.
+
+## 2026-08-04 — H66 Colab T4 execution resumed
+
+- The local VS Code runtime was removed as requested. A separate official
+  `google-colab-cli` session named `h66` is now attached to a Tesla T4 and the
+  CUDA smoke test passes (`torch 2.11.0+cu128`, `cuda=True`).
+- H66 Stage 0 is now running on that remote session. No dataset, checkpoint,
+  Turn2 text, output ZIP or leaderboard submission has been created yet.
+- The session is treated as billable and will be stopped after the run or a
+  locked failure state.
