@@ -2024,3 +2024,14 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
 - Mucinex D is explicitly excluded from substring-to-Mucinex BN replacement;
   its two empty rows may only inherit the exact product code already observed
   for the same complete normalized span.
+
+## 2026-08-04 — H71 candidate-only artifact passes all local gates
+
+- H71 changes 13 candidate fields across ten records: nine bounded contained
+  brands and four exact repeated-identity repairs. Every non-candidate field
+  and every unselected candidate remains identical to H69.
+- The deterministic artifact validates 100/100 records and passes 192 project
+  tests. ZIP SHA-256 is
+  `1987a678fd68b1ba6e152f21a6815365701b9d8a3bd13e86ac195b857580a2f4`.
+- H69 remains the baseline. H71 is ready for a user-controlled candidate-only
+  external test; WER and assertion Jaccard must remain exactly unchanged.

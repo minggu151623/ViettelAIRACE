@@ -1350,3 +1350,12 @@ The strongest verified direction is conservative structural cleanup:
 - The supported signal remains named identity: H69's exact full-span BN rule.
   H71 broadens only that proven mechanism to bounded brand occurrences inside
   longer spans and repairs four deterministic complete-name inconsistencies.
+
+## 2026-08-04 — H71 safely broadens the only confirmed candidate mechanism
+
+- The residual audit finds nine longer spans containing exactly one active BN
+  alias and four exact repeated-name inconsistencies. These are semantic
+  identity repairs, not another product-specific or top-k variant.
+- All 13 changes are individually auditable and preserve the H69 entity match.
+  The artifact is locally safe, though only the leaderboard can determine how
+  often organizer gold applies brand identity inside longer medication spans.

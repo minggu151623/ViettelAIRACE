@@ -3,7 +3,7 @@ question: >
   How can an offline Vietnamese clinical NER and coding pipeline improve the
   black-box Viettel AI Race score when the organizer provides only input text
   and no ground-truth annotations?
-status: h70_external_null_h71_identity_completion_preregistered
+status: h70_external_null_h71_identity_completion_ready
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
@@ -150,9 +150,12 @@ baseline:
     0.3*(100-56.1576) + 0.3*47.3920 + 0.4*32.1281 = 40.22156.
 challenger:
   hypothesis: H71_rxnorm_identity_completion
-  artifact: pending
+  artifact: turn2/output_v26_rxnorm_identity_completion.zip
+  artifact_sha256: 1987a678fd68b1ba6e152f21a6815365701b9d8a3bd13e86ac195b857580a2f4
+  changed_rows: 13
+  changed_records: 10
   scope: candidate_only_contained_BN_and_exact_repeat_consistency
-  status: preregistered_before_transformation
+  status: local_gates_passed_awaiting_user_submission
 constraints:
   - "No organizer ground truth is available."
   - "Inference must remain offline and deterministic."

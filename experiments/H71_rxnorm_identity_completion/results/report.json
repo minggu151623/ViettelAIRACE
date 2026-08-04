@@ -1,0 +1,288 @@
+{
+  "hypothesis": "H71_rxnorm_identity_completion",
+  "status": "PASS_AWAITING_SUBMISSION_APPROVAL",
+  "baseline_zip_sha256": "12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369",
+  "zip": "/Users/mac/ViettelAIRACE/turn2/output_v26_rxnorm_identity_completion.zip",
+  "zip_sha256": "1987a678fd68b1ba6e152f21a6815365701b9d8a3bd13e86ac195b857580a2f4",
+  "zip_bytes": 94808,
+  "changed_rows": 13,
+  "changed_records": 10,
+  "contained_brand_rows": 9,
+  "repeated_identity_rows": 4,
+  "gates": {
+    "changed_rows_between_10_and_20": true,
+    "changed_records_ge_8": true,
+    "contained_brand_rows_exactly_9": true,
+    "repeated_identity_rows_exactly_4": true,
+    "all_contained_codes_active_bn": true,
+    "all_100_records_validate": true,
+    "deterministic_zip_bytes": true,
+    "project_tests_pass": true
+  },
+  "project_test_result": "192 passed in 15.81s",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 873,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1299,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "changes": [
+    {
+      "record": 7,
+      "entity_index": 21,
+      "text": "Simenic",
+      "position": [
+        2085,
+        2092
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "9796"
+      ],
+      "rule": "repeated_exact_identity",
+      "evidence": {
+        "normalized_complete_span": "simenic"
+      }
+    },
+    {
+      "record": 33,
+      "entity_index": 28,
+      "text": "80mg po lasix",
+      "position": [
+        1651,
+        1664
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "202991"
+      ],
+      "rule": "contained_unique_brand",
+      "evidence": {
+        "alias": "lasix",
+        "tty": "BN"
+      }
+    },
+    {
+      "record": 33,
+      "entity_index": 31,
+      "text": "80mg lasix iv",
+      "position": [
+        1934,
+        1947
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "202991"
+      ],
+      "rule": "contained_unique_brand",
+      "evidence": {
+        "alias": "lasix",
+        "tty": "BN"
+      }
+    },
+    {
+      "record": 36,
+      "entity_index": 57,
+      "text": "Medrol 16mg x 3 viên, uống 8h sáng sau ăn no",
+      "position": [
+        1642,
+        1686
+      ],
+      "old_candidates": [
+        "6902"
+      ],
+      "new_candidates": [
+        "202702"
+      ],
+      "rule": "contained_unique_brand",
+      "evidence": {
+        "alias": "medrol",
+        "tty": "BN"
+      }
+    },
+    {
+      "record": 36,
+      "entity_index": 65,
+      "text": "Zestril 10mg x 1 viên, uống sáng",
+      "position": [
+        2007,
+        2039
+      ],
+      "old_candidates": [
+        "29046"
+      ],
+      "new_candidates": [
+        "196472"
+      ],
+      "rule": "contained_unique_brand",
+      "evidence": {
+        "alias": "zestril",
+        "tty": "BN"
+      }
+    },
+    {
+      "record": 42,
+      "entity_index": 6,
+      "text": "mucinex d",
+      "position": [
+        190,
+        199
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "1305603"
+      ],
+      "rule": "repeated_exact_identity",
+      "evidence": {
+        "normalized_complete_span": "mucinex d"
+      }
+    },
+    {
+      "record": 42,
+      "entity_index": 37,
+      "text": "mucinex d",
+      "position": [
+        1460,
+        1469
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "1305603"
+      ],
+      "rule": "repeated_exact_identity",
+      "evidence": {
+        "normalized_complete_span": "mucinex d"
+      }
+    },
+    {
+      "record": 53,
+      "entity_index": 17,
+      "text": "Rosuvastatin (Crestor)",
+      "position": [
+        735,
+        757
+      ],
+      "old_candidates": [
+        "301542"
+      ],
+      "new_candidates": [
+        "320864"
+      ],
+      "rule": "contained_unique_brand",
+      "evidence": {
+        "alias": "crestor",
+        "tty": "BN"
+      }
+    },
+    {
+      "record": 57,
+      "entity_index": 46,
+      "text": "iv lasix 40 mg once",
+      "position": [
+        1715,
+        1734
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "202991"
+      ],
+      "rule": "contained_unique_brand",
+      "evidence": {
+        "alias": "lasix",
+        "tty": "BN"
+      }
+    },
+    {
+      "record": 58,
+      "entity_index": 52,
+      "text": "iv lasix 40 mg once",
+      "position": [
+        1694,
+        1713
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "202991"
+      ],
+      "rule": "contained_unique_brand",
+      "evidence": {
+        "alias": "lasix",
+        "tty": "BN"
+      }
+    },
+    {
+      "record": 64,
+      "entity_index": 11,
+      "text": "nitroglycerin",
+      "position": [
+        832,
+        845
+      ],
+      "old_candidates": [
+        "312013"
+      ],
+      "new_candidates": [
+        "4917"
+      ],
+      "rule": "repeated_exact_identity",
+      "evidence": {
+        "normalized_complete_span": "nitroglycerin"
+      }
+    },
+    {
+      "record": 68,
+      "entity_index": 16,
+      "text": "Augmentin (amoxicillin/acid clavulanic)",
+      "position": [
+        799,
+        838
+      ],
+      "old_candidates": [
+        "19711"
+      ],
+      "new_candidates": [
+        "151392"
+      ],
+      "rule": "contained_unique_brand",
+      "evidence": {
+        "alias": "augmentin",
+        "tty": "BN"
+      }
+    },
+    {
+      "record": 90,
+      "entity_index": 39,
+      "text": "Tylenol 1 gram",
+      "position": [
+        1344,
+        1358
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "rule": "contained_unique_brand",
+      "evidence": {
+        "alias": "tylenol",
+        "tty": "BN"
+      }
+    }
+  ]
+}
