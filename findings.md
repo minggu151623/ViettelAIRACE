@@ -1328,3 +1328,16 @@ The strongest verified direction is conservative structural cleanup:
 - H69 becomes the new baseline. The supported mechanism can now be deepened to
   explicit strength/form/route product identity, but it does not authorize
   fuzzy brand matching or multi-candidate expansion.
+
+## 2026-08-04 — H70 isolates exact clinical-product specificity
+
+- Six H69 drug rows contain enough information to choose one active RxNorm
+  clinical product without context leakage: strength and route/form occur
+  inside the entity span, and the selected SCD/SBD introduces no ingredient.
+- The change is narrow but tests a distinct organizer-policy question. H69
+  established that named brand identity matters; H70 asks whether the gold
+  policy also preserves explicit dose-form specificity instead of collapsing
+  it to BN/IN.
+- All local safety evidence passes. This does not prove a leaderboard gain;
+  only candidate Jaccard should move, so unchanged WER/assertion values are the
+  required causal check after user-controlled submission.

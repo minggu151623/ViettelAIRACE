@@ -1998,3 +1998,17 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   40.2216 up to rounding.
 - Exact full-span RxNorm BN identity is promoted. H69 is now the immutable
   fallback for all remaining final-day experiments.
+
+## 2026-08-04 — H70 exact structured RxNorm product challenger
+
+- H70 starts only from the externally confirmed H69 hash and changes six drug
+  candidate fields across four records. Every span, type, position, assertion,
+  entity order, diagnosis candidate and other drug candidate remains frozen.
+- The six replacements require explicit strength plus route/form in the entity
+  span and a unique active RxNorm SCD/SBD with no additional ingredient. The
+  five destination codes are 205732, 207138, 313988, 104377 and 1719291.
+- The artifact validates 100/100 records, preserves all 3,226 entities, passes
+  189 project tests and packages byte-deterministically. ZIP SHA-256 is
+  `df65a6c57277077e0b81750f508dda3f1ad8f94753f919e812219e5f604a7f92`.
+- H70 is a candidate-only leaderboard test. H69 at 40.2216 remains the safe
+  baseline until external metrics confirm or reject product specialization.

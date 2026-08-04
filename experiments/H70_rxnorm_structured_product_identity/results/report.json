@@ -1,0 +1,197 @@
+{
+  "hypothesis": "H70_rxnorm_structured_product_identity",
+  "status": "PASS_AWAITING_SUBMISSION_APPROVAL",
+  "baseline_zip_sha256": "12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369",
+  "zip": "/Users/mac/ViettelAIRACE/turn2/output_v25_rxnorm_structured_product_identity.zip",
+  "zip_sha256": "df65a6c57277077e0b81750f508dda3f1ad8f94753f919e812219e5f604a7f92",
+  "zip_bytes": 94812,
+  "changed_rows": 6,
+  "changed_records": 4,
+  "gates": {
+    "changed_rows_ge_5": true,
+    "changed_rows_le_20": true,
+    "changed_records_ge_4": true,
+    "all_new_codes_active_tty_scd_or_sbd": true,
+    "explicit_field_contradictions_zero": true,
+    "extra_ingredient_contradictions_zero": true,
+    "all_100_records_validate": true,
+    "deterministic_zip_bytes": true,
+    "project_tests_pass": true
+  },
+  "project_test_result": "189 passed in 12.34s",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 873,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1299,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "changes": [
+    {
+      "record": 33,
+      "entity_index": 28,
+      "text": "80mg po lasix",
+      "position": [
+        1651,
+        1664
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "205732"
+      ],
+      "evidence": {
+        "amount": 80.0,
+        "unit": "mg",
+        "routes": [
+          "oral"
+        ],
+        "forms": [],
+        "identity": "lasix",
+        "product_tty": "SBD"
+      }
+    },
+    {
+      "record": 36,
+      "entity_index": 57,
+      "text": "Medrol 16mg x 3 viên, uống 8h sáng sau ăn no",
+      "position": [
+        1642,
+        1686
+      ],
+      "old_candidates": [
+        "6902"
+      ],
+      "new_candidates": [
+        "207138"
+      ],
+      "evidence": {
+        "amount": 16.0,
+        "unit": "mg",
+        "routes": [
+          "oral"
+        ],
+        "forms": [
+          "tablet"
+        ],
+        "identity": "medrol",
+        "product_tty": "SBD"
+      }
+    },
+    {
+      "record": 36,
+      "entity_index": 59,
+      "text": "Furosemid 40 mg x 1 viên, uống sáng",
+      "position": [
+        1741,
+        1776
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "313988"
+      ],
+      "evidence": {
+        "amount": 40.0,
+        "unit": "mg",
+        "routes": [
+          "oral"
+        ],
+        "forms": [
+          "tablet"
+        ],
+        "identity": "furosemide",
+        "product_tty": "SCD"
+      }
+    },
+    {
+      "record": 36,
+      "entity_index": 65,
+      "text": "Zestril 10mg x 1 viên, uống sáng",
+      "position": [
+        2007,
+        2039
+      ],
+      "old_candidates": [
+        "29046"
+      ],
+      "new_candidates": [
+        "104377"
+      ],
+      "evidence": {
+        "amount": 10.0,
+        "unit": "mg",
+        "routes": [
+          "oral"
+        ],
+        "forms": [
+          "tablet"
+        ],
+        "identity": "zestril",
+        "product_tty": "SBD"
+      }
+    },
+    {
+      "record": 57,
+      "entity_index": 46,
+      "text": "iv lasix 40 mg once",
+      "position": [
+        1715,
+        1734
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "1719291"
+      ],
+      "evidence": {
+        "amount": 40.0,
+        "unit": "mg",
+        "routes": [
+          "injection"
+        ],
+        "forms": [
+          "injection"
+        ],
+        "identity": "furosemide",
+        "product_tty": "SCD"
+      }
+    },
+    {
+      "record": 58,
+      "entity_index": 52,
+      "text": "iv lasix 40 mg once",
+      "position": [
+        1694,
+        1713
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "1719291"
+      ],
+      "evidence": {
+        "amount": 40.0,
+        "unit": "mg",
+        "routes": [
+          "injection"
+        ],
+        "forms": [
+          "injection"
+        ],
+        "identity": "furosemide",
+        "product_tty": "SCD"
+      }
+    }
+  ]
+}
