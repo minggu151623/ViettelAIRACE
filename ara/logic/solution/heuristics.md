@@ -1,5 +1,22 @@
 # Heuristics
 
+## H26: Cascade the skeptical LLM pass only over first-pass promotions
+- **Rationale**: A second reviewer cannot promote a row rejected by the first
+  when final acceptance requires agreement. Rechecking only first-pass changes
+  preserves the exact acceptance rule while eliminating most inference work.
+- **Provenance**: ai-suggested
+- **Sensitivity**: low
+- **Code ref**: [`airace/all_in_ontology_linker.py`]
+
+## H27: Decompose negative replacement bundles by operation direction
+- **Rationale**: When an externally negative span rewrite mixes additions and
+  removals, retaining the known baseline and applying only disjoint additions
+  isolates recall from deletion and boundary-replacement risk. This creates a
+  new falsifiable challenger; it does not prove additions are beneficial.
+- **Provenance**: ai-suggested
+- **Sensitivity**: high
+- **Code ref**: [`airace/additive_consensus_rescue.py`]
+
 ## H01: Recognize standard checkpoint artifacts
 - **Rationale**: Hugging Face `save_pretrained` normally writes `model.safetensors` or `pytorch_model.bin`, not the legacy `heads.pt`.
 - **Provenance**: ai-suggested

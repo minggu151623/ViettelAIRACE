@@ -1,4 +1,51 @@
 tree:
+  - id: N71
+    type: dead_end
+    title: "H75 all-in ontology retrieval and two-pass LLM reranking"
+    provenance: ai-executed
+    timestamp: "2026-08-04T21:15+07:00"
+    hypothesis: >
+      Closed-set Qwen embedding retrieval plus two independent Qwen3-8B reviews
+      can materially replace weak diagnosis and medication candidates while
+      freezing H69 entities and assertions.
+    failure_mode: >
+      Of 260 impact-budgeted mention groups, only 41 candidate rows across 21
+      records survived both reviews. This missed the preregistered 80-row and
+      40-record gates, so no H75 ZIP was packaged.
+    lesson: >
+      A generic ontology reranker remains conservative around existing codes
+      and mostly fills generic medication gaps; its supported delta is too
+      narrow and uncertain for the final external slot.
+    evidence: [C57,
+      "experiments/H75_all_in_ontology_llm_linker/results/failure.json",
+      "ara/evidence/tables/h75_h76_final_slot.md"]
+    children:
+      - id: N72
+        type: pivot
+        title: "Isolate additive recall from H73's failed replacement bundle"
+        provenance: ai-suggested
+        timestamp: "2026-08-04T21:25+07:00"
+        from: "Candidate-only ontology reranking and full span replacement"
+        to: "Preserve H69 and add only disjoint multi-view diagnosis/symptom spans"
+        trigger: >
+          H75 failed materiality, while H73's externally negative bundle mixed
+          126 additions with 238 removals. Removing predicted medical mentions
+          was the direct recall-risk mechanism that could be excluded exactly.
+        children:
+          - id: N73
+            type: experiment
+            title: "H76 additive consensus rescue artifact"
+            provenance: ai-executed
+            timestamp: "2026-08-04T21:35+07:00"
+            result: >
+              H76 preserved every H69 entity and added 79 non-overlapping
+              diagnosis/symptom spans across 34 records (31 diagnosis, 48
+              symptom). Validation covered 100 records, 200 tests passed, and
+              deterministic ZIP SHA-256 was f438667d0e24277b71a536f09fca89ccc3908fa73c0258125722deafdc5c8d5e.
+              External score remains unobserved.
+            evidence: [C58,
+              "experiments/H76_additive_consensus_rescue/results/report.json",
+              "ara/evidence/tables/h75_h76_final_slot.md"]
   - id: N69
     type: experiment
     title: "H44 external hierarchy result and H56 size-proxy audit"

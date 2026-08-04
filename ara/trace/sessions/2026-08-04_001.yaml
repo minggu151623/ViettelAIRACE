@@ -1,0 +1,56 @@
+session:
+  id: "2026-08-04_001"
+  timestamp: "2026-08-04T21:40+07:00"
+  summary: "Rejected H75's sparse all-in linker and built H76's additive-only final-slot recall challenger."
+
+events_logged:
+  - type: dead_end
+    id: N71
+    provenance: ai-executed
+    summary: "H75 produced only 41 agreed candidate changes over 21 records and failed its materiality gate."
+  - type: pivot
+    id: N72
+    provenance: ai-suggested
+    summary: "Separated H73's additions from its externally harmful replacement/removal bundle."
+  - type: experiment
+    id: N73
+    provenance: ai-executed
+    summary: "H76 added 79 disjoint target spans over 34 records while preserving every H69 entity."
+  - type: claim
+    id: C57
+    provenance: ai-executed
+    summary: "Generic two-pass ontology reranking is too sparse for the registered final-slot scale."
+  - type: claim
+    id: C58
+    provenance: ai-suggested
+    summary: "Additive-only fusion isolates the recall direction from H73's negative bundle."
+  - type: heuristic
+    id: H26
+    provenance: ai-suggested
+    summary: "Run the skeptical pass only on first-pass promotions."
+  - type: heuristic
+    id: H27
+    provenance: ai-suggested
+    summary: "Decompose negative replacement bundles by operation direction."
+
+ai_actions:
+  - action: "Implemented and executed H75 ontology retrieval plus two-pass LLM reranking."
+    provenance: ai-executed
+    files_changed: ["airace/all_in_ontology_linker.py", "experiments/H75_all_in_ontology_llm_linker/"]
+  - action: "Preregistered, implemented, validated, packaged and pushed H76."
+    provenance: ai-executed
+    files_changed: ["airace/additive_consensus_rescue.py", "experiments/H76_additive_consensus_rescue/", "turn2/output_v31_additive_consensus_rescue.zip"]
+
+claims_touched:
+  - id: C57
+    action: created
+    provenance: ai-executed
+  - id: C58
+    action: created
+    provenance: ai-suggested
+
+open_threads:
+  - "User-controlled submission of the exact H76 hash and recording of total/WER/assertion/candidate metrics."
+
+ai_suggestions_pending:
+  - "Treat H76 as a high-variance final-slot challenger, while retaining H69 as the safe externally verified baseline."

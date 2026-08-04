@@ -1,5 +1,33 @@
 # Claims
 
+## C57: Two-pass generic ontology reranking is too sparse for the final-slot scale gate
+- **Statement**: On the frozen H69/H74 Turn-2 predictions, impact-budgeted
+  Qwen retrieval and two-pass Qwen3-8B closed-set review yields fewer than 80
+  agreed candidate changes and fewer than 40 affected records.
+- **Status**: supported internally; H75 rejected without packaging
+- **Provenance**: ai-executed
+- **Falsification criteria**: Reproduction against the registered hashes yields
+  at least 80 agreed candidate rows over at least 40 records with all other
+  H75 gates unchanged.
+- **Proof**: [`experiments/H75_all_in_ontology_llm_linker/results/failure.json`,
+  `airace/all_in_ontology_linker.py`]
+- **Dependencies**: [C56]
+- **Tags**: ontology-linking, LLM-reranking, materiality, dead-end
+
+## C58: Additive-only consensus isolates a testable recall direction from H73
+- **Statement**: Preserving every H69 entity while importing only H73 target
+  spans disjoint from same-type H69 spans yields exactly 79 additions over 34
+  records without repeating H73's 238 removals or 47 overlapping alternatives.
+- **Status**: internally supported construction; external effect untested
+- **Provenance**: ai-suggested
+- **Falsification criteria**: Independent object-level diff finds an H69 entity
+  modified/removed, an overlapping same-type addition, a census mismatch, or
+  the hash-bound H76 artifact fails schema/offset validation.
+- **Proof**: [`experiments/H76_additive_consensus_rescue/results/report.json`,
+  `turn2/output_v31_additive_consensus_rescue.zip`]
+- **Dependencies**: [C55, C56, C57]
+- **Tags**: additive-recall, multi-view, span-extraction, final-slot
+
 ## C01: Standard Hugging Face checkpoints were silently disabled
 - **Statement**: Before the V15 repair, inference required `heads.pt`, so checkpoints saved as `model.safetensors` fell back to rules.
 - **Status**: supported
