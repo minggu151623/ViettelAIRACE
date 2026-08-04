@@ -1406,3 +1406,14 @@ The strongest verified direction is conservative structural cleanup:
   last slot returns byte-for-byte to H69's entity/assertion prediction and
   tests H71's narrow extension of the only mechanism with a confirmed external
   gain: exact medication identity.
+
+## 2026-08-04 — Final architecture moves the linker, not the entity detector
+
+- H73 establishes that another broad detector rewrite is negative on all
+  measured components. H74 instead treats medication linking as a constrained
+  mixture of experts: exact RxNorm BN identity, deterministic segmentation of
+  concatenated medication names, and exact corpus-anchored identity repair.
+- The artifact changes 21 drug candidate fields across 15 records while all
+  3,226 entity and assertion projections remain identical to H69. The risk is
+  thus isolated to the highest-weight component and the only mechanism with a
+  large confirmed external gain.

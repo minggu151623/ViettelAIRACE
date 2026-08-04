@@ -1,0 +1,524 @@
+{
+  "hypothesis": "H74_constrained_candidate_moe",
+  "status": "PASS_AWAITING_SUBMISSION_APPROVAL",
+  "baseline_zip_sha256": "12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369",
+  "h71_zip_sha256": "1987a678fd68b1ba6e152f21a6815365701b9d8a3bd13e86ac195b857580a2f4",
+  "zip": "/Users/mac/ViettelAIRACE/turn2/output_v29_constrained_candidate_moe.zip",
+  "zip_sha256": "6dbd1cce2351a57be944cd0cab5963a40c884a49af169433c415695812d847e4",
+  "zip_bytes": 94819,
+  "changed_rows": 21,
+  "changed_records": 15,
+  "h71_rows": 13,
+  "additional_rows": 8,
+  "project_test_result": "197 passed in 15.62s",
+  "llm_audit": "8/8 additional rows SAFE under qwen3:8b temperature=0 seed=74",
+  "gates": {
+    "changed_rows_between_18_and_26": true,
+    "changed_records_ge_12": true,
+    "additional_rows_exactly_8": true,
+    "all_changes_drug_candidates_only": true,
+    "all_100_records_validate": true,
+    "deterministic_zip_bytes": true,
+    "project_tests_pass": true,
+    "llm_additional_row_audit_pass": true
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "records": 100,
+    "position_mode": "raw",
+    "counts": {
+      "CHẨN_ĐOÁN": 873,
+      "TÊN_XÉT_NGHIỆM": 456,
+      "TRIỆU_CHỨNG": 1299,
+      "THUỐC": 276,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 322
+    }
+  },
+  "additional_changes": [
+    {
+      "record": 7,
+      "entity_index": 18,
+      "text": "Aquima",
+      "position": [
+        2032,
+        2038
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "612",
+        "6585"
+      ],
+      "rule": "corpus_identity_repair",
+      "evidence": "expanded Aquima mention ingredients"
+    },
+    {
+      "record": 7,
+      "entity_index": 24,
+      "text": "Pimperam",
+      "position": [
+        2135,
+        2143
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "6915"
+      ],
+      "rule": "corpus_identity_repair",
+      "evidence": "near-identical corpus mention Pimperan"
+    },
+    {
+      "record": 12,
+      "entity_index": 31,
+      "text": "doxycyclinebactrim",
+      "position": [
+        2507,
+        2525
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "3640",
+        "151399"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "doxycycline + Bactrim BN"
+    },
+    {
+      "record": 24,
+      "entity_index": 67,
+      "text": "Glucose 5% x 1000ml",
+      "position": [
+        1997,
+        2016
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "4850"
+      ],
+      "rule": "corpus_identity_repair",
+      "evidence": "corpus dextrose ingredient identity"
+    },
+    {
+      "record": 52,
+      "entity_index": 10,
+      "text": "klonopinclonidine",
+      "position": [
+        1679,
+        1696
+      ],
+      "old_candidates": [
+        "2598",
+        "2599"
+      ],
+      "new_candidates": [
+        "202585",
+        "2599"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "Klonopin BN + clonidine"
+    },
+    {
+      "record": 92,
+      "entity_index": 5,
+      "text": "vancozosyn",
+      "position": [
+        236,
+        246
+      ],
+      "old_candidates": [
+        "11124",
+        "74169"
+      ],
+      "new_candidates": [
+        "11124",
+        "74170"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "vancomycin + Zosyn BN"
+    },
+    {
+      "record": 92,
+      "entity_index": 11,
+      "text": "vancozosynbactrim",
+      "position": [
+        541,
+        558
+      ],
+      "old_candidates": [
+        "11124",
+        "74169",
+        "10831"
+      ],
+      "new_candidates": [
+        "11124",
+        "74170",
+        "151399"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "vancomycin + Zosyn BN + Bactrim BN"
+    },
+    {
+      "record": 98,
+      "entity_index": 5,
+      "text": "klonopinclonidine",
+      "position": [
+        442,
+        459
+      ],
+      "old_candidates": [
+        "2598",
+        "2599"
+      ],
+      "new_candidates": [
+        "202585",
+        "2599"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "Klonopin BN + clonidine"
+    }
+  ],
+  "all_changes": [
+    {
+      "record": 7,
+      "entity_index": 18,
+      "text": "Aquima",
+      "position": [
+        2032,
+        2038
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "612",
+        "6585"
+      ],
+      "rule": "corpus_identity_repair",
+      "evidence": "expanded Aquima mention ingredients"
+    },
+    {
+      "record": 7,
+      "entity_index": 21,
+      "text": "Simenic",
+      "position": [
+        2085,
+        2092
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "9796"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 7,
+      "entity_index": 24,
+      "text": "Pimperam",
+      "position": [
+        2135,
+        2143
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "6915"
+      ],
+      "rule": "corpus_identity_repair",
+      "evidence": "near-identical corpus mention Pimperan"
+    },
+    {
+      "record": 12,
+      "entity_index": 31,
+      "text": "doxycyclinebactrim",
+      "position": [
+        2507,
+        2525
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "3640",
+        "151399"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "doxycycline + Bactrim BN"
+    },
+    {
+      "record": 24,
+      "entity_index": 67,
+      "text": "Glucose 5% x 1000ml",
+      "position": [
+        1997,
+        2016
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "4850"
+      ],
+      "rule": "corpus_identity_repair",
+      "evidence": "corpus dextrose ingredient identity"
+    },
+    {
+      "record": 33,
+      "entity_index": 28,
+      "text": "80mg po lasix",
+      "position": [
+        1651,
+        1664
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "202991"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 33,
+      "entity_index": 31,
+      "text": "80mg lasix iv",
+      "position": [
+        1934,
+        1947
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "202991"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 36,
+      "entity_index": 57,
+      "text": "Medrol 16mg x 3 viên, uống 8h sáng sau ăn no",
+      "position": [
+        1642,
+        1686
+      ],
+      "old_candidates": [
+        "6902"
+      ],
+      "new_candidates": [
+        "202702"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 36,
+      "entity_index": 65,
+      "text": "Zestril 10mg x 1 viên, uống sáng",
+      "position": [
+        2007,
+        2039
+      ],
+      "old_candidates": [
+        "29046"
+      ],
+      "new_candidates": [
+        "196472"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 42,
+      "entity_index": 6,
+      "text": "mucinex d",
+      "position": [
+        190,
+        199
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "1305603"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 42,
+      "entity_index": 37,
+      "text": "mucinex d",
+      "position": [
+        1460,
+        1469
+      ],
+      "old_candidates": [],
+      "new_candidates": [
+        "1305603"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 52,
+      "entity_index": 10,
+      "text": "klonopinclonidine",
+      "position": [
+        1679,
+        1696
+      ],
+      "old_candidates": [
+        "2598",
+        "2599"
+      ],
+      "new_candidates": [
+        "202585",
+        "2599"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "Klonopin BN + clonidine"
+    },
+    {
+      "record": 53,
+      "entity_index": 17,
+      "text": "Rosuvastatin (Crestor)",
+      "position": [
+        735,
+        757
+      ],
+      "old_candidates": [
+        "301542"
+      ],
+      "new_candidates": [
+        "320864"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 57,
+      "entity_index": 46,
+      "text": "iv lasix 40 mg once",
+      "position": [
+        1715,
+        1734
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "202991"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 58,
+      "entity_index": 52,
+      "text": "iv lasix 40 mg once",
+      "position": [
+        1694,
+        1713
+      ],
+      "old_candidates": [
+        "4603"
+      ],
+      "new_candidates": [
+        "202991"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 64,
+      "entity_index": 11,
+      "text": "nitroglycerin",
+      "position": [
+        832,
+        845
+      ],
+      "old_candidates": [
+        "312013"
+      ],
+      "new_candidates": [
+        "4917"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 68,
+      "entity_index": 16,
+      "text": "Augmentin (amoxicillin/acid clavulanic)",
+      "position": [
+        799,
+        838
+      ],
+      "old_candidates": [
+        "19711"
+      ],
+      "new_candidates": [
+        "151392"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 90,
+      "entity_index": 39,
+      "text": "Tylenol 1 gram",
+      "position": [
+        1344,
+        1358
+      ],
+      "old_candidates": [
+        "161"
+      ],
+      "new_candidates": [
+        "202433"
+      ],
+      "rule": "H71_identity_completion"
+    },
+    {
+      "record": 92,
+      "entity_index": 5,
+      "text": "vancozosyn",
+      "position": [
+        236,
+        246
+      ],
+      "old_candidates": [
+        "11124",
+        "74169"
+      ],
+      "new_candidates": [
+        "11124",
+        "74170"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "vancomycin + Zosyn BN"
+    },
+    {
+      "record": 92,
+      "entity_index": 11,
+      "text": "vancozosynbactrim",
+      "position": [
+        541,
+        558
+      ],
+      "old_candidates": [
+        "11124",
+        "74169",
+        "10831"
+      ],
+      "new_candidates": [
+        "11124",
+        "74170",
+        "151399"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "vancomycin + Zosyn BN + Bactrim BN"
+    },
+    {
+      "record": 98,
+      "entity_index": 5,
+      "text": "klonopinclonidine",
+      "position": [
+        442,
+        459
+      ],
+      "old_candidates": [
+        "2598",
+        "2599"
+      ],
+      "new_candidates": [
+        "202585",
+        "2599"
+      ],
+      "rule": "concatenated_medication_segmenter",
+      "evidence": "Klonopin BN + clonidine"
+    }
+  ]
+}

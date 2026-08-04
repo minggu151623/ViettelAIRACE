@@ -149,12 +149,12 @@ baseline:
   verified_formula: >
     0.3*(100-56.1576) + 0.3*47.3920 + 0.4*32.1281 = 40.22156.
 challenger:
-  hypothesis: H71_rxnorm_identity_completion
-  artifact: turn2/output_v26_rxnorm_identity_completion.zip
-  artifact_sha256: 1987a678fd68b1ba6e152f21a6815365701b9d8a3bd13e86ac195b857580a2f4
-  changed_candidate_rows: 13
-  changed_records: 10
-  scope: exact_medication_identity_only_with_H69_entities_and_assertions_frozen
+  hypothesis: H74_constrained_candidate_moe
+  artifact: turn2/output_v29_constrained_candidate_moe.zip
+  artifact_sha256: 6dbd1cce2351a57be944cd0cab5963a40c884a49af169433c415695812d847e4
+  changed_candidate_rows: 21
+  changed_records: 15
+  scope: constrained_medication_candidate_moe_with_H69_entities_and_assertions_frozen
   status: final_candidate_ready_for_user_submission
 constraints:
   - "No organizer ground truth is available."

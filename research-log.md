@@ -2089,3 +2089,16 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   and candidate Jaccard falls 32.1281 to 31.2062. No H73 component survives.
 - The final challenger is H71: H69 entities/assertions stay byte-identical and
   only 13 exact medication-identity fields change.
+
+## 2026-08-04 — H74 final constrained candidate mixture-of-experts
+
+- H74 retains H71's 13 preregistered identity completions and adds eight
+  constrained medication-linking decisions: concatenated-name segmentation and
+  exact corpus identity repair. It changes 21 candidate fields in 15 records.
+- Against H69, every one of the 3,226 entities is identical in text, type,
+  position, order and assertions. All 21 observed differences are drug
+  candidate fields; WER and assertion Jaccard are therefore causally frozen.
+- Validation passes 100/100 records, the full suite passes 197 tests, packaging
+  is deterministic, and a temperature-zero Qwen3-8B audit marks all eight new
+  decisions SAFE. ZIP SHA-256 is
+  `6dbd1cce2351a57be944cd0cab5963a40c884a49af169433c415695812d847e4`.

@@ -1,0 +1,16 @@
+{
+  "model": "qwen3:8b",
+  "temperature": 0.0,
+  "seed": 74,
+  "scope": "eight H74 additions beyond preregistered H71",
+  "reviews": [
+    {"record": 7, "text": "Aquima", "verdict": "SAFE", "confidence": 1.0, "reason": "Matches the ingredients exposed by the expanded Aquima mention."},
+    {"record": 7, "text": "Pimperam", "verdict": "SAFE", "confidence": 1.0, "reason": "Near-identical corpus Pimperan mention anchors metoclopramide identity."},
+    {"record": 12, "text": "doxycyclinebactrim", "verdict": "SAFE", "confidence": 1.0, "reason": "Segments exactly into doxycycline and Bactrim."},
+    {"record": 24, "text": "Glucose 5% x 1000ml", "verdict": "SAFE", "confidence": 1.0, "reason": "RxNorm glucose/dextrose ingredient identity."},
+    {"record": 52, "text": "klonopinclonidine", "verdict": "SAFE", "confidence": 1.0, "reason": "Segments exactly into Klonopin and clonidine."},
+    {"record": 92, "text": "vancozosyn", "verdict": "SAFE", "confidence": 1.0, "reason": "Segments exactly into vancomycin and Zosyn."},
+    {"record": 92, "text": "vancozosynbactrim", "verdict": "SAFE", "confidence": 1.0, "reason": "Segments exactly into vancomycin, Zosyn and Bactrim."},
+    {"record": 98, "text": "klonopinclonidine", "verdict": "SAFE", "confidence": 1.0, "reason": "Segments exactly into Klonopin and clonidine."}
+  ]
+}
