@@ -1,0 +1,33 @@
+{
+  "status": "FAIL",
+  "sample_size": 50,
+  "consensus_mentions": 7,
+  "accepted_exact_projections": 0,
+  "consensus_types": [
+    "diagnosis",
+    "symptom",
+    "test_name"
+  ],
+  "alignment_yield": 0.0,
+  "exact_offset_fidelity": 0.0,
+  "public_diagnostic": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "predicted": 0,
+    "gold": 113
+  },
+  "benchmark_seconds": 7.441214109999237,
+  "target_line_count": 1575,
+  "estimated_turn2_minutes": 3.906637407749599,
+  "runtime_device": "cuda:0",
+  "gates": {
+    "cuda_available": true,
+    "exact_offset_fidelity_at_least_0.98": false,
+    "alignment_yield_at_least_0.15": false,
+    "shared_mapping_supports_at_least_3_BTC_types": true,
+    "accepted_candidates_at_least_20": false,
+    "estimated_runtime_at_most_180_minutes": true
+  }
+}

@@ -1,5 +1,16 @@
 # Research log — Viettel AI Race V1
 
+## 2026-08-04 — H65 Stage 0 confirmatory outcome
+
+- Completed the frozen 50-sentence public benchmark on CUDA. Report: seven
+  consensus mentions, zero accepted exact projections, three mapped types,
+  7.4412 benchmark seconds and 3.9066 estimated Turn2 minutes.
+- Passed CUDA, runtime and structural coverage. Failed exact fidelity,
+  alignment yield and 20-candidate materiality. The run stops under the frozen
+  protocol; no Stage 1, Turn2 inference or challenger ZIP is created.
+- Record H65 as a valid negative result. Do not loosen its gates or substitute
+  token overlap after seeing the outcome.
+
 ## 2026-08-04 — H65 second Colab run reaches model loading; translation API incompatibility
 
 - Private clone, Drive copy, 100-file check and CUDA runtime all passed. All

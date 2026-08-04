@@ -1,5 +1,22 @@
 # Findings
 
+## 2026-08-04 — H65 valid Stage 0 rejects literal cross-lingual projection
+
+- The corrected CUDA run completed on the frozen first 50 PhoNER dev
+  sentences. It found seven exact English same-mention/same-type agreements
+  spanning diagnosis, symptom and test-name mappings, but zero literal raw
+  Vietnamese round-trip projections.
+- Exact-offset fidelity `0.00`, alignment yield `0.00` and accepted materiality
+  `0` fail their frozen `0.98`, `0.15` and `20` gates. CUDA, three-type coverage
+  and runtime pass; the estimated 1,575-line runtime is only 3.91 minutes.
+- Materiality is independently decisive: even perfect alignment could recover
+  at most seven exact English consensus mentions, still below 20. Stop before
+  Stage 1 and Turn2. H65 rejects exact English mention consensus plus literal
+  back-translation, not cross-lingual transfer in general.
+- H38 at **39.2813** remains the safe artifact. A future hypothesis must use
+  explicit source-target word/span alignment and source-offset construction,
+  and must preregister any relaxed English boundary agreement before execution.
+
 ## 2026-08-04 — H65 second failure is Transformers task-registry drift
 
 - Colab successfully cloned commit `fb1c15e`, copied 100 inputs and exposed a

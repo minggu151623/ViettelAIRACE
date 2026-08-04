@@ -7,18 +7,19 @@ status: active
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
-  status: ner_pipeline_compatibility_fix_awaiting_stage0
+  status: h65_stage0_failed_validly
   local_static_checks: pass
   remote_requirement: "Colab GPU; public clone requires no GitHub token"
 started_at: "2026-07-26"
 current_direction: >
-  H64's executor stopped safely but did not evaluate its registered hypothesis:
-  it sampled Turn2 instead of public data, used raw mention union and token
-  overlap instead of exact accepted-span projection, misreported device usage,
-  overestimated corpus size and selected a two-type model that cannot meet the
-  three-type gate. H64 is inconclusive. Run preregistered H65 on Colab CUDA with
-  corrected measurements and a broad-label architecture-distinct pair. H38 at
-  39.2813 remains frozen. H63 invalidates the claimed H41 independent-reviewer result on provenance:
+  H65 completed a valid CUDA Stage 0 and failed the frozen fidelity, alignment
+  and materiality gates: seven exact English consensus mentions yielded zero
+  literal Vietnamese projections. Runtime and three-type coverage passed, but
+  even perfect alignment could accept at most seven rows, below the minimum of
+  20. Stop H65 before Stage 1 and Turn2. The next cross-lingual hypothesis must
+  construct raw source offsets through explicit word/span alignment and may
+  replace exact English string consensus only under a new preregistered public
+  calibration protocol. H38 at 39.2813 remains frozen. H63 invalidates the claimed H41 independent-reviewer result on provenance:
   reviewer 1 used hard-coded/keyword rules and reviewer 2 used the existing
   detector, candidate resolver and assertion engine. Their labels are
   quarantined and cannot train H63. Pivot to H64, a feasibility-gated
@@ -468,14 +469,21 @@ hypotheses:
       corpus size and a model pair unable to cover three BTC types. The reported
       metrics do not test H64. Retain H38 and run corrected H65.
   H65_crosslingual_projection_corrected_execution:
-    status: preregistered
+    status: failed_stage0_no_target_inference
     prediction: >
       A CUDA-batched, protocol-faithful execution with a broad-label
       DistilBERT/DeBERTa pair can separately establish projection alignment,
       exact-offset fidelity, public-gold quality and runtime feasibility before
       any Turn2 inference. Failure of any frozen gate creates no ZIP.
+    result: >
+      Valid CUDA run on 50 frozen PhoNER dev sentences: seven exact English
+      same-type consensus mentions across three mapped types, zero accepted
+      literal Vietnamese projections, 0.00 alignment yield/fidelity/F1 and
+      3.91 estimated Turn2 minutes. Fidelity, alignment and materiality gates
+      fail; no Stage 1, target inference or ZIP.
 experiments:
   completed:
+    - "H65 valid Stage 0 fail: 7 English consensus mentions, 0 exact Vietnamese projections, runtime 3.91m; no Stage 1 or ZIP"
     - "H64 execution invalid/inconclusive: Turn2 sample, wrong denominator, soft token overlap, unsupported device claim and unreachable three-type gate; no ZIP"
     - "V1 rule/dictionary baseline: 0.3690"
     - "V2 Qwen hybrid: 1.3060"
@@ -639,10 +647,11 @@ experiments:
     - "H61 source pass/target fail: dev P/F1 0.9007/0.8882, test P/F1 0.8953/0.8685; target 539 exact, 184 replacements, 10.87% single-token, median ratio 0.5833; no ZIP"
     - "H62 assertion-only protocol locked: two-stage Qwen classifier/critic, all entity and candidate fields frozen, 80-500 materiality gate"
   next: >
-    Retain H38 at 39.2813. Execute H65 exactly from EXECUTOR_TASK_H65.md on a
-    Colab CUDA runtime; do not rerun the invalid H64 script. Stop before target
-    inference on any Stage-0 or Stage-1 failure, and submit only a hash that
-    passes every inherited gate. Do not submit H58, H60 or H61. Run H62 under its
+    Retain H38 at 39.2813 and do not rerun H65 unchanged. Preregister a new
+    cross-lingual hypothesis using explicit source-target word/span alignment,
+    source-derived raw offsets and public dev/test calibration; do not replace
+    literal projection with token overlap or loosen H65 after observing its
+    result. Do not submit H58, H60 or H61. Run H62 under its
     frozen two-stage assertion protocol. Create an artifact only if 80-500 rows
     change, every positive evidence quote round-trips, malformed rate is <=1%,
     all non-assertion fields remain identical and repeated packaging is
