@@ -1,0 +1,321 @@
+hypothesis: H67_ontology_exact_graph_linker
+status: preregistered_plan_only_before_alias_generation_training_or_turn2_inference
+created_at: "2026-08-04T16:30:00+07:00"
+baseline:
+  artifact: turn2/output_v10_multiview_consensus.zip
+  sha256: a9b9ae07997e57080ed8ce2ad9c390f4cd8c229e8eae8de447f6f47ae6ff4d0b
+  external_score: 39.2813
+  wer_percent: 56.1576
+  assertion_jaccard_percent: 47.3920
+  candidate_jaccard_percent: 29.7776
+
+question: >
+  Can an ontology-supervised multilingual linker, trained from official
+  synonym/code identity and relation-aware hard negatives rather than H38 weak
+  labels, improve ICD-10/RxNorm candidate decisions while freezing every
+  entity, type, boundary and assertion decision of H38?
+
+predecessor_evidence:
+  H24:
+    result: candidate_generator_only_not_submission_ready
+    graph_nodes: 69991
+    graph_edges: 294548
+    weak_link_rows: 518
+    type_router_dev_recall_at_1: 0.1667
+    type_router_test_recall_at_1: 0.1786
+    decisive_failure: >
+      Fitted alignment memorized weak links; an unchanged reranker and a linear
+      feature classifier did not improve top-1. The weak split was not
+      organizer truth and cannot be the primary H67 gate.
+  H44:
+    result: externally_rejected
+    candidate_jaccard_change: -9.5437
+    decisive_failure: broad_parent_expansion
+  H45:
+    result: externally_relevant_offline_rejection
+    best_prefix_k: 1
+    decisive_finding: arbitrary_top_k_growth_reduces_jaccard
+  H58:
+    result: externally_rejected
+    decisive_finding: >
+      Candidate score changes when entity matching changes even if candidate
+      strings are frozen; H67 must be candidate-only.
+  H66:
+    result: failed_stage_1_backtranslation_gate
+    observed_backtranslation_preservation: 0.0787767
+    decisive_finding: >
+      Sentence-level marker translation is not a usable NER supervision path.
+      H67 may translate isolated ontology names only, and must validate code
+      identity rather than literal backtranslation.
+
+research_basis:
+  - https://aclanthology.org/2020.acl-main.335/
+  - https://aclanthology.org/2021.naacl-main.334/
+  - https://aclanthology.org/2022.findings-emnlp.61/
+  - https://aclanthology.org/2024.findings-naacl.288/
+  - https://aclanthology.org/2021.acl-short.72/
+  - https://aclanthology.org/2023.emnlp-main.350/
+  - https://www.nlm.nih.gov/research/umls/rxnorm/docs/prescribe.html
+  - https://www.nlm.nih.gov/research/umls/rxnorm/overview.html
+
+immutable_prohibitions:
+  - no_H38_candidate_or_entity_row_as_training_label
+  - no_H24_weak_link_row_as_primary_promotion_evidence
+  - no_leaderboard_score_or_zip_size_for_model_or_threshold_selection
+  - no_turn2_text_before_all_offline_thresholds_and_decision_rules_are_locked
+  - no_entity_type_boundary_assertion_position_or_order_change_relative_to_H38
+  - no_blanket_WHO_parent_expansion
+  - no_unconditional_top_k_candidate_output
+  - no_more_than_one_new_candidate_on_any_changed_row
+  - no_invalid_or_out_of_snapshot_code
+  - no_gate_relaxation_after_result_observation
+  - no_submission_without_explicit_user_approval_of_exact_sha256
+
+architecture:
+  candidate_pool:
+    views:
+      - character_2_to_5gram_sparse_retrieval
+      - frozen_Qwen_Qwen3_Embedding_0_6B_dense_retrieval
+      - frozen_BAAI_bge_m3_dense_retrieval_if_complementarity_gate_passes
+      - exact_RxNorm_ingredient_strength_form_route_parser
+    union_depth_per_view: 20
+    type_router: diagnosis_dense_drug_sparse_structural
+  ontology_core:
+    initial_node_features: frozen_multilingual_text_embeddings
+    graph_adapter: two_layer_relation_aware_message_passing
+    objectives:
+      - same_code_synonym_multisimilarity_loss
+      - term_to_own_node_contrastive_loss
+      - true_vs_corrupted_neighborhood_DGI_loss
+      - typed_relation_prediction_loss
+      - exact_code_margin_against_parent_child_sibling_and_related_drug_negatives
+    critical_rule: >
+      Parent, child and sibling nodes are related hard negatives for exact-code
+      ranking, never interchangeable positive synonyms.
+  contextual_reranker:
+    backbone: xlm_roberta_base_pair_classifier_with_LoRA_or_equivalent_T4_fit
+    input: >
+      section + left context + marked mention + right context + entity type +
+      candidate canonical name + aliases + typed parent/path or RxNorm
+      ingredient/strength/form/route fields
+    outputs:
+      - exact_concept_compatibility
+      - abstain_probability
+    training_positive_sources:
+      - official_same_code_synonyms
+      - code_unique_exact_alias_mentions_in_public_Vietnamese_corpora
+      - validated_multilingual_ontology_aliases
+    training_negative_sources:
+      - online_top_k_false_candidates
+      - same_parent_ICD_siblings
+      - ICD_parent_child_specificity_confusions
+      - RxNorm_same_ingredient_wrong_strength_form_route_products
+    forbidden_training_sources:
+      - H38_predictions
+      - H22_H23_H24_weak_links_as_clean_gold
+      - Turn2_model_predictions
+  decision_layer:
+    default_cardinality: 1
+    abstain_allowed: true
+    parent_plus_specific_creation: forbidden
+    keep_existing_nonempty_H38_candidate_unless_replacement_gate_passes: true
+    fill_empty_candidate_only_if_fill_gate_passes: true
+
+stage_0_integrity_and_resource_manifest:
+  maximum_minutes: 30
+  required_checks:
+    - verify_baseline_sha256
+    - verify_graph_manifest_sha256
+    - inventory_WHO_ICD10_2019_and_RxNorm_CPC_20260706
+    - record_model_revisions_licenses_and_GPU
+    - prove_all_100_H38_JSON_files_validate
+  pass_if:
+    - baseline_hash_matches
+    - graph_has_at_least_69000_nodes_and_290000_edges
+    - WHO_and_RxNorm_snapshots_are_readable_and_checksummed
+    - Qwen3_Embedding_0_6B_forward_backward_or_adapter_training_fits_T4
+    - xlm_roberta_pair_classifier_batch_at_least_8_fits_T4
+  failure: FAIL_STAGE_0_and_stop
+
+stage_1_independent_ontology_supervision:
+  split_contract:
+    ICD: >
+      Split by three-character ICD family before alias construction; no family
+      may cross train/dev/test.
+    RxNorm: >
+      Split by base ingredient family before alias construction; products with
+      the same ingredient combination cannot cross folds.
+    deterministic_seed: 6701
+    proportions: [0.70, 0.15, 0.15]
+  alias_sources:
+    RxNorm:
+      - active_official_CPC_synonyms_from_RXNCONSO
+      - normalized_structural_renderings_from_ingredient_strength_form_route
+    ICD:
+      - official_WHO_title
+      - Helsinki_NLP_opus_mt_en_vi_translation_of_isolated_title
+      - facebook_nllb_200_distilled_600M_translation_of_isolated_title
+      - optional_Qwen3_4B_Instruct_paraphrase_used_only_for_disagreement_adjudication
+  ICD_alias_acceptance:
+    - both_translation_views_preserve_all_numbers_laterality_and_explicit_negation
+    - normalized_outputs_are_not_empty_or_duplicate_across_different_codes
+    - frozen_Qwen_and_frozen_BGE_each_retrieve_the_source_code_at_rank_1_within_its_family
+    - minimum_family_top1_margin_is_0.08_for_both_views
+    - parent_or_sibling_is_never_accepted_as_semantically_equivalent
+  public_context_anchor:
+    rule: >
+      A public Vietnamese corpus mention may become a context positive only if
+      it exactly matches one accepted alias that maps to one unique code.
+    target_turn2_forbidden: true
+  pass_if:
+    - accepted_RxNorm_same_code_alias_pairs_at_least_20000
+    - accepted_ICD_multilingual_aliases_at_least_3000
+    - ICD_code_identity_accuracy_on_300_deterministic_dual_retriever_audit_at_least_0.95
+    - cross_code_alias_collision_rate_at_most_0.005
+    - public_context_anchors_at_least_500
+  failure: FAIL_STAGE_1_and_stop_without_training
+
+stage_2_frozen_retrieval_baselines:
+  systems:
+    - sparse_only
+    - Qwen_only
+    - BGE_only
+    - H24_type_router_reproduced
+    - sparse_Qwen_BGE_union
+  metrics:
+    - recall_at_1_5_10
+    - mean_reciprocal_rank
+    - exact_code_accuracy
+    - same_family_confusion_rate
+    - expected_calibration_error
+  pass_if:
+    - H24_router_metrics_reproduce_within_0.0001_on_its_frozen_diagnostic_split
+    - union_recall_at_10_exceeds_best_single_view_by_at_least_0.05_on_independent_dev
+    - BGE_is_retained_only_if_it_adds_at_least_0.02_recall_at_10_unique_coverage
+  failure: FAIL_STAGE_2_and_stop
+
+stage_3_ontology_graph_training:
+  seed_set: [67, 670, 6700]
+  required_ablations:
+    A: frozen_best_retriever
+    B: synonym_and_term_node_losses_only
+    C: B_plus_relation_aware_graph_and_DGI
+    D: C_plus_online_family_hard_negatives
+  selection: development_only_mean_across_three_seeds
+  one_shot_test: opened_only_after_variant_and_threshold_lock
+  pass_if:
+    - D_dev_exact_top1_exceeds_A_by_at_least_0.05
+    - D_dev_exact_top1_exceeds_B_by_at_least_0.03
+    - D_dev_same_family_accuracy_exceeds_B_by_at_least_0.05
+    - D_dev_recall_at_10_does_not_drop_more_than_0.01_vs_A
+    - no_seed_exact_top1_is_more_than_0.01_below_A
+    - D_test_exact_top1_exceeds_A_by_at_least_0.03
+  failure: FAIL_STAGE_3_and_stop_before_context_reranking
+
+stage_4_context_reranking_and_selective_calibration:
+  candidate_pool: frozen_stage_3_top_20
+  training: official_and_public_context_supervision_only
+  required_ablations:
+    - graph_retrieval_score_only
+    - context_without_graph_features
+    - context_with_graph_and_structured_drug_features
+  calibration:
+    method: temperature_scaling_plus_isotonic_selective_precision_on_dev
+    thresholds_locked_before_test: true
+    replacement_action: >
+      Replace a nonempty H38 candidate only when sparse/dense/graph/context
+      systems select the same code, the calibrated lower 95% precision bound is
+      at least 0.90, and the old code loses an explicit pairwise comparison.
+    empty_fill_action: >
+      Fill an empty H38 diagnosis/drug candidate only when at least three
+      independent views select the same code and the calibrated lower 95%
+      precision bound is at least 0.95.
+  pass_if:
+    - full_dev_exact_top1_exceeds_stage_3_D_by_at_least_0.03
+    - full_test_exact_top1_exceeds_stage_3_D_by_at_least_0.02
+    - replacement_selective_precision_lower_95_bound_at_least_0.90
+    - replacement_coverage_at_least_0.15
+    - empty_fill_selective_precision_lower_95_bound_at_least_0.95
+    - expected_calibration_error_at_most_0.08
+    - parent_child_specificity_error_rate_at_most_0.05
+    - drug_strength_form_route_contradiction_rate_equals_0.0
+  failure: FAIL_STAGE_4_and_stop_before_Turn2
+
+stage_5_turn2_candidate_only_shadow:
+  allowed_only_after_all_offline_gates_pass: true
+  threshold_and_model_updates_after_opening_Turn2: forbidden
+  H38_fields_that_must_be_identical:
+    - entity_count
+    - text
+    - type
+    - position
+    - assertions
+    - entity_order
+  allowed_candidate_actions:
+    - fill_empty_with_one_code
+    - replace_one_existing_code_list_with_one_code
+    - leave_unchanged
+  forbidden_candidate_actions:
+    - add_parent_beside_child
+    - output_unconditional_top_k
+    - modify_non_diagnosis_non_drug_candidates
+    - delete_a_candidate_without_a_replacement
+  shadow_gates:
+    - changed_rows_between_80_and_500
+    - changed_records_at_least_50
+    - diagnosis_and_drug_each_have_at_least_20_changes
+    - no_single_three_character_ICD_family_exceeds_0.15_of_changes
+    - no_single_RxNorm_ingredient_family_exceeds_0.15_of_changes
+    - every_changed_code_exists_in_frozen_snapshot
+    - every_change_has_top1_margin_calibrated_probability_and_view_agreement_provenance
+    - repeated_identical_mentions_with_identical_context_have_identical_decisions
+    - zero_parent_expansion_rows
+    - mean_candidate_cardinality_does_not_exceed_H38
+    - all_non_candidate_fields_are_semantically_identical_to_H38
+    - all_100_records_validate
+  failure: FAIL_STAGE_5_retain_H38_create_no_zip
+
+stage_6_counterfactual_safety_and_packaging:
+  required_audits:
+    - evaluate_on_official_PDF_examples_without_tuning
+    - report_H24_weak_link_metrics_as_secondary_diagnostic_only
+    - inject_parent_child_sibling_and_wrong_strength_form_route_hazards
+    - hazard_rejection_rate_at_least_0.95
+    - compare_changed_rows_with_H44_and_H58_hazards
+    - no_more_than_0.10_of_changes_recreate_H44_parent_expansions
+    - deterministic_inference_repeat
+    - deterministic_ZIP_repeat
+    - full_test_suite
+  failure: FAIL_STAGE_6_retain_H38_delete_challenger_zip
+
+if_and_only_if_all_gates_pass:
+  output_directory: turn2/output_v23_ontology_exact_linker
+  artifact: turn2/output_v23_ontology_exact_linker.zip
+  status: PASS_AWAITING_SUBMISSION_APPROVAL
+  submission: forbidden_until_user_explicitly_approves_report_and_sha256
+
+required_outputs:
+  - experiments/H67_ontology_exact_graph_linker/results/resource_manifest.json
+  - experiments/H67_ontology_exact_graph_linker/results/alias_quality_report.json
+  - experiments/H67_ontology_exact_graph_linker/results/retrieval_baselines.json
+  - experiments/H67_ontology_exact_graph_linker/results/graph_ablation_report.json
+  - experiments/H67_ontology_exact_graph_linker/results/reranker_calibration_report.json
+  - experiments/H67_ontology_exact_graph_linker/results/turn2_candidate_diff.jsonl
+  - experiments/H67_ontology_exact_graph_linker/results/safety_audit.json
+  - experiments/H67_ontology_exact_graph_linker/results/execution_report.json
+
+git_policy:
+  branch: codex/core-rebuild-h57
+  include:
+    - source_code
+    - tests
+    - small_manifests
+    - aggregate_reports
+    - protocol_and_plan
+  exclude:
+    - datasets
+    - model_checkpoints
+    - embedding_caches
+    - secrets
+    - notebook_outputs
+    - scratch

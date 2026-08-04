@@ -1884,3 +1884,24 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   inference and ZIP creation. The remote synthetic file is not copied or
   committed; no submission artifact exists. H38 (39.2813) remains the safe
   fallback.
+
+## 2026-08-04 — H67 preregistered for Luna/Colab execution
+
+- Re-audited H24, H44, H45, H46, H58 and H66 before selecting a successor.
+  H24's useful result is a type-specialist candidate generator; its 518 weak
+  links cannot be promoted to organizer truth, and its unchanged reranker plus
+  fitted linear classifier did not improve top-1.
+- Reviewed primary BioSyn, SapBERT, KRISSBERT, BERGAMOT, cross-lingual BEL and
+  Con2GEN evidence plus official RxNorm CPC structure. The new falsifiable
+  mechanism is ontology-identity supervision with online family hard negatives,
+  a relation-aware graph adapter and a task-trained contextual reranker.
+- Locked `experiments/H67_ontology_exact_graph_linker/protocol.yaml` and
+  `NEXT_MODEL_RESEARCH_PLAN_H67.md` before alias generation, training, Turn2
+  inference or packaging.
+- H67 freezes all H38 non-candidate fields and forbids broad parent expansion,
+  raw top-k and candidate deletion without replacement. It may output only
+  calibrated singleton fills or replacements after family-held-out three-seed
+  ablations pass.
+- No H67 data, model, Turn2 prediction, output directory or ZIP exists in this
+  preregistration turn. H38 remains the safe artifact. Luna is the designated
+  Colab executor; any failed gate must stop without a challenger.

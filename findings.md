@@ -1199,3 +1199,31 @@ The strongest verified direction is conservative structural cleanup:
   assertion sets across both passes plus verifiable evidence/scope metadata.
 - The protocol is locked before the first LLM assertion label. This can isolate
   assertion-score movement, but two prompts to one model remain correlated.
+
+## 2026-08-04 — H67 exact-code ontology/graph research decision
+
+- H24 already built a useful 69,991-node/294,548-edge ontology graph, but its
+  fitted supervision came from only 518 pipeline weak links. Alignment
+  memorized train, while an unchanged reranker and a regularized feature
+  classifier failed to improve top-1. Repeating H24 with more epochs is not a
+  new hypothesis.
+- Primary literature converges on four mechanisms that H67 can test without
+  organizer gold: same-code synonym alignment (SapBERT), sparse+dense online
+  hard-negative retrieval (BioSyn), ontology-derived contextual prototypes
+  (KRISSBERT), and graph/text multi-objective learning (BERGAMOT).
+- Competition evidence requires one project-specific reversal: ontology-near
+  nodes are not interchangeable positives. H44 lost 9.5437 candidate-Jaccard
+  points through broad parent insertion, while H45 selected k=1. H67 therefore
+  treats ICD parent/child/sibling and RxNorm same-ingredient wrong-product
+  nodes as exact-code hard negatives and defaults to singleton output.
+- H67 is candidate-only to isolate the component. H58 proved that changing
+  entities can alter candidate matching even when code strings are frozen.
+  Every H38 non-candidate field must be identical.
+- H66 does not prohibit isolated ontology-title translation, but it changes the
+  required validation. Literal backtranslation is rejected; an ICD alias is
+  usable only when independent multilingual retrievers recover the same source
+  code within its held-out family with a locked margin and collision audit.
+- H67's primary evidence is family-held-out official ontology supervision with
+  three-seed ablations and selective calibration. H24 weak links remain a
+  secondary diagnostic only. The protocol is locked before generation,
+  training, Turn2 inference or ZIP creation.

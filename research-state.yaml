@@ -3,15 +3,26 @@ question: >
   How can an offline Vietnamese clinical NER and coding pipeline improve the
   black-box Viettel AI Race score when the organizer provides only input text
   and no ground-truth annotations?
-status: h66_failed_stage_1_backtranslation_gate
+status: h67_preregistered_plan_only_awaiting_luna_colab_execution
 execution_bridge:
   h65_notebook: H65_Colab_Stage0.ipynb
   h65_runner: experiments/H65_crosslingual_projection_corrected_execution/run_stage_0_colab.py
-  status: h66_stage1_failed_backtranslation_preservation
+  status: h67_protocol_locked_waiting_for_luna_colab
   local_static_checks: pass
   remote_requirement: "Colab GPU; public clone requires no GitHub token"
 started_at: "2026-07-26"
 current_direction: >
+  H67 is preregistered plan-only and is now the sole active execution branch.
+  It is candidate-only: freeze every H38 entity, type, boundary, assertion,
+  position and ordering decision, then learn ICD/RxNorm exact-code ranking from
+  official synonyms, a typed ontology graph, code-preserving multilingual
+  aliases, family hard negatives and a task-trained context reranker. Unlike
+  H24, H67 may not train on the 518 pipeline weak links as clean gold; unlike
+  H44, graph parents/children/siblings are exact-code hard negatives and no
+  parent expansion or raw top-k output is allowed. Offline model and selective
+  calibration gates must lock before Turn2 opens. H38 at 39.2813 remains the
+  immutable fallback, and no H67 ZIP may be submitted without explicit user
+  approval of its exact SHA-256.
   H66 is preregistered plan-only before resource download, synthetic generation,
   training or target inference. H65 completed a valid CUDA Stage 0 and proved
   that inference-time translation is blocked twice: only seven exact English
@@ -488,8 +499,35 @@ hypotheses:
       literal Vietnamese projections, 0.00 alignment yield/fidelity/F1 and
       3.91 estimated Turn2 minutes. Fidelity, alignment and materiality gates
       fail; no Stage 1, target inference or ZIP.
+  H66_marker_preserved_translation_distillation:
+    status: failed_stage1_backtranslation_no_training_or_zip
+    prediction: >
+      Marker-preserved translation of licensed English clinical corpora can
+      create span-exact synthetic Vietnamese supervision that improves direct
+      PhoBERT/XLM-R students over matched public-data controls.
+    result: >
+      Generated 12,000 mechanically valid synthetic sentences, but frozen
+      backtranslation entity preservation was only 0.0787767 versus 0.90.
+      Stopped before student training, public test, Turn2 and ZIP. This closes
+      sentence-level translation as NER supervision, not isolated ontology-name
+      translation evaluated by code identity.
+  H67_ontology_exact_graph_linker:
+    status: preregistered_plan_only_awaiting_luna_colab
+    prediction: >
+      Official same-code synonyms, multilingual code-preserving ontology aliases,
+      relation-aware graph objectives and parent/child/sibling hard negatives
+      can improve exact ICD/RxNorm ranking and calibrated candidate repair while
+      every non-candidate H38 field remains frozen.
+    differentiator: >
+      H24 trained on 518 pipeline weak links and never demonstrated a
+      task-trained graph/context gain. H67 trains on ontology identity, splits
+      by ICD/RxNorm family, treats graph-near codes as exact-code negatives,
+      requires three-seed ablations and uses H24 weak links only as a secondary
+      diagnostic. H44 parent expansion and arbitrary top-k are forbidden.
 experiments:
   completed:
+    - "H67 protocol locked plan-only: ontology identity supervision, family-held-out graph ablations, selective candidate-only Turn2 policy; no training or ZIP"
+    - "H66 failed Stage 1: 12,000 synthetic sentences but backtranslation entity preservation 0.0787767 < 0.90; no training or ZIP"
     - "H65 valid Stage 0 fail: 7 English consensus mentions, 0 exact Vietnamese projections, runtime 3.91m; no Stage 1 or ZIP"
     - "H64 execution invalid/inconclusive: Turn2 sample, wrong denominator, soft token overlap, unsupported device claim and unreachable three-type gate; no ZIP"
     - "V1 rule/dictionary baseline: 0.3690"
@@ -654,6 +692,15 @@ experiments:
     - "H61 source pass/target fail: dev P/F1 0.9007/0.8882, test P/F1 0.8953/0.8685; target 539 exact, 184 replacements, 10.87% single-token, median ratio 0.5833; no ZIP"
     - "H62 assertion-only protocol locked: two-stage Qwen classifier/critic, all entity and candidate fields frozen, 80-500 materiality gate"
   next: >
+    Execute the locked H67 protocol on Colab with Luna. First build independent
+    family-held-out ontology supervision, then reproduce sparse/Qwen/BGE
+    baselines, train the relation-aware exact-code graph core with three-seed
+    ablations, and calibrate a task-trained context reranker before opening
+    Turn2. Freeze all H38 non-candidate fields. Permit only singleton empty
+    fills or high-confidence singleton replacements; forbid parent expansion
+    and raw top-k. Any failed gate stops without a ZIP. If all gates pass,
+    create output_v23 only as PASS_AWAITING_SUBMISSION_APPROVAL and report its
+    exact hash. Do not rerun H66 or loosen its failed translation gate.
     Retain H38 at 39.2813 and do not rerun H65 unchanged. Preregister a new
     cross-lingual hypothesis using explicit source-target word/span alignment,
     source-derived raw offsets and public dev/test calibration; do not replace
