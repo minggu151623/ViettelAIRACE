@@ -50,9 +50,11 @@ def main() -> int:
         "--out", "/content/h67_stage0_report_fixed.json",
     ]
     print("H67_STAGE0_ARGS", args, flush=True)
-    result = subprocess.call(args)
-    print("H67_STAGE0_RESULT", result, flush=True)
-    return result
+    completed = subprocess.run(args, text=True, capture_output=True)
+    print("H67_STAGE0_STDOUT", completed.stdout, flush=True)
+    print("H67_STAGE0_STDERR", completed.stderr, flush=True)
+    print("H67_STAGE0_RESULT", completed.returncode, flush=True)
+    return completed.returncode
 
 
 if __name__ == "__main__":
