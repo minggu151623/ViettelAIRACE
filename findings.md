@@ -31,6 +31,17 @@
   it performs a plain public clone. The scientific runner and all gates are
   unchanged.
 
+## 2026-08-04 — Re-run clone failure is a deleted-current-directory bug
+
+- Anonymous GitHub inspection confirms `main`, `codex/baseline-39.2813` and
+  `codex/core-rebuild-h57` are readable; the repository URL is valid.
+- On a second notebook run, cell 2 was still located inside
+  `/content/ViettelAIRACE` from the previous run, then deleted that directory
+  before cloning. Git consequently failed with `Unable to read current working
+  directory: No such file or directory`.
+- Cell 2 now changes to `/content` before removing the old clone, making reruns
+  safe. This is operational only; no H65 inference result exists yet.
+
 ## 2026-08-04 — H65 Colab execution bridge prepared (not yet run)
 
 - Added `H65_Colab_Stage0.ipynb` and the protocol-faithful

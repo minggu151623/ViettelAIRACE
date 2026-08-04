@@ -35,6 +35,15 @@
   publicly readable. Removed the token prompt and transient auth header from
   the notebook; no token is needed for the next run.
 
+## 2026-08-04 — H65 rerun failure traced to current-directory deletion
+
+- The clone URL and branch were valid. The kernel retained cwd
+  `/content/ViettelAIRACE` after the first run; cell 2 removed that directory
+  while still inside it, causing Git's `Unable to read current working
+  directory` error.
+- Added an explicit `os.chdir('/content')` before cleanup. Rerunning cell 2 is
+  now idempotent and does not require a runtime restart.
+
 ## 2026-08-04 — H65 Colab runner prepared
 
 - Added a deterministic notebook/runner bridge for the preregistered H65
