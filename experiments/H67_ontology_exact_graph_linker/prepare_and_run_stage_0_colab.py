@@ -49,7 +49,10 @@ def main() -> int:
         # a stale report look like the current run.
         "--out", "/content/h67_stage0_report_fixed.json",
     ]
-    return subprocess.call(args)
+    print("H67_STAGE0_ARGS", args, flush=True)
+    result = subprocess.call(args)
+    print("H67_STAGE0_RESULT", result, flush=True)
+    return result
 
 
 if __name__ == "__main__":
