@@ -1,0 +1,80 @@
+hypothesis: H74_constrained_candidate_moe
+status: preregistered_before_output_transformation
+created_at: "2026-08-04T20:25:00+07:00"
+
+baseline:
+  artifact: turn2/output_v24_rxnorm_exact_brand_identity.zip
+  sha256: 12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369
+  external_score: 40.2216
+  wer_percent: 56.1576
+  assertion_jaccard_percent: 47.3920
+  candidate_jaccard_percent: 32.1281
+
+question: >
+  Can a constrained medication candidate mixture-of-experts extend the
+  externally supported brand-identity mechanism to longer, concatenated,
+  misspelled and corpus-defined medication mentions without changing entity
+  matching or assertions?
+
+prediction: >
+  Candidate Jaccard will improve because exact brand identity already produced
+  a 2.3505-point external gain in H69. A trie-style segmenter can recover the
+  same identities inside concatenated medication strings, while exact
+  within-corpus equivalence can fill a small set of currently empty concrete
+  medications. WER and assertion Jaccard must remain exactly H69-equivalent.
+
+experts:
+  bounded_unique_rxnorm_brand:
+    source: H71 preregistered exact BN completion
+    rules:
+      - one active BN alias at word boundaries
+      - exact repeated drug identity has one unconflicted singleton code
+  concatenated_medication_segmenter:
+    rules:
+      - segment only identities already observed as exact medication mentions
+      - prefer externally supported BN identity for embedded brands
+      - preserve source-text order and every independently identified component
+      - forbid arbitrary fuzzy RxNorm search
+  corpus_identity_repair:
+    allowed_mentions:
+      - Pimperam
+      - glucose 5% x 1000ml
+      - Aquima
+    rules:
+      - Pimperam may inherit metoclopramide only from the near-identical Pimperan
+      - glucose may inherit the corpus dextrose ingredient identity
+      - bare Aquima may inherit only ingredients observed in the expanded Aquima mention
+
+frozen_fields:
+  - all_entities_and_order
+  - text_type_position_assertions
+  - all_diagnosis_candidates
+  - all_unselected_drug_candidates
+
+prohibited:
+  - any_entity_addition_deletion_or_boundary_change
+  - any_assertion_change
+  - ICD_parent_expansion
+  - unrestricted_fuzzy_brand_matching
+  - SCD_or_SBD_strength_specialization
+  - candidate_top_k_hedging
+
+gates:
+  minimum_changed_candidate_rows: 18
+  maximum_changed_candidate_rows: 26
+  minimum_changed_records: 12
+  all_changes_drug_candidates_only: true
+  h69_projection_byte_equivalent_outside_selected_candidates: true
+  all_100_records_validate: true
+  deterministic_zip_bytes: true
+  project_tests_pass: true
+
+artifact:
+  output_directory: turn2/output_v29_constrained_candidate_moe
+  zip_path: turn2/output_v29_constrained_candidate_moe.zip
+  submission_policy: user_only_after_exact_hash_review
+
+interpretation_contract:
+  - WER_and_assertion_must_equal_H69
+  - candidate_increase_supports_compositional_identity_linking
+  - candidate_null_or_decrease_rejects_H74_and_retains_H69
