@@ -1,0 +1,82 @@
+hypothesis: H72_repeated_passage_multiview_rebuild
+status: preregistered_before_output_transformation
+created_at: "2026-08-04T20:05:00+07:00"
+risk_class: high_upside_final_day_challenger
+
+baseline:
+  artifact: turn2/output_v24_rxnorm_exact_brand_identity.zip
+  sha256: 12090622102ab333f3f697161953f1fdd1a799488ea0656a9fc0582c16462369
+  external_score: 40.2216
+  wer_percent: 56.1576
+  assertion_jaccard_percent: 47.3920
+  candidate_jaccard_percent: 32.1281
+
+question: >
+  Can literal repeated passages convert five correlated proposal views into a
+  large, position-aligned span/type reconstruction while preserving every
+  externally supported H69 brand decision?
+
+predeclared_exploratory_census:
+  exact_repeated_line_groups: 271
+  all_H40_affected_groups: 122
+  H69_brand_or_crossing_groups_excluded: 2
+  eligible_affected_groups: 120
+  eligible_occurrences: 269
+  records_covered: 76
+  expected_span_type_symmetric_difference: 542
+
+rationale: >
+  H22 showed that broad entity reconstruction can move every component and
+  supplied the largest historical gain. H37/H38 then showed that exact
+  multi-view span agreement improves WER. H72 scales that supported span
+  mechanism only where the identical raw passage appears in multiple records,
+  so model proposals share one relative coordinate system.
+
+canonical_policy:
+  passage: literal_nonempty_physical_line_minimum_40_characters_in_two_records
+  views: [bami_v15, bami_v3, vietmed, qwen_guarded, h34_oof]
+  independent_families: [bami, vietmed, qwen_guarded, h34_oof]
+  entity_support:
+    - at_least_two_distinct_occurrences
+    - at_least_half_of_distinct_records
+    - at_least_two_independent_families
+    - exclude_registered_and_numeric_hazards
+    - exclude_equal_cross_type_ties
+  overlap_resolution: frozen_H40_weighted_interval_decoder
+
+integration:
+  - exclude_every_group_containing_an_H69_changed_brand_entity
+  - exclude_every_group_with_a_baseline_entity_crossing_its_line_boundary
+  - replace_only_entities_fully_contained_in_the_eligible_line
+  - preserve_exact_local_entity_assertions_and_candidates
+  - for_a_new_or_rebounded_entity_copy_metadata_only_from_the_maximum_overlap_local_entity_of_the_same_type
+  - never_copy_assertions_or_candidates_between_records
+  - a_disjoint_new_entity_has_empty_assertions_and_candidates
+  - entities_outside_eligible_lines_are_dictionary_identical_to_H69
+  - final_entities_are_sorted_by_position_and_must_not_overlap
+
+frozen:
+  - all_48_H69_brand_candidate_replacements
+  - every_entity_outside_eligible_repeated_lines
+  - raw_input_and_offsets
+
+gates:
+  affected_groups_between_100_and_130: true
+  changed_span_type_symmetric_difference_between_450_and_650: true
+  changed_records_at_least_70: true
+  all_H69_brand_rows_preserved: true
+  no_cross_record_metadata_copy: true
+  all_100_records_validate: true
+  deterministic_zip_bytes: true
+  project_tests_pass: true
+
+artifact:
+  output_directory: turn2/output_v27_repeated_passage_multiview_rebuild
+  zip_path: turn2/output_v27_repeated_passage_multiview_rebuild.zip
+  submission_policy: user_only_after_exact_hash_review
+
+interpretation_contract:
+  - this_is_high_risk_and_not_claimed_safe_from_local_evidence
+  - meaningful_success_requires_total_score_above_40_2216
+  - if_WER_improves_but_other_components_fall_the_final_slot_keeps_only_the_span_type_delta
+  - if_WER_does_not_improve_revert_fully_to_H69

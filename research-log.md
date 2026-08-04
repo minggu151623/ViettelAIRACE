@@ -2035,3 +2035,16 @@ the dominant coordinate hypothesis; V18 is an externally unverified follow-up.
   `1987a678fd68b1ba6e152f21a6815365701b9d8a3bd13e86ac195b857580a2f4`.
 - H69 remains the baseline. H71 is ready for a user-controlled candidate-only
   external test; WER and assertion Jaccard must remain exactly unchanged.
+
+## 2026-08-04 — H71 held; H72 large reconstruction locked
+
+- H71's 13 candidate changes cannot plausibly create the requested final-day
+  breakthrough, so it is retained but not recommended for the next slot.
+- A fresh H40 audit against H69 identifies 120 eligible exact repeated-passage
+  groups, 269 occurrences and 76 records after excluding two groups that touch
+  externally supported H69 brand decisions. The frozen multiview canonical
+  signature differs from H69 by 542 span/type rows.
+- H72 is explicitly high risk. It never propagates assertion or candidate
+  metadata between records; only same-record overlap may transfer metadata.
+  The first remaining slot measures this large reconstruction, and the last
+  slot will retain only externally positive components.

@@ -1359,3 +1359,12 @@ The strongest verified direction is conservative structural cleanup:
 - All 13 changes are individually auditable and preserve the H69 entity match.
   The artifact is locally safe, though only the leaderboard can determine how
   often organizer gold applies brand identity inside longer medication spans.
+
+## 2026-08-04 — Final-day pivot requires high coverage, not another micro-rule
+
+- Scaling H69's per-row gain to H71 predicts only a few tenths of a point. A
+  candidate-only micro-intervention cannot reach the requested step change.
+- Literal repeated passages provide the only remaining large coordinate-aligned
+  intervention already supported by five model views. H72 deliberately accepts
+  higher uncertainty to rebuild roughly 542 span/type rows over 76 records,
+  while quarantining H69 brand rows and all cross-record metadata transfer.
